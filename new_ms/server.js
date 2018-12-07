@@ -9,6 +9,10 @@ app.use(bp.json());
 app.use(bp.urlencoded({ extended: true }));
 app.use(express.static( path.join(__dirname, './public/dist/public') ));
 
+app.all("*", (req,res,next) => {
+  res.sendFile(path.resolve("./public/dist/public/index.html"))
+})
+
 const PORT = 8080;
 app.listen(PORT, ()=> {
   console.log("Listening on port: " + PORT);

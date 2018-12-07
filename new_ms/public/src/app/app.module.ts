@@ -5,11 +5,12 @@ import { HttpClientModule } from '@angular/common/http';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { DashBoardComponent } from './dash-board/dash-board.component';
 import { CreateBlogComponent } from './dash-board/blog/create-blog/create-blog.component';
 import { EditBlogComponent } from './dash-board/blog/edit-blog/edit-blog.component';
-import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { LandingPageComponent } from './landing-page/landing-page.component';
+import { BlogsComponent } from './blogs/blogs.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { LandingPageComponent } from './landing-page/landing-page.component';
     PageNotFoundComponent,
     EditBlogComponent,
     DashBoardComponent,
-    LandingPageComponent
+    LandingPageComponent,
+    BlogsComponent
   ],
   imports: [
     BrowserModule,
