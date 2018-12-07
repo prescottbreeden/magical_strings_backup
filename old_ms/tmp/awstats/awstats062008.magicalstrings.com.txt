@@ -1,0 +1,2812 @@
+AWSTATS DATA FILE 6.7 (build 1.892)
+# If you remove this file, all statistics for date 200806 will be lost/reset.
+
+# Position (offset in bytes) in this file of beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1864                
+POS_TIME 2546                
+POS_VISITOR 31132               
+POS_DAY 112070              
+POS_DOMAIN 3550                
+POS_LOGIN 4321                
+POS_ROBOT 4476                
+POS_WORMS 5096                
+POS_EMAILSENDER 5227                
+POS_EMAILRECEIVER 5370                
+POS_SESSION 112989              
+POS_SIDER 113206              
+POS_FILETYPES 5505                
+POS_OS 5765                
+POS_BROWSER 5971                
+POS_SCREENSIZE 6730                
+POS_UNKNOWNREFERER 6804                
+POS_UNKNOWNREFERERBROWSER 11276               
+POS_ORIGIN 13890               
+POS_SEREFERRALS 14043               
+POS_PAGEREFS 14369               
+POS_SEARCHWORDS 19807               
+POS_KEYWORDS 24439               
+POS_MISC 2208                
+POS_ERRORS 26594               
+POS_CLUSTER 4177                
+POS_SIDER_404 26724               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20080701000821 902 184390 80575420073
+FirstTime 20080601001746
+LastTime 20080630234304
+LastUpdate 20080701090801 902 0 901 0 0
+TotalVisits 2249                
+TotalUnique 1359                
+MonthHostsKnown 1256                
+MonthHostsUnknown 219                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 286 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 220 462 9929540 233 259 10315876
+1 204 328 8479816 205 212 12184723
+2 231 433 6890429 244 253 11358368
+3 100 316 3021663 304 323 9441491
+4 126 380 6637246 220 255 14016263
+5 163 535 8263739 180 205 10573397
+6 189 519 7845241 205 234 10260975
+7 233 1075 12022311 251 275 8276639
+8 321 1096 17402198 236 255 16622816
+9 243 1205 13280327 172 198 14874970
+10 209 887 16940503 181 220 10318331
+11 245 800 8688464 291 313 14347054
+12 350 1221 20752694 303 339 15057644
+13 406 1318 35741393 283 317 10595389
+14 342 1573 26363364 218 251 12434051
+15 255 1189 12233714 199 227 18359665
+16 299 1039 13198356 350 411 26086916
+17 183 880 12756098 208 236 7800016
+18 265 1013 15902953 279 306 7812302
+19 433 1831 55345375 261 289 14956094
+20 289 1002 14951630 181 204 13238051
+21 291 874 19779205 173 213 12876798
+22 201 808 14811522 191 223 10742262
+23 332 846 12085010 216 258 11319948
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 37
+us 5118 18301 324498050
+ip 418 1542 17709301
+ca 137 758 13312638
+gb 72 177 2907266
+jp 61 151 1581291
+nl 56 88 899331
+eu 55 104 933004
+de 52 55 435720
+au 27 147 1431157
+ie 23 23 372806
+lv 19 19 210144
+il 17 17 169125
+es 10 20 2149523
+no 10 19 156398
+fr 10 10 114795
+za 6 35 1599077
+cz 5 21 2519151
+pt 4 29 601977
+tw 4 32 157954
+kr 4 4 32912
+ch 3 3 0
+cn 2 16 135744
+in 2 11 87496
+it 2 11 884385
+mx 1 1 12774
+sg 1 1 9735
+hk 1 5 81868
+th 1 1 24117
+ke 1 9 104755
+be 1 1 8228
+cl 1 1 24117
+gu 1 1 9735
+pk 1 1 8556
+hu 1 1 14180
+pl 1 1 8556
+ar 1 11 93962
+ae 1 3 22963
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 13
+slurp 1878 250262845 20080630232204 0
+msnbot 517 2141716 20080630151532 0
+crawl 341 4144838 20080629004940 0
+googlebot 278 1818669 20080630233921 0
+\wbot[\/\-] 214 1829365 20080630195311 0
+spider 210 4059058 20080630234541 0
+robot 89 750239 20080630221455 0
+msnbot\-media 89 826063 20080630121238 0
+ia_archiver 68 655373 20080629041841 0
+jeeves 48 462855 20080630153459 0
+voila 36 366066 20080630221524 0
+yahoo!\sslurp\schina 6 33240 20080630003130 0
+webcollage 4 49058 20080610160236 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 10
+mp3 1179 161665492 0 0
+css 1659 4280638 0 0
+pdf 65 6062485 0 0
+htm 162 1673223 0 0
+php 245 1831294 0 0
+html 4271 38119202 0 0
+jpg 7479 117661425 0 0
+js 312 10421845 0 0
+gif 6050 25377957 0 0
+ram 208 6229230 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 14
+winlong 2804
+winxp 13148
+winnt 26
+win2000 446
+win98 114
+linuxubuntu 49
+linux 321
+linuxfedora 51
+bsdfreebsd 10
+winme 58
+win16 220
+macosx 2060
+win2003 191
+Unknown 2132
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 50
+msie6.0 4199
+winamp 3
+firefox1.5.0.12 119
+firefox2.0.0.1 29
+firefox2.0.0.10 41
+curl 6
+firefox2.0.0.12 74
+netscape7.2 11
+POE\-Component\-Client\-HTTP 2
+links 1
+firefox2.0.0.13 20
+firefox2.0.0.7 5
+netscape4.07 9
+firefox2.0.0.14 3114
+firefox1.5.0.2 3
+firefox2.0.0.3 40
+firefox2.0.0.9 19
+msie7.0 9119
+msie5.0 5
+wget 4
+firefox2.0.0.2 2
+Unknown 1679
+firefox1.5.0.7 41
+netscape 174
+firefox2.0.0.8 5
+lwp 1
+libwww 1
+firefox3.0 552
+opera 51
+nsplayer 41
+netscape4.05 5
+msie5.5 80
+firefox2.0.0.6 6
+firefox1.5.0.9 11
+real 8
+firefox2.0.0.11 43
+nokia 10
+firefox1.0.7 15
+konqueror 1
+firefox1.0 63
+mozilla 549
+netscape5.0 11
+omniweb 4
+firefox2.0.0.4 71
+firefox2.0 40
+firefox1.0.6 23
+msie 4
+fdm 1
+netscape8.1.3 10
+safari 1305
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 79
+Mozilla/4.05_[en] 20080629044426
+Mozilla/5.0_(Sample;_MFC_Simulator/3.5;_like_Gecko)_NetFront/3.5 20080613070532
+libwww-perl/5.808 20080625045223
+NextGenSearchBot_4_(for_information_visit_http://www.zoominfo.com/About/misc/NextGenSearchBot.aspx) 20080607015836
+Mimetype_Getinfo 20080620132243
+Mozilla/4.0_(compatible;_MSIE_6.0) 20080630173408
+tags2dir.com/0.8_(_http://tags2dir.com/directory/) 20080617073944
+QuickTime/7.4.5_(qtver=7.4.5;cpu=IA32;os=Mac_10.4.9) 20080614100248
+QEAVis_agent/Nutch-0.9_(http://nlp.uned.es/qeavis/) 20080627214656
+Java/1.5.0_06 20080605112803
+HttpSession 20080622212041
+NSPlayer/11.00.6001.7000_WMFSDK/11.00.6001.7000 20080626160955
+Mozilla 20080630200028
+QuickTime/7.4.5_(qtver=7.4.5;cpu=PPC;os=Mac_10.4.9) 20080602105532
+iearthworm/1.0,_mailto:iearthworm@yahoo.com.cn 20080627101226
+bot/1.0_(bot;_http://;_bot@bot.bot) 20080612093741
+SEO[.AG]_-_Search_Engine_Optimizer_Bot_[http://www.seo.ag] 20080629005925
+boitho.com-dc/0.82_(_http://www.boitho.com/dcbot.html_) 20080628183159
+Mozilla/4.0_(compatible;_MSIE_6.0;_Qihoo_0.9.6) 20080622112620
+Mozilla/5.0_(compatible;_pmoz.info_ODP_link_checker;__http://pmoz.info/doc/botinfo.htm) 20080623090724
+WinampMPEG/2.7 20080620132305
+Nokia6300/2.0_(05.50)_Profile/MIDP-2.0_Configuration/CLDC-1.1_(botmobi_find.mobi/bot.html_abuse@mtld.mobi) 20080625081207
+shelob_v1.0 20080601114755
+Java/1.6.0_05 20080618064833
+kalooga/KaloogaBot_(Kalooga;_http://www.kalooga.com;_info@kalooga.com) 20080623203417
+EasyDL/3.04__http://keywen.com/Encyclopedia/Bot 20080620051547
+Mozilla/5.0_(compatible;_LinkStash_Bookmark_Manager;_http://www.xrayz.co.uk/) 20080629114734
+Mozilla/5.0_(compatible;_ScoutJet;__http://www.scoutjet.com/) 20080630231615
+PEAR_HTTP_Request_class_(_http://pear.php.net/_) 20080615043443
+contype 20080609065715
+nutch/Nutch-1.0-dev_(nutch) 20080625204622
+PrivacyFinder/1.1 20080629083653
+panscient.com 20080616075823
+- 20080628193905
+Microsoft_URL_Control_-_6.01.9782 20080614061220
+NextGenSearchBot_1_(for_information_visit_http://www.zoominfo.com/About/misc/NextGenSearchBot.aspx) 20080607015951
+QuickTime/7.5_(qtver=7.5;cpu=PPC;os=Mac_10.4.9) 20080625201949
+POE-Component-Client-HTTP/0.65_(perl;_N;_POE;_en;_rv:0.650000) 20080623091222
+Java/1.4.1_04 20080612202225
+Snoopy_v1.2 20080613161231
+iearthworm/1.0,_iearthworm@yahoo.com.cn 20080607014659
+asterias/2.0 20080630181536
+Java/1.6.0-oem 20080617135353
+BlackBerry8310/4.2.2_Profile/MIDP-2.0_Configuration/CLDC-1.1_VendorID/102 20080613212134
+PycURL/7.16.4 20080628210104
+Wget/1.10.2 20080629103901
+Basalt_v090b 20080620021633
+Java/1.6.0_06 20080611031530
+Mozilla/4.0_(compatible;) 20080629213237
+Website_Explorer/0.9.9.8 20080629074554
+Mozilla/5.0_(compatible;_heritrix/2.0.0__http://www.mariamosolova.com) 20080628201332
+Mozilla/5.0_(compatible;_woriobot_support_[at]_worio_[dot]_com__http://worio.com) 20080609120438
+TeamSoft_WinInet_Component 20080624222204
+PHP_version_tracker_(http://www.nexen.net/phpversion/bot.php) 20080612150100
+NSPlayer/10.0.0.3802_WMFSDK/10.0 20080621054647
+RMA/1.0_(compatible;_RealMedia) 20080620163701
+MLBot_(www.metadatalabs.com/mlbot) 20080625032334
+NSPlayer/10.0.0.3702_WMFSDK/10.0 20080604022451
+oBot 20080625101258
+http://www.voipwebcall.com 20080617100914
+NSPlayer/11.0.5721.5145_WMFSDK/11.0 20080624141954
+Anansi 20080630184025
+Mozilla/5.0_(SnapPreviewBot)_Gecko/20061206_Firefox/1.5.0.9 20080616104659
+genieBot_enash@genieknows.com 20080606185428
+lwp-request/2.07 20080615012715
+FDM_2.x 20080603193612
+QuickTime/7.4.5_(qtver=7.4.5;cpu=IA32;os=Mac_10.5.3) 20080613121902
+wauuu_engine/Wauuu_0.1_(wauuu_engine;_http://www.wauuu.com;_wauuu@wauuu.com) 20080611234943
+http://www.example.com/my_application 20080617120556
+NSPlayer/11.00.6000.6324_WMFSDK/11.00.6000.6324 20080623192808
+MMHttp_(Windows;_Version:9.0) 20080605145228
+Java/1.6.0_03 20080617081958
+Mozilla/3.01_(compatible;) 20080623133132
+Nokia6300/2.0_(05.50)_Profile/MIDP-2.0_Configuration/CLDC-1.1_(botmobi_http://find.mobi/bot.html_abuse@mtld.mobi) 20080626060155
+boitho.com-dc/0.86_(_http://www.boitho.com/dcbot.html_) 20080629223142
+Mozilla/5.0_(compatible;_Charlotte/1.1;_http://www.searchme.com/support/) 20080630233910
+Mozilla/5.0_(compatible;_Firefox_or_MSIE_mutant;_not_on_Windows_server;__http://ws.daum.net/aboutkr.html)_Daumoa/2.0 20080608084607
+QuickTime/7.5_(qtver=7.5;cpu=IA32;os=Mac_10.4.9) 20080619204746
+T-Online_Browser 20080612215248
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 50
+NextGenSearchBot_4_(for_information_visit_http://www.zoominfo.com/About/misc/NextGenSearchBot.aspx) 20080607015836
+Yandex/1.01.001_(compatible;_Win16;_I) 20080630135740
+TeamSoft_WinInet_Component 20080624222204
+Mimetype_Getinfo 20080620132243
+tags2dir.com/0.8_(_http://tags2dir.com/directory/) 20080617073944
+QuickTime/7.4.5_(qtver=7.4.5;cpu=IA32;os=Mac_10.4.9) 20080614100248
+QEAVis_agent/Nutch-0.9_(http://nlp.uned.es/qeavis/) 20080627214656
+PHP_version_tracker_(http://www.nexen.net/phpversion/bot.php) 20080612150100
+Java/1.5.0_06 20080605112803
+HttpSession 20080622212041
+QuickTime/7.4.5_(qtver=7.4.5;cpu=PPC;os=Mac_10.4.9) 20080602105532
+iearthworm/1.0,_mailto:iearthworm@yahoo.com.cn 20080627101226
+bot/1.0_(bot;_http://;_bot@bot.bot) 20080612093741
+SEO[.AG]_-_Search_Engine_Optimizer_Bot_[http://www.seo.ag] 20080629005925
+MLBot_(www.metadatalabs.com/mlbot) 20080625032334
+boitho.com-dc/0.82_(_http://www.boitho.com/dcbot.html_) 20080628183159
+oBot 20080625101258
+http://www.voipwebcall.com 20080617100914
+shelob_v1.0 20080601114755
+Java/1.6.0_05 20080618064833
+kalooga/KaloogaBot_(Kalooga;_http://www.kalooga.com;_info@kalooga.com) 20080623203417
+Anansi 20080630184025
+EasyDL/3.04__http://keywen.com/Encyclopedia/Bot 20080620051547
+PEAR_HTTP_Request_class_(_http://pear.php.net/_) 20080615043443
+genieBot_enash@genieknows.com 20080606185428
+nutch/Nutch-1.0-dev_(nutch) 20080625204622
+contype 20080609065715
+PrivacyFinder/1.1 20080629083653
+panscient.com 20080616075823
+- 20080628193905
+NextGenSearchBot_1_(for_information_visit_http://www.zoominfo.com/About/misc/NextGenSearchBot.aspx) 20080607015951
+Microsoft_URL_Control_-_6.01.9782 20080614061220
+QuickTime/7.4.5_(qtver=7.4.5;cpu=IA32;os=Mac_10.5.3) 20080613121902
+QuickTime/7.5_(qtver=7.5;cpu=PPC;os=Mac_10.4.9) 20080625201949
+Snoopy_v1.2 20080613161231
+Java/1.4.1_04 20080612202225
+iearthworm/1.0,_iearthworm@yahoo.com.cn 20080607014659
+wauuu_engine/Wauuu_0.1_(wauuu_engine;_http://www.wauuu.com;_wauuu@wauuu.com) 20080611234943
+http://www.example.com/my_application 20080617120556
+asterias/2.0 20080630181536
+BlackBerry8310/4.2.2_Profile/MIDP-2.0_Configuration/CLDC-1.1_VendorID/102 20080613212134
+Java/1.6.0-oem 20080617135353
+MMHttp_(Windows;_Version:9.0) 20080605145228
+Java/1.6.0_03 20080617081958
+boitho.com-dc/0.86_(_http://www.boitho.com/dcbot.html_) 20080629223142
+Basalt_v090b 20080620021633
+Java/1.6.0_06 20080611031530
+QuickTime/7.5_(qtver=7.5;cpu=IA32;os=Mac_10.4.9) 20080619204746
+T-Online_Browser 20080612215248
+Website_Explorer/0.9.9.8 20080629074554
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 2768 3180
+From1 4 4
+From2 402 435
+From3 1117 1123
+From4 1839 16888
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 14
+tango_hu 1 1
+earthlink 1 1
+google 259 259
+search 11 11
+google_cache 0 9
+aol 6 6
+ask 1 1
+metacrawler 1 1
+msn 10 10
+altavista 4 4
+live 31 31
+google_image 29 53
+seznam 1 1
+yahoo 47 47
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 108
+http://www.singingfish.com 690 690
+http://music.soso.com 63 63
+http://www.neopets.com/petlookup.phtml 22 22
+http://www.harpmall.com/harps_for_sale.htm 21 21
+http://www.sacred-knights.net/gamma/sk 18 18
+http://www.mhtp.org/demo/Clients/NY_MHTP/Web/conf2008/conf.htm 17 17
+http://www.harpmall.com/lever_harp_makers.htm 17 17
+http://www.edmondsartsfestival.com/page.php 13 13
+http://mp3realm.org 12 12
+http://www.BigFinder.de/index.php 12 12
+http://www.neopets.com/~Amarrka 11 11
+http://beemp3.com 10 10
+http://www.seeqpod.com 10 10
+http://seattle.craigslist.org/skc/msg/717602909.html 9 9
+http://www.weddingharper.com/harplust.html 8 8
+http://www.sitidi.net 7 7
+http://www.harpkit.com/Merchant2/merchant.mvc 6 6
+http://www.celticharper.com/Buyhrp.html 6 6
+http://earthsongonline.com/CD_Beneath_the_Moon.htm 6 6
+http://www.nwfolklife.org/P_F/vcrafts.html 6 6
+http://www.harp.net/HarpLinks.htm 5 5
+http://www.true-directory.com 5 5
+http://www.asdcashgenerator.com/member/surf.php 5 5
+http://www.harpmall.com/wire_strung_harps.htm 5 5
+http://us.mc342.mail.yahoo.com/mc/showMessage 4 4
+http://us.mc632.mail.yahoo.com/mc/showMessage 1 1
+http://www.freewebs.com/dragonswamp/Whelps.html 1 1
+http://us.mc342.mail.yahoo.com/mc/showletter 1 1
+http://psfhs.home.comcast.net/~psfhs/directory.htm 1 1
+http://www.harpcolumn.com/forum/message-view 2 2
+http://home.comcast.net/~edbethui/Advance.html 1 1
+http://www.victoriafolkmusic.ca/performer_links.html 1 1
+http://www.peaceabbey.org/confcenter/coffeehouse.htm 3 3
+http://us.mg2.mail.yahoo.com/dc/blank.html 3 3
+http://cc.msnscache.com/cache.aspx 0 5
+http://www.msplinks.com/MDFodHRwOi8vd3d3Lm1hZ2ljYWxzdHJpbmdzLmNvbQ== 1 1
+http://us.f579.mail.yahoo.com/ym/ShowLetter 1 1
+http://webmail.aol.com/37080/aol/en-us/Mail/DisplayMessage.aspx 1 1
+http://www.modelsailboat.com/regmov05.html 1 1
+http://mailcenter2.comcast.net/wmc/v/wm/48517E3C000953A600003B7122070245530C0E030E02070E040E 1 1
+http://members.aol.com/kitchiegal/dstores-prp.html 1 1
+http://www.kitchenmusician.net/pages/dstores-prp.html 2 2
+http://www.earthsongonline.com/CD_Beneath_the_Moon.htm 2 2
+http://mailcenter2.comcast.net/wmc/v/wm/4851E170000B8A3800003333220076219497059C0207089C0E040B 1 1
+http://www5.ocn.ne.jp/~htf/top.html 3 3
+http://www.celticharper.com/teachers.html 1 1
+http://webmail.aol.com/37080/aol/en-us/Suite.aspx 2 2
+http://mailcenter3.comcast.net/wmc/v/wm/485469A7000DDCD000000A7522165514060306D20A0A050C03 1 1
+http://us.mg2.mail.yahoo.com/dc/launch 3 3
+http://freia5.tripod.com/harp/index.htm 2 2
+http://www.celticmusicspokane.com/index.php 1 1
+http://tags2dir.com/directory/category/classes/ 1 1
+http://us.mc451.mail.yahoo.com/mc/showMessage 1 1
+http://us.mc502.mail.yahoo.com/mc/showMessage 2 2
+http://mc501.mail.yahoo.com/mc/showMessage 1 1
+http://us.mc307.mail.yahoo.com/mc/showMessage 1 1
+http://www.harpmall.com/harps_for_rent.htm 4 4
+http://www.poweredtemplates.com/pid/3/index.html 2 2
+http://www.kitchenmusician.net/pages/dstores.html 3 3
+http://seeqpod.cachefly.net/cache_prod/mallardBottom.swf 1 1
+http://www.sportfishermen.com/board/f204/possible-sites-list-em-28907.html 4 4
+http://dfklgjdfgoiejrg.com/dsfkjh 1 1
+http://www.leopardos.net/links.html 2 2
+http://www.harpmall.com/harp_events.htm 2 2
+http://us.mc373.mail.yahoo.com/mc/showMessage 1 1
+http://www.asdcashgenerator.com/member/sites.php 1 1
+http://music.soso.com/music.cgi 1 1
+http://www.verzamelgids.nl 1 1
+http://us.f545.mail.yahoo.com/ym/ShowLetter 2 2
+http://www.muzica-ta.info/includes/mediaplayer.swf 1 1
+http://webmailb.netzero.net/webmail/new/8 1 1
+http://www.BigFinder.de 1 1
+http://www.celticharper.com/otherharprs.html 3 3
+http://www.freewebs.com/dragonswamp/Rules.html 1 1
+http://webmaila.juno.com/webmail/new/8 3 3
+http://www.gewilli.com/2007_12_01_archive.html 1 1
+http://us.f371.mail.yahoo.com/ym/ShowLetter 1 1
+http://www.freewebs.com/dragonswamp/Religion.html 1 1
+http://www.bellevuefest.org/WebsiteInfo_2007.pdf 1 1
+http://seattlepi.nwsource.com/pop/340576_postcard23.html 2 2
+http://www.tagoo.ru/en/ 1 1
+http://www.voipwebcall.com 1 1
+http://kata.ro/beta2/index.php 3 3
+http://earlymusichicago.org/businesses_harp.htm 2 2
+http://us.mc359.mail.yahoo.com/mc/showMessage 0 1
+http://www.neopets.com/~amarrka 3 3
+http://www.gigharbor.com/services.html 1 1
+http://translate.google.es/translate 1 1
+http://netherlands.real.com/music/artist/_11007/ 1 1
+http://tarbagan.net/nodo/mgst/mgstJ.html 1 1
+http://cgrconsulting.org/portfolio.php 1 1
+http://us.mg1.mail.yahoo.com/dc/launch 1 1
+http://asdcashgenerator.com/member/surf.php 2 2
+http://www.freewebs.com/dragonswamp/Spirits.html 2 2
+http://www.anacortesartsfestival.com/ba_list_media.cfm 4 4
+http://mhtp.org/demo/Clients/NY_MHTP/Web/conf2008/conf.htm 2 2
+http://us.mc501.mail.yahoo.com/mc/showMessage 2 2
+http://profile.myspace.com/index.cfm 1 1
+http://us.f535.mail.yahoo.com/ym/ShowLetter 1 1
+http://wm.integrity.com/imp/message.php 1 1
+http://www.asdcashgenerator.com/member/surfbarmanual.php 1 1
+http://netmail.verizon.net/webmail/servlet/HttpNimletDriver 1 1
+http://us.mc332.mail.yahoo.com/mc/showMessage 3 3
+http://webmail.pas.earthlink.net/wam/msg.jsp 2 2
+http://uk.real.com/music/artist/_11007/ 1 1
+http://www.conjure.com/CELT/cmusart.html 3 3
+http://www.riggsart.com 1 1
+http://www.anacortesartsfestival.com/ba_list_names.cfm 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 182
+magical+strings 110
+harp+camp 8
+www.magicalstrings.com 7
+magical 7
+philip+boulding 5
+printable+school+register 5
+magicalstrings.com 4
+harp+camps 4
+magical+strings+dulcimer 3
+school 3
+magical+strings.com 3
+lap+harp 3
+magical+strings+seattle+wa 2
+brittany+boulding 2
+vashon+island+harp+camp 2
+soulful+strings 2
+magical+strings+tristy 2
+harp+%26+dulcimer+music 2
+magical+strings+harp 2
+magical+instruments 2
+magical+strings+fairy+camp 2
+phillip+boulding 2
+philip+building+dulcimer 2
+printable+lap+harp+music 2
+philip+boulding+harp 2
+mellow+harp 1
+songs+goltrai+geantrai+and+suantrai 1
+phillip+pam+boulding+magical+strings 1
+raney+irish+cd 1
+celtic+music+study+guide 1
+doctor+mark+raney 1
+oladion+harp+asking 1
+dance+dragons 1
+japanese+hammered+dulcimer 1
+school+registers+to+print 1
+magical+strings+celtic+harp 1
+abmany 1
+string+bowl 1
+lap+harp+construction 1
+cossack+lullaby+mp3 1
+bell+mp3 1
+magical+strings+guitarra+cd 1
+bamboo+harp+instructions 1
+harp+lessons+columbia+gorge 1
+instrument+school+assembly 1
+portland+eurythmy+training 1
+where+can+i+buy+yoyo+strings+in+seattle 1
+magical+strings+beneath+the+moon 1
+mr+strings 1
+betaa 1
+irish+dancers+maine 1
+irish+dulcimers 1
+cossack+lullaby+.mp3 1
+pam+and+phillip+boulding 1
+phil+boulding+harp 1
+magical+strings+boulding 1
+beneath+the+moon+magical+strings 1
+philip+nobel+bio 1
+listen+to+cossack+dance 1
+school+assembly+play 1
+school+regester+printable 1
+musical+strings+olalla+wa 1
+harp+camp+2008 1
+harp+rental+seattle 1
+harp+camp+maine 1
+on+the+burren+magical+strings 1
+how+the+harp+and+the+dulcimer+work 1
+school+assemblies+how+our+needs+change 1
+soulful+strings+magic+of+christmas 1
+summer+harp+camp+2008 1
+printable+songs+for+lap+harp 1
+philip+boulding+harps 1
+celtic+harp+snohomish 1
+gary+larson+tropical+island+cartoons 1
+magical+strings+olalla 1
+irish+lap+harps 1
+boulding+harps 1
+irish+violins 1
+philip+boulding+lap+harp 1
+wire+strings+for+harp 1
+school+assembly+wa 1
+nereid+harp 1
+swallowtail+jig 1
+string+art+sites 1
+harp+fire+camp 1
+grand+solace+album 1
+celtic+harp+filetype+pdf 1
+friday+june+20+seattle+music+raney 1
+instruments+with+30+strings 1
+magical+strings+album+glass+horse 1
+magical+strings+dulcimer+seattle+boulding 1
+whistling+in+hell+gary+larson 1
+the+magic+of+christmas+soulful+strings 1
+valiha+how+to+build+it 1
+school+registration+locator+form 1
+haleakala+celtic+vocal+song 1
+strings+for+a+lap+harp 1
+strings+school 1
+bell+harps 1
+magical+strings+harps 1
+pam+boulding 1
+celtic+music+study+guides 1
+west+coast+hammered+dulcimer 1
+mann+music+center+pa 1
+harps+and+empathy 1
+culinary+museum+erin 1
+magical+strings+in+ollala+washington 1
+harp+and+shamrock+tacoma 1
+celtic+harps+%24200-400%24 1
+school+assemblies+song 1
+glass+horse+celtic+harp 1
+glass+horse+magical+strings 1
+magical+strings+harp+classes 1
+magical+strings+album 1
+magical+strings+summer+camp 1
+registration 1
+school+of+magical+strings 1
+magic+strings+seattle 1
+harp+the+instrument 1
+where+dragons+dance 1
+magical+strings+magic+hill 1
+harps+magical+strings 1
+hammered+dulcimer+southern+ca 1
+philip+and+pam+boulding 1
+harp+24+strings+used 1
+harp+makers+tacoma 1
+lap+harp+cases 1
+celtic+harp+intermediate+lessons 1
+cill+rialaig+artist+residency+application 1
+human+strings+dance 1
+harps+by+philip+boulding 1
+legend+of+inishcahey 1
+affordable+harps 1
+net 1
+harp+weekend+2008 1
+harpkamp 1
+strings+harp+lessons+seattle 1
+majical+strings 2
+theme+from+romeo+and+juliet+piano+mp3 1
+boulding+harp 1
+celtic+concerts+seattle 1
+school+assemblies+washington 1
+sschool+of+magical+strings 1
+assembly+on+music+and+instruments 1
+dulcimer+magical+strings 1
+lap+harps 2
+school+assembly+about+up+in+the+air 1
+bell 2
+printable+school+registration+forms 1
+whistles+for+strings 1
+celtic+festival+wa 1
+magical+strings+moon 1
+printable+registers+for+school 1
+harp+lessons 1
+boulding+student+harp 1
+penobscot+lullabies 1
+www.magicalstrings.net 1
+classical+music+on+hammered+dulcimer 1
+magical+strings+concert 1
+philip+boulding+musings 1
+magic+hill+residency 1
+strings+web+site 1
+phil+bouldings+magical+strings 1
+magical+strings+seattle 2
+magic+strings+toy+violin 2
+types+of+school+assembly 1
+summer+harp+camp 2
+earthlink-peoplepc-wssynd 1
+celtic+harp+30+strings 1
+printable+school+registration+form 2
+strings 1
+colleen+raney+cd 1
+original+classics+celtic+wonders+celtic+harp 1
+healing+harp+beginners+camp 1
+harp+summer+camp 1
+marsha+gebara 1
+colleen+raney 2
+school+assemblies 2
+celtic+harp+teacher+seattle 1
+magicalstrings 2
+warren+ri+concerts 1
+dancing+dragons+.com 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 226
+strings 170
+magical 159
+harp 65
+school 27
+boulding 25
+camp 21
+celtic 15
+philip 15
+dulcimer 14
+lap 13
+printable 13
+harps 12
+seattle 12
+music 10
+the 8
+and 8
+magic 7
+www.magicalstrings.com 7
+of 6
+raney 6
+assembly 6
+registration 5
+summer 5
+register 5
+irish 5
+regester 1
+residency 2
+form 3
+brittany 2
+erin 1
+%26 2
+print 1
+buy 1
+registers 2
+phil 2
+larson 2
+2008 3
+violins 1
+20 1
+nereid 1
+classics 1
+dance 4
+used 1
+abmany 1
+vashon 2
+ri 1
+forms 1
+toy 2
+gebara 1
+dancing 1
+betaa 1
+it 1
+art 1
+build 1
+can 1
+fairy 2
+intermediate 1
+where 2
+juliet 1
+album 3
+beneath 2
+construction 1
+doctor 1
+human 1
+a 1
+locator 1
+cartoons 1
+classical 1
+coast 1
+lessons 4
+eurythmy 1
+horse 3
+tropical 1
+phillip 4
+beginners 1
+in 4
+rialaig 1
+instruments 4
+teacher 1
+tristy 2
+bio 1
+romeo 1
+mp3 3
+friday 1
+pdf 1
+gorge 1
+guide 1
+lullaby 2
+by 1
+washington 2
+christmas 2
+dragons 3
+moon 3
+pam 4
+goltrai 1
+24 1
+building 2
+guides 1
+hell 1
+magicalstrings.com 4
+filetype 1
+training 1
+marsha 1
+pa 1
+festival 1
+fire 1
+portland 1
+whistling 1
+mr 1
+maine 2
+i 1
+hammered 4
+cd 3
+cossack 3
+warren 1
+.mp3 1
+cill 1
+penobscot 1
+shamrock 1
+haleakala 1
+geantrai 1
+bamboo 1
+solace 1
+empathy 1
+.com 1
+string 2
+mark 1
+on 3
+our 1
+%24200-400%24 1
+listen 1
+ollala 1
+study 2
+change 1
+violin 2
+lullabies 1
+snohomish 1
+southern 1
+with 1
+oladion 1
+suantrai 1
+burren 1
+colleen 3
+web 1
+valiha 1
+to 3
+student 1
+from 1
+asking 1
+concert 1
+dulcimers 1
+wa 5
+west 1
+camps 4
+ca 1
+instrument 2
+work 1
+jig 1
+wire 1
+site 1
+japanese 1
+museum 1
+assemblies 5
+piano 1
+glass 3
+cases 1
+hill 2
+instructions 1
+island 3
+sschool 1
+inishcahey 1
+yoyo 1
+harpkamp 1
+net 1
+bowl 1
+healing 1
+30 2
+rental 1
+about 1
+vocal 1
+soulful 4
+sites 1
+makers 1
+song 2
+how 3
+for 5
+legend 1
+grand 1
+bell 4
+majical 2
+culinary 1
+nobel 1
+types 1
+weekend 1
+olalla 2
+concerts 2
+guitarra 1
+songs 2
+needs 1
+up 1
+www.magicalstrings.net 1
+center 1
+mann 1
+dancers 1
+gary 2
+musings 1
+whistles 1
+theme 1
+classes 1
+strings.com 3
+musical 1
+original 1
+affordable 1
+tacoma 2
+mellow 1
+application 1
+earthlink-peoplepc-wssynd 1
+play 1
+columbia 1
+wonders 1
+artist 1
+june 1
+bouldings 1
+magicalstrings 2
+air 1
+swallowtail 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 5
+403 20 0
+302 22 95
+206 216 36470554
+301 1 5
+404 2239 0
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 128
+/m/d/yy 1 -
+/Images/R-AbovetheTower1.jpg 1 -
+/PDF/Boulding 1 -
+/robots.txt 1339 -
+/Schoolnewdiscoverydirections.html 2 -
+/R-CelticHoliday.html 2 -
+/School_of_Magical_Strings_Fall_Term_2003.htm 1 -
+/safari/opera 1 -
+/Images/padlock.gif 6 http://magicalstrings.com/Form_School_Reg.php
+/w3c/p3p.xml 1 -
+/gecko/i 1 -
+/samples/Doherty%C2%92s%20Reels.mp3 1 -
+/cancel/i 1 -
+/Brittany.html 23 -
+http://magicalstrings.com:80/robots.txt 3 -
+/harpcamp.html 6 -
+/SlurpConfirm404/catala/wwfraw.htm 1 -
+/PDF%20Files/CD%27s%20&%20Reviews.pdf 1 -
+/images/new1.gif 2 -
+/images/instruments/new_kailey.jpg 1 -
+/Fairy_Schooo.html 1 -
+/PDF%20Files/School_Program_Study_Guide.pdf 4 -
+/dusty.html 2 -
+/images/mslogo_lg.gif 2 -
+/schoolindex 21 -
+/insert/i 1 -
+/wp-admin/ 1 -
+/SlurpConfirm404/table11f/rants/Products.htm 1 -
+/m/ 2 -
+/wap/ 2 -
+/1896406312000a02.ram 2 -
+/School_of_Magical_Strings_Winter_Term_2004.htm 1 -
+/YT_2006.html 7 -
+/Images/Harp2.jpg 2 -
+/dd/mm/yyyy 1 -
+/SlurpConfirm404/mack1_d/dev.htm 1 -
+/7041 1 -
+/YT_2008.html 1 -
+/samples/FILE_NAME.mp3 1 -
+/Images/FairyCamp/2008-1.jpg 1 -
+/1896406312000a09.ram 2 -
+/_vti_bin/owssvr.dll 1 -
+/Images/Concert_Kailey.jpg 2 -
+/Harp%20Camp%202002%20Accommodations_files/filelist.xml 13 -
+/PDF%20Files/Boulding%20Family%20Story%20Yuletide%202004.pdf 2 -
+/Images/fairy_school_2007_1.jpg 1 http://magicalstrings.com/Fairy_School.html
+/1896406312000a06.ram 2 -
+/SlurpConfirm404/interest.htm 1 -
+/Images/harp_group.jpg 2 -
+/Images/YT%20Full%20stage1-2.jpg 2 -
+/mobile/ 2 -
+/News2002.html 3 -
+/Images/MagicalStrings.jpg 2 -
+/Images/24th%20YT.gif 2 -
+/d/m/yy 1 -
+/SlurpConfirm404.htm 1 -
+/School_of_Magical_Strings_fall_Term_2004.htm 2 -
+http://www.magicalstrings.com:80/robots.txt 10 -
+/images/astar.gif 2 -
+/samples/DulcimerCD%201%20-%20Track%201.smi 1 -
+/Images/Btn%20Tacoma.gif 2 -
+/SCHOOL%20OF%20MAGICAL%20STRINGS%20WINTER%20TERM%202002_files/filelist.xml 17 -
+/1896406312000a04.ram 3 -
+/1896406312000a05.ram 2 -
+/1896406312000a08.ram 2 -
+/SlurpConfirm404/togawa.htm 1 -
+/Images/Raney%20Performance.gif 2 -
+/-source_box.height/2 1 -
+/Images/Whispers/JPEGofFrontCover.jpg 14 -
+/School_of_Magical_Strings_winter_Term_2005.htm 1 -
+/mobi/ 2 -
+/Fairy_Camp.html 1 -
+/Images/Btn%20Portland.gif 2 -
+/YT_2005.html 3 -
+/Images/YT%20Raney%20Dancers%20w-babies%20sm.jpg 2 -
+/harpcamp.css 318 http://www.magicalstrings.com/HarpCamp.html
+/-source_box.width/2 1 -
+/1896406312000a13.ram 2 -
+/Form_School_Assemblies.html 1 -
+/Images/FairyCamp/2008-2.jpg 1 -
+/imode/ 2 -
+/CreatingWhereDragonsDance/Where%20Dragons%20Dance_LowLow1.html 10 -
+/images/verisign1.gif 2 -
+/xhtml/ 2 -
+/1896406312000a11.ram 2 -
+/images/harp1.jpg 2 -
+/SCHOOLOFMAGICALSTRINGSWINTERTERM2002_files/filelist.xml 2 -
+/Form_School_Reg.html 2 -
+/Images/Yuletide_cast.jpg 2 -
+/Images/Btn%20Olympia.gif 2 -
+/text/css 1 -
+/login/i 1 -
+/MSOffice/cltreq.asp 1 -
+/samples/Musings+Margaret 3 -
+/School3cedarsdirections.html 2 -
+/1896406312000a03.ram 2 -
+/News2003_old.html 3 -
+/Images/duo%20with%20harp%20up%20Small.jpg 2 -
+/harp121.htm 42 -
+/text/xml 1 -
+/miva/merchant.mv 186 -
+/disable/enable 1 -
+/HarpsDulcimers.html&h=275&w=208&sz=29&hl=pt-BR&start=1&sig2=LLmPfPXoiGR5XBTkr2LLJg&um=1 1 http://images.google.com/images
+/Images/YT%20Children1.jpg 2 -
+/Images/Fairy%20Camp/Butterfly_Fairy_sm.gif 1 http://magicalstrings.com/index.html
+/mm/dd/yyyy 1 -
+/School.html 1 -
+/harpsdulcimers.html 2 -
+/favicon.gif 1 -
+/1896406312000a07.ram 2 -
+/School_of_Magical_Strings_spring_Term_2004.htm 1 -
+/samples/Musings%20Margaret 4 -
+/Images/instruments/HarpConcOladion.jpg 5 -
+/SlurpConfirm404/mack8_d/conqpeac/horselover.htm 1 -
+/Form_Contact.html 34 -
+/1896406312000a10.ram 2 -
+/application/x-www-form-urlencoded 1 -
+/1896406312000a12.ram 2 -
+/update/i 1 -
+/delete/i 1 -
+/Images/Btn%20Seattle.gif 2 -
+/School_of_Magical_Strings_Spring_Term_2003.htm 1 -
+/SlurpConfirm404/bottin/Meditate/gothic.htm 1 -
+/HarpCamp2002Accommodations_files/filelist.xml 1 -
+/samples/Musings%20-%20Ohana%20Kai.smi 1 -
+/CalendarYT2004.html 1 -
+/Background-Gold.gif 13 http://www.magicalstrings.com/News2003.html
+/samples/DulcimerCD%201-%20Track%203.smi 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 1475
+spider33.yandex.ru 220 220 2814342 20080630135740
+ns.km22644.keymachine.de 162 172 1709380 20080630200025
+fish35.search.aol.com 123 123 1720678 20080630040437
+fish31.search.aol.com 111 111 1561805 20080630060327
+fish34.search.aol.com 103 103 1433446 20080629055301
+c-76-28-153-232.hsd1.wa.comcast.net 102 368 20504013 20080623193814
+fish32.search.aol.com 94 94 1315752 20080630181536
+83-103-90-51.ip.fastwebnet.it 89 91 2126949 20080601235631
+aste-genev-bois-151-1-7-108.w82-121.abo.wanadoo.fr 88 90 2005625 20080610160705
+fish29.search.aol.com 87 87 1236715 20080630055037
+hnet-ima1.harbornet.com 85 363 2326182 20080630122650
+h160-21.scoutjet.com 77 77 580743 20080629200600
+c-24-17-128-75.hsd1.wa.comcast.net 75 373 15527442 20080603194454
+fish38.search.aol.com 74 74 1043174 20080630040321
+crawl2.nat.svl.searchme.com 73 77 915321 20080630233910
+121.14.76.185 63 63 9118349 20080630173408
+dsl-37-132-rb5.ka.centurytel.net 62 356 1355874 20080620160820
+fish33.search.aol.com 60 60 844147 20080630040412
+65-113-243-198.dia.static.qwest.net 54 289 2058607 20080627154642
+ge0-v1017.cr1.sig-gro.nl.kalooga.com 51 102 621617 20080623203417
+dhcp-077-249-043-223.chello.nl 49 49 444462 20080618064833
+24-182-45-28.static.lnbh.ca.charter.com 49 49 446768 20080605112803
+ks37009.kimsufi.com 49 49 444462 20080612202225
+j226094.upc-j.chello.nl 49 49 444462 20080617135353
+c-76-116-57-207.hsd1.nj.comcast.net 45 145 1544724 20080620164323
+60-240-249-209.tpgi.com.au 2 2 10151 20080618151244
+adsl-69-235-235-248.dsl.irvnca.pacbell.net 1 5 81868 20080615155130
+cache-ntc-ac05.proxy.aol.com 1 1 173043 20080626183153
+001346bf64f3.click-network.com 2 12 116718 20080621194726
+12.104.204.212 1 10 79268 20080620021916
+fish39.search.aol.com 13 13 180426 20080604073648
+adsl-92-73.adsl.ij.net 1 1 728003 20080627174936
+dsl5400d176.pool.t-online.hu 1 1 98939 20080608084235
+new-futures.org 1 10 107431 20080604074601
+h14.175.133.98.ip.windstream.net 4 24 384073 20080623212522
+adsl-222-163-112.clt.bellsouth.net 9 61 356047 20080616184843
+71-213-16-190.slkc.qwest.net 1 11 93962 20080621070532
+75-104-192-37.cust.wildblue.net 1 3 13770 20080628190819
+216.177.204.14 1 11 93962 20080623132016
+c-67-165-125-243.hsd1.wa.comcast.net 1 10 79268 20080617145810
+cfb6947c1.dhcp.bluecom.no 1 1 12413 20080616072325
+norfolk-fw.norfolk.gov 15 121 517673 20080613074559
+71-217-36-236.tukw.qwest.net 1 11 93962 20080620171347
+web1.accentintl.com 19 19 172749 20080617130412
+5ad4ef01.bb.sky.com 1 1 16067 20080622121907
+71-34-219-239.spkn.qwest.net 1 10 79268 20080615152011
+208.126.72.235 1 11 93962 20080625064635
+c-71-195-35-181.hsd1.mn.comcast.net 1 11 93962 20080627111130
+cache-ntc-aa02.proxy.aol.com 0 2 16141 
+cache-mtc-ah05.proxy.aol.com 1 3 21077 20080614085256
+189-78-75-127.dsl.telesp.net.br 1 1 9186 20080603101827
+206.127.87.35 1 11 93962 20080621013602
+24-113-71-203.wavecable.com 16 103 2810766 20080615132558
+78.81.232.72.static.reverse.ltdomains.com 1 1 9902 20080613183334
+ool-182cc94a.dyn.optonline.net 1 10 79268 20080619032454
+ppp-70-251-99-15.dsl.rcsntx.swbell.net 1 1 45836 20080610004003
+adsl-216-158-1-202.cust.oldcity.dca.net 3 3 38110 20080612093741
+24-151-75-200.dhcp.nwtn.ct.charter.com 2 11 111217 20080629140556
+c-67-160-163-5.hsd1.or.comcast.net 11 24 1892700 20080612223155
+cache-ntc-ac04.proxy.aol.com 0 3 5450 
+ec2-75-101-233-192.compute-1.amazonaws.com 1 10 79268 20080606150055
+cpe-76-172-90-241.socal.res.rr.com 1 11 93962 20080622081258
+cpe-75-185-159-191.neo.res.rr.com 5 59 312213 20080617091319
+static-208-80-193-27.as13448.com 2 2 17112 20080630094804
+nsc69.38.87-37.newsouth.net 2 11 87496 20080605084652
+216-197-158-16.regn.hsdb.sasknet.sk.ca 1 10 79268 20080618222215
+pool-71-179-243-174.bltmmd.fios.verizon.net 4 32 248040 20080612192403
+87.109.113.73 1 10 79268 20080612145418
+189.249.92-79.rev.gaoland.net 1 4 22326 20080625131826
+adsl-76-237-79-222.dsl.lgvwtx.sbcglobal.net 1 1 9735 20080621135845
+i60-35-41-48.s02.a001.ap.plala.or.jp 1 1 8556 20080629074554
+88.197.166.17 7 17 177740 20080627115223
+gpcsd28.ab.ca 2 3 38160 20080617113102
+c-76-107-62-227.hsd1.la.comcast.net 1 1 9735 20080608212229
+216.160.123.104 4 16 118930 20080610171625
+c-67-162-47-136.hsd1.il.comcast.net 1 4 22326 20080622121018
+a80-127-114-233.adsl.xs4all.nl 2 14 264771 20080604043527
+cache-prs-aa08.proxy.aol.com 4 5 1156794 20080620131957
+38.116.192.97 1 10 217264 20080610121107
+rrcs-71-41-200-82.sw.biz.rr.com 40 40 138062 20080618030908
+cov-mad124.covance.com 3 20 254143 20080609145621
+d58-105-24-102.dsl.vic.optusnet.com.au 1 11 93962 20080624220326
+acbe578d.ipt.aol.com 1 5 81868 20080614090906
+h160-34.scoutjet.com 6 6 75348 20080630231615
+c-76-108-208-96.hsd1.fl.comcast.net 2 2 1067304 20080602221752
+c-76-121-210-28.hsd1.wa.comcast.net 1 11 93962 20080623153346
+86-126-244-136.rdsnet.ro 1 1 0 20080611125548
+cpe-066-057-025-251.nc.res.rr.com 1 11 93962 20080623165244
+210.196.232.72.static.reverse.ltdomains.com 22 22 229457 20080617183656
+cache-mtc-ah04.proxy.aol.com 0 3 6894 
+cache-ntc-ac02.proxy.aol.com 0 2 11213 
+pool-71-171-36-137.nwrknj.east.verizon.net 1 8 71797 20080625154332
+c-76-28-216-248.hsd1.wa.comcast.net 1 10 79268 20080618214626
+xdsl-4279.walbrzych.dialog.net.pl 1 1 8524 20080628001553
+pool-71-104-250-87.lsanca.dsl-w.verizon.net 5 23 280639 20080617115355
+134-200-91-219.static.youtele.com 1 11 93962 20080621074738
+67-40-22-91.tukw.qwest.net 1 10 79268 20080610214044
+pool-71-164-236-119.dllstx.fios.verizon.net 1 11 93962 20080628084408
+reserved.sitespecific.com 3 9 65299 20080602180409
+adsl-99-145-160-184.dsl.chcgil.sbcglobal.net 1 11 93962 20080621221618
+cache-ntc-ac10.proxy.aol.com 0 6 314034 
+ip68-109-24-97.ri.ri.cox.net 2 12 96027 20080617134803
+h160-25.scoutjet.com 1 1 8228 20080612043035
+74-93-107-62-washington.hfc.comcastbusiness.net 1 5 81868 20080612130841
+cache-dtc-ad07.proxy.aol.com 0 2 14520 
+66-53-209-75.lsan.mdsg-pacwest.com 1 5 81868 20080613165432
+190.43.54.75 1 1 8228 20080607003128
+201-46-59-223.wireless.dynamic.cqo3.sp.faster.net.br 5 5 32256 20080620144549
+75-105-128-36.cust.wildblue.net 1 11 93962 20080628070606
+213.174.136.6 3 3 0 20080628061144
+cpe-098-122-135-176.nc.res.rr.com 1 11 93962 20080621190507
+doc-24-32-38-83.lotp.ca.cebridge.net 1 10 79268 20080620075032
+manor-house-28-94.lclark.edu 1 5 81868 20080612125225
+69-10-218-18.rainierconnect.com 0 1 2676 
+cache-ntc-ac06.proxy.aol.com 1 2 38570 20080629173942
+cache-ntc-ab02.proxy.aol.com 0 13 73875 
+dyn-dsl-to-76-75-119-180.nexicom.net 1 11 0 20080627163530
+cpe-76-84-4-186.neb.res.rr.com 1 1 9735 20080605161221
+urlc1.mail.mud.yahoo.com 2 2 16456 20080612151704
+doc-72-47-34-104.terrell.tx.cebridge.net 1 11 93962 20080629145130
+pool-71-113-236-20.herntx.dsl-w.verizon.net 2 21 201393 20080622162439
+70-13-62-184.area2.spcsdns.net 1 11 93962 20080627082444
+v104.nat.svl.searchme.com 1 10 79268 20080610004823
+kiowa-dialup31.indiannationinternet.net 1 11 93962 20080630053545
+67.233.209.48 1 11 93962 20080623171734
+infong744.lxa.perfora.net 0 1 2693 
+c-76-111-168-79.hsd1.de.comcast.net 2 13 144709 20080628183906
+ip68-106-195-214.pn.at.cox.net 1 10 79268 20080619150430
+216.151.12.5.fasternetwork.com 3 14 104008 20080610162814
+user-24-236-68-174.knology.net 1 11 93962 20080622131235
+65-101-248-149.hlrn.qwest.net 1 10 79268 20080609162110
+adsl-75-45-220-108.dsl.sfldmi.sbcglobal.net 2 18 303051 20080604092622
+64.113.1.122 0 4 2579 
+70-56-89-94.tukw.qwest.net 7 26 325546 20080624123645
+bli-69-7-37-69.csscommunications.com 4 27 295935 20080626123536
+72-161-95-235.dyn.centurytel.net 1 11 93962 20080630204627
+1cust7514.an3.sea18.da.uu.net 4 12 188807 20080618153835
+66.211.117.85 1 11 93962 20080626081904
+ip4da2aae0.direct-adsl.nl 1 10 79268 20080608070654
+75-104-192-57.cust.wildblue.net 1 2 9197 20080628190500
+bigfinder.de 15 15 124732 20080628193905
+cache-los-ab10.proxy.aol.com 0 1 2676 
+c-67-180-126-174.hsd1.ca.comcast.net 1 11 93962 20080623025105
+dialup-4.154.254.40.dial1.boston1.level3.net 2 6 91054 20080613074248
+abts-ncr-static-078.231.160.122.airtelbroadband.in 1 1 8228 20080610012408
+v88.nat.svl.searchme.com 1 1 187253 20080627002345
+134.39.241.6 2 18 181725 20080613183936
+cpe00179a3032c7-cm0017ee543e98.cpe.net.cable.rogers.com 1 11 93962 20080625035217
+dslb-084-060-177-207.pools.arcor-ip.net 1 1 0 20080603092027
+dialup-4.227.172.204.dial1.denver1.level3.net 3 16 175316 20080612194132
+cpe-76-91-121-205.socal.res.rr.com 1 11 93962 20080621004603
+c-67-170-77-112.hsd1.wa.comcast.net 1 10 79268 20080616185646
+80-218-230-248.dclient.hispeed.ch 1 1 8228 20080611031530
+cpe-70-92-15-135.wi.res.rr.com 1 4 27684 20080617223216
+c-24-16-89-60.hsd1.wa.comcast.net 4 22 277065 20080624004213
+b12webproxy01.direcpc.com 1 15 135410 20080612184729
+67.16.bsecure.com 1 1 8556 20080622065652
+pool-71-112-41-247.sttlwa.dsl-w.verizon.net 2 6 91054 20080614055321
+adsl-207-32-168-10.rockisland.net 3 19 193989 20080616205807
+adsl-76-229-186-45.dsl.milwwi.sbcglobal.net 2 14 131240 20080629072520
+221-81-183-216.etnet.ca 4 4 17112 20080629103901
+pool-96-237-102-133.bstnma.fios.verizon.net 1 11 93962 20080626155039
+204.154.83.254 1 10 107431 20080609111311
+cpe-75-81-11-135.kc.res.rr.com 1 1 65273 20080623184816
+206.129.215.168 1 5 81868 20080612142632
+64-184-245-18.mammothnetworks.com 1 10 79268 20080618122439
+adsl-75-57-82-99.dsl.emhril.sbcglobal.net 5 35 150325 20080618162547
+bas7-toronto12-1088930021.dsl.bell.ca 1 10 103222 20080612183720
+soporte4.lsi.uned.es 1 1 8556 20080627214656
+96.15.152.244 1 12 96638 20080625155054
+c-67-160-87-14.hsd1.wa.comcast.net 8 47 541400 20080623150335
+81.193.130.194 4 21 266407 20080620154338
+cpe-76-175-243-165.socal.res.rr.com 1 1 8228 20080620021633
+204.16.25.238 1 5 81868 20080612124110
+pool-71-110-212-183.lsanca.dsl-w.verizon.net 1 11 93962 20080629153918
+cpe-69-205-87-148.rochester.res.rr.com 1 11 93962 20080625180729
+170.97.167.61 0 2 25342 
+208.72.42.34 1 11 93962 20080627084722
+93.84.109.22 1 11 93962 20080624135822
+canis.csc.ncsu.edu 2 2 0 20080630184025
+211.115.109.14 1 1 8228 20080604210626
+66-233-159-190.boi.clearwire-dns.net 1 11 93962 20080625072740
+c-24-19-170-57.hsd1.wa.comcast.net 3 24 130141 20080606203515
+116.25.228.30 1 1 8556 20080630053534
+ajwhiting.plus.com 1 4 22326 20080619082813
+86.58.22.123 1 10 79268 20080615053639
+205.139.210.8 4 4 32912 20080612042414
+64.246.165.130 1 5 34897 20080615205009
+ns1.itindependent.eu 17 17 181653 20080606021006
+cache-dtc-ae12.proxy.aol.com 0 1 13072 
+cache-dtc-ac02.proxy.aol.com 0 3 8028 
+adsl-3-136-28.mia.bellsouth.net 1 11 93962 20080624071146
+modemcable098.51-82-70.mc.videotron.ca 1 1 0 20080601064735
+38.104.58.118 7 7 54138 20080616075823
+hh122ws07.hh121-123.wwu.edu 3 15 172640 20080612112215
+cpe-76-85-155-14.neb.res.rr.com 1 11 93962 20080627225017
+ip72-193-21-49.lv.lv.cox.net 1 10 79268 20080619210739
+cache-ntc-aa07.proxy.aol.com 0 3 11708 
+12.104.90.233 2 14 158460 20080601120548
+209.181.149.239 1 10 79268 20080604123204
+h160-20.scoutjet.com 29 29 296445 20080619102307
+cache-mtc-ag10.proxy.aol.com 1 1 6365 20080612165646
+66.165.9.27 1 10 79268 20080610145815
+72.159.133.22 10 36 2307316 20080623081113
+fish30.search.aol.com 25 25 361196 20080627232743
+inne3.helnet.pl 1 1 8228 20080615013110
+a-103-130.cust.iol.ie 1 1 100768 20080622135615
+rrcs-71-41-201-38.sw.biz.rr.com 1 1 8556 20080625032334
+c-24-8-199-250.hsd1.co.comcast.net 1 10 107431 20080629180403
+75-172-84-140.tukw.qwest.net 8 37 377948 20080613141558
+165.83.129.36 1 5 42252 20080627141652
+63-224-39-140.tukw.qwest.net 1 7 84592 20080623104723
+adsl-70-233-141-235.dsl.okcyok.sbcglobal.net 1 5 82016 20080626092252
+c-24-19-81-162.hsd1.mn.comcast.net 1 11 93962 20080625042910
+ip-216-54-20-242.coxfiber.net 1 10 79268 20080620075731
+fibhost-174-156.fibernet.bacs-net.hu 1 1 8228 20080607231233
+cc3012aa6.xdsl.catch.no 2 2 16784 20080627211407
+d154-20-120-216.bchsia.telus.net 8 43 884094 20080624001926
+dsl092-040-057.lax1.dsl.speakeasy.net 1 5 81868 20080613113058
+cpe-98-145-167-40.new.res.rr.com 1 10 79268 20080618183843
+c-66-31-132-139.hsd1.ma.comcast.net 1 5 32302 20080606110219
+211.233.79.176 1 1 8228 20080608084607
+12-205-139-214.client.mchsi.com 1 10 79268 20080619191929
+sm-gw13.sm.digilink.net 1 11 93962 20080626200635
+wimax3-35.telbeskid.com.pl 1 1 8228 20080618121322
+67.189.30.207 5 24 295481 20080630140247
+67-150-10-148.lsan.mdsg-pacwest.com 1 10 107431 20080618160606
+adsl-75-7-31-97.dsl.pltn13.sbcglobal.net 1 5 81868 20080612183441
+c-67-171-66-194.hsd1.pa.comcast.net 3 24 302526 20080621200206
+s0106001a92643519.cg.shawcable.net 1 11 93962 20080630123353
+aca86b20.ipt.aol.com 7 23 223434 20080608130005
+host-92-10-124-126.as43234.net 1 1 8228 20080603131422
+ip68-109-153-75.ph.ph.cox.net 1 10 79268 20080619064353
+cache-prs-aa02.proxy.aol.com 0 3 19662 
+63-226-203-245.tukw.qwest.net 2 18 181725 20080616220857
+70-89-137-242-smc-wa.hfc.comcastbusiness.net 5 19 158912 20080630120930
+66-227-222-174.dhcp.klmz.mi.charter.com 1 11 93962 20080630044125
+cpe-76-90-10-142.socal.res.rr.com 2 18 181725 20080614205132
+dsl092-231-074.phl1.dsl.speakeasy.net 1 1 15919 20080614083152
+cache-los-aa07.proxy.aol.com 0 1 2579 
+c-67-185-85-235.hsd1.wa.comcast.net 1 10 79268 20080610223444
+165.193.254.11 2 13 62675 20080617213156
+cache-los-aa09.proxy.aol.com 0 1 4195 
+cache-dtc-ah15.proxy.aol.com 0 2 28732 
+gw.ethics.state.la.us 22 122 2098299 20080609065715
+c-66-177-76-3.hsd1.fl.comcast.net 1 1 16067 20080630164638
+cache-ntc-aa01.proxy.aol.com 0 7 29365 
+dslb-084-063-193-024.pools.arcor-ip.net 1 10 79268 20080615233750
+cache-mtc-af13.proxy.aol.com 0 1 23707 
+75-94-188-190.hon.clearwire-dns.net 1 11 93962 20080627060418
+89.122.29.126 1 1 8228 20080617021955
+ip70-179-172-16.fv.ks.cox.net 1 11 93962 20080624174518
+92.43.64.82 1 2 126375 20080626015407
+adsl-69-229-172-28.dsl.irvnca.pacbell.net 1 11 93962 20080627212853
+lns-bzn-50f-62-147-176-104.adsl.proxad.net 1 1 0 20080604100214
+218.157.191.90.dyn.estpak.ee 1 5 15534 20080627145430
+96-26-202-197.sea.clearwire-dns.net 12 61 655374 20080605094403
+43.200.dsl.mel.iprimus.net.au 2 18 181725 20080613212341
+179-84-223-201.adsl.terra.cl 1 5 81868 20080612143842
+203-6-205-34.reed-elsevier.com.au 3 3 24447 20080614161317
+s01060013201dc15b.cg.shawcable.net 1 10 79268 20080614223238
+user-0ccss21.cable.mindspring.com 2 2 1125923 20080603095729
+78.129.194.89 1 1 4817 20080609030132
+pool-141-156-48-55.washdc.btas.verizon.net 1 9 131639 20080623154417
+63.150.69.253 5 23 308548 20080612153654
+206.127.122.226 5 30 9186 20080614175831
+c-24-147-199-70.hsd1.ma.comcast.net 1 7 27969 20080617192323
+adsl-70-237-131-202.dsl.stlsmo.sbcglobal.net 13 74 367961 20080623192739
+123hotel.dk 1 1 3350 20080606012522
+c-76-109-251-30.hsd1.fl.comcast.net 1 11 93962 20080621063509
+d142-59-7-64.abhsia.telus.net 1 1 592271 20080628200842
+c-76-115-1-250.hsd1.or.comcast.net 2 10 163736 20080616232936
+netblock-72-25-106-143.dslextreme.com 8 31 379141 20080612204118
+89.204.148.108 2 19 196419 20080627030411
+75-105-128-59.cust.wildblue.net 0 2 16593 
+cpe-67-242-35-43.twcny.res.rr.com 1 11 93962 20080626161845
+24-159-246-154.dhcp.mdsn.wi.charter.com 1 10 107431 20080608060504
+c-98-203-218-208.hsd1.wa.comcast.net 32 139 6792982 20080614000852
+c-71-58-188-135.hsd1.pa.comcast.net 1 5 81868 20080612135827
+64-13-123-94.anc.clearwire-dns.net 1 11 93962 20080629144044
+c-24-4-221-205.hsd1.ca.comcast.net 2 22 93962 20080628141902
+cblmdm72-241-65-221.buckeyecom.net 1 11 93962 20080627112902
+c-24-16-89-60.hsd1.mn.comcast.net 1 2 0 20080624234605
+220.76.169.19 1 1 8228 20080603143402
+spc1-cosh4-0-0-cust669.cosh.broadband.ntl.com 1 1 4826 20080607075731
+24.179.85.193 1 11 93962 20080625171040
+dialup-4.243.52.252.dial1.seattle1.level3.net 2 6 91054 20080612233938
+71-222-115-245.ptld.qwest.net 2 15 173302 20080624084755
+208.111.154.15 2 2 98778 20080614175122
+75-165-189-187.spkn.qwest.net 7 43 1913230 20080622135234
+75-175-114-86.ptld.qwest.net 1 10 79268 20080610093156
+c-24-16-41-132.hsd1.mn.comcast.net 6 20 219628 20080604080947
+c-67-168-70-111.hsd1.wa.comcast.net 10 26 1691497 20080611071652
+r190-134-8-104.dialup.adsl.anteldata.net.uy 2 2 0 20080629171520
+pool-71-115-95-155.sbndin.dsl-w.verizon.net 1 11 93962 20080629130529
+pd9e3557d.dip.t-dialin.net 1 1 0 20080623101705
+semillion.sge.net 2 12 179997 20080624232534
+71-34-235-247.eugn.qwest.net 14 59 3357910 20080603213744
+bzq-25-91-107.static.bezeqint.net 16 16 160569 20080630133222
+cache-dtc-ah04.proxy.aol.com 0 3 6894 
+host-24-100-6-171.newwavecomm.net 1 1 68251 20080617192705
+c-68-57-11-127.hsd1.fl.comcast.net 1 11 93962 20080628013759
+70-56-87-125.tukw.qwest.net 6 32 198373 20080625083319
+c-76-17-210-150.hsd1.mn.comcast.net 1 11 93962 20080628103804
+ppp-58-9-100-224.revip2.asianet.co.th 1 1 8228 20080615073824
+74-95-126-149-washington.hfc.comcastbusiness.net 4 17 184956 20080616100600
+h75-100-31-89.htchco.dsl.dynamic.tds.net 1 10 79268 20080618154101
+pool-71-184-94-6.bstnma.fios.verizon.net 1 1 13963 20080622134720
+cache-dtc-aa06.proxy.aol.com 1 1 24117 20080627071133
+195.39.108.138 1 1 2365440 20080601061943
+72.24.246.118 1 11 93962 20080622033938
+donobi-2-45.ra.donobi.net 3 25 271343 20080617121355
+cache-los-ad03.proxy.aol.com 0 1 4287 
+193.136.112.242 1 10 79268 20080617152002
+130.76.32.182 4 24 243119 20080610114112
+wblv-ip-pcache-8-vif1.telkom-ipnet.co.za 1 3 636115 20080615080641
+ip72-204-149-20.no.no.cox.net 3 26 286037 20080626172416
+77-100-159-221.cable.ubr07.shef.blueyonder.co.uk 1 1 10838 20080615092339
+cust-51-66.cust.o2.ie 1 1 13963 20080624075632
+5ac0a92c.bb.sky.com 1 4 22123 20080608140757
+66.29.163.1.static.utahbroadband.com 1 11 93962 20080630131518
+96.32.177.244 1 11 93962 20080622080941
+pool-141-155-117-138.ny5030.east.verizon.net 5 28 8210522 20080604122741
+75.117.114.8 2 24 79765 20080607062332
+adsl-71-137-239-57.dsl.irvnca.pacbell.net 1 1 30123 20080629005013
+ppp079166239052.dsl.hol.gr 1 6 24523 20080628043147
+p549e65c9.dip.t-dialin.net 3 30 111045 20080622041443
+pool-71-112-138-166.sttlwa.dsl-w.verizon.net 2 14 158460 20080613073534
+h-64-236-128-12.nat.aol.com 2 2 17112 20080628201332
+62.54.4.138 20 20 184709 20080625204622
+pool-68-238-141-122.sea.dsl-w.verizon.net 2 18 181725 20080604134752
+67.98.76.2 5 27 221669 20080605000812
+71-35-174-178.tukw.qwest.net 12 35 2014913 20080606214943
+ip5659b145.speed.planet.nl 1 1 7857 20080601084448
+66-227-194-234.dhcp.bycy.mi.charter.com 3 23 271561 20080625190450
+89.128.227.21 2 2 16456 20080618081805
+62.92.32.53 1 10 79268 20080619142841
+c-67-183-28-30.hsd1.wa.comcast.net 1 11 93962 20080630071208
+host-92-5-129-71.as43234.net 1 4 22326 20080604094409
+71-217-43-74.tukw.qwest.net 6 72 342876 20080608204056
+p7730.p.pppool.de 2 29 139200 20080611185124
+g227188237.adsl.alicedsl.de 2 2 0 20080628085154
+64-91-107-190.dyn.centurytel.net 15 77 12799288 20080612151656
+spkdsl-116-181.cet.com 2 18 181725 20080613044454
+c-68-41-107-24.hsd1.mi.comcast.net 1 7 39302 20080611003222
+cache-mtc-af05.proxy.aol.com 0 2 11144 
+adsl-17-142-94.bhm.bellsouth.net 1 4 22326 20080626111758
+202.163.66.238 1 1 8556 20080630093858
+cpe-70-112-173-14.austin.res.rr.com 1 1 9735 20080619190605
+pool-71-112-244-226.sttlwa.dsl-w.verizon.net 1 10 79268 20080607074558
+ccc-pc.camdencc.edu 1 1 11993 20080619095554
+68-114-234-208.dhcp.fdul.wi.charter.com 1 11 93962 20080628101546
+206.127.122.213 1 1 0 20080628210746
+cache-dtc-ah07.proxy.aol.com 0 1 730 
+71-218-178-132.hlrn.qwest.net 2 2 0 20080626124507
+71-211-158-88.hlrn.qwest.net 2 18 181725 20080615130937
+92.22.32.94 2 18 181725 20080601122441
+pool-71-175-16-38.phlapa.fios.verizon.net 2 2 1456006 20080615183836
+c-67-182-140-156.hsd1.wa.comcast.net 2 8 623196 20080616082620
+adsl-210-166-241.sdf.bellsouth.net 2 9 47283 20080613201738
+c-98-203-109-149.hsd1.fl.comcast.net 1 10 79268 20080618203659
+c-76-103-252-110.hsd1.ca.comcast.net 1 10 79268 20080611231122
+cpe-76-185-129-20.tx.res.rr.com 1 11 93962 20080627051634
+adsl-068-153-203-223.sip.bct.bellsouth.net 1 11 93962 20080626053821
+cache-ntc-ad06.proxy.aol.com 2 8 98358 20080623184336
+ppp-70-247-248-78.dsl.spfdmo.swbell.net 1 11 93962 20080627175032
+71.94.9.237 1 1 8556 20080621110715
+nc-tn-taz-65-197-34-187.netcommander.com 1 10 107431 20080605180852
+pa-67-234-111-179.dhcp.embarqhsd.net 2 19 196419 20080622103429
+adsl-76-212-154-108.dsl.sndg02.sbcglobal.net 6 37 203293 20080629140532
+12.171.44.226 2 15 173302 20080624135547
+ip70-189-139-121.lv.lv.cox.net 1 11 93962 20080623204752
+c-71-231-84-49.hsd1.or.comcast.net 3 16 187482 20080630143504
+97-113-36-54.tukw.qwest.net 2 18 181725 20080616090808
+71-219-90-91.slkc.qwest.net 1 1 6890 20080601121711
+static-208-80-193-28.as13448.com 2 2 16784 20080629124824
+p5084a229.dip0.t-ipconnect.de 4 4 0 20080602102111
+216-67-45-43-dsl-rb1.nwc.acsalaska.net 8 33 397820 20080622103022
+adsl-211-217-54.asm.bellsouth.net 4 22 222915 20080621122726
+dsl.static8599112230.ttnet.net.tr 1 1 8228 20080603143405
+softbank219054036022.bbtec.net 1 10 79268 20080608035231
+pool-71-251-47-110.nwrknj.east.verizon.net 2 2 17112 20080628181158
+c-67-185-180-125.hsd1.wa.comcast.net 7 42 285693 20080602124711
+kokab.lunarservers.com 21 21 221653 20080606035916
+199.67.131.152 0 2 0 
+wl108.cc.ntu.edu.tw 3 30 147428 20080616030427
+66.249.85.134 1 1 15919 20080608152905
+p1022-ipbf210okayamaima.okayama.ocn.ne.jp 1 11 93962 20080621230806
+c-68-84-197-85.hsd1.az.comcast.net 1 11 93962 20080623202421
+cache-dtc-ae07.proxy.aol.com 4 4 25668 20080628223430
+24.216.133.43 1 10 107431 20080607072517
+cach2.nov.mobile.re2.yahoo.net 0 4 57258 
+cpc5-lanc4-0-0-cust709.brig.cable.ntl.com 2 2 0 20080621020140
+cache-dtc-af05.proxy.aol.com 0 2 11144 
+user-105n8e0.cable.mindspring.com 2 2 3786 20080625211425
+cpe-69-204-141-251.nycap.res.rr.com 3 20 254143 20080615112747
+ec2-75-101-211-146.compute-1.amazonaws.com 1 10 79268 20080606150100
+cpe-70-95-118-228.hawaii.res.rr.com 1 11 93962 20080621182739
+pool-71-124-243-68.bstnma.east.verizon.net 2 12 96027 20080616183526
+24-113-48-62.wavecable.com 22 195 574871 20080609141431
+74.94.66.65-busname-wa.seattle.hfc.comcastbusiness.net 6 40 456133 20080608172805
+cpe-70-94-236-96.sw.res.rr.com 1 11 93962 20080620195001
+c-71-198-30-144.hsd1.ca.comcast.net 1 11 93962 20080626193501
+cpe-76-170-239-221.socal.res.rr.com 1 1 102656 20080611014559
+207-118-27-156.dyn.centurytel.net 8 70 343094 20080626194033
+cpe-70-95-89-119.hawaii.res.rr.com 1 11 93962 20080622011811
+h-64-236-243-16.twi.com 3 9 841982 20080613121902
+dlk02.image.cn3.yahoo.com 0 4 0 
+mdb01.image.cn3.yahoo.com 0 2 32602 
+fl-74-4-58-153.dhcp.embarqhsd.net 1 1 8556 20080628185538
+c-98-204-253-59.hsd1.md.comcast.net 2 7 87755 20080610071443
+static-208-80-193-37.as13448.com 3 3 25340 20080623195235
+cpe-76-170-146-150.socal.res.rr.com 1 11 93962 20080621070527
+88.81.132.51 2 22 77319 20080626154754
+71-217-114-8.tukw.qwest.net 28 131 1338058 20080624122323
+76.113.210.205 1 11 93962 20080622090528
+mac01.logika.net 1 11 93962 20080630195313
+knvl-01-0724.dsl.iowatelecom.net 1 11 93962 20080629223620
+199.67.131.216 0 1 0 
+cache-los-ad09.proxy.aol.com 1 3 75956 20080606023512
+c-71-233-6-118.hsd1.ma.comcast.net 1 10 79268 20080615170150
+69.66.41.75 1 11 93962 20080627075253
+acbe477b.ipt.aol.com 1 1 15919 20080614133829
+security-lab1.juniper.net 7 7 65044 20080622044026
+ppp85-140-66-219.pppoe.mtu-net.ru 1 1 18634 20080629031531
+adsl-75-5-226-252.dsl.klmzmi.sbcglobal.net 1 11 93962 20080625142253
+5ad43895.bb.sky.com 1 4 22326 20080615101039
+phoenix.uascwa.com 3 20 192563 20080612130534
+cache-mtc-af15.proxy.aol.com 0 1 16857 
+63-227-54-29.hlrn.qwest.net 1 11 93962 20080622070530
+166.129.184.153 2 19 196419 20080621085119
+bl3-239-86.dsl.telepac.pt 2 18 181725 20080614151228
+w3cache4.helnet.pl 1 1 0 20080615012715
+crawl1.nat.svl.searchme.com 43 57 775861 20080630224250
+c-71-197-213-43.hsd1.or.comcast.net 10 29 330379 20080604102323
+c-71-231-149-185.hsd1.or.comcast.net 5 16 212710 20080616195858
+76.28.132.232 8 34 167646 20080604211501
+67-40-208-116.tukw.qwest.net 9 33 326906 20080617114540
+128.95.125.43 1 5 81868 20080613132757
+64.1.204.236.ptr.us.xo.net 1 5 32302 20080630120512
+son-216-86-190-178.static.mlode.com 1 1 0 20080609171935
+dsl5-ore-173.fiber.net 1 5 42252 20080603180043
+75-101-8-77.dsl.static.sonic.net 35 90 11916258 20080621153031
+c-71-231-174-168.hsd1.or.comcast.net 2 14 158460 20080612220313
+pool-71-115-221-158.spknwa.dsl-w.verizon.net 3 22 254143 20080605181805
+cache-dtc-ae05.proxy.aol.com 0 1 25342 
+host-41.234.128.26.tedata.net 2 2 116634 20080606023705
+c-69-140-17-237.hsd1.md.comcast.net 1 10 107431 20080613075228
+c-71-229-38-242.hsd1.ga.comcast.net 2 20 181725 20080613162657
+70-14-211-191.area3.spcsdns.net 1 11 93962 20080620195309
+gate2-bremerton.nmci.navy.mil 12 86 1014913 20080625151353
+201-211-53-232.genericrev.cantv.net 1 11 93962 20080620162912
+pool-71-170-22-216.dllstx.fios.verizon.net 1 1 15919 20080604064446
+host.sharebuilder.com 6 30 299938 20080627102945
+68-31-159-73.area4.spcsdns.net 1 1 10602 20080615210823
+168.156.83.168 1 5 81868 20080612151728
+65.88.4.67 2 7 87952 20080613075141
+ca208-ch02-bl02.il-chicago0.sa.earthlink.net 3 8 76119 20080603193733
+cache-mtc-ad15.proxy.aol.com 0 2 4195 
+bl1sch4090818.phx.gbl 1 2 10793 20080610152831
+5ac1cd02.bb.sky.com 2 5 35940 20080620082955
+rrcs-24-106-244-103.central.biz.rr.com 1 10 79268 20080611151139
+s0106000d9358acd4.vs.shawcable.net 1 11 93962 20080622221219
+muedsl-82-207-240-051.citykom.de 4 4 0 20080627143353
+pool-71-107-80-6.lsanca.dsl-w.verizon.net 2 11 87496 20080610145628
+ip68-105-199-242.cl.ri.cox.net 1 1 10838 20080604204048
+78.144.169.227 1 1 18634 20080624084132
+host66-105-dynamic.15-87-r.retail.telecomitalia.it 1 1 14154 20080610110749
+96.14.88.217 1 11 110107 20080605023827
+static-63-131-49-153.col.onecommunications.net 1 11 93962 20080628160623
+65.168.242.195 1 5 42252 20080612084646
+63-224-34-146.tukw.qwest.net 1 5 81868 20080612181137
+mail.eagleswings.to 4 15 267237 20080620141729
+kssl-4db3ce40.pool.einsundeins.de 1 1 12234 20080605103900
+ip68-99-170-43.ri.ri.cox.net 1 1 16455 20080605195623
+hlfxns0148w-142068234103.pppoe-dynamic.ns.aliant.net 1 1 533652 20080618040254
+c-68-82-126-138.hsd1.pa.comcast.net 1 10 107431 20080609111606
+200.80.242.137.static.techtelnet.net 1 11 93962 20080629191857
+poirot.aot.tu-berlin.de 2 2 20919 20080605025948
+girvin-gw.customer.alter.net 1 10 79268 20080613112430
+c-67-160-61-78.hsd1.wa.comcast.net 5 28 278570 20080624235630
+67.233.161.57 1 11 93962 20080624210321
+adsl-074-236-141-241.sip.cae.bellsouth.net 1 1 9735 20080611203551
+75-142-219-134.static.rvsd.ca.charter.com 1 2 10854 20080628135900
+c-24-17-228-197.hsd1.wa.comcast.net 1 10 79268 20080608090226
+203.177.100.115 1 5 81868 20080613022921
+c-67-174-198-2.hsd1.ca.comcast.net 3 28 289156 20080617135916
+6532221hfc97.tampabay.res.rr.com 1 11 93962 20080630055232
+66-227-171-93.dhcp.aldl.mi.charter.com 1 11 93962 20080630055445
+216-99-211-52.dsl.aracnet.com 2 19 196419 20080627225323
+pool-96-240-121-183.sttlwa.fios.verizon.net 13 44 570190 20080617111006
+cache-ntc-ad08.proxy.aol.com 0 16 46088 
+pool-71-170-151-24.dllstx.fios.verizon.net 1 5 82016 20080624170348
+ik63110.ikexpress.com 9 9 114795 20080627133750
+66.165.22.75 3 16 122412 20080625085419
+c-67-189-17-21.hsd1.or.comcast.net 3 33 167138 20080626082733
+84.12.77.9 1 1 17989 20080624074507
+c-76-105-235-227.hsd1.or.comcast.net 10 85 573333 20080626162128
+wblv-ip-pcache-1-vif0.telkom-ipnet.co.za 0 1 13072 
+cache-ntc-ad04.proxy.aol.com 0 3 5158 
+c-24-18-26-139.hsd1.wa.comcast.net 2 19 210399 20080613123349
+1cust557.an3.sea18.da.uu.net 1 5 81868 20080612192107
+ppp-58-8-47-84.revip2.asianet.co.th 10 10 162252 20080609015300
+cc1080029-a.groni1.gr.home.nl 3 33 96317 20080618022940
+static-208-80-193-40.as13448.com 2 2 16784 20080623010953
+medusa.expeditors.com 3 28 337568 20080603154239
+cpe-065-184-176-166.ec.res.rr.com 1 10 79268 20080620052348
+ip68-104-59-184.lv.lv.cox.net 1 11 93962 20080629073522
+www.example.com 3 3 0 20080614121817
+ip70-173-169-28.lv.lv.cox.net 1 10 79268 20080618135210
+12.189.32.56 0 2 5819 
+c-67-168-72-219.hsd1.wa.comcast.net 1 5 81868 20080615083911
+64.91.108.97 6 14 89288 20080626171701
+host-63-239-248-5.tetonwireless.com 1 11 93962 20080625064259
+loud-yia6ffpnmy.loudcommerce.com 3 3 26362 20080612210216
+24-113-87-251.wavecable.com 0 6 5158 
+75-165-14-177.tukw.qwest.net 6 20 212502 20080615222925
+38.98.19.66 1 4 15534 20080616104659
+d75-157-140-212.bchsia.telus.net 1 5 81868 20080612151801
+93-152-3-158.kodakdentalpayg.managedbroadband.co.uk 1 1 124496 20080606071337
+adsl-75-47-227-120.dsl.lsan03.sbcglobal.net 1 11 93962 20080629230306
+80.240.203.156.swiftkenya.com 1 9 104755 20080615040305
+bl1sch2041407.phx.gbl 2 14 187547 20080608193701
+124.115.4.213 7 14 75650 20080626133408
+c-71-227-246-24.hsd1.or.comcast.net 5 35 176348 20080613163748
+softbank220052142146.bbtec.net 13 67 600867 20080618052654
+64-91-49-144.dyn.centurytel.net 6 35 349475 20080623165737
+wblv-ip-pcache-5-vif1.telkom-ipnet.co.za 0 2 32602 
+nat240.webtrends.com 7 7 58580 20080630061009
+71-82-127-206.dhcp.roch.mn.charter.com 1 5 81868 20080608174818
+s0106001cf055a8cc.vs.shawcable.net 1 10 79268 20080619093850
+195.229.236.210 1 3 22963 20080618204105
+76-221-82-255.lightspeed.rcsntx.sbcglobal.net 1 11 93962 20080622075308
+adsl-65-23-234-118.prtc.net 1 1 8556 20080630130545
+pd1px1.st.vc.shawcable.net 2 2 22736 20080620233109
+wakala.swiftkenya.com 1 1 12954 20080620070039
+dpc691914026.direcpc.com 2 24 102758 20080623204521
+c74-196-118-124.dh.suddenlink.net 3 3 1390491 20080611172243
+cpe0015e91dff11-cm000a739b0ab2.cpe.net.cable.rogers.com 2 24 85666 20080629093331
+ool-457f852e.dyn.optonline.net 1 1 8228 20080603152421
+d164.as2.sfld1.mi.core.com 1 5 81868 20080609215246
+esitesbuilder.com 2 2 16784 20080620161028
+pool-70-104-236-244.fred.east.verizon.net 1 10 107431 20080612094448
+83-216-138-17.bower981.adsl.metronet.co.uk 2 2 16456 20080617235256
+92.f5.344a.static.theplanet.com 1 1 8228 20080619075406
+24-214.72-24-cpe.cableone.net 9 39 3080908 20080602105532
+cust-63-209-226-167.bos-dynamic.gis.net 1 11 93962 20080629084429
+c-71-226-109-43.hsd1.sc.comcast.net 1 6 28313 20080624085635
+58-84-137-149.e-wire.net.au 2 2 21676 20080623040649
+c-68-62-206-75.hsd1.fl.comcast.net 1 6 24523 20080613100241
+node192.235.100.208.1dial.com 1 10 107431 20080614190423
+dlk06.image.cn3.yahoo.com 0 3 0 
+cpe-76-168-101-145.socal.res.rr.com 1 11 93962 20080625220924
+190-48-187-251.speedy.com.ar 1 1 6890 20080609201324
+rrba-ip-pcache-6-vif0.telkom-ipnet.co.za 1 1 8556 20080623060817
+h237135.upc-h.chello.nl 1 1 12774 20080606090815
+24-205-202-67.dhcp.reno.nv.charter.com 2 12 123996 20080614231609
+61.red-217-127-251.staticip.rima-tde.net 1 1 728003 20080604113758
+c-24-23-152-73.hsd1.mn.comcast.net 1 6 33116 20080603231421
+70-56-81-93.tukw.qwest.net 13 51 407728 20080607092359
+omega.wl.skynet.cz 3 19 145483 20080616011832
+bl1sch2041409.phx.gbl 2 13 180041 20080601060453
+cpe-124-180-8-100.vic.bigpond.net.au 1 1 24117 20080606204658
+adsl-248-88-108.btr.bellsouth.net 2 18 181725 20080601135151
+bowness-out.eng.telusmobility.com 1 11 93962 20080630050418
+64.233.160.136 1 1 18634 20080613144929
+ptc-gw.ptc.com 8 40 241652 20080618100245
+cache-los-ac09.proxy.aol.com 1 2 33570 20080606023348
+c-76-22-118-99.hsd1.wa.comcast.net 1 5 81868 20080601232559
+193.108.185.28 19 19 210144 20080606002923
+12-201-117-235.client.mchsi.com 1 11 93962 20080621040955
+ec2-75-101-194-252.compute-1.amazonaws.com 1 5 26775 20080626060153
+pool-71-106-208-211.lsanca.dsl-w.verizon.net 1 6 28313 20080606041725
+us02-cip.synopsys.com 1 1 9735 20080619142004
+c-76-104-170-173.hsd1.wa.comcast.net 1 10 79268 20080604223925
+cache-mtc-ag13.proxy.aol.com 0 1 3738 
+190.142.85.92 1 10 79268 20080620055141
+216.126.41.89 44 44 390160 20080614061220
+122-201-36-51.reverse.newskies.net 7 34 345325 20080615223216
+adsl-70-136-108-118.dsl.rcsntx.sbcglobal.net 1 11 93962 20080629051719
+cache-prs-aa03.proxy.aol.com 1 1 48828 20080620132243
+c-71-224-35-178.hsd1.pa.comcast.net 2 18 181725 20080614155331
+cache-ntc-ab04.proxy.aol.com 3 11 54448 20080623184632
+pool-96-244-71-49.bltmmd.fios.verizon.net 1 11 93962 20080626111554
+pool-71-121-210-16.sttlwa.fios.verizon.net 8 47 563340 20080611135343
+nts-22.83-182-65.nts-online.net 1 11 93962 20080625144700
+71-210-140-104.mpls.qwest.net 1 11 93962 20080622074237
+adsl-70-131-47-147.dsl.emhril.sbcglobal.net 4 33 196419 20080624194202
+pool-71-113-60-85.sttlwa.dsl-w.verizon.net 6 29 292750 20080624202532
+nfs.6com.net 1 1 8228 20080611130056
+s002.networking4all.com 1 1 8228 20080615001528
+12.186.229.36 4 4 34224 20080628210104
+192.117.169.130 1 1 8556 20080625045223
+bluewhale-ext.nus.edu.sg 1 1 9735 20080612125849
+c-24-16-130-49.hsd1.wa.comcast.net 1 5 81868 20080612140249
+r74-193-197-11.lkchcmta02.lkchla.by.dh.suddenlink.net 1 1 533652 20080614164018
+adsl-067-032-138-026.sip.mia.bellsouth.net 1 11 93962 20080630162210
+h238.176.29.71.ip.alltel.net 1 5 42252 20080601055758
+152.3.220.44 1 4 22123 20080623095734
+64.208.182.32 13 14 135438 20080606185428
+c-67-160-85-34.hsd1.wa.comcast.net 1 10 79268 20080614180125
+89-139-123-1.bb.netvision.net.il 1 1 13963 20080629055201
+71-38-160-79.desm.qwest.net 1 11 93962 20080624033925
+cache-mtc-ah11.proxy.aol.com 0 1 28674 
+24-113-105-40.wavecable.com 5 36 429860 20080620123116
+35.red-80-58-205.staticip.rima-tde.net 1 11 93962 20080630162036
+ip68-4-219-217.oc.oc.cox.net 0 2 112412 
+adsl-76-203-37-159.dsl.emhril.sbcglobal.net 1 10 79268 20080618192447
+cpe-76-90-152-41.socal.res.rr.com 1 11 93962 20080629225055
+payit-mail.pay-it.com 1 1 8228 20080617144916
+adsl-146-180-219.mem.bellsouth.net 1 10 79268 20080620143435
+cache01.dca.untd.com 2 19 196419 20080622212110
+c250-035.blackberry.net 1 5 21473 20080613212030
+c-68-41-91-4.hsd1.mi.comcast.net 1 10 79268 20080618151325
+next-twenty-nine.mit.edu 1 7 39302 20080623155645
+bl1sch4084006.phx.gbl 2 14 187543 20080607141848
+162.58.82.135 1 5 81868 20080612185934
+12.198.232.210 14 50 464985 20080624090808
+emailt.jigsaw.com 1 1 8228 20080611223731
+host-196-205-236-76.static.link.com.eg 1 1 8228 20080617100914
+cache-los-ac04.proxy.aol.com 0 1 10569 
+cache-mtc-ah14.proxy.aol.com 0 1 56499 
+208.111.154.37 1 1 13614 20080616013152
+004.1.ic.ncs.com 1 4 22123 20080610132416
+adsl-76-222-108-16.dsl.lsan03.sbcglobal.net 1 10 107431 20080611233428
+nc-71-0-18-100.dhcp.embarqhsd.net 1 5 82016 20080620194540
+75-167-147-157.bois.qwest.net 1 11 93962 20080626034731
+c-98-219-89-99.hsd1.fl.comcast.net 1 10 79268 20080614071807
+67-132-191-30.dia.static.qwest.net 4 33 754892 20080605133752
+65-182-234-15.ccmtc.com 1 5 81868 20080612164717
+c-76-22-1-7.hsd1.wa.comcast.net 1 5 81868 20080616113631
+201-95-1-119.dsl.telesp.net.br 3 9 971210 20080621054647
+host22.stevenshealthcare.org 6 45 317205 20080626154851
+193.137.97.228 1 1 340984 20080617081958
+adsl-098-073-014-246.sip.asm.bellsouth.net 1 10 146794 20080613195552
+62.101.185.93.dyn.user.ono.com 2 2 18634 20080622070728
+mail.premiercenters.net 4 33 169891 20080616121433
+adsl101-239.kln.forthnet.gr 2 2 17112 20080630015308
+acbe1939.ipt.aol.com 1 1 4125 20080617084000
+abts-tn-dynamic-063.87.164.122.airtelbroadband.in 1 2 126375 20080607005106
+ip68-230-106-176.ph.ph.cox.net 3 26 286037 20080627154910
+bas21-toronto12-1242364413.dsl.bell.ca 1 11 93962 20080625132955
+cpc2-nwrk1-0-0-cust597.nott.cable.ntl.com 1 4 22326 20080622101925
+77.126.231.243 1 1 8556 20080625060658
+226.62.205.68.cfl.res.rr.com 2 2 48234 20080615061327
+12-216-158-47.client.mchsi.com 1 5 82016 20080629053031
+c-67-168-65-93.hsd1.wa.comcast.net 6 48 12411055 20080622190104
+60-240-249-195.tpgi.com.au 1 1 8556 20080627165705
+static-208-80-193-36.as13448.com 1 1 8228 20080607222851
+12-201-59-20.client.mchsi.com 2 19 196419 20080626211802
+24-116-50-239.cpe.cableone.net 1 1 9735 20080622202706
+cache-dtc-ad06.proxy.aol.com 0 3 17478 
+c-76-121-176-46.hsd1.wa.comcast.net 6 41 444036 20080608090843
+adsl-75-6-150-44.dsl.skt2ca.sbcglobal.net 1 5 81868 20080603120222
+ppp-58-8-88-199.revip2.asianet.co.th 2 2 17112 20080630163220
+cache-mtc-ae05.proxy.aol.com 0 1 14366 
+251.102.199-77.rev.gaoland.net 3 3 1351625 20080620132305
+cache-ntc-ac01.proxy.aol.com 1 5 62516 20080616230044
+inetgate23.bp.com 7 68 349786 20080619084122
+adsl-235-38-72.clt.bellsouth.net 8 19 1803079 20080606170114
+d192-24-116-214.try.wideopenwest.com 1 11 93962 20080621061242
+chopdate.com 19 19 164573 20080618021518
+static-208-80-193-33.as13448.com 5 5 42124 20080630084256
+c-98-213-191-150.hsd1.il.comcast.net 5 34 369207 20080623093624
+uw1-184-pc01.uwb.edu 1 5 81868 20080616122843
+cache-ntc-ad03.proxy.aol.com 2 4 22856 20080623184648
+d18-3.rb.gh.centurytel.net 2 18 181725 20080610071114
+adsl-065-007-160-242.sip.bct.bellsouth.net 1 1 728003 20080626173209
+p54b37c7a.dip.t-dialin.net 1 1 18510 20080608150602
+c-24-126-179-83.hsd1.ga.comcast.net 1 11 93962 20080629062114
+gate4-norfolk.nmci.navy.mil 0 6 49612 
+158.70.65.122 1 5 81868 20080613053706
+d-69-91-157-184.dhcp4.washington.edu 1 10 79268 20080610111654
+cybertechno.de 20 20 152673 20080607002550
+208.44.68.97 7 21 740210 20080630101737
+217.202.106.1 1 1 805117 20080608154344
+gw3.marsh.com 4 30 334173 20080616153239
+fl-71-54-174-158.dhcp.embarqhsd.net 1 11 93962 20080630110207
+c-67-180-99-171.hsd1.ca.comcast.net 1 1 9735 20080612173157
+cpe-024-211-071-251.sc.res.rr.com 1 1 9735 20080619161603
+nv-71-2-72-130.dhcp.embarqhsd.net 1 11 93962 20080624102043
+71-217-119-4.tukw.qwest.net 2 15 179849 20080612193011
+c-76-121-94-26.hsd1.wa.comcast.net 1 7 84592 20080623104600
+76-14-126-56.rk.wavecable.com 1 5 42252 20080615153925
+87.112.90.245.plusnet.ptn-ag2.dyn.plus.net 1 1 9735 20080604170815
+pool-71-183-177-214.nycmny.east.verizon.net 2 8 55391 20080605125521
+38.100.41.98 2 2 24147 20080614050818
+c-68-84-149-100.hsd1.nm.comcast.net 1 11 93962 20080623212642
+99-196-3-247.cust.wildblue.net 2 16 110274 20080630193757
+cache-mtc-ad06.proxy.aol.com 0 2 7042 
+host86-133-112-141.range86-133.btcentralplus.com 1 11 219843 20080612103728
+24-113-106-101.wavecable.com 8 54 473295 20080612175919
+c-76-28-197-0.hsd1.wa.comcast.net 3 20 254143 20080606123655
+static-87-245-39-135.teleos-web.de 5 5 63525 20080614120550
+static-66-182-71-18.bbsc.net 1 11 93962 20080624195930
+ip-78-137-163-133.dedi.digiweb.ie 4 41 331766 20080626175750
+v87.nat.svl.searchme.com 1 1 90283 20080630062956
+67-41-164-123.slkc.qwest.net 1 10 79268 20080618225929
+cpe-66-74-239-236.socal.res.rr.com 3 26 286037 20080622175229
+c-24-16-111-235.hsd1.mn.comcast.net 19 73 1578266 20080627095247
+mobile-032-157-199-103.mycingular.net 1 1 8228 20080611180527
+15.sub-70-197-136.myvzw.com 2 18 181725 20080604133955
+68-112-19-067.dhcp.ahvl.nc.charter.com 3 23 271561 20080630144907
+adsl-75-21-169-221.dsl.sgnwmi.sbcglobal.net 1 11 93962 20080620222838
+gate2-norfolk.nmci.navy.mil 1 6 92768 20080625083018
+89.1.38.211.dynamic.barak-online.net 1 1 12954 20080606052007
+c250-034.blackberry.net 0 3 19662 
+bsb65-44.med.utah.edu 1 11 93962 20080630125543
+195.57.119.130 3 3 1283912 20080604022451
+ec2-67-202-46-70.compute-1.amazonaws.com 2 2 21676 20080610103216
+pd95b3587.dip0.t-ipconnect.de 2 2 0 20080620074412
+modemcable020.103-81-70.mc.videotron.ca 2 2 48234 20080602072851
+cache-ntc-ab09.proxy.aol.com 0 4 48982 
+30.houston-16rh16rt.tx.dial-access.att.net 1 8 66436 20080618225437
+adsl-76-205-252-19.dsl.pltn13.sbcglobal.net 2 12 96027 20080609214120
+65-183-135-207-dhcp.burlingtontelecom.net 2 18 181725 20080601201805
+hiper4-216modem.pcpartner.net 1 11 93962 20080621193300
+c-76-105-153-192.hsd1.or.comcast.net 5 35 283302 20080614105423
+189.189-62-69.ftth.swbr.surewest.net 1 1 6890 20080605142250
+c-75-70-25-73.hsd1.co.comcast.net 1 11 93962 20080629063620
+c-24-16-201-37.hsd1.mn.comcast.net 1 10 79268 20080605175644
+adsl-2-121-179.mia.bellsouth.net 0 1 2298 
+c-76-113-136-103.hsd1.mn.comcast.net 1 11 93962 20080624074741
+c-68-39-165-19.hsd1.nj.comcast.net 2 7 28310 20080610213557
+pool-71-121-197-53.sttlwa.dsl-w.verizon.net 2 13 110721 20080625074259
+207-207-79-105.ade.theriver.com 2 2 29472 20080605073219
+excalibur.ncbpac.org 2 5 386155 20080611074457
+c-24-16-165-141.hsd1.mn.comcast.net 4 23 296919 20080621082506
+66-214-61-113.dhcp.hspr.ca.charter.com 2 13 92972 20080612224517
+75-175-114-32.ptld.qwest.net 1 10 79268 20080618115505
+206.127.122.39 2 15 38989 20080620212413
+212.219.231.1 1 10 107431 20080616012620
+210.212.163.59 2 11 87496 20080617021412
+128.177.10.209 1 1 8228 20080604084433
+weingardt.terranova.net 5 24 272225 20080630144911
+bl1sch2041411.phx.gbl 1 2 10793 20080615032701
+45.14-177-91.adsl-dyn.isp.belgacom.be 1 5 81868 20080615235736
+dsl254-016-125.sea1.dsl.speakeasy.net 2 14 106063 20080621230748
+c-24-22-6-227.hsd1.mn.comcast.net 2 18 181725 20080617193657
+c-76-121-205-218.hsd1.wa.comcast.net 2 18 181725 20080618182940
+24-116-63-52.cpe.cableone.net 1 11 93962 20080624190043
+158.228.211.10 2 10 163884 20080625174842
+70-6-65-44.area1.spcsdns.net 1 5 81868 20080612170452
+c-76-104-195-129.hsd1.wa.comcast.net 2 18 263278 20080608142314
+cache-ntc-ab07.proxy.aol.com 2 2 22198 20080623184903
+64.184.170.21 1 5 81868 20080612164257
+75.117.2.57 1 11 93962 20080628070526
+c-68-81-253-220.hsd1.pa.comcast.net 1 10 79268 20080619200356
+h-66-167-252-205.sttnwaho.dynamic.covad.net 2 19 196419 20080628042006
+99-204-64-80.area1.spcsdns.net 13 42 282145 20080613220543
+71-88-207-229.dhcp.kgpt.tn.charter.com 1 11 93962 20080629081425
+69.0.26.234.adsl.snet.net 4 29 189953 20080604162059
+static-208-80-193-55.as13448.com 1 1 8556 20080623182523
+pool-70-16-210-2.man.east.verizon.net 1 10 79268 20080602044916
+227.red-88-14-95.dynamicip.rima-tde.net 1 1 8228 20080617113331
+c-24-6-236-147.hsd1.ca.comcast.net 1 10 79268 20080614214409
+65-101-108-235.spkn.qwest.net 3 26 248872 20080612112340
+hln-cs1-225.dsl.mt.net 19 95 193276 20080621154333
+static-24-113-36-108.wavecable.com 3 15 162246 20080619132658
+72.47.183.20 3 20 210599 20080626130544
+c-76-121-175-73.hsd1.wa.comcast.net 1 5 81868 20080614140619
+d81-211-241-209.cust.tele2.it 1 1 8228 20080611234943
+v044146.dynamic.ppp.asahi-net.or.jp 2 22 93962 20080628003034
+cache-los-ab04.proxy.aol.com 0 1 2725 
+000f662ae520.click-network.com 2 20 158536 20080605203745
+bas4-windsor12-1279288082.dsl.bell.ca 1 11 93962 20080623001209
+ec2-75-101-241-117.compute-1.amazonaws.com 2 2 27926 20080613100606
+sczxserv.com 4 4 0 20080617195749
+cpe-76-170-180-101.socal.res.rr.com 1 10 79268 20080613195340
+adsl-71-132-67-136.dsl.sntc01.pacbell.net 1 10 107431 20080612092521
+c-67-185-250-247.hsd1.wa.comcast.net 1 1 12141 20080613113802
+cpe-66-65-251-61.ne.res.rr.com 1 1 9735 20080607170654
+pool-70-105-68-203.chi.dsl-w.verizon.net 8 33 244247 20080622231051
+host-41.235.134.7.tedata.net 3 3 37566 20080606063205
+dialup-4.243.62.28.dial1.seattle1.level3.net 1 2 14470 20080603193448
+yasmeen.favo.tv 1 1 8228 20080613161231
+cache-mtc-ad07.proxy.aol.com 0 2 14520 
+ip-83-99-25-215.dyn.luxdsl.pt.lu 1 1 12702 20080603023258
+ip68-231-215-34.oc.oc.cox.net 1 11 93962 20080626084941
+c-67-182-150-55.hsd1.wa.comcast.net 11 57 498631 20080606201504
+ec2-67-202-10-182.compute-1.amazonaws.com 2 2 48234 20080611000913
+host86-134-79-40.range86-134.btcentralplus.com 1 1 81728 20080618130314
+12.206.29.130 1 11 93962 20080625221710
+66.77.136.153 3 3 47757 20080616211933
+85-220-89-12.dsl.dynamic.simnet.is 2 19 196419 20080626215830
+75-105-128-38.cust.wildblue.net 0 2 4974 
+71-32-5-163.spkn.qwest.net 5 20 233316 20080626230643
+c-69-141-243-107.hsd1.nj.comcast.net 2 19 196419 20080627071903
+137.122.93.191 0 1 56499 
+216.186.185.213 1 11 93962 20080623035107
+wblv-ip-pcache-8-vif0.telkom-ipnet.co.za 2 2 699176 20080615081131
+66-214-17-178.dhcp.lnbh.ca.charter.com 1 11 93962 20080630012349
+82.30.227.87.static.djh.siw.siwnet.net 1 1 9735 20080613151923
+ip70-190-22-223.ph.ph.cox.net 1 11 93962 20080625221243
+69.243.237.189 1 5 82016 20080622195324
+pool-96-238-192-211.bing.east.verizon.net 1 11 93962 20080627124629
+gate3-norfolk.nmci.navy.mil 0 2 14764 
+ftp.oakcreek.k12.wi.us 1 5 18113 20080606103515
+host81-158-161-111.range81-158.btcentralplus.com 1 10 79268 20080607134946
+tropmx2.trustedopinion.com 1 1 8556 20080625000050
+pool-96-237-0-215.bstnma.east.verizon.net 1 6 28313 20080602205913
+host-41-196-149-178.static.link.com.eg 3 3 25404 20080606121608
+78.148.88.121 1 1 602056 20080605141843
+c-75-71-129-187.hsd1.co.comcast.net 1 11 93962 20080621232047
+c-24-19-49-125.hsd1.mn.comcast.net 10 48 357909 20080601211659
+38.98.19.68 1 4 16059 20080613092113
+s010600179a9c58d5.vc.shawcable.net 1 10 79268 20080617102225
+244.37.173.61.broad.xw.sh.dynamic.163data.com.cn 1 6 28313 20080630105431
+69-12-234-232.dsl.dyn.son.sunset.net 1 1 13963 20080616184657
+246.206.203-77.rev.gaoland.net 1 1 0 20080612150100
+cache-los-ac01.proxy.aol.com 0 1 23707 
+unknown.al.charter.com 1 11 93962 20080628173557
+cache-ntc-aa09.proxy.aol.com 1 2 5051 20080616230058
+cache-dtc-aa03.proxy.aol.com 1 1 14180 20080627071007
+ns2.outboundrequest.com 2 2 17112 20080623091222
+pool-71-127-8-143.spfdma.east.verizon.net 3 19 195905 20080609141300
+207-172-146-173.c3-0.129-ubr1.lnh-129.md.cable.rcn.com 1 5 42252 20080630150541
+adsl-68-77-108-249.dsl.lgtpmi.sbcglobal.net 1 15 107045 20080611233355
+ool-18bb4930.dyn.optonline.net 1 9 131639 20080624143021
+204.201.224.2 4 34 351756 20080623103910
+pool-141-153-210-197.mad.east.verizon.net 1 10 79268 20080619055646
+cluster.worio.com 1 1 12141 20080609120438
+dsl254-102-160.nyc1.dsl.speakeasy.net 1 11 93962 20080625141203
+216.145.16.237 1 15 123639 20080607234107
+c-24-18-221-72.hsd1.wa.comcast.net 1 10 79268 20080617134418
+135.sub-70-197-127.myvzw.com 1 10 107431 20080603210435
+gate1-bremerton.nmci.navy.mil 17 76 1160965 20080625145228
+adsl-75-52-169-96.dsl.dytnoh.sbcglobal.net 2 2 30030 20080627183215
+c-68-82-107-249.hsd1.nj.comcast.net 1 4 22123 20080602113553
+c-76-104-150-240.hsd1.wa.comcast.net 3 15 167646 20080614112448
+ppp-62-216-211-58.dynamic.mnet-online.de 20 20 248340 20080621093852
+170.173.0.18 6 26 332707 20080622085025
+cache-ntc-ad01.proxy.aol.com 12 26 201232 20080629173824
+69.85.97.35 1 10 107431 20080623115653
+ethicsgradient.derwentside.net 1 4 22326 20080617051110
+gateway.ocls.info 1 11 93962 20080624092158
+25.113.207.68.cfl.res.rr.com 1 10 79268 20080620051407
+static-208-80-193-32.as13448.com 1 1 8556 20080620191915
+203.158.221.227 1 1 24117 20080606012526
+s01060016cb99992d.ok.shawcable.net 4 10 570857 20080619204746
+216-161-89-20.ptld.qwest.net 7 35 349088 20080627175245
+c-24-19-171-177.hsd1.mn.comcast.net 1 9 131639 20080630005145
+udp198679uds.hawaiiantel.net 1 11 93962 20080620170930
+75-92-162-68.sea.clearwire-dns.net 3 17 141800 20080620192239
+mail2.larsonking.com 5 30 135771 20080608100251
+218.231.89.217.eo.eaccess.ne.jp 2 23 308831 20080621063752
+adsl-64-166-43-146.dsl.scrm01.pacbell.net 1 5 81868 20080613150822
+cache-dtc-aa10.proxy.aol.com 0 3 2190 
+dynamic-98-141-7-54.dsl.cavtel.net 1 11 93962 20080621052815
+harriet-28.wccnet.org 1 10 79268 20080620045749
+h75-100-68-116.vrnawi.dsl.dynamic.tds.net 6 50 404305 20080617134227
+cache-ntc-ab01.proxy.aol.com 4 7 102106 20080623184215
+c-67-170-116-186.hsd1.wa.comcast.net 1 10 79268 20080619181413
+cpe-24-90-177-174.nyc.res.rr.com 6 24 293477 20080617050807
+c-67-183-223-187.hsd1.wa.comcast.net 1 5 81868 20080612172206
+dlk04.image.cn3.yahoo.com 0 3 0 
+c-71-203-62-54.hsd1.fl.comcast.net 1 10 79268 20080620062025
+cache-los-ab05.proxy.aol.com 1 2 10572 20080606023342
+gate1-norfolk.nmci.navy.mil 1 5 39275 20080625082923
+dhcp-063-252-245-198.ccu501.glmn.wrx.illicom.net 1 11 93962 20080629192137
+pool-71-113-18-225.sttlwa.dsl-w.verizon.net 5 35 186439 20080613230446
+80.187.196.130 4 4 0 20080628152149
+ec2-67-202-29-219.compute-1.amazonaws.com 1 5 26775 20080625081206
+dsl-63-249-102-186.cruzio.com 11 39 2463025 20080616182042
+75-150-36-125-oregon.hfc.comcastbusiness.net 2 15 173302 20080625160554
+c-75-68-212-231.hsd1.vt.comcast.net 1 1 8556 20080629114734
+cpe-65-25-155-40.columbus.res.rr.com 1 5 82016 20080626165716
+216.227.250.50 0 5 15999 
+user-38lm974.cable.mindspring.com 17 112 556680 20080619170632
+74-46-81-219.dr02.ftdd.ia.frontiernet.net 2 12 123996 20080615125952
+blv-proxy-04.boeing.com 3 15 133305 20080613111604
+c-69-254-175-169.hsd1.fl.comcast.net 1 10 79268 20080620022032
+d16-167.rb.gh.centurytel.net 1 5 81868 20080612145052
+cache-dtc-ae04.proxy.aol.com 0 3 31707 
+sdcrawler1.ig.ntnu.no 3 3 28587 20080629223142
+65-100-180-70.hlrn.qwest.net 1 5 81868 20080612200249
+oh-76-6-161-141.dhcp.embarqhsd.net 1 11 93962 20080625020759
+68-190-234-69.dhcp.mtpk.ca.charter.com 9 52 242388 20080607093230
+cpe000625923208-cm00140454d542.cpe.net.cable.rogers.com 1 5 82016 20080621075914
+64-20-99-150.tumwater.net 2 13 110721 20080623114322
+78.149.170.143 1 1 13963 20080620112529
+ec2-67-202-50-63.compute-1.amazonaws.com 2 2 19470 20080608190939
+cache-dtc-ab07.proxy.aol.com 0 3 76026 
+ip56526b17.adsl-surfen.hetnet.nl 1 1 53208 20080605214521
+c-24-22-244-59.hsd1.mn.comcast.net 1 5 81868 20080612175425
+aca2f9db.ipt.aol.com 3 10 81391 20080602194324
+75-172-118-55.tukw.qwest.net 7 33 198609 20080602220406
+cache-los-ab01.proxy.aol.com 1 2 15488 20080606023533
+c-67-172-73-13.hsd1.fl.comcast.net 1 11 93962 20080624170224
+c-69-246-69-126.hsd1.mi.comcast.net 1 11 93962 20080621130412
+pd95edf83.dip.t-dialin.net 1 1 12702 20080607132418
+208.74.152.194 1 5 81868 20080612202735
+cpe-76-90-237-153.socal.res.rr.com 1 11 93962 20080627002508
+c-67-170-42-68.hsd1.wa.comcast.net 1 11 93962 20080625082559
+node150.234.100.208.1dial.com 2 19 196419 20080627053747
+nc-76-3-108-215.dhcp.embarqhsd.net 1 1 129519 20080614093447
+12.189.32.37 0 3 46968 
+cpe-66-8-241-165.hawaii.res.rr.com 1 10 79268 20080619033456
+bl1sch2041419.phx.gbl 1 2 15252 20080615055543
+user-1120fpi.dsl.mindspring.com 6 10 162837 20080619120923
+c-71-202-208-218.hsd1.ca.comcast.net 10 46 422765 20080623215937
+pool-72-94-195-76.phlapa.fios.verizon.net 2 2 1390491 20080606203231
+adsl-75-32-105-168.dsl.irvnca.sbcglobal.net 1 6 24523 20080626114231
+px4ht.ok.shawcable.net 1 1 9735 20080623202816
+user-5442595b.l5.c2.dsl.pol.co.uk 1 1 6908 20080612131904
+infong460.lxa.perfora.net 1 1 8556 20080623090724
+67-150-169-183.lsan.mdsg-pacwest.com 4 17 184956 20080612231037
+d83-189-144-163.cust.tele2.ch 1 1 0 20080628170628
+77-45-35-122.sta.asta-net.com.pl 2 6 98083 20080626081019
+212-139-108-236.dynamic.dsl.as9105.com 1 1 22060 20080613072719
+c-24-17-119-64.hsd1.mn.comcast.net 6 42 293848 20080630182335
+bullfrog.frogee.com 20 20 196774 20080606084222
+customer11923.pool1.unallocated-110-192.orangehomedsl.co.uk 2 2 0 20080607034644
+72.14.193.65 1 1 13963 20080619163118
+63-225-178-217.tukw.qwest.net 4 16 176426 20080612182249
+pool-96-233-135-126.prvdri.fios.verizon.net 2 12 179849 20080614185636
+pool-71-121-185-214.sttlwa.dsl-w.verizon.net 1 10 79268 20080611164738
+65.55.110.49 2 13 180037 20080620202659
+cache-ntc-ac03.proxy.aol.com 0 1 13795 
+host-207-68-224-64.vista-express.com 1 10 107431 20080611184630
+msnbot-65-55-109-53.search.msn.com 2 14 187543 20080628114150
+adsl-99-164-172-153.dsl.chcgil.sbcglobal.net 8 8 65824 20080620002813
+74-137-212-157.dhcp.insightbb.com 1 11 93962 20080624123446
+193.179.210.194 1 1 8228 20080617223809
+c-69-251-137-115.hsd1.md.comcast.net 1 11 93962 20080628085016
+c-67-185-16-59.hsd1.wa.comcast.net 6 37 213534 20080609231756
+adsl-074-171-128-157.sip.gsp.bellsouth.net 1 11 93962 20080624141758
+cache-dtc-ac03.proxy.aol.com 0 1 3521 
+ppp184-250.broadband.gorge.net 1 9 176386 20080603223356
+cache-los-ab02.proxy.aol.com 0 1 2298 
+static-208-80-193-29.as13448.com 1 1 8228 20080608090604
+75-170-152-232.desm.qwest.net 1 11 93962 20080627124137
+202.21.176.43 1 10 90441 20080625141747
+poczta.tim.com.pl 19 19 196058 20080617234429
+5ad58252.bb.sky.com 15 15 3549464 20080605140510
+12-215-82-162.client.mchsi.com 1 1 9735 20080613075807
+urlc05.mail.re3.yahoo.com 2 2 17112 20080629034130
+host86-134-253-89.range86-134.btcentralplus.com 1 10 107431 20080601142326
+c-67-183-131-106.hsd1.wa.comcast.net 3 16 165310 20080605120444
+cache-ntc-ad09.proxy.aol.com 6 13 213838 20080629173920
+kyle22.mmm.com 1 11 93962 20080626124808
+205.181.102.120 18 83 1478187 20080623133142
+82.109.120.201 1 10 79268 20080619070742
+pool-141-155-133-95.ny5030.east.verizon.net 2 13 92972 20080604171750
+cache-dtc-ag05.proxy.aol.com 0 1 7260 
+12.44.118.252 1 10 79268 20080618165737
+cache-mtc-aa15.proxy.aol.com 1 1 13963 20080612165601
+216.171.98.77 2 2 26917 20080626015407
+c-67-168-183-9.hsd1.wa.comcast.net 2 7 39151 20080623132821
+206.127.122.50 2 2 0 20080624153649
+38.100.41.118 1 1 15919 20080614050801
+wnpgmb0807w-ad02-79-127.dynamic.mts.net 1 11 93962 20080623165504
+s0106001cf0f0b5a5.ok.shawcable.net 2 2 42106 20080613111158
+pool-71-180-12-47.tampfl.fios.verizon.net 6 26 822318 20080613123011
+ip68-109-165-46.ph.ph.cox.net 6 24 545662 20080630234304
+pool-71-182-106-94.syrcny.east.verizon.net 1 1 11764 20080610125221
+207.118.32.50 7 39 416328 20080613075542
+s010600c049ed2ea5.cg.shawcable.net 11 42 1723066 20080616190953
+116.71.157.197 2 19 196419 20080625021729
+cache-ntc-ad07.proxy.aol.com 0 11 65345 
+c-24-23-219-18.hsd1.mn.comcast.net 1 6 28313 20080601233143
+196.25.35.246 1 11 93962 20080622092247
+63-227-211-42.ptld.qwest.net 1 11 93962 20080625204028
+cache-ntc-ad10.proxy.aol.com 1 1 10838 20080623184354
+pool-71-97-143-17.aubnin.dsl-w.verizon.net 3 29 177048 20080621103951
+as5300-s08-208.cnt.entelchile.net 1 1 24117 20080619172400
+75-92-240-83.sea.clearwire-dns.net 2 12 179849 20080613222441
+pool-71-112-98-72.sttlwa.dsl-w.verizon.net 2 24 79765 20080608063112
+cache-mtc-ab06.proxy.aol.com 0 1 6988 
+89-172-6-132.adsl.net.t-com.hr 1 1 9735 20080613053057
+azwp06-o.wellsfargo.com 8 39 206817 20080612155047
+cache-los-aa06.proxy.aol.com 1 1 24117 20080606023611
+12-214-203-73.client.mchsi.com 1 10 79268 20080618120932
+116.206.0.74 1 1 58851 20080617220656
+82.151.238.139.adsl.griffin.net.uk 1 11 219843 20080616085037
+adsl-68-125-197-223.dsl.pltn13.pacbell.net 11 74 490250 20080609075334
+202-151-89-130.dsl.teleguam.net 1 1 9735 20080608030424
+206.83.86.2.ptr.us.xo.net 35 39 466703 20080607015951
+wsip-24-249-108-176.ks.ks.cox.net 2 12 98302 20080602105025
+216-107-118-43.static.networktel.net 5 32 263430 20080608110026
+cm282447-a.maast1.lb.home.nl 1 1 39054 20080606002739
+wsip-70-167-146-29.om.om.cox.net 1 10 79268 20080618151007
+cpe00e0f23501c9-cm0012c924bc66.cpe.net.cable.rogers.com 1 1 8228 20080617073944
+adsl-71-153-183-130.dsl.tul2ok.sbcglobal.net 1 11 93962 20080623141341
+host-181-242.dsl-sea.seanet.com 3 15 111060 20080608170950
+ppp121-44-64-114.lns10.syd6.internode.on.net 1 4 27684 20080614070056
+host-41.235.124.22.tedata.net 1 1 18192 20080605160020
+ip24-253-211-228.ok.ok.cox.net 2 2 27926 20080613221112
+78.146.82.153 1 4 22326 20080618054336
+c3eea3b67.cable.wanadoo.nl 2 13 89828 20080603104307
+static-208-80-193-42.as13448.com 1 1 8228 20080605133416
+c-76-111-192-244.hsd1.fl.comcast.net 4 8 129625 20080614182453
+68-115-79-121.dhcp.eucl.wi.charter.com 2 2 74687 20080602205228
+adsl-75-45-222-148.dsl.sfldmi.sbcglobal.net 1 1 23220 20080605123811
+c-68-42-130-209.hsd1.mi.comcast.net 1 11 93962 20080625174524
+cpe-75-185-145-40.neo.res.rr.com 4 4 0 20080606192608
+c-67-180-50-115.hsd1.ca.comcast.net 2 13 110721 20080621120805
+ip68-0-134-122.tc.ph.cox.net 1 11 93962 20080626173117
+c-24-17-42-126.hsd1.mn.comcast.net 15 75 544748 20080614075449
+s0106001e8c050225.gv.shawcable.net 1 11 93962 20080624085343
+user-11206od.dsl.mindspring.com 1 11 93962 20080621082914
+67.189.31.174 2 10 163736 20080612153745
+cpe-76-186-135-145.tx.res.rr.com 1 11 93962 20080623201013
+c-76-28-254-6.hsd1.wa.comcast.net 2 6 52303 20080616011655
+adsl-76-203-36-213.dsl.emhril.sbcglobal.net 1 1 8228 20080601101253
+15.seattle-29-30rs.wa.dial-access.att.net 8 23 287228 20080623180103
+cache-los-ad01.proxy.aol.com 2 2 0 20080611081046
+cache-los-ab03.proxy.aol.com 0 1 10436 
+194.153.113.23 0 28 0 
+boitho01.fa-s.ntnu.no 2 2 12981 20080628183159
+24-113-231-130.wavecable.com 10 43 494081 20080623030517
+65-102-160-107.tukw.qwest.net 3 20 203093 20080602164105
+adsl-70-229-230-90.dsl.sfldmi.ameritech.net 1 11 93962 20080625040726
+74-206-8-4.static-ip.m.telepacific.net 1 11 93962 20080628190711
+nme-pow-pr2.tpgi.com.au 1 1 9735 20080617045452
+cache-ntc-ac08.proxy.aol.com 1 1 8228 20080616211341
+121-73-20-214.cable.telstraclear.net 1 5 81868 20080616172251
+dpc691914033.direcpc.com 1 17 155876 20080626163315
+12-215-95-126.client.mchsi.com 1 11 93962 20080625212313
+c-24-22-188-94.hsd1.wa.comcast.net 1 1 22060 20080603011617
+cache-los-aa08.proxy.aol.com 0 1 6988 
+98.108.211.86 1 10 79268 20080613095409
+129-79-173-97.dhcp-bl.indiana.edu 11 42 525215 20080605094740
+c-68-56-133-100.hsd1.fl.comcast.net 1 11 93962 20080626055106
+pd1px2.st.vc.shawcable.net 3 19 195905 20080614232600
+webserver1.sutcol.ac.uk 1 2 125133 20080609040215
+208.111.42.7 1 1 1907796 20080617015257
+c-71-227-145-181.hsd1.wa.comcast.net 1 5 82016 20080623124349
+host154-23.birch.net 1 11 93962 20080628082534
+adsl-76-235-233-56.dsl.applwi.sbcglobal.net 1 11 93962 20080627045618
+198.54.202.3 1 10 79268 20080619230201
+cache-dtc-ah05.proxy.aol.com 0 1 2579 
+cache-mtc-ae07.proxy.aol.com 2 2 16784 20080626062453
+247.1.broadband6.iol.cz 3 19 145483 20080615152103
+98.223.234.108 1 11 93962 20080621122300
+ns.km22617.keymachine.de 2 2 48234 20080615193625
+c-67-168-142-12.hsd1.wa.comcast.net 5 43 362760 20080613182549
+cache-mtc-aa01.proxy.aol.com 0 2 26144 
+c-67-190-193-173.hsd1.mn.comcast.net 5 23 237095 20080630120348
+cache-los-ac05.proxy.aol.com 0 1 16857 
+adsl-065-012-234-013.sip.mia.bellsouth.net 1 11 93962 20080622042223
+72-26-79-15.none.madisonriver.net 1 5 82016 20080624173948
+laycat.com 1 1 8228 20080617115617
+cpc2-cdif5-0-0-cust2.cdif.cable.ntl.com 1 10 233594 20080620000808
+87.118.129.212 1 1 8556 20080629111941
+ool-18be4189.dyn.optonline.net 1 10 79268 20080602060452
+66.165.17.111 1 10 79268 20080610095517
+adsl-61-31-192.asm.bellsouth.net 1 7 39302 20080618120118
+node126.piercecountylibrary.org 7 36 433400 20080626164052
+pool-71-248-85-21.bltmmd.east.verizon.net 1 1 8228 20080615203233
+69.36.158.62 10 10 106313 20080603015746
+72-161-24-29.dyn.centurytel.net 1 11 93962 20080621221751
+33.sub-75-201-3.myvzw.com 1 11 93962 20080626134322
+cache-prs-aa07.proxy.aol.com 0 2 3406 
+67.170.105.148 1 11 93962 20080622203211
+cache-ntc-ac07.proxy.aol.com 6 8 191961 20080621182538
+unused.networksolutions.com 10 64 443409 20080620183400
+170.97.167.62 2 9 49042 20080610151005
+208.181.16.241 4 4 31676 20080603153130
+76-14-180-220.wsac.wavecable.com 1 1 13963 20080603233431
+82-169-24-127.ip.telfort.nl 1 11 93962 20080621082439
+001d7e2d834b.click-network.com 3 19 145483 20080619132257
+nat-mi3.aster.pl 1 1 8556 20080622040710
+65-102-149-237.tukw.qwest.net 13 40 585306 20080623110002
+67-42-95-130.tukw.qwest.net 1 10 79268 20080602092216
+ip40.post-legacy.dfw.ygnition.net 1 5 82016 20080629204513
+85.214.35.2 1 1 8556 20080629005925
+hln-cs1-187.dsl.mt.net 4 26 185301 20080617093152
+ec2-67-202-42-231.compute-1.amazonaws.com 2 2 35978 20080621110120
+housegate32.house.gov 1 5 81868 20080613090522
+66.243.213.212 3 20 172640 20080614090309
+65.214.44.28 6 62 504996 20080627062859
+mail.firstpres.org 7 41 286659 20080630095557
+cache-dtc-ac09.proxy.aol.com 0 1 5572 
+68-89-223-190.ded.swbell.net 1 11 93962 20080624065330
+12-208-32-71.client.mchsi.com 1 11 93962 20080625221406
+ip70-177-250-249.hr.hr.cox.net 4 21 206879 20080616120206
+cache-mtc-ac02.proxy.aol.com 0 4 10704 
+75-93-139-66.ama.clearwire-dns.net 3 26 100898 20080623194754
+199.79.112.254 7 22 247762 20080613134315
+s0106001346becc05.vc.shawcable.net 5 5 2083217 20080628020248
+63-224-61-63.tukw.qwest.net 7 21 233697 20080613185913
+pool-71-112-195-55.sttlwa.dsl-w.verizon.net 1 5 81868 20080612171616
+69-84-207-37.biz.arrival.net 1 5 152671 20080610131248
+ip68-5-208-212.oc.oc.cox.net 1 11 93962 20080625080020
+adsl-67-121-233-164.dsl.chic01.pacbell.net 1 11 93962 20080623230842
+208.111.154.16 2 2 8480 20080616211016
+206.51.230.20 1 1 12172 20080605065757
+ool-43576988.dyn.optonline.net 1 1 10838 20080608121708
+adsl-75-45-209-81.dsl.sfldmi.sbcglobal.net 1 1 23220 20080606082403
+dlk05.image.cn3.yahoo.com 0 3 0 
+ip68-110-208-128.rn.hr.cox.net 2 18 181725 20080608093330
+h54.37.255.206.cable.lngv.cablelynx.com 1 11 93962 20080625052010
+feed5.local.corp.yahoo.com 1 1 8228 20080619061757
+c-24-15-22-104.hsd1.il.comcast.net 1 8 145141 20080608152910
+12.186.229.30 1 1 8228 20080608044023
+c-24-16-50-122.hsd1.mn.comcast.net 1 10 79268 20080612140909
+d54c2a709.access.telenet.be 1 1 8228 20080602163448
+adsl-75-13-32-118.dsl.toldoh.sbcglobal.net 12 44 552343 20080624132229
+235.113.dsl.syd.iprimus.net.au 1 11 219843 20080609034609
+pool-71-97-253-247.ptldor.dsl-w.verizon.net 5 26 208221 20080610154345
+71-209-86-212.chyn.qwest.net 1 1 78471 20080602225206
+cache-ntc-aa05.proxy.aol.com 4 11 68469 20080623184715
+ppp0207.lr.centurytel.net 3 25 271339 20080604143701
+pool-71-117-2-157.sttlwa.btas.verizon.net 1 5 81868 20080613064355
+adsl-76-233-66-183.dsl.stlsmo.sbcglobal.net 1 1 9735 20080623211602
+66-178-145-194.ptldorpb.rio.com 1 7 57103 20080612143208
+sdcrawler2.ig.ntnu.no 1 1 6365 20080626003830
+host-41.235.107.84.tedata.net 2 2 25044 20080606052826
+adsl-68-120-70-231.dsl.irvnca.pacbell.net 1 1 8556 20080629210154
+cache-ntc-ab08.proxy.aol.com 1 8 9235 20080623184941
+cpc3-nthc13-0-0-cust601.nrth.cable.ntl.com 2 5 35077 20080610135423
+66-193-102-95.static.twtelecom.net 3 19 218413 20080604090505
+pool-71-174-69-200.bstnma.fios.verizon.net 1 5 81868 20080604061550
+c-24-20-248-96.hsd1.or.comcast.net 1 5 81868 20080612211220
+dialup-4.243.52.77.dial1.seattle1.level3.net 1 1 15885 20080613110010
+tschild.de 4 4 8228 20080627105250
+c-69-138-154-119.hsd1.tn.comcast.net 3 26 286037 20080623085339
+24-113-64-224.wavecable.com 1 1 9186 20080621204255
+cache-mtc-ah03.proxy.aol.com 0 1 5494 
+209.158.112.1 1 4 22123 20080606111257
+204.58.223.228 1 9 131639 20080626184114
+s.rewelacyjny.net 24 24 213938 20080617110112
+c-98-218-224-161.hsd1.dc.comcast.net 1 5 81868 20080608203212
+static-208-80-193-47.as13448.com 8 8 66152 20080626234812
+75-165-47-191.tukw.qwest.net 2 11 111217 20080612154435
+softbank218180088013.bbtec.net 8 68 552327 20080605232445
+68-27-221-28.area1.spcsdns.net 2 13 91369 20080619170005
+71.239.100.188 1 10 79268 20080606125212
+c-67-168-171-87.hsd1.wa.comcast.net 1 10 79268 20080605211618
+dialup-4.242.9.113.dial1.seattle1.level3.net 1 10 107431 20080617000350
+adsl-074-229-144-151.sip.shv.bellsouth.net 1 1 366728 20080606132032
+c-24-19-231-182.hsd1.wa.comcast.net 3 14 101200 20080612224451
+78.149.253.57 1 1 9735 20080625084320
+pool-71-107-199-199.lsanca.dsl-w.verizon.net 1 6 28313 20080621213724
+72-160-124-88.dyn.centurytel.net 2 14 158460 20080614121438
+v37.nat.svl.searchme.com 1 1 918 20080626214314
+pool-71-112-142-100.sttlwa.dsl-w.verizon.net 24 89 3040595 20080629151329
+c-67-168-42-189.hsd1.wa.comcast.net 2 17 139118 20080612223643
+adsl-074-186-021-043.sip.mia.bellsouth.net 1 11 93962 20080626083355
+cache-dtc-af15.proxy.aol.com 0 2 26144 
+cpe-121-222-73-8.qld.bigpond.net.au 4 24 357392 20080601221718
+cups.cs.cmu.edu 1 1 8556 20080629083653
+d-69-91-144-203.dhcp4.washington.edu 1 10 79268 20080602192306
+c-24-23-19-82.hsd1.mn.comcast.net 1 1 8556 20080629000341
+12-202-241-8.client.mchsi.com 1 1 533652 20080616165949
+dialup-4.240.233.149.dial1.phoenix1.level3.net 1 7 54086 20080609212115
+ip72-203-155-124.br.br.cox.net 1 11 93962 20080623141533
+host-41.233.45.53.tedata.net 2 12 123996 20080630062825
+adsl-67-126-239-170.dsl.frsn02.pacbell.net 1 11 93962 20080621215948
+nv-71-2-214-49.sta.embarqhsd.net 1 11 93962 20080624100344
+12.189.32.59 1 11 93962 20080630155551
+209.173.40.140 1 4 79289 20080616074717
+static-208-80-193-41.as13448.com 6 6 50352 20080626050543
+cache-ntc-ab05.proxy.aol.com 0 7 71830 
+cache-dtc-ad01.proxy.aol.com 1 1 16455 20080602085851
+m04s26da.ispgateway.de 1 1 0 20080618133623
+12-203-16-149.client.mchsi.com 1 1 1464976 20080616104107
+cache-mtc-ac16.proxy.aol.com 4 4 13614 20080624151223
+24-113-136-219.wavecable.com 2 13 77778 20080619143710
+morgue2.corp.yahoo.com 5 5 41468 20080629044426
+d1-254.rb.sm.centurytel.net 1 11 93962 20080628110911
+ool-43539b0f.dyn.optonline.net 2 2 16456 20080609072225
+c-98-200-171-86.hsd1.tx.comcast.net 1 1 0 20080623164801
+tide532.microsoft.com 1 1 8228 20080606191334
+c74-195-148-188.amrlcmta01.tx.dh.suddenlink.net 1 11 93962 20080625094417
+cpe-70-113-42-189.austin.res.rr.com 1 11 93962 20080622145525
+cacheflow1.kirtland.af.mil 9 52 313393 20080628235202
+c-76-27-174-30.hsd1.va.comcast.net 1 10 107431 20080610222311
+c250-118.blackberry.net 1 3 52594 20080613212133
+i59f7d515.versanet.de 1 1 0 20080621144526
+ac5-webproxy5.direcpc.com 0 1 12718 
+adsl-217-38-131.asm.bellsouth.net 1 10 79268 20080613154224
+s0106001310a177a2.no.shawcable.net 2 18 181725 20080604171331
+75-104-192-38.cust.wildblue.net 0 2 8355 
+mikeecho.bblh32.eiu.edu 2 13 93962 20080626084811
+68-24-138-87.area2.spcsdns.net 1 11 93962 20080629082134
+cache-dtc-ad04.proxy.aol.com 1 1 8228 20080602085840
+bas5-montreal28-1242528371.dsl.bell.ca 1 10 79268 20080605115353
+maila.jobcorps.org 1 9 176386 20080625132551
+customer70.pool1.unallocated-107-192.orangehomedsl.co.uk 1 4 22123 20080602143817
+78.85-84-208.dynamic.clientes.euskaltel.es 0 9 93468 
+p54bbfc12.dip.t-dialin.net 1 10 79268 20080611161800
+pool-71-112-103-173.sttlwa.dsl-w.verizon.net 1 5 81868 20080612181833
+237.196.51.216.dyn.southslope.net 1 10 79268 20080619155223
+mdb08.image.cn3.yahoo.com 0 1 5572 
+customer-148-233-147-99.uninet.net.mx 1 1 12774 20080601174513
+static-208-80-193-46.as13448.com 1 1 8228 20080607020413
+78.97.105.185 3 3 455402 20080620082554
+64.65.183.182 14 65 632845 20080622144244
+79.353.dsl.mel.iprimus.net.au 5 35 248621 20080626034831
+search-kids.goo.ne.jp 41 41 566485 20080615043443
+adsl-074-244-082-057.sip.asm.bellsouth.net 1 11 93962 20080624074836
+122-125-3-210.dynamic.hinet.net 1 1 8228 20080614211735
+cblmdm72-241-254-163.buckeyecom.net 2 2 27926 20080610080646
+cache-ntc-ab10.proxy.aol.com 2 3 32331 20080616234901
+64.56.65.65 17 17 169069 20080611124900
+212.203.54.198 2 2 0 20080628105722
+adsl-76-199-159-29.dsl.milwwi.sbcglobal.net 1 11 93962 20080629034606
+cpe-75-80-60-237.socal.res.rr.com 1 11 93962 20080627222423
+cpc4-burn4-0-0-cust646.manc.cable.ntl.com 1 12 107034 20080626173411
+c-24-91-231-193.hsd1.nh.comcast.net 1 10 107431 20080607051155
+89.241.96.217 1 1 8228 20080616143611
+cerberus.tobyhanna.army.mil 3 20 160177 20080627064058
+cpe-76-91-226-226.socal.res.rr.com 1 9 176386 20080612083537
+adsl-75-36-205-132.dsl.pltn13.sbcglobal.net 1 11 93962 20080627002005
+119.95.120.97 1 1 24117 20080626144848
+90-228-211-85-no78.tbcn.telia.com 5 25 219059 20080606225957
+193.1.100.110 1 1 9735 20080623093047
+74.44.137.191 1 11 93962 20080622044454
+adsl-152-207-178.asm.bellsouth.net 1 11 93962 20080630094304
+216-199-114-242.orl.fdn.com 1 11 93962 20080623060350
+216.240.136.143 4 4 33568 20080621003834
+70-56-92-242.tukw.qwest.net 1 1 14180 20080627010640
+70-59-152-184.ptld.qwest.net 1 11 93962 20080622111740
+ip68-1-170-62.ri.ri.cox.net 1 10 79268 20080620135302
+cache-prs-aa09.proxy.aol.com 0 2 9558 
+207.14.37.92 6 21 231594 20080611145445
+66-233-229-53.red.clearwire-dns.net 6 26 250000 20080604180242
+ip70-160-58-59.hr.hr.cox.net 1 5 81868 20080612195744
+166.61.201.156 5 24 240679 20080602162743
+h-67-100-123-182.sttnwaho.dynamic.covad.net 1 5 81868 20080612184032
+static-208-80-193-53.as13448.com 1 1 8556 20080628155736
+h-66-167-139-158.sttnwaho.dynamic.covad.net 2 14 158460 20080613190751
+c-24-3-27-4.hsd1.pa.comcast.net 1 1 0 20080612121455
+c-75-69-82-188.hsd1.ma.comcast.net 1 5 42252 20080620233738
+71-34-83-228.ptld.qwest.net 4 16 179570 20080613092933
+71.172.55.216 1 11 93962 20080626054022
+cache-ntc-ab03.proxy.aol.com 6 8 106715 20080623184726
+adsl-75-15-137-195.dsl.snlo01.sbcglobal.net 1 11 93962 20080629092335
+207-118-40-188.dyn.centurytel.net 7 40 288447 20080610092035
+c-71-197-165-6.hsd1.or.comcast.net 2 12 96027 20080609201345
+65.55.109.15 2 18 187313 20080621092729
+softbank221062150021.bbtec.net 16 63 1997957 20080624041802
+61.142.114.74 1 10 107431 20080617071359
+h6058b.resnet.uni.edu 2 12 130141 20080624094415
+user-12l3uhq.cable.mindspring.com 1 11 93962 20080629133830
+pool-71-190-157-60.nycmny.fios.verizon.net 34 170 5609602 20080626141559
+72-250-130-17.midrivers.com 1 1 9735 20080625151355
+170.97.67.142 4 11 146880 20080604090923
+ip68-4-253-237.oc.oc.cox.net 1 11 93962 20080626100927
+adsl-074-229-107-166.sip.mcn.bellsouth.net 3 29 303850 20080630130602
+cache-mtc-aa10.proxy.aol.com 0 2 1460 
+h110171.upc-h.chello.nl 2 11 87496 20080620113911
+85.89.202.235.dynamic.dslcustomer.pcsupport.no 1 1 8228 20080615083815
+92.43.66.7 1 4 22123 20080604001007
+77.70.125.203 2 2 0 20080617120556
+ip72-218-104-58.hr.hr.cox.net 3 3 1042864 20080609132325
+cache-prs-ab07.proxy.aol.com 0 1 25342 
+65-100-141-247.hlrn.qwest.net 1 1 728003 20080612215704
+216.240.134.109 5 5 42818 20080604161023
+88.197.150.181 2 2 17112 20080626011828
+firewall.freesoft.hu 1 1 14180 20080618094634
+122.52.149.51.pldt.net 1 1 11764 20080627192714
+206-169-226-162.static.twtelecom.net 1 10 79268 20080612102556
+adsl-99-129-167-43.dsl.snlo01.sbcglobal.net 3 3 24684 20080603211421
+cpe-72-185-109-156.tampabay.res.rr.com 1 11 93962 20080629090416
+c-67-168-152-31.hsd1.wa.comcast.net 6 24 313594 20080602203239
+58.61.160.168 1 1 1062977 20080628105800
+hou150proxy3.chevron.com 4 11 129898 20080606090205
+ip98-163-115-73.dc.dc.cox.net 1 10 79268 20080612180246
+221x248x147x112.ap221.ftth.ucom.ne.jp 12 12 114770 20080613075821
+cache-dtc-ah02.proxy.aol.com 0 1 10569 
+201-92-186-122.dsl.telesp.net.br 1 1 8228 20080614161807
+host-84-221-160-77.cust-adsl.tiscali.it 1 1 8228 20080611130215
+host154-134-dynamic.116-80-r.retail.telecomitalia.it 1 10 79268 20080603073813
+cache-dtc-ae02.proxy.aol.com 0 1 2298 
+ec2-75-101-222-22.compute-1.amazonaws.com 4 4 33504 20080620034821
+dyn-62-56-127-222.dslaccess.co.uk 3 3 29205 20080602123413
+cach3.nov.mobile.re2.yahoo.net 0 3 13481 
+c-24-23-159-15.hsd1.ca.comcast.net 1 5 42252 20080622141224
+c-67-185-226-18.hsd1.wa.comcast.net 5 45 343159 20080619121318
+126.33.100-84.rev.gaoland.net 3 30 181725 20080605134311
+rrba-ip-pcache-6-vif1.telkom-ipnet.co.za 0 2 9093 
+c-76-107-187-161.hsd1.tn.comcast.net 1 11 93962 20080628043750
+h82.45.30.71.ip.alltel.net 3 19 188090 20080606202731
+dsl-205-134-212-141.lacey-1.reachoneinternet.net 1 5 81868 20080612224008
+xdslau217.osnanet.de 1 1 20814 20080605104507
+cache-dtc-ac16.proxy.aol.com 2 2 0 20080624152315
+75.44.206.92 1 1 18634 20080625160039
+90.17.59.202.static.soulaustralia.com.au 1 10 107431 20080604170937
+74-95-198-189-sfba.hfc.comcastbusiness.net 1 12 84242 20080612160949
+c-98-201-139-195.hsd1.tx.comcast.net 4 32 381720 20080629191412
+c-24-99-166-220.hsd1.ga.comcast.net 1 11 93962 20080628195732
+12-156-31-216.static.tierzero.net 1 10 79268 20080619000049
+5acaa13e.bb.sky.com 1 1 10838 20080628130101
+rrba-ip-pcache-2-vif1.telkom-ipnet.co.za 0 1 2298 
+static-208-80-193-39.as13448.com 2 2 16784 20080628092248
+ac5-webproxy61.direcpc.com 2 12 76821 20080604154105
+211.233.79.177 2 2 16456 20080606161305
+64.79.219.54 5 5 0 20080605185751
+dhcp-10-160.edcenter.lane.edu 6 36 342597 20080616170152
+static-208-80-193-48.as13448.com 2 2 17112 20080627013728
+242.225.forpsi.net 7 7 0 20080606093628
+12.147.122.2 2 8 69580 20080614043112
+208.111.154.87 1 1 90283 20080615124508
+81.146.119.70.cfl.res.rr.com 1 1 98468 20080609063926
+acc121ae.ipt.aol.com 1 1 15919 20080613160219
+cpc2-nthc13-0-0-cust833.nrth.cable.ntl.com 1 1 9735 20080623075058
+71-217-80-225.tukw.qwest.net 8 44 470536 20080619204726
+c-67-168-80-34.hsd1.wa.comcast.net 4 35 350611 20080603095817
+38.98.19.67 0 3 11712 
+71-217-87-87.tukw.qwest.net 1 10 79268 20080611122333
+cpe0018f83e1644-cm001bd71e6946.cpe.net.cable.rogers.com 2 2 17048 20080628153112
+dialup-4.228.9.119.dial1.denver1.level3.net 1 10 107431 20080603180012
+c-67-183-128-245.hsd1.wa.comcast.net 1 11 93962 20080623152330
+80.156.42.129 0 3 0 
+h216-45-98-125.dynamic.platinum.ca 1 11 93962 20080629094306
+etk144.neoplus.adsl.tpnet.pl 1 5 42252 20080608063712
+ontario.dat.com 5 17 453368 20080611162732
+38.100.41.94 1 1 8228 20080601084515
+ip68-6-196-130.sd.sd.cox.net 2 12 98302 20080605161334
+rrcs-71-41-200-78.sw.biz.rr.com 28 28 108623 20080617152430
+pool-68-238-72-137.lax.dsl-w.verizon.net 2 19 196419 20080628121317
+cache-ntc-ad02.proxy.aol.com 0 1 730 
+c-98-203-212-93.hsd1.wa.comcast.net 1 10 79268 20080613164100
+72.188.56.0 1 5 82016 20080622074550
+network.mrs.org 2 19 196419 20080630090742
+76.226.236.96 11 22 1841514 20080614100248
+rrcs-208-105-25-26.nyc.biz.rr.com 1 10 79268 20080605074559
+pool-70-16-147-175.phil.east.verizon.net 2 2 0 20080627032331
+71-38-116-195.phnx.qwest.net 1 11 93962 20080630092954
+ppp-69-151-179-47.dsl.bumttx.swbell.net 2 18 181725 20080619204257
+cache-ntc-aa04.proxy.aol.com 0 11 116259 
+adsl-220-132-188.gnv.bellsouth.net 1 10 79268 20080619064918
+fo123.fo.ntu.edu.tw 1 2 10526 20080611233355
+dlk07.image.cn3.yahoo.com 0 1 0 
+75-146-62-233-washington.hfc.comcastbusiness.net 1 1 16067 20080623113334
+12-203-33-33.client.mchsi.com 1 11 93962 20080622182200
+c-71-231-127-171.hsd1.wa.comcast.net 1 5 32302 20080615081100
+67.100.223.229 1 11 93962 20080623151348
+c-71-231-100-177.hsd1.or.comcast.net 2 2 16456 20080614105216
+75-92-184-4.sea.clearwire-dns.net 36 217 855051 20080623193906
+adsl-61-165-5.mco.bellsouth.net 1 11 93962 20080623141713
+c-24-15-84-164.hsd1.il.comcast.net 1 1 8556 20080620191818
+dpc691914044.direcpc.com 1 15 135410 20080620104728
+24-113-78-161.wavecable.com 6 36 1347732 20080625201959
+cpe-098-026-056-109.nc.res.rr.com 1 4 22326 20080627180527
+c-98-203-231-145.hsd1.wa.comcast.net 5 32 257254 20080612104508
+pool-71-123-190-181.dllstx.fios.verizon.net 1 11 93962 20080621140722
+65.34.165.23 1 11 93962 20080622165030
+n220246176204.netvigator.com 1 1 5327 20080617075205
+cache-prs-aa01.proxy.aol.com 1 1 2365440 20080615101511
+c-68-39-200-158.hsd1.pa.comcast.net 2 19 196419 20080620215302
+rrba-ip-pcache-5-vif0.telkom-ipnet.co.za 0 1 10569 
+pool-141-157-190-138.bstnma.btas.verizon.net 1 5 81868 20080612190914
+mobile-166-214-135-053.mycingular.net 1 11 93962 20080623042702
+bas2-toronto47-1242436333.dsl.bell.ca 1 11 93962 20080626121043
+58-27-144-176.wateen.net 2 2 42106 20080624222204
+97-90-226-198.dhcp.eucl.wi.charter.com 1 11 93962 20080629052624
+c-24-18-150-163.hsd1.wa.comcast.net 18 73 651143 20080622084639
+ip68-108-139-225.lv.lv.cox.net 1 11 93962 20080629224748
+c-71-197-220-56.hsd1.wa.comcast.net 4 26 285523 20080617224555
+cpe-66-91-191-86.hawaii.res.rr.com 1 11 93962 20080628040612
+12.189.32.39 0 3 19374 
+cache-los-ac03.proxy.aol.com 1 1 15919 20080606023358
+thr44-1-88-181-217-227.fbx.proxad.net 1 1 0 20080606101645
+d6-10.rb.gh.centurytel.net 2 30 175878 20080624172623
+c-76-112-73-51.hsd1.mi.comcast.net 1 11 93962 20080629051044
+cache-ntc-aa08.proxy.aol.com 0 3 20245 
+pool-71-104-55-123.lsanca.dsl-w.verizon.net 13 60 375255 20080612155003
+cpe-66-8-164-44.hawaii.res.rr.com 1 11 93962 20080621123400
+124-170-81-151.dyn.iinet.net.au 18 74 2912208 20080630081655
+adsl-69-214-39-150.dsl.sgnwmi.ameritech.net 1 11 93962 20080629145056
+udp004602uds.hawaiiantel.net 2 19 196419 20080629020916
+c-71-197-166-132.hsd1.or.comcast.net 2 2 9735 20080622214101
+d137-186-58-46.abhsia.telus.net 1 1 533652 20080611214822
+dlk01.image.cn3.yahoo.com 0 1 0 
+adsl-161-164-101.mia.bellsouth.net 1 10 79268 20080620045511
+mail.edgell-homes.com 1 5 81868 20080604195407
+74-130-4-172.dhcp.insightbb.com 1 4 22123 20080614200658
+88.245.20.72 1 2 125061 20080609094455
+akro2-max2-cs-34.dialne.bright.net 2 16 178422 20080622184954
+74-128-53-138.dhcp.insightbb.com 1 11 93962 20080630183248
+c-24-16-110-145.hsd1.ca.comcast.net 6 27 315250 20080612132528
+221-78-212-66.spl.org 1 6 21035 20080602131903
+static-208-80-193-54.as13448.com 4 4 33240 20080627160059
+203-214-150-185.perm.iinet.net.au 2 2 178586 20080602034637
+213.182.159.134 22 22 217390 20080607175059
+adsl-75-52-204-169.dsl.okcyok.sbcglobal.net 1 11 93962 20080630104639
+65-101-134-114.tukw.qwest.net 9 24 201198 20080605113240
+118-92-121-69.dsl.dyn.ihug.co.nz 1 1 9735 20080613032826
+h53.80.17.98.ip.alltel.net 1 10 79268 20080619154524
+ip70-189-189-205.lv.lv.cox.net 1 10 79268 20080619173327
+cpe-121-219-26-159.vic.bigpond.net.au 2 12 128799 20080624172714
+adsl-162-53-218.clt.bellsouth.net 1 10 107431 20080601185136
+c-67-174-53-36.hsd1.ca.comcast.net 1 10 79268 20080612080037
+host41.dragonattack.net 1 5 81868 20080613084218
+cm-207-177-117-99.globalccs.net 1 11 93962 20080630064412
+adsl138-216.kln.forthnet.gr 1 10 79268 20080615114333
+78.151.141.193 2 2 0 20080627160256
+196.207.236.167 2 2 18462 20080623060915
+80-193-197-229.cable.ubr09.knor.blueyonder.co.uk 1 4 22326 20080617103838
+71-209-73-239.chyn.qwest.net 1 11 93962 20080627030858
+pool-71-164-2-81.sttlwa.fios.verizon.net 3 15 133305 20080616233209
+c-76-104-157-202.hsd1.wa.comcast.net 5 31 291888 20080614092638
+cache-dtc-ag16.proxy.aol.com 0 1 2725 
+dyn-dsl-to-76-75-119-27.nexicom.net 2 19 196419 20080622142212
+66.165.26.201 6 28 293263 20080611183445
+204-174-86-88.dhcp203.dsl.ucc-net.ca 1 11 93962 20080622130442
+cpe-75-80-162-210.san.res.rr.com 3 13 126139 20080604170925
+ip70-177-71-52.ok.ok.cox.net 1 11 93962 20080626150636
+global.ci.seattle.wa.us 12 85 700956 20080613211557
+spider-los-tc10.proxy.aol.com 0 4 45997 
+host-41-196-112-34.static.link.com.eg 1 1 41794 20080606054142
+gate41.access.co.jp 1 10 79268 20080613070530
+24-113-215-174.wavecable.com 3 14 98056 20080618155344
+72.52.84.140 2 2 16456 20080611175602
+cache-mtc-ae04.proxy.aol.com 0 2 21138 
+203.181.103.90 9 9 74380 20080620211848
+hln-cs1-057.dsl.mt.net 9 48 374087 20080612202720
+a191162.dsl.fsr.net 3 14 143171 20080626171247
+207-118-50-73.dyn.centurytel.net 8 56 2006895 20080626014621
+cache-mtc-ac10.proxy.aol.com 1 1 533652 20080628183623
+s010600134606b2f5.ca.shawcable.net 1 6 28313 20080630031159
+190.41.98.87 1 1 22060 20080607150339
+67-150-19-13.lsan.mdsg-pacwest.com 11 41 519610 20080612225741
+dns.seattlechildrens.org 1 5 32302 20080630145650
+059149030250.ctinets.com 9 9 2298819 20080627200321
+145.sub-75-208-241.myvzw.com 1 11 93962 20080628004620
+forge.he.net 1 3 24821 20080614102541
+76-10-183-23.dsl.teksavvy.com 1 1 8228 20080620051547
+89.1.92.162.dynamic.barak-online.net 1 10 79268 20080615050001
+194.153.113.18 12 22 1948940 20080610052523
+c-67-160-23-108.hsd1.wa.comcast.net 2 12 179849 20080605023708
+97-114-67-238.spkn.qwest.net 4 20 202217 20080612151119
+71-217-83-154.tukw.qwest.net 4 16 121205 20080605131721
+216.174.237.20 1 5 81868 20080612163120
+pinc-wrap.nethop.net 1 10 79268 20080620072117
+c-24-17-117-155.hsd1.wa.comcast.net 1 10 79268 20080612112616
+mask242.ups.edu 6 33 208865 20080630112559
+c-71-195-59-26.hsd1.mn.comcast.net 1 11 93962 20080624221156
+24-113-129-49.wavecable.com 5 26 249394 20080619185401
+nj-71-1-171-52.dyn.embarqhsd.net 1 5 82016 20080621183839
+75.156.83.223 1 6 31750 20080616032213
+c-76-122-58-194.hsd1.fl.comcast.net 1 1 8228 20080609165417
+h-68-166-126-172.lsanca54.covad.net 0 2 6614 
+24-116-30-235.cpe.cableone.net 1 11 93962 20080626190405
+75-105-128-57.cust.wildblue.net 0 4 55849 
+adsl-75-15-129-240.dsl.snlo01.sbcglobal.net 2 18 181725 20080615090103
+205.225.146.106 2 7 214346 20080630133817
+207.55.24.117 6 35 1031084 20080616175701
+170.97.67.91 1 12 160449 20080604090726
+ip98-163-193-63.no.no.cox.net 1 11 93962 20080629195623
+d-65-175-170-103.cpe.metrocast.net 3 20 254143 20080615174820
+cpe-65-31-176-162.wi.res.rr.com 5 11 3568141 20080608145215
+c-71-231-253-167.hsd1.wa.comcast.net 1 11 93962 20080630071653
+cach1.nov.mobile.re2.yahoo.net 1 3 36314 20080623133406
+adsl-69-235-222-55.dsl.irvnca.pacbell.net 1 5 81868 20080612180025
+66.165.13.45 1 5 81868 20080612173023
+cache-dtc-ag02.proxy.aol.com 0 1 2579 
+ip24-251-172-60.ph.ph.cox.net 2 18 181725 20080603204034
+h75-100-185-23.lactwa.dsl.dynamic.tds.net 6 45 394134 20080626054204
+dsl20078.ywave.com 4 20 218725 20080604171103
+aannecy-157-1-49-254.w86-219.abo.wanadoo.fr 2 2 16456 20080603145001
+soporte3.lsi.uned.es 2 2 16456 20080619003243
+static-71-170-119-34.dllstx.fios.verizon.net 1 1 8556 20080627175317
+cpe0018f870c37f-cm001bd7ac48a2.cpe.net.cable.rogers.com 1 1 16067 20080623132448
+208.111.154.28 1 1 921 20080615235502
+cache-ntc-ac09.proxy.aol.com 0 1 7260 
+cache-dtc-aa15.proxy.aol.com 0 1 2676 
+host-198-7-249-103.jwu.edu 2 12 96027 20080606122933
+pool-71-112-108-215.sttlwa.dsl-w.verizon.net 2 14 158460 20080615203412
+cache-mtc-ab07.proxy.aol.com 0 2 50684 
+82-39-207-173.cable.ubr04.newy.blueyonder.co.uk 1 1 9735 20080615025516
+mail.shrinenet.org 2 6 91054 20080619163552
+ip68-108-23-119.lv.lv.cox.net 20 65 965280 20080624223610
+pool-71-113-37-231.sttlwa.dsl-w.verizon.net 3 32 165019 20080622120401
+d16-78.rb.gh.centurytel.net 10 30 313837 20080617140707
+89.122.29.122 18 18 177083 20080630192721
+rrcs-71-41-200-74.sw.biz.rr.com 38 38 86901 20080617083812
+pat.brwncald.com 1 6 28313 20080605123120
+72-160-125-232.dyn.centurytel.net 4 32 161361 20080616135024
+rrba-ip-pcache-1-vif1.telkom-ipnet.co.za 0 1 14366 
+74.197.90.136 1 1 17989 20080625123902
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 30
+20080601 181 365 8298252 63
+20080602 98 346 6682278 48
+20080603 208 789 23793264 68
+20080604 150 621 17172879 78
+20080605 214 650 10479018 69
+20080606 267 641 11562364 75
+20080607 137 303 2893894 34
+20080608 123 493 9129769 60
+20080609 110 431 4654143 53
+20080610 214 490 8036473 68
+20080611 143 415 9353037 62
+20080612 347 1404 28768073 121
+20080613 251 947 11571004 106
+20080614 226 619 13837053 79
+20080615 154 536 14033063 72
+20080616 211 718 10969838 79
+20080617 345 802 9521386 84
+20080618 197 571 6430878 60
+20080619 211 1004 19202079 69
+20080620 221 793 10716517 88
+20080621 148 737 7542190 72
+20080622 199 896 22380887 75
+20080623 435 1792 34544868 111
+20080624 192 883 10973648 65
+20080625 172 718 8520912 95
+20080626 235 1075 16366420 88
+20080627 194 626 7886796 87
+20080628 132 413 7887246 66
+20080629 163 645 7930666 72
+20080630 252 907 12183896 82
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 15
+5mn-15mn 135
+2mn-5mn 119
+30s-2mn 180
+15mn-30mn 80
+0s-30s 1658
+30mn-1h 62
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 173
+/ 1209 9169068 971 668
+/HarpsDulcimers.html 314 4138775 86 153
+/HarpCamp.html 287 4101543 140 140
+/Calendar.html 204 2691604 23 62
+/SchoolIndex.html 178 617118 13 26
+/Recordings.html 174 1613690 16 27
+/Form_Contact.php 131 1286860 12 16
+/News.html 128 2990508 38 38
+/school_current_class.htm 115 1287411 19 20
+/samples/Magical%20Strings%20-%20Track%204.mp3 114 16003627 71 72
+/Bio.html 103 511100 4 15
+/R-Musings.html 99 575190 10 11
+/Reviews.html 90 665289 10 13
+/R-WDD.html 89 827475 44 35
+/Links.html 80 502835 11 27
+/Bio-Long.html 80 856202 37 25
+/includes/tng/scripts/FormValidation.js.php 75 206331 2 36
+/Fairy_School.html 72 484846 8 15
+/School_Assemblies_Workshops_intro.html 64 397719 9 15
+/W-Whispers.html 57 282331 5 6
+/samples/Bells%20of%20Ballinskelligs.mp3 56 11377292 37 43
+/Presskit.html 52 407760 5 16
+/Harp_Camp_Accommodations.htm 47 385812 4 17
+/samples/botl6_merlin.mp3 45 3148269 13 12
+/samples/btm3_brittany.mp3 42 11451875 20 24
+/samples/CelticHolidayCD%202%20-%20Track%201.mp3 15 201051 7 9
+/CreatingWhereDragonsDance/Pam%26KB3.html 2 1944 0 0
+/CreatingWhereDragonsDance/1FAMILY.html 8 7816 1 1
+/samples/TRACK_10.ram 19 477583 13 7
+/samples/CelticHolidayCD%201%20-%20Track%207.mp3 15 643384 10 2
+/CreatingWhereDragonsDance/BigRedt.html 8 7608 2 1
+/CreatingWhereDragonsDance/Philip%26Chen6.html 2 1846 0 0
+/News2005.html 17 160816 2 4
+/CreatingWhereDragonsDance/FAMILY%20COUCH.html 6 5538 0 0
+/R-OntheBurren.html 25 110998 2 3
+/PDF/Philip%20&%20Pam%20Bio's.pdf 5 451415 5 3
+/Form_School_Reg_Online.html 8 150816 2 2
+/samples/DulcimerCD%201%20-%20Track%201.mp3 19 1231495 11 8
+/R-SpringTide.html 22 97377 0 2
+http://www.magicalstrings.com/HarpCamp.html 1 15919 1 1
+/samples/CelticHolidayCD%202%20-%20Track%205.mp3 13 179965 11 9
+/PDF/Philip%20&%20Pam%20Bio%27s.pdf 9 465647 0 0
+/PDF/CD%27s%20&%20Reviews.pdf 2 356675 0 0
+/PDF/School_Program_Study_Guide.pdf 11 2210676 5 6
+/samples/The%20Unseen%20Journey.mp3 8 5725055 0 0
+/Form_School_Assemblies.php 16 74758 2 0
+/CreatingWhereDragonsDance/Philip.html 8 7368 1 2
+/samples/CelticMistCD%202%20-%20Track%205.mp3 13 1371731 4 5
+/CreatingWhereDragonsDance/Jarrod1.html 5 4605 0 2
+/samples/CelticHolidayCD%201%20-%20Track%204.mp3 16 221159 6 6
+/Form_Camp_Print.html 37 555975 1 9
+/CreatingWhereDragonsDance/Philip&Chen5.html 4 3824 1 2
+/CreatingWhereDragonsDance/Jarrod.html 8 7368 2 2
+/News2003.html 35 611626 13 12
+/samples/TRACK_04.ram 19 365483 6 4
+/samples/Musings%20Margaret's%20Arrival.mp3 20 2417973 1 0
+/samples/The%20Summer%20River.mp3 26 4835773 7 14
+/samples/ic2_malagasy.mp3 27 2946698 15 9
+/Form_Order_Harps_Print.html 26 306600 3 4
+/Form_Harp_Deposit.html 24 197938 1 4
+/R-Legend.html 24 243846 5 7
+/R-IslandsCalling.html 30 193424 5 4
+/samples/botl1_mummer.mp3 32 2683476 15 17
+/CreatingWhereDragonsDance/Brenin1.html 7 6426 1 3
+/CreatingWhereDragonsDance/Brittany%26Pam.html 2 1908 0 0
+/Thank_you_Comment.html 22 115038 0 13
+/samples/TRACK_11.ram 3 253090 0 0
+/R-Yuletide.html 17 77072 2 3
+/samples/cts4_lament.mp3 6 1576473 1 2
+/samples/btm1_rowan.mp3 31 7191501 10 17
+/samples/ic11_hornpipe.mp3 11 3716430 1 1
+/samples/DulcimerCD%202%20-%20Track%205.mp3 16 486634 10 5
+/samples/loi3_battle.mp3 27 8582007 12 18
+/samples/botl2_bell.mp3 26 3585439 15 8
+/samples/The%20Humours%20of%20Scariff.mp3 18 1799898 2 6
+/School%203%20cedars%20directions.html 18 66708 0 0
+/samples/Musings%20-%20Ohana%20Kai.mp3 36 5655404 1 5
+/CreatingWhereDragonsDance/Brittany4.html 7 6671 0 1
+/School%20new%20discovery%20directions.html 18 60300 3 3
+/PDF/CD's%20%26%20Reviews.pdf 1 78471 1 1
+/samples/TRACK_06.ram 3 253091 1 0
+/CreatingWhereDragonsDance/PHarps.html 5 4725 0 1
+/R-CrossingtoSkellig.html 21 157140 4 3
+/PDF/Venue%20Info.pdf 4 238010 1 3
+/samples/CelticMistCD%201%20-%20Track%207.mp3 8 1237421 0 1
+/samples/Doherty%92s%20Reels.mp3 35 6586676 32 31
+/samples/ic7_wintospring.mp3 23 991953 8 8
+/OrderForm.html 24 295196 3 4
+/samples/CelticMistCD%202%20-%20Track%209.mp3 22 639416 9 14
+/samples/ic5_jamaican.mp3 20 860851 13 4
+/Harp_Deposit_Pay.html 4 24592 0 4
+/samples/TRACK_03.ram 3 405965 0 0
+/R-AbovetheTower.html 23 98805 0 1
+/R-CelticMist.html 40 234260 7 15
+/samples/TRACK_09.ram 23 519810 9 8
+/R-BellOfftheLedge.html 33 264244 11 9
+/samples/botl12_peace.mp3 4 1086627 0 0
+/samples/btm5_dance.mp3 7 3295035 0 1
+/samples/TRACK_01.ram 20 931669 7 4
+/R-GoodPeopleAll.html 23 118338 3 3
+/samples/CelticHolidayCD%201%20-%20Track%202.mp3 16 458443 9 7
+/samples/btm4_mother.mp3 21 4989889 6 5
+/PDF/Redlands%20Letter%20&%20Daily%20Facts%20review%20%2799.pdf 5 597173 1 2
+/samples/CelticHolidayCD%201%20-%20Track%203.mp3 15 208401 2 6
+/R-Moon.html 40 435268 10 8
+/PDF/Boulding%20Family%20Story%20Yuletide%202004.pdf 6 116100 3 2
+/WDD_Home.html 18 129591 0 2
+/CreatingWhereDragonsDance/Philip&Chen6.html 6 5538 0 2
+/samples/DulcimerCD%201-%20Track%203.mp3 8 155058 3 2
+/samples/TRACK_13.ram 18 456075 7 3
+/samples/CelticMistCD%201%20-%20Track%201.mp3 17 1122236 7 5
+/CreatingWhereDragonsDance/1BigRedStudio.html 6 5178 1 1
+/samples/cts1_knock.mp3 13 195925 4 9
+/samples/Musings%20Wild%20Willy.mp3 19 3630320 1 1
+/News2004.html 22 158046 3 4
+/samples/TRACK_05.ram 12 382513 4 4
+/CreatingWhereDragonsDance/Brittany1.html 7 6475 1 1
+/CreatingWhereDragonsDance/JTom_Creegan.html 7 6496 1 2
+/PDF/Redlands%20Letter%20&%20Daily%20Facts%20review%20'99.pdf 9 922526 8 8
+/samples/cts9_skellig.mp3 11 2049012 8 6
+/samples/Poet's%20Love.mp3 16 1964499 4 8
+/Form_School_Print.html 36 408420 18 18
+/samples/TRACK_08.ram 19 471742 9 10
+/R-Elegance.html 26 164275 5 5
+/CreatingWhereDragonsDance/Pam&Dulcimer.html 6 5730 2 0
+/samples/loi5_house.mp3 3 534323 1 0
+/PDF/CD's%20&%20Reviews.pdf 2 439452 2 2
+/samples/CelticHolidayCD%202%20-%20Track%2010.mp3 13 177046 5 7
+/CreatingWhereDragonsDance/Sheetmusic.html 8 7496 1 4
+/CreatingWhereDragonsDance/WDDSlideShow.html 19 166482 2 3
+/samples/TRACK_12.ram 31 751305 19 10
+/samples/loi2_vali.mp3 20 1486769 10 13
+/Form_Email_Add.html 1 8681 0 1
+/samples/CelticHolidayCD%202%20-%20Track%203.mp3 1 12270 1 0
+/CreatingWhereDragonsDance/Philip%26Chen5.html 2 1912 0 0
+/Form_School_Reg.php 22 263195 3 2
+/CreatingWhereDragonsDance/Philip&Chen3.html 3 2850 2 1
+/samples/CelticMistCD%202%20-%20Track%203.mp3 12 735377 4 5
+/samples/CelticMistCD%201%20-%20Track%208.mp3 18 749705 3 8
+/CreatingWhereDragonsDance/Philip1.html 7 6412 1 2
+/CreatingWhereDragonsDance/2Quartetstanding1.html 7 6965 1 2
+/R-Harp.html 28 135000 5 4
+/School_Assemblies_Workshops.html 35 440436 14 16
+/samples/DulcimerCD%202%20-%20Track%204.mp3 18 777649 13 16
+/CreatingWhereDragonsDance/Brittany2.html 6 5700 0 0
+/samples/DulcimerCD%202%20-%20Track%203.mp3 13 791640 8 4
+/samples/Musings%20Planxty%20Raney.mp3 15 3103081 0 5
+/CreatingWhereDragonsDance/Brittany&Pam.html 9 8586 3 4
+/samples/DulcimerCD%202%20-%20Track%202.mp3 10 672579 1 4
+/CreatingWhereDragonsDance/Pam%26Dulcimer.html 2 1910 0 0
+/PayPal_Thanks.html 12 49500 4 4
+/CreatingWhereDragonsDance/Pam&KB3.html 10 9720 7 2
+/CreatingWhereDragonsDance/JTom_Creegan1.html 4 3732 0 0
+/CreatingWhereDragonsDance/Billy.html 6 5484 0 0
+/PDF/All%20About%20&%20Critical%20Acclaim.pdf 11 186340 5 6
+/samples/TRACK_02.ram 23 540250 4 10
+/Bio-Short.html 34 259710 3 6
+/samples/Musings%20Napili%20Nights.mp3 21 4030879 1 4
+http://www.magicalstrings.com/samples/Magical%20Strings%20-%20Track%204.mp3 2 0 2 2
+/samples/btm10_kailey.mp3 22 4075697 6 8
+/includes/nxt/back.php 1 150 0 0
+/samples/Poet%27s%20Love.mp3 9 4676198 0 2
+/samples/loi3_march.mp3 31 747533 11 16
+/CreatingWhereDragonsDance/BreninCello.html 9 8568 3 3
+/samples/Where%20Dragons%20Dance.mp3 20 8923884 0 3
+/R-Celtic%20Holiday.html 29 186273 6 6
+/samples/CelticMistCD%202%20-%20Track%202.mp3 25 1525322 14 12
+/samples/DulcimerCD%201%20-%20Track%207.mp3 9 394646 0 7
+/CreatingWhereDragonsDance/Philip%26Chen3.html 2 1900 0 0
+/YT_2007.html 20 419140 18 14
+/samples/DulcimerCD%201%20-%20Track%205.mp3 13 187202 8 9
+/samples/CelticMistCD%201%20-%20Track%203.mp3 17 1559321 4 7
+/samples/TRACK_07.ram 15 420654 2 1
+END_SIDER

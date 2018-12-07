@@ -1,0 +1,467 @@
+Return-Path: <mail.cyhhhewtasusqwwlofsy@gen.msgfocus.com>
+Delivered-To: pam@magicalstrings.com
+Received: from biz164.inmotionhosting.com
+	by biz164.inmotionhosting.com (Dovecot) with LMTP id eXTzLprTu1kJCgAAtEtsOg
+	for <pam@magicalstrings.com>; Fri, 15 Sep 2017 06:20:26 -0700
+Return-path: <mail.cyhhhewtasusqwwlofsy@gen.msgfocus.com>
+Envelope-to: pam@magicalstrings.com
+Delivery-date: Fri, 15 Sep 2017 06:20:26 -0700
+Received: from mail79-163.us1.msgfocus.com ([81.29.79.163]:40662)
+	by biz164.inmotionhosting.com with esmtps (TLSv1.2:ECDHE-RSA-AES256-GCM-SHA384:256)
+	(Exim 4.87)
+	(envelope-from <mail.cyhhhewtasusqwwlofsy@gen.msgfocus.com>)
+	id 1dsqXV-0001KG-QD
+	for pam@magicalstrings.com; Fri, 15 Sep 2017 06:20:26 -0700
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=msgf; d=msgfocus.com;
+ h=Subject:Message-ID:Reply-To:X-Mailer:To:From:Date:MIME-Version:Content-Type;
+ bh=yRf5h4FMpb3VtKuw7Jcufee/PQs=;
+ b=wyvLVzURxbw0m2XcuS7w9ZEk/8uKXwFaXMnzOXNB42JI6WVudnQXooD6ya0GF0F3gQO4q8I+OvxI
+   WH6Idjg592n6A+YMS1zvYEdMN+tJAkWg0aWGrsXeqQvTqpkeOV8mNKBzNK15mVIL4LwLZdl2GtIQ
+   khUOqTb412oQ8IULyxE=
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=msgf; d=msgfocus.com;
+ h=Subject:Message-ID:Reply-To:X-Mailer:To:From:Date:MIME-Version:Content-Type; i=vonage@gen.msgfocus.com;
+ bh=yRf5h4FMpb3VtKuw7Jcufee/PQs=;
+ b=OdGH/EzKBq0UR99Gmx5P8ZqN/RbQvhYwUZtSnNm6pZfre8aRHjByDBHjB2bV+eyRYHdwZDZ26aN7
+   WBnWg5nT12Hzy/i6wMMQRZyqlEwKinZsXW6dKrkIRaJdgZx90XYvv0/7E9U4JbgpOPyyGjznmKF3
+   PPptcRTYM2ewFMo3cDE=
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=msgf; d=msgfocus.com;
+ b=jOMmNqUBzTd/KkYkYLr/VtA1Kvh4Z0ME6ns8dLNkonmLlOcID/pJgAL1O3jepfASQByjKVOcOFe5
+   QinR1vRR3BtI3ujkXCfT/g3Y7T4EYDA+ZBNxZmQtjyAG22pO4oTPisf7G8KC18HP3GcuzhYq/LQ9
+   OzCtUFVj7PEHQAu5iAQ=;
+Subject: New Offer: Unlimited U.S. Calls 9.99/mo
+Message-ID: <kpIx2-6tUqZohwh-Szvx-1g6P5twHkLjblbJhP@gen.msgfocus.com>
+Reply-To: mail.cyhhhewtasusqwwlofsy@gen.msgfocus.com
+X-Mailer: MessageFocus v2 launch
+To: pam@magicalstrings.com
+From: Vonage <vonage@gen.msgfocus.com>
+Date: Fri, 15 Sep 2017 14:20:12 +0100
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="--13FB7E20C37BD45D4CE92073016E1"
+X-Spam-Status: No, score=2.2
+X-Spam-Score: 22
+X-Spam-Bar: ++
+X-Ham-Report: Spam detection software, running on the system "biz164.inmotionhosting.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ 
+ Content preview:  Vonage GET OUR NEW LOW-PRICED CALLING PLAN â€“ CALL 1-800-530-5811
+    Can't see this email? Click here » Calls to Friends and Family in U.S., Mexico
+    and Canada Included â€“ 1.800.530.5811 LEARN MORE With Vonage® , you can
+   connect with family and friends in the U.S., Mexico and Canada with our North
+    America Plan. What do customers love most about Vonage? [...] 
+ 
+ Content analysis details:   (2.2 points, 5.0 required)
+ 
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was blocked.
+                             See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: vonage.com]
+ -0.0 SPF_HELO_PASS          SPF: HELO matches SPF record
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+ -0.0 RP_MATCHES_RCVD        Envelope sender domain matches handover relay domain
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+ -1.9 BAYES_00               BODY: Bayes spam probability is 0 to 1%
+                             [score: 0.0000]
+  1.2 HTML_TAG_BALANCE_BODY  BODY: HTML has unbalanced "body" tags
+  1.4 HTML_COMMENT_SAVED_URL BODY: HTML message is a saved web page
+  0.8 MPART_ALT_DIFF         BODY: HTML and text parts are different
+  0.7 MIME_HTML_ONLY         BODY: Message only has text/html MIME parts
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily valid
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.0 MIME_HTML_ONLY_MULTI   Multipart message only has text/html MIME parts
+  0.0 T_FILL_THIS_FORM_SHORT Fill in a short form with personal information
+X-Spam-Flag: NO
+
+
+----13FB7E20C37BD45D4CE92073016E1
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.=
+w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=3D(0054)file:///C:/Users/jfisher/Downloads/pure-prospec=
+ts.html -->
+<html xmlns=3D"http://www.w3.org/1999/xhtml">
+<head>
+<meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=3D1.=
+0" />
+<!--[if !mso]><!-->
+<meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge" />
+<!--<![endif]-->
+<title>Vonage</title>
+<style type=3D"text/css">
+@import url(https://fonts.googleapis.com/css?family=3DRoboto:400,300,700);
+ @import url(https://fonts.googleapis.com/css?family=3DRoboto+Condensed:400=
+,300,700);
+body {
+	margin: 0;
+	padding: 0
+}
+table td {
+	border-collapse: collapse;
+}
+.ExternalClass * {
+	line-height: 100%
+}
+img {
+	border: none
+}
+p {
+	margin: 0;
+	padding: 0
+}
+sup {
+	vertical-align: 3px;
+	font-size: 0.7em;
+	line-height: 0;
+}
+td {
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+}
+a[x-apple-data-detectors] {
+	color: inherit !important;
+	text-decoration: none !important;
+	font-size: inherit !important;
+	font-family: inherit !important;
+	font-weight: inherit !important;
+	line-height: inherit !important;
+}
+</style>
+<!--[if mso]>
+      <style type=3D&Atilde;&fnof;&AElig;'&Atilde;&sbquo;&Acirc;&cent;&Atil=
+de;&fnof;&Acirc;&cent;&Atilde;&cent;&acirc;&sbquo;&not;&Aring;&iexcl;&Atild=
+e;&sbquo;&Acirc;&not;&Atilde;&fnof;&acirc;&euro;&scaron;&Atilde;&sbquo;&Aci=
+rc;&#157;text/css&Atilde;&fnof;&AElig;'&Atilde;&sbquo;&Acirc;&cent;&Atilde;=
+&fnof;&Acirc;&cent;&Atilde;&cent;&acirc;&sbquo;&not;&Aring;&iexcl;&Atilde;&=
+sbquo;&Acirc;&not;&Atilde;&fnof;&acirc;&euro;&scaron;&Atilde;&sbquo;&Acirc;=
+&#157;>
+        .fallback {
+          font-family: Arial, sans-serif;
+        }
+      </style>
+    <![endif]-->
+</head>
+<body bgcolor=3D"#ffffff">
+<table align=3D"center" bgcolor=3D"#ffffff" width=3D"100%" cellspacing=3D"0=
+" cellpadding=3D"0">
+
+<tr>
+	<td align=3D"center" style=3D"padding: 10px" class=3D"wrapper"><table widt=
+h=3D"600" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+=09
+	<tr>
+		<td align=3D"center" valign=3D"top" style=3D"padding: 15px 0"><table widt=
+h=3D"552" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+=09=09
+		<tr>
+			<td align=3D"left" valign=3D"middle" style=3D"font-family: &#39;roboto c=
+ondensed&#39;, arial, sans-serif; font-size: 10px; color: #3c3c3e; font-wei=
+ght: 700"><span class=3D"fallback">GET OUR NEW LOW-PRICED CALLING PLAN&nbsp=
+;&#8211;&nbsp;CALL 1-800-530-5811</span></td> <td align=3D"right" valign=3D=
+"middle" style=3D"font-family: &#39;roboto&#39;, arial, sans-serif; font-si=
+ze: 10px; color: #3c3c3e;" class=3D"hide"><span class=3D"fallback"> <a href=
+=3D"http://gen.msgfocus.com/c/1gt1xeRnbV4pQUM8VcY6KI7ju9" target=3D"_blank"=
+ style=3D"color: #3c3c3e; text-decoration: none">Can't see this email? Clic=
+k here &raquo;</a> </span></td>
+		</tr>
+=09=09
+		</table></td>
+	</tr>
+	<tr>
+		<td align=3D"center" valign=3D"top"><table width=3D"100%" border=3D"0" ce=
+llspacing=3D"0" cellpadding=3D"0">
+=09=09
+		<tr>
+			<td><a href=3D"http://gen.msgfocus.com/c/1gt1F1A215znhYki4L2D9upEpm" tar=
+get=3D"_blank">
+			<img src=3D"http://msgfocus.com/files/amf_world_data/workspace_92/502033=
+9v4/images/VonagePP_02.jpg" width=3D"600" height=3D"255" alt=3D"Vonage&#174=
+;  - Connect More &amp; Pay Less with Vonage Home Phone Service - $9.99/MON=
+TH FOR 12 MONTHS - Plus taxes and fees with 1-year agreement. Works with ex=
+isting high-speed internet." style=3D"display: block; border: none" />
+			</a></td>
+		</tr>
+=09=09
+		</table></td>
+	</tr>
+	<tr>
+		<td align=3D"center" valign=3D"top" bgcolor=3D"#041932" style=3D"padding:=
+ 27px 36px 27px 28px;"><table width=3D"536" border=3D"0" cellpadding=3D"0" =
+cellspacing=3D"0">
+=09=09
+		<tr>
+			<td height=3D"44" align=3D"left" valign=3D"middle" class=3D"rsvp" style=
+=3D"font-family: &#39;roboto condensed&#39;, arial, sans-serif; font-size: =
+20px; line-height: 26px; color: #ffffff; font-weight: 300;"><span class=3D"=
+fallback">Calls to Friends and Family in U.S., Mexico<br />
+			and Canada Included <span style=3D"font-weight: 700">&nbsp;&#8211;&nbsp;=
+ </span> <a href=3D"tel:1.800.530.5811" target=3D"_blank" style=3D"color: #=
+ffffff; text-decoration: none; font-weight: 700">1.800.530.5811</a></span><=
+/td> <td align=3D"right" valign=3D"middle"><div>=20
+				<!--[if mso]>
+                              <v:rect xmlns:v=3D"urn:schemas-microsoft-com:=
+vml" xmlns:w=3D"urn:schemas-microsoft-com:office:word" href=3D"http://www.v=
+onage.com/home03?refer_id=3DEMLGN150901008W1&c3ch=3DEmail&c3nid=3DCORE-PROS=
+-2015-Q3-99912MOS-REVIEW&cmp=3DEML-2015-Q3-PROSPECT-REVIEW-99912MOS&cvosrc=
+=3DEmail.Prospect.Domestic-Review-Q12016" style=3D"height:33px;v-text-ancho=
+r:middle;width:147px;" strokecolor=3D"#0c60bc" fillcolor=3D"#0c60bc">
+                                <w:anchorlock/>
+                                <center style=3D"color:#ffffff;font-family:=
+arial,sans-serif;font-size:14px;">LEARN MORE</center>
+                              </v:rect>
+                            <![endif]-->=20
+				<a href=3D"http://gen.msgfocus.com/c/1gt1MOiGQg4kJ1Srej79ygHZkz" style=
+=3D"background-color:#0c60bc;border:1px solid #0c60bc;color:#ffffff;display=
+:inline-block;font-family:'roboto', arial, sans-serif;font-size:14px;line-h=
+eight:33px;text-align:center;text-decoration:none;width:147px;-webkit-text-=
+size-adjust:none;mso-hide:all;">LEARN MORE</a> </div></td>
+		</tr>
+=09=09
+		</table></td>
+	</tr>
+	<tr>
+		<td width=3D"600" align=3D"center" valign=3D"top"><table width=3D"100%" b=
+order=3D"0" align=3D"center" cellpadding=3D"0" cellspacing=3D"0">
+=09=09
+		<tr>
+			<td align=3D"center" valign=3D"top" bgcolor=3D"#ffffff" style=3D"padding=
+: 20px 27px 20px 27px"><table width=3D"546" border=3D"0" cellspacing=3D"0" =
+cellpadding=3D"0">
+=09=09=09
+			<tr>
+				<td align=3D"left" valign=3D"top" style=3D"font-family: &#39;roboto&#39=
+;, arial, helvetica, sans-serif; font-size: 14px; line-height: 20px; color:=
+ #3c3c3e"><div> <span class=3D"fallback">With Vonage<sup>&#174; </sup>, you=
+ can connect with family and friends in the U.S., Mexico and Canada with ou=
+r North America Plan. What do customers love most about Vonage? </span> </d=
+iv>
+				<div style=3D"padding-top: 12px;"> <span class=3D"fallback" style=3D"fo=
+nt-family: &#39;roboto&#39;, arial, helvetica, sans-serif; font-size: 24px;=
+ line-height: 30px; color: #0c61bc; font-weight: 300;">Here are the top 5:<=
+/span> </div></td>
+			</tr>
+=09=09=09
+			</table></td>
+		</tr>
+=09=09
+		</table></td>
+	</tr>
+	<tr>
+		<td width=3D"560" align=3D"center" valign=3D"top" style=3D"background-col=
+or: #e6e7e7; padding: 18px 20px;"><table width=3D"100%" border=3D"0" align=
+=3D"center" cellpadding=3D"0" cellspacing=3D"0">
+=09=09
+		<tr style=3D"background-color: #ffffff;">
+			<td style=3D"padding: 10px 0px 10px 20px; width: 122px;"><img src=3D"htt=
+p://msgfocus.com/files/amf_world_data/workspace_92/5020339v4/images/Residen=
+tial_Pure_Prospects_05.jpg" alt=3D"Item 1" width=3D"100" height=3D"75" styl=
+e=3D"display: block; border: none" /></td> <td style=3D"padding: 25px 0px 1=
+8px 0px; width: 458px;"><span class=3D"fallback" style=3D"font-family: &#39=
+;roboto&#39;, arial, sans-serif; font-size: 18px; line-height: 22px;color: =
+#fc6e08; font-weight: 700;">Flexibility</span> <br />
+			<span class=3D"fallback" style=3D"font-family: &#39;roboto&#39;, arial, =
+sans-serif; font-size: 14px; line-height: 18px;color: #3c3c3e;">Unlimited<s=
+up>2</sup> Calling within the U.S. and to Canada and Mexico</span></td>
+		</tr>
+		<tr>
+			<td colspan=3D"2" style=3D"height: 10px;">&nbsp;</td>
+		</tr>
+		<tr style=3D"background-color: #ffffff;">
+			<td style=3D"padding: 10px 0px 10px 20px; width: 122px;"><img src=3D"htt=
+p://msgfocus.com/files/amf_world_data/workspace_92/5020339v4/images/Residen=
+tial_Pure_Prospects_08.jpg" alt=3D"Item 2" width=3D"100" height=3D"75" styl=
+e=3D"display: block; border: none" /></td> <td style=3D"padding: 25px 0px 1=
+8px 0px; width: 458px;"><span class=3D"fallback" style=3D"font-family: &#39=
+;roboto&#39;, arial, sans-serif; font-size: 18px; line-height: 22px;color: =
+#fc6e08; font-weight: 700;">Value</span> <br />
+			<span class=3D"fallback" style=3D"font-family: &#39;roboto&#39;, arial, =
+sans-serif; font-size: 14px; line-height: 18px;color: #3c3c3e;">Use free Wi=
+-Fi calling to save mobile minutes</span></td>
+		</tr>
+		<tr>
+			<td colspan=3D"2" style=3D"height: 10px;">&nbsp;</td>
+		</tr>
+		<tr style=3D"background-color: #ffffff;">
+			<td style=3D"padding: 10px 0px 10px 20px; width: 122px;"><img src=3D"htt=
+p://msgfocus.com/files/amf_world_data/workspace_92/5020339v4/images/Residen=
+tial_Pure_Prospects_10.jpg" alt=3D"Item 3" width=3D"100" height=3D"75" styl=
+e=3D"display: block; border: none" /></td> <td style=3D"padding: 25px 0px 1=
+8px 0px; width: 458px;"><span class=3D"fallback" style=3D"font-family: &#39=
+;roboto&#39;, arial, sans-serif; font-size: 18px; line-height: 22px;color: =
+#fc6e08; font-weight: 700;">Mobility</span> <br />
+			<span class=3D"fallback" style=3D"font-family: &#39;roboto&#39;, arial, =
+sans-serif; font-size: 14px; line-height: 18px;color: #3c3c3e;">Answer home=
+ phone calls on your smartphone with our Extensions<sup>&#174; </sup> app<s=
+up>3</sup></span></td>
+		</tr>
+		<tr>
+			<td colspan=3D"2" style=3D"height: 10px;">&nbsp;</td>
+		</tr>
+		<tr style=3D"background-color: #ffffff;">
+			<td style=3D"padding: 10px 0px 10px 20px; width: 122px;"><img src=3D"htt=
+p://msgfocus.com/files/amf_world_data/workspace_92/5020339v4/images/Residen=
+tial_Pure_Prospects_12.jpg" alt=3D"Item 4" width=3D"100" height=3D"75" styl=
+e=3D"display: block; border: none" /></td> <td style=3D"padding: 25px 0px 1=
+8px 0px; width: 458px;"><span class=3D"fallback" style=3D"font-family: &#39=
+;roboto&#39;, arial, sans-serif; font-size: 18px; line-height: 22px;color: =
+#fc6e08; font-weight: 700;">Global Reach</span> <br />
+			<span class=3D"fallback" style=3D"font-family: &#39;roboto&#39;, arial, =
+sans-serif; font-size: 14px; line-height: 18px;color: #3c3c3e;">Low per-min=
+ute rates to 244 international destinations</span></td>
+		</tr>
+		<tr>
+			<td colspan=3D"2" style=3D"height: 10px;">&nbsp;</td>
+		</tr>
+		<tr style=3D"background-color: #ffffff;">
+			<td style=3D"padding: 10px 0px 10px 20px; width: 122px;"><img src=3D"htt=
+p://msgfocus.com/files/amf_world_data/workspace_92/5020339v4/images/Residen=
+tial_Pure_Prospects_14.jpg" alt=3D"Item 5" width=3D"100" height=3D"75" styl=
+e=3D"display: block; border: none" /></td> <td style=3D"padding: 25px 0px 1=
+8px 0px; width: 458px;"><span class=3D"fallback" style=3D"font-family: &#39=
+;roboto&#39;, arial, sans-serif; font-size: 18px; line-height: 22px;color: =
+#fc6e08; font-weight: 700;">Quality</span> <br />
+			<span class=3D"fallback" style=3D"font-family: &#39;roboto&#39;, arial, =
+sans-serif; font-size: 14px; line-height: 18px;color: #3c3c3e;">Block or fo=
+rward calls, read voicemail as email, and more with 20 included calling fea=
+tures</span></td>
+		</tr>
+=09=09
+		</table></td>
+	</tr>
+	<tr>
+		<td align=3D"center" valign=3D"top" bgcolor=3D"#ff8201" style=3D"padding:=
+ 11px 18px 7px 30px;"><table width=3D"552" border=3D"0" cellpadding=3D"0" c=
+ellspacing=3D"0">
+=09=09
+		<tr>
+			<td height=3D"44" align=3D"left" valign=3D"middle" class=3D"rsvp" style=
+=3D"font-family: &#39;roboto&#39;, arial, sans-serif; font-size: 24px; line=
+-height: 26px; color: #3c3c3e; font-weight: 300;"><span class=3D"fallback">=
+Start Connecting Smarter</span> <br />
+			<a href=3D"tel:18005305811" target=3D"_blank" style=3D"color: #3c3c3e; t=
+ext-decoration: none; font-weight: 700">1.800.530.5811</a></td> <td align=
+=3D"right" valign=3D"middle"><div>=20
+				<!--[if mso]>
+                              <v:rect xmlns:v=3D"urn:schemas-microsoft-com:=
+vml" xmlns:w=3D"urn:schemas-microsoft-com:office:word" href=3D"http://www.v=
+onage.com/home03?refer_id=3DEMLGN150901008W1&c3ch=3DEmail&c3nid=3DCORE-PROS=
+-2015-Q3-99912MOS-REVIEW&cmp=3DEML-2015-Q3-PROSPECT-REVIEW-99912MOS&cvosrc=
+=3DEmail.Prospect.Domestic-Review-Q12016" style=3D"height:33px;v-text-ancho=
+r:middle;width:147px;" strokecolor=3D"#0c60bc" fillcolor=3D"#0c60bc">
+                                <w:anchorlock/>
+                                <center style=3D"color:#ffffff;font-family:=
+arial,sans-serif;font-size:14px;">LEARN MORE</center>
+                              </v:rect>
+                            <![endif]-->=20
+				<a href=3D"http://gen.msgfocus.com/c/1gt1UB1lFqzia5qAnRbFX30kfM" style=
+=3D"background-color:#0c60bc;border:1px solid #0c60bc;color:#ffffff;display=
+:inline-block;font-family:'roboto', arial, sans-serif;font-size:14px;line-h=
+eight:33px;text-align:center;text-decoration:none;width:147px;-webkit-text-=
+size-adjust:none;mso-hide:all;">LEARN MORE</a> </div></td>
+		</tr>
+=09=09
+		</table></td>
+	</tr>
+	<tr>
+		<td align=3D"center" valign=3D"top" style=3D"padding: 35px 0 25px 0"><tab=
+le width=3D"565" border=3D"0" cellpadding=3D"0" cellspacing=3D"0">
+=09=09
+		<tr>
+			<td width=3D"50%" align=3D"left" valign=3D"middle"><a href=3D"http://gen=
+.msgfocus.com/c/1gt22nK0uB4fB8YJxpgclPiFaZ" target=3D"_blank">
+			<img src=3D"http://msgfocus.com/files/amf_world_data/workspace_92/502033=
+9v4/images/VonagePP_20.jpg" alt=3D"Vonage&#174; " width=3D"129" height=3D"4=
+6" style=3D"border: none" />
+			</a></td> <td width=3D"50%" align=3D"right" valign=3D"middle"><img src=
+=3D"http://msgfocus.com/files/amf_world_data/workspace_92/5020339v4/images/=
+VonagePP_17.jpg" width=3D"124" height=3D"44" alt=3D"BBB - A+" /></td>
+		</tr>
+=09=09
+		</table></td>
+	</tr>
+	<tr>
+		<td align=3D"center" valign=3D"top" style=3D"padding-bottom: 20px"><table=
+ width=3D"565" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+=09=09
+		<tr>
+			<td align=3D"left" valign=3D"top" style=3D"font-family: &#39;roboto cond=
+ensed&#39;, arial, sans-serif; font-size: 10px; line-height: 12px; color: #=
+3c3c3e; font-weight: 300; padding-top: 25px; border-top: 2px solid #a4a4a4"=
+><span class=3D"fallback"> <sup>1</sup>Limited-time offer for new Vonage cu=
+stomers with 1-yr agreement. After the first year, you'll only pay $24.99/m=
+o plus taxes and fees. Valid credit, debit card or checking account only. P=
+romotional price applies to base monthly rate only and excludes fees, taxes=
+, additional or premium services and other charges. Early termination may b=
+e subject to fees; max. ETF of $120 but Vonage prorates based on length of =
+tenure. <br />
+			<br />
+			<sup>2</sup>Unlimited calling is based on normal residential, personal, =
+non-commercial use. A combination of factors is used to determine abnormal =
+use, including but not limited to: the number of unique numbers calls, call=
+s forwarded, minutes used and other factors. Subject to our <a href=3D"http=
+://gen.msgfocus.com/c/1gt2aasFjLzd2cwSGXkIKBB06c" target=3D"_blank" style=
+=3D"color: #3c3c3e; text-decoration: none; font-weight: 700">Reasonable Use=
+ Policy</a> and <a href=3D"http://gen.msgfocus.com/c/1gt2hXbk8W4atg51Qvpf9n=
+Tl1p" target=3D"_blank" style=3D"color: #3c3c3e; text-decoration: none; fon=
+t-weight: 700">Terms of Service</a>. See <a href=3D"http://gen.msgfocus.com=
+/c/1gt2pJTYY6z7UjDb03tLyabFWC" target=3D"_blank" style=3D"color: #3c3c3e; t=
+ext-decoration: none; font-weight: 700">www.vonage.com</a> for details. <br=
+ />
+			<br />
+			<sup>3</sup>Extensions<sup>&#174; </sup> permits inbound and outbound ca=
+lling on up to two additional registered phones at the home calling plan ra=
+tes. Applicable charges will appear on your monthly account bill. Calls mad=
+e from mobiles may use airtime or data and may incur charges, depending on =
+your mobile plan. See <a href=3D"http://gen.msgfocus.com/c/1gt2xwCDNh45lnbk=
+9ByhWWu0RP" target=3D"_blank" style=3D"color: #3c3c3e; text-decoration: non=
+e; font-weight: 700">www.vonage.com</a> for more details. <br />
+			<br />
+			&#169; 2017 Vonage. 23 Main Street, Holmdel, NJ 07733 <a href=3D"http://=
+gen.msgfocus.com/c/1gt2N63XrC40duhCsHHkKv4GIf" target=3D"_blank" style=3D"c=
+olor: #3c3c3e; font-weight: 700; text-decoration: none">Unsubscribe</a>&nbs=
+p;&nbsp;|&nbsp;&nbsp;<a href=3D"http://gen.msgfocus.com/c/1gt2USMCgMyXExPLC=
+fLR9hn1Ds" target=3D"_blank" style=3D"color: #3c3c3e; font-weight: 700; tex=
+t-decoration: none">Privacy Policy</a> </span></td>
+		</tr>
+=09=09
+		</table></td>
+	</tr>
+=09
+	</table></td>
+</tr>
+
+</table>
+<!-- gmail android fix -->=20
+<table width=3D"600" border=3D"0" align=3D"center" cellpadding=3D"0" cellsp=
+acing=3D"0" class=3D"hide">
+
+<tr>
+	<td height=3D"1" style=3D"line-height:1px; min-width: 600px;" cellpadding=
+=3D"0" cellspacing=3D"0" border=3D"0">&nbsp;</td>
+</tr>
+
+</table>
+<!-- gmail ios fix -->
+<div style=3D" display:none; white-space:nowrap!important; font:15px courie=
+r; color:#000000; line-height:0px;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbs=
+p; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &n=
+bsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </div>
+<img src=3D"https://vonage.sp1.convertro.com/view/vt/v1/vonage/1/cvo.gif?cv=
+osrc=3DEmail.Prospect.Domestic-Review-Q12016" width=3D1 height=3D1/><div st=
+yle=3D"font-size:9pt;font-family:arial,san-serif;padding:10px 15px;margin:5=
+px;line-height:12pt;text-align:center;">
+If you do not wish to receive these emails in the future you may unsubscrib=
+e here:  <a href=3D"http://gen.msgfocus.com/u/17m6z3UfZEZuj7hF0AxiDKb">Unsu=
+bscribe</a></div><img src=3D"http://gen.msgfocus.com/t/1g6P5twHkLjblbJhP.pn=
+g" alt=3D"">
+<!--[if lt mso 12]><img src=3D"https://gen.msgfocus.com/r/1g6P5twHkLjblbJhP=
+.png?c=3D1" alt=3D""><![endif]--><![if gt mso 11]><img src=3D"https://gen.m=
+sgfocus.com/r/1g6P5twHkLjblbJhP.png" alt=3D""><![endif]>
+
+----13FB7E20C37BD45D4CE92073016E1--

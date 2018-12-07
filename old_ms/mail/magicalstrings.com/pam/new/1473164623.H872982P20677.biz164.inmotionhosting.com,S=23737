@@ -1,0 +1,503 @@
+Return-path: <075-DTB-715.0.41375.0.0.42086.7.55933568@potomac1050.mktomail.com>
+Envelope-to: pam@magicalstrings.com
+Delivery-date: Tue, 06 Sep 2016 05:23:43 -0700
+Received: from ringcentral1.mktdns.com ([199.15.213.90]:52371)
+	by biz164.inmotionhosting.com with esmtps (TLSv1.2:DHE-RSA-AES256-GCM-SHA384:256)
+	(Exim 4.86_1)
+	(envelope-from <075-DTB-715.0.41375.0.0.42086.7.55933568@potomac1050.mktomail.com>)
+	id 1bhFPf-0005I2-5p
+	for pam@magicalstrings.com; Tue, 06 Sep 2016 05:23:43 -0700
+X-MSFBL: cGFtQG1hZ2ljYWxzdHJpbmdzLmNvbUBkdnAtMTk5LTE1LTIxMy05MEBiZy1hYmQt
+	MjVAMDc1LURUQi03MTU6MTU2NzMwOjQxMzc1OjIxNTA1NjowOjQyMDg2Ojc6NTU5
+	MzM1Njg=
+Received: from [10.1.87.249] ([10.1.87.249:57021] helo=abmas01.marketo.org)
+	by abmta05.marketo.org (envelope-from <hello@ringcentral.com>)
+	(ecelerity 3.6.8.47404 r(Core:3.6.8.0)) with ESMTP
+	id 35/83-06316-A45BEC75; Tue, 06 Sep 2016 07:23:38 -0500
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed; t=1473164618;
+	s=m1; d=ringcentral.com; i=@ringcentral.com;
+	h=Date:From:To:Subject:MIME-Version:Content-Type;
+	bh=pynGS2WQF1qsmDe7YT49qoFraOPUF83QSz4GEw8k/Dk=;
+	b=INqBbkMhVTaSUY/ogvvv6HVITMJdbByvBrq3v9NFXdpuOJuPVYa4R8dOc34Izakl
+	jsgefCPtNqtjumh05AvfgZZrJM7wYWrXdlAE4yx+CqYGYvYUYza6UiOKUXLnBcxvogt
+	Ak3Q3HAIvYQXS7K04WGBSEmzYdqJBmyOb/nf2Szo=
+Date: Tue, 6 Sep 2016 07:23:38 -0500 (CDT)
+From: RingCentral <hello@ringcentral.com>
+Reply-To: hello@ringcentral.com
+To: pam@magicalstrings.com
+Message-ID: <415464094.207200408.1473164618354.JavaMail.root@abmas01.marketo.org>
+Subject: On Demand Webinars: The Value of VOIP
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_207200405_2143122642.1473164618353"
+X-PVIQ: mkto-075DTB715-000001-000000-156440
+X-Binding: bg-abd-25
+X-MarketoID: 075-DTB-715:156730:41375:215056:0:42086:7:55933568
+X-MktArchive: false
+List-Unsubscribe: <mailto:LBYFSLJYKYZHIZDZPFKU64TKGRKDM5CTMV4DER2YHBWE6M3KME2WQWSQHAZVMVSGNRZDIPI.41375.42086.7@unsub-ab.mktomail.com>
+X-Mailfrom: 075-DTB-715.0.41375.0.0.42086.7.55933568@potomac1050.mktomail.com
+X-MSYS-API: {"options":{"open_tracking":false,"click_tracking":false}}
+X-MktMailDKIM: true
+X-Spam-Status: No, score=-2.0
+X-Spam-Score: -19
+X-Spam-Bar: --
+X-Ham-Report: Spam detection software, running on the system "biz164.inmotionhosting.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ 
+ Content preview:  Watch on-demand today <http://info.ringcentral.com/GCT0BZ00S3MrD0jd0300kHG>
+    On-Demand Webinar Series: Cloud Phone Systems From RingCentral Learn how
+   1000’s of companies of all sizes have realized unmatched flexibility, scalability,
+    security and reliability – without the costs of a PBX system – by moving
+    to cloud-based phone systems. [...] 
+ 
+ Content analysis details:   (-2.0 points, 5.0 required)
+ 
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was blocked.
+                             See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: ringcentral.com]
+ -0.0 RCVD_IN_DNSWL_NONE     RBL: Sender listed at http://www.dnswl.org/, no
+                             trust
+                             [199.15.213.90 listed in list.dnswl.org]
+ -0.0 RCVD_IN_MSPIKE_H4      RBL: Very Good reputation (+4)
+                             [199.15.213.90 listed in wl.mailspike.net]
+ -0.0 SPF_HELO_PASS          SPF: HELO matches SPF record
+  0.0 HEADER_FROM_DIFFERENT_DOMAINS From and EnvelopeFrom 2nd level mail
+                             domains are different
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+ -1.9 BAYES_00               BODY: Bayes spam probability is 0 to 1%
+                             [score: 0.0000]
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from author's
+                             domain
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily valid
+ -0.0 RCVD_IN_MSPIKE_WL      Mailspike good senders
+X-Spam-Flag: NO
+
+------=_Part_207200405_2143122642.1473164618353
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Watch on-demand today <http://info.ringcentral.com/GCT0BZ00S3MrD0jd0300kHG>
+On-Demand Webinar Series:
+Cloud Phone Systems From RingCentral
+Learn how 1000=E2=80=99s of companies of all sizes have realized unmatched =
+flexibility, scalability, security and reliability =E2=80=93 without the co=
+sts of a PBX system =E2=80=93 by moving to cloud-based phone systems.
+
+Join us <http://info.ringcentral.com/GCT0BZ00S3MrD0jd0300kHG>=C2=A0for one =
+of our on-demand webinars to learn more about the value of VoIP from RingCe=
+ntral =E2=80=93the complete cloud-based communications platform that includ=
+es phone, text, web and video conferencing, fax, mobile and BYOD.
+<http://info.ringcentral.com/GCT0BZ00S3MrD0jd0300kHG>
+A variety of topics are available, such as:
+- The business benefits of moving to a cloud environment
+=09- Best practices for using cloud communications
+=09- How integrations with key business systems aid productivity
+=09- And more!
+
+
+
+Select the topic that best addresses your interests and questions. These ar=
+e all available on-demand, so you can watch whenever it is most convenient =
+for you.
+<http://info.ringcentral.com/GCT0BZ00S3MrD0jd0300kHG>
+=C2=A92016 RingCentral, Inc. All rights reserved. RingCentral, RingCentral =
+Office, RingCentral Meetings, and the RingCentral logo are registered trade=
+marks of RingCentral, Inc. Other third-party marks and logos displayed in t=
+his document are the trademarks of their respective owners. 20 Davis Dr. Be=
+lmont, CA 94002.
+
+This email may be considered an advertising or promotional message. If you =
+no longer wish to receive future emails, click on the following link: https=
+://go.ringcentral.com/UnsubscribePage.html?mkt_unsubscribe=3D1&mkt_tok=3Dey=
+JpIjoiWWprell6a3paak5pT0dRMyIsInQiOiJHdXVwc0h4RFpaL0F4bkZTcFJOMFZPUjlLVkxzN=
+EdiWHlZbTlGRnZCRGszUjFVSFJNQTZ6NW1ybTlkQ0FNZGRadUxVSm13Nk8ydktGdnVZRzEzTmRz=
+RTBDV3JPcEMwWS9NeGpOOGNhS3FIOD0ifQ%3D%3D
+
+------=_Part_207200405_2143122642.1473164618353
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title></title>
+
+<style type="text/css">
+/* Client-specific Styles */
+#outlook a {padding:0;} /* Force Outlook to provide a "view in browser" menu link. */
+body{width:100% !important; -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; margin:0; padding:0;}
+/* Prevent Webkit and Windows Mobile platforms from changing default font sizes, while not breaking desktop design. */
+.ExternalClass {width:100%;} /* Force Hotmail to display emails at full width */
+.ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div {line-height: 100%;} /* Force Hotmail to display normal line spacing. */
+#backgroundTable {margin:0; padding:0; width:100% !important; line-height: 100% !important;}
+/* End reset */
+img {outline:none; text-decoration:none; -ms-interpolation-mode: bicubic;}
+a img {border:none;}
+.image_fix {display:block;}
+p {margin: 1em 0; font-family:Arial !important; font-size:16px !important; color:#585858 !important;}
+/*h1, h2, h3, h4, h5, h6 {color: black !important;}*/
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {color: blue !important;}
+h1 a:active, h2 a:active,  h3 a:active, h4 a:active, h5 a:active, h6 a:active {color: red !important; }
+h1 a:visited, h2 a:visited,  h3 a:visited, h4 a:visited, h5 a:visited, h6 a:visited {color: purple !important; }
+table td {border-collapse: collapse;}
+table { border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt; }
+h1 {
+        font-family:Helvetica, Arial, sans-serif !important; 
+        font-size:35px !important; 
+        color:#585858 !important; 
+        font-weight:300 !important;
+        }
+a {color: #f8981d;}
+a[x-apple-data-detectors] {
+    color: inherit !important;
+    text-decoration: none !important;
+    font-size: inherit !important;
+    font-family: inherit !important;
+    font-weight: inherit !important;
+    line-height: inherit !important;
+}
+a:hover {color: #0073ae !important;}
+/* Responsiv styles */  
+.ExternalClass {width:100%;}
+* {-webkit-text-size-adjust: none;-webkit-text-resize: 100%;text-resize: 100%;}
+
+/* Responsiv styles end */
+/* More Specific Targeting */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+/* You guessed it, ipad (tablets, smaller screens, etc) */
+/* Step 1a: Repeating for the iPad */
+a[href^="tel"], a[href^="sms"] {
+                                                text-decoration: none;
+                                                color: blue; /* or whatever your want */
+                                                pointer-events: none;
+                                                cursor: default;
+                                }
+
+.mobile_link a[href^="tel"], .mobile_link a[href^="sms"] {
+                                                text-decoration: default;
+                                                color: orange !important;
+                                                pointer-events: auto;
+                                                cursor: default;
+                                }
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 2) {
+/* Put your iPhone 4g styles in here */
+}
+
+@media only screen and (-webkit-device-pixel-ratio:.75){
+/* Put CSS for low density (ldpi) Android layouts in here */
+}
+@media only screen and (-webkit-device-pixel-ratio:1){
+/* Put CSS for medium density (mdpi) Android layouts in here */
+}
+@media only screen and (-webkit-device-pixel-ratio:1.5){
+/* Put CSS for high density (hdpi) Android layouts in here */
+}
+/* end Android targeting */
+@media only screen and (max-width:480px) {
+        td[class="img"] img {
+                width:80% !important;
+                height:auto !important;
+        }
+}   
+@media only screen and (max-width:600px) {
+        
+table[class="flexible"]{width:100% !important;}
+td[class="img100"] img {
+width:100% !important;
+height:auto !important;
+}
+td[class="tophead"] {
+width:100% !important;
+height:auto !important;
+text-align:center !important;
+padding-top:10px !important;
+padding-left:0px !important;
+padding-right:0px !important;
+}
+td[class="tophead1"] {
+width:100% !important;
+height:auto !important;
+text-align:center !important;
+padding-top:10px !important;
+padding-bottom:20px !important;
+border-bottom:1px solid #e2e2e2;
+padding-left:0px !important;
+padding-right:0px !important;
+}
+td[class="head1"] {
+        font-size:26px !important;
+        padding: 20px 10px 0px 10px !important;
+}
+td[class="head2"] {
+        font-size:21px !important;
+        padding: 7px 10px 20px 10px !important;
+        line-height:1.3 !important;
+}
+td[class="textcopy"] {
+        padding-top:12px !important;
+        padding-bottom:12px !important;
+        padding-left:12px !important;
+        padding-right:12px !important;
+        font-size:15px !important;
+}
+td[class="textcopy2"] {
+        padding-top:0px !important;
+        padding-bottom:12px !important;
+        padding-left:12px !important;
+        padding-right:12px !important;
+        font-size:15px !important;
+}
+td[class="textcopy3"] {
+        padding-top:0px !important;
+        padding-bottom:12px !important;
+        padding-left:12px !important;
+        padding-right:12px !important;
+        font-size:15px !important;
+}
+td[class="btncenter"] {
+        text-align: center !important;
+}
+
+td[class="img"] img {
+width:100% !important;
+height:auto !important;
+}
+td[class="bottom"] {padding:0 0 15px;}
+td[class="center"] {padding:0 45px 15px 0;}
+td[class="title"] {
+font-size:26px !important;
+line-height:30px !important;
+}
+td[class="footer"] {
+font-size:11px !important;
+}
+td[class="textcenter"] {
+text-align:center !important;
+}
+td[class="textsize13"] {
+font-size:13px !important;
+}
+td[class="fontsize26"] {
+font-size:26px !important;
+}
+td[class="fontsize30"] {
+font-size:30px !important;
+padding-top:24px !important;
+padding-bottom:22px !important;
+}
+td[class="padding20"] {
+padding-left:20px !important;
+padding-right:20px !important;
+}
+td[class="padding10"] {
+padding-left:12px !important;
+padding-right:12px !important;
+}
+td[class="padding12tb"] {
+padding-top:12px !important;
+padding-bottom:12px !important;
+padding-left:12px !important;
+padding-right:12px !important;
+                                                                                                                border-right: 1px solid #DFDFDF !important;
+
+}
+td[class="5padding"] {
+padding-top:12px !important;
+padding-bottom:12px !important;
+padding-left:5px !important;
+padding-right:5px !important;
+
+}
+div[class="paddingb20"] {
+padding-left:20px !important;
+padding-right:20px !important;
+}
+td [class="strong"] {
+font-size:14px !important;
+}
+
+td [class="imgHidden"] img{
+display: none !important;
+}
+td [class="noBorder"] {
+border: none !important;
+}
+td [class="padBottom"] {
+padding-top:12px !important;
+text-align: center !important;
+}
+td [class="tacenter"] {
+text-align:center !important;
+}
+td [class="padding0"] {
+padding-top: 0 !important;
+padding-bottom:1px !important;
+}
+                                                                                                                td [class="bg"] {
+background:#1589c0 url('http://marketo.ringcentral.com/rs/ringcentral/images/ruler.png') no-repeat !important;
+height:1px !important;
+
+}
+td [class="width100"] {
+width: 100% !important;
+height: 1px !important;
+}
+.padding01 a {
+font-weight: bold !important;
+font-size: 19px !important;
+
+}
+td [class="padding01"] {
+padding-bottom: 18px !important;
+padding-left: 0 !important;
+padding-right: 0 !important;
+text-align:center !important;
+}
+
+}   
+ 
+</style>
+
+<style type="text/css">
+        * {
+                -webkit-text-size-adjust: none;
+                -webkit-text-resize: 100%;
+                text-resize: 100%;
+        }
+                
+</style>
+</head>
+<body bgcolor="#FFFFFF" style="margin:0; padding:0; " ><table border="0" cellspacing="0" cellpadding="0" width="100%" align="center" ><tbody ><tr class="clicked_Row" ><td align="center" valign="top" bgcolor="#FFFFFF" ><table class="flexible" border="0" cellspacing="0" cellpadding="0" width="720" align="center" ><tbody ><tr ><td valign="top" bgcolor="#FFFFFF" class="padding12tb" style="border-left:1px solid #DFDFDF; border-right:1px solid #DFDFDF; padding-left:30px; padding-right:30px; padding-top:30px; " ><table cellspacing="0" cellpadding="0" border="0" align="left" width="193" class="flexible">
+<tbody>
+<tr>
+<td class="tophead" width="390" align="left" valign="top" style="font-family:Helvetica, Arial, sans-serif; font-size:15px; color:#585858; line-height:1.3;padding-top:15px;"><a href=
+"http://info.ringcentral.com/lZTG2000dCSk0B0jM0H0q3D"
+><img src="http://marketo.ringcentral.com/rs/ringcentral/images/logo-rc-notag-trans.png" alt="RingCentral" title="RingCentral" width="146" height="24" border="0"></a></td>
+</tr>
+</tbody>
+</table>
+<table align="right" class="flexible" width="191" border="0" cellspacing="0" cellpadding="0" ><tr ><td width="240" colspan="3" align="right" valign="bottom" class="tophead1" style="font-family:Helvetica, Arial, sans-serif; font-size:14px; color:#585858; padding-top:20px; " ><div class="mktEditable" ><p><a style="text-decoration: none; color: #585858;" href=
+"http://info.ringcentral.com/GCT0BZ00S3MrD0jd0300kHG" target="_blank"
+>Watch on-demand today</a></p>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- // END HEADER -->
+<table border="0" cellspacing="0" cellpadding="0" width="100%" align="center" bgcolor="#FFFFFF" ><tbody ><tr class="clicked_Row" ><td align="left" valign="top" ><!-- EMAIL BODY -->
+<table class="flexible" border="0" cellspacing="0" cellpadding="0" width="720" align="center" ><tr ><td height="227" valign="top" bgcolor="#FFFFFF" class="bg" style="background-repeat:no-repat; line-height:0; " ><table class="flexible" width="720" cellpadding="0" cellspacing="0" border="0" ><tr ><td valign="top" ><table class="flexible" border="0" cellspacing="0" cellpadding="0" width="720" align="center" ><tbody ><tr ><td valign="top" bgcolor="#FFFFFF" class="head1" style="font-family:Helvetica, Arial, sans-serif; font-size:35px; color:#0072b3; line-height:1.3; padding:40px 30px 0px 30px; border-left:1px solid #DFDFDF; border-right:1px solid #DFDFDF; font-weight:300; " ><div class="mktEditable" ><div></div><div style="color:#0073ae; line-height:32px; " class="mktEditable" id="Header" ><span style="font-family: Arial,Helvetica,sans-serif; font-size: 24px;">On-Demand Webinar Series:</span></div>
+</div>
+</td>
+</tr>
+<tr ><td valign="top" bgcolor="#FFFFFF" class="head2" style="font-family:Helvetica, Arial, sans-serif; font-size:24px; color:#0072b3; line-height:1.1; padding:10px 30px 20px 30px; border-left:1px solid #DFDFDF; border-right:1px solid #DFDFDF; font-weight:300; " ><div class="mktEditable" ><div></div><div style="color:#0073ae; line-height:32px; " class="mktEditable" id="Header" ><span style="font-family: Arial,Helvetica,sans-serif; font-size: 24px;">Cloud Phone Systems From RingCentral</span></div>
+</div>
+</td>
+</tr>
+<tr ><td valign="top" bgcolor="#FFFFFF" class="textcopy" style="font-family:Helvetica, Arial, sans-serif; font-size:16px; color:#585858; line-height:1.3; padding:20px 50px 0px 30px; border-left:1px solid #DFDFDF; border-right:1px solid #DFDFDF; " ><div class="mktEditable" ><p>Learn how 1000&rsquo;s of companies of all sizes have realized unmatched flexibility, scalability, security and reliability &ndash; without the costs of a PBX system &ndash; by moving to cloud-based phone systems.</p>
+<p><a href=
+"http://info.ringcentral.com/GCT0BZ00S3MrD0jd0300kHG" target="_blank"
+>Join us</a>&nbsp;for one of our on-demand webinars to learn more about the value of VoIP from RingCentral &ndash;the complete cloud-based communications platform that includes phone, text, web and video conferencing, fax, mobile and BYOD.</p>
+</div>
+</td>
+</tr>
+<tr ><td valign="top" bgcolor="#FFFFFF" class="5padding" style="font-family:Helvetica, Arial, sans-serif; font-size:35px; color:#585858; line-height:1.3; padding:20px 30px 20px 30px; border-left:1px solid #DFDFDF; border-right:1px solid #DFDFDF; " ><table class="flexible" border="0" cellspacing="0" cellpadding="0" width="100%" align="center" bgcolor="#FFFFFF" ><tbody ><tr ><td valign="top" class="nopadding" style="padding-left:0px; padding-right:0px; padding-top:0px; " ><!-- SOCIAL -->
+<table class="flexible" border="0" cellspacing="0" cellpadding="0" width="190" align="right" ><tbody ><tr ><td ><div id="text" class="mktEditable" ><p><a href=
+"http://info.ringcentral.com/GCT0BZ00S3MrD0jd0300kHG" target="_blank"
+><img style="border: none;" src="http://marketo.ringcentral.com/rs/ringcentral/images/ct726-img1.jpg" height="141" width="220" constrain="true" imagepreview="false" /></a></p><table border="0" width="100%" cellspacing="0" cellpadding="0" align="center" ><tbody ><tr ><td valign="top" style="color:#585858; font-family:Helvetica, Arial, sans-serif; font-size:16px; line-height:0.01pt; padding-bottom:10px; " ><table width="100%" border="0" cellspacing="0" cellpadding="0" ><tbody ><tr ><td ><div id="Image" class="mktEditable" ></div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- // SOCIAL --><!-- ADRESS -->
+<table class="flexible" border="0" cellspacing="0" cellpadding="0" width="340" align="left" ><tbody ><tr ><td class="textcopy2" style="font-family:Helvetica, Arial, sans-serif; font-size:16px; color:#585858; text-align:left; line-height:1.4; padding-top:22px; padding-bottom:3px; " align="left" valign="top" ><div class="mktEditable" ><div>A variety of topics are available, such as:</div>
+</div>
+</td>
+</tr>
+<tr ><td class="textcopy3" style="font-family:Helvetica, Arial, sans-serif; font-size:16px; color:#585858; text-align:left; line-height:1.3; padding-bottom:12px; " align="left" valign="top" ><div class="mktEditable" ><ul style="color: #f68b1f;">
+<li><span style="color: #585858;">The business benefits of moving to a cloud environment</span></li>
+<li><span style="color: #585858;">Best practices for using cloud communications</span></li>
+<li><span style="color: #585858;">How integrations with key business systems aid productivity</span></li>
+<li><span style="color: #585858;">And more!</span></li>
+</ul>
+<p>Select the topic that best addresses your interests and questions. These are all available on-demand, so you can watch whenever it is most convenient for you.</p>
+</div>
+</td>
+</tr>
+<tr ><td class="btncenter" style="font-family:Helvetica, Arial, sans-serif; font-size:16px; color:#585858; text-align:left; line-height:1.3; padding-bottom:30px; " align="left" valign="top" ><div class="mktEditable" ><p><a href=
+"http://info.ringcentral.com/GCT0BZ00S3MrD0jd0300kHG" target="_blank" title="Register Now"
+><img src="http://marketo.ringcentral.com/rs/075-DTB-715/images/watchnow-orange_141212.png" alt="watchnow-orange_141212.png" height="36" width="130" /></a></p></div>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- ADRESS --></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr ><td ><table class="flexible" border="0" cellspacing="0" cellpadding="0" width="720" align="center" bgcolor="#F6F6F6" ><tbody ><tr class="clicked_Row" ><td class="padding10" style="padding-left:30px; padding-right:30px; padding-top:20px; border-top:1px solid #DFDFDF; border-left:1px solid #DFDFDF; border-right:1px solid #DFDFDF; border-bottom:1px solid #DFDFDF; " ><!-- SOCIAL -->
+<table class="flexible" border="0" cellspacing="0" cellpadding="0" width="100%" align="left" ><tbody ><tr class="clicked_Row" ><td width="100%" align="left" valign="top" style="font-family:Helvetica, Arial, sans-serif; font-size:10px; color:#585858; text-align:left; line-height:16px; padding-bottom:12px; " ><div class="mktEditable" ><p><span style="font-size: 9px;">&copy;2016 RingCentral, Inc. All rights reserved. RingCentral, RingCentral Office, RingCentral Meetings, and the RingCentral logo are registered trademarks of RingCentral, Inc. Other third-party marks and logos displayed in this document are the trademarks of their respective owners. 20 Davis Dr. Belmont, CA 94002.</span></p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- // SOCIAL --><!-- ADRESS --><!-- ADRESS --></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+
+<img src="http://info.ringcentral.com/trk?t=1&mid=MDc1LURUQi03MTU6MTU2NzMwOjQxMzc1OjIxNTA1NjowOjQyMDg2Ojc6NTU5MzM1Njg6cGFtQG1hZ2ljYWxzdHJpbmdzLmNvbQ%3D%3D" width="1" height="1" style="display:none !important;" alt="" />
+
+<p><font face="Verdana" size="1">This email may be considered an advertising or promotional message. If you no longer wish to receive these emails, click on the following link: <a href=
+"http://info.ringcentral.com/u/JT0dDG0sCB0H4ZS0jk003M0"
+>Unsubscribe</a></font> </p>
+
+</font> </p>
+</body>
+</html>
+------=_Part_207200405_2143122642.1473164618353--

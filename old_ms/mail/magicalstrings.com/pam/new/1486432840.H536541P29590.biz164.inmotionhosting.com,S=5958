@@ -1,0 +1,81 @@
+Return-path: <lindastadstad@yahoo.com>
+Envelope-to: pam@magicalstrings.com
+Delivery-date: Mon, 06 Feb 2017 18:00:40 -0800
+Received: from nm43.bullet.mail.gq1.yahoo.com ([67.195.87.83]:45531)
+	by biz164.inmotionhosting.com with esmtps (TLSv1:RC4-SHA:128)
+	(Exim 4.87)
+	(envelope-from <lindastadstad@yahoo.com>)
+	id 1cav54-00063E-1H
+	for pam@magicalstrings.com; Mon, 06 Feb 2017 18:00:40 -0800
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s2048; t=1486432829; bh=feb5JA0NV5u2WB36XxahboPSJ6N7+4NuSJ3fnP3oJ+k=; h=Date:From:Subject:To:From:Subject; b=i9cv5p16TL/fcnNiGGZNLk38r5A3K+lzQmh5q3ofskmfSK3JmL693zmRxM+wAYftfxvv8mIP8hDpHXowVaZCu3sXOAqcIToVQzag8s3DWUGPkdwYdeiasABWELtExVDTXkidhe9rLwOFPc7TX2W6DgRh9IH16QxZY9CMsY9V7nXlnWR7gcHjeq3R2MKA18KTpSD4quSHSKfpw3cef04iLvuCbTsMG4cNdbjBnuJLmAzuv9v7gU6QSXLrV1Z/7Ck3dq7UPsWv5KMitGjgFXnC0GEDlr35Wi2Rs5WjnzB+YwDc3bJ5bPT6Y5+IiuMFE2Qgzdr/ipKS/6hoisIuf9wyLg==
+Received: from [127.0.0.1] by nm43.bullet.mail.gq1.yahoo.com with NNFMP; 07 Feb 2017 02:00:29 -0000
+Received: from [98.137.12.60] by nm43.bullet.mail.gq1.yahoo.com with NNFMP; 07 Feb 2017 01:57:32 -0000
+Received: from [98.139.215.143] by tm5.bullet.mail.gq1.yahoo.com with NNFMP; 07 Feb 2017 01:57:32 -0000
+Received: from [98.139.215.253] by tm14.bullet.mail.bf1.yahoo.com with NNFMP; 07 Feb 2017 01:57:32 -0000
+Received: from [127.0.0.1] by omp1066.mail.bf1.yahoo.com with NNFMP; 07 Feb 2017 01:57:32 -0000
+X-Yahoo-Newman-Property: ymail-4
+X-Yahoo-Newman-Id: 821064.91054.bm@omp1066.mail.bf1.yahoo.com
+Received: (qmail 3792 invoked by uid 60001); 7 Feb 2017 01:57:32 -0000
+X-YMail-OSG: H1JLJWUVM1lCUuBqP.GxJbgby_b5LmvJoiWkDSKLGAWK7No
+ 5k81BDrJRirGZ4AHvGdArgBXTOIo22mi7PJExtiTnHxD.LWKkM6a_ER8R3Q4
+ 6hklK1ugaFz4HRqnE4pDlCNEnSAy537PGViojzZzsTKzMq7N7Q.K7uoxUUm3
+ YzyObKr1fioY3q9AAG5v7qlBZe.mLuyOQL.3wWmWu2INOKf3eT6BE5UXVtbf
+ l6ti5cuoYZXL4WjX8oYgFZHeAJKoWjy04mNcLGz3DhfHQgoujIBcUDTUZu5j
+ JqzEgupKp_t.D04t0GcGCqFWh9yf0l0HI2ftpfu8Yk_Vwf8l4liWeWdwL.uy
+ XMOECHTu5m1QEGOmbzVTfE4nRGU1pkhOklcCrDz19liv0WuYqvw0XeR2CO3k
+ H2KgiNA8Kxf4B3VYzOVhgIzbnM3lRbaBGi_NCmdTsDrzAM8K8zs_nkN73Hfy
+ VZKLuFiWOmjuBdGvQ1vyXvDTz15hXo6D71c335UGPrEnJETVE.EiZB8LA4MH
+ Aw8UD9AbLljVNZNjCiyWNrUNUHzUFogZ9Jwa_RzlhfiyNkUR5f5pida9eU9U
+ _120_ydfveX6WXZ5FaRbPYqOQ6RGKy1n1oWI-
+Received: from [107.77.230.48] by web142305.mail.bf1.yahoo.com via HTTP; Mon, 06 Feb 2017 17:57:32 PST
+X-Rocket-MIMEInfo: 002.001,QWxvaGEgZnJvbSB5b3VyIE5hcGlsaSBmcmllbmRzISBXZSBtaXNzIHlvdSFBcmUgeW91IGNvbWluZz9Mb3RzIG9mIGhpZ2ggc3VyZiB0aGlzIHllYXIgYnV0IHdhcm0gYWxvaGEhSGF2ZSB3YXRjaGVkIHN1bnNldHMgYW5kIGhhZCBmaXNoIHRhY28gbmlnaHRzLiBBbGwgaXMgd2VsbC1Bbm5pZSBzb2xkIGhlciBjb25kbyBzbyBzcGVudCBoZXIgbGFzdCB3ZWVrIGF0IE5hcGlsaSBLYWkuV2UgbWlzcyB5b3UtTGluZGFTZW50IGZyb20gWWFob28gTWFpbCBmb3IgaVBob25lATABAQEB
+X-Mailer: YahooMailIosMobile/0.0 YahooMailWebService/0.8.203.860
+Message-ID: <1486432652.85596.YahooMailIosMobile@web142305.mail.bf1.yahoo.com>
+Date: Mon, 6 Feb 2017 17:57:32 -0800
+From: Linda Stadstad <lindastadstad@yahoo.com>
+Subject: Napili Bay
+To: "pam@magicalstrings.com" <pam@magicalstrings.com>
+MIME-Version: 1.0
+Content-Type: text/html; charset=us-ascii
+X-Spam-Status: No, score=-5.6
+X-Spam-Score: -55
+X-Spam-Bar: -----
+X-Ham-Report: Spam detection software, running on the system "biz164.inmotionhosting.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ 
+ Content preview:  Aloha from your Napili friends! We miss you! Are you coming?
+    Lots of high surf this year but warm aloha! Have watched sunsets and had
+   fish taco nights. All is well-Annie sold her condo so spent her last week
+   at Napili Kai. [...] 
+ 
+ Content analysis details:   (-5.6 points, 5.0 required)
+ 
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was blocked.
+                             See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: yho.com]
+ -0.0 RCVD_IN_DNSWL_NONE     RBL: Sender listed at http://www.dnswl.org/, no
+                             trust
+                             [67.195.87.83 listed in list.dnswl.org]
+ -3.2 RP_MATCHES_RCVD        Envelope sender domain matches handover relay domain
+  0.0 FREEMAIL_FROM          Sender email is commonly abused enduser mail provider
+                             (lindastadstad[at]yahoo.com)
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.7 MIME_HTML_ONLY         BODY: Message only has text/html MIME parts
+ -1.9 BAYES_00               BODY: Bayes spam probability is 0 to 1%
+                             [score: 0.0000]
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily valid
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from author's
+                             domain
+ -1.2 RCVD_IN_MSPIKE_H2      RBL: Average reputation (+2)
+                             [67.195.87.83 listed in wl.mailspike.net]
+X-Spam-Flag: NO
+
+<table cellspacing="0" cellpadding="0" border="0"><tr><td valign="top"><div id='yahoo__compose_area' style="background-color:white; display:block; font-family:HelveticaNeue-Regular,Helvetica;"><br>Aloha from your Napili friends!  We miss you!<div>Are you coming?</div><div>Lots of high surf this year but warm aloha!</div><div>Have watched sunsets and had fish taco nights.  All is well-Annie sold her condo so spent her last week at Napili Kai.</div><div>We miss you-</div><div><br></div><div>Linda<br><br><a href="https://yho.com/footer0">Sent from Yahoo Mail for iPhone</a></div></div><div id='yahoo__original_message'></div></html></td></tr></table>

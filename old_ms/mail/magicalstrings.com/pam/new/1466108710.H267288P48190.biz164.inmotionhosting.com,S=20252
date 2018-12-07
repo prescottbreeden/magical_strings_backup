@@ -1,0 +1,284 @@
+Return-path: <msprvs1=16975nrVtPgpI=bounces-4313@sparkpostmail.com>
+Envelope-to: pam@magicalstrings.com
+Delivery-date: Thu, 16 Jun 2016 13:25:10 -0700
+Received: from mta181a.sparkpostmail.com ([52.38.191.231]:9582)
+	by biz164.inmotionhosting.com with esmtps (TLSv1.2:DHE-RSA-AES256-GCM-SHA384:256)
+	(Exim 4.86_1)
+	(envelope-from <msprvs1=16975nrVtPgpI=bounces-4313@sparkpostmail.com>)
+	id 1bDdqc-000CQc-De
+	for pam@magicalstrings.com; Thu, 16 Jun 2016 13:25:10 -0700
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+	d=research.naviscent.com; s=scph0815; t=1466108697;
+	i=@research.naviscent.com;
+	bh=Lw1enHxo9qxxxgZJ9vpauoUML7AFKTBaNQ2VhbhzgYA=;
+	h=To:Date:From:Subject:Reply-To:List-Unsubscribe:List-Id;
+	b=WOziwsmcvSPhY7fuQWV6OJ8Ndc0LjeEk2zmiGUCKXhpSdGA9mYHQS7fxIOd7ZPa+k
+	 Wm9pg2MaAM1TyP39p+cc67ThKCX5F2kJTVGwOJYWjd+CChEDmzaDv7lZr9BjWfIf3G
+	 xHs0pU0pE4yMXstn23VvcIMq23FBaiFroKs6VSWg=
+X-MSFBL: Xd+2tACttM2l98duZ0Vm/JE3gWcSugwnrdF6g0w7cn0=|eyJjYW1wYWlnbl9pZCI
+	6IjQxMTgxNzgyLTQxMTgyOTQ1IiwiZyI6ImJnX3N0YW5kYXJkIiwiZnJpZW5kbHl
+	fZnJvbSI6InNvbGd1aW5AcmVzZWFyY2gubmF2aXNjZW50LmNvbSIsInN1YmFjY29
+	1bnRfaWQiOiIwIiwiY3VzdG9tZXJfaWQiOiI0MzEzIiwicmNwdF90YWdzIjpbIF0
+	sIm1lc3NhZ2VfaWQiOiIwMDAyMTkwYjYzNTdiMDc5ODA5OSIsImlwX3Bvb2wiOiJ
+	zaGFyZWQiLCJiIjoiaXBfNTIuMzguMTkxLjIzMSIsInIiOiJwYW1AbWFnaWNhbHN
+	0cmluZ3MuY29tIiwidGVuYW50X2lkIjoic3BjIiwidGVtcGxhdGVfdmVyc2lvbiI
+	6IjAiLCJyY3B0X21ldGEiOnsib25nYWdlLWFjY291bnQtaWQiOiI0MTkzIiwib25
+	nYWdlLWxpc3QtaWQiOiIzNDc3OCJ9LCJ0cmFuc21pc3Npb25faWQiOiI0ODMyNzE
+	wNDg5Mzc1ODEzNSIsInNlbmRpbmdfaXAiOiJzaGFyZWQiLCJ0ZW1wbGF0ZV9pZCI
+	6InRlbXBsYXRlXzQ4MzI3MTA0ODkzNzU4MTM1In0=
+To: pam@magicalstrings.com
+Message-ID: <08.99.31152.91B03675@momentum2.platform1.us-west-2.aws.cl.messagesystems.com>
+Date: Thu, 16 Jun 2016 20:24:45 +0000
+X-Custom-Campaign-ID: 41182945
+X-Campaign_ID: 41181782-41182945
+From: "Sheryl Olguin" <solguin@research.naviscent.com>
+MIME-Version: 1.0
+X-JOB-ID: 41182945
+Subject: Your professional opinion sought, $50 gift card as a token of
+ thanks.
+Reply-To: solguin@research.naviscent.com
+Content-Type: multipart/alternative; boundary="_----/RQtvcnI+2vcPnHbLY4MWQ===_A0/47-31152-A0B03675"
+List-Unsubscribe: <mailto:unsubscribe@unsub.spmta.com?subject=unsubscribe:2gIxuBLLCp0Bik44RjVNq987DX-LyH4JcoVgHRAHrr0~|eyAicmNwdF90byI6ICJwYW1AbWFnaWNhbHN0cmluZ3MuY29tIiwgInJjcHRfbWV0YSI6ICJ7XCJvbmdhZ2UtYWNjb3VudC1pZFwiOlwiNDE5M1wiLFwib25nYWdlLWxpc3QtaWRcIjpcIjM0Nzc4XCJ9IiwgInJjcHRfdGFncyI6ICJbIF0iLCAidGVuYW50X2lkIjogInNwYyIsICJ0ZW1wbGF0ZV9pZCI6ICJ0ZW1wbGF0ZV80ODMyNzEwNDg5Mzc1ODEzNSIsICJ0cmFuc21pc3Npb25faWQiOiAiNDgzMjcxMDQ4OTM3NTgxMzUiLCAic2VuZGluZ19pcCI6ICJzaGFyZWQiLCAidGVtcGxhdGVfdmVyc2lvbiI6ICIwIiwgIm1haWxmcm9tIjogIm1zcHJ2czE9MTY5NzVuclZ0UGdwST1ib3VuY2VzLTQzMTNAc3Bhcmtwb3N0bWFpbC5jb20iLCAiaXBfcG9vbCI6ICJzaGFyZWQiLCAiY2FtcGFpZ25faWQiOiAiNDExODE3ODItNDExODI5NDUiLCAiY3VzdG9tZXJfaWQiOiAiNDMxMyIsICJtZXNzYWdlX2lkIjogIjAwMDIxOTBiNjM1N2IwNzk4MDk5IiwgInN1YmFjY291bnRfaWQiOiAiMCIsICJmcmllbmRseV9mcm9tIjogInNvbGd1aW5AcmVzZWFyY2gubmF2aXNjZW50LmNvbSIgfQ~~>
+List-Id: <spc-4313-0>
+X-Spam-Status: No, score=-2.0
+X-Spam-Score: -19
+X-Spam-Bar: --
+X-Ham-Report: Spam detection software, running on the system "biz164.inmotionhosting.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ 
+ Content preview:  rrr Naviscent Research Operations - Community Business Research
+    Hi Pam, [...] 
+ 
+ Content analysis details:   (-2.0 points, 5.0 required)
+ 
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was blocked.
+                             See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: naviscent.com]
+ -0.0 RCVD_IN_DNSWL_NONE     RBL: Sender listed at http://www.dnswl.org/, no
+                             trust
+                             [52.38.191.231 listed in list.dnswl.org]
+  0.0 HEADER_FROM_DIFFERENT_DOMAINS From and EnvelopeFrom 2nd level mail
+                             domains are different
+ -0.0 RCVD_IN_MSPIKE_H2      RBL: Average reputation (+2)
+                             [52.38.191.231 listed in wl.mailspike.net]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+ -1.4 RP_MATCHES_RCVD        Envelope sender domain matches handover relay domain
+ -1.9 BAYES_00               BODY: Bayes spam probability is 0 to 1%
+                             [score: 0.0000]
+  0.4 MIME_HTML_MOSTLY       BODY: Multipart message mostly text/html MIME
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.8 MPART_ALT_DIFF         BODY: HTML and text parts are different
+  0.2 KAM_TRACKIMAGE         RAW: Message has a remote image explicitly meant for
+                             tracking
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from author's
+                             domain
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily valid
+X-Spam-Flag: NO
+
+--_----/RQtvcnI+2vcPnHbLY4MWQ===_A0/47-31152-A0B03675
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+rrr 
+--_----/RQtvcnI+2vcPnHbLY4MWQ===_A0/47-31152-A0B03675
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset="UTF-8"
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3=
+.org/TR/REC-html40/loose.dtd">=0A<html><head><meta content=3D"text/html; ch=
+arset=3Dutf-8" http-equiv=3D"Content-Type"><title></title><style type=3D"tex=
+t/css">table {border-collapse:separate;}=0Aa, a:link, a:visited {text-decora=
+tion: none; color: #00788a} =0Aa:hover {text-decoration: underline;}=0Ah2,h2=
+ a,h2 a:visited,h3,h3 a,h3 a:visited,h4,h5,h6,.t_cht {color:#000 !important}=
+=0A.ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClas=
+s td {line-height: 100%}=0A.ExternalClass {width: 100%;}=0A=09</style><style=
+ class=3D"area-stylesheet" id=3D"general-stylesheet" type=3D"text/css">#emai=
+l-html-container { display: block; padding: 15px; }=0A        #email-html-re=
+gion { width: 100%; }=0A        #email-html-container a { color: #FFA500; }=
+=0A=09</style><style class=3D"area-stylesheet" id=3D"area-header-stylesheet"=
+ type=3D"text/css">#area-header { padding: 10px; }=0A=09</style><style class=
+=3D"area-stylesheet" id=3D"area-body-stylesheet" type=3D"text/css">#area-bod=
+y { padding: 10px; }=0A=09</style><style class=3D"area-stylesheet" id=3D"are=
+a-footer-stylesheet" type=3D"text/css">#area-footer { padding: 10px; }=0A=09=
+</style><style id=3D"widget-preset-2621-stylesheet" type=3D"text/css">#widge=
+t-preset-2621-html { padding-top: 5px; padding-bottom: 5px; }=0A        #wid=
+get-preset-2621-html hr { border-color: #666666; border-style: solid; border=
+-top-width: 3px; }=0A=09</style><style id=3D"widget-preset-2624-stylesheet" =
+type=3D"text/css">#widget-preset-2624-html { padding: 0px; background-color:=
+ #ffffff; background: #ffffff; color: #666666; font-size: 12px; }=0A=09</sty=
+le><style id=3D"widget-preset-2625-stylesheet" type=3D"text/css">#widget-pre=
+set-2625-html { padding-top: 5px; padding-bottom: 5px; background-color: #ff=
+ffff; background: #ffffff; }=0A        #widget-preset-2625-html hr { border-=
+color: #000000; border-style: ridge; border-top-width: 3px; }=0A=09</style><=
+style id=3D"widget-preset-2622-stylesheet" type=3D"text/css">#widget-preset-=
+2622-html { padding: 0px; }=0A=09</style><style id=3D"widget-preset-2623-sty=
+lesheet" type=3D"text/css">#widget-preset-2623-html { padding: 0px; }=0A=09<=
+/style></head><body>=0A<div id=3D"email-html-region" style=3D"background: tr=
+ansparent; border: 0; font-size: 100%; margin: 0; outline: 0; padding: 0; ve=
+rtical-align: baseline; width: 100%;">=0A<div id=3D"email-html-container" st=
+yle=3D"background: transparent; border: 0; font-size: 100%; margin: 0; outli=
+ne: 0; padding: 15px; vertical-align: baseline; display: block;">=0A<table b=
+order=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"background: transpa=
+rent; border: 0; font-size: 100%; margin: 0; outline: 0; padding: 0; vertica=
+l-align: baseline; border-collapse: collapse; border-spacing: 0; mso-table-l=
+space: 0pt; mso-table-rspace: 0pt; width: 100%;"><tbody style=3D"background:=
+ transparent; border: 0; font-size: 100%; margin: 0; outline: 0; padding: 0;=
+ vertical-align: baseline;"><tr style=3D"background: transparent; border: 0;=
+ font-size: 100%; margin: 0; outline: 0; padding: 0; vertical-align: baselin=
+e;"><td class=3D"area-container" data-area=3D"header" id=3D"area-header-cont=
+ainer" style=3D"background: transparent; border: 0; font-size: 100%; margin:=
+ 0; outline: 0; padding: 0; vertical-align: top; border-collapse: collapse;"=
+ valign=3D"top">=0A=09=09=09<div class=3D"area ui-sortable" data-area=3D"hea=
+der" id=3D"area-header" style=3D"background: transparent; border: 0; font-si=
+ze: 100%; margin: 0; outline: 0; padding: 10px; vertical-align: baseline;">=
+=0A=09=09=09<div class=3D"widget-preset" id=3D"widget-preset-2623" style=3D"=
+background: transparent; border: 0; font-size: 100%; margin: 0; outline: 0; =
+padding: 0; vertical-align: baseline; width: 100%;">=0A=09=09=09<div class=
+=3D"widget-preset-html" id=3D"widget-preset-2623-html" style=3D"background: =
+transparent; border: 0; font-size: 100%; margin: 0; outline: 0; padding: 0px=
+; vertical-align: baseline;">=0A=09=09=09<h1 style=3D"background: transparen=
+t; border: 0; font-size: 25px; margin: 0; outline: 0; padding: 0; vertical-a=
+lign: baseline; color: black; font-style: italic;"><span style=3D"background=
+: transparent; border: 0; font-size: 100%; margin: 0; outline: 0; padding: 0=
+; vertical-align: baseline; font-family: arial,helvetica,sans-serif;"><span =
+style=3D"background: transparent; border: 0; font-size: 100%; margin: 0; out=
+line: 0; padding: 0; vertical-align: baseline; color: #FF0000;"><em style=3D=
+"background: transparent; border: 0; font-size: 100%; margin: 0; outline: 0;=
+ padding: 0; vertical-align: baseline;"><strong style=3D"background: transpa=
+rent; border: 0; font-size: 100%; margin: 0; outline: 0; padding: 0; vertica=
+l-align: baseline; font-weight: bold;"><img alt=3D"" src=3D"http://images.re=
+search.naviscent.com/images/6615759b2aad6e28.png" style=3D"width: 85px; heig=
+ht: 82px;"></strong></em></span></span></h1>=0A=0A=09=09=09<h2><em><span sty=
+le=3D"font-family:arial,helvetica,sans-serif;"><span style=3D"color:#808080;=
+">Naviscent Research Operations - Community Business Research</span></span><=
+/em></h2>=0A=0A=09=09=09<hr><h1 style=3D"background: transparent; border: 0;=
+ font-size: 25px; margin: 0; outline: 0; padding: 0; vertical-align: baselin=
+e; color: black; font-style: italic;"></h1>=0A=09=09=09</div>=0A=09=09=09</d=
+iv>=0A=09=09=09</div>=0A=09=09=09</td>=0A=09=09</tr><tr style=3D"background:=
+ transparent; border: 0; font-size: 100%; margin: 0; outline: 0; padding: 0;=
+ vertical-align: baseline;"><td class=3D"area-container" data-area=3D"body" =
+id=3D"area-body-container" style=3D"background: transparent; border: 0; font=
+-size: 100%; margin: 0; outline: 0; padding: 0; vertical-align: top; border-=
+collapse: collapse;" valign=3D"top">=0A=09=09=09<div class=3D"area ui-sortab=
+le" data-area=3D"body" id=3D"area-body" style=3D"background: transparent; bo=
+rder: 0; font-size: 100%; margin: 0; outline: 0; padding: 10px; vertical-ali=
+gn: baseline;">=0A=09=09=09<div class=3D"widget-preset" id=3D"widget-preset-=
+2624" style=3D"background: transparent; border: 0; font-size: 100%; margin: =
+0; outline: 0; padding: 0; vertical-align: baseline; width: 100%;">=0A=09=09=
+=09<div class=3D"widget-preset-html" id=3D"widget-preset-2624-html" style=3D=
+"background: #ffffff; border: 0; font-size: 12px; margin: 0; outline: 0; pad=
+ding: 0px; vertical-align: baseline; background-color: #ffffff; color: #6666=
+66;"><span style=3D"font-family:arial,helvetica,sans-serif;"><span style=3D"=
+font-size:12px;">Hi </span>Pam,<br><br>=0A=09=09=09We are reaching out to yo=
+u because you are a business leader in the <span style=3D"color: rgb(102, 10=
+2, 102); font-family: arial, helvetica, sans-serif; font-size: 12px; backgro=
+und-color: rgb(255, 255, 255);">community</span> of Eugene, Portland, Seattl=
+e, or Vancouver. </span></div>=0A=0A=09=09=09<div class=3D"widget-preset-htm=
+l" style=3D"background: #ffffff; border: 0; font-size: 12px; margin: 0; outl=
+ine: 0; padding: 0px; vertical-align: baseline; background-color: #ffffff; c=
+olor: #666666;"><span style=3D"font-family:arial,helvetica,sans-serif;">Our =
+client is interested in understanding what business professionals look for i=
+n banking and loan services.=C2=A0<span style=3D"color: rgb(102, 102, 102); =
+font-family: arial, helvetica, sans-serif; font-size: 12px; background-color=
+: rgb(255, 255, 255);">But, please don't worry. You will not receive sales c=
+alls or be asked to purchase anything in connection with this study.</span><=
+/span></div>=0A=0A=09=09=09<div class=3D"widget-preset-html" style=3D"backgr=
+ound: #ffffff; border: 0; font-size: 12px; margin: 0; outline: 0; padding: 0=
+px; vertical-align: baseline; background-color: #ffffff; color: #666666;"></=
+div>=0A=0A=09=09=09<div class=3D"widget-preset-html" style=3D"background: #f=
+fffff; border: 0; font-size: 12px; margin: 0; outline: 0; padding: 0px; vert=
+ical-align: baseline; background-color: #ffffff; color: #666666;"><font face=
+=3D"arial, helvetica, sans-serif">The full survey will take about 15 minutes=
+. We will ask no more than 11 qualifying questions up front to ensure you f=
+it the right profile to participate in the study. As a token, qualified part=
+icipants will receive a <strong>$50 Amazon.com gift card</strong>.=C2=A0</fo=
+nt></div>=0A=09=09=09</div>=0A=0A=09=09=09<div class=3D"widget-preset-html" =
+style=3D"border: 0px; font-size: 12px; margin: 0px; outline: 0px; padding: 0=
+px; vertical-align: baseline; background: rgb(255, 255, 255);"><span style=
+=3D"font-family: arial, helvetica, sans-serif;"><font color=3D"#666666"><spa=
+n style=3D"font-size: 100%; background-color: transparent; font-size: 100%;"=
+></span></font><br><a data-group=3D"0" data-id=3D"586729185" data-title=3D"C=
+lick this secure link to get started" data-untrack=3D"1" href=3D"http://go.s=
+parkpostmail.com/f/a/7Y3Q0yVOfTxi5s4vbk7t4w~~/AAAQ2QA~/RgRZRZANP0EIAKuxPvA3K=
+rdXA3NwY1gEAAAAAFkGc2hhcmVkYAZzaGFyZWRIETQxMTgxNzgyLTQxMTgyOTQ1QgoAAhkLY1ewe=
+YCZUhZwYW1AbWFnaWNhbHN0cmluZ3MuY29tCVEEAAAAAERVaHR0cHM6Ly9zdXJ2ZXkucXVhbHRya=
+WNzLmNvbS9qZmUvZm9ybS9TVl82S0JxWExMNWswSWtIZDM_dmlkPTU3NWVmNjhiZjYxYzAwY2I3O=
+ThiOTdhNEc1eyJvbmdhZ2UtbGlzdC1pZCI6IjM0Nzc4Iiwib25nYWdlLWFjY291bnQtaWQiOiI0M=
+TkzIn0~"><span style=3D"color:#FFA500;"><strong>Click this secure link to ge=
+t started</strong></span></a><font color=3D"#666666">.=C2=A0</font></span></=
+div>=0A=0A=09=09=09<div class=3D"widget-preset-html" style=3D"border: 0px; f=
+ont-size: 12px; margin: 0px; outline: 0px; padding: 0px; vertical-align: bas=
+eline; background: rgb(255, 255, 255);"><span style=3D"font-family: arial, h=
+elvetica, sans-serif;"><br><font color=3D"#666666">Thank you! We look forwar=
+d to your response.</font></span></div>=0A=0A=09=09=09<div class=3D"widget-p=
+reset-html" style=3D"border: 0px; font-size: 12px; margin: 0px; outline: 0px=
+; padding: 0px; vertical-align: baseline; background: rgb(255, 255, 255);"><=
+span style=3D"font-family: arial, helvetica, sans-serif;"><font color=3D"#66=
+6666">If you have any questions regarding this survey, please do not hesitat=
+e to give us a call.</font><br><br><strong><font color=3D"#666666">The Resea=
+rch Operations Team</font></strong><br><font color=3D"#666666">Naviscent</fo=
+nt><br><span style=3D"color: rgb(105, 105, 105);">research@research.naviscen=
+t.com</span><br><br><strong style=3D"color: rgb(102, 102, 102);">Sheryl Olgu=
+in, COO</strong><br><font color=3D"#666666">Naviscent</font><br><span style=
+=3D"color: rgb(105, 105, 105);">solguin@research.naviscent.com<br>=0A=09=09=
+=09321.735.8677</span></span></div>=0A=09=09=09</div>=0A=09=09=09</td>=0A=09=
+=09</tr><tr style=3D"background: transparent; border: 0; font-size: 100%; ma=
+rgin: 0; outline: 0; padding: 0; vertical-align: baseline;"><td class=3D"are=
+a-container" data-area=3D"footer" id=3D"area-footer-container" style=3D"back=
+ground: transparent; border: 0; font-size: 100%; margin: 0; outline: 0; padd=
+ing: 0; vertical-align: top; border-collapse: collapse;" valign=3D"top">=0A=
+=09=09=09<div class=3D"area ui-sortable" data-area=3D"footer" id=3D"area-foo=
+ter" style=3D"background: transparent; border: 0; font-size: 100%; margin: 0=
+; outline: 0; padding: 10px; vertical-align: baseline;">=0A=09=09=09<div cla=
+ss=3D"widget-preset" id=3D"widget-preset-2622" style=3D"background: transpar=
+ent; border: 0; font-size: 100%; margin: 0; outline: 0; padding: 0; vertical=
+-align: baseline; width: 100%;">=0A=09=09=09<div class=3D"widget-preset-html=
+" id=3D"widget-preset-2622-html" style=3D"background: transparent; border: 0=
+; font-size: 100%; margin: 0; outline: 0; padding: 0px; vertical-align: base=
+line;">=0A=09=09=09<hr><p><span style=3D"color:#808080;"><span style=3D"font=
+-size:12px;"><span style=3D"font-family:georgia,serif;"><em>User Experience =
+Research, Design and Engineering. We apply science to the art of design.</em=
+></span></span></span><br><br><span style=3D"font-size:12px;"><span style=3D=
+"font-family:arial,helvetica,sans-serif;"><span style=3D"font-size:14px;"><s=
+pan style=3D"color:#FF0000;"><strong>Naviscent</strong></span></span></span>=
+</span><br><font color=3D"#696969"><i></i><span style=3D"font-size:12px;"><s=
+pan style=3D"font-family:arial,helvetica,sans-serif;">3770 Curtis Blvd, Suit=
+e 710<br>=0A=09=09=09Cocoa, FL 32927</span></span><br><i></i><span style=3D"=
+font-size:12px;"><span style=3D"font-family:arial,helvetica,sans-serif;">321=
+.735.8677</span></span><i></i></font></p>=0A=0A=09=09=09<p></p>=0A=0A=09=09=
+=09<p><span style=3D"color:#808080;"><span style=3D"font-size:12px;"><span s=
+tyle=3D"font-family:arial,helvetica,sans-serif;">Your privacy is important t=
+o us. Learn more: www.naviscent.com/privacy-policy</span></span></span></p>=
+=0A=0A=09=09=09<p><span style=3D"color:#808080;"><span style=3D"font-size:12=
+px;"><span style=3D"font-family:arial,helvetica,sans-serif;">If you no longe=
+r wish to receive invitations to compensated research, </span></span></span>=
+<a data-id=3D"584691713" data-title=3D"you may opt out here" href=3D"http://=
+go.sparkpostmail.com/f/a/mqmIsPzW_gGMGw87pdVukA~~/AAAQ2QA~/RgRZRZANP0EIAKuxP=
+vA3KrdXA3NwY1gEAAAAAFkGc2hhcmVkYAZzaGFyZWRIETQxMTgxNzgyLTQxMTgyOTQ1QgoAAhkLY=
+1eweYCZUhZwYW1AbWFnaWNhbHN0cmluZ3MuY29tCVEEAAAAAESJaHR0cDovL3RyYWNrLnJlc2Vhc=
+mNoLm5hdmlzY2VudC5jb20vP3h1bD0xcHo1cW1seW52bnRxa3dkdjNpaGM2Y2RpYmpqMDA3N251Y=
+3cyajg5NDUwOWlibWczcjh0aDFncDc4cmJocHh1aW8wbiZ4aT1wYW0lNDBtYWdpY2Fsc3RyaW5nc=
+y5jb21HNXsib25nYWdlLWFjY291bnQtaWQiOiI0MTkzIiwib25nYWdlLWxpc3QtaWQiOiIzNDc3O=
+CJ9"><span style=3D"color:#FFA500;"><span style=3D"font-size:12px;"><span st=
+yle=3D"font-family:arial,helvetica,sans-serif;">you may opt out here</span><=
+/span></span></a><span style=3D"color:#808080;"><span style=3D"font-size:12p=
+x;"><span style=3D"font-family:arial,helvetica,sans-serif;">.</span></span><=
+/span></p>=0A=09=09=09</div>=0A=09=09=09</div>=0A=09=09=09</div>=0A=09=09=09=
+</td>=0A=09=09</tr></tbody></table></div>=0A</div>=0A=0A=0A=0A<img src=3D"ht=
+tp://track.research.naviscent.com/=3Fxol=3Drqeafv3mf5sxdxg0sn&xi=3Dpam@magic=
+alstrings.com" alt=3D"" width=3D"1" height=3D"1">=0D=0A<img border=3D"0" wid=
+th=3D"1" height=3D"1" alt=3D"" src=3D"http://go.sparkpostmail.com/q/6xn4AWlb=
+2YnXzGPrxQSHJQ~~/AAAQ2QA~/RgRZRZANPkEIAKuxPvA3KrdXA3NwY1gEAAAAAFkGc2hhcmVkYA=
+ZzaGFyZWRIETQxMTgxNzgyLTQxMTgyOTQ1QgoAAhkLY1eweYCZUhZwYW1AbWFnaWNhbHN0cmluZ3=
+MuY29tCVEEAAAAAEc1eyJvbmdhZ2UtbGlzdC1pZCI6IjM0Nzc4Iiwib25nYWdlLWFjY291bnQtaW=
+QiOiI0MTkzIn0~">=0D=0A</body></html>=0A
+--_----/RQtvcnI+2vcPnHbLY4MWQ===_A0/47-31152-A0B03675--
+

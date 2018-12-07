@@ -1,0 +1,254 @@
+Return-path: <s-2m65rn7c3me2vgevxyyrmbdfx1ncqw8y9i1lg3i5o0qmuxm6zxnn1p42@bounce.linkedin.com>
+Envelope-to: pam@magicalstrings.com
+Delivery-date: Fri, 27 May 2016 10:31:03 -0700
+Received: from mailf-cd.linkedin.com ([108.174.6.228]:36598)
+	by biz164.inmotionhosting.com with esmtps (TLSv1.2:DHE-RSA-AES256-GCM-SHA384:256)
+	(Exim 4.86_1)
+	(envelope-from <s-2m65rn7c3me2vgevxyyrmbdfx1ncqw8y9i1lg3i5o0qmuxm6zxnn1p42@bounce.linkedin.com>)
+	id 1b6Lb9-000BC5-DP
+	for pam@magicalstrings.com; Fri, 27 May 2016 10:31:03 -0700
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=linkedin.com;
+	s=proddkim1024; t=1464370258;
+	bh=ZVnsLhQDlC+N+rzHOtTc5OYK6l6I+h5xD5Pp3tGSl2A=;
+	h=From:Subject:MIME-Version:Content-Type:To:Date:X-LinkedIn-Class:
+	 X-LinkedIn-Template:X-LinkedIn-fbl;
+	b=cRvRzvkrdsbQCnYGB4eA5zO71/G0KWol7VFfpNBEodZwu5IorHOiqDOnLMhT0gt8O
+	 2ZaiD3DTURK32Yx077cMpQU9vmZBUTyE4/FRd3Ji7X5kB0vzal0O4mC1mYxqMgnmfu
+	 Qu8Lez4ZmtggI3l+cco3A7yBxROl++vbSWPm3MXA=
+From: LinkedIn Legal <legalnotice@linkedin.com>
+Message-ID: <1400137216.367790.1464370258716.JavaMail.app@ltx1-app8359.prod.linkedin.com>
+Subject: Important information about your LinkedIn account
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_367788_1603471028.1464370258715"
+To:  <pam@magicalstrings.com>
+Date: Fri, 27 May 2016 17:30:58 +0000 (UTC)
+X-LinkedIn-Class: LEGAL-NOTICE
+X-LinkedIn-Template: email_notice_201605_01
+X-LinkedIn-fbl: m2-aszy0gcgjlmdnmxtykhovztg5q9wpjruqpc1bno0ttahi55vd3uoxhm0umb9v882fzv7a1ii02o2hxgjxbvf7d93rq829egfi43fw5
+X-LinkedIn-Id: b7y84h-iopy5nh9-lt
+X-Spam-Status: No, score=-5.7
+X-Spam-Score: -56
+X-Spam-Bar: -----
+X-Ham-Report: Spam detection software, running on the system "biz164.inmotionhosting.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ 
+ Content preview:  Notice of Data Breach You may have heard reports recently
+   about a security issue involving LinkedIn. We would like to make sure you
+   have the facts about what happened, what information was involved, and the
+    steps we are taking to help protect you. [...] 
+ 
+ Content analysis details:   (-5.7 points, 5.0 required)
+ 
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was blocked.
+                             See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: licdn.com]
+ -2.3 RCVD_IN_DNSWL_MED      RBL: Sender listed at http://www.dnswl.org/, medium
+                              trust
+                             [108.174.6.228 listed in list.dnswl.org]
+ -0.0 RCVD_IN_MSPIKE_H3      RBL: Good reputation (+3)
+                             [108.174.6.228 listed in wl.mailspike.net]
+ -0.0 SPF_HELO_PASS          SPF: HELO matches SPF record
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+ -1.4 RP_MATCHES_RCVD        Envelope sender domain matches handover relay domain
+  0.0 T_KAM_HTML_FONT_INVALID BODY: Test for Invalidly Named or Formatted
+                             Colors in HTML
+ -1.9 BAYES_00               BODY: Bayes spam probability is 0 to 1%
+                             [score: 0.0000]
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from author's
+                             domain
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily valid
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+ -0.0 RCVD_IN_MSPIKE_WL      Mailspike good senders
+  0.0 TVD_PH_BODY_ACCOUNTS_PRE The body matches phrases such as "accounts
+                             suspended", "account credited", "account
+                             verification"
+X-Spam-Flag: NO
+
+------=_Part_367788_1603471028.1464370258715
+Content-Type: text/plain;charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-ID: text-body
+
+Notice of Data Breach
+
+You may have heard reports recently about a security issue involving Linked=
+In.  We would like to make sure you have the facts about what happened, wha=
+t information was involved, and the steps we are taking to help protect you=
+.
+
+What Happened?
+
+On May 17, 2016, we became aware that data stolen from LinkedIn in 2012 was=
+ being made available online.  This was not a new security breach or hack. =
+  We took immediate steps to invalidate the passwords of all LinkedIn accou=
+nts that we believed might be at risk.  These were accounts created prior t=
+o the 2012 breach that had not reset their passwords since that breach.
+
+What Information Was Involved?
+
+Member email addresses, hashed passwords, and LinkedIn member IDs (an inter=
+nal identifier LinkedIn assigns to each member profile) from 2012.
+
+What We Are Doing
+
+We invalidated passwords of all LinkedIn accounts created prior to the 2012=
+ breach that had not reset their passwords since that breach.  In addition,=
+ we are using automated tools to attempt to identify and block any suspicio=
+us activity that might occur on LinkedIn accounts. We are also actively eng=
+aging with law enforcement authorities.
+
+LinkedIn has taken significant steps to strengthen account security since 2=
+012.  For example, we now use salted hashes to store passwords and enable a=
+dditional account security by offering our members the option to use two-st=
+ep verification.
+
+What You Can Do
+
+We have several dedicated teams working diligently to ensure that the infor=
+mation members entrust to LinkedIn remains secure. While we do all we can, =
+we always suggest that our members visit our Safety Center to learn about e=
+nabling two-step verification, and implementing strong passwords in order t=
+o keep their accounts as safe as possible.  We recommend that you regularly=
+ change your LinkedIn password and if you use the same or similar passwords=
+ on other online services, we recommend you set new passwords on those acco=
+unts as well.
+
+For More Information
+
+If you have any questions, please feel free to contact our Trust & Safety t=
+eam at tns-help@linkedin.com.  To learn more visit our official blog.
+------=_Part_367788_1603471028.1464370258715
+Content-Type: text/html;charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-ID: html-body
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.=
+w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> <html xmlns=3D"http://www.w3=
+.org/1999/xhtml" lang=3D"en" xml:lang=3D"en"> <head> <meta http-equiv=3D"Co=
+ntent-Type" content=3D"text/html;charset=3Dutf-8"/> <meta name=3D"HandheldF=
+riendly" content=3D"true"/> <meta name=3D"viewport" content=3D"width=3Ddevi=
+ce-width; initial-scale=3D0.666667; maximum-scale=3D0.666667; user-scalable=
+=3D0"/> <meta name=3D"viewport" content=3D"width=3Ddevice-width"/> <title><=
+/title> <!--[if mso]><style type=3D"text/css">body {font-family: 'Helvetica=
+ Neue', Helvetica, Arial, sans-serif;}.phoenix-email-container {width: 512p=
+x !important;}</style><![endif]--> <!--[if IE]><style type=3D"text/css">.ph=
+oenix-email-container {width: 512px !important;}</style><![endif]--> <style=
+ type=3D"text/css">@media only screen and (max-width:32em) { .phoenix-email=
+-container { width:100% !important; } } @media only screen and (max-width:2=
+0em) {} @media only screen and (max-device-width:30em) {} @media screen and=
+ (device-width:30em) and (device-height:22.5em), screen and (device-width:2=
+2.5em) and (device-height:30em), screen and (device-width:20em) and (device=
+-height:15em) {} @media screen and (-webkit-min-device-pixel-ratio:0) {} @m=
+edia screen and (max-device-width:25.88em) and (max-device-height:48.5em) {=
+} </style> </head> <body style=3D"padding:0;margin:0 auto;-webkit-text-size=
+-adjust:100%;width:100% !important;-ms-text-size-adjust:100%;font-family:'H=
+elvetica Neue',Helvetica,Arial,sans-serif;"> <div style=3D"overflow:hidden;=
+color:transparent;visibility:hidden;mso-hide:all;width:0;font-size:0;opacit=
+y:0;height:0;"> You may have heard reports recently about a security issue =
+involving LinkedIn. We would like to make sure you have the facts about wha=
+t happened, what information was involved, and the steps we are taking to h=
+elp protect you. </div> <table align=3D"center" border=3D"0" cellspacing=3D=
+"0" cellpadding=3D"0" width=3D"100%" bgcolor=3D"#EDF0F3" style=3D"backgroun=
+d-color:#EDF0F3;table-layout:fixed;-webkit-text-size-adjust:100%;mso-table-=
+rspace:0pt;mso-table-lspace:0pt;-ms-text-size-adjust:100%;"> <tbody> <tr> <=
+td align=3D"center" style=3D"-webkit-text-size-adjust:100%;mso-table-rspace=
+:0pt;mso-table-lspace:0pt;-ms-text-size-adjust:100%;"> <center style=3D"wid=
+th:100%;"> <table border=3D"0" class=3D"phoenix-email-container" cellspacin=
+g=3D"0" cellpadding=3D"0" width=3D"512" bgcolor=3D"#FFFFFF" style=3D"backgr=
+ound-color:#FFFFFF;margin:20px auto 40px;max-width:512px;-webkit-text-size-=
+adjust:100%;mso-table-rspace:0pt;width:inherit;mso-table-lspace:0pt;-ms-tex=
+t-size-adjust:100%;"> <tbody> <tr> <td style=3D"-webkit-text-size-adjust:10=
+0%;mso-table-rspace:0pt;mso-table-lspace:0pt;-ms-text-size-adjust:100%;"> <=
+table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" style=
+=3D"-webkit-text-size-adjust:100%;mso-table-rspace:0pt;mso-table-lspace:0pt=
+;-ms-text-size-adjust:100%;"> <tbody> <tr> <td align=3D"center" style=3D"pa=
+dding:20px;-webkit-text-size-adjust:100%;mso-table-rspace:0pt;mso-table-lsp=
+ace:0pt;-ms-text-size-adjust:100%;text-align:center;"> <img alt=3D"LinkedIn=
+" border=3D"0" src=3D"https://static.licdn.com/scds/common/u/images/email/p=
+hoenix/logos/logo_linkedin_tm_242x59_v1.png" height=3D"20" width=3D"83" sty=
+le=3D"outline:none;-ms-interpolation-mode:bicubic;color:#FFFFFF;text-decora=
+tion:none;"/></td> </tr> <tr> <td align=3D"center" style=3D"padding:0 20px =
+20px;-webkit-text-size-adjust:100%;mso-table-rspace:0pt;mso-table-lspace:0p=
+t;-ms-text-size-adjust:100%;text-align:center;"> <p style=3D"margin:0;color=
+:#4C4C4C;font-weight:700;font-size:16px;line-height:1.25;">Notice of Data B=
+reach</p></td> </tr> <tr> <td style=3D"padding:0 20px 20px;-webkit-text-siz=
+e-adjust:100%;mso-table-rspace:0pt;mso-table-lspace:0pt;-ms-text-size-adjus=
+t:100%;"> <p style=3D"margin:0;color:#4C4C4C;font-weight:400;font-size:16px=
+;line-height:1.25;">You may have heard reports recently about a security is=
+sue involving LinkedIn. We would like to make sure you have the facts about=
+ what happened, what information was involved, and the steps we are taking =
+to help protect you.</p></td> </tr> <tr> <td style=3D"padding:0 20px 20px;-=
+webkit-text-size-adjust:100%;mso-table-rspace:0pt;mso-table-lspace:0pt;-ms-=
+text-size-adjust:100%;"> <p style=3D"margin:0;color:#4C4C4C;font-weight:700=
+;font-size:16px;line-height:1.25;">What Happened?</p></td> </tr> <tr> <td s=
+tyle=3D"padding:0 20px 20px;-webkit-text-size-adjust:100%;mso-table-rspace:=
+0pt;mso-table-lspace:0pt;-ms-text-size-adjust:100%;"> <p style=3D"margin:0;=
+color:#4C4C4C;font-weight:400;font-size:16px;line-height:1.25;">On May 17, =
+2016, we became aware that data stolen from LinkedIn in 2012 was being made=
+ available online. This was not a new security breach or hack. We took imme=
+diate steps to invalidate the passwords of all LinkedIn accounts that we be=
+lieved might be at risk. These were accounts created prior to the 2012 brea=
+ch that had not reset their passwords since that breach.</p></td> </tr> <tr=
+> <td style=3D"padding:0 20px 20px;-webkit-text-size-adjust:100%;mso-table-=
+rspace:0pt;mso-table-lspace:0pt;-ms-text-size-adjust:100%;"> <p style=3D"ma=
+rgin:0;color:#4C4C4C;font-weight:700;font-size:16px;line-height:1.25;">What=
+ Information Was Involved?</p></td> </tr> <tr> <td style=3D"padding:0 20px =
+20px;-webkit-text-size-adjust:100%;mso-table-rspace:0pt;mso-table-lspace:0p=
+t;-ms-text-size-adjust:100%;"> <p style=3D"margin:0;color:#4C4C4C;font-weig=
+ht:400;font-size:16px;line-height:1.25;">Member email addresses, hashed pas=
+swords, and LinkedIn member IDs (an internal identifier LinkedIn assigns to=
+ each member profile) from 2012.</p></td> </tr> <tr> <td style=3D"padding:0=
+ 20px 20px;-webkit-text-size-adjust:100%;mso-table-rspace:0pt;mso-table-lsp=
+ace:0pt;-ms-text-size-adjust:100%;"> <p style=3D"margin:0;color:#4C4C4C;fon=
+t-weight:700;font-size:16px;line-height:1.25;">What We Are Doing</p></td> <=
+/tr> <tr> <td style=3D"padding:0 20px 20px;-webkit-text-size-adjust:100%;ms=
+o-table-rspace:0pt;mso-table-lspace:0pt;-ms-text-size-adjust:100%;"> <p sty=
+le=3D"margin:0;color:#4C4C4C;font-weight:400;font-size:16px;line-height:1.2=
+5;">We invalidated passwords of all LinkedIn accounts created prior to the =
+2012 breach that had not reset their passwords since that breach. In additi=
+on, we are using automated tools to attempt to identify and block any suspi=
+cious activity that might occur on LinkedIn accounts. We are also actively =
+engaging with law enforcement authorities.</p></td> </tr> <tr> <td style=3D=
+"padding:0 20px 20px;-webkit-text-size-adjust:100%;mso-table-rspace:0pt;mso=
+-table-lspace:0pt;-ms-text-size-adjust:100%;"> <p style=3D"margin:0;color:#=
+4C4C4C;font-weight:400;font-size:16px;line-height:1.25;">LinkedIn has taken=
+ significant steps to strengthen account security since 2012. For example, =
+we now use salted hashes to store passwords and enable additional account s=
+ecurity by offering our members the option to use two-step verification.</p=
+></td> </tr> <tr> <td style=3D"padding:0 20px 20px;-webkit-text-size-adjust=
+:100%;mso-table-rspace:0pt;mso-table-lspace:0pt;-ms-text-size-adjust:100%;"=
+> <p style=3D"margin:0;color:#4C4C4C;font-weight:700;font-size:16px;line-he=
+ight:1.25;">What You Can Do</p></td> </tr> <tr> <td style=3D"padding:0 20px=
+ 20px;-webkit-text-size-adjust:100%;mso-table-rspace:0pt;mso-table-lspace:0=
+pt;-ms-text-size-adjust:100%;"> <p style=3D"margin:0;color:#4C4C4C;font-wei=
+ght:400;font-size:16px;line-height:1.25;">We have several dedicated teams w=
+orking diligently to ensure that the information members entrust to LinkedI=
+n remains secure. While we do all we can, we always suggest that our member=
+s visit our Safety Center to learn about enabling two-step verification, an=
+d implementing strong passwords in order to keep their accounts as safe as =
+possible. We recommend that you regularly change your LinkedIn password and=
+ if you use the same or similar passwords on other online services, we reco=
+mmend you set new passwords on those accounts as well.</p></td> </tr> <tr> =
+<td style=3D"padding:0 20px 20px;-webkit-text-size-adjust:100%;mso-table-rs=
+pace:0pt;mso-table-lspace:0pt;-ms-text-size-adjust:100%;"> <p style=3D"marg=
+in:0;color:#4C4C4C;font-weight:700;font-size:16px;line-height:1.25;">For Mo=
+re Information</p></td> </tr> <tr> <td style=3D"padding:0 20px 20px;-webkit=
+-text-size-adjust:100%;mso-table-rspace:0pt;mso-table-lspace:0pt;-ms-text-s=
+ize-adjust:100%;"> <p style=3D"margin:0;color:#4C4C4C;font-weight:400;font-=
+size:16px;line-height:1.25;">If you have any questions, please feel free to=
+ contact our Trust &amp; Safety team at tns-help@linkedin.com. To learn mor=
+e visit our official blog.</p></td> </tr> </tbody> </table></td> </tr> </tb=
+ody> </table> </center></td> </tr> </tbody> </table> <img src=3D"http://www=
+.linkedin.com/emimp/b7y84h-iopy5nh9-lt.gif" style=3D"outline:none;-ms-inter=
+polation-mode:bicubic;color:#FFFFFF;text-decoration:none;width:1px;height:1=
+px;"/> </body> </html>
+------=_Part_367788_1603471028.1464370258715--

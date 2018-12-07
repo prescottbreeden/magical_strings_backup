@@ -1,0 +1,1885 @@
+Return-Path: <msprvs1=17714ssg26Oxr=bounces-1@bounce.nytimes.com>
+Delivered-To: pam@magicalstrings.com
+Received: from biz164.inmotionhosting.com
+	by biz164.inmotionhosting.com with LMTP id 0MQfAHuiMFsFJQMAtEtsOg
+	for <pam@magicalstrings.com>; Mon, 25 Jun 2018 01:06:19 -0700
+Return-path: <msprvs1=17714ssg26Oxr=bounces-1@bounce.nytimes.com>
+Envelope-to: pam@magicalstrings.com
+Delivery-date: Mon, 25 Jun 2018 01:06:19 -0700
+Received: from mta106a.mail.e.sparkpost.com ([34.216.191.17]:10589)
+	by biz164.inmotionhosting.com with esmtps (TLSv1.2:ECDHE-RSA-AES256-GCM-SHA384:256)
+	(Exim 4.89_1)
+	(envelope-from <msprvs1=17714ssg26Oxr=bounces-1@bounce.nytimes.com>)
+	id 1fXMVh-000sPB-TK
+	for pam@magicalstrings.com; Mon, 25 Jun 2018 01:06:18 -0700
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=nytimes.com;
+	s=scph0118; t=1529913964; i=@nytimes.com;
+	bh=qBezOByR7PhCnDes6H05E1QsyL6mzGiGsnJ2Lbt9W1E=;
+	h=To:From:date:Reply-To:Subject:List-Unsubscribe:List-Id;
+	b=gmQ3H0b3bLLsXJDCXH6r3O6u1b/IKSQWxY33tiigJd5in6UKYd+iMkTJaEWOS+s+C
+	 rhIcSSL5E3Vi7S6Y80zEZCNvcHLMXRD6LVKkLbLvC8zsI5WiDMwbrIqWg560DXgv5P
+	 EDclEglFwbThmoYvb2VjfGCytzPDHllfFjSDeUL0=
+X-MSFBL: I2uW2KyRf2+b6IO8cSKpSvVBYvV5OtWR6ioAmqZP5GY=|eyJtZXNzYWdlX2lkIjo
+	iMDAwMzZjYTIzMDViZDlmZjcwMTIiLCJ0ZW5hbnRfaWQiOiJueXQiLCJzdWJhY2N
+	vdW50X2lkIjoiMCIsImN1c3RvbWVyX2lkIjoiMSIsInIiOiJwYW1AbWFnaWNhbHN
+	0cmluZ3MuY29tIn0=
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset="UTF-8"
+To: pam@magicalstrings.com
+Message-ID: <07.21.65497.C62A03B5@c.mta2vrest.cc.prd.sparkpost>
+MIME-Version: 1.0
+x-job: TH-180625
+From: NYTimes.com <nytdirect@nytimes.com>
+date: Mon, 25 Jun 2018 04:02:28 -0400
+Reply-To: nytdirect@nytimes.com
+Subject: =?utf-8?B?VG9kYXkncyBIZWFkbGluZXM6IEVyZG9nYW7igJlzIEVsZWN0aW9u?=
+	=?utf-8?B?IFdpbiBHaXZlcyBIaW0gVmFzdGx5IEV4cGFuZGVkIFBvd2VycyBpbiBUdXJr?=
+	=?utf-8?B?ZXk=?=
+List-Unsubscribe: <mailto:unsubscribe@nyt.mail.e.sparkpost.com?subject=unsubscribe:eZRV7Zz-D49j7s8oECq86y7o8Tvax1AeX34y4uZ26LA~|eyAicmNwdF90byI6ICJwYW1AbWFnaWNhbHN0cmluZ3MuY29tIiwgInRlbmFudF9pZCI6ICJueXQiLCAiY3VzdG9tZXJfaWQiOiAiMSIsICJtZXNzYWdlX2lkIjogIjAwMDM2Y2EyMzA1YmQ5ZmY3MDEyIiwgInN1YmFjY291bnRfaWQiOiAiMCIgfQ~~>
+List-Id: <nyt-1-0>
+X-Spam-Status: No, score=-8.6
+X-Spam-Score: -85
+X-Spam-Bar: --------
+X-Ham-Report: Spam detection software, running on the system "biz164.inmotionhosting.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ 
+ Content preview:  Today's Headlines - The New York Times Trump Calls for Depriving
+    Immigrants Who Illegally Cross Border of Due Process Rights View in Browser
+    | Add nytdirect@nytimes.com to your address book. [...] 
+ 
+ Content analysis details:   (-8.6 points, 5.0 required)
+ 
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was blocked.
+                             See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: nyt.com]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+ -7.5 USER_IN_DEF_SPF_WL     From: address is in the default SPF white-list
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+ -1.9 BAYES_00               BODY: Bayes spam probability is 0 to 1%
+                             [score: 0.0000]
+  0.7 MIME_HTML_ONLY         BODY: Message only has text/html MIME parts
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily valid
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from author's
+                             domain
+  0.0 LOTS_OF_MONEY          Huge... sums of money
+  0.2 KAM_HUGEIMGSRC         Message contains many image tags with huge http urls
+X-Spam-Flag: NO
+
+=0A <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://=
+www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> <img src=3D"http://p.nyt=
+imes.com/email/re=3Flocation=3DhdaNaYedr2/IomeWRKt0nffrak8aSGLbvtkkq/r7ihwO=
+f5XePlpJ1w=3D=3D&amp;campaign_id=3D2&amp;instance_id=3D2314&amp;segment_id=
+=3D3305&amp;user_id=3Dcd5365432f48f4e05c37d5c8ce45e877&amp;regi_id=3D380478=
+33"/><html xmlns=3D"http://www.w3.org/1999/xhtml"> <head> <meta http-equiv=
+=3D"Content-Type" content=3D"text/html; charset=3DUTF-8"> <!--[if !mso]>=0A=
+    <meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge" />=0A    <![=
+endif]--> <meta name=3D"viewport" content=3D"width=3Ddevice-width,initial-s=
+cale=3D1"> <title>Today's Headlines - The New York Times</title> <style typ=
+e=3D"text/css">a{text-decoration:none!important}@media screen and (min-widt=
+h:1154px){.hybrid-padding-zero{padding:0!important}}@media screen and (min-=
+width:508px){.top-padding{padding-top:0!important}.full-width-header{width:=
+72%!important;text-align:right!important;padding-top:5px}}@media screen and=
+ (max-width:507px){.datealign{width:200px;text-align:left!important;padding=
+-bottom:10px!important}}</style> </head> <body style=3D"Margin:0;padding:0;=
+min-width:100%;background-color:#fff"> <div style=3D"display:none;font-size=
+:1px;color:#eee;line-height:1px;max-height:0;max-width:0;opacity:0;overflow=
+:hidden"> Trump Calls for Depriving Immigrants Who Illegally Cross Border o=
+f Due Process Rights </div> <div> <style type=3D"text/css">body{-webkit-tex=
+t-size-adjust:none;-ms-text-size-adjust:none;padding:0;margin:0 auto}#body-=
+div{position:initial!important}@media screen and (max-width:380px){[class].=
+footer{padding:20px 10px 25px!important}}[owa] .module-padding-zero{padding=
+:0!important}@media screen and (max-width:508px){[class].top-padding{paddin=
+g:0 0 5px!important}[class].full-width-header{padding:0 0 5px!important}}@m=
+edia screen and (min-width:618px){[class].hybrid-padding-zero{padding:0!imp=
+ortant}}[owa] .top-padding{padding-top:0!important}[owa] .full-width-header=
+{width:72%!important;text-align:right!important;padding-top:5px}@media scre=
+en and (min-width:618px){[class].advt-padding{padding:0 0 15px!important}[c=
+lass].emailadvt-padding{padding:0!important}}@media screen and (max-width:5=
+85px){[class].media-padding{padding-top:15px!important}[class].hide-bar{dis=
+play:none!important}}@media screen and (min-width:451px){[class].f-break{di=
+splay:none!important}[class].hide:before{content:"| ";margin-right:3px;font=
+-size:15px;display:inline-block!important;color:#e2e2e2!important}}</style>=
+ </div> <!--[if (gte mso 9)|(IE)]><style type=3D"text/css">table {border-co=
+llapse: collapse;}</style><![endif]--> <center style=3D"width:100%;table-la=
+yout:fixed;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%"> <div s=
+tyle=3D"width:100%;background-color:#fff"> <!--[if (gte mso 9)|(IE)]><table=
+ width=3D"501" align=3D"center" bgcolor=3D"#FFFFFF"><tr><td><![endif]--> <t=
+able class=3D"hybrid-padding-zero module-padding-zero" align=3D"center" cel=
+lspacing=3D"0" cellpadding=3D"0" style=3D"border-spacing:0;font-family:sans=
+-serif;color:#333;margin:20px auto 0;width:100%;max-width:501px;padding:0 1=
+0px"> <tbody> <tr> <td style=3D"margin:0;padding:0;text-align:center;font-s=
+ize:0"> <!--[if (gte mso 9)|(IE)]><table width=3D"501" align=3D"center"><tr=
+><td width=3D"100%" valign=3D"top"><![endif]--> <div style=3D"width:100%;ma=
+x-width:501px;display:inline-block;vertical-align:top"> <table cellspacing=
+=3D"0" cellpadding=3D"0" border=3D"0" align=3D"bottom" style=3D"width:100%;=
+padding:0;margin:0;min-width:100%"> <tbody> <tr> <td style=3D"color:#999;fo=
+nt-family:arial,helvetica,sans serif;font-size:11px;line-height:15px;paddin=
+g:18px 0 0;margin:0"> <!--[if (gte mso 9)|(IE)]> <table width=3D"100%" alig=
+n=3D"center"> <tr> <td>  <![endif]--> <div align=3D"center" style=3D"displa=
+y:inline-block;width:100%"> <span style=3D"display:inline-block;font-size:1=
+1px;line-height:15px;padding:0 7px 0 0">View in <a href=3D"http://p.nytimes=
+.com/email/re=3Flocation=3DpMJKdIFVI6o5fsya5+9368xCemSTky+mVk67Pwqsc9xBwni=
+rl/68ivrBLST1U6kLGRNJqMA+7zo=3D&campaign_id=3D2&instance_id=3D2314&segment_=
+id=3D3305&user_id=3Dcd5365432f48f4e05c37d5c8ce45e877&regi_id=3D38047833" st=
+yle=3D"text-decoration:none;color:#004276">Browser</a></span> <span style=
+=3D"padding:0 1px;color:#e2e2e2;font-size:12px">|</span> <span style=3D"dis=
+play:inline-block;font-size:11px;line-height:15px;padding:0 0 0 7px">Add <a=
+ style=3D"text-decoration:none;color:#326891" href=3D"mailto:nytdirect@nyti=
+mes.com" class=3D"nocolor"> nytdirect@nytimes.com</a> to your address book.=
+</span> <span>  </span> </div> <!--[if (gte mso 9)|(IE)]></td></tr></table>=
+<![endif]--> </td> </tr> </tbody> </table> </div> <!--[if (gte mso 9)|(IE)]=
+></td></tr><tr><td width=3D"100%" valign=3D"top"><![endif]--> <div style=3D=
+"width:100%;max-width:501px;display:inline-block;vertical-align:top"> <tabl=
+e cellspacing=3D"0" cellpadding=3D"0" border=3D"0" align=3D"bottom" style=
+=3D"width:100%;padding:0;margin:0;min-width:100%"> <tbody> <tr> <td style=
+=3D"color:#999;font-family:arial,helvetica,sans serif;font-size:11px;line-h=
+eight:15px;padding:15px 0 0;margin:0"> <!--[if (gte mso 9)|(IE)]><table wid=
+th=3D"100%"><tr><td><![endif]--> <!--[if (gte mso 9)|(IE)]> <table align=3D=
+"left"> <tr> <td>  <![endif]--> <div class=3D"top-padding" align=3D"left" s=
+tyle=3D"display:inline-block;float:left"> <a style=3D"color:#326891;text-de=
+coration:none" href=3D"http://p.nytimes.com/email/re=3Flocation=3D4z5Q7LhI+=
+KVBjmEgFdYACKqxdqYf5TwZYeyKvnoK8cSXtdc5Zse6Ks8EvfRvTSKmRlcqaJDmNgYKX2k+Wbgu=
+PYN8mkmbBZTE&campaign_id=3D2&instance_id=3D2314&segment_id=3D3305&user_id=
+=3Dcd5365432f48f4e05c37d5c8ce45e877&regi_id=3D38047833h_180625"> <img width=
+=3D"136" height=3D"22" border=3D"0" src=3D"https://static01.nyt.com/ads/ema=
+ilads/images/header/logo-nyt-136x22-2x.png" alt=3D"The New York Times"> </a=
+> </div> <!--[if (gte mso 9)|(IE)]></td></tr></table></td><![endif]--> <!--=
+[if (gte mso 9)|(IE)]><td><table align=3D"right"> <tr> <td>  <![endif]--> <=
+div class=3D"full-width-header" style=3D"display:inline-block;float:right;t=
+ext-align:left;width:100%"> <a style=3D"color:#808081;font-family:arial,hel=
+vetica,sans serif;font-size:11px;text-decoration:none" href=3D"http://p.nyt=
+imes.com/email/re=3Flocation=3D4z5Q7LhI+KVBjmEgFdYACME3j0Ulu+tFIqyk7I7s2g43=
+8vgG12AfE8xWIPOYU0HYqmxpH5U8Wo0ofumKVUbCXEygjnpXMQX7DcYCsw3LL/M=3D&campaign=
+_id=3D2&instance_id=3D2314&segment_id=3D3305&user_id=3Dcd5365432f48f4e05c37=
+d5c8ce45e877&regi_id=3D380478330625">Most Popular</a> <span style=3D"color:=
+#808081;font-size:11px;padding:0 2px 0 2px">|</span> <a style=3D"color:#808=
+081;font-family:arial,helvetica,sans serif;font-size:11px;text-decoration:n=
+one" href=3D"http://p.nytimes.com/email/re=3Flocation=3D4z5Q7LhI+KVBjmEgFdY=
+ACL/oK7UVhKLFLRyg5N7PGr2Xtdc5Zse6Ks8EvfRvTSKmRlcqaJDmNgYKX2k+WbguPYN8mkmbBZ=
+TE&campaign_id=3D2&instance_id=3D2314&segment_id=3D3305&user_id=3Dcd5365432=
+f48f4e05c37d5c8ce45e877&regi_id=3D380478330625">Video</a> <span style=3D"co=
+lor:#808081;font-size:11px;padding:0 2px 0 2px">|</span> <span style=3D"col=
+or:#808081;font-size:11px;font-family:arial,helvetica,sans serif;text-decor=
+ation:none">Subscribe: </span> <a href=3D"http://p.nytimes.com/email/re=3Fl=
+ocation=3D4z5Q7LhI+KVBjmEgFdYACDuqzkg7rwCIjbQiYyNWYJIW5drsCg04xD2q1X6bqVB/v=
+YPHy+JP5GfoOOml3K0i6B6FZQ0QbF0vd4uDUNSP6zTZ6+gx8L5x9c4KsAyRIbPtia9cFbXttNWw=
+WcVefNZhFNwEZTKSUy7E&campaign_id=3D2&instance_id=3D2314&segment_id=3D3305&u=
+ser_id=3Dcd5365432f48f4e05c37d5c8ce45e877&regi_id=3D38047833h_180625" style=
+=3D"color:#004276;font-family:arial,helvetica,sans serif;font-size:11px;tex=
+t-decoration:none">Digital / </a> <a href=3D"http://p.nytimes.com/email/re=
+=3Flocation=3DpMJKdIFVI6r7I9tFmRONz6rXbMUXH/R1VSDXHTgmQRA78Sam9s9kTi2bwS0ko=
+Zcfi0kWmtYTutZL253+k/0ewvNA98Q2aA/VGEG/s/+Gd1aRpmNpYgj6yoonbi1XKMq0&campaig=
+n_id=3D2&instance_id=3D2314&segment_id=3D3305&user_id=3Dcd5365432f48f4e05c3=
+7d5c8ce45e877&regi_id=3D38047833it_th_180625" style=3D"color:#004276;font-f=
+amily:arial,helvetica,sans serif;font-size:11px;text-decoration:none">Home =
+Delivery</a> <a style=3D"color:#004276;font-family:arial,helvetica,sans ser=
+if;font-size:11px;text-decoration:none" href=3D"http://p.nytimes.com/email/=
+re=3Flocation=3DpMJKdIFVI6rcMVYYXia0CswGfPcU3iP2BbboDbCax1Z6HmtDwlSJwJdUy5K=
+Cwz0Tqfezxyc2g59jH8iiZHELFgZMAx3X9qeYSP8r+LN+8TOjiHuy6MZi9HqZ4xnOTG7b&campa=
+ign_id=3D2&instance_id=3D2314&segment_id=3D3305&user_id=3Dcd5365432f48f4e05=
+c37d5c8ce45e877&regi_id=3D380478330625">My Account</a> </div> <!--[if (gte =
+mso 9)|(IE)]></td></tr></table><![endif]--> <!--[if (gte mso 9)|(IE)]></td>=
+</tr></table><![endif]--> </td> </tr> </tbody> </table> </div> <!--[if (gte=
+ mso 9)|(IE)]></td></tr><tr><td width=3D"100%" valign=3D"top"><![endif]--> =
+<div style=3D"width:100%;max-width:501px;display:inline-block;vertical-alig=
+n:top;background:#fff"> <table width=3D"100%" cellspacing=3D"0" cellpadding=
+=3D"0" style=3D"border-spacing:0;font-family:sans-serif;color:#333;padding:=
+0;background:#fff;margin:0;min-width:100%"> <tbody> <tr> <td align=3D"left"=
+ style=3D"margin:0;padding:0;border-top:1px solid #e2e2e2;border-bottom:3px=
+ solid #000"> <!--[if (gte mso 9)|(IE)]><table width=3D"100%"><tr><td><![en=
+dif]--> <!--[if (gte mso 9)|(IE)]> <table align=3D"left"> <tr> <td>  <![end=
+if]--> <div align=3D"left" style=3D"display:inline-block;float:left"> <a st=
+yle=3D"color:#000;text-decoration:none" href=3D"http://p.nytimes.com/email/=
+re=3Flocation=3DpMJKdIFVI6pghfX2HXfSzyVor7LVWOsn&campaign_id=3D2&instance_i=
+d=3D2314&segment_id=3D3305&user_id=3Dcd5365432f48f4e05c37d5c8ce45e877&regi_=
+id=3D38047833"> <h1 style=3D"color:#000;font-family:arial,helvetica,sans se=
+rif;font-size:30px;font-weight:700;padding:0;margin:13px 0 4px">Today's Hea=
+dlines</h1> </a> </div> <!--[if (gte mso 9)|(IE)]></td></tr></table></td><!=
+[endif]--> <!--[if (gte mso 9)|(IE)]><td><table align=3D"right"> <tr> <td s=
+tyle=3D"margin:0; padding: 25px 0 0;">  <![endif]--> <div class=3D"datealig=
+n" align=3D"right" style=3D"margin:0;padding:25px 0 0"> <h4 style=3D"paddin=
+g:0;margin:0;font-family:arial,helvetica,sans serif;font-size:12px;line-hei=
+ght:16px;font-weight:700;color:#333">Monday, June 25, 2018</h4> </div> <!--=
+[if (gte mso 9)|(IE)]></td></tr></table><![endif]--> <!--[if (gte mso 9)|(I=
+E)]></td></tr></table><![endif]--> </td> </tr> </tbody> </table> </div> <!-=
+-[if (gte mso 9)|(IE)]></td></tr><tr><td width=3D"100%" valign=3D"top"><![e=
+ndif]--> <div> <table width=3D"500" cellspacing=3D"0" cellpadding=3D"0" sty=
+le=3D"margin:0"> <tbody> <tr> <td style=3D"font-size:14px;font-family:arial=
+,helvetica,sans-serif;line-height:20px;color:#000"> <table border=3D"0" cel=
+lpadding=3D"0" cellspacing=3D"0" align=3D"center"><tr><td colspan=3D"2"><a =
+href=3D"https://liveintent.newyorktimesinfo.com/click=3Fs=3D113511&layout=
+=3Dmarquee&m=3Dcd5365432f48f4e05c37d5c8ce45e877&p=3DTH_20180625&li=3DTH" re=
+l=3D"nofollow"><img src=3D"https://liveintent.newyorktimesinfo.com/imp=3Fs=
+=3D113511&layout=3Dmarquee&m=3Dcd5365432f48f4e05c37d5c8ce45e877&p=3DTH_2018=
+0625&li=3DTH"border=3D"0" style=3D"display: block; height:auto;" width=3D"5=
+00"/></a></td></tr><tr style=3D"display:block; height:1px; line-height:1px;=
+"><td><img src=3D"https://liveintent.newyorktimesinfo.com/imp=3Fs=3D113513&=
+layout=3Dmarquee&sz=3D1x1&m=3Dcd5365432f48f4e05c37d5c8ce45e877&p=3DTH_20180=
+625&li=3DTH" height=3D"1" width=3D"10" /></td><td><img src=3D"https://livei=
+ntent.newyorktimesinfo.com/imp=3Fs=3D113512&layout=3Dmarquee&sz=3D1x1&m=3Dc=
+d5365432f48f4e05c37d5c8ce45e877&p=3DTH_20180625&li=3DTH" height=3D"1" width=
+=3D"10" /></td></tr></table> </td> </tr> </tbody> </table> </div> <!--[if (=
+gte mso 9)|(IE)]></td></tr><tr><td width=3D"100%" valign=3D"top"><![endif]-=
+-> <div style=3D"width:100%;max-width:501px;display:inline-block;vertical-a=
+lign:top;background:#fff"> <table width=3D"100%" cellspacing=3D"0" cellpadd=
+ing=3D"0" style=3D"border-spacing:0;font-family:sans-serif;color:#333;paddi=
+ng:0;background:#fff;margin:0;min-width:100%"> <tbody> <tr> <td align=3D"le=
+ft" style=3D"width:100%;margin:0;padding:6px 0 7px;line-height:12px"> <!--[=
+if (gte mso 9)|(IE)]><table width=3D"100%"><tr><td valign=3D"top"><![endif]=
+--> <span style=3D"font-family:arial,helvetica,sans serif;font-size:10px;fo=
+nt-weight:700;color:#333">IN THIS EMAIL:&nbsp;</span>  <a style=3D"color:#3=
+33;font-family:arial,helvetica,sans serif;font-size:11px;padding:0 2px 0 3p=
+x;text-decoration:none" href=3D"#0">&nbsp;Top News&nbsp;</a> <span style=3D=
+"font-size:11px;color:#909090">&nbsp;|&nbsp;</span>   <a style=3D"color:#33=
+3;font-family:arial,helvetica,sans serif;font-size:11px;padding:0 2px 0 3px=
+;text-decoration:none" href=3D"#2">&nbsp;Editors' Picks&nbsp;</a> <span sty=
+le=3D"font-size:11px;color:#909090">&nbsp;|&nbsp;</span>   <a style=3D"colo=
+r:#333;font-family:arial,helvetica,sans serif;font-size:11px;padding:0 2px =
+0 3px;text-decoration:none" href=3D"#4">&nbsp;World&nbsp;</a> <span style=
+=3D"font-size:11px;color:#909090">&nbsp;|&nbsp;</span>   <a style=3D"color:=
+#333;font-family:arial,helvetica,sans serif;font-size:11px;padding:0 2px 0 =
+3px;text-decoration:none" href=3D"#5">&nbsp;U.S.&nbsp;</a> <span style=3D"f=
+ont-size:11px;color:#909090">&nbsp;|&nbsp;</span>    <a style=3D"color:#333=
+;font-family:arial,helvetica,sans serif;font-size:11px;padding:0 2px 0 3px;=
+text-decoration:none" href=3D"#7">&nbsp;Business&nbsp;</a> <span style=3D"f=
+ont-size:11px;color:#909090">&nbsp;|&nbsp;</span>    <a style=3D"color:#333=
+;font-family:arial,helvetica,sans serif;font-size:11px;padding:0 2px 0 3px;=
+text-decoration:none" href=3D"#9">&nbsp;Sports&nbsp;</a> <span style=3D"fon=
+t-size:11px;color:#909090">&nbsp;|&nbsp;</span>   <a style=3D"color:#333;fo=
+nt-family:arial,helvetica,sans serif;font-size:11px;padding:0 2px 0 3px;tex=
+t-decoration:none" href=3D"#10">&nbsp;Arts&nbsp;</a> <span style=3D"font-si=
+ze:11px;color:#909090">&nbsp;|&nbsp;</span>    <a style=3D"color:#333;font-=
+family:arial,helvetica,sans serif;font-size:11px;padding:0 2px 0 3px;text-d=
+ecoration:none" href=3D"#12">&nbsp;Obituaries&nbsp;</a> <span style=3D"font=
+-size:11px;color:#909090">&nbsp;|&nbsp;</span>   <a style=3D"color:#333;fon=
+t-family:arial,helvetica,sans serif;font-size:11px;padding:0 2px 0 3px;text=
+-decoration:none" href=3D"#13">&nbsp;Editorial&nbsp;</a> <span style=3D"fon=
+t-size:11px;color:#909090">&nbsp;|&nbsp;</span>   <a style=3D"color:#333;fo=
+nt-family:arial,helvetica,sans serif;font-size:11px;padding:0 2px 0 3px;tex=
+t-decoration:none" href=3D"#14">&nbsp;Op-Ed&nbsp;</a> <span style=3D"font-s=
+ize:11px;color:#909090">&nbsp;|&nbsp;</span>  <a style=3D"color:#333;font-f=
+amily:arial,helvetica,sans serif;font-size:10px;font-weight:700;padding:0 3=
+px 0 3px;text-decoration:none" href=3D"http://p.nytimes.com/email/re=3Floca=
+tion=3DpMJKdIFVI6rcMVYYXia0CswGfPcU3iP2BbboDbCax1Z6HmtDwlSJwJdUy5KCwz0Tqfez=
+xyc2g59jH8iiZHELFgZMAx3X9qeYSP8r+LN+8TOjiHuy6MZi9HqZ4xnOTG7b&campaign_id=3D=
+2&instance_id=3D2314&segment_id=3D3305&user_id=3Dcd5365432f48f4e05c37d5c8ce=
+45e877&regi_id=3D380478330625">&nbsp;CUSTOMIZE &raquo; </a> <!--[if (gte ms=
+o 9)|(IE)]></td></tr></table><![endif]--> </td> </tr> </tbody> </table> </d=
+iv> <!--[if (gte mso 9)|(IE)]></td></tr></table><![endif]--> </td> </tr> </=
+tbody> </table>  <!--[if (gte mso 9)|(IE)]><table width=3D"501" align=3D"ce=
+nter"><tr><td style=3D"padding: 0;"><![endif]--> <table class=3D"hybrid-pad=
+ding-zero module-padding-zero" align=3D"center" cellspacing=3D"0" cellpaddi=
+ng=3D"0" style=3D"border-spacing:0;font-family:sans-serif;color:#333;margin=
+:0 auto;width:100%;max-width:501px;padding:0 10px"> <tbody> <tr> <td style=
+=3D"padding:0;text-align:center;font-size:0;border-top:1px solid #cbcbcb"> =
+<!--[if (gte mso 9)|(IE)]><table width=3D"100%"><![endif]--> <!--[if (gte m=
+so 9)|(IE)]><tr><td width=3D"100%" valign=3D"top"><![endif]--> <div style=
+=3D"width:100%;max-width:501px;display:inline-block;vertical-align:top"> <t=
+able align=3D"left" width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" styl=
+e=3D"border-spacing:0;font-family:sans-serif;color:#333;padding:0;backgroun=
+d:#fff"> <tbody> <tr> <td style=3D"padding:15px 0 0;text-align:left;font-fa=
+mily:arial,helvetica,sans-serif;font-weight:700" colspan=3D"1"> <div style=
+=3D"margin:0 0 14px 0;font-size:18px;font-family:arial,helvetica,sans-serif=
+;font-weight:700;line-height:22px;color:#000"> <a name=3D"0"></a> <h6 style=
+=3D"color:#000;font-size:18px;line-height:22px;margin:0">Top News</h6> </di=
+v> </td> </tr> </tbody> </table> </div> <!--[if (gte mso 9)|(IE)]></td></tr=
+><![endif]--> <!--[if (gte mso 9)|(IE)]><tr><td width=3D"100%" valign=3D"to=
+p" style=3D"padding-bottom: 15px;"><![endif]--> <div style=3D"width:100%;ma=
+x-width:501px;display:inline-block;vertical-align:top;background:#fff"> <ta=
+ble width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" style=3D"border-spac=
+ing:0;font-family:sans-serif;color:#333;background:#fff"> <tbody> <tr> <td =
+align=3D"left" style=3D"padding:0 0 20px"> <table cellspacing=3D"0" cellpad=
+ding=3D"0" style=3D"max-width:501px;width:100%;padding:0;background-color:#=
+fff"> <tbody> <tr> <td align=3D"left"> <table cellspacing=3D"0" cellpadding=
+=3D"0" border=3D"0" align=3D"right" style=3D"padding:3px 0 0 15px;width:aut=
+o!important"> <tbody> <tr> <td> <a href=3D"http://p.nytimes.com/email/re=3F=
+location=3DpMJKdIFVI6pghfX2HXfSzxRpdoyDWYNW79a8+diLpxTMkc29r+s5SgxmN7yApIB0=
+47M1ZjGD78BeXflLMX3H6oLVKYemI5KCbNeLVVT3FmKXtdc5Zse6Ks8EvfRvTSKmRlcqaJDmNgY=
+KX2k+WbguPYN8mkmbBZTE&campaign_id=3D2&instance_id=3D2314&segment_id=3D3305&=
+user_id=3Dcd5365432f48f4e05c37d5c8ce45e877&regi_id=3D380478330625" style=3D=
+"color:#326891"> <img class=3D"image-view" width=3D"75" height=3D"75" borde=
+r=3D"0" alt=3D"Erdogan=E2=80=99s Election Win Gives Him Vastly Expanded Pow=
+ers in Turkey" src=3D"https://static01.nyt.com/images/2018/06/25/world/25Tu=
+rkey-P1/25Turkey1-thumbStandard.jpg"> </a> </td> </tr> </tbody> </table> <a=
+ style=3D"margin:0;color:#004276;text-decoration:none;font-family:georgia,s=
+erif;font-size:16px;line-height:20px;font-weight:700" href=3D"http://p.nyti=
+mes.com/email/re=3Flocation=3DpMJKdIFVI6pghfX2HXfSzxRpdoyDWYNW79a8+diLpxTMk=
+c29r+s5SgxmN7yApIB047M1ZjGD78BeXflLMX3H6oLVKYemI5KCbNeLVVT3FmKXtdc5Zse6Ks8E=
+vfRvTSKmRlcqaJDmNgYKX2k+WbguPYN8mkmbBZTE&campaign_id=3D2&instance_id=3D2314=
+&segment_id=3D3305&user_id=3Dcd5365432f48f4e05c37d5c8ce45e877&regi_id=3D380=
+478330625" class=3D"nocolor">Erdogan=E2=80=99s Election Win Gives Him Vastl=
+y Expanded Powers in Turkey</a> <h6 style=3D"color:grey;font-size:10px;font=
+-family:arial,helvetica,sans serif;line-height:12px;margin:2px 0 3px 0;padd=
+ing:0;font-weight:400">By CARLOTTA GALL</h6> <p style=3D"color:#333;font-si=
+ze:14px;line-height:20px;margin:0;font-family:georgia,times new roman,serif=
+">The vote was the first to be held since Turkey narrowly approved a refere=
+ndum last year to give the president, once a largely ceremonial role, sweep=
+ing executive authority.</p> </td> </tr> </tbody> </table> </td> </tr> </tb=
+ody> </table> </div> <!--[if (gte mso 9)|(IE)]></td></tr><![endif]--> <!--[=
+if (gte mso 9)|(IE)]><tr><td width=3D"100%" valign=3D"top" style=3D"padding=
+-bottom: 15px;"><![endif]--> <div style=3D"width:100%;max-width:501px;displ=
+ay:inline-block;vertical-align:top;background:#fff"> <table width=3D"100%" =
+cellspacing=3D"0" cellpadding=3D"0" style=3D"border-spacing:0;font-family:s=
+ans-serif;color:#333;background:#fff"> <tbody> <tr> <td align=3D"left" styl=
+e=3D"padding:0 0 20px"> <table cellspacing=3D"0" cellpadding=3D"0" style=3D=
+"max-width:501px;width:100%;padding:0;background-color:#fff"> <tbody> <tr> =
+<td align=3D"left"> <table cellspacing=3D"0" cellpadding=3D"0" border=3D"0"=
+ align=3D"right" style=3D"padding:3px 0 0 15px;width:auto!important"> <tbod=
+y> <tr> <td> <a href=3D"http://p.nytimes.com/email/re=3Flocation=3DpMJKdIFV=
+I6pghfX2HXfSzxRpdoyDWYNW79a8+diLpxSpdi6RTa2q95Y5yf0hwFgApdIcgmk5HhgZBOuiEXR=
+WKM+Opjehw1UBa+5DyeQejcnh9KnlAThHjxqAhCi6s3CfIUEPGADHX3o7qDeq/4IgFcfM2jG9cA=
+uvoSK70TCMLag=3D&campaign_id=3D2&instance_id=3D2314&segment_id=3D3305&user_=
+id=3Dcd5365432f48f4e05c37d5c8ce45e877&regi_id=3D380478330625" style=3D"colo=
+r:#326891"> <img class=3D"image-view" width=3D"75" height=3D"75" border=3D"=
+0" alt=3D"Trump Calls for Depriving Immigrants Who Illegally Cross Border o=
+f Due Process Rights" src=3D"https://static01.nyt.com/images/2018/06/25/us/=
+politics/25trump2_dc/25trump2_dc-thumbStandard.jpg"> </a> </td> </tr> </tbo=
+dy> </table> <a style=3D"margin:0;color:#004276;text-decoration:none;font-f=
+amily:georgia,serif;font-size:16px;line-height:20px;font-weight:700" href=
+=3D"http://p.nytimes.com/email/re=3Flocation=3DpMJKdIFVI6pghfX2HXfSzxRpdoyD=
+WYNW79a8+diLpxSpdi6RTa2q95Y5yf0hwFgApdIcgmk5HhgZBOuiEXRWKM+Opjehw1UBa+5DyeQ=
+ejcnh9KnlAThHjxqAhCi6s3CfIUEPGADHX3o7qDeq/4IgFcfM2jG9cAuvoSK70TCMLag=3D&cam=
+paign_id=3D2&instance_id=3D2314&segment_id=3D3305&user_id=3Dcd5365432f48f4e=
+05c37d5c8ce45e877&regi_id=3D380478330625" class=3D"nocolor">Trump Calls for=
+ Depriving Immigrants Who Illegally Cross Border of Due Process Rights</a> =
+<h6 style=3D"color:grey;font-size:10px;font-family:arial,helvetica,sans ser=
+if;line-height:12px;margin:2px 0 3px 0;padding:0;font-weight:400">By KATIE =
+ROGERS and SHERYL GAY STOLBERG</h6> <p style=3D"color:#333;font-size:14px;l=
+ine-height:20px;margin:0;font-family:georgia,times new roman,serif">The pre=
+sident said such immigrants should be sent back immediately without an appe=
+arance before a judge.</p> </td> </tr> </tbody> </table> </td> </tr> </tbod=
+y> </table> </div> <!--[if (gte mso 9)|(IE)]></td></tr><![endif]--> <!--[if=
+ (gte mso 9)|(IE)]><tr><td width=3D"100%" valign=3D"top" style=3D"padding-b=
+ottom: 15px;"><![endif]--> <div style=3D"width:100%;max-width:501px;display=
+:inline-block;vertical-align:top;background:#fff"> <table width=3D"100%" ce=
+llspacing=3D"0" cellpadding=3D"0" style=3D"border-spacing:0;font-family:san=
+s-serif;color:#333;background:#fff"> <tbody> <tr> <td align=3D"left" style=
+=3D"padding:0 0 20px"> <table cellspacing=3D"0" cellpadding=3D"0" style=3D"=
+max-width:501px;width:100%;padding:0;background-color:#fff"> <tbody> <tr> <=
+td align=3D"left"> <table cellspacing=3D"0" cellpadding=3D"0" border=3D"0" =
+align=3D"right" style=3D"padding:3px 0 0 15px;width:auto!important"> <tbody=
+> <tr> <td> <a href=3D"http://p.nytimes.com/email/re=3Flocation=3DpMJKdIFVI=
+6pghfX2HXfSzxRpdoyDWYNW79a8+diLpxSCvzsZyGD9eOrHp93VaYEsLyPwSJzBND+rv2TPDj7x=
+n76frrT+WaFoIDxw9Aa5OXpx3M7KPZYgAP5SSSdLlQFs/XdX2LxytCvl2H/yLxKD10JzhTEwqto=
+PT+whJiRGa+Gu18XdhGz9WQ=3D=3D&campaign_id=3D2&instance_id=3D2314&segment_id=
+=3D3305&user_id=3Dcd5365432f48f4e05c37d5c8ce45e877&regi_id=3D380478330625" =
+style=3D"color:#326891"> <img class=3D"image-view" width=3D"75" height=3D"7=
+5" border=3D"0" alt=3D"How an Affair Between a Reporter and a Security Aide=
+ Has Rattled Washington Media" src=3D"https://static01.nyt.com/images/2018/=
+06/25/business/25LEAK/25LEAK-thumbStandard.jpg"> </a> </td> </tr> </tbody> =
+</table> <a style=3D"margin:0;color:#004276;text-decoration:none;font-famil=
+y:georgia,serif;font-size:16px;line-height:20px;font-weight:700" href=3D"ht=
+tp://p.nytimes.com/email/re=3Flocation=3DpMJKdIFVI6pghfX2HXfSzxRpdoyDWYNW79=
+a8+diLpxSCvzsZyGD9eOrHp93VaYEsLyPwSJzBND+rv2TPDj7xn76frrT+WaFoIDxw9Aa5OXpx3=
+M7KPZYgAP5SSSdLlQFs/XdX2LxytCvl2H/yLxKD10JzhTEwqtoPT+whJiRGa+Gu18XdhGz9WQ=
+=3D=3D&campaign_id=3D2&instance_id=3D2314&segment_id=3D3305&user_id=3Dcd536=
+5432f48f4e05c37d5c8ce45e877&regi_id=3D380478330625" class=3D"nocolor">How a=
+n Affair Between a Reporter and a Security Aide Has Rattled Washington Medi=
+a</a> <h6 style=3D"color:grey;font-size:10px;font-family:arial,helvetica,sa=
+ns serif;line-height:12px;margin:2px 0 3px 0;padding:0;font-weight:400">By =
+MICHAEL M. GRYNBAUM, SCOTT SHANE and EMILY FLITTER</h6> <p style=3D"color:#=
+333;font-size:14px;line-height:20px;margin:0;font-family:georgia,times new =
+roman,serif">The seizure of email records from a Times reporter alarmed Fir=
+st Amendment groups. Her relationship with an intelligence aide set off an =
+ethical debate.</p> </td> </tr> </tbody> </table> </td> </tr> </tbody> </ta=
+ble> </div> <!--[if (gte mso 9)|(IE)]></td></tr><![endif]--> <!--[if (gte m=
+so 9)|(IE)]></table><![endif]--> <div style=3D"text-align:right;margin:10px=
+ 1px 0 0"> <span style=3D"color:#666;font-size:11px;font-family:arial,helve=
+tica,sans-serif">For more top news, go to <a href=3D"http://p.nytimes.com/e=
+mail/re=3Flocation=3DpMJKdIFVI6pghfX2HXfSzxRpdoyDWYNWGoCEKLqzcJ8hQQ8YAMdfej=
+uoN6r/giAVx8zaMb1wC6+hIrvRMIwtqA=3D=3D&campaign_id=3D2&instance_id=3D2314&s=
+egment_id=3D3305&user_id=3Dcd5365432f48f4e05c37d5c8ce45e877&regi_id=3D38047=
+833" style=3D"font-weight:700;color:#004276;text-decoration:none" target=3D=
+"_blank">NYTimes.com &raquo;<a></a></span> </div> </td> </tr> </tbody> </ta=
+ble> <!--[if (gte mso 9)|(IE)]></td></tr></table><![endif]--> <!--[if (gte =
+mso 9)|(IE)]><table width=3D"501" align=3D"center"><tr><td style=3D"padding=
+: 20px 0 0;"><![endif]--> <table class=3D"advt-padding" align=3D"center" ce=
+llspacing=3D"0" cellpadding=3D"0" style=3D"border-spacing:0;color:#000001;f=
+ont-family:georgia,times new roman,sans-serif;margin:20px auto 0;width:100%=
+;max-width:501px;padding:0 10px 15px"> <tbody> <tr> <td align=3D"center" st=
+yle=3D"width:100%;color:#999;text-transform:uppercase;font-size:10px;line-h=
+eight:12x;font-family:arial,helvetica,sans-serif;padding:15px 0 6px;border-=
+top:1px solid #cbcbcb">ADVERTISEMENT</td> </tr> <tr> <td align=3D"center"> =
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" ><tr><td colspan=3D=
+"2"><a style=3D"display: block; width: 300px; height:250px;" href=3D"https:=
+//liveintent.newyorktimesinfo.com/click=3Fs=3D62653&layout=3Dnewsletter&sz=
+=3D300x250&m=3Dcd5365432f48f4e05c37d5c8ce45e877&p=3DTH_20180625&li=3DTH" re=
+l=3D"nofollow"><img src=3D"https://liveintent.newyorktimesinfo.com/imp=3Fs=
+=3D62653&layout=3Dnewsletter&sz=3D300x250&m=3Dcd5365432f48f4e05c37d5c8ce45e=
+877&p=3DTH_20180625&li=3DTH" border=3D"0" width=3D"300" height=3D"250"/></a=
+></td></tr><tr style=3D"display:block; height:1px; line-height:1px;"><td><i=
+mg src=3D"https://liveintent.newyorktimesinfo.com/imp=3Fs=3D62655&layout=3D=
+newsletter&sz=3D1x1&m=3Dcd5365432f48f4e05c37d5c8ce45e877&p=3DTH_20180625&li=
+=3DTH" height=3D"1" width=3D"10" /></td><td><img src=3D"https://liveintent.=
+newyorktimesinfo.com/imp=3Fs=3D62654&layout=3Dnewsletter&sz=3D1x1&m=3Dcd536=
+5432f48f4e05c37d5c8ce45e877&p=3DTH_20180625&li=3DTH" height=3D"1" width=3D"=
+10" /></td></tr><tr><td align=3D"left"><a href=3D"https://liveintent.newyor=
+ktimesinfo.com/click=3Fs=3D2297&layout=3Dnewsletter&sz=3D116x15&m=3Dcd53654=
+32f48f4e05c37d5c8ce45e877&p=3DTH_20180625&li=3DTH" rel=3D"nofollow"><img sr=
+c=3D"https://liveintent.newyorktimesinfo.com/imp=3Fs=3D2297&layout=3Dnewsle=
+tter&sz=3D116x15&m=3Dcd5365432f48f4e05c37d5c8ce45e877&p=3DTH_20180625&li=3D=
+TH" border=3D"0"/></a></td><td align=3D"right"><a href=3D"https://liveinten=
+t.newyorktimesinfo.com/click=3Fs=3D96149&layout=3Dnewsletter&sz=3D69x15&m=
+=3Dcd5365432f48f4e05c37d5c8ce45e877&p=3DTH_20180625&li=3DTH" rel=3D"nofollo=
+w"><img src=3D"https://liveintent.newyorktimesinfo.com/imp=3Fs=3D96149&layo=
+ut=3Dnewsletter&sz=3D69x15&m=3Dcd5365432f48f4e05c37d5c8ce45e877&p=3DTH_2018=
+0625&li=3DTH" border=3D"0"/></a></td></tr></table> </td> </tr> </tbody> </t=
+able> <!--[if (gte mso 9)|(IE)]></td></tr></table><![endif]-->   <!--[if (g=
+te mso 9)|(IE)]><table width=3D"501" align=3D"center"><tr><td style=3D"padd=
+ing: 20px 0 0;"><![endif]--> <table class=3D"hybrid-padding-zero module-pad=
+ding-zero" align=3D"center" cellspacing=3D"0" cellpadding=3D"0" style=3D"bo=
+rder-spacing:0;font-family:sans-serif;color:#333;margin:20px auto 0;width:1=
+00%;max-width:501px;padding:0 10px"> <tbody> <tr> <td style=3D"padding:20px=
+ 0 0;text-align:center;font-size:0;border-top:1px solid #cbcbcb"> <!--[if (=
+gte mso 9)|(IE)]><table width=3D"100%"><![endif]--> <!--[if (gte mso 9)|(IE=
+)]><tr><td width=3D"100%" valign=3D"top"><![endif]--> <div style=3D"width:1=
+00%;max-width:501px;display:inline-block;vertical-align:top;background:#fff=
+"> <table width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" style=3D"borde=
+r-spacing:0;font-family:sans-serif;color:#333;padding:0;background:#fff"> <=
+tbody> <tr> <td align=3D"left" style=3D"padding:0"> <table cellspacing=3D"0=
+" cellpadding=3D"0" style=3D"max-width:501px;width:100%;padding:0;backgroun=
+d-color:#fff"> <tbody> <tr> <td align=3D"left"> <table cellspacing=3D"0" ce=
+llpadding=3D"0" border=3D"0" align=3D"right" style=3D"margin:0 0 0 15px;wid=
+th:auto!important"> <tbody> <tr> <td> <a href=3D"http://p.nytimes.com/email=
+/re=3Flocation=3D4z5Q7LhI+KVBjmEgFdYACIRluBsZfcDaRjyYJL3A/v4H9HfG9sCOaL/JJ0=
+/W8P5xgEklWYKYfRoSY/LTvQLYwvrFQWDUFpCwX27rCqF/tgIhQQ8YAMdfejuoN6r/giAVx8zaM=
+b1wC6+hIrvRMIwtqA=3D=3D&campaign_id=3D2&instance_id=3D2314&segment_id=3D330=
+5&user_id=3Dcd5365432f48f4e05c37d5c8ce45e877&regi_id=3D38047833h_180625" st=
+yle=3D"color:#326891"> <img class=3D"image-view" width=3D"75" height=3D"75"=
+ border=3D"0" alt=3D"Get the Morning Briefing in Your Inbox" src=3D"https:/=
+/static01.nyt.com/images/2017/05/25/us/25usbriefing/25usbriefing-thumbStand=
+ard-v2.jpg"> </a> </td> </tr> </tbody> </table> <a style=3D"margin:0;color:=
+#004276;text-decoration:none;font-family:georgia,serif;font-size:16px;line-=
+height:20px;font-weight:700" href=3D"http://p.nytimes.com/email/re=3Flocati=
+on=3D4z5Q7LhI+KVBjmEgFdYACIRluBsZfcDaRjyYJL3A/v4H9HfG9sCOaL/JJ0/W8P5xgEklWY=
+KYfRoSY/LTvQLYwvrFQWDUFpCwX27rCqF/tgIhQQ8YAMdfejuoN6r/giAVx8zaMb1wC6+hIrvRM=
+IwtqA=3D=3D&campaign_id=3D2&instance_id=3D2314&segment_id=3D3305&user_id=3D=
+cd5365432f48f4e05c37d5c8ce45e877&regi_id=3D38047833h_180625" class=3D"nocol=
+or" name=3D"1">Get the Morning Briefing in Your Inbox</a> <p style=3D"color=
+:#333;font-size:14px;line-height:20px;margin:0;font-family:georgia,times ne=
+w roman,sans-serif">What you need to know to start your day, delivered Mond=
+ay through Friday.<br><a style=3D"color:#004276;text-decoration:none" href=
+=3D"http://p.nytimes.com/email/re=3Flocation=3D4z5Q7LhI+KVBjmEgFdYACIRluBsZ=
+fcDaRjyYJL3A/v4H9HfG9sCOaL/JJ0/W8P5xgEklWYKYfRoSY/LTvQLYwvrFQWDUFpCwX27rCqF=
+/tgIhQQ8YAMdfejuoN6r/giAVx8zaMb1wC6+hIrvRMIwtqA=3D=3D&campaign_id=3D2&insta=
+nce_id=3D2314&segment_id=3D3305&user_id=3Dcd5365432f48f4e05c37d5c8ce45e877&=
+regi_id=3D38047833h_180625"><strong>Sign up &raquo;</strong></a> </p> </td>=
+ </tr> </tbody> </table> </td> </tr> </tbody> </table> </div> <!--[if (gte =
+mso 9)|(IE)]></td></tr></table><![endif]--> </td> </tr> </tbody> </table> <=
+!--[if (gte mso 9)|(IE)]></td></tr></table><![endif]-->   <!--[if (gte mso =
+9)|(IE)]><table width=3D"501" align=3D"center"><tr><td style=3D"padding: 20=
+px 0 0;"><![endif]--> <table class=3D"hybrid-padding-zero module-padding-ze=
+ro" align=3D"center" cellspacing=3D"0" cellpadding=3D"0" style=3D"border-sp=
+acing:0;font-family:sans-serif;color:#333;margin:20px auto 0;width:100%;max=
+-width:501px;padding:0 10px"> <tbody> <tr> <td style=3D"padding:0;text-alig=
+n:center;font-size:0;border-top:1px solid #cbcbcb"> <!--[if (gte mso 9)|(IE=
+)]><table width=3D"100%"><![endif]--> <!--[if (gte mso 9)|(IE)]><tr><td wid=
+th=3D"100%" valign=3D"top"><![endif]--> <div style=3D"width:100%;max-width:=
+501px;display:inline-block;vertical-align:top"> <table align=3D"left" width=
+=3D"100%" cellspacing=3D"0" cellpadding=3D"0" style=3D"border-spacing:0;fon=
+t-family:sans-serif;color:#333;padding:0;background:#fff"> <tbody> <tr> <td=
+ style=3D"padding:15px 0 0;text-align:left;font-family:arial,helvetica,sans=
+-serif;font-weight:700" colspan=3D"1"> <div style=3D"margin:0 0 14px 0;font=
+-size:18px;font-family:arial,helvetica,sans-serif;font-weight:700;line-heig=
+ht:22px;color:#000"> <a name=3D"2"></a> <h6 style=3D"color:#000;font-size:1=
+8px;line-height:22px;margin:0">Editors' Picks</h6> </div> </td> </tr> </tbo=
+dy> </table> </div> <!--[if (gte mso 9)|(IE)]></td></tr><![endif]--> <!--[i=
+f (gte mso 9)|(IE)]><tr><td width=3D"100%" valign=3D"top" style=3D"padding-=
+bottom: 15px;"><![endif]--> <div style=3D"width:100%;max-width:501px;displa=
+y:inline-block;vertical-align:top;background:#fff"> <table width=3D"100%" c=
+ellspacing=3D"0" cellpadding=3D"0" style=3D"border-spacing:0;font-family:sa=
+ns-serif;color:#333;background:#fff"> <tbody> <tr> <td align=3D"left" style=
+=3D"padding:0 0 20px"> <table cellspacing=3D"0" cellpadding=3D"0" style=3D"=
+max-width:501px;width:100%;padding:0;background-color:#fff"> <tbody> <tr> <=
+td align=3D"left"> <table cellspacing=3D"0" cellpadding=3D"0" border=3D"0" =
+align=3D"right" style=3D"padding:3px 0 0 15px;width:auto!important"> <tbody=
+> <tr> <td> <a href=3D"http://p.nytimes.com/email/re=3Flocation=3DpMJKdIFVI=
+6pghfX2HXfSzxRpdoyDWYNW79a8+diLpxTMkc29r+s5Spgvba9OjtATwaZ8VtkXzsfMSRExxrnq=
+J/32OgB9a1JG80D3xDZoD9UYQb+z/4Z3VpGmY2liCPrKiiduLVcoyrQ=3D&campaign_id=3D2&=
+instance_id=3D2314&segment_id=3D3305&user_id=3Dcd5365432f48f4e05c37d5c8ce45=
+e877&regi_id=3D380478330625" style=3D"color:#326891"> <img class=3D"image-v=
+iew" width=3D"75" height=3D"75" border=3D"0" alt=3D"In a High-Stakes Enviro=
+nmental Whodunit, Many Clues Point to China" src=3D"https://static01.nyt.co=
+m/images/2018/06/25/world/00cli-china-ozone-1/00cli-china-ozone-1-thumbStan=
+dard.jpg"> </a> </td> </tr> </tbody> </table> <h4 style=3D"color:#000;text-=
+transform:uppercase;font-family:arial,helvetica,sans serif;font-size:10px;l=
+ine-height:12px;margin:0 0 3px 0;padding:0;font-weight:700">World </h4> <a =
+style=3D"margin:0;color:#004276;text-decoration:none;font-family:georgia,se=
+rif;font-size:16px;line-height:20px;font-weight:700" href=3D"http://p.nytim=
+es.com/email/re=3Flocation=3DpMJKdIFVI6pghfX2HXfSzxRpdoyDWYNW79a8+diLpxTMkc=
+29r+s5Spgvba9OjtATwaZ8VtkXzsfMSRExxrnqJ/32OgB9a1JG80D3xDZoD9UYQb+z/4Z3VpGmY=
+2liCPrKiiduLVcoyrQ=3D&campaign_id=3D2&instance_id=3D2314&segment_id=3D3305&=
+user_id=3Dcd5365432f48f4e05c37d5c8ce45e877&regi_id=3D380478330625" class=3D=
+"nocolor">In a High-Stakes Environmental Whodunit, Many Clues Point to Chin=
+a</a> <h6 style=3D"color:grey;font-size:10px;font-family:arial,helvetica,sa=
+ns serif;line-height:12px;margin:2px 0 3px 0;padding:0;font-weight:400">By =
+CHRIS BUCKLEY and HENRY FOUNTAIN</h6> <p style=3D"color:#333;font-size:14px=
+;line-height:20px;margin:0;font-family:georgia,times new roman,serif">Scien=
+tists say new production of a banned industrial chemical is damaging the oz=
+one layer. An investigation by The Times and an independent environmental g=
+roup lead to factories in China.</p> </td> </tr> </tbody> </table> </td> </=
+tr> </tbody> </table> </div> <!--[if (gte mso 9)|(IE)]></td></tr><![endif]-=
+-> <!--[if (gte mso 9)|(IE)]><tr><td width=3D"100%" valign=3D"top" style=3D=
+"padding-bottom: 15px;"><![endif]--> <div style=3D"width:100%;max-width:501=
+px;display:inline-block;vertical-align:top;background:#fff"> <table width=
+=3D"100%" cellspacing=3D"0" cellpadding=3D"0" style=3D"border-spacing:0;fon=
+t-family:sans-serif;color:#333;background:#fff"> <tbody> <tr> <td align=3D"=
+left" style=3D"padding:0 0 20px"> <table cellspacing=3D"0" cellpadding=3D"0=
+" style=3D"max-width:501px;width:100%;padding:0;background-color:#fff"> <tb=
+ody> <tr> <td align=3D"left"> <table cellspacing=3D"0" cellpadding=3D"0" bo=
+rder=3D"0" align=3D"right" style=3D"padding:3px 0 0 15px;width:auto!importa=
+nt"> <tbody> <tr> <td> <a href=3D"http://p.nytimes.com/email/re=3Flocation=
+=3DpMJKdIFVI6pghfX2HXfSzxRpdoyDWYNW79a8+diLpxSZaaskRtv1zTH8CviIlxiC3k5gR7aK=
+lAe4ykl2Y/TeB1+ABDSjRpa7Y2oOgEEq9100e3+k2/iSNdnr6DHwvnH1zgqwDJEhs+2Jr1wVte2=
+01bBZxV581mEU3ARlMpJTLsQ=3D&campaign_id=3D2&instance_id=3D2314&segment_id=
+=3D3305&user_id=3Dcd5365432f48f4e05c37d5c8ce45e877&regi_id=3D380478330625" =
+style=3D"color:#326891"> <img class=3D"image-view" width=3D"75" height=3D"7=
+5" border=3D"0" alt=3D"Why We Are Leaving the G.O.P." src=3D"https://static=
+01.nyt.com/images/2018/06/24/opinion/24bevanWeb/24bevanWeb-thumbStandard-v2=
+.jpg"> </a> </td> </tr> </tbody> </table> <h4 style=3D"color:#000;text-tra=
+nsform:uppercase;font-family:arial,helvetica,sans serif;font-size:10px;line=
+-height:12px;margin:0 0 3px 0;padding:0;font-weight:700">Opinion </h4> <a s=
+tyle=3D"margin:0;color:#004276;text-decoration:none;font-family:georgia,ser=
+if;font-size:16px;line-height:20px;font-weight:700" href=3D"http://p.nytime=
+s.com/email/re=3Flocation=3DpMJKdIFVI6pghfX2HXfSzxRpdoyDWYNW79a8+diLpxSZaas=
+kRtv1zTH8CviIlxiC3k5gR7aKlAe4ykl2Y/TeB1+ABDSjRpa7Y2oOgEEq9100e3+k2/iSNdnr6D=
+HwvnH1zgqwDJEhs+2Jr1wVte201bBZxV581mEU3ARlMpJTLsQ=3D&campaign_id=3D2&instan=
+ce_id=3D2314&segment_id=3D3305&user_id=3Dcd5365432f48f4e05c37d5c8ce45e877&r=
+egi_id=3D380478330625" class=3D"nocolor">Why We Are Leaving the G.O.P.</a> =
+<h6 style=3D"color:grey;font-size:10px;font-family:arial,helvetica,sans ser=
+if;line-height:12px;margin:2px 0 3px 0;padding:0;font-weight:400">By SUSAN =
+BEVAN and SUSAN CULLMAN</h6> <p style=3D"color:#333;font-size:14px;line-hei=
+ght:20px;margin:0;font-family:georgia,times new roman,serif">The Republican=
+ Party once opposed government intervention in the bedroom and the doctor=
+=E2=80=99s office. No longer.</p> </td> </tr> </tbody> </table> </td> </tr>=
+ </tbody> </table> </div> <!--[if (gte mso 9)|(IE)]></td></tr><![endif]--> =
+<!--[if (gte mso 9)|(IE)]></table><![endif]--> </td> </tr> </tbody> </table=
+> <!--[if (gte mso 9)|(IE)]></td></tr></table><![endif]-->   <!--[if (gte m=
+so 9)|(IE)]><table width=3D"501" align=3D"center"><tr><td style=3D"padding:=
+ 20px 0 0;"><![endif]--> <table class=3D"hybrid-padding-zero module-padding=
+-zero" align=3D"center" cellspacing=3D"0" cellpadding=3D"0" style=3D"border=
+-spacing:0;font-family:sans-serif;color:#333;margin:20px auto 0;width:100%;=
+max-width:501px;padding:0 10px"> <tbody> <tr> <td style=3D"padding:20px 0 0=
+;text-align:center;font-size:0;border-top:1px solid #cbcbcb"> <!--[if (gte =
+mso 9)|(IE)]><table width=3D"100%"><![endif]--> <!--[if (gte mso 9)|(IE)]><=
+tr><td width=3D"100%" valign=3D"top"><![endif]--> <div style=3D"width:100%;=
+max-width:501px;display:inline-block;vertical-align:top;background:#fff"> <=
+table width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" style=3D"border-sp=
+acing:0;font-family:sans-serif;color:#333;padding:0;background:#fff"> <tbod=
+y> <tr> <td align=3D"left" style=3D"padding:0"> <table cellspacing=3D"0" ce=
+llpadding=3D"0" style=3D"max-width:501px;width:100%;padding:0;background-co=
+lor:#fff"> <tbody> <tr> <td align=3D"center"> <a name=3D"3"></a> <h4 style=
+=3D"color:#000;font-family:arial,helvetica,sans-serif;font-size:11px;font-w=
+eight:700;margin:0">QUOTATION OF THE DAY</h4> <p style=3D"color:#909090;fon=
+t-family:georgia,serif;font-size:20px;font-style:italic;line-height:26px;ma=
+rgin:10px 0">"If export markets get shut off, I could see us getting to the=
+ point where we=E2=80=99re dumping our milk in the fields. It=E2=80=99ll be=
+ a big ripple effect through the state."</p> <p style=3D"color:#333;font-fa=
+mily:georgia,serif;font-size:12px;margin:0"> <a href=3D"http://p.nytimes.co=
+m/email/re=3Flocation=3DpMJKdIFVI6pghfX2HXfSzxRpdoyDWYNW79a8+diLpxSCvzsZyGD=
+9eO52gOhGTACRP5dwg2KiGWqd/ompVlQqo8N+a/NYkyAmgYRX48SzBpAXUTZDqAPqS1ebW8kV5i=
+IH3gmPKkpNAoj0pIc8Z/y1WmL0L1Z8J5fv&campaign_id=3D2&instance_id=3D2314&segme=
+nt_id=3D3305&user_id=3Dcd5365432f48f4e05c37d5c8ce45e877&regi_id=3D380478330=
+625" style=3D"color:#004276;font-family:arial,helvetica,sans-serif;font-siz=
+e:11px;font-weight:700;text-decoration:none">JEFF SCHWAGER</a>, president o=
+f the Sartori Company, a longtime cheese producer in Wisconsin.</p> </td> <=
+/tr> </tbody> </table> </td> </tr> </tbody> </table> </div> <!--[if (gte ms=
+o 9)|(IE)]></td></tr></table><![endif]--> </td> </tr> </tbody> </table> <!-=
+-[if (gte mso 9)|(IE)]></td></tr></table><![endif]-->   <!--[if (gte mso 9)=
+|(IE)]><table width=3D"501" align=3D"center"><tr><td style=3D"padding: 20px=
+ 0 0;"><![endif]--> <table class=3D"hybrid-padding-zero module-padding-zero=
+" align=3D"center" cellspacing=3D"0" cellpadding=3D"0" style=3D"border-spac=
+ing:0;font-family:sans-serif;color:#333;margin:20px auto 0;width:100%;max-w=
+idth:501px;padding:0 10px"> <tbody> <tr> <td style=3D"padding:0;text-align:=
+center;font-size:0;border-top:1px solid #cbcbcb"> <!--[if (gte mso 9)|(IE)]=
+><table width=3D"100%"><![endif]--> <!--[if (gte mso 9)|(IE)]><tr><td width=
+=3D"100%" valign=3D"top"><![endif]--> <div style=3D"width:100%;max-width:50=
+1px;display:inline-block;vertical-align:top"> <table align=3D"left" width=
+=3D"100%" cellspacing=3D"0" cellpadding=3D"0" style=3D"border-spacing:0;fon=
+t-family:sans-serif;color:#333;padding:0;background:#fff"> <tbody> <tr> <td=
+ style=3D"padding:15px 0 0;text-align:left;font-family:arial,helvetica,sans=
+-serif;font-weight:700" colspan=3D"1"> <div style=3D"margin:0 0 14px 0;font=
+-size:18px;font-family:arial,helvetica,sans-serif;font-weight:700;line-heig=
+ht:22px;color:#000"> <a name=3D"4"></a> <h6 style=3D"color:#000;font-size:1=
+8px;line-height:22px;margin:0">World</h6> </div> </td> </tr> </tbody> </tab=
+le> </div> <!--[if (gte mso 9)|(IE)]></td></tr><![endif]--> <!--[if (gte ms=
+o 9)|(IE)]><tr><td width=3D"100%" valign=3D"top" style=3D"padding-bottom: 1=
+5px;"><![endif]--> <div style=3D"width:100%;max-width:501px;display:inline-=
+block;vertical-align:top;background:#fff"> <table width=3D"100%" cellspacin=
+g=3D"0" cellpadding=3D"0" style=3D"border-spacing:0;font-family:sans-serif;=
+color:#333;background:#fff"> <tbody> <tr> <td align=3D"left" style=3D"paddi=
+ng:0 0 20px"> <table cellspacing=3D"0" cellpadding=3D"0" style=3D"max-width=
+:501px;width:100%;padding:0;background-color:#fff"> <tbody> <tr> <td align=
+=3D"left"> <table cellspacing=3D"0" cellpadding=3D"0" border=3D"0" align=3D=
+"right" style=3D"padding:3px 0 0 15px;width:auto!important"> <tbody> <tr> <=
+td> <a href=3D"http://p.nytimes.com/email/re=3Flocation=3DpMJKdIFVI6pghfX2H=
+XfSzxRpdoyDWYNW79a8+diLpxTMkc29r+s5SvTpf3K6+9f0TP6I2znd4mE2GzoeyZ3qWKxlRmZx=
+PuArU48V13TLziojMTIRW8nAW8xWIPOYU0HYqmxpH5U8Wo0ofumKVUbCXEygjnpXMQX7DcYCsw3=
+LL/M=3D&campaign_id=3D2&instance_id=3D2314&segment_id=3D3305&user_id=3Dcd53=
+65432f48f4e05c37d5c8ce45e877&regi_id=3D380478330625" style=3D"color:#326891=
+"> <img class=3D"image-view" width=3D"75" height=3D"75" border=3D"0" alt=3D=
+"As Israel Pushes to Build, Bedouin Homes and School Face Demolition" src=
+=3D"https://static01.nyt.com/images/2018/06/25/world/24khan1/24khan1-thumbS=
+tandard.jpg"> </a> </td> </tr> </tbody> </table> <a style=3D"margin:0;color=
+:#004276;text-decoration:none;font-family:georgia,serif;font-size:16px;line=
+-height:20px;font-weight:700" href=3D"http://p.nytimes.com/email/re=3Flocat=
+ion=3DpMJKdIFVI6pghfX2HXfSzxRpdoyDWYNW79a8+diLpxTMkc29r+s5SvTpf3K6+9f0TP6I2=
+znd4mE2GzoeyZ3qWKxlRmZxPuArU48V13TLziojMTIRW8nAW8xWIPOYU0HYqmxpH5U8Wo0ofumK=
+VUbCXEygjnpXMQX7DcYCsw3LL/M=3D&campaign_id=3D2&instance_id=3D2314&segment_i=
+d=3D3305&user_id=3Dcd5365432f48f4e05c37d5c8ce45e877&regi_id=3D380478330625"=
+ class=3D"nocolor">As Israel Pushes to Build, Bedouin Homes and School Face=
+ Demolition</a> <h6 style=3D"color:grey;font-size:10px;font-family:arial,he=
+lvetica,sans serif;line-height:12px;margin:2px 0 3px 0;padding:0;font-weigh=
+t:400">By DAVID M. HALBFINGER and RAMI NAZZAL</h6> <p style=3D"color:#333;f=
+ont-size:14px;line-height:20px;margin:0;font-family:georgia,times new roman=
+,serif">Israel has long wanted to clear the West Bank of Bedouin herders ne=
+ar Jerusalem to make room for Jewish settlements. It could happen any day.<=
+/p> </td> </tr> </tbody> </table> </td> </tr> </tbody> </table> </div> <!--=
+[if (gte mso 9)|(IE)]></td></tr><![endif]--> <!--[if (gte mso 9)|(IE)]><tr>=
+<td width=3D"100%" valign=3D"top" style=3D"padding-bottom: 15px;"><![endif]=
+--> <div style=3D"width:100%;max-width:501px;display:inline-block;vertical-=
+align:top;background:#fff"> <table width=3D"100%" cellspacing=3D"0" cellpad=
+ding=3D"0" style=3D"border-spacing:0;font-family:sans-serif;color:#333;back=
+ground:#fff"> <tbody> <tr> <td align=3D"left" style=3D"padding:0 0 20px"> <=
+table cellspacing=3D"0" cellpadding=3D"0" style=3D"max-width:501px;width:10=
+0%;padding:0;background-color:#fff"> <tbody> <tr> <td align=3D"left"> <tabl=
+e cellspacing=3D"0" cellpadding=3D"0" border=3D"0" align=3D"right" style=3D=
+"padding:3px 0 0 15px;width:auto!important"> <tbody> <tr> <td> <a href=3D"h=
+ttp://p.nytimes.com/email/re=3Flocation=3DpMJKdIFVI6pghfX2HXfSzxRpdoyDWYNW7=
+9a8+diLpxTMkc29r+s5SjqkAVxrpvz36slxCTjuCLG6MAX62JIF+aJI+LH9D84+oBmEgfiah4LP=
+u/Ej+SRRj/32OgB9a1JG80D3xDZoD9UYQb+z/4Z3VpGmY2liCPrKiiduLVcoyrQ=3D&campaign=
+_id=3D2&instance_id=3D2314&segment_id=3D3305&user_id=3Dcd5365432f48f4e05c37=
+d5c8ce45e877&regi_id=3D380478330625" style=3D"color:#326891"> <img class=3D=
+"image-view" width=3D"75" height=3D"75" border=3D"0" alt=3D"Mexico=E2=80=99=
+s Hardball Politics Get Even Harder as PRI Fights to Hold Onto Power" src=
+=3D"https://static01.nyt.com/images/2018/06/25/world/xxmexico-cambridge1/xx=
+mexico-cambridge1-thumbStandard.jpg"> </a> </td> </tr> </tbody> </table> <a=
+ style=3D"margin:0;color:#004276;text-decoration:none;font-family:georgia,s=
+erif;font-size:16px;line-height:20px;font-weight:700" href=3D"http://p.nyti=
+mes.com/email/re=3Flocation=3DpMJKdIFVI6pghfX2HXfSzxRpdoyDWYNW79a8+diLpxTMk=
+c29r+s5SjqkAVxrpvz36slxCTjuCLG6MAX62JIF+aJI+LH9D84+oBmEgfiah4LPu/Ej+SRRj/32=
+OgB9a1JG80D3xDZoD9UYQb+z/4Z3VpGmY2liCPrKiiduLVcoyrQ=3D&campaign_id=3D2&inst=
+ance_id=3D2314&segment_id=3D3305&user_id=3Dcd5365432f48f4e05c37d5c8ce45e877=
+&regi_id=3D380478330625" class=3D"nocolor">Mexico=E2=80=99s Hardball Politi=
+cs Get Even Harder as PRI Fights to Hold Onto Power</a> <h6 style=3D"color:=
+grey;font-size:10px;font-family:arial,helvetica,sans serif;line-height:12px=
+;margin:2px 0 3px 0;padding:0;font-weight:400">By AZAM AHMED and DANNY HAKI=
+M</h6> <p style=3D"color:#333;font-size:14px;line-height:20px;margin:0;font=
+-family:georgia,times new roman,serif">Faced with dismal polls, the ruling =
+party is putting the levers of government to its ends. It also considered u=
+sing the Trump campaign consultant Cambridge Analytica.</p> </td> </tr> </t=
+body> </table> </td> </tr> </tbody> </table> </div> <!--[if (gte mso 9)|(IE=
+)]></td></tr><![endif]--> <!--[if (gte mso 9)|(IE)]><tr><td width=3D"100%" =
+valign=3D"top" style=3D"padding-bottom: 15px;"><![endif]--> <div style=3D"w=
+idth:100%;max-width:501px;display:inline-block;vertical-align:top;backgroun=
+d:#fff"> <table width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" style=3D=
+"border-spacing:0;font-family:sans-serif;color:#333;background:#fff"> <tbod=
+y> <tr> <td align=3D"left" style=3D"padding:0 0 20px"> <table cellspacing=
+=3D"0" cellpadding=3D"0" style=3D"max-width:501px;width:100%;padding:0;back=
+ground-color:#fff"> <tbody> <tr> <td align=3D"left"> <a style=3D"margin:0;c=
+olor:#004276;text-decoration:none;font-family:georgia,serif;font-size:16px;=
+line-height:20px;font-weight:700" href=3D"http://p.nytimes.com/email/re=3Fl=
+ocation=3DpMJKdIFVI6pghfX2HXfSzxRpdoyDWYNW79a8+diLpxTMkc29r+s5So6JwzaOu0TXk=
+HVSDnTS83OMtkE8NYtYJbesqbexvnZ5/fY6AH1rUkbzQPfENmgP1RhBv7P/hndWkaZjaWII+sqK=
+J24tVyjKtA=3D=3D&campaign_id=3D2&instance_id=3D2314&segment_id=3D3305&user_=
+id=3Dcd5365432f48f4e05c37d5c8ce45e877&regi_id=3D380478330625" class=3D"noco=
+lor">Pakistan=E2=80=99s Taliban Names New Leader After U.S. Drone Strike</a=
+> <h6 style=3D"color:grey;font-size:10px;font-family:arial,helvetica,sans s=
+erif;line-height:12px;margin:2px 0 3px 0;padding:0;font-weight:400">By ZIA =
+ur-REHMAN and MARIA ABI-HABIB</h6> <p style=3D"color:#333;font-size:14px;li=
+ne-height:20px;margin:0;font-family:georgia,times new roman,serif">The new =
+Taliban leader is known for running a brutal extortion racket and promoting=
+ violence against health workers across Pakistan.</p> </td> </tr> </tbody> =
+</table> </td> </tr> </tbody> </table> </div> <!--[if (gte mso 9)|(IE)]></t=
+d></tr><![endif]--> <!--[if (gte mso 9)|(IE)]></table><![endif]--> <div sty=
+le=3D"text-align:right;margin:10px 1px 0 0"> <span style=3D"color:#666;font=
+-size:11px;font-family:arial,helvetica,sans-serif">For more world news, go =
+to <a href=3D"http://p.nytimes.com/email/re=3Flocation=3DpMJKdIFVI6pghfX2HX=
+fSzxRpdoyDWYNWWoKVJosZyHnhxQevZX3BEP13V9i8crQr5dh/8i8Sg9dCc4UxMKraD0/sISYkR=
+mvhrtfF3YRs/Vk=3D&campaign_id=3D2&instance_id=3D2314&segment_id=3D3305&user=
+_id=3Dcd5365432f48f4e05c37d5c8ce45e877&regi_id=3D38047833" style=3D"font-we=
+ight:700;color:#004276;text-decoration:none" target=3D"_blank">NYTimes.com/=
+World &raquo;<a></a></span> </div> </td> </tr> </tbody> </table> <!--[if (g=
+te mso 9)|(IE)]></td></tr></table><![endif]--> <!--[if (gte mso 9)|(IE)]><t=
+able width=3D"501" align=3D"center"><tr><td style=3D"padding: 20px 0 0;"><!=
+[endif]--> <table class=3D"advt-padding" align=3D"center" cellspacing=3D"0"=
+ cellpadding=3D"0" style=3D"border-spacing:0;color:#000001;font-family:geor=
+gia,times new roman,sans-serif;margin:20px auto 0;width:100%;max-width:501p=
+x;padding:0 10px 15px"> <tbody> <tr> <td align=3D"center" style=3D"width:10=
+0%;color:#999;text-transform:uppercase;font-size:10px;line-height:12x;font-=
+family:arial,helvetica,sans-serif;padding:15px 0 6px;border-top:1px solid #=
+cbcbcb">ADVERTISEMENT</td> </tr> <tr> <td align=3D"center"> <table border=
+=3D"0" cellpadding=3D"0" cellspacing=3D"0" ><tr><td colspan=3D"2"><a style=
+=3D"display: block; width: 300px; height:250px;" href=3D"https://liveintent=
+.newyorktimesinfo.com/click=3Fs=3D201809&layout=3Dnewsletter&sz=3D300x250&=
+m=3Dcd5365432f48f4e05c37d5c8ce45e877&p=3DTH_20180625&li=3DTH" rel=3D"nofoll=
+ow"><img src=3D"https://liveintent.newyorktimesinfo.com/imp=3Fs=3D201809&la=
+yout=3Dnewsletter&sz=3D300x250&m=3Dcd5365432f48f4e05c37d5c8ce45e877&p=3DTH_=
+20180625&li=3DTH" border=3D"0" width=3D"300" height=3D"250"/></a></td></tr>=
+<tr style=3D"display:block; height:1px; line-height:1px;"><td><img src=3D"h=
+ttps://liveintent.newyorktimesinfo.com/imp=3Fs=3D201811&layout=3Dnewsletter=
+&sz=3D1x1&m=3Dcd5365432f48f4e05c37d5c8ce45e877&p=3DTH_20180625&li=3DTH" hei=
+ght=3D"1" width=3D"10" /></td><td><img src=3D"https://liveintent.newyorktim=
+esinfo.com/imp=3Fs=3D201810&layout=3Dnewsletter&sz=3D1x1&m=3Dcd5365432f48f4=
+e05c37d5c8ce45e877&p=3DTH_20180625&li=3DTH" height=3D"1" width=3D"10" /></t=
+d></tr><tr><td align=3D"left"><a href=3D"https://liveintent.newyorktimesinf=
+o.com/click=3Fs=3D2297&layout=3Dnewsletter&sz=3D116x15&m=3Dcd5365432f48f4e0=
+5c37d5c8ce45e877&p=3DTH_20180625&li=3DTH" rel=3D"nofollow"><img src=3D"http=
+s://liveintent.newyorktimesinfo.com/imp=3Fs=3D2297&layout=3Dnewsletter&sz=
+=3D116x15&m=3Dcd5365432f48f4e05c37d5c8ce45e877&p=3DTH_20180625&li=3DTH" bor=
+der=3D"0"/></a></td><td align=3D"right"><a href=3D"https://liveintent.newyo=
+rktimesinfo.com/click=3Fs=3D96149&layout=3Dnewsletter&sz=3D69x15&m=3Dcd5365=
+432f48f4e05c37d5c8ce45e877&p=3DTH_20180625&li=3DTH" rel=3D"nofollow"><img s=
+rc=3D"https://liveintent.newyorktimesinfo.com/imp=3Fs=3D96149&layout=3Dnews=
+letter&sz=3D69x15&m=3Dcd5365432f48f4e05c37d5c8ce45e877&p=3DTH_20180625&li=
+=3DTH" border=3D"0"/></a></td></tr></table> </td> </tr> </tbody> </table> <=
+!--[if (gte mso 9)|(IE)]></td></tr></table><![endif]-->   <!--[if (gte mso =
+9)|(IE)]><table width=3D"501" align=3D"center"><tr><td style=3D"padding: 20=
+px 0 0;"><![endif]--> <table class=3D"hybrid-padding-zero module-padding-ze=
+ro" align=3D"center" cellspacing=3D"0" cellpadding=3D"0" style=3D"border-sp=
+acing:0;font-family:sans-serif;color:#333;margin:20px auto 0;width:100%;max=
+-width:501px;padding:0 10px"> <tbody> <tr> <td style=3D"padding:0;text-alig=
+n:center;font-size:0;border-top:1px solid #cbcbcb"> <!--[if (gte mso 9)|(IE=
+)]><table width=3D"100%"><![endif]--> <!--[if (gte mso 9)|(IE)]><tr><td wid=
+th=3D"100%" valign=3D"top"><![endif]--> <div style=3D"width:100%;max-width:=
+501px;display:inline-block;vertical-align:top"> <table align=3D"left" width=
+=3D"100%" cellspacing=3D"0" cellpadding=3D"0" style=3D"border-spacing:0;fon=
+t-family:sans-serif;color:#333;padding:0;background:#fff"> <tbody> <tr> <td=
+ style=3D"padding:15px 0 0;text-align:left;font-family:arial,helvetica,sans=
+-serif;font-weight:700" colspan=3D"1"> <div style=3D"margin:0 0 14px 0;font=
+-size:18px;font-family:arial,helvetica,sans-serif;font-weight:700;line-heig=
+ht:22px;color:#000"> <a name=3D"5"></a> <h6 style=3D"color:#000;font-size:1=
+8px;line-height:22px;margin:0">U.S.</h6> </div> </td> </tr> </tbody> </tabl=
+e> </div> <!--[if (gte mso 9)|(IE)]></td></tr><![endif]--> <!--[if (gte mso=
+ 9)|(IE)]><tr><td width=3D"100%" valign=3D"top" style=3D"padding-bottom: 15=
+px;"><![endif]--> <div style=3D"width:100%;max-width:501px;display:inline-b=
+lock;vertical-align:top;background:#fff"> <table width=3D"100%" cellspacing=
+=3D"0" cellpadding=3D"0" style=3D"border-spacing:0;font-family:sans-serif;c=
+olor:#333;background:#fff"> <tbody> <tr> <td align=3D"left" style=3D"paddin=
+g:0 0 20px"> <table cellspacing=3D"0" cellpadding=3D"0" style=3D"max-width:=
+501px;width:100%;padding:0;background-color:#fff"> <tbody> <tr> <td align=
+=3D"left"> <table cellspacing=3D"0" cellpadding=3D"0" border=3D"0" align=3D=
+"right" style=3D"padding:3px 0 0 15px;width:auto!important"> <tbody> <tr> <=
+td> <a href=3D"http://p.nytimes.com/email/re=3Flocation=3DpMJKdIFVI6pghfX2H=
+XfSzxRpdoyDWYNW79a8+diLpxRTjpJIHA+Ph9QDv6qvy6USCCG1pJxIkZK7ub7m+ZtqqyMxMhFb=
+ycBbzFYg85hTQdiqbGkflTxajSh+6YpVRsJcTKCOelcxBfsNxgKzDcsv8w=3D=3D&campaign_i=
+d=3D2&instance_id=3D2314&segment_id=3D3305&user_id=3Dcd5365432f48f4e05c37d5=
+c8ce45e877&regi_id=3D380478330625" style=3D"color:#326891"> <img class=3D"i=
+mage-view" width=3D"75" height=3D"75" border=3D"0" alt=3D"Torn Apart by Zer=
+o Tolerance, Kept Apart by Red Tape" src=3D"https://static01.nyt.com/images=
+/2018/06/25/us/25migrant_xp/25migrant_xp-thumbStandard.jpg"> </a> </td> </t=
+r> </tbody> </table> <a style=3D"margin:0;color:#004276;text-decoration:non=
+e;font-family:georgia,serif;font-size:16px;line-height:20px;font-weight:700=
+" href=3D"http://p.nytimes.com/email/re=3Flocation=3DpMJKdIFVI6pghfX2HXfSzx=
+RpdoyDWYNW79a8+diLpxRTjpJIHA+Ph9QDv6qvy6USCCG1pJxIkZK7ub7m+ZtqqyMxMhFbycBbz=
+FYg85hTQdiqbGkflTxajSh+6YpVRsJcTKCOelcxBfsNxgKzDcsv8w=3D=3D&campaign_id=3D2=
+&instance_id=3D2314&segment_id=3D3305&user_id=3Dcd5365432f48f4e05c37d5c8ce4=
+5e877&regi_id=3D380478330625" class=3D"nocolor">Torn Apart by Zero Toleranc=
+e, Kept Apart by Red Tape</a> <h6 style=3D"color:grey;font-size:10px;font-f=
+amily:arial,helvetica,sans serif;line-height:12px;margin:2px 0 3px 0;paddin=
+g:0;font-weight:400">By MIRIAM JORDAN</h6> <p style=3D"color:#333;font-size=
+:14px;line-height:20px;margin:0;font-family:georgia,times new roman,serif">=
+A Brazilian migrant, separated from her son at the United States border, ha=
+s been released, but has struggled with bureaucratic hurdles to recovering =
+her 9-year-old son.</p> </td> </tr> </tbody> </table> </td> </tr> </tbody> =
+</table> </div> <!--[if (gte mso 9)|(IE)]></td></tr><![endif]--> <!--[if (g=
+te mso 9)|(IE)]><tr><td width=3D"100%" valign=3D"top" style=3D"padding-bott=
+om: 15px;"><![endif]--> <div style=3D"width:100%;max-width:501px;display:in=
+line-block;vertical-align:top;background:#fff"> <table width=3D"100%" cells=
+pacing=3D"0" cellpadding=3D"0" style=3D"border-spacing:0;font-family:sans-s=
+erif;color:#333;background:#fff"> <tbody> <tr> <td align=3D"left" style=3D"=
+padding:0 0 20px"> <table cellspacing=3D"0" cellpadding=3D"0" style=3D"max-=
+width:501px;width:100%;padding:0;background-color:#fff"> <tbody> <tr> <td a=
+lign=3D"left"> <table cellspacing=3D"0" cellpadding=3D"0" border=3D"0" alig=
+n=3D"right" style=3D"padding:3px 0 0 15px;width:auto!important"> <tbody> <t=
+r> <td> <a href=3D"http://p.nytimes.com/email/re=3Flocation=3DpMJKdIFVI6pgh=
+fX2HXfSzxRpdoyDWYNW79a8+diLpxSpdi6RTa2q9+pucxSJf5Ujua+v+lPE/MoQPDGYO48HChL/=
+TxlPqpoIaWxH+TcQ95v+UkknS5UBbP13V9i8crQr5dh/8i8Sg9dCc4UxMKraD0/sISYkRmvhrtf=
+F3YRs/Vk=3D&campaign_id=3D2&instance_id=3D2314&segment_id=3D3305&user_id=3D=
+cd5365432f48f4e05c37d5c8ce45e877&regi_id=3D380478330625" style=3D"color:#32=
+6891"> <img class=3D"image-view" width=3D"75" height=3D"75" border=3D"0" al=
+t=3D"Medicare Allows More Benefits for Chronically Ill, Aiming to Improve C=
+are for Millions" src=3D"https://static01.nyt.com/images/2018/06/25/us/poli=
+tics/25dc-health-print-1/00DC-HEALTH-01-thumbStandard.jpg"> </a> </td> </tr=
+> </tbody> </table> <a style=3D"margin:0;color:#004276;text-decoration:none=
+;font-family:georgia,serif;font-size:16px;line-height:20px;font-weight:700"=
+ href=3D"http://p.nytimes.com/email/re=3Flocation=3DpMJKdIFVI6pghfX2HXfSzxR=
+pdoyDWYNW79a8+diLpxSpdi6RTa2q9+pucxSJf5Ujua+v+lPE/MoQPDGYO48HChL/TxlPqpoIaW=
+xH+TcQ95v+UkknS5UBbP13V9i8crQr5dh/8i8Sg9dCc4UxMKraD0/sISYkRmvhrtfF3YRs/Vk=
+=3D&campaign_id=3D2&instance_id=3D2314&segment_id=3D3305&user_id=3Dcd536543=
+2f48f4e05c37d5c8ce45e877&regi_id=3D380478330625" class=3D"nocolor">Medicare=
+ Allows More Benefits for Chronically Ill, Aiming to Improve Care for Milli=
+ons</a> <h6 style=3D"color:grey;font-size:10px;font-family:arial,helvetica,=
+sans serif;line-height:12px;margin:2px 0 3px 0;padding:0;font-weight:400">B=
+y ROBERT PEAR</h6> <p style=3D"color:#333;font-size:14px;line-height:20px;m=
+argin:0;font-family:georgia,times new roman,serif">Medicare health plans wi=
+ll be able to combine medical and social services under a new law that had =
+support from both parties in Congress and the Trump administration.</p> </t=
+d> </tr> </tbody> </table> </td> </tr> </tbody> </table> </div> <!--[if (gt=
+e mso 9)|(IE)]></td></tr><![endif]--> <!--[if (gte mso 9)|(IE)]><tr><td wid=
+th=3D"100%" valign=3D"top" style=3D"padding-bottom: 15px;"><![endif]--> <di=
+v style=3D"width:100%;max-width:501px;display:inline-block;vertical-align:t=
+op;background:#fff"> <table width=3D"100%" cellspacing=3D"0" cellpadding=3D=
+"0" style=3D"border-spacing:0;font-family:sans-serif;color:#333;background:=
+#fff"> <tbody> <tr> <td align=3D"left" style=3D"padding:0 0 20px"> <table c=
+ellspacing=3D"0" cellpadding=3D"0" style=3D"max-width:501px;width:100%;padd=
+ing:0;background-color:#fff"> <tbody> <tr> <td align=3D"left"> <table cells=
+pacing=3D"0" cellpadding=3D"0" border=3D"0" align=3D"right" style=3D"paddin=
+g:3px 0 0 15px;width:auto!important"> <tbody> <tr> <td> <a href=3D"http://p=
+.nytimes.com/email/re=3Flocation=3DpMJKdIFVI6pghfX2HXfSzxRpdoyDWYNW79a8+di=
+LpxR1B+49W5tJhawEAfy7IEVno9JqpsycUIf4+Tv77JMi9EspPM+EISi4IzEyEVvJwFvMViDzmF=
+NB2KpsaR+VPFqNKH7pilVGwlxMoI56VzEF+w3GArMNyy/z&campaign_id=3D2&instance_id=
+=3D2314&segment_id=3D3305&user_id=3Dcd5365432f48f4e05c37d5c8ce45e877&regi_i=
+d=3D380478330625" style=3D"color:#326891"> <img class=3D"image-view" width=
+=3D"75" height=3D"75" border=3D"0" alt=3D"Teenager Is Missing After Walking=
+ Away From Migrant Children=E2=80=99s Center in Texas" src=3D"https://stati=
+c01.nyt.com/images/2018/06/25/us/politics/25walkoff_xp/25walkoff_xp-thumbSt=
+andard.jpg"> </a> </td> </tr> </tbody> </table> <a style=3D"margin:0;color:=
+#004276;text-decoration:none;font-family:georgia,serif;font-size:16px;line-=
+height:20px;font-weight:700" href=3D"http://p.nytimes.com/email/re=3Flocati=
+on=3DpMJKdIFVI6pghfX2HXfSzxRpdoyDWYNW79a8+diLpxR1B+49W5tJhawEAfy7IEVno9Jqps=
+ycUIf4+Tv77JMi9EspPM+EISi4IzEyEVvJwFvMViDzmFNB2KpsaR+VPFqNKH7pilVGwlxMoI56V=
+zEF+w3GArMNyy/z&campaign_id=3D2&instance_id=3D2314&segment_id=3D3305&user_i=
+d=3Dcd5365432f48f4e05c37d5c8ce45e877&regi_id=3D380478330625" class=3D"nocol=
+or">Teenager Is Missing After Walking Away From Migrant Children=E2=80=99s =
+Center in Texas</a> <h6 style=3D"color:grey;font-size:10px;font-family:aria=
+l,helvetica,sans serif;line-height:12px;margin:2px 0 3px 0;padding:0;font-w=
+eight:400">By MIHIR ZAVERI and MANNY FERNANDEZ</h6> <p style=3D"color:#333;=
+font-size:14px;line-height:20px;margin:0;font-family:georgia,times new roma=
+n,serif">The operator of the center said it was not allowed to restrain chi=
+ldren if they want to leave, raising questions about who is responsible for=
+ their safety.</p> </td> </tr> </tbody> </table> </td> </tr> </tbody> </tab=
+le> </div> <!--[if (gte mso 9)|(IE)]></td></tr><![endif]--> <!--[if (gte ms=
+o 9)|(IE)]></table><![endif]--> <div style=3D"text-align:right;margin:10px =
+1px 0 0"> <span style=3D"color:#666;font-size:11px;font-family:arial,helvet=
+ica,sans-serif">For more U.S. news, go to <a href=3D"http://p.nytimes.com/e=
+mail/re=3Flocation=3DpMJKdIFVI6pghfX2HXfSzxRpdoyDWYNWWoKVJosZyHlvb06fD0zv/P=
+NA98Q2aA/VGEG/s/+Gd1aRpmNpYgj6yoonbi1XKMq0&campaign_id=3D2&instance_id=3D23=
+14&segment_id=3D3305&user_id=3Dcd5365432f48f4e05c37d5c8ce45e877&regi_id=3D3=
+8047833" style=3D"font-weight:700;color:#004276;text-decoration:none" targe=
+t=3D"_blank">NYTimes.com/US &raquo;<a></a></span> </div> </td> </tr> </tbod=
+y> </table> <!--[if (gte mso 9)|(IE)]></td></tr></table><![endif]--> <!--[i=
+f (gte mso 9)|(IE)]><table width=3D"501" align=3D"center"><tr><td style=3D"=
+padding: 20px 0 0;"><![endif]--> <table class=3D"advt-padding" align=3D"cen=
+ter" cellspacing=3D"0" cellpadding=3D"0" style=3D"border-spacing:0;color:#0=
+00001;font-family:georgia,times new roman,sans-serif;margin:20px auto 0;wid=
+th:100%;max-width:501px;padding:0 10px 15px"> <tbody> <tr> <td align=3D"cen=
+ter" style=3D"width:100%;color:#999;text-transform:uppercase;font-size:10px=
+;line-height:12x;font-family:arial,helvetica,sans-serif;padding:15px 0 6px;=
+border-top:1px solid #cbcbcb">ADVERTISEMENT</td> </tr> <tr> <td align=3D"ce=
+nter"> <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" ><tr><td col=
+span=3D"2"><a style=3D"display: block; width: 300px; height:250px;" href=3D=
+"https://liveintent.newyorktimesinfo.com/click=3Fs=3D82725&layout=3Dnewslet=
+ter&sz=3D300x250&m=3Dcd5365432f48f4e05c37d5c8ce45e877&p=3DTH_20180625&li=3D=
+TH" rel=3D"nofollow"><img src=3D"https://liveintent.newyorktimesinfo.com/im=
+p=3Fs=3D82725&layout=3Dnewsletter&sz=3D300x250&m=3Dcd5365432f48f4e05c37d5c8=
+ce45e877&p=3DTH_20180625&li=3DTH" border=3D"0" width=3D"300" height=3D"250"=
+/></a></td></tr><tr style=3D"display:block; height:1px; line-height:1px;"><=
+td><img src=3D"https://liveintent.newyorktimesinfo.com/imp=3Fs=3D82727&layo=
+ut=3Dnewsletter&sz=3D1x1&m=3Dcd5365432f48f4e05c37d5c8ce45e877&p=3DTH_201806=
+25&li=3DTH" height=3D"1" width=3D"10" /></td><td><img src=3D"https://livein=
+tent.newyorktimesinfo.com/imp=3Fs=3D82726&layout=3Dnewsletter&sz=3D1x1&m=3D=
+cd5365432f48f4e05c37d5c8ce45e877&p=3DTH_20180625&li=3DTH" height=3D"1" widt=
+h=3D"10" /></td></tr><tr><td align=3D"left"><a href=3D"https://liveintent.n=
+ewyorktimesinfo.com/click=3Fs=3D2297&layout=3Dnewsletter&sz=3D116x15&m=3Dcd=
+5365432f48f4e05c37d5c8ce45e877&p=3DTH_20180625&li=3DTH" rel=3D"nofollow"><i=
+mg src=3D"https://liveintent.newyorktimesinfo.com/imp=3Fs=3D2297&layout=3Dn=
+ewsletter&sz=3D116x15&m=3Dcd5365432f48f4e05c37d5c8ce45e877&p=3DTH_20180625&=
+li=3DTH" border=3D"0"/></a></td><td align=3D"right"><a href=3D"https://live=
+intent.newyorktimesinfo.com/click=3Fs=3D96149&layout=3Dnewsletter&sz=3D69x1=
+5&m=3Dcd5365432f48f4e05c37d5c8ce45e877&p=3DTH_20180625&li=3DTH" rel=3D"nofo=
+llow"><img src=3D"https://liveintent.newyorktimesinfo.com/imp=3Fs=3D96149&l=
+ayout=3Dnewsletter&sz=3D69x15&m=3Dcd5365432f48f4e05c37d5c8ce45e877&p=3DTH_2=
+0180625&li=3DTH" border=3D"0"/></a></td></tr></table> <table cellpadding=3D=
+"0" cellspacing=3D"0" border=3D"0" width=3D"40" height=3D"6"><tbody><tr><td=
+><img src=3D"https://liveintent.newyorktimesinfo.com/imp=3Fs=3D62686&sz=3D2=
+x1&m=3Dcd5365432f48f4e05c37d5c8ce45e877&p=3DTH_20180625&li=3DTH" width=3D"2=
+" height=3D"6" border=3D"0" /></td><td><img src=3D"https://liveintent.newyo=
+rktimesinfo.com/imp=3Fs=3D62687&sz=3D2x1&m=3Dcd5365432f48f4e05c37d5c8ce45e8=
+77&p=3DTH_20180625&li=3DTH" width=3D"2" height=3D"6" border=3D"0" /></td><t=
+d><img src=3D"https://liveintent.newyorktimesinfo.com/imp=3Fs=3D62688&sz=3D=
+2x1&m=3Dcd5365432f48f4e05c37d5c8ce45e877&p=3DTH_20180625&li=3DTH" width=3D"=
+2" height=3D"6" border=3D"0" /></td><td><img src=3D"https://liveintent.newy=
+orktimesinfo.com/imp=3Fs=3D62689&sz=3D2x1&m=3Dcd5365432f48f4e05c37d5c8ce45e=
+877&p=3DTH_20180625&li=3DTH" width=3D"2" height=3D"6" border=3D"0" /></td><=
+td><img src=3D"https://liveintent.newyorktimesinfo.com/imp=3Fs=3D62690&sz=
+=3D2x1&m=3Dcd5365432f48f4e05c37d5c8ce45e877&p=3DTH_20180625&li=3DTH" width=
+=3D"2" height=3D"6" border=3D"0" /></td><td><img src=3D"https://liveintent.=
+newyorktimesinfo.com/imp=3Fs=3D62691&sz=3D2x1&m=3Dcd5365432f48f4e05c37d5c8c=
+e45e877&p=3DTH_20180625&li=3DTH" width=3D"2" height=3D"6" border=3D"0" /></=
+td><td><img src=3D"https://liveintent.newyorktimesinfo.com/imp=3Fs=3D62692&=
+sz=3D2x1&m=3Dcd5365432f48f4e05c37d5c8ce45e877&p=3DTH_20180625&li=3DTH" widt=
+h=3D"2" height=3D"6" border=3D"0" /></td><td><img src=3D"https://liveintent=
+.newyorktimesinfo.com/imp=3Fs=3D62693&sz=3D2x1&m=3Dcd5365432f48f4e05c37d5c=
+8ce45e877&p=3DTH_20180625&li=3DTH" width=3D"2" height=3D"6" border=3D"0" />=
+</td><td><img src=3D"https://liveintent.newyorktimesinfo.com/imp=3Fs=3D6269=
+4&sz=3D2x1&m=3Dcd5365432f48f4e05c37d5c8ce45e877&p=3DTH_20180625&li=3DTH" wi=
+dth=3D"2" height=3D"6" border=3D"0" /></td><td><img src=3D"https://liveinte=
+nt.newyorktimesinfo.com/imp=3Fs=3D62695&sz=3D2x1&m=3Dcd5365432f48f4e05c37d5=
+c8ce45e877&p=3DTH_20180625&li=3DTH" width=3D"2" height=3D"6" border=3D"0" /=
+></td><td><img src=3D"https://liveintent.newyorktimesinfo.com/imp=3Fs=3D626=
+96&sz=3D2x1&m=3Dcd5365432f48f4e05c37d5c8ce45e877&p=3DTH_20180625&li=3DTH" w=
+idth=3D"2" height=3D"6" border=3D"0" /></td><td><img src=3D"https://liveint=
+ent.newyorktimesinfo.com/imp=3Fs=3D62697&sz=3D2x1&m=3Dcd5365432f48f4e05c37d=
+5c8ce45e877&p=3DTH_20180625&li=3DTH" width=3D"2" height=3D"6" border=3D"0" =
+/></td><td><img src=3D"https://liveintent.newyorktimesinfo.com/imp=3Fs=3D12=
+3366912&sz=3D2x1&m=3Dcd5365432f48f4e05c37d5c8ce45e877&p=3DTH_20180625&li=3D=
+TH" width=3D"2" height=3D"6" border=3D"0" /></td><td><img src=3D"https://li=
+veintent.newyorktimesinfo.com/imp=3Fs=3D123366913&sz=3D2x1&m=3Dcd5365432f48=
+f4e05c37d5c8ce45e877&p=3DTH_20180625&li=3DTH" width=3D"2" height=3D"6" bord=
+er=3D"0" /></td><td><img src=3D"https://liveintent.newyorktimesinfo.com/imp=
+=3Fs=3D123366914&sz=3D2x1&m=3Dcd5365432f48f4e05c37d5c8ce45e877&p=3DTH_20180=
+625&li=3DTH" width=3D"2" height=3D"6" border=3D"0" /></td><td><img src=3D"h=
+ttps://liveintent.newyorktimesinfo.com/imp=3Fs=3D123366915&sz=3D2x1&m=3Dcd5=
+365432f48f4e05c37d5c8ce45e877&p=3DTH_20180625&li=3DTH" width=3D"2" height=
+=3D"6" border=3D"0" /></td><td><img src=3D"https://liveintent.newyorktimesi=
+nfo.com/imp=3Fs=3D123366916&sz=3D2x1&m=3Dcd5365432f48f4e05c37d5c8ce45e877&p=
+=3DTH_20180625&li=3DTH" width=3D"2" height=3D"6" border=3D"0" /></td><td><i=
+mg src=3D"https://liveintent.newyorktimesinfo.com/imp=3Fs=3D123366917&sz=3D=
+2x1&m=3Dcd5365432f48f4e05c37d5c8ce45e877&p=3DTH_20180625&li=3DTH" width=3D"=
+2" height=3D"6" border=3D"0" /></td><td><img src=3D"https://liveintent.newy=
+orktimesinfo.com/imp=3Fs=3D123366918&sz=3D2x1&m=3Dcd5365432f48f4e05c37d5c8c=
+e45e877&p=3DTH_20180625&li=3DTH" width=3D"2" height=3D"6" border=3D"0" /></=
+td><td><img src=3D"https://liveintent.newyorktimesinfo.com/imp=3Fs=3D123366=
+919&sz=3D2x1&m=3Dcd5365432f48f4e05c37d5c8ce45e877&p=3DTH_20180625&li=3DTH" =
+width=3D"2" height=3D"6" border=3D"0" /></td></tr></tbody></table> </td> </=
+tr> </tbody> </table> <!--[if (gte mso 9)|(IE)]></td></tr></table><![endif]=
+-->    <!--[if (gte mso 9)|(IE)]><table width=3D"501" align=3D"center"><tr>=
+<td style=3D"padding: 20px 0 0;"><![endif]--> <table class=3D"hybrid-paddin=
+g-zero module-padding-zero" align=3D"center" cellspacing=3D"0" cellpadding=
+=3D"0" style=3D"border-spacing:0;font-family:sans-serif;color:#333;margin:2=
+0px auto 0;width:100%;max-width:501px;padding:0 10px"> <tbody> <tr> <td sty=
+le=3D"padding:0;text-align:center;font-size:0;border-top:1px solid #cbcbcb"=
+> <!--[if (gte mso 9)|(IE)]><table width=3D"100%"><![endif]--> <!--[if (gte=
+ mso 9)|(IE)]><tr><td width=3D"100%" valign=3D"top"><![endif]--> <div style=
+=3D"width:100%;max-width:501px;display:inline-block;vertical-align:top"> <t=
+able align=3D"left" width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" styl=
+e=3D"border-spacing:0;font-family:sans-serif;color:#333;padding:0;backgroun=
+d:#fff"> <tbody> <tr> <td style=3D"padding:15px 0 0;text-align:left;font-fa=
+mily:arial,helvetica,sans-serif;font-weight:700" colspan=3D"1"> <div style=
+=3D"margin:0 0 14px 0;font-size:18px;font-family:arial,helvetica,sans-serif=
+;font-weight:700;line-height:22px;color:#000"> <a name=3D"7"></a> <h6 style=
+=3D"color:#000;font-size:18px;line-height:22px;margin:0">Business</h6> </di=
+v> </td> </tr> </tbody> </table> </div> <!--[if (gte mso 9)|(IE)]></td></tr=
+><![endif]--> <!--[if (gte mso 9)|(IE)]><tr><td width=3D"100%" valign=3D"to=
+p" style=3D"padding-bottom: 15px;"><![endif]--> <div style=3D"width:100%;ma=
+x-width:501px;display:inline-block;vertical-align:top;background:#fff"> <ta=
+ble width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" style=3D"border-spac=
+ing:0;font-family:sans-serif;color:#333;background:#fff"> <tbody> <tr> <td =
+align=3D"left" style=3D"padding:0 0 20px"> <table cellspacing=3D"0" cellpad=
+ding=3D"0" style=3D"max-width:501px;width:100%;padding:0;background-color:#=
+fff"> <tbody> <tr> <td align=3D"left"> <table cellspacing=3D"0" cellpadding=
+=3D"0" border=3D"0" align=3D"right" style=3D"padding:3px 0 0 15px;width:aut=
+o!important"> <tbody> <tr> <td> <a href=3D"http://p.nytimes.com/email/re=3F=
+location=3DpMJKdIFVI6pghfX2HXfSzxRpdoyDWYNW79a8+diLpxSCvzsZyGD9eO52gOhGTACR=
+P5dwg2KiGWqd/ompVlQqo8N+a/NYkyAmgYRX48SzBpAXUTZDqAPqS1ebW8kV5iIH3gmPKkpNAoj=
+0pIc8Z/y1WmL0L1Z8J5fv&campaign_id=3D2&instance_id=3D2314&segment_id=3D3305&=
+user_id=3Dcd5365432f48f4e05c37d5c8ce45e877&regi_id=3D380478330625" style=3D=
+"color:#326891"> <img class=3D"image-view" width=3D"75" height=3D"75" borde=
+r=3D"0" alt=3D"Trump=E2=80=99s Trade War Could Shut Cheesemakers Out of For=
+eign Markets" src=3D"https://static01.nyt.com/images/2018/06/25/business/25=
+-jp-dc-cheese-print-1/00dc-cheese-1-thumbStandard.jpg"> </a> </td> </tr> </=
+tbody> </table> <a style=3D"margin:0;color:#004276;text-decoration:none;fon=
+t-family:georgia,serif;font-size:16px;line-height:20px;font-weight:700" hre=
+f=3D"http://p.nytimes.com/email/re=3Flocation=3DpMJKdIFVI6pghfX2HXfSzxRpdoy=
+DWYNW79a8+diLpxSCvzsZyGD9eO52gOhGTACRP5dwg2KiGWqd/ompVlQqo8N+a/NYkyAmgYRX48=
+SzBpAXUTZDqAPqS1ebW8kV5iIH3gmPKkpNAoj0pIc8Z/y1WmL0L1Z8J5fv&campaign_id=3D2&=
+instance_id=3D2314&segment_id=3D3305&user_id=3Dcd5365432f48f4e05c37d5c8ce45=
+e877&regi_id=3D380478330625" class=3D"nocolor">Trump=E2=80=99s Trade War Co=
+uld Shut Cheesemakers Out of Foreign Markets</a> <h6 style=3D"color:grey;fo=
+nt-size:10px;font-family:arial,helvetica,sans serif;line-height:12px;margin=
+:2px 0 3px 0;padding:0;font-weight:400">By ANA SWANSON</h6> <p style=3D"col=
+or:#333;font-size:14px;line-height:20px;margin:0;font-family:georgia,times =
+new roman,serif">With other countries raising tariffs to American products =
+and signing trade deals without the United States, the American cheesemaker=
+ is increasingly standing alone.</p> </td> </tr> </tbody> </table> </td> </=
+tr> </tbody> </table> </div> <!--[if (gte mso 9)|(IE)]></td></tr><![endif]-=
+-> <!--[if (gte mso 9)|(IE)]><tr><td width=3D"100%" valign=3D"top" style=3D=
+"padding-bottom: 15px;"><![endif]--> <div style=3D"width:100%;max-width:501=
+px;display:inline-block;vertical-align:top;background:#fff"> <table width=
+=3D"100%" cellspacing=3D"0" cellpadding=3D"0" style=3D"border-spacing:0;fon=
+t-family:sans-serif;color:#333;background:#fff"> <tbody> <tr> <td align=3D"=
+left" style=3D"padding:0 0 20px"> <table cellspacing=3D"0" cellpadding=3D"0=
+" style=3D"max-width:501px;width:100%;padding:0;background-color:#fff"> <tb=
+ody> <tr> <td align=3D"left"> <table cellspacing=3D"0" cellpadding=3D"0" bo=
+rder=3D"0" align=3D"right" style=3D"padding:3px 0 0 15px;width:auto!importa=
+nt"> <tbody> <tr> <td> <a href=3D"http://p.nytimes.com/email/re=3Flocation=
+=3DpMJKdIFVI6pghfX2HXfSzxRpdoyDWYNW79a8+diLpxSCvzsZyGD9eL01833EVONnynmZXXrK=
+6YlLL+aFuuHvYVoXOfE0hWnuIzEyEVvJwFvMViDzmFNB2KpsaR+VPFqNKH7pilVGwlxMoI56VzE=
+F+w3GArMNyy/z&campaign_id=3D2&instance_id=3D2314&segment_id=3D3305&user_id=
+=3Dcd5365432f48f4e05c37d5c8ce45e877&regi_id=3D380478330625" style=3D"color:=
+#326891"> <img class=3D"image-view" width=3D"75" height=3D"75" border=3D"0"=
+ alt=3D"In a Chinese Village, Elderly Farmers Are Now Yogis" src=3D"https:/=
+/static01.nyt.com/images/2018/06/25/business/jp25chinayoga1-print/25chinayo=
+ga-1-thumbStandard.jpg"> </a> </td> </tr> </tbody> </table> <a style=3D"mar=
+gin:0;color:#004276;text-decoration:none;font-family:georgia,serif;font-siz=
+e:16px;line-height:20px;font-weight:700" href=3D"http://p.nytimes.com/email=
+/re=3Flocation=3DpMJKdIFVI6pghfX2HXfSzxRpdoyDWYNW79a8+diLpxSCvzsZyGD9eL0183=
+3EVONnynmZXXrK6YlLL+aFuuHvYVoXOfE0hWnuIzEyEVvJwFvMViDzmFNB2KpsaR+VPFqNKH7pi=
+lVGwlxMoI56VzEF+w3GArMNyy/z&campaign_id=3D2&instance_id=3D2314&segment_id=
+=3D3305&user_id=3Dcd5365432f48f4e05c37d5c8ce45e877&regi_id=3D380478330625" =
+class=3D"nocolor">In a Chinese Village, Elderly Farmers Are Now Yogis</a> <=
+h6 style=3D"color:grey;font-size:10px;font-family:arial,helvetica,sans seri=
+f;line-height:12px;margin:2px 0 3px 0;padding:0;font-weight:400">By SUI-LEE=
+ WEE and ELSIE CHEN</h6> <p style=3D"color:#333;font-size:14px;line-height:=
+20px;margin:0;font-family:georgia,times new roman,serif">The local Communis=
+t Party chief has turned to yoga to bring health and vitality to a fading, =
+remote hamlet. Some tourist money would be welcome, too.</p> </td> </tr> </=
+tbody> </table> </td> </tr> </tbody> </table> </div> <!--[if (gte mso 9)|(I=
+E)]></td></tr><![endif]--> <!--[if (gte mso 9)|(IE)]><tr><td width=3D"100%"=
+ valign=3D"top" style=3D"padding-bottom: 15px;"><![endif]--> <div style=3D"=
+width:100%;max-width:501px;display:inline-block;vertical-align:top;backgrou=
+nd:#fff"> <table width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" style=
+=3D"border-spacing:0;font-family:sans-serif;color:#333;background:#fff"> <t=
+body> <tr> <td align=3D"left" style=3D"padding:0 0 20px"> <table cellspacin=
+g=3D"0" cellpadding=3D"0" style=3D"max-width:501px;width:100%;padding:0;bac=
+kground-color:#fff"> <tbody> <tr> <td align=3D"left"> <table cellspacing=3D=
+"0" cellpadding=3D"0" border=3D"0" align=3D"right" style=3D"padding:3px 0 0=
+ 15px;width:auto!important"> <tbody> <tr> <td> <a href=3D"http://p.nytimes.=
+com/email/re=3Flocation=3DpMJKdIFVI6pghfX2HXfSzxRpdoyDWYNW79a8+diLpxT+zdv7A=
++kHQRnJNOiaXX21vurs/oiForuT2PY9Mpp6E95vTjvgUSZCIzEyEVvJwFvMViDzmFNB2KpsaR+V=
+PFqNKH7pilVGwlxMoI56VzEF+w3GArMNyy/z&campaign_id=3D2&instance_id=3D2314&seg=
+ment_id=3D3305&user_id=3Dcd5365432f48f4e05c37d5c8ce45e877&regi_id=3D3804783=
+30625" style=3D"color:#326891"> <img class=3D"image-view" width=3D"75" heig=
+ht=3D"75" border=3D"0" alt=3D"A Drug Costs $272,000 a Year. Not So Fast, Sa=
+ys New York State." src=3D"https://static01.nyt.com/images/2018/06/25/busin=
+ess/25druglaw-1/merlin_139629144_4c3845a2-9935-4b25-8c3c-7e90aa2afcd9-thumb=
+Standard.jpg"> </a> </td> </tr> </tbody> </table> <a style=3D"margin:0;colo=
+r:#004276;text-decoration:none;font-family:georgia,serif;font-size:16px;lin=
+e-height:20px;font-weight:700" href=3D"http://p.nytimes.com/email/re=3Floca=
+tion=3DpMJKdIFVI6pghfX2HXfSzxRpdoyDWYNW79a8+diLpxT+zdv7A+kHQRnJNOiaXX21vurs=
+/oiForuT2PY9Mpp6E95vTjvgUSZCIzEyEVvJwFvMViDzmFNB2KpsaR+VPFqNKH7pilVGwlxMoI5=
+6VzEF+w3GArMNyy/z&campaign_id=3D2&instance_id=3D2314&segment_id=3D3305&user=
+_id=3Dcd5365432f48f4e05c37d5c8ce45e877&regi_id=3D380478330625" class=3D"noc=
+olor">A Drug Costs $272,000 a Year. Not So Fast, Says New York State.</a> <=
+h6 style=3D"color:grey;font-size:10px;font-family:arial,helvetica,sans seri=
+f;line-height:12px;margin:2px 0 3px 0;padding:0;font-weight:400">By KATIE T=
+HOMAS</h6> <p style=3D"color:#333;font-size:14px;line-height:20px;margin:0;=
+font-family:georgia,times new roman,serif">New York=E2=80=99s Medicaid prog=
+ram says Orkambi, a new drug to treat cystic fibrosis, is not worth the pri=
+ce. The case is being closely watched around the country.</p> </td> </tr> <=
+/tbody> </table> </td> </tr> </tbody> </table> </div> <!--[if (gte mso 9)|(=
+IE)]></td></tr><![endif]--> <!--[if (gte mso 9)|(IE)]></table><![endif]--> =
+<div style=3D"text-align:right;margin:10px 1px 0 0"> <span style=3D"color:#=
+666;font-size:11px;font-family:arial,helvetica,sans-serif">For more busines=
+s news, go to <a href=3D"http://p.nytimes.com/email/re=3Flocation=3DpMJKdIF=
+VI6pghfX2HXfSzxRpdoyDWYNWWoKVJosZyHkdr+ZRVYOGyhqAhCi6s3CfIUEPGADHX3o7qDeq/4=
+IgFcfM2jG9cAuvoSK70TCMLag=3D&campaign_id=3D2&instance_id=3D2314&segment_id=
+=3D3305&user_id=3Dcd5365432f48f4e05c37d5c8ce45e877&regi_id=3D38047833" styl=
+e=3D"font-weight:700;color:#004276;text-decoration:none" target=3D"_blank">=
+NYTimes.com/Business &raquo;<a></a></span> </div> </td> </tr> </tbody> </ta=
+ble> <!--[if (gte mso 9)|(IE)]></td></tr></table><![endif]-->    <!--[if (g=
+te mso 9)|(IE)]><table width=3D"501" align=3D"center"><tr><td style=3D"padd=
+ing: 20px 0 0;"><![endif]--> <table class=3D"hybrid-padding-zero module-pad=
+ding-zero" align=3D"center" cellspacing=3D"0" cellpadding=3D"0" style=3D"bo=
+rder-spacing:0;font-family:sans-serif;color:#333;margin:20px auto 0;width:1=
+00%;max-width:501px;padding:0 10px"> <tbody> <tr> <td style=3D"padding:0;te=
+xt-align:center;font-size:0;border-top:1px solid #cbcbcb"> <!--[if (gte mso=
+ 9)|(IE)]><table width=3D"100%"><![endif]--> <!--[if (gte mso 9)|(IE)]><tr>=
+<td width=3D"100%" valign=3D"top"><![endif]--> <div style=3D"width:100%;max=
+-width:501px;display:inline-block;vertical-align:top"> <table align=3D"left=
+" width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" style=3D"border-spacin=
+g:0;font-family:sans-serif;color:#333;padding:0;background:#fff"> <tbody> <=
+tr> <td style=3D"padding:15px 0 0;text-align:left;font-family:arial,helveti=
+ca,sans-serif;font-weight:700" colspan=3D"1"> <div style=3D"margin:0 0 14px=
+ 0;font-size:18px;font-family:arial,helvetica,sans-serif;font-weight:700;li=
+ne-height:22px;color:#000"> <a name=3D"9"></a> <h6 style=3D"color:#000;font=
+-size:18px;line-height:22px;margin:0">Sports</h6> </div> </td> </tr> </tbod=
+y> </table> </div> <!--[if (gte mso 9)|(IE)]></td></tr><![endif]--> <!--[if=
+ (gte mso 9)|(IE)]><tr><td width=3D"100%" valign=3D"top" style=3D"padding-b=
+ottom: 15px;"><![endif]--> <div style=3D"width:100%;max-width:501px;display=
+:inline-block;vertical-align:top;background:#fff"> <table width=3D"100%" ce=
+llspacing=3D"0" cellpadding=3D"0" style=3D"border-spacing:0;font-family:san=
+s-serif;color:#333;background:#fff"> <tbody> <tr> <td align=3D"left" style=
+=3D"padding:0 0 20px"> <table cellspacing=3D"0" cellpadding=3D"0" style=3D"=
+max-width:501px;width:100%;padding:0;background-color:#fff"> <tbody> <tr> <=
+td align=3D"left"> <table cellspacing=3D"0" cellpadding=3D"0" border=3D"0" =
+align=3D"right" style=3D"padding:3px 0 0 15px;width:auto!important"> <tbody=
+> <tr> <td> <a href=3D"http://p.nytimes.com/email/re=3Flocation=3DpMJKdIFVI=
+6pghfX2HXfSzxRpdoyDWYNW79a8+diLpxTsuvyU6VpCvQlbFLhBCHYPDS1NKKeE17Bwa75pA81y=
+bCi8SG1ZifbKkLvzJdFhrKv+UkknS5UBbP13V9i8crQr5dh/8i8Sg9dCc4UxMKraD0/sISYkRmv=
+hrtfF3YRs/Vk=3D&campaign_id=3D2&instance_id=3D2314&segment_id=3D3305&user_i=
+d=3Dcd5365432f48f4e05c37d5c8ce45e877&regi_id=3D380478330625" style=3D"color=
+:#326891"> <img class=3D"image-view" width=3D"75" height=3D"75" border=3D"0=
+" alt=3D"Politics Ensnare Mohamed Salah and Switzerland at the World Cup" s=
+rc=3D"https://static01.nyt.com/images/2018/06/25/sports/25jp1cuppolitics-pr=
+int/1cuppolitics-thumbStandard.jpg"> </a> </td> </tr> </tbody> </table> <a =
+style=3D"margin:0;color:#004276;text-decoration:none;font-family:georgia,se=
+rif;font-size:16px;line-height:20px;font-weight:700" href=3D"http://p.nytim=
+es.com/email/re=3Flocation=3DpMJKdIFVI6pghfX2HXfSzxRpdoyDWYNW79a8+diLpxTsuv=
+yU6VpCvQlbFLhBCHYPDS1NKKeE17Bwa75pA81ybCi8SG1ZifbKkLvzJdFhrKv+UkknS5UBbP13V=
+9i8crQr5dh/8i8Sg9dCc4UxMKraD0/sISYkRmvhrtfF3YRs/Vk=3D&campaign_id=3D2&insta=
+nce_id=3D2314&segment_id=3D3305&user_id=3Dcd5365432f48f4e05c37d5c8ce45e877&=
+regi_id=3D380478330625" class=3D"nocolor">Politics Ensnare Mohamed Salah an=
+d Switzerland at the World Cup</a> <h6 style=3D"color:grey;font-size:10px;f=
+ont-family:arial,helvetica,sans serif;line-height:12px;margin:2px 0 3px 0;p=
+adding:0;font-weight:400">By RORY SMITH, JAMES MONTAGUE and TARIQ PANJA</h6=
+> <p style=3D"color:#333;font-size:14px;line-height:20px;margin:0;font-fami=
+ly:georgia,times new roman,serif">Salah was said to be considering retiring=
+ from Egypt over interactions with a Chechen politician, and two Swiss play=
+ers caused a firestorm by displaying an Albanian symbol.</p> </td> </tr> </=
+tbody> </table> </td> </tr> </tbody> </table> </div> <!--[if (gte mso 9)|(I=
+E)]></td></tr><![endif]--> <!--[if (gte mso 9)|(IE)]><tr><td width=3D"100%"=
+ valign=3D"top" style=3D"padding-bottom: 15px;"><![endif]--> <div style=3D"=
+width:100%;max-width:501px;display:inline-block;vertical-align:top;backgrou=
+nd:#fff"> <table width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" style=
+=3D"border-spacing:0;font-family:sans-serif;color:#333;background:#fff"> <t=
+body> <tr> <td align=3D"left" style=3D"padding:0 0 20px"> <table cellspacin=
+g=3D"0" cellpadding=3D"0" style=3D"max-width:501px;width:100%;padding:0;bac=
+kground-color:#fff"> <tbody> <tr> <td align=3D"left"> <table cellspacing=3D=
+"0" cellpadding=3D"0" border=3D"0" align=3D"right" style=3D"padding:3px 0 0=
+ 15px;width:auto!important"> <tbody> <tr> <td> <a href=3D"http://p.nytimes.=
+com/email/re=3Flocation=3DpMJKdIFVI6pghfX2HXfSzxRpdoyDWYNW79a8+diLpxTsuvyU6=
+VpCvQlbFLhBCHYPDrY+tTbT84l1xEbYKmow44z5eLpTdnxg/fY6AH1rUkbzQPfENmgP1RhBv7P/=
+hndWkaZjaWII+sqKJ24tVyjKtA=3D=3D&campaign_id=3D2&instance_id=3D2314&segment=
+_id=3D3305&user_id=3Dcd5365432f48f4e05c37d5c8ce45e877&regi_id=3D38047833062=
+5" style=3D"color:#326891"> <img class=3D"image-view" width=3D"75" height=
+=3D"75" border=3D"0" alt=3D"Six Goals for England and an Open Door Into the=
+ Next Round" src=3D"https://static01.nyt.com/images/2018/06/25/sports/25eng=
+land-panama3/25england-panama3-thumbStandard.jpg"> </a> </td> </tr> </tbody=
+> </table> <a style=3D"margin:0;color:#004276;text-decoration:none;font-fam=
+ily:georgia,serif;font-size:16px;line-height:20px;font-weight:700" href=3D"=
+http://p.nytimes.com/email/re=3Flocation=3DpMJKdIFVI6pghfX2HXfSzxRpdoyDWYNW=
+79a8+diLpxTsuvyU6VpCvQlbFLhBCHYPDrY+tTbT84l1xEbYKmow44z5eLpTdnxg/fY6AH1rUkb=
+zQPfENmgP1RhBv7P/hndWkaZjaWII+sqKJ24tVyjKtA=3D=3D&campaign_id=3D2&instance_=
+id=3D2314&segment_id=3D3305&user_id=3Dcd5365432f48f4e05c37d5c8ce45e877&regi=
+_id=3D380478330625" class=3D"nocolor">Six Goals for England and an Open Doo=
+r Into the Next Round</a> <h6 style=3D"color:grey;font-size:10px;font-famil=
+y:arial,helvetica,sans serif;line-height:12px;margin:2px 0 3px 0;padding:0;=
+font-weight:400">By MATTHEW FUTTERMAN and KEVIN DRAPER</h6> <p style=3D"col=
+or:#333;font-size:14px;line-height:20px;margin:0;font-family:georgia,times =
+new roman,serif">Led by Harry Kane=E2=80=99s three goals =E2=80=94 two on p=
+enalty kicks =E2=80=94 England trounced Panama on Sunday. No wonder the Pan=
+ama coach had a bad feeling about this game.</p> </td> </tr> </tbody> </tab=
+le> </td> </tr> </tbody> </table> </div> <!--[if (gte mso 9)|(IE)]></td></t=
+r><![endif]--> <!--[if (gte mso 9)|(IE)]><tr><td width=3D"100%" valign=3D"t=
+op" style=3D"padding-bottom: 15px;"><![endif]--> <div style=3D"width:100%;m=
+ax-width:501px;display:inline-block;vertical-align:top;background:#fff"> <t=
+able width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" style=3D"border-spa=
+cing:0;font-family:sans-serif;color:#333;background:#fff"> <tbody> <tr> <td=
+ align=3D"left" style=3D"padding:0 0 20px"> <table cellspacing=3D"0" cellpa=
+dding=3D"0" style=3D"max-width:501px;width:100%;padding:0;background-color:=
+#fff"> <tbody> <tr> <td align=3D"left"> <table cellspacing=3D"0" cellpaddin=
+g=3D"0" border=3D"0" align=3D"right" style=3D"padding:3px 0 0 15px;width:au=
+to!important"> <tbody> <tr> <td> <a href=3D"http://p.nytimes.com/email/re=
+=3Flocation=3DpMJKdIFVI6pghfX2HXfSzxRpdoyDWYNW79a8+diLpxTsuvyU6VpCvQlbFLhBC=
+HYPPDAAY+C6GWvHIEDgfI+mB+3I/9xSDhFFbNeLVVT3FmKXtdc5Zse6Ks8EvfRvTSKmRlcqaJDm=
+NgYKX2k+WbguPYN8mkmbBZTE&campaign_id=3D2&instance_id=3D2314&segment_id=3D33=
+05&user_id=3Dcd5365432f48f4e05c37d5c8ce45e877&regi_id=3D380478330625" style=
+=3D"color:#326891"> <img class=3D"image-view" width=3D"75" height=3D"75" bo=
+rder=3D"0" alt=3D"African Team, African Coach: Senegal Is Making a Strong S=
+tatement in Russia" src=3D"https://static01.nyt.com/images/2018/06/24/sport=
+s/25CLAREY-senegal-alpha/25CLAREY-senegal-alpha-thumbStandard.jpg"> </a> </=
+td> </tr> </tbody> </table> <h4 style=3D"color:#000;text-transform:uppercas=
+e;font-family:arial,helvetica,sans serif;font-size:10px;line-height:12px;ma=
+rgin:0 0 3px 0;padding:0;font-weight:400">Global Sports</h4> <a style=3D"ma=
+rgin:0;color:#004276;text-decoration:none;font-family:georgia,serif;font-si=
+ze:16px;line-height:20px;font-weight:700" href=3D"http://p.nytimes.com/emai=
+l/re=3Flocation=3DpMJKdIFVI6pghfX2HXfSzxRpdoyDWYNW79a8+diLpxTsuvyU6VpCvQlbF=
+LhBCHYPPDAAY+C6GWvHIEDgfI+mB+3I/9xSDhFFbNeLVVT3FmKXtdc5Zse6Ks8EvfRvTSKmRlcq=
+aJDmNgYKX2k+WbguPYN8mkmbBZTE&campaign_id=3D2&instance_id=3D2314&segment_id=
+=3D3305&user_id=3Dcd5365432f48f4e05c37d5c8ce45e877&regi_id=3D380478330625" =
+class=3D"nocolor">African Team, African Coach: Senegal Is Making a Strong S=
+tatement in Russia</a> <h6 style=3D"color:grey;font-size:10px;font-family:a=
+rial,helvetica,sans serif;line-height:12px;margin:2px 0 3px 0;padding:0;fon=
+t-weight:400">By CHRISTOPHER CLAREY</h6> <p style=3D"color:#333;font-size:1=
+4px;line-height:20px;margin:0;font-family:georgia,times new roman,serif">Al=
+iou Ciss=C3=A9 was once a World Cup player for Senegal. Now he is one of tw=
+o native African coaches in the World Cup, and he has Senegal off to a fine=
+ start.</p> </td> </tr> </tbody> </table> </td> </tr> </tbody> </table> </d=
+iv> <!--[if (gte mso 9)|(IE)]></td></tr><![endif]--> <!--[if (gte mso 9)|(I=
+E)]></table><![endif]--> <div style=3D"text-align:right;margin:10px 1px 0 0=
+"> <span style=3D"color:#666;font-size:11px;font-family:arial,helvetica,san=
+s-serif">For more sports news, go to <a href=3D"http://p.nytimes.com/email/=
+re=3Flocation=3DpMJKdIFVI6pghfX2HXfSzxRpdoyDWYNWWoKVJosZyHlL0dTeHhJQydnr6DH=
+wvnH1zgqwDJEhs+2Jr1wVte201bBZxV581mEU3ARlMpJTLsQ=3D&campaign_id=3D2&instanc=
+e_id=3D2314&segment_id=3D3305&user_id=3Dcd5365432f48f4e05c37d5c8ce45e877&re=
+gi_id=3D38047833" style=3D"font-weight:700;color:#004276;text-decoration:no=
+ne" target=3D"_blank">NYTimes.com/Sports &raquo;<a></a></span> </div> </td>=
+ </tr> </tbody> </table> <!--[if (gte mso 9)|(IE)]></td></tr></table><![end=
+if]-->   <!--[if (gte mso 9)|(IE)]><table width=3D"501" align=3D"center"><t=
+r><td style=3D"padding: 20px 0 0;"><![endif]--> <table class=3D"hybrid-padd=
+ing-zero module-padding-zero" align=3D"center" cellspacing=3D"0" cellpaddin=
+g=3D"0" style=3D"border-spacing:0;font-family:sans-serif;color:#333;margin:=
+20px auto 0;width:100%;max-width:501px;padding:0 10px"> <tbody> <tr> <td st=
+yle=3D"padding:0;text-align:center;font-size:0;border-top:1px solid #cbcbcb=
+"> <!--[if (gte mso 9)|(IE)]><table width=3D"100%"><![endif]--> <!--[if (gt=
+e mso 9)|(IE)]><tr><td width=3D"100%" valign=3D"top"><![endif]--> <div styl=
+e=3D"width:100%;max-width:501px;display:inline-block;vertical-align:top"> <=
+table align=3D"left" width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" sty=
+le=3D"border-spacing:0;font-family:sans-serif;color:#333;padding:0;backgrou=
+nd:#fff"> <tbody> <tr> <td style=3D"padding:15px 0 0;text-align:left;font-f=
+amily:arial,helvetica,sans-serif;font-weight:700" colspan=3D"1"> <div style=
+=3D"margin:0 0 14px 0;font-size:18px;font-family:arial,helvetica,sans-serif=
+;font-weight:700;line-height:22px;color:#000"> <a name=3D"10"></a> <h6 styl=
+e=3D"color:#000;font-size:18px;line-height:22px;margin:0">Arts</h6> </div> =
+</td> </tr> </tbody> </table> </div> <!--[if (gte mso 9)|(IE)]></td></tr><!=
+[endif]--> <!--[if (gte mso 9)|(IE)]><tr><td width=3D"100%" valign=3D"top" =
+style=3D"padding-bottom: 15px;"><![endif]--> <div style=3D"width:100%;max-w=
+idth:501px;display:inline-block;vertical-align:top;background:#fff"> <table=
+ width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" style=3D"border-spacing=
+:0;font-family:sans-serif;color:#333;background:#fff"> <tbody> <tr> <td ali=
+gn=3D"left" style=3D"padding:0 0 20px"> <table cellspacing=3D"0" cellpaddin=
+g=3D"0" style=3D"max-width:501px;width:100%;padding:0;background-color:#fff=
+"> <tbody> <tr> <td align=3D"left"> <table cellspacing=3D"0" cellpadding=3D=
+"0" border=3D"0" align=3D"right" style=3D"padding:3px 0 0 15px;width:auto!i=
+mportant"> <tbody> <tr> <td> <a href=3D"http://p.nytimes.com/email/re=3Floc=
+ation=3DpMJKdIFVI6pghfX2HXfSzxRpdoyDWYNW79a8+diLpxRMW3ugbfQ0IwPyIN290UeG2uI=
+eWIpElTudtEEetA2t3flMS6OzZNU8rRGmU/MfetfZ6+gx8L5x9c4KsAyRIbPtia9cFbXttNWwWc=
+VefNZhFNwEZTKSUy7E&campaign_id=3D2&instance_id=3D2314&segment_id=3D3305&use=
+r_id=3Dcd5365432f48f4e05c37d5c8ce45e877&regi_id=3D380478330625" style=3D"co=
+lor:#326891"> <img class=3D"image-view" width=3D"75" height=3D"75" border=
+=3D"0" alt=3D"When the Actors Are Students, and They=E2=80=99re Armed" src=
+=3D"https://static01.nyt.com/images/2018/06/25/arts/25stageguns/23stageguns=
+-thumbStandard.jpg"> </a> </td> </tr> </tbody> </table> <a style=3D"margin:=
+0;color:#004276;text-decoration:none;font-family:georgia,serif;font-size:16=
+px;line-height:20px;font-weight:700" href=3D"http://p.nytimes.com/email/re=
+=3Flocation=3DpMJKdIFVI6pghfX2HXfSzxRpdoyDWYNW79a8+diLpxRMW3ugbfQ0IwPyIN290=
+UeG2uIeWIpElTudtEEetA2t3flMS6OzZNU8rRGmU/MfetfZ6+gx8L5x9c4KsAyRIbPtia9cFbXt=
+tNWwWcVefNZhFNwEZTKSUy7E&campaign_id=3D2&instance_id=3D2314&segment_id=3D33=
+05&user_id=3Dcd5365432f48f4e05c37d5c8ce45e877&regi_id=3D380478330625" class=
+=3D"nocolor">When the Actors Are Students, and They=E2=80=99re Armed</a> <h=
+6 style=3D"color:grey;font-size:10px;font-family:arial,helvetica,sans serif=
+;line-height:12px;margin:2px 0 3px 0;padding:0;font-weight:400">By NAVEEN K=
+UMAR</h6> <p style=3D"color:#333;font-size:14px;line-height:20px;margin:0;f=
+ont-family:georgia,times new roman,serif">As school shootings mount, educat=
+ors face the question of how to present gunfire on stage amid students=E2=
+=80=99 fears that their school could be next.</p> </td> </tr> </tbody> </ta=
+ble> </td> </tr> </tbody> </table> </div> <!--[if (gte mso 9)|(IE)]></td></=
+tr><![endif]--> <!--[if (gte mso 9)|(IE)]><tr><td width=3D"100%" valign=3D"=
+top" style=3D"padding-bottom: 15px;"><![endif]--> <div style=3D"width:100%;=
+max-width:501px;display:inline-block;vertical-align:top;background:#fff"> <=
+table width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" style=3D"border-sp=
+acing:0;font-family:sans-serif;color:#333;background:#fff"> <tbody> <tr> <t=
+d align=3D"left" style=3D"padding:0 0 20px"> <table cellspacing=3D"0" cellp=
+adding=3D"0" style=3D"max-width:501px;width:100%;padding:0;background-color=
+:#fff"> <tbody> <tr> <td align=3D"left"> <table cellspacing=3D"0" cellpaddi=
+ng=3D"0" border=3D"0" align=3D"right" style=3D"padding:3px 0 0 15px;width:a=
+uto!important"> <tbody> <tr> <td> <a href=3D"http://p.nytimes.com/email/re=
+=3Flocation=3DpMJKdIFVI6pghfX2HXfSzxRpdoyDWYNW79a8+diLpxQb3GB5yJ/JlA2ASlNd3=
+TEWmjlqZn7MhgmzytxwtaOdsOE7z6g5uHmKbMsM3AYHT92XqkA6i0YgJiVDD1M5DxHFi/+GSYEP=
+w0Zs14tVVPcWYpe11zlmx7oqzwS99G9NIqZGVypokOY2BgpfaT5ZuC49g3yaSZsFlMQ=3D&camp=
+aign_id=3D2&instance_id=3D2314&segment_id=3D3305&user_id=3Dcd5365432f48f4e0=
+5c37d5c8ce45e877&regi_id=3D380478330625" style=3D"color:#326891"> <img clas=
+s=3D"image-view" width=3D"75" height=3D"75" border=3D"0" alt=3D"=E2=80=98A =
+Catharsis Sculpture=E2=80=99: An Artist Makes a Monument to Cancer Survivor=
+s" src=3D"https://static01.nyt.com/images/2018/06/25/arts/25prune-jp1/25pru=
+ne-art2-thumbStandard.jpg"> </a> </td> </tr> </tbody> </table> <a style=3D"=
+margin:0;color:#004276;text-decoration:none;font-family:georgia,serif;font-=
+size:16px;line-height:20px;font-weight:700" href=3D"http://p.nytimes.com/em=
+ail/re=3Flocation=3DpMJKdIFVI6pghfX2HXfSzxRpdoyDWYNW79a8+diLpxQb3GB5yJ/JlA2=
+ASlNd3TEWmjlqZn7MhgmzytxwtaOdsOE7z6g5uHmKbMsM3AYHT92XqkA6i0YgJiVDD1M5DxHFi/=
++GSYEPw0Zs14tVVPcWYpe11zlmx7oqzwS99G9NIqZGVypokOY2BgpfaT5ZuC49g3yaSZsFlMQ=
+=3D&campaign_id=3D2&instance_id=3D2314&segment_id=3D3305&user_id=3Dcd536543=
+2f48f4e05c37d5c8ce45e877&regi_id=3D380478330625" class=3D"nocolor">=E2=80=
+=98A Catharsis Sculpture=E2=80=99: An Artist Makes a Monument to Cancer Sur=
+vivors</a> <h6 style=3D"color:grey;font-size:10px;font-family:arial,helveti=
+ca,sans serif;line-height:12px;margin:2px 0 3px 0;padding:0;font-weight:400=
+">By MELENA RYZIK</h6> <p style=3D"color:#333;font-size:14px;line-height:20=
+px;margin:0;font-family:georgia,times new roman,serif">Prune Nourry=E2=80=
+=99s new work, on view in Manhattan=E2=80=99s meatpacking district, is a tr=
+ibute to women like herself who have battled breast cancer.</p> </td> </tr>=
+ </tbody> </table> </td> </tr> </tbody> </table> </div> <!--[if (gte mso 9)=
+|(IE)]></td></tr><![endif]--> <!--[if (gte mso 9)|(IE)]><tr><td width=3D"10=
+0%" valign=3D"top" style=3D"padding-bottom: 15px;"><![endif]--> <div style=
+=3D"width:100%;max-width:501px;display:inline-block;vertical-align:top;back=
+ground:#fff"> <table width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" sty=
+le=3D"border-spacing:0;font-family:sans-serif;color:#333;background:#fff"> =
+<tbody> <tr> <td align=3D"left" style=3D"padding:0 0 20px"> <table cellspac=
+ing=3D"0" cellpadding=3D"0" style=3D"max-width:501px;width:100%;padding:0;b=
+ackground-color:#fff"> <tbody> <tr> <td align=3D"left"> <table cellspacing=
+=3D"0" cellpadding=3D"0" border=3D"0" align=3D"right" style=3D"padding:3px =
+0 0 15px;width:auto!important"> <tbody> <tr> <td> <a href=3D"http://p.nytim=
+es.com/email/re=3Flocation=3DpMJKdIFVI6pghfX2HXfSzxRpdoyDWYNW79a8+diLpxQb3G=
+B5yJ/JlENI4NOIPO/3euqH0NY0+V7DvsQeG0sN910V5zUenHFR/fY6AH1rUkbzQPfENmgP1RhBv=
+7P/hndWkaZjaWII+sqKJ24tVyjKtA=3D=3D&campaign_id=3D2&instance_id=3D2314&segm=
+ent_id=3D3305&user_id=3Dcd5365432f48f4e05c37d5c8ce45e877&regi_id=3D38047833=
+0625" style=3D"color:#326891"> <img class=3D"image-view" width=3D"75" heigh=
+t=3D"75" border=3D"0" alt=3D"He Couldn=E2=80=99t Refuse a Deathbed Plea. No=
+w He=E2=80=99s Got 10,000 Pieces of Art." src=3D"https://static01.nyt.com/i=
+mages/2018/06/08/us/00artgrandfather1/00artgrandfather1-thumbStandard.jpg">=
+ </a> </td> </tr> </tbody> </table> <a style=3D"margin:0;color:#004276;text=
+-decoration:none;font-family:georgia,serif;font-size:16px;line-height:20px;=
+font-weight:700" href=3D"http://p.nytimes.com/email/re=3Flocation=3DpMJKdIF=
+VI6pghfX2HXfSzxRpdoyDWYNW79a8+diLpxQb3GB5yJ/JlENI4NOIPO/3euqH0NY0+V7DvsQeG0=
+sN910V5zUenHFR/fY6AH1rUkbzQPfENmgP1RhBv7P/hndWkaZjaWII+sqKJ24tVyjKtA=3D=3D&=
+campaign_id=3D2&instance_id=3D2314&segment_id=3D3305&user_id=3Dcd5365432f48=
+f4e05c37d5c8ce45e877&regi_id=3D380478330625" class=3D"nocolor">He Couldn=E2=
+=80=99t Refuse a Deathbed Plea. Now He=E2=80=99s Got 10,000 Pieces of Art.<=
+/a> <h6 style=3D"color:grey;font-size:10px;font-family:arial,helvetica,sans=
+ serif;line-height:12px;margin:2px 0 3px 0;padding:0;font-weight:400">By KI=
+RK JOHNSON</h6> <p style=3D"color:#333;font-size:14px;line-height:20px;marg=
+in:0;font-family:georgia,times new roman,serif">A Seattle man agreed to wat=
+ch over his grandfather=E2=80=99s artworks. They were not acclaimed or even=
+ known, but this was more about the promise than the art.</p> </td> </tr> <=
+/tbody> </table> </td> </tr> </tbody> </table> </div> <!--[if (gte mso 9)|(=
+IE)]></td></tr><![endif]--> <!--[if (gte mso 9)|(IE)]></table><![endif]--> =
+<div style=3D"text-align:right;margin:10px 1px 0 0"> <span style=3D"color:#=
+666;font-size:11px;font-family:arial,helvetica,sans-serif">For more arts ne=
+ws, go to <a href=3D"http://p.nytimes.com/email/re=3Flocation=3DpMJKdIFVI6p=
+ghfX2HXfSzxRpdoyDWYNWWoKVJosZyHl7sURM6/ZyU5e11zlmx7oqzwS99G9NIqZGVypokOY2Bg=
+pfaT5ZuC49g3yaSZsFlMQ=3D&campaign_id=3D2&instance_id=3D2314&segment_id=3D33=
+05&user_id=3Dcd5365432f48f4e05c37d5c8ce45e877&regi_id=3D38047833" style=3D"=
+font-weight:700;color:#004276;text-decoration:none" target=3D"_blank">NYTim=
+es.com/Arts &raquo;<a></a></span> </div> </td> </tr> </tbody> </table> <!--=
+[if (gte mso 9)|(IE)]></td></tr></table><![endif]-->    <!--[if (gte mso 9)=
+|(IE)]><table width=3D"501" align=3D"center"><tr><td style=3D"padding: 20px=
+ 0 0;"><![endif]--> <table class=3D"hybrid-padding-zero module-padding-zero=
+" align=3D"center" cellspacing=3D"0" cellpadding=3D"0" style=3D"border-spac=
+ing:0;font-family:sans-serif;color:#333;margin:20px auto 0;width:100%;max-w=
+idth:501px;padding:0 10px"> <tbody> <tr> <td style=3D"padding:0;text-align:=
+center;font-size:0;border-top:1px solid #cbcbcb"> <!--[if (gte mso 9)|(IE)]=
+><table width=3D"100%"><![endif]--> <!--[if (gte mso 9)|(IE)]><tr><td width=
+=3D"100%" valign=3D"top"><![endif]--> <div style=3D"width:100%;max-width:50=
+1px;display:inline-block;vertical-align:top"> <table align=3D"left" width=
+=3D"100%" cellspacing=3D"0" cellpadding=3D"0" style=3D"border-spacing:0;fon=
+t-family:sans-serif;color:#333;padding:0;background:#fff"> <tbody> <tr> <td=
+ style=3D"padding:15px 0 0;text-align:left;font-family:arial,helvetica,sans=
+-serif;font-weight:700" colspan=3D"1"> <div style=3D"margin:0 0 14px 0;font=
+-size:18px;font-family:arial,helvetica,sans-serif;font-weight:700;line-heig=
+ht:22px;color:#000"> <a name=3D"12"></a> <h6 style=3D"color:#000;font-size:=
+18px;line-height:22px;margin:0">Obituaries</h6> </div> </td> </tr> </tbody>=
+ </table> </div> <!--[if (gte mso 9)|(IE)]></td></tr><![endif]--> <!--[if (=
+gte mso 9)|(IE)]><tr><td width=3D"100%" valign=3D"top" style=3D"padding-bot=
+tom: 15px;"><![endif]--> <div style=3D"width:100%;max-width:501px;display:i=
+nline-block;vertical-align:top;background:#fff"> <table width=3D"100%" cell=
+spacing=3D"0" cellpadding=3D"0" style=3D"border-spacing:0;font-family:sans-=
+serif;color:#333;background:#fff"> <tbody> <tr> <td align=3D"left" style=3D=
+"padding:0 0 20px"> <table cellspacing=3D"0" cellpadding=3D"0" style=3D"max=
+-width:501px;width:100%;padding:0;background-color:#fff"> <tbody> <tr> <td =
+align=3D"left"> <table cellspacing=3D"0" cellpadding=3D"0" border=3D"0" ali=
+gn=3D"right" style=3D"padding:3px 0 0 15px;width:auto!important"> <tbody> <=
+tr> <td> <a href=3D"http://p.nytimes.com/email/re=3Flocation=3DpMJKdIFVI6pg=
+hfX2HXfSzxRpdoyDWYNW79a8+diLpxR0dr3Edytjtde6PMTlRqlr1RrjyIjjjSKXvNIqEqTdmoN=
+U1yZQkpp5IzEyEVvJwFvMViDzmFNB2KpsaR+VPFqNKH7pilVGwlxMoI56VzEF+w3GArMNyy/z&c=
+ampaign_id=3D2&instance_id=3D2314&segment_id=3D3305&user_id=3Dcd5365432f48f=
+4e05c37d5c8ce45e877&regi_id=3D380478330625" style=3D"color:#326891"> <img c=
+lass=3D"image-view" width=3D"75" height=3D"75" border=3D"0" alt=3D"Kim Jong=
+-pil, Political Kingmaker in South Korea, Dies at 92" src=3D"https://static=
+01.nyt.com/images/2018/06/25/business/25Kim-Jong/23Kim-Jong-pil-obit-thumbS=
+tandard-v2.jpg"> </a> </td> </tr> </tbody> </table> <a style=3D"margin:0;co=
+lor:#004276;text-decoration:none;font-family:georgia,serif;font-size:16px;l=
+ine-height:20px;font-weight:700" href=3D"http://p.nytimes.com/email/re=3Flo=
+cation=3DpMJKdIFVI6pghfX2HXfSzxRpdoyDWYNW79a8+diLpxR0dr3Edytjtde6PMTlRqlr1R=
+rjyIjjjSKXvNIqEqTdmoNU1yZQkpp5IzEyEVvJwFvMViDzmFNB2KpsaR+VPFqNKH7pilVGwlxMo=
+I56VzEF+w3GArMNyy/z&campaign_id=3D2&instance_id=3D2314&segment_id=3D3305&us=
+er_id=3Dcd5365432f48f4e05c37d5c8ce45e877&regi_id=3D380478330625" class=3D"n=
+ocolor">Kim Jong-pil, Political Kingmaker in South Korea, Dies at 92</a> <h=
+6 style=3D"color:grey;font-size:10px;font-family:arial,helvetica,sans serif=
+;line-height:12px;margin:2px 0 3px 0;padding:0;font-weight:400">By CHOE SAN=
+G-HUN</h6> <p style=3D"color:#333;font-size:14px;line-height:20px;margin:0;=
+font-family:georgia,times new roman,serif">A two-time prime minister who he=
+lped three presidents come to power, Mr. Kim never managed to win the top j=
+ob himself.</p> </td> </tr> </tbody> </table> </td> </tr> </tbody> </table>=
+ </div> <!--[if (gte mso 9)|(IE)]></td></tr><![endif]--> <!--[if (gte mso 9=
+)|(IE)]><tr><td width=3D"100%" valign=3D"top" style=3D"padding-bottom: 15px=
+;"><![endif]--> <div style=3D"width:100%;max-width:501px;display:inline-blo=
+ck;vertical-align:top;background:#fff"> <table width=3D"100%" cellspacing=
+=3D"0" cellpadding=3D"0" style=3D"border-spacing:0;font-family:sans-serif;c=
+olor:#333;background:#fff"> <tbody> <tr> <td align=3D"left" style=3D"paddin=
+g:0 0 20px"> <table cellspacing=3D"0" cellpadding=3D"0" style=3D"max-width:=
+501px;width:100%;padding:0;background-color:#fff"> <tbody> <tr> <td align=
+=3D"left"> <table cellspacing=3D"0" cellpadding=3D"0" border=3D"0" align=3D=
+"right" style=3D"padding:3px 0 0 15px;width:auto!important"> <tbody> <tr> <=
+td> <a href=3D"http://p.nytimes.com/email/re=3Flocation=3DpMJKdIFVI6pghfX2H=
+XfSzxRpdoyDWYNW79a8+diLpxS5zUTo6d010jtlf7Jgf3PpfAg27T9OgnjcNWfjDw42ayMxMhFb=
+ycBbzFYg85hTQdiqbGkflTxajSh+6YpVRsJcTKCOelcxBfsNxgKzDcsv8w=3D=3D&campaign_i=
+d=3D2&instance_id=3D2314&segment_id=3D3305&user_id=3Dcd5365432f48f4e05c37d5=
+c8ce45e877&regi_id=3D380478330625" style=3D"color:#326891"> <img class=3D"i=
+mage-view" width=3D"75" height=3D"75" border=3D"0" alt=3D"Vinnie Paul, Pant=
+era Drummer and Heavy Metal Innovator, Is Dead at 54" src=3D"https://static=
+01.nyt.com/images/2018/06/25/obituaries/25paul-obit/24xp-paul-thumbStandard=
+-v2.jpg"> </a> </td> </tr> </tbody> </table> <a style=3D"margin:0;color:#00=
+4276;text-decoration:none;font-family:georgia,serif;font-size:16px;line-hei=
+ght:20px;font-weight:700" href=3D"http://p.nytimes.com/email/re=3Flocation=
+=3DpMJKdIFVI6pghfX2HXfSzxRpdoyDWYNW79a8+diLpxS5zUTo6d010jtlf7Jgf3PpfAg27T9O=
+gnjcNWfjDw42ayMxMhFbycBbzFYg85hTQdiqbGkflTxajSh+6YpVRsJcTKCOelcxBfsNxgKzDcs=
+v8w=3D=3D&campaign_id=3D2&instance_id=3D2314&segment_id=3D3305&user_id=3Dcd=
+5365432f48f4e05c37d5c8ce45e877&regi_id=3D380478330625" class=3D"nocolor">Vi=
+nnie Paul, Pantera Drummer and Heavy Metal Innovator, Is Dead at 54</a> <h6=
+ style=3D"color:grey;font-size:10px;font-family:arial,helvetica,sans serif;=
+line-height:12px;margin:2px 0 3px 0;padding:0;font-weight:400">By MIHIR ZAV=
+ERI</h6> <p style=3D"color:#333;font-size:14px;line-height:20px;margin:0;fo=
+nt-family:georgia,times new roman,serif">A drummer who was =E2=80=9Ctotally=
+ capable of hitting hard and rumbling thunder,=E2=80=99=E2=80=99 Mr. Paul a=
+lso loved food and would invite fans to dine at his home.</p> </td> </tr> <=
+/tbody> </table> </td> </tr> </tbody> </table> </div> <!--[if (gte mso 9)|(=
+IE)]></td></tr><![endif]--> <!--[if (gte mso 9)|(IE)]><tr><td width=3D"100%=
+" valign=3D"top" style=3D"padding-bottom: 15px;"><![endif]--> <div style=3D=
+"width:100%;max-width:501px;display:inline-block;vertical-align:top;backgro=
+und:#fff"> <table width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" style=
+=3D"border-spacing:0;font-family:sans-serif;color:#333;background:#fff"> <t=
+body> <tr> <td align=3D"left" style=3D"padding:0 0 20px"> <table cellspacin=
+g=3D"0" cellpadding=3D"0" style=3D"max-width:501px;width:100%;padding:0;bac=
+kground-color:#fff"> <tbody> <tr> <td align=3D"left"> <table cellspacing=3D=
+"0" cellpadding=3D"0" border=3D"0" align=3D"right" style=3D"padding:3px 0 0=
+ 15px;width:auto!important"> <tbody> <tr> <td> <a href=3D"http://p.nytimes.=
+com/email/re=3Flocation=3DpMJKdIFVI6pghfX2HXfSzxRpdoyDWYNW79a8+diLpxTMXuWUF=
+XwGsL4UjQTGTl6yKPuueWA1CcJjIM/h7xrDdgvCF40YYqug7LmQ9Z9krB9QoprUqe/aPyMxMhFb=
+ycBbzFYg85hTQdiqbGkflTxajSh+6YpVRsJcTKCOelcxBfsNxgKzDcsv8w=3D=3D&campaign_i=
+d=3D2&instance_id=3D2314&segment_id=3D3305&user_id=3Dcd5365432f48f4e05c37d5=
+c8ce45e877&regi_id=3D380478330625" style=3D"color:#326891"> <img class=3D"i=
+mage-view" width=3D"75" height=3D"75" border=3D"0" alt=3D"Rebecca Parris, J=
+azz Singer, Is Dead at 66" src=3D"https://static01.nyt.com/images/2018/06/2=
+3/obituaries/23PARRIS-OBIT/23PARRIS1-thumbStandard.jpg"> </a> </td> </tr> <=
+/tbody> </table> <a style=3D"margin:0;color:#004276;text-decoration:none;fo=
+nt-family:georgia,serif;font-size:16px;line-height:20px;font-weight:700" hr=
+ef=3D"http://p.nytimes.com/email/re=3Flocation=3DpMJKdIFVI6pghfX2HXfSzxRpdo=
+yDWYNW79a8+diLpxTMXuWUFXwGsL4UjQTGTl6yKPuueWA1CcJjIM/h7xrDdgvCF40YYqug7LmQ9=
+Z9krB9QoprUqe/aPyMxMhFbycBbzFYg85hTQdiqbGkflTxajSh+6YpVRsJcTKCOelcxBfsNxgKz=
+Dcsv8w=3D=3D&campaign_id=3D2&instance_id=3D2314&segment_id=3D3305&user_id=
+=3Dcd5365432f48f4e05c37d5c8ce45e877&regi_id=3D380478330625" class=3D"nocolo=
+r">Rebecca Parris, Jazz Singer, Is Dead at 66</a> <h6 style=3D"color:grey;f=
+ont-size:10px;font-family:arial,helvetica,sans serif;line-height:12px;margi=
+n:2px 0 3px 0;padding:0;font-weight:400">By ANDREW R. CHOW</h6> <p style=3D=
+"color:#333;font-size:14px;line-height:20px;margin:0;font-family:georgia,ti=
+mes new roman,serif">In a four-decade career, Ms. Parris, hailed as Boston=
+=E2=80=99s first lady of jazz, recorded 10 albums and performed with Dizzy =
+Gillespie and Gary Burton.</p> </td> </tr> </tbody> </table> </td> </tr> </=
+tbody> </table> </div> <!--[if (gte mso 9)|(IE)]></td></tr><![endif]--> <!-=
+-[if (gte mso 9)|(IE)]><tr><td width=3D"100%" valign=3D"top" style=3D"paddi=
+ng-bottom: 15px;"><![endif]--> <div style=3D"width:100%;max-width:501px;dis=
+play:inline-block;vertical-align:top;background:#fff"> <table width=3D"100%=
+" cellspacing=3D"0" cellpadding=3D"0" style=3D"border-spacing:0;font-family=
+:sans-serif;color:#333;background:#fff"> <tbody> <tr> <td align=3D"left" st=
+yle=3D"padding:0 0 20px"> <table cellspacing=3D"0" cellpadding=3D"0" style=
+=3D"max-width:501px;width:100%;padding:0;background-color:#fff"> <tbody> <t=
+r> <td align=3D"left"> <table cellspacing=3D"0" cellpadding=3D"0" border=3D=
+"0" align=3D"right" style=3D"padding:3px 0 0 15px;width:auto!important"> <t=
+body> <tr> <td> <a href=3D"http://p.nytimes.com/email/re=3Flocation=3DpMJKd=
+IFVI6pghfX2HXfSzxRpdoyDWYNW79a8+diLpxTNQw4Lo70dopzWKRjw/TROBTsZQIERSGeqJ27q=
+ZYcDrVxG4P9ih1QLG1Isjv/rYKZ3BlKdxkmV26j5e0ZF/ta6cPdVkU5W5hcfaNz8Ghr9Jdnr6DH=
+wvnH1zgqwDJEhs+2Jr1wVte201bBZxV581mEU3ARlMpJTLsQ=3D&campaign_id=3D2&instanc=
+e_id=3D2314&segment_id=3D3305&user_id=3Dcd5365432f48f4e05c37d5c8ce45e877&re=
+gi_id=3D380478330625" style=3D"color:#326891"> <img class=3D"image-view" wi=
+dth=3D"75" height=3D"75" border=3D"0" alt=3D"Donald Hall, a Poet Laureate o=
+f the Rural Life, Is Dead at 89" src=3D"https://static01.nyt.com/images/201=
+8/06/25/arts/25hallobit3/25hallobit7-thumbStandard.jpg"> </a> </td> </tr> <=
+/tbody> </table> <a style=3D"margin:0;color:#004276;text-decoration:none;fo=
+nt-family:georgia,serif;font-size:16px;line-height:20px;font-weight:700" hr=
+ef=3D"http://p.nytimes.com/email/re=3Flocation=3DpMJKdIFVI6pghfX2HXfSzxRpdo=
+yDWYNW79a8+diLpxTNQw4Lo70dopzWKRjw/TROBTsZQIERSGeqJ27qZYcDrVxG4P9ih1QLG1Isj=
+v/rYKZ3BlKdxkmV26j5e0ZF/ta6cPdVkU5W5hcfaNz8Ghr9Jdnr6DHwvnH1zgqwDJEhs+2Jr1wV=
+te201bBZxV581mEU3ARlMpJTLsQ=3D&campaign_id=3D2&instance_id=3D2314&segment_i=
+d=3D3305&user_id=3Dcd5365432f48f4e05c37d5c8ce45e877&regi_id=3D380478330625"=
+ class=3D"nocolor">Donald Hall, a Poet Laureate of the Rural Life, Is Dead =
+at 89</a> <h6 style=3D"color:grey;font-size:10px;font-family:arial,helvetic=
+a,sans serif;line-height:12px;margin:2px 0 3px 0;padding:0;font-weight:400"=
+>By DAVID KIRBY</h6> <p style=3D"color:#333;font-size:14px;line-height:20px=
+;margin:0;font-family:georgia,times new roman,serif">The prolific Mr. Hall =
+was also a memoirist, an essayist and a children=E2=80=99s book author, not=
+ to mention a passionate Red Sox fan who wrote two books on baseball.</p> <=
+/td> </tr> </tbody> </table> </td> </tr> </tbody> </table> </div> <!--[if (=
+gte mso 9)|(IE)]></td></tr><![endif]--> <!--[if (gte mso 9)|(IE)]><tr><td w=
+idth=3D"100%" valign=3D"top" style=3D"padding-bottom: 15px;"><![endif]--> <=
+div style=3D"width:100%;max-width:501px;display:inline-block;vertical-align=
+:top;background:#fff"> <table width=3D"100%" cellspacing=3D"0" cellpadding=
+=3D"0" style=3D"border-spacing:0;font-family:sans-serif;color:#333;backgrou=
+nd:#fff"> <tbody> <tr> <td align=3D"left" style=3D"padding:0 0 20px"> <tabl=
+e cellspacing=3D"0" cellpadding=3D"0" style=3D"max-width:501px;width:100%;p=
+adding:0;background-color:#fff"> <tbody> <tr> <td align=3D"left"> <table ce=
+llspacing=3D"0" cellpadding=3D"0" border=3D"0" align=3D"right" style=3D"pad=
+ding:3px 0 0 15px;width:auto!important"> <tbody> <tr> <td> <a href=3D"http:=
+//p.nytimes.com/email/re=3Flocation=3DpMJKdIFVI6pghfX2HXfSzxRpdoyDWYNW72RPK=
+COhF/I+krvhm2emWYkWU418/Tlcm0vaCUfQoxnVAv/9a172kXpGHkLH0UA4Oq02HrzEnrgXUTZD=
+qAPqS1ebW8kV5iIH3gmPKkpNAoj0pIc8Z/y1WmL0L1Z8J5fv&campaign_id=3D2&instance_i=
+d=3D2314&segment_id=3D3305&user_id=3Dcd5365432f48f4e05c37d5c8ce45e877&regi_=
+id=3D380478330625" style=3D"color:#326891"> <img class=3D"image-view" width=
+=3D"75" height=3D"75" border=3D"0" alt=3D"Overlooked No More: The Russian I=
+con Who Was Hanged for Killing a Czar" src=3D"https://static01.nyt.com/imag=
+es/2018/06/25/obituaries/25overlooked-Perovskaya-obit/00overlooked-images-t=
+wo-slide-SHMQ-thumbStandard.jpg"> </a> </td> </tr> </tbody> </table> <a sty=
+le=3D"margin:0;color:#004276;text-decoration:none;font-family:georgia,serif=
+;font-size:16px;line-height:20px;font-weight:700" href=3D"http://p.nytimes.=
+com/email/re=3Flocation=3DpMJKdIFVI6pghfX2HXfSzxRpdoyDWYNW72RPKCOhF/I+krvhm=
+2emWYkWU418/Tlcm0vaCUfQoxnVAv/9a172kXpGHkLH0UA4Oq02HrzEnrgXUTZDqAPqS1ebW8kV=
+5iIH3gmPKkpNAoj0pIc8Z/y1WmL0L1Z8J5fv&campaign_id=3D2&instance_id=3D2314&seg=
+ment_id=3D3305&user_id=3Dcd5365432f48f4e05c37d5c8ce45e877&regi_id=3D3804783=
+30625" class=3D"nocolor">Overlooked No More: The Russian Icon Who Was Hange=
+d for Killing a Czar</a> <h6 style=3D"color:grey;font-size:10px;font-family=
+:arial,helvetica,sans serif;line-height:12px;margin:2px 0 3px 0;padding:0;f=
+ont-weight:400">By EVA SOHLMAN</h6> <p style=3D"color:#333;font-size:14px;l=
+ine-height:20px;margin:0;font-family:georgia,times new roman,serif">Sophia =
+Perovskaya, an aristocrat, was executed for a political crime after leading=
+ the 1881 assassination of Czar Alexander II.</p> </td> </tr> </tbody> </ta=
+ble> </td> </tr> </tbody> </table> </div> <!--[if (gte mso 9)|(IE)]></td></=
+tr><![endif]--> <!--[if (gte mso 9)|(IE)]></table><![endif]--> <div style=
+=3D"text-align:right;margin:10px 1px 0 0"> <span style=3D"color:#666;font-s=
+ize:11px;font-family:arial,helvetica,sans-serif">For more Obituaries, go to=
+ <a href=3D"http://p.nytimes.com/email/re=3Flocation=3DpMJKdIFVI6pghfX2HXfS=
+zxRpdoyDWYNWWoKVJosZyHnq/Z+YgubmuBJgycYNTrGa80D3xDZoD9UYQb+z/4Z3VpGmY2liCPr=
+KiiduLVcoyrQ=3D&campaign_id=3D2&instance_id=3D2314&segment_id=3D3305&user_i=
+d=3Dcd5365432f48f4e05c37d5c8ce45e877&regi_id=3D38047833" style=3D"font-weig=
+ht:700;color:#004276;text-decoration:none" target=3D"_blank">NYTimes.com/Ob=
+ituaries &raquo;<a></a></span> </div> </td> </tr> </tbody> </table> <!--[if=
+ (gte mso 9)|(IE)]></td></tr></table><![endif]-->   <!--[if (gte mso 9)|(IE=
+)]><table width=3D"501" align=3D"center"><tr><td style=3D"padding: 20px 0 0=
+;"><![endif]--> <table class=3D"hybrid-padding-zero module-padding-zero" al=
+ign=3D"center" cellspacing=3D"0" cellpadding=3D"0" style=3D"border-spacing:=
+0;font-family:sans-serif;color:#333;margin:20px auto 0;width:100%;max-width=
+:501px;padding:0 10px"> <tbody> <tr> <td style=3D"padding:0;text-align:cent=
+er;font-size:0;border-top:1px solid #cbcbcb"> <!--[if (gte mso 9)|(IE)]><ta=
+ble width=3D"100%"><![endif]--> <!--[if (gte mso 9)|(IE)]><tr><td width=3D"=
+100%" valign=3D"top"><![endif]--> <div style=3D"width:100%;max-width:501px;=
+display:inline-block;vertical-align:top"> <table align=3D"left" width=3D"10=
+0%" cellspacing=3D"0" cellpadding=3D"0" style=3D"border-spacing:0;font-fami=
+ly:sans-serif;color:#333;padding:0;background:#fff"> <tbody> <tr> <td style=
+=3D"padding:15px 0 0;text-align:left;font-family:arial,helvetica,sans-serif=
+;font-weight:700" colspan=3D"1"> <div style=3D"margin:0 0 14px 0;font-size:=
+18px;font-family:arial,helvetica,sans-serif;font-weight:700;line-height:22p=
+x;color:#000"> <a name=3D"13"></a> <h6 style=3D"color:#000;font-size:18px;l=
+ine-height:22px;margin:0">Editorial</h6> </div> </td> </tr> </tbody> </tabl=
+e> </div> <!--[if (gte mso 9)|(IE)]></td></tr><![endif]--> <!--[if (gte mso=
+ 9)|(IE)]><tr><td width=3D"100%" valign=3D"top" style=3D"padding-bottom: 15=
+px;"><![endif]--> <div style=3D"width:100%;max-width:501px;display:inline-b=
+lock;vertical-align:top;background:#fff"> <table width=3D"100%" cellspacing=
+=3D"0" cellpadding=3D"0" style=3D"border-spacing:0;font-family:sans-serif;c=
+olor:#333;background:#fff"> <tbody> <tr> <td align=3D"left" style=3D"paddin=
+g:0 0 20px"> <table cellspacing=3D"0" cellpadding=3D"0" style=3D"max-width:=
+501px;width:100%;padding:0;background-color:#fff"> <tbody> <tr> <td align=
+=3D"left"> <table cellspacing=3D"0" cellpadding=3D"0" border=3D"0" align=3D=
+"right" style=3D"padding:3px 0 0 15px;width:auto!important"> <tbody> <tr> <=
+td> <a href=3D"http://p.nytimes.com/email/re=3Flocation=3DpMJKdIFVI6pghfX2H=
+XfSzxRpdoyDWYNWN1TiSyEdC6Xn1kZYamudjw7u3VSR7H7e/hCn8Fkg3GXdLtoX5dby/vF6ltYR=
+Lr7EOT3wR7DoZYnXEaBF8mpSc+oW/k4zT0em/fY6AH1rUkbzQPfENmgP1RhBv7P/hndWkaZjaWI=
+I+sqKJ24tVyjKtA=3D=3D&campaign_id=3D2&instance_id=3D2314&segment_id=3D3305&=
+user_id=3Dcd5365432f48f4e05c37d5c8ce45e877&regi_id=3D380478330625" style=3D=
+"color:#326891"> <img class=3D"image-view" width=3D"75" height=3D"75" borde=
+r=3D"0" alt=3D"It=E2=80=99s Time to Integrate New York=E2=80=99s Best Schoo=
+ls" src=3D"https://static01.nyt.com/images/2018/06/22/opinion/editorials/ne=
+w-york-specialized-school-1529680778190/new-york-specialized-school-1529680=
+778190-thumbStandard-v5.jpg"> </a> </td> </tr> </tbody> </table> <a style=
+=3D"margin:0;color:#004276;text-decoration:none;font-family:georgia,serif;f=
+ont-size:16px;line-height:20px;font-weight:700" href=3D"http://p.nytimes.co=
+m/email/re=3Flocation=3DpMJKdIFVI6pghfX2HXfSzxRpdoyDWYNWN1TiSyEdC6Xn1kZYamu=
+djw7u3VSR7H7e/hCn8Fkg3GXdLtoX5dby/vF6ltYRLr7EOT3wR7DoZYnXEaBF8mpSc+oW/k4zT0=
+em/fY6AH1rUkbzQPfENmgP1RhBv7P/hndWkaZjaWII+sqKJ24tVyjKtA=3D=3D&campaign_id=
+=3D2&instance_id=3D2314&segment_id=3D3305&user_id=3Dcd5365432f48f4e05c37d5c=
+8ce45e877&regi_id=3D380478330625" class=3D"nocolor">It=E2=80=99s Time to In=
+tegrate New York=E2=80=99s Best Schools</a> <h6 style=3D"color:grey;font-si=
+ze:10px;font-family:arial,helvetica,sans serif;line-height:12px;margin:2px =
+0 3px 0;padding:0;font-weight:400">By THE EDITORIAL BOARD</h6> <p style=3D"=
+color:#333;font-size:14px;line-height:20px;margin:0;font-family:georgia,tim=
+es new roman,serif">Black and Latino kids are being denied the same chances=
+ as other students.</p> </td> </tr> </tbody> </table> </td> </tr> </tbody> =
+</table> </div> <!--[if (gte mso 9)|(IE)]></td></tr><![endif]--> <!--[if (g=
+te mso 9)|(IE)]></table><![endif]--> <div style=3D"text-align:right;margin:=
+10px 1px 0 0"> <span style=3D"color:#666;font-size:11px;font-family:arial,h=
+elvetica,sans-serif">For more opinion, go to <a href=3D"http://p.nytimes.co=
+m/email/re=3Flocation=3DpMJKdIFVI6pghfX2HXfSzxRpdoyDWYNWWoKVJosZyHkZWbqFWfe=
+61BdRNkOoA+pLV5tbyRXmIgfeCY8qSk0CiPSkhzxn/LVaYvQvVnwnl+8=3D&campaign_id=3D2=
+&instance_id=3D2314&segment_id=3D3305&user_id=3Dcd5365432f48f4e05c37d5c8ce4=
+5e877&regi_id=3D38047833" style=3D"font-weight:700;color:#004276;text-decor=
+ation:none" target=3D"_blank">NYTimes.com/Opinion &raquo;<a></a></span> </d=
+iv> </td> </tr> </tbody> </table> <!--[if (gte mso 9)|(IE)]></td></tr></tab=
+le><![endif]-->   <!--[if (gte mso 9)|(IE)]><table width=3D"501" align=3D"c=
+enter"><tr><td style=3D"padding: 20px 0 0;"><![endif]--> <table class=3D"hy=
+brid-padding-zero module-padding-zero" align=3D"center" cellspacing=3D"0" c=
+ellpadding=3D"0" style=3D"border-spacing:0;font-family:sans-serif;color:#33=
+3;margin:20px auto 0;width:100%;max-width:501px;padding:0 10px"> <tbody> <t=
+r> <td style=3D"padding:0;text-align:center;font-size:0;border-top:1px soli=
+d #cbcbcb"> <!--[if (gte mso 9)|(IE)]><table width=3D"100%"><![endif]--> <!=
+--[if (gte mso 9)|(IE)]><tr><td width=3D"100%" valign=3D"top"><![endif]--> =
+<div style=3D"width:100%;max-width:501px;display:inline-block;vertical-alig=
+n:top"> <table align=3D"left" width=3D"100%" cellspacing=3D"0" cellpadding=
+=3D"0" style=3D"border-spacing:0;font-family:sans-serif;color:#333;padding:=
+0;background:#fff"> <tbody> <tr> <td style=3D"padding:15px 0 0;text-align:l=
+eft;font-family:arial,helvetica,sans-serif;font-weight:700" colspan=3D"1"> =
+<div style=3D"margin:0 0 14px 0;font-size:18px;font-family:arial,helvetica,=
+sans-serif;font-weight:700;line-height:22px;color:#000"> <a name=3D"14"></a=
+> <h6 style=3D"color:#000;font-size:18px;line-height:22px;margin:0">Op-Ed</=
+h6> </div> </td> </tr> </tbody> </table> </div> <!--[if (gte mso 9)|(IE)]><=
+/td></tr><![endif]--> <!--[if (gte mso 9)|(IE)]><tr><td width=3D"100%" vali=
+gn=3D"top" style=3D"padding-bottom: 15px;"><![endif]--> <div style=3D"width=
+:100%;max-width:501px;display:inline-block;vertical-align:top;background:#f=
+ff"> <table width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" style=3D"bor=
+der-spacing:0;font-family:sans-serif;color:#333;background:#fff"> <tbody> <=
+tr> <td align=3D"left" style=3D"padding:0 0 20px"> <table cellspacing=3D"0"=
+ cellpadding=3D"0" style=3D"max-width:501px;width:100%;padding:0;background=
+-color:#fff"> <tbody> <tr> <td align=3D"left"> <table cellspacing=3D"0" cel=
+lpadding=3D"0" border=3D"0" align=3D"right" style=3D"padding:3px 0 0 15px;w=
+idth:auto!important"> <tbody> <tr> <td> <a href=3D"http://p.nytimes.com/ema=
+il/re=3Flocation=3DpMJKdIFVI6pghfX2HXfSzxRpdoyDWYNW79a8+diLpxSZaaskRtv1zbVg=
+Zbdmz57vHWltPVICvxhYuZ+PDXWkWE6kqPfMH0dQP9r/EveGJDhBSHa+oHWFEzR7f6Tb+JI12ev=
+oMfC+cfXOCrAMkSGz7YmvXBW17bTVsFnFXnzWYRTcBGUyklMuxA=3D=3D&campaign_id=3D2&i=
+nstance_id=3D2314&segment_id=3D3305&user_id=3Dcd5365432f48f4e05c37d5c8ce45e=
+877&regi_id=3D380478330625" style=3D"color:#326891"> <img class=3D"image-vi=
+ew" width=3D"75" height=3D"75" border=3D"0" alt=3D"How Entitled Parents Hur=
+t Schools" src=3D"https://static01.nyt.com/images/2018/06/24/opinion/24lare=
+au/24lareau-thumbStandard.jpg"> </a> </td> </tr> </tbody> </table> <a style=
+=3D"margin:0;color:#004276;text-decoration:none;font-family:georgia,serif;f=
+ont-size:16px;line-height:20px;font-weight:700" href=3D"http://p.nytimes.co=
+m/email/re=3Flocation=3DpMJKdIFVI6pghfX2HXfSzxRpdoyDWYNW79a8+diLpxSZaaskRtv=
+1zbVgZbdmz57vHWltPVICvxhYuZ+PDXWkWE6kqPfMH0dQP9r/EveGJDhBSHa+oHWFEzR7f6Tb+J=
+I12evoMfC+cfXOCrAMkSGz7YmvXBW17bTVsFnFXnzWYRTcBGUyklMuxA=3D=3D&campaign_id=
+=3D2&instance_id=3D2314&segment_id=3D3305&user_id=3Dcd5365432f48f4e05c37d5c=
+8ce45e877&regi_id=3D380478330625" class=3D"nocolor">How Entitled Parents Hu=
+rt Schools</a> <h6 style=3D"color:grey;font-size:10px;font-family:arial,hel=
+vetica,sans serif;line-height:12px;margin:2px 0 3px 0;padding:0;font-weight=
+:400">By ANNETTE LAREAU, ELLIOT B. WEININGER and AMANDA BARRETT COX</h6> <p=
+ style=3D"color:#333;font-size:14px;line-height:20px;margin:0;font-family:g=
+eorgia,times new roman,serif">Affluent parents who wield connections and re=
+sources to get their way can wreak havoc on schools.</p> </td> </tr> </tbod=
+y> </table> </td> </tr> </tbody> </table> </div> <!--[if (gte mso 9)|(IE)]>=
+</td></tr><![endif]--> <!--[if (gte mso 9)|(IE)]><tr><td width=3D"100%" val=
+ign=3D"top" style=3D"padding-bottom: 15px;"><![endif]--> <div style=3D"widt=
+h:100%;max-width:501px;display:inline-block;vertical-align:top;background:#=
+fff"> <table width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" style=3D"bo=
+rder-spacing:0;font-family:sans-serif;color:#333;background:#fff"> <tbody> =
+<tr> <td align=3D"left" style=3D"padding:0 0 20px"> <table cellspacing=3D"0=
+" cellpadding=3D"0" style=3D"max-width:501px;width:100%;padding:0;backgroun=
+d-color:#fff"> <tbody> <tr> <td align=3D"left"> <table cellspacing=3D"0" ce=
+llpadding=3D"0" border=3D"0" align=3D"right" style=3D"padding:3px 0 0 15px;=
+width:auto!important"> <tbody> <tr> <td> <a href=3D"http://p.nytimes.com/em=
+ail/re=3Flocation=3DpMJKdIFVI6pghfX2HXfSzxRpdoyDWYNW79a8+diLpxSZaaskRtv1zTg=
+UHESouQuzi29DKIBze7X7egCj2nszjF11WLqTivRSGoCEKLqzcJ8hQQ8YAMdfejuoN6r/giAVx8=
+zaMb1wC6+hIrvRMIwtqA=3D=3D&campaign_id=3D2&instance_id=3D2314&segment_id=3D=
+3305&user_id=3Dcd5365432f48f4e05c37d5c8ce45e877&regi_id=3D380478330625" sty=
+le=3D"color:#326891"> <img class=3D"image-view" width=3D"75" height=3D"75" =
+border=3D"0" alt=3D"White Extinction Anxiety" src=3D"https://static01.nyt.c=
+om/images/2018/06/24/opinion/24blowWEB/24blowWEB-thumbStandard.jpg"> </a> <=
+/td> </tr> </tbody> </table> <h4 style=3D"color:#000;text-transform:upperca=
+se;font-family:arial,helvetica,sans serif;font-size:10px;line-height:12px;m=
+argin:0 0 3px 0;padding:0;font-weight:400">Op-Ed Columnist</h4> <a style=3D=
+"margin:0;color:#004276;text-decoration:none;font-family:georgia,serif;font=
+-size:16px;line-height:20px;font-weight:700" href=3D"http://p.nytimes.com/e=
+mail/re=3Flocation=3DpMJKdIFVI6pghfX2HXfSzxRpdoyDWYNW79a8+diLpxSZaaskRtv1zT=
+gUHESouQuzi29DKIBze7X7egCj2nszjF11WLqTivRSGoCEKLqzcJ8hQQ8YAMdfejuoN6r/giAVx=
+8zaMb1wC6+hIrvRMIwtqA=3D=3D&campaign_id=3D2&instance_id=3D2314&segment_id=
+=3D3305&user_id=3Dcd5365432f48f4e05c37d5c8ce45e877&regi_id=3D380478330625" =
+class=3D"nocolor">White Extinction Anxiety</a> <h6 style=3D"color:grey;font=
+-size:10px;font-family:arial,helvetica,sans serif;line-height:12px;margin:2=
+px 0 3px 0;padding:0;font-weight:400">By CHARLES M. BLOW</h6> <p style=3D"c=
+olor:#333;font-size:14px;line-height:20px;margin:0;font-family:georgia,time=
+s new roman,serif">Trump=E2=80=99s immigration policy stems from panic over=
+ white loss of power.</p> </td> </tr> </tbody> </table> </td> </tr> </tbody=
+> </table> </div> <!--[if (gte mso 9)|(IE)]></td></tr><![endif]--> <!--[if =
+(gte mso 9)|(IE)]><tr><td width=3D"100%" valign=3D"top" style=3D"padding-bo=
+ttom: 15px;"><![endif]--> <div style=3D"width:100%;max-width:501px;display:=
+inline-block;vertical-align:top;background:#fff"> <table width=3D"100%" cel=
+lspacing=3D"0" cellpadding=3D"0" style=3D"border-spacing:0;font-family:sans=
+-serif;color:#333;background:#fff"> <tbody> <tr> <td align=3D"left" style=
+=3D"padding:0 0 20px"> <table cellspacing=3D"0" cellpadding=3D"0" style=3D"=
+max-width:501px;width:100%;padding:0;background-color:#fff"> <tbody> <tr> <=
+td align=3D"left"> <table cellspacing=3D"0" cellpadding=3D"0" border=3D"0" =
+align=3D"right" style=3D"padding:3px 0 0 15px;width:auto!important"> <tbody=
+> <tr> <td> <a href=3D"http://p.nytimes.com/email/re=3Flocation=3DpMJKdIFVI=
+6pghfX2HXfSzxRpdoyDWYNW79a8+diLpxSZaaskRtv1zTS+PZH3sqHbN/p71EK2w/FFfQ7l/q/6=
+uSnY7PQoVunIYx/IomRxCxYGTAMd1/anmEj/K/izfvEzo4h7sujGYvR6meMZzkxu2w=3D=3D&ca=
+mpaign_id=3D2&instance_id=3D2314&segment_id=3D3305&user_id=3Dcd5365432f48f4=
+e05c37d5c8ce45e877&regi_id=3D380478330625" style=3D"color:#326891"> <img cl=
+ass=3D"image-view" width=3D"75" height=3D"75" border=3D"0" alt=3D"Jailing F=
+amilies Together" src=3D"https://static01.nyt.com/images/2018/06/24/opinion=
+/24chappatte/24chappatte-thumbStandard.jpg"> </a> </td> </tr> </tbody> </ta=
+ble> <h4 style=3D"color:#000;text-transform:uppercase;font-family:arial,hel=
+vetica,sans serif;font-size:10px;line-height:12px;margin:0 0 3px 0;padding:=
+0;font-weight:400">Op-Ed Columnist</h4> <a style=3D"margin:0;color:#004276;=
+text-decoration:none;font-family:georgia,serif;font-size:16px;line-height:2=
+0px;font-weight:700" href=3D"http://p.nytimes.com/email/re=3Flocation=3DpMJ=
+KdIFVI6pghfX2HXfSzxRpdoyDWYNW79a8+diLpxSZaaskRtv1zTS+PZH3sqHbN/p71EK2w/FFfQ=
+7l/q/6uSnY7PQoVunIYx/IomRxCxYGTAMd1/anmEj/K/izfvEzo4h7sujGYvR6meMZzkxu2w=3D=
+=3D&campaign_id=3D2&instance_id=3D2314&segment_id=3D3305&user_id=3Dcd536543=
+2f48f4e05c37d5c8ce45e877&regi_id=3D380478330625" class=3D"nocolor">Jailing =
+Families Together</a> <h6 style=3D"color:grey;font-size:10px;font-family:ar=
+ial,helvetica,sans serif;line-height:12px;margin:2px 0 3px 0;padding:0;font=
+-weight:400">By PATRICK CHAPPATTE</h6> <p style=3D"color:#333;font-size:14p=
+x;line-height:20px;margin:0;font-family:georgia,times new roman,serif">Dete=
+ntion centers are nothing like =E2=80=98summer camps.=E2=80=99</p> </td> </=
+tr> </tbody> </table> </td> </tr> </tbody> </table> </div> <!--[if (gte mso=
+ 9)|(IE)]></td></tr><![endif]--> <!--[if (gte mso 9)|(IE)]></table><![endif=
+]--> <div style=3D"text-align:right;margin:10px 1px 0 0"> <span style=3D"co=
+lor:#666;font-size:11px;font-family:arial,helvetica,sans-serif">For more op=
+inion, go to <a href=3D"http://p.nytimes.com/email/re=3Flocation=3DpMJKdIFV=
+I6pghfX2HXfSzxRpdoyDWYNWWoKVJosZyHkZWbqFWfe61BdRNkOoA+pLV5tbyRXmIgfeCY8qSk0=
+CiPSkhzxn/LVaYvQvVnwnl+8=3D&campaign_id=3D2&instance_id=3D2314&segment_id=
+=3D3305&user_id=3Dcd5365432f48f4e05c37d5c8ce45e877&regi_id=3D38047833" styl=
+e=3D"font-weight:700;color:#004276;text-decoration:none" target=3D"_blank">=
+NYTimes.com/Opinion &raquo;<a></a></span> </div> </td> </tr> </tbody> </tab=
+le> <!--[if (gte mso 9)|(IE)]></td></tr></table><![endif]-->  <!--[if (gte =
+mso 9)|(IE)]><table width=3D"501" align=3D"center"><tr><td style=3D"padding=
+: 20px 0 0;"><![endif]--> <table class=3D"hybrid-padding-zero module-paddin=
+g-zero" align=3D"center" cellspacing=3D"0" cellpadding=3D"0" style=3D"borde=
+r-spacing:0;font-family:sans-serif;color:#333;Margin:20px auto 0;width:100%=
+;max-width:501px;padding:0 10px"> <tbody> <tr> <td style=3D"padding:0;text-=
+align:center;font-size:0"> <!--[if (gte mso 9)|(IE)]><table width=3D"100%">=
+<![endif]--> <!--[if (gte mso 9)|(IE)]><tr><td width=3D"100%" valign=3D"top=
+"><![endif]--> <div style=3D"width:100%;max-width:501px;display:block;verti=
+cal-align:top"> <table width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" s=
+tyle=3D"border-spacing:0;font-family:sans-serif;color:#333;background-color=
+:#f7f7f7;border-top:3px solid #000;font-size:11px;padding:0;min-width:100%"=
+> <tbody> <tr> <td align=3D"center" style=3D"text-align:center;background-c=
+olor:#f7f7f7;font-size:10px;padding:25px 3px 30px"> <!--[if (gte mso 9)|(IE=
+)]><table width=3D"100%"><tr><td valign=3D"top" align=3D"center" style=3D"p=
+adding: 0 20px 0 0;"><![endif]--> <div style=3D"display:inline-block;vertic=
+al-align:top;line-height:20px"> <span style=3D"font-size:10px;color:#000001=
+;padding:0 20px 0 0" align=3D"center">Follow NYTimes</span> </div> <!--[if =
+(gte mso 9)|(IE)]></td><td valign=3D"top" align=3D"center"><![endif]--> <di=
+v style=3D"display:inline-block;vertical-align:top;line-height:20px"> <!--[=
+if (gte mso 9)|(IE)]><table><tr><td style=3D"padding: 0 5px 0 0;" valign=3D=
+"bottom"><![endif]--> <div style=3D"display:inline-block"> <img width=3D"13=
+" height=3D"14" alt=3D"Facebook" style=3D"vertical-align:middle" src=3D"htt=
+ps://static01.nyt.com/ads/emailads/images/footer/facebook_retina.png"> <!--=
+[if (gte mso 9)|(IE)]></td><td style=3D"padding: 0 10px 0 0;" valign=3D"top=
+"><![endif]--><span style=3D"padding:0 10px 0 3px"> <a href=3D"http://p.nyt=
+imes.com/email/re=3Flocation=3DpMJKdIFVI6pZ5kgOZt1irAHe1NgWm6x+KwnpF5LeC9M=
+=3D&campaign_id=3D2&instance_id=3D2314&segment_id=3D3305&user_id=3Dcd536543=
+2f48f4e05c37d5c8ce45e877&regi_id=3D38047833" style=3D"font-family:arial,hel=
+vetica,sans-serif;color:#000001;font-weight:700;font-size:10px;text-decorat=
+ion:none" class=3D"nocolor">FACEBOOK</a> </span> </div> <!--[if (gte mso 9)=
+|(IE)]></td><td style=3D"padding: 0 5px 0 0;" valign=3D"bottom"><![endif]--=
+> <div style=3D"display:inline-block"> <img width=3D"13" height=3D"14" alt=
+=3D"Twitter" style=3D"vertical-align:middle" src=3D"https://static01.nyt.co=
+m/ads/emailads/images/footer/twitter_retina.png"> <!--[if (gte mso 9)|(IE)]=
+></td><td style=3D"padding: 0 10px 0 0;" valign=3D"top"><![endif]--><span s=
+tyle=3D"padding:0 10px 0 3px"> <a href=3D"http://p.nytimes.com/email/re=3Fl=
+ocation=3DpMJKdIFVI6pehkIEQ5/wRiQHIr5vevTXiIjeDK3K+wg=3D&campaign_id=3D2&in=
+stance_id=3D2314&segment_id=3D3305&user_id=3Dcd5365432f48f4e05c37d5c8ce45e8=
+77&regi_id=3D38047833" style=3D"font-family:arial,helvetica,sans-serif;font=
+-size:10px;color:#000001;font-weight:700;text-decoration:none" class=3D"noc=
+olor">@NYTimes</a> </span> </div> <!--[if (gte mso 9)|(IE)]></td><td style=
+=3D"padding: 0 5px 0 0;" valign=3D"bottom"><![endif]--> <div style=3D"displ=
+ay:inline-block"><img width=3D"14" height=3D"14" alt=3D"Pinterest" style=3D=
+"vertical-align:middle" src=3D"https://static01.nyt.com/images/icons/pinter=
+est_icon_16x16.gif"> <!--[if (gte mso 9)|(IE)]></td><td style=3D"padding: 0=
+ 10px 0 0;" valign=3D"top"><![endif]--><span style=3D"padding:0 10px 0 3px"=
+> <a href=3D"http://p.nytimes.com/email/re=3Flocation=3DhdaNaYedr297jpfI/H7=
+CmykPlXZXAClXnF7x25YIv5E=3D&campaign_id=3D2&instance_id=3D2314&segment_id=
+=3D3305&user_id=3Dcd5365432f48f4e05c37d5c8ce45e877&regi_id=3D38047833" styl=
+e=3D"font-family:arial,helvetica,sans-serif;font-size:10px;color:#000001;fo=
+nt-weight:700;text-decoration:none" class=3D"nocolor">Pinterest</a> </span>=
+ </div> <!--[if (gte mso 9)|(IE)]></td><td style=3D"padding: 0 5px 0 0;" va=
+lign=3D"bottom"><![endif]--> <div style=3D"display:inline-block"><img width=
+=3D"14" height=3D"14" alt=3D"Instagram" style=3D"vertical-align:middle" src=
+=3D"https://static01.nytimes.com/images/icons/sharetools/classic/instagram-=
+16x16.gif"> <!--[if (gte mso 9)|(IE)]></td><td style=3D"padding: 0;" valign=
+=3D"top"><![endif]--><span style=3D"padding:0 10px 0 3px"> <a href=3D"http:=
+//p.nytimes.com/email/re=3Flocation=3DpMJKdIFVI6p2aF3Q0gB+c7wMKmH9JAr+Ct5y2=
+F03+3A=3D&campaign_id=3D2&instance_id=3D2314&segment_id=3D3305&user_id=3Dcd=
+5365432f48f4e05c37d5c8ce45e877&regi_id=3D38047833" style=3D"font-family:ari=
+al,helvetica,sans-serif;font-size:10px;color:#000001;font-weight:700;text-d=
+ecoration:none" class=3D"nocolor">Instagram</a> </span> </div> <!--[if (gte=
+ mso 9)|(IE)]></td></tr></table><![endif]--> </div> <!--[if (gte mso 9)|(IE=
+)]></td></tr></table><![endif]--> </td> </tr> </tbody> </table> </div> <!--=
+[if (gte mso 9)|(IE)]></td></tr><![endif]--> <!--[if (gte mso 9)|(IE)]><tr>=
+<td width=3D"100%" valign=3D"top"><![endif]--> <div style=3D"width:100%;max=
+-width:501px;display:block;vertical-align:top;padding:0;border:0;margin:0">=
+ <table width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" style=3D"border-=
+spacing:0;font-family:sans-serif;color:#333;background-color:#f7f7f7;border=
+-top:1px solid #ccc;font-size:11px;padding:0;min-width:100%"> <tbody> <tr> =
+<td align=3D"center" style=3D"padding:20px 0 20px;font-family:Arial,Helveti=
+ca,sans-serif"> <!--[if (gte mso 9)|(IE)]><table width=3D"100%"><tr><td wid=
+th=3D"43%" align=3D"right" valign=3D"top"><![endif]--> <div style=3D"max-wi=
+dth:260px;width:100%;display:inline-block;vertical-align:top;text-align:cen=
+ter;padding:0"> <span style=3D"color:#333;font-family:arial,helvetica,sans-=
+serif;font-size:13px;line-height:17px"> Get more <strong> <a href=3D"http:/=
+/p.nytimes.com/email/re=3Flocation=3DpMJKdIFVI6pghfX2HXfSzxRpdoyDWYNW92ocuc=
+jMeAYs4/pTmFOYNl9u6wqhf7YCIUEPGADHX3o7qDeq/4IgFcfM2jG9cAuvoSK70TCMLag=3D&ca=
+mpaign_id=3D2&instance_id=3D2314&segment_id=3D3305&user_id=3Dcd5365432f48f4=
+e05c37d5c8ce45e877&regi_id=3D38047833h_180625" style=3D"color:#004276!impor=
+tant;text-decoration:none!important" class=3D"nocolor">NYTimes.com newslett=
+ers =C2=BB</a> </strong> </span> </div> <!--[if (gte mso 9)|(IE)]></td><td =
+width=3D"1%" align=3D"left" valign=3D"top" height=3D"100%"><![endif]--> <di=
+v style=3D"max-width:3px;width:100%;display:inline-block;vertical-align:top=
+;text-align:left;padding:0"> <span class=3D"hide-bar" style=3D"margin-right=
+:3px;font-size:15px;color:#e2e2e2">|</span> </div> <!--[if (gte mso 9)|(IE)=
+]></td><td width=3D"50%" align=3D"left" valign=3D"bottom" height=3D"100%"><=
+![endif]--> <div class=3D"media-padding" style=3D"max-width:300px;width:100=
+%;display:inline-block;padding:0;text-align:center"> <span style=3D"color:#=
+333;font-family:arial,helvetica,sans-serif;font-size:13px;line-height:17px"=
+> Get unlimited access to NYTimes.com and our NYTimes apps. <a href=3D"http=
+://p.nytimes.com/email/re=3Flocation=3DpMJKdIFVI6pghfX2HXfSzxRpdoyDWYNW/kmN=
+V8gYrp61BfqbNl/dLz2q1X6bqVB//3Xl6bn2V/wne/8GjlEok7W89knVOVVczFYg85hTQdiqbGk=
+flTxajSh+6YpVRsJcTKCOelcxBfsNxgKzDcsv8w=3D=3D&campaign_id=3D2&instance_id=
+=3D2314&segment_id=3D3305&user_id=3Dcd5365432f48f4e05c37d5c8ce45e877&regi_i=
+d=3D38047833h_180625" style=3D"color:#004276!important;text-decoration:none=
+!important" class=3D"nocolor"> <strong>Subscribe &raquo;</strong> </a> </sp=
+an> </div> <!--[if (gte mso 9)|(IE)]></td></tr></table><![endif]--> </td> <=
+/tr> </tbody> </table> </div> <!--[if (gte mso 9)|(IE)]></td></tr><![endif]=
+--> <!--[if (gte mso 9)|(IE)]></table><![endif]--> </td> </tr> </tbody> </t=
+able> <!--[if (gte mso 9)|(IE)]></td></tr></table><![endif]--> <!--[if (gte=
+ mso 9)|(IE)]><table width=3D"501" align=3D"center"><tr><td><![endif]--> <t=
+able class=3D"hybrid-padding-zero module-padding-zero" align=3D"center" cel=
+lspacing=3D"0" cellpadding=3D"0" style=3D"border-spacing:0;font-family:sans=
+-serif;color:#333;Margin:0 auto;width:100%;max-width:501px;padding:0 10px">=
+ <tbody> <tr> <td style=3D"padding:0;text-align:center;font-size:0"> <!--[i=
+f (gte mso 9)|(IE)]><table width=3D"100%"><tr><td width=3D"100%" valign=3D"=
+top"><![endif]--> <div style=3D"width:100%;max-width:500px;display:inline-b=
+lock;vertical-align:top"> <table align=3D"left" width=3D"100%" cellspacing=
+=3D"0" cellpadding=3D"0" style=3D"border-spacing:0;font-family:sans-serif;c=
+olor:#333;padding:0;background:#fff;min-width:100%"> <tbody> <tr> <td class=
+=3D"footer" align=3D"center" style=3D"font-size:11px;font-family:arial,helv=
+etica,sans-serif;padding:30px 0 32px;text-align:center" colspan=3D"2"> <div=
+> <h4 style=3D"color:#000001;margin:0;font-size:11px;line-height:13px;paddi=
+ng-bottom:5px;font-weight:700;text-transform:none">ABOUT THIS EMAIL</h4> <p=
+ style=3D"color:#333;font-size:11px;line-height:15px;margin:0"> This is an =
+automated email. Please do not reply directly to this email from NYTimes.co=
+m. </p> <p style=3D"color:#333;margin:5px 0 0;padding-bottom:12px">You rece=
+ived this message because you signed up for NYTimes.com's Today's Headlines=
+ newsletter.</p> </div> <div> <span> <a style=3D"color:#004276;text-decorat=
+ion: none;" href=3D"http://www.nytimes.com/gst/unsub.html=3Fet=3Dcb16984020=
+563abc865b482943799d4bf0243076c84945d85a32ee8e1a522a35f377cb57e7c9876720fd7=
+1bc8deb74cc&segment=3D3305&group=3Dnl&product=3DTH">Unsubscribe</a> <span s=
+tyle=3D"padding: 0 3px 0 3px; font-size:11px; color: #666;">|</span> </span=
+> <span style=3D"display:inline-block"> <a href=3D"http://p.nytimes.com/ema=
+il/re=3Flocation=3D4z5Q7LhI+KVBjmEgFdYACHjdnNiNT4YK1ml0lu7p/qs=3D&campaign_=
+id=3D2&instance_id=3D2314&segment_id=3D3305&user_id=3Dcd5365432f48f4e05c37d=
+5c8ce45e877&regi_id=3D38047833" style=3D"color:#326891;text-decoration:none=
+;font-size:11px;line-height:15px;padding-right:7px" target=3D"_blank">Manag=
+e Subscriptions</a> <span style=3D"color:#e2e2e2;font-size:15px;padding-rig=
+ht:7px">|</span> </span> <span style=3D"display:inline-block"> <a style=3D"=
+color:#326891;text-decoration:none;font-size:11px;line-height:15px;padding-=
+right:7px" href=3D"http://p.nytimes.com/email/re=3Flocation=3DpMJKdIFVI6rcM=
+VYYXia0CswGfPcU3iP2BbboDbCax1YCgTSJ+ur9HYmQrDEfi8r9&campaign_id=3D2&instanc=
+e_id=3D2314&segment_id=3D3305&user_id=3Dcd5365432f48f4e05c37d5c8ce45e877&re=
+gi_id=3D38047833" class=3D"nocolor">Change Your Email</a> <span style=3D"co=
+lor:#e2e2e2;font-size:15px;padding-right:7px">|</span> </span> <span style=
+=3D"margin-left:0;display:inline-block"> <a style=3D"color:#326891;text-dec=
+oration:none;font-size:11px;line-height:15px;padding-right:7px" href=3D"htt=
+p://p.nytimes.com/email/re=3Flocation=3DpMJKdIFVI6pghfX2HXfSzxRpdoyDWYNWMwS=
+LE6cU/urBx813MyGsL0XP0t/O4b60NCgWjfgNb5x869on8duNLDHp9wqKH4br2NePg2QT61E=3D=
+&campaign_id=3D2&instance_id=3D2314&segment_id=3D3305&user_id=3Dcd5365432f4=
+8f4e05c37d5c8ce45e877&regi_id=3D38047833" class=3D"nocolor">Privacy Policy<=
+/a> <span style=3D"color:#e2e2e2;font-size:15px;padding-right:7px">|</span>=
+ </span> <span style=3D"margin-left:0;display:inline-block"> <a style=3D"co=
+lor:#326891;text-decoration:none;font-size:11px;line-height:15px;padding-ri=
+ght:7px" href=3D"http://p.nytimes.com/email/re=3Flocation=3DpMJKdIFVI6rcMVY=
+YXia0CswGfPcU3iP2BbboDbCax1Z6HmtDwlSJwGtgj3kXzFBYiZCsMR+Lyv0=3D&campaign_id=
+=3D2&instance_id=3D2314&segment_id=3D3305&user_id=3Dcd5365432f48f4e05c37d5c=
+8ce45e877&regi_id=3D38047833" class=3D"nocolor"> Contact</a> <span style=3D=
+"color:#e2e2e2;font-size:15px;padding-right:7px">|</span> </span> <span sty=
+le=3D"display:inline-block"> <a style=3D"color:#326891;text-decoration:none=
+;font-size:11px;line-height:15px" href=3D"http://p.nytimes.com/email/re=3Fl=
+ocation=3DInCMR7g4BCJlZQa30jFVWuqjqYYyXX9m&campaign_id=3D2&instance_id=3D23=
+14&segment_id=3D3305&user_id=3Dcd5365432f48f4e05c37d5c8ce45e877&regi_id=3D3=
+8047833" class=3D"nocolor">Advertise</a> </span> </div> </td> </tr> </tbody=
+> </table> </div> <!--[if (gte mso 9)|(IE)]></td></tr><tr><td width=3D"100%=
+" valign=3D"top"><![endif]--> <div style=3D"width:100%;max-width:501px;disp=
+lay:inline-block;vertical-align:top"> <table width=3D"100%" cellspacing=3D"=
+0" cellpadding=3D"0" style=3D"border-spacing:0;font-family:sans-serif;color=
+:#333;background:#fff;border-top:1px solid #000;font-size:11px;padding:15px=
+ 0 30px;min-width:100%"> <tbody> <tr> <td style=3D"height:20px;padding:3px =
+7px 4px 0;text-align:center;font-size:0"> <small style=3D"color:#333;font-f=
+amily:arial,helvetica,sans serif;font-size:11px;line-height:15px"> Copyrigh=
+t 2018 The New York Times Company <br class=3D"f-break"> <span class=3D"hid=
+e">620 Eighth Avenue New York, NY 10018</span> </small> </td> </tr> <tr> <t=
+d> <img src=3D"http://pixel.monitor1.returnpath.net/pixel.gif=3Fr=3D9dbaad5=
+20ccf62ad66a806f22f1f3b4689e74e0c&id=3D38047833&c=3D<no value>&gender=3D<no=
+ value>" width=3D"1" height=3D"1" /> <img src=3D"https://et.nytimes.com/pix=
+el=3Fsubject=3Dnewsletter-impression&campaignInstanceId=3D<no value>&id=3D3=
+8047833&segment=3D3305&product=3DTH" width=3D"1" height=3D"1" /></td> </tr>=
+ </tbody> </table> </div> <!--[if (gte mso 9)|(IE)]></td></tr></table><![en=
+dif]--> </td> </tr> </tbody> </table> <!--[if (gte mso 9)|(IE)]></td></tr><=
+/table><![endif]--> <!--[if (gte mso 9)|(IE)]></td></tr></table><![endif]--=
+> </div> </center> =0D=0A<img border=3D"0" width=3D"1" height=3D"1" alt=3D"=
+" src=3D"http://nyt.et.e.sparkpost.com/q/FUmlZLHYpoGe5AsCxxHa3w~~/AAAAAQA~/=
+RgRdEydsPlcDbnl0WAQAAAAAQgoAA2yiMFvZ_3ASUhZwYW1AbWFnaWNhbHN0cmluZ3MuY29t">=
+=0D=0A</body> </html>
+

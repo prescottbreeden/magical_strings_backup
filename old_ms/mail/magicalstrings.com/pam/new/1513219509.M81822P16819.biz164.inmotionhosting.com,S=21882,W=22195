@@ -1,0 +1,313 @@
+Return-Path: <msprvs1=17521VztpYT7r=bounces-173933@bounces.hirethebest18.info>
+Delivered-To: pam@magicalstrings.com
+Received: from biz164.inmotionhosting.com
+	by biz164.inmotionhosting.com with LMTP id gGlJBLXlMVqzQQAAtEtsOg
+	for <pam@magicalstrings.com>; Wed, 13 Dec 2017 18:45:09 -0800
+Return-path: <msprvs1=17521VztpYT7r=bounces-173933@bounces.hirethebest18.info>
+Envelope-to: pam@magicalstrings.com
+Delivery-date: Wed, 13 Dec 2017 18:45:09 -0800
+Received: from mta214.spmta.com ([35.163.237.243]:7299)
+	by biz164.inmotionhosting.com with esmtps (TLSv1.2:ECDHE-RSA-AES256-GCM-SHA384:256)
+	(Exim 4.89)
+	(envelope-from <msprvs1=17521VztpYT7r=bounces-173933@bounces.hirethebest18.info>)
+	id 1ePJW5-0005RA-PP
+	for pam@magicalstrings.com; Wed, 13 Dec 2017 18:45:08 -0800
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=hirethebest18.info;
+	s=scph1217; t=1513219496; i=@hirethebest18.info;
+	bh=OMwv8PE9BDh/SL7wJI2jN/rG4u/eQrmq7asSVAA6oZ4=;
+	h=Reply-To:From:To:Subject:Date:List-Unsubscribe:List-Id;
+	b=BvZF8YTyQVnfE2V6Q9PMrNZwqtTldG5k035xSBCy4ifuf6MZv9dvXLlTa4WAc4c3+
+	 w5IPjsaa0wriG6sVkG/BAmSgWTnoe0ebEU41qLHfq4Q0knP5ZUKkq+PylR4BpQLVg4
+	 BSGyciEGBjh+O6EhwLV40ep/L8hq/D/tlren/Eq0=
+X-MSFBL: jSlQtZcgBLGUW5uADTo3xm3yCIPKl+/aTlt4Z5MZKV0=|eyJyY3B0X3RhZ3MiOls
+	gXSwicmNwdF9tZXRhIjp7IH0sInRyYW5zbWlzc2lvbl9pZCI6IjEyNjkyNzY3NDU
+	1ODg4MzczIiwiaXBfcG9vbCI6InNoYXJlZCIsInRlbmFudF9pZCI6InNwYyIsInR
+	lbXBsYXRlX3ZlcnNpb24iOiIwIiwiY3VzdG9tZXJfaWQiOiIxNzM5MzMiLCJzdWJ
+	hY2NvdW50X2lkIjoiMCIsInRlbXBsYXRlX2lkIjoic210cF8xMjY5Mjc2NzQ1NTg
+	4ODM3MyIsInNlbmRpbmdfaXAiOiIzNS4xNjMuMjM3LjI0MyIsImZyaWVuZGx5X2Z
+	yb20iOiJjb2xpbkBoaXJldGhlYmVzdDE4LmluZm8iLCJiIjoiaXBfMzUuMTYzLjI
+	zNy4yNDMiLCJtZXNzYWdlX2lkIjoiMDAwMGE4ZTUzMTVhOTU3OTdhODgiLCJyIjo
+	icGFtQG1hZ2ljYWxzdHJpbmdzLmNvbSIsImlwX3Bvb2xfcmF3IjoiZ2VuZXJhbF8
+	zIiwiZyI6ImJnX2dlbmVyYWxfMyJ9
+Authentication-Results:  a.mta1vsmtp.cc.prd.sparkpost smtp.user=<hidden>; auth=pass (LOGIN)
+Received: from [104.168.136.154] ([104.168.136.154:55612] helo=WIN-VO5ED0ATK2S)
+	by a.mta1vsmtp.cc.prd.sparkpost (envelope-from <colin@hirethebest18.info>)
+	(ecelerity 4.2.38.62433 r(:)) with ESMTPA
+	id A7/88-31125-8A5E13A5; Thu, 14 Dec 2017 02:44:56 +0000
+Organization: HYH
+Reply-To: <colin@hirethebest18.info>
+Message-ID: <8df5ca91ffdc467eb1d9e2a0002e4e48@hirethebest18.info>
+From: "Colin Miller" <colin@hirethebest18.info>
+To: "Pamela" <pam@magicalstrings.com>
+Subject: unfilled positions
+Date: Wed, 13 Dec 2017 18:40:29 -0800
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="205f01ccbdf20207c0b0ed6a25e92"
+List-Unsubscribe: <mailto:unsubscribe@unsub.spmta.com?subject=unsubscribe:v3Gip0x4tZ474cNYDwcycuMRH7wBcyRhrrMLGpZAQTc~|eyAicmNwdF90byI6ICJwYW1AbWFnaWNhbHN0cmluZ3MuY29tIiwgInJjcHRfbWV0YSI6ICJ7fSIsICJ0ZW5hbnRfaWQiOiAic3BjIiwgInN1YmFjY291bnRfaWQiOiAiMCIsICJzZW5kaW5nX2lwIjogIjM1LjE2My4yMzcuMjQzIiwgIm1haWxmcm9tIjogIm1zcHJ2czE9MTc1MjFWenRwWVQ3cj1ib3VuY2VzLTE3MzkzM0Bib3VuY2VzLmhpcmV0aGViZXN0MTguaW5mbyIsICJpcF9wb29sIjogInNoYXJlZCIsICJpcF9wb29sX3JhdyI6ICJnZW5lcmFsXzMiLCAiY3VzdG9tZXJfaWQiOiAiMTczOTMzIiwgInRyYW5zbWlzc2lvbl9pZCI6ICIxMjY5Mjc2NzQ1NTg4ODM3MyIsICJmcmllbmRseV9mcm9tIjogImNvbGluQGhpcmV0aGViZXN0MTguaW5mbyIsICJtZXNzYWdlX2lkIjogIjAwMDBhOGU1MzE1YTk1Nzk3YTg4IiB9>
+List-Id: <spc-173933-0>
+X-Spam-Status: No, score=1.7
+X-Spam-Score: 17
+X-Spam-Bar: +
+X-Ham-Report: Spam detection software, running on the system "biz164.inmotionhosting.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ 
+ Content preview:  Hello Pamela,   If you want to get people who have all of
+   the qualifications that you need, I can help you for less than the cost of
+    two postings. [...] 
+ 
+ Content analysis details:   (1.7 points, 5.0 required)
+ 
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was blocked.
+                             See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: hirethebest18.info]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+ -0.0 RCVD_IN_MSPIKE_H3      RBL: Good reputation (+3)
+                             [35.163.237.243 listed in wl.mailspike.net]
+ -1.9 BAYES_00               BODY: Bayes spam probability is 0 to 1%
+                             [score: 0.0000]
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.2 KAM_TRACKIMAGE         RAW: Message has a remote image explicitly meant for
+                             tracking
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily valid
+  1.9 RAZOR2_CF_RANGE_51_100 Razor2 gives confidence level above 50%
+                             [cf: 100]
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from author's
+                             domain
+  0.9 RAZOR2_CHECK           Listed in Razor2 (http://razor.sf.net/)
+ -0.0 RCVD_IN_MSPIKE_WL      Mailspike good senders
+  0.8 KAM_INFOUSMEBIZ        Prevalent use of .info|.us|.me|.me.uk|.biz domains in
+                              spam/malware
+X-Spam-Flag: NO
+
+
+--205f01ccbdf20207c0b0ed6a25e92
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain; charset="windows-1252"
+
+Hello Pamela,=0D=0A=0D=0A=A0=0D=0A=0D=0AIf you want to get people who have =
+all of the qualifications that you need, =0D=0AI can help you for less than=
+ the cost of two postings.=0D=0A=0D=0A=A0=0D=0A=0D=0AThere are=A0two steps =
+-=A0 building a database of cv's for people who live near =0D=0Ayour office=
+=A0who have the background and skills that you need.=A0 The next step =0D=
+=0Ais=A0giving them compelling reasonsto be interested in your company and =
+opportunity.=0D=0A=0D=0AI search the paid boards, and anywhere I need to on=
+ the Internet using a series =0D=0Aof precisely written search strings, the=
+n carefully screen to make sure that =0D=0Aanyone I send you has exactly th=
+e background and skill set that you need. I =0D=0Aalso look at any other fa=
+ctors that are important to you, like stability and=A0industry =0D=0Abackgr=
+ound.=0D=0A=0D=0AThe=A0result is=A0recent, qualified resumes sent to you ev=
+ery week for five weeks =0D=0Aas attachments to an e-mail, and a spreadshee=
+t with their contact information. =0D=0AHire as many people as you need to =
+=96 795 for one position 600 per for more =0D=0Athan one.=A0 I will also he=
+lp you write very engaging and persuasive emails that =0D=0Awill get talent=
+ed people interested.=0D=0A=0D=0A=A0=0D=0A=0D=0AWhat does your schedule loo=
+k like for a quick call to talk about what you're =0D=0Alooking for=3F=0D=
+=0A=0D=0A=A0=0D=0A=0D=0AI'd be happy to show you some excellent candidates.=
+=0D=0A=0D=0A=A0=0D=0A=0D=0A=A0=0D=0A=0D=0A=A0=0D=0A=0D=0AColin Miller=0D=0A=
+=0D=0ARecruiting Solutions Architect=0D=0A=0D=0AHelping You Hire=0D=0A=0D=
+=0A(415) 625-3351=0D=0A=0D=0A=A0=0D=0A=0D=0Ahttp://tracking.hirethebest18.i=
+nfo/f/a/_7p-KjakaabcBVvzCHKw4w~~/AAKnbQA~/RgRcExkoP0QZaHR0cDovL2hpcmV0aGViZ=
+XN0MTguaW5mb1cDc3BjWAQAAAAAQgoAAKjlMVqVeXqI=0D=0A=0D=0A=A0=0D=0A=0D=0A=A0=
+=0D=0A=0D=0A=A0=0D=0A=0D=0A=A0=0D=0A=0D=0A=A0=0D=0A=0D=0A=A0=0D=0A=0D=0A=A0=
+=0D=0A=0D=0A=A0=0D=0A=0D=0A=A0=0D=0A=0D=0A=A0=0D=0A=0D=0A=A0=0D=0A=0D=0A=A0=
+=0D=0A=0D=0A
+--205f01ccbdf20207c0b0ed6a25e92
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset="windows-1252"
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">=0D=0A<html>=
+=0D=0A<head>=0D=0A<meta content=3D"text/html; charset=3D" http-equiv=3D"con=
+tent-type">=0D=0A</head>=0D=0A<body style=3D"FONT-SIZE: 10pt; FONT-FAMILY: =
+Tahoma, Tahoma">=0D=0A<p><span style=3D"COLOR: #1f497d"><font color=3D#0066=
+cc size=3D2 =0D=0Aface=3DArial></p>=0D=0A<p class=3DMsoNormal style=3D"MARG=
+IN: 0in 0in 0pt; LINE-HEIGHT: normal"><span =0D=0Astyle=3D'FONT-SIZE: 12pt;=
+ COLOR: #1f497d; mso-ascii-font-family: Calibri; mso-fareast-font-family: "=
+Times New Roman"; mso-hansi-font-family: Calibri; mso-bidi-font-family: Tah=
+oma'><font =0D=0Aface=3DCalibri>Hello Pamela,</font></span></p>=0D=0A<p cla=
+ss=3DMsoNormal style=3D"MARGIN: 0in 0in 0pt; LINE-HEIGHT: normal"><span =0D=
+=0Astyle=3D'FONT-SIZE: 12pt; COLOR: #1f497d; mso-ascii-font-family: Calibri=
+; mso-fareast-font-family: "Times New Roman"; mso-hansi-font-family: Calibr=
+i; mso-bidi-font-family: Tahoma'><font =0D=0Aface=3DCalibri></font></span>&=
+nbsp;</p>=0D=0A<p class=3DMsoNormal style=3D"MARGIN: 0in 0in 0pt; LINE-HEIG=
+HT: normal"><span =0D=0Astyle=3D'FONT-SIZE: 12pt; COLOR: #1f497d; mso-ascii=
+-font-family: Calibri; mso-fareast-font-family: "Times New Roman"; mso-hans=
+i-font-family: Calibri; mso-bidi-font-family: Tahoma'><font =0D=0Aface=3DCa=
+libri>If you want to get people who have all of the qualifications that =0D=
+=0Ayou need, I can help you for less than the cost of two =0D=0Apostings.</=
+font></span></p>=0D=0A<p class=3DMsoNormal style=3D"MARGIN: 0in 0in 0pt; LI=
+NE-HEIGHT: normal"><span =0D=0Astyle=3D'FONT-SIZE: 12pt; COLOR: #1f497d; ms=
+o-ascii-font-family: Calibri; mso-fareast-font-family: "Times New Roman"; m=
+so-hansi-font-family: Calibri; mso-bidi-font-family: Tahoma'><font =0D=0Afa=
+ce=3DCalibri></font></span>&nbsp;</p>=0D=0A<p class=3DMsoNormal style=3D"MA=
+RGIN: 0in 0in 0pt; LINE-HEIGHT: normal"><span =0D=0Astyle=3D'FONT-SIZE: 12p=
+t; COLOR: #1f497d; mso-ascii-font-family: Calibri; mso-fareast-font-family:=
+ "Times New Roman"; mso-hansi-font-family: Calibri; mso-bidi-font-family: T=
+ahoma'><font =0D=0Aface=3DCalibri>There are&nbsp;two steps -<span style=3D"=
+mso-spacerun: yes">&nbsp; =0D=0A</span>building a database of cv's for peop=
+le who live near your office&nbsp;who =0D=0Ahave the background and skills =
+that you need.&nbsp; The next step is&nbsp;giving =0D=0Athem compelling rea=
+sons<span style=3D"mso-spacerun: yes"> =0D=0A</span></font></span><span =0D=
+=0Astyle=3D'FONT-SIZE: 12pt; COLOR: #1f497d; mso-ascii-font-family: Calibri=
+; mso-fareast-font-family: "Times New Roman"; mso-hansi-font-family: Calibr=
+i; mso-bidi-font-family: Tahoma'><font =0D=0Aface=3DCalibri><span style=3D"=
+mso-spacerun: yes">to be interested in your company =0D=0Aand opportunity.<=
+/span></font></span></p>=0D=0A<p><span =0D=0Astyle=3D'FONT-SIZE: 12pt; COLO=
+R: #1f497d; mso-ascii-font-family: Calibri; mso-fareast-font-family: "Times=
+ New Roman"; mso-hansi-font-family: Calibri; mso-bidi-font-family: Tahoma'>=
+<font =0D=0Aface=3DCalibri>I search the paid boards, and anywhere I need to=
+ on the Internet =0D=0Ausing a series of precisely written search strings, =
+then carefully screen to =0D=0Amake sure that anyone I send you has exactly=
+ the background and skill set that =0D=0Ayou need. I also look at any other=
+ factors that are important to you, like =0D=0Astability and&nbsp;industry =
+background.</font></span> </p>=0D=0A<p class=3DMsoNormal style=3D"MARGIN: 0=
+in 0in 0pt; LINE-HEIGHT: normal"><font =0D=0Aface=3DCalibri><span =0D=0Asty=
+le=3D'FONT-SIZE: 12pt; COLOR: #1f497d; mso-ascii-font-family: Calibri; mso-=
+fareast-font-family: "Times New Roman"; mso-hansi-font-family: Calibri; mso=
+-bidi-font-family: Tahoma'>The&nbsp;result =0D=0Ais&nbsp;recent, qualified =
+resumes sent to you every week for five weeks as =0D=0Aattachments to an e-=
+mail, and a spreadsheet with their contact information. Hire =0D=0Aas many =
+people as you need to =96 795 for one position 600 per for more than =0D=0A=
+one.<span style=3D"mso-spacerun: yes">&nbsp; </span>I will also help you wr=
+ite =0D=0Avery engaging and persuasive emails that will get talented people=
+ =0D=0Ainterested.</span></font></p>=0D=0A<p class=3DMsoNormal style=3D"MAR=
+GIN: 0in 0in 0pt; LINE-HEIGHT: normal"><font =0D=0Aface=3DCalibri><span =0D=
+=0Astyle=3D'FONT-SIZE: 12pt; COLOR: #1f497d; mso-ascii-font-family: Calibri=
+; mso-fareast-font-family: "Times New Roman"; mso-hansi-font-family: Calibr=
+i; mso-bidi-font-family: Tahoma'></span></font><font =0D=0Aface=3DCalibri><=
+span =0D=0Astyle=3D'FONT-SIZE: 12pt; COLOR: #1f497d; mso-ascii-font-family:=
+ Calibri; mso-fareast-font-family: "Times New Roman"; mso-hansi-font-family=
+: Calibri; mso-bidi-font-family: Tahoma'></span></font><font =0D=0Aface=3DC=
+alibri><span =0D=0Astyle=3D'FONT-SIZE: 12pt; COLOR: #1f497d; mso-ascii-font=
+-family: Calibri; mso-fareast-font-family: "Times New Roman"; mso-hansi-fon=
+t-family: Calibri; mso-bidi-font-family: Tahoma'></span></font>&nbsp;</p>=
+=0D=0A<p class=3DMsoNormal style=3D"MARGIN: 0in 0in 0pt; LINE-HEIGHT: norma=
+l"><font =0D=0Aface=3DCalibri><span =0D=0Astyle=3D'FONT-SIZE: 12pt; COLOR: =
+#1f497d; mso-ascii-font-family: Calibri; mso-fareast-font-family: "Times Ne=
+w Roman"; mso-hansi-font-family: Calibri; mso-bidi-font-family: Tahoma'></s=
+pan><span =0D=0Astyle=3D'FONT-SIZE: 10pt; FONT-FAMILY: "Tahoma",sans-serif;=
+ COLOR: #1f497d; mso-fareast-font-family: "Times New Roman"'><o:p></o:p></s=
+pan></font></p>=0D=0A<p class=3DMsoNormal style=3D"MARGIN: 0in 0in 0pt; LIN=
+E-HEIGHT: normal"><span =0D=0Astyle=3D'FONT-SIZE: 10pt; FONT-FAMILY: "Tahom=
+a",sans-serif; mso-fareast-font-family: "Times New Roman"'><font =0D=0Acolo=
+r=3D#000000><o:p></o:p></font></span></p>=0D=0A<p class=3DMsoNormal style=
+=3D"MARGIN: 0in 0in 0pt; LINE-HEIGHT: normal"><font =0D=0Aface=3DCalibri><s=
+pan =0D=0Astyle=3D'FONT-SIZE: 12pt; COLOR: #1f497d; mso-ascii-font-family: =
+Calibri; mso-fareast-font-family: "Times New Roman"; mso-hansi-font-family:=
+ Calibri; mso-bidi-font-family: Tahoma'>What =0D=0Adoes your schedule look =
+like for a quick call to talk about what you're looking =0D=0Afor=3F</span>=
+</font></p>=0D=0A<p class=3DMsoNormal style=3D"MARGIN: 0in 0in 0pt; LINE-HE=
+IGHT: normal"><font =0D=0Aface=3DCalibri><span =0D=0Astyle=3D'FONT-SIZE: 12=
+pt; COLOR: #1f497d; mso-ascii-font-family: Calibri; mso-fareast-font-family=
+: "Times New Roman"; mso-hansi-font-family: Calibri; mso-bidi-font-family: =
+Tahoma'></span></font>&nbsp;</p>=0D=0A<p class=3DMsoNormal style=3D"MARGIN:=
+ 0in 0in 0pt; LINE-HEIGHT: normal"><font =0D=0Aface=3DCalibri><span =0D=0As=
+tyle=3D'FONT-SIZE: 12pt; COLOR: #1f497d; mso-ascii-font-family: Calibri; ms=
+o-fareast-font-family: "Times New Roman"; mso-hansi-font-family: Calibri; m=
+so-bidi-font-family: Tahoma'></span><span =0D=0Astyle=3D'FONT-SIZE: 10pt; F=
+ONT-FAMILY: "Tahoma",sans-serif; mso-fareast-font-family: "Times New Roman"=
+'><o:p></o:p></span></font></p>=0D=0A<p class=3DMsoNormal style=3D"MARGIN: =
+0in 0in 0pt; LINE-HEIGHT: normal"><span =0D=0Astyle=3D'FONT-SIZE: 10pt; FON=
+T-FAMILY: "Tahoma",sans-serif; mso-fareast-font-family: "Times New Roman"'>=
+<font =0D=0Acolor=3D#000000><o:p></o:p></font></span></p>=0D=0A<p class=3DM=
+soNormal style=3D"MARGIN: 0in 0in 0pt; LINE-HEIGHT: normal"><font =0D=0Afac=
+e=3DCalibri><span =0D=0Astyle=3D'FONT-SIZE: 12pt; COLOR: #1f497d; mso-ascii=
+-font-family: Calibri; mso-fareast-font-family: "Times New Roman"; mso-hans=
+i-font-family: Calibri; mso-bidi-font-family: Tahoma'>I'd =0D=0Abe happy to=
+ show you some excellent candidates</span></font><font =0D=0Aface=3DCalibri=
+><span =0D=0Astyle=3D'FONT-SIZE: 12pt; COLOR: #1f497d; mso-ascii-font-famil=
+y: Calibri; mso-fareast-font-family: "Times New Roman"; mso-hansi-font-fami=
+ly: Calibri; mso-bidi-font-family: Tahoma'>.</span></font></p>=0D=0A<p clas=
+s=3DMsoNormal style=3D"MARGIN: 0in 0in 0pt; LINE-HEIGHT: normal"><font =0D=
+=0Aface=3DCalibri><span =0D=0Astyle=3D'FONT-SIZE: 12pt; COLOR: #1f497d; mso=
+-ascii-font-family: Calibri; mso-fareast-font-family: "Times New Roman"; ms=
+o-hansi-font-family: Calibri; mso-bidi-font-family: Tahoma'></span></font>&=
+nbsp;</p>=0D=0A<p class=3DMsoNormal style=3D"MARGIN: 0in 0in 0pt; LINE-HEIG=
+HT: normal"><font =0D=0Aface=3DCalibri><span =0D=0Astyle=3D'FONT-SIZE: 12pt=
+; COLOR: #1f497d; mso-ascii-font-family: Calibri; mso-fareast-font-family: =
+"Times New Roman"; mso-hansi-font-family: Calibri; mso-bidi-font-family: Ta=
+homa'></span></font><font =0D=0Aface=3DCalibri><span =0D=0Astyle=3D'FONT-SI=
+ZE: 12pt; COLOR: #1f497d; mso-ascii-font-family: Calibri; mso-fareast-font-=
+family: "Times New Roman"; mso-hansi-font-family: Calibri; mso-bidi-font-fa=
+mily: Tahoma'></span></font><font =0D=0Aface=3DCalibri><span =0D=0Astyle=3D=
+'FONT-SIZE: 12pt; COLOR: #1f497d; mso-ascii-font-family: Calibri; mso-farea=
+st-font-family: "Times New Roman"; mso-hansi-font-family: Calibri; mso-bidi=
+-font-family: Tahoma'></span></font><font =0D=0Aface=3DCalibri><span =0D=0A=
+style=3D'FONT-SIZE: 12pt; COLOR: #1f497d; mso-ascii-font-family: Calibri; m=
+so-fareast-font-family: "Times New Roman"; mso-hansi-font-family: Calibri; =
+mso-bidi-font-family: Tahoma'></span></font>&nbsp;</p>=0D=0A<p class=3DMsoN=
+ormal style=3D"MARGIN: 0in 0in 0pt; LINE-HEIGHT: normal"><font =0D=0Aface=
+=3DCalibri><span =0D=0Astyle=3D'FONT-SIZE: 12pt; COLOR: #1f497d; mso-ascii-=
+font-family: Calibri; mso-fareast-font-family: "Times New Roman"; mso-hansi=
+-font-family: Calibri; mso-bidi-font-family: Tahoma'></span></font>&nbsp;</=
+p>=0D=0A<p class=3DMsoNormal style=3D"MARGIN: 0in 0in 0pt; LINE-HEIGHT: nor=
+mal"><font =0D=0Aface=3DCalibri><span =0D=0Astyle=3D'FONT-SIZE: 12pt; COLOR=
+: #1f497d; mso-ascii-font-family: Calibri; mso-fareast-font-family: "Times =
+New Roman"; mso-hansi-font-family: Calibri; mso-bidi-font-family: Tahoma'><=
+/span><span =0D=0Astyle=3D'FONT-SIZE: 10pt; FONT-FAMILY: "Tahoma",sans-seri=
+f; mso-fareast-font-family: "Times New Roman"'><o:p></o:p></span></font></p=
+>=0D=0A<p class=3DMsoNormal style=3D"MARGIN: 0in 0in 0pt; LINE-HEIGHT: norm=
+al"><span =0D=0Astyle=3D'FONT-SIZE: 10pt; FONT-FAMILY: "Tahoma",sans-serif;=
+ mso-fareast-font-family: "Times New Roman"'><font =0D=0Acolor=3D#000000><o=
+:p></o:p></font></span></p>=0D=0A<p class=3DMsoNormal style=3D"MARGIN: 0in =
+0in 0pt; LINE-HEIGHT: normal"><span =0D=0Astyle=3D'FONT-SIZE: 10pt; FONT-FA=
+MILY: "Tahoma",sans-serif; mso-fareast-font-family: "Times New Roman"'><fon=
+t =0D=0Acolor=3D#000000><o:p></o:p></font></span></p>=0D=0A<p class=3DMsoNo=
+rmal style=3D"MARGIN: 0in 0in 0pt; LINE-HEIGHT: normal"><font =0D=0Aface=3D=
+Calibri><span =0D=0Astyle=3D'FONT-SIZE: 12pt; COLOR: #1f497d; mso-ascii-fon=
+t-family: Calibri; mso-fareast-font-family: "Times New Roman"; mso-hansi-fo=
+nt-family: Calibri; mso-bidi-font-family: Tahoma'>Colin =0D=0AMiller</span>=
+<span =0D=0Astyle=3D'FONT-SIZE: 10pt; FONT-FAMILY: "Tahoma",sans-serif; COL=
+OR: #1f497d; mso-fareast-font-family: "Times New Roman"'><o:p></o:p></span>=
+</font></p>=0D=0A<p class=3DMsoNormal style=3D"MARGIN: 0in 0in 0pt; LINE-HE=
+IGHT: normal"><font =0D=0Aface=3DCalibri><span =0D=0Astyle=3D'FONT-SIZE: 12=
+pt; COLOR: #1f497d; mso-ascii-font-family: Calibri; mso-fareast-font-family=
+: "Times New Roman"; mso-hansi-font-family: Calibri; mso-bidi-font-family: =
+Tahoma'>Recruiting =0D=0ASolutions Architect</span></font></p>=0D=0A<p clas=
+s=3DMsoNormal style=3D"MARGIN: 0in 0in 0pt; LINE-HEIGHT: normal"><font =0D=
+=0Aface=3DCalibri><span =0D=0Astyle=3D'FONT-SIZE: 12pt; COLOR: #1f497d; mso=
+-ascii-font-family: Calibri; mso-fareast-font-family: "Times New Roman"; ms=
+o-hansi-font-family: Calibri; mso-bidi-font-family: Tahoma'>Helping =0D=0AY=
+ou Hire</span><o:p></o:p></font></p>=0D=0A<p class=3DMsoNormal style=3D"MAR=
+GIN: 0in 0in 0pt; LINE-HEIGHT: normal"><font =0D=0Aface=3DCalibri><span =0D=
+=0Astyle=3D'FONT-SIZE: 12pt; COLOR: #1f497d; mso-ascii-font-family: Calibri=
+; mso-fareast-font-family: "Times New Roman"; mso-hansi-font-family: Calibr=
+i; mso-bidi-font-family: Tahoma'>(415) =0D=0A625-3351</span></font></p>=0D=
+=0A<p class=3DMsoNormal style=3D"MARGIN: 0in 0in 0pt; LINE-HEIGHT: normal">=
+&nbsp;</p>=0D=0A<p class=3DMsoNormal style=3D"MARGIN: 0in 0in 0pt; LINE-HEI=
+GHT: normal"><a =0D=0Ahref=3D"http://tracking.hirethebest18.info/f/a/kFgXPz=
+40Se7cTjUt0Vk3bg~~/AAKnbQA~/RgRcExkoP0QLaHR0cDovL3NvdWNXA3NwY1gEAAAAAEIKAAC=
+o5TFalXl6iA~~"><span =0D=0Astyle=3D'FONT-SIZE: 12pt; COLOR: blue; mso-ascii=
+-font-family: Calibri; mso-fareast-font-family: "Times New Roman"; mso-hans=
+i-font-family: Calibri; mso-bidi-font-family: Tahoma'><font =0D=0Aface=3DCa=
+libri><a =0D=0Ahref=3D"http://tracking.hirethebest18.info/f/a/_7p-KjakaabcB=
+VvzCHKw4w~~/AAKnbQA~/RgRcExkoP0QZaHR0cDovL2hpcmV0aGViZXN0MTguaW5mb1cDc3BjWA=
+QAAAAAQgoAAKjlMVqVeXqI">http://hirethebest18.info</font></span></a></p>=0D=
+=0A<p class=3DMsoNormal style=3D"MARGIN: 0in 0in 0pt; LINE-HEIGHT: normal">=
+&nbsp;</p>=0D=0A<p class=3DMsoNormal style=3D"MARGIN: 0in 0in 0pt; LINE-HEI=
+GHT: normal">&nbsp;</p>=0D=0A<p class=3DMsoNormal style=3D"MARGIN: 0in 0in =
+0pt; LINE-HEIGHT: normal">&nbsp;</p>=0D=0A<p class=3DMsoNormal style=3D"MAR=
+GIN: 0in 0in 0pt; LINE-HEIGHT: normal">&nbsp;</p>=0D=0A<p class=3DMsoNormal=
+ style=3D"MARGIN: 0in 0in 0pt; LINE-HEIGHT: normal">&nbsp;</p>=0D=0A<p clas=
+s=3DMsoNormal style=3D"MARGIN: 0in 0in 0pt; LINE-HEIGHT: normal">&nbsp;</p>=
+=0D=0A<p class=3DMsoNormal style=3D"MARGIN: 0in 0in 0pt; LINE-HEIGHT: norma=
+l">&nbsp;</p>=0D=0A<p class=3DMsoNormal style=3D"MARGIN: 0in 0in 0pt; LINE-=
+HEIGHT: normal">&nbsp;</p>=0D=0A<p class=3DMsoNormal style=3D"MARGIN: 0in 0=
+in 0pt; LINE-HEIGHT: normal">&nbsp;</p>=0D=0A<p class=3DMsoNormal style=3D"=
+MARGIN: 0in 0in 0pt; LINE-HEIGHT: normal">&nbsp;</p>=0D=0A<p class=3DMsoNor=
+mal style=3D"MARGIN: 0in 0in 0pt; LINE-HEIGHT: normal">&nbsp;</p>=0D=0A<p c=
+lass=3DMsoNormal =0D=0Astyle=3D"MARGIN: 0in 0in 0pt; LINE-HEIGHT: normal">&=
+nbsp;</p></font></span>=0D=0A=0D=0A<img border=3D"0" width=3D"1" height=3D"=
+1" alt=3D"" src=3D"http://tracking.hirethebest18.info/q/DmVppKzOU6bOJ9bIRJX=
+Bpg~~/AAKnbQA~/RgRcExkoPlcDc3BjWAQAAAAAQgoAAKjlMVqVeXqI">=0D=0A</body>=0D=
+=0A</html>=0D=0A=0D=0A
+--205f01ccbdf20207c0b0ed6a25e92--
+

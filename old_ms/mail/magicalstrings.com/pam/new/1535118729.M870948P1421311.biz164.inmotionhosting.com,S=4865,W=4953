@@ -1,0 +1,88 @@
+Return-Path: <fred.norris@everlasting-capital.com>
+Delivered-To: pam@magicalstrings.com
+Received: from biz164.inmotionhosting.com
+	by biz164.inmotionhosting.com with LMTP id GFTdM4kNgFv/rxUAtEtsOg
+	for <pam@magicalstrings.com>; Fri, 24 Aug 2018 06:52:09 -0700
+Return-path: <fred.norris@everlasting-capital.com>
+Envelope-to: pam@magicalstrings.com
+Delivery-date: Fri, 24 Aug 2018 06:52:09 -0700
+Received: from smtp88.iad3a.emailsrvr.com ([173.203.187.88]:57118)
+	by biz164.inmotionhosting.com with esmtps (TLSv1.2:ECDHE-RSA-AES256-GCM-SHA384:256)
+	(Exim 4.91)
+	(envelope-from <fred.norris@everlasting-capital.com>)
+	id 1ftCVL-006Hgw-Ob
+	for pam@magicalstrings.com; Fri, 24 Aug 2018 06:52:09 -0700
+Received: from smtp12.relay.iad3a.emailsrvr.com (localhost [127.0.0.1])
+	by smtp12.relay.iad3a.emailsrvr.com (SMTP Server) with ESMTP id 1932B2508D
+	for <pam@magicalstrings.com>; Fri, 24 Aug 2018 09:51:59 -0400 (EDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple;
+	d=everlasting-capital.com; s=20180823-r055lac9; t=1535118719;
+	bh=jhA4b99R5kVwMDasovqK8P2FmLJKzo2z3fm3I/vbMaA=;
+	h=Subject:From:To:From;
+	b=f18d0qf8DcVF9FQ9I2Y6vj8LNmk9Zr9RL3IZBpTNQbhCrrOCo4Ce5SGwlKgXIoMuT
+	 W3D5eMG5+kGvjAJZQnOUaUhPkI0tzxZ7zvYuOUYG1dlyLu5EQJ8ggTq7o/h9IijbnT
+	 ZUBwFmEX1D3GAmdIC1olTsvMlSttYLgDaVT6kG0o=
+X-Auth-ID: fred.norris@everlasting-capital.com
+Received: by smtp12.relay.iad3a.emailsrvr.com (Authenticated sender: fred.norris-AT-everlasting-capital.com) with ESMTPSA id DCF54251B2
+	for <pam@magicalstrings.com>; Fri, 24 Aug 2018 09:51:58 -0400 (EDT)
+X-Sender-Id: fred.norris@everlasting-capital.com
+Received: from [192.168.1.10] ([UNAVAILABLE]. [96.78.65.222])
+	(using TLSv1.2 with cipher DHE-RSA-AES256-GCM-SHA384)
+	by 0.0.0.0:465 (trex/5.7.12);
+	Fri, 24 Aug 2018 09:51:59 -0400
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: base64
+Subject: Re: Your Capital
+From: fred.norris@everlasting-capital.com
+To: pam@magicalstrings.com
+X-Spam-Status: No, score=1.0
+X-Spam-Score: 10
+X-Spam-Bar: +
+X-Ham-Report: Spam detection software, running on the system "biz164.inmotionhosting.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ 
+ Content preview:  Hi Pam, My name is Fred, my firm provides equipment financing
+    and working capital for companies like yours. We work with any credit situation
+    and can get you approved quickly, with just a few pieces o
+ 
+ Content analysis details:   (1.0 points, 5.0 required)
+ 
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was blocked.
+                             See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: everlasting-capital.com]
+ -0.0 RCVD_IN_MSPIKE_H2      RBL: Average reputation (+2)
+                             [173.203.187.88 listed in wl.mailspike.net]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+ -1.9 BAYES_00               BODY: Bayes spam probability is 0 to 1%
+                             [score: 0.0000]
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from author's
+                             domain
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily valid
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  1.6 MISSING_MID            Missing Message-Id: header
+  1.4 MISSING_DATE           Missing Date: header
+X-Spam-Flag: NO
+
+SGkgUGFtLAoKTXkgbmFtZSBpcyBGcmVkLCBteSBmaXJtIHByb3ZpZGVzIGVxdWlwbWVudCBmaW5h
+bmNpbmcgYW5kIHdvcmtpbmcgY2FwaXRhbCBmb3IgY29tcGFuaWVzIGxpa2UgeW91cnMuIFdlIHdv
+cmsgd2l0aCBhbnkgY3JlZGl0IHNpdHVhdGlvbiBhbmQgY2FuIGdldCB5b3UgYXBwcm92ZWQgcXVp
+Y2tseSwgd2l0aCBqdXN0IGEgZmV3IHBpZWNlcyBvZiBpbmZvcm1hdGlvbiBmcm9tIHlvdS4KCk1h
+eSBJIGdpdmUgeW91IG1vcmUgaW5mb3JtYXRpb24/IFNpbXBseSByZXBseSB0byB0aGlzIGVtYWls
+ICd5ZXMnIGFuZCBJIHdpbGwgZ2V0IHRoYXQgdG8geW91LgoKSWYgbm93IGlzIG5vdCB0aGUgcmln
+aHQgdGltZSwgcGxlYXNlIHJlc3BvbmQgJ25vJyBhbmQgSSB3aWxsIHN0b3AgcmVhY2hpbmcgb3V0
+LgoKQWxzbywgaWYgeW91ciBidXNpbmVzcyBzZWxscyBlcXVpcG1lbnQsIHdlIGNhbiB3b3JrIHRv
+Z2V0aGVyIHRvIGdldCB5b3VyIGVxdWlwbWVudCBvdXQgb2YgaW52ZW50b3J5IGJ5IGdldHRpbmcg
+eW91ciBjdXN0b21lcnMgYXBwcm92ZWQgZm9yIGZpbmFuY2luZyBmYXN0LiBMZXQgbWUga25vdy4K
+ClRoYW5rcywKRnJlZAoKLS0KRnJlZCBOb3JyaXMKRGlyZWN0b3Igb2YgQnVzaW5lc3NzIERldmVs
+b3BtZW50ClBob25lOiAoODg4KTc3Ny04MTQ0IGV4dC4xMDAKRmF4OiAoNjAzKSAyNjItMzc2NApF
+bWFpbDogZnJlZC5ub3JyaXNAZXZlcmxhc3RpbmctY2FwaXRhbC5jb20KCsKpIDIwMTggRXZlcmxh
+c3RpbmcgQ2FwaXRhbCBDb3Jwb3JhdGlvbgpPdXIgYWRkcmVzcyBpcyA0IFVuaW9uIFNULCBSb2No
+ZXN0ZXIsIE5IIDAzODY3

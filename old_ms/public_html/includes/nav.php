@@ -1,0 +1,3 @@
+<div align="center"><span class="nav"><a href="/index.html"><strong>Home</strong></a><strong> | <a href="/Recordings.html">Recordings</a> | <a href="/Calendar.html">Calendar</a> | <a href="/SchoolIndex.html">School
+        Of Magical Strings</a> | <a href="/HarpsDulcimers.html">Harps & Dulcimers</a> | <a href="/News.html">News</a> | <a href="/Reviews.html">Reviews</a> | <a href="/Bio.html">Bio</a> | <a href="/Links.html">Links</a> | <a href="/Form_Contact.html">Contact
+        Us</a></strong></span>

@@ -1,0 +1,50 @@
+Return-Path: <bounce@ms3.lga2.nytimes.com>
+Delivered-To: pam@magicalstrings.com
+Received: from biz164.inmotionhosting.com
+	by biz164.inmotionhosting.com with LMTP id UD0DHyhAbFr4nAsAtEtsOg
+	for <pam@magicalstrings.com>; Sat, 27 Jan 2018 01:02:32 -0800
+Return-path: <bounce@ms3.lga2.nytimes.com>
+Envelope-to: pam@magicalstrings.com
+Delivery-date: Sat, 27 Jan 2018 01:02:32 -0800
+Received: from pmta04.ewr1.nytimes.com ([170.149.168.74]:48597)
+	by biz164.inmotionhosting.com with esmtps (TLSv1:DHE-RSA-AES256-SHA:256)
+	(Exim 4.89)
+	(envelope-from <bounce@ms3.lga2.nytimes.com>)
+	id 1efMNX-003HHy-El
+	for pam@magicalstrings.com; Sat, 27 Jan 2018 01:02:32 -0800
+Received: by pmta04.ewr1.nytimes.com (PowerMTA(TM) v3.5r3) id hdh0260hsr4r for <pam@magicalstrings.com>; Sat, 27 Jan 2018 04:02:23 -0500 (envelope-from <bounce@ms3.lga2.nytimes.com>)
+X-SegmentId:119934
+X-CampaignId:29607
+X-InstanceId:110631
+X-ClientId:38047833
+Message-Id: <5A6C401F.000002B8@pmta04.ewr1.nytimes.com>
+Date: Sat, 27 Jan 2018 04:02:23 -0500
+X-Spam-Status: No, score=-5.6
+X-Spam-Score: -55
+X-Spam-Bar: -----
+X-Ham-Report: Spam detection software, running on the system "biz164.inmotionhosting.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ 
+ Content preview:  Cannot read property 'rank' of null [...] 
+ 
+ Content analysis details:   (-5.6 points, 5.0 required)
+ 
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  1.0 MISSING_HEADERS        Missing To: header
+ -7.5 USER_IN_DEF_SPF_WL     From: address is in the default SPF white-list
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+ -0.0 T_RP_MATCHES_RCVD      Envelope sender domain matches handover relay
+                             domain
+ -1.9 BAYES_00               BODY: Bayes spam probability is 0 to 1%
+                             [score: 0.0000]
+ -0.0 RCVD_IN_MSPIKE_H2      RBL: Average reputation (+2)
+                             [170.149.168.74 listed in wl.mailspike.net]
+  1.0 MISSING_FROM           Missing From: header
+  1.8 MISSING_SUBJECT        Missing Subject: header
+X-Spam-Flag: NO
+
+Cannot read property 'rank' of null

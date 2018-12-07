@@ -1,0 +1,267 @@
+Return-Path: <john.jeffcott@outlook.com>
+Delivered-To: pam@magicalstrings.com
+Received: from biz164.inmotionhosting.com
+	by biz164.inmotionhosting.com (Dovecot) with LMTP id ETrKBEEY/lnAWAAAtEtsOg
+	for <pam@magicalstrings.com>; Sat, 04 Nov 2017 12:42:57 -0700
+Return-path: <john.jeffcott@outlook.com>
+Envelope-to: pam@magicalstrings.com
+Delivery-date: Sat, 04 Nov 2017 12:42:57 -0700
+Received: from mail-oln040092007019.outbound.protection.outlook.com ([40.92.7.19]:7975 helo=NAM03-CO1-obe.outbound.protection.outlook.com)
+	by biz164.inmotionhosting.com with esmtps (TLSv1.2:ECDHE-RSA-AES256-SHA384:256)
+	(Exim 4.89)
+	(envelope-from <john.jeffcott@outlook.com>)
+	id 1eB4L4-00081Q-CP
+	for pam@magicalstrings.com; Sat, 04 Nov 2017 12:42:57 -0700
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=outlook.com;
+ s=selector1; h=From:Date:Subject:Message-ID:Content-Type:MIME-Version;
+ bh=gyaInrF7tUEswxTnHERLYg861nLZ4uSyXxkHLnfl4EI=;
+ b=QUxRYJ3GNhUdbu2kxJ6n8whdE4shyCWHVsRPiu+PChnV3fm+bXLfMSGRv23xg4AxMbdKKo6TgUA4EdmtDzDSRUx02v4fCXp1Wb66fcSA8j41ZsRlgzR0hih6SfHnvdRrtu5tM5eBaqw9gz5wwscCcuMAfjzZ5de8/DAoCauRi7llKo/QkF6ivNIheETXm4Mk7JDoJsYYoqhd1Eu0Jtw9o02QrIYfiRVYpMpIN7gE/DJlLpaFJ5tGl5A4Imqckaf7FfBwIdMimya/UjvOzshIg1vlKYrjWTGXIhMHu12m6gPiRxDKgBFAexx8PRTRxwUY+vJIrsJMLrI1V2NcSZoiow==
+Received: from DM3NAM03FT007.eop-NAM03.prod.protection.outlook.com
+ (10.152.82.58) by DM3NAM03HT042.eop-NAM03.prod.protection.outlook.com
+ (10.152.83.3) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P384) id 15.20.197.9; Sat, 4 Nov
+ 2017 19:42:37 +0000
+Received: from SN1PR14MB0557.namprd14.prod.outlook.com (10.152.82.60) by
+ DM3NAM03FT007.mail.protection.outlook.com (10.152.82.68) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256_P256) id
+ 15.20.197.9 via Frontend Transport; Sat, 4 Nov 2017 19:42:37 +0000
+Received: from SN1PR14MB0557.namprd14.prod.outlook.com ([10.164.44.155]) by
+ SN1PR14MB0557.namprd14.prod.outlook.com ([10.164.44.155]) with mapi id
+ 15.20.0197.017; Sat, 4 Nov 2017 19:42:37 +0000
+From: John Jeffcott <john.jeffcott@outlook.com>
+To: "Matthew Jeffcott (mattjeffcott@gmail.com)" <mattjeffcott@gmail.com>,
+	"Hannah Lemberg (hannahlemberg@gmail.com)" <hannahlemberg@gmail.com>, "Kathy
+ Jeffcott (JeffcottK@gmail.com)" <JeffcottK@gmail.com>, "Andy Rice
+ (andynr@ccgmail.net)" <andynr@ccgmail.net>, Abigail Jeffcott
+	<Abbyj@bendcable.com>, "Andrew Drake (drakeandrewt@gmail.com)"
+	<drakeandrewt@gmail.com>, "Barbara Tiemann (owlady@netcom.com)"
+	<owlady@netcom.com>, "Barry Lia (barrylia@comcast.net)"
+	<barrylia@comcast.net>, "Bill Nall (CHIL11841@aol.com)" <CHIL11841@aol.com>,
+	"Bonnie Hodge (bonniejhodge@gmail.com)" <bonniejhodge@gmail.com>, "Bill
+ Spears (bspears@teleport.com)" <bspears@teleport.com>, "Carol Horst
+ (cnhorst@NetHere.com)" <cnhorst@NetHere.com>, "'Charlotte Moss
+ (charmoss@gmail.com)'" <charmoss@gmail.com>, "'Dan Pepper
+ (dan@domain-inc.com)'" <dan@domain-inc.com>, "'Diane Jeffcott
+ (DianeJeffcott@yahoo.com)'" <DianeJeffcott@yahoo.com>, "'Dick & Carol Stark
+ (Starkr93@yahoo.com)'" <Starkr93@yahoo.com>, "'Ellen and Jacob Naor
+ (ejnaor@gmail.com)'" <ejnaor@gmail.com>, "'Erik Jeffcott
+ (erikjeffcott@yahoo.com)'" <erikjeffcott@yahoo.com>, "'Gavin Patterson &
+ Sarah Kopf (kopfpatterson@earthlink.net)'" <kopfpatterson@earthlink.net>,
+	'Hope Dunlap' <hopedunlap@gmail.com>, "Jannat Gargi (jannatgargi@yahoo.com)"
+	<jannatgargi@yahoo.com>, "Jared Jeffcott (jaredj@bendbroadband.com)"
+	<jaredj@bendbroadband.com>, "Jeannette Clausen (clausen22@yahoo.com)"
+	<clausen22@yahoo.com>, "Jeannie Chauhan (Jeanniemclaren23@gmail.com)"
+	<Jeanniemclaren23@gmail.com>, "Jeannie Ceis (jeannieceis@gmail.com)"
+	<jeannieceis@gmail.com>, "Bright, John & Sandra (sandrajbr@live.com)"
+	<sandrajbr@live.com>, "John Dunlap (johnsevdunlap@gmail.com)"
+	<johnsevdunlap@gmail.com>, "John Thompson (JM581@Frontier.com)"
+	<JM581@Frontier.com>, Lucinda Dunlap <dunlaplucinda@gmail.com>, "Manu Gargi
+ (mgargi@mac.com)" <mgargi@mac.com>, "Mary Roberts
+ (maryelizabeth.roberts0@gmail.com)" <maryelizabeth.roberts0@gmail.com>,
+	"Melissa Borden Deal (melissakbee@hotmail.com)" <melissakbee@hotmail.com>,
+	"Michael Roberts (mroberts@lrsarchitects.com)" <mroberts@lrsarchitects.com>,
+	"Molly Smith (mjs2617@yahoo.com)" <mjs2617@yahoo.com>, "Pam Boulding
+ (pam@magicalstrings.com)" <pam@magicalstrings.com>, "Rena Ilumin
+ (rena.ilumin@gmail.com)" <rena.ilumin@gmail.com>, "Rick Lemberg
+ (eplemberg@comcast.net)" <eplemberg@comcast.net>, "Sal Latina
+ (salvol@aol.com)" <salvol@aol.com>, "Sally Fox (sally@sallyjfox.com)"
+	<sally@sallyjfox.com>, "Sarah Colton Seibel (sarahcolton3@icloud.com)"
+	<sarahcolton3@icloud.com>, "Stacy Gehman (stacyg@drizzle.com)"
+	<stacyg@drizzle.com>, "Stuart Deal (stuart.deal@gmail.com)"
+	<stuart.deal@gmail.com>, "Tali Smith (talismith@gmail.com)"
+	<talismith@gmail.com>, "Tierza Clerc (t13r24@gmail.com)" <t13r24@gmail.com>,
+	"Widi Jeffcott (widiwcjybk@yahoo.com)" <widiwcjybk@yahoo.com>
+Subject: Kidde Fire Extinguisher Recall
+Thread-Topic: Kidde Fire Extinguisher Recall
+Thread-Index: AdNVpPuzu1JCt6bCRG2Lt30IRVjTvg==
+Date: Sat, 4 Nov 2017 19:42:37 +0000
+Message-ID: <SN1PR14MB055753D5A525EC3789C1DE4EF2520@SN1PR14MB0557.namprd14.prod.outlook.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+x-incomingtopheadermarker: OriginalChecksum:94EBC188D983DC1F9231E785B8BC4900F08B2B365816967FF91360ED5DF46508;UpperCasedChecksum:666C79695B369E2D239056E2EC187DFCEBDC4468DA2A22C7223F79C4361FCFCF;SizeAsReceived:9731;Count:44
+x-ms-exchange-messagesentrepresentingtype: 1
+x-tmn: [sNKYV4q5VvdyN7ywi/44pIoSqRuF7Dyy]
+x-ms-publictraffictype: Email
+x-microsoft-exchange-diagnostics: 1;DM3NAM03HT042;6:6u7O5z968Qt2qCTlC4FT28S4M8Qjdf+96cw7xEfCnr3JavBJu/8OIm8VDVpMF5mR4ez2WsEqM2y0xplIWwkD1q3gsSJYl/oQF9vQ2Qpx+xKs+JeBYKW276GY9hKtcmaDLEj9LWIuNI+ZPGjbYBaDqUmPKeiNTZbwosic/GF8u5KfLmp6D2yxuOZolhlYIUHDCqOlIieFBlMC8gk2AJTxn9jy0DplbVt+2xCCzPSQo50mIUzMjQU5qf8Yv+NoCJS0tghEwKYdesjcrM0yo7mMcbSV4VvwouzkPeFEk6Gdpmp+ccgxBbWUbTPpA3/mlBJvMIjLsWK4f7JY23gtzig/04fzq9VBfGeYSHTUDd6/VV0=;5:WFPjHoVv6AfipjLttzUf9APMY+CMlGOUHWYvRPlus8arhqbr54goY8m0c3O3H3AfUZVoVXjVW2/FUQdgK0qUWGDpqiILJMNOzOkShkOKAF/ROh62skTlxCIXW1Pfy9TyXBj1hdCNyujUkR+iu3mrvYBXossi7o0pxQRKXLXpqpk=;24:5d9gYz0ZuU0Xohx/SREj2zbdXB3Oq5plb+Qk0wzFuWgerDcwMWU0t4j5kHEZrj5qSrn01mQ2NJNTXTsDbglColz76aXOo+Rlteu96xX+x2k=;7:53DoBRJ+EGvDpeCPFYyatlQUJdOQmF2ieUxN4n65Ai+1gcY/3KSZ2n2b+fF40cvD4xnKcUlCd0OAdkglMK5CnKEKw9JO9a88pvbsMuxEFt4m5XX88N97XToJBxHeWhtPJaFael0ATSRuOrhUM4LGYeDiH9AqT45nkehofwJa7D6lOT0o8RBzVWk8ik5UtYkbUYkYMrtqZuoh+Ti11RvrrDGy0D5xmN/Qrt1d/7PB6lpbSMwdwQXRd9HbIdit0k8A
+x-incomingheadercount: 44
+x-eopattributedmessage: 0
+x-ms-office365-filtering-correlation-id: 93a6027a-a31a-4a4b-4d42-08d523bc3401
+x-microsoft-antispam: UriScan:;BCL:0;PCL:0;RULEID:(22001)(201702061074)(5061506573)(5061507331)(1603103135)(2017031320274)(2017031324274)(2017031323274)(201702181274)(2017031322404)(1601125374)(1603101448)(1701031045);SRVR:DM3NAM03HT042;
+x-ms-exchange-slblob-mailprops: 842jcEZ8QkmpAm4oop0gkzHE1bCDAvKl8BT2m6xl86rZgP+KscRT8LAOh9KrHkbIeYfcz55mk0TChW1yQ/hl0Sy3lfMF+H3fXrONBYq2OVPSPoJiHW/Kq2SZUmdR2G/HqK15CfPtR3/IWF/2AnrfGFtXp+8vm/EKQt9/TRSmxuM1shAROsQuxCkyxJpaYhYdMsF2NfWkgCYwYp0sMGRWf+a80DTdMfyXz8k6gl7GmWBhfw8CeSXEFoJ96jx1RB6+Ual4OECCuG7eoiuF1TLhfUwjRApjqpsK4rgJDDHGS7cc2A7xhopvvsjLkIabL3Uqt6NUKWccLuRRCiZxcQtpRJhx1zVvDKir43yCvxQCD3yiryZzUQ2MBo1ITC3imQk88H9FWv7yAjJ0UAwHYeb+V+r6WsvK9ay4E/af1e3+fUbP0WdEK6xTIPxPKYU5ymhXvWkmvJMr2vfXQ4AB7uEwdZXdA4OitKaPIOhZS+hN336EBUT7mF7VdKki3/ynoZsUUm3SVr42i3UK9mZFZAFO6v1YW4neze8jpwJJi8BrErhuIZX2GLffbGOIMLtsd14NLgmbYMSX/fk=
+x-ms-traffictypediagnostic: DM3NAM03HT042:
+authentication-results: outbound.protection.outlook.com; spf=skipped
+ (originating message); dkim=none (message not signed) header.d=none;
+ dmarc=none action=none header.from=outlook.com;
+x-exchange-antispam-report-test: UriScan:(189930954265078)(224945534805241)(21748063052155);
+x-exchange-antispam-report-cfa-test: BCL:0;PCL:0;RULEID:(100000700101)(100105000095)(100000701101)(100105300095)(100000702101)(100105100095)(444000031);SRVR:DM3NAM03HT042;BCL:0;PCL:0;RULEID:(100000800101)(100110000095)(100000801101)(100110300095)(100000802101)(100110100095)(100000803101)(100110400095)(100000804101)(100110200095)(100000805101)(100110500095);SRVR:DM3NAM03HT042;
+x-forefront-prvs: 048111149A
+x-forefront-antispam-report: SFV:NSPM;SFS:(7070007)(98901004);DIR:OUT;SFP:1901;SCL:1;SRVR:DM3NAM03HT042;H:SN1PR14MB0557.namprd14.prod.outlook.com;FPR:;SPF:None;LANG:;
+spamdiagnosticoutput: 1:99
+spamdiagnosticmetadata: NSPM
+Content-Type: multipart/alternative;
+	boundary="_000_SN1PR14MB055753D5A525EC3789C1DE4EF2520SN1PR14MB0557namp_"
+MIME-Version: 1.0
+X-OriginatorOrg: outlook.com
+X-MS-Exchange-CrossTenant-Network-Message-Id: 93a6027a-a31a-4a4b-4d42-08d523bc3401
+X-MS-Exchange-CrossTenant-originalarrivaltime: 04 Nov 2017 19:42:37.5023
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Internet
+X-MS-Exchange-CrossTenant-id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: DM3NAM03HT042
+X-Spam-Status: No, score=-1.8
+X-Spam-Score: -17
+X-Spam-Bar: -
+X-Ham-Report: Spam detection software, running on the system "biz164.inmotionhosting.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ 
+ Content preview:  Kidde has recalled their plastic handled fire extinguishers
+    manufactured between January 1, 1973 and August 15, 2017 go to their website
+    for a free replacement. Ours manufactured in 2001 was on the list. We have
+    submitted and will have a replacement sent to us in 15 to 20 days. Apparently,
+    the plastic handles can break during use and have led to deaths. [...] 
+ 
+ Content analysis details:   (-1.8 points, 5.0 required)
+ 
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was blocked.
+                             See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: amazonaws.com]
+ -0.0 RP_MATCHES_RCVD        Envelope sender domain matches handover relay domain
+  0.0 FREEMAIL_FROM          Sender email is commonly abused enduser mail provider
+                             (john.jeffcott[at]outlook.com)
+ -0.0 SPF_HELO_PASS          SPF: HELO matches SPF record
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+ -1.9 BAYES_00               BODY: Bayes spam probability is 0 to 1%
+                             [score: 0.0000]
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily valid
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from author's
+                             domain
+  0.2 KAM_MANYTO             Email has more than one To Header
+X-Spam-Flag: NO
+
+--_000_SN1PR14MB055753D5A525EC3789C1DE4EF2520SN1PR14MB0557namp_
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+Kidde has recalled their plastic handled fire extinguishers manufactured be=
+tween January 1, 1973
+and August 15, 2017 go to their website for a free replacement. Ours manufa=
+ctured in 2001 was on the list. We have submitted and will have a replaceme=
+nt sent to us in 15 to 20 days. Apparently, the plastic handles can break d=
+uring use and have led to deaths.
+
+https://s3.amazonaws.com/inmar-adx-files/N130284/US_Plastic+Handle+Product+=
+ID+Guide.pdf
+
+John
+
+John Jeffcott
+(206) 890-4189
+john.jeffcott@outlook.com
+
+
+--_000_SN1PR14MB055753D5A525EC3789C1DE4EF2520SN1PR14MB0557namp_
+Content-Type: text/html; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:o=3D"urn:schemas-micr=
+osoft-com:office:office" xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" xmlns=3D"http:=
+//www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dus-ascii"=
+>
+<meta name=3D"Generator" content=3D"Microsoft Word 15 (filtered medium)">
+<style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:"Lucida Sans Unicode";
+	panose-1:2 11 6 2 3 5 4 2 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	margin-bottom:.0001pt;
+	font-size:10.0pt;
+	font-family:"Lucida Sans Unicode",sans-serif;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:purple;
+	text-decoration:underline;}
+span.EmailStyle17
+	{mso-style-type:personal-compose;
+	font-family:"Calibri",sans-serif;
+	color:windowtext;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-family:"Calibri",sans-serif;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]-->
+</head>
+<body lang=3D"EN-US" link=3D"blue" vlink=3D"purple">
+<div class=3D"WordSection1">
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,sans-serif">Kidde has recalled their plastic handled fire extin=
+guishers manufactured between January 1, 1973<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,sans-serif">and August 15, 2017 go to their website for a free =
+replacement. Ours manufactured in 2001 was on the list. We have submitted a=
+nd will have a replacement sent to us in 15 to
+ 20 days. Apparently, the plastic handles can break during use and have led=
+ to deaths.<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,sans-serif"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,sans-serif"><a href=3D"https://s3.amazonaws.com/inmar-adx-files=
+/N130284/US_Plastic&#43;Handle&#43;Product&#43;ID&#43;Guide.pdf">https://s3=
+.amazonaws.com/inmar-adx-files/N130284/US_Plastic&#43;Handle&#43;Product&#4=
+3;ID&#43;Guide.pdf</a>
+ &nbsp;<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,sans-serif"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,sans-serif">John<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,sans-serif"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ar=
+ial&quot;,sans-serif;color:black">John Jeffcott</span><span style=3D"font-s=
+ize:9.0pt;font-family:&quot;Arial&quot;,sans-serif">
+<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:9.0pt;font-family:&quot;Ari=
+al&quot;,sans-serif">(206) 890-4189<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:9.0pt;font-family:&quot;Ari=
+al&quot;,sans-serif">john.jeffcott@outlook.com<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+</div>
+</body>
+</html>
+
+--_000_SN1PR14MB055753D5A525EC3789C1DE4EF2520SN1PR14MB0557namp_--

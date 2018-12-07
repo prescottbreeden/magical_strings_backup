@@ -1,0 +1,330 @@
+Return-path: <180-GFH-982.0.5208.0.0.8208.7.7068788@connect.zenefits.com>
+Envelope-to: pam@magicalstrings.com
+Delivery-date: Tue, 22 Nov 2016 11:42:01 -0800
+Received: from connect.zenefits.com ([199.15.212.26]:42548)
+	by biz164.inmotionhosting.com with esmtps (TLSv1.2:ECDHE-RSA-AES256-GCM-SHA384:256)
+	(Exim 4.87)
+	(envelope-from <180-GFH-982.0.5208.0.0.8208.7.7068788@connect.zenefits.com>)
+	id 1c9Gwx-0006RZ-VI
+	for pam@magicalstrings.com; Tue, 22 Nov 2016 11:42:01 -0800
+X-MSFBL: cGFtQG1hZ2ljYWxzdHJpbmdzLmNvbUBkdnAtMTk5LTE1LTIxMi0yNkBiZy1hYmQt
+	MTIxQDE4MC1HRkgtOTgyOjE3MTg1OjUyMDg6NTgzMzY6MDo4MjA4Ojc6NzA2ODc4
+	OA==
+Received: from [10.1.87.249] ([10.1.87.249:56597] helo=abmas01.marketo.org)
+	by abmta07.marketo.org (envelope-from <events@zenefits.com>)
+	(ecelerity 3.6.8.47404 r(Core:3.6.8.0)) with ESMTP
+	id ED/9A-22809-E7F94385; Tue, 22 Nov 2016 13:41:50 -0600
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed; t=1479843710;
+	s=m1; d=zenefits.com; i=@zenefits.com;
+	h=Date:From:To:Subject:MIME-Version:Content-Type;
+	bh=BQhhmkBqu4AmN0nLeMtbVX9VsaosD307wYK7jEun/CM=;
+	b=ZLtFjvXE/Nfx4xvxJYFhCII0m0o4KzJlLwPDY6jCpFrDoPdP5w0RqT6104QpiAAZ
+	btwLQxOizzBpbD9QvecdlJ9waH8ILFa6dbtUiG1E7f4tL+haCNV9DFh5uQKaHY6OnS1
+	GLfRrlrQwTlcikQV7YQX5G2rpA87Gz8ltY1arX7E=
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed; t=1479843710;
+	s=m1; d=mktdns.com; i=@mktdns.com;
+	h=Date:From:To:Subject:MIME-Version:Content-Type;
+	bh=BQhhmkBqu4AmN0nLeMtbVX9VsaosD307wYK7jEun/CM=;
+	b=fQmBZuQgUvsNZjvtYSX5bQ6rpn+xJgqMAiF2yYv6s7ozZ1C3lisjTG6QENOHboXH
+	IckR2voxFgSXotxy4Xlr8z1clfKeICHqYk8jMGpkVEIhglaNKdXqm7fGDh8qibyaGU1
+	zO04vIwT3yoyq3ewplbFSm/p+L/tSeVYNRSTUWxU=
+Date: Tue, 22 Nov 2016 13:41:50 -0600 (CST)
+From: Zenefits <events@zenefits.com>
+Reply-To: events@zenefits.com
+To: pam@magicalstrings.com
+Message-ID: <890166617.397397814.1479843710131.JavaMail.root@abmas01.marketo.org>
+Subject: Z22U is coming to Seattle in 2 weeks! Register for free today!
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_397397812_1354335533.1479843710131"
+X-PVIQ: mkto-180GFH982-000001-000000-012538
+X-Binding: bg-abd-121
+X-MarketoID: 180-GFH-982:17185:5208:58336:0:8208:7:7068788
+X-MktArchive: false
+List-Unsubscribe: <mailto:JVXTSQ2CG5JXSZ3IPJDWIYZWJFSE6R3GNZTT2PI.5208.8208.7@unsub-ab.mktomail.com>
+X-Mailfrom: 180-GFH-982.0.5208.0.0.8208.7.7068788@connect.zenefits.com
+X-MSYS-API: {"options":{"open_tracking":false,"click_tracking":false}}
+X-MktMailDKIM: true
+X-Spam-Status: No, score=-4.9
+X-Spam-Score: -48
+X-Spam-Bar: ----
+X-Ham-Report: Spam detection software, running on the system "biz164.inmotionhosting.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ 
+ Content preview:  Meet the New Zenefits in Seattle, December 6 at the Four Seasons
+    Hotel Reserve Your Spot: https://www.zenefits.com/z22u/seattle?utm_source=email&utm_medium=header_image
+    // Keynote Address Learn about our platform updates during a keynote delivered
+    by CEO David Sacks and an impressive lineup of special guests. // Expo Partners
+    [...] 
+ 
+ Content analysis details:   (-4.9 points, 5.0 required)
+ 
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+ -0.0 RCVD_IN_DNSWL_NONE     RBL: Sender listed at http://www.dnswl.org/, no
+                             trust
+                             [199.15.212.26 listed in list.dnswl.org]
+ -3.0 RP_MATCHES_RCVD        Envelope sender domain matches handover relay domain
+ -0.0 SPF_HELO_PASS          SPF: HELO matches SPF record
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.1 URI_TRY_3LD            URI: "Try it" URI, suspicious hostname
+  0.0 T_KAM_HTML_FONT_INVALID BODY: Test for Invalidly Named or Formatted
+                             Colors in HTML
+ -1.9 BAYES_00               BODY: Bayes spam probability is 0 to 1%
+                             [score: 0.0000]
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.0 HTML_IMAGE_RATIO_06    BODY: HTML has a low ratio of text to image area
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily valid
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from author's
+                             domain
+X-Spam-Flag: NO
+
+------=_Part_397397812_1354335533.1479843710131
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Meet the New Zenefits in Seattle, December 6 at the Four Seasons Hotel=20
+
+ Reserve Your Spot: https://www.zenefits.com/z22u/seattle?utm_source=3Demai=
+l&utm_medium=3Dheader_image
+// Keynote Address
+Learn about our platform updates during a keynote delivered by CEO David Sa=
+cks and an impressive lineup of special guests.
+// Expo Partners
+
+Visit the Z2 Expo to see what Zenefits can do for your business=E2=80=94see=
+ the latest product features, experience live demos, and check out solution=
+s from our integrated partners.
+Admission is free at the Four Seasons Hotel
+
+Reserve Your Spot Now: https://www.zenefits.com/z22u/seattle?utm_source=3De=
+mail&utm_medium=3Dbanner_image
+
+// People Are Loving the New Zenefits
+
+Tom Ryan @tomdryan =E2=80=A2 Oct 18
+@Zenefits Announces Z2 =E2=80=94 an open platform for HR management: They r=
+eally hit the bullseye for small businesses HR needs. #HelloZ2
+
+// Tell a Friend
+
+LinkedIn: https://www.linkedin.com/shareArticle?mini=3Dtrue&url=3Dhttps%3A/=
+/www.zenefits.com/z22u/seattle/&title=3DMeet%20the%20New%20Zenefits%20in%20=
+Seattle,%20Dec%206&summary=3DJust%20registered%20for%20Z22U%20in%20Seattle.=
+%20Excited%20to%20learn%20more%20about%20the%20new%20Zenefits!%20Join%20me%=
+20at%20the%20Four%20Seasons%20Hotel%20on%20Dec%206%3A%20www.zenefits.com/z2=
+2u/seattle&source=3D=20
+ Twitter: https://twitter.com/home?status=3DJust%20registered%20for%20Z22U%=
+20in%20Seattle.%20Excited%20to%20learn%20more%20about%20the%20new%20Zenefit=
+s!%20Join%20me%20at%20the%20Four%20Seasons,%20Dec%206%3A%20http%3A//bit.ly/=
+2em0SdD=20
+ Facebook: https://www.facebook.com/sharer/sharer.php?u=3Dhttps%3A//www.zen=
+efits.com/z22u/seattle/
+
+
+Questions? events@zenefits.com
+
+Unsubscribe: https://learn.zenefits.com/UnsubscribePage.html?mkt_unsubscrib=
+e=3D1&mkt_tok=3DeyJpIjoiWXpnelpURTJOREJqWWpVeCIsInQiOiIzeG9XN2NLdm1ndGVMZHF=
+KUGJUOVNCNVZLMXd6ZTZKVDhlN0RhdGdYTTdGbXJaNHVJcnlGUGwrRUwrM0t0U3ByVmNURlQrK2=
+5ab09tU0VuOHNqWUZYc0xnRTdEYndTQy8rUmZsek93akpxWT0ifQ%3D%3D.
+
+------=_Part_397397812_1354335533.1479843710131
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" >
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DUTF-8">
+<meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=3D1.=
+0">
+<title>Get ready to meet the new Zenefits</title>
+
+<style type=3D"text/css">
+@media only screen and (max-width:726px){img{max-width:100%;height:auto}}
+      .preheader { display:none !important; visibility:hidden; opacity:0; c=
+olor:transparent; height:0; width:0; }
+</style>
+</head>
+<body ><span class=3D"preheader" style=3D"color:transparent; display:none !=
+important; height:0; opacity:0; visibility:hidden; width:0">Join us on Dece=
+mber 6th for an =E2=80=A8in-depth look at the next generation =E2=80=A8of H=
+R apps and services.</span><center ><table border=3D"0" cellpadding=3D"0" c=
+ellspacing=3D"0" class=3D"templateContainer" style=3D"width:100%; backgroun=
+d:#eee; " ><tr ><td>&nbsp;</td>
+<td valign=3D"top" class=3D"bodyContainer" align=3D"center" style=3D"width:=
+600px; " width=3D"600px" ><table border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" width=3D"100%" style=3D"width:100%; margin:0 auto; " align=3D"center=
+" ><tbody ><tr ><td valign=3D"top" style=3D"padding-top:25px; " ><table ali=
+gn=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100=
+%" style=3D"font-family:Helvetica,Arial,sans-serif; color:#444444; font-siz=
+e:15px; line-height:16px; " ><tbody ><tr ><td style=3D"color:#fff; " ><div =
+class=3D"mktEditable" id=3D"banner_image" ><p style=3D"margin: 0; text-alig=
+n: center;"><a href=3D
+"http://go.zenefits.com/M50H0E0UGFt9L00q40IF0X0" target=3D"_blank"
+><img src=3D"https://learn.zenefits.com/rs/180-GFH-982/images/hero_image_se=
+attle.png?no-cache" alt=3D"Join us on December 6th for an =E2=80=A8in-depth=
+ look at the next generation =E2=80=A8of HR apps and services." width=3D"60=
+0px" style=3D"display: block; margin: 0 auto;" /></a></p></div>
+</td>
+</tr>
+<tr ><td ><table cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" border=
+=3D"0" style=3D"max-width:600px; margin:0 auto; background-color:#fff; " al=
+ign=3D"center" ><tr ><td ><table cellspacing=3D"15" cellpadding=3D"0" width=
+=3D"100%" border=3D"0" ><tr ><td style=3D"padding:20px 10px 0 0; " ><div cl=
+ass=3D"mktEditable" id=3D"section1_image" ><img src=3D"https://learn.zenefi=
+ts.com/rs/180-GFH-982/images/Zenefits_Atlanta-065.png" alt=3D"David Sacks" =
+/></div>
+</td>
+<td ><div class=3D"mktEditable" id=3D"section1_content" ><h2 style=3D"color=
+: #313e49; font-size: 21px; line-height: 40px; margin: 0; padding: 0;">Keyn=
+ote Address</h2>
+<span style=3D"font-size: 15px; line-height: 21px;">Learn about our platfor=
+m updates during a keynote delivered by CEO David Sacks and an impressive l=
+ineup of special guests.</span></div>
+</td>
+</tr>
+<tr ><td style=3D"padding:20px 10px 0 0; " ><div class=3D"mktEditable" id=
+=3D"section2_image" ><img src=3D"https://learn.zenefits.com/rs/180-GFH-982/=
+images/email_pic-2.jpg" alt=3D"email_pic-2.jpg" height=3D"200" width=3D"200=
+" /></div>
+</td>
+<td ><div class=3D"mktEditable" id=3D"section2_content" ><h2 style=3D"color=
+: #313e49; font-size: 21px; line-height: 40px; margin: 0; padding: 0;">Expo=
+ Partners<br /></h2>
+<span style=3D"font-size: 15px; line-height: 21px;">Visit the Z2 Expo to se=
+e what Zenefits can do for your business&mdash;see the latest product featu=
+res, experience live demos, and check out solutions from our integrated par=
+tners.</span></div>
+</td>
+</tr>
+</table>
+<hr style=3D"display:block;height:1px;width:100px;border:0;border-top:1px s=
+olid #979797;margin:1em auto;padding:0"></td>
+</tr>
+<tr ><td style=3D"text-align:center; " ><div class=3D"mktEditable" id=3D"se=
+ction_3" style=3D"text-align:center; " ><h3 style=3D"color: #313e49; line-h=
+eight: 24px;">Admission is free at the Four Seasons Hotel<br />Space is lim=
+ited, so reserve your spot today.<br /></h3>
+<a href=3D
+"http://go.zenefits.com/s0YF0490UF5r0G0EtI00L0H" target=3D"_blank"
+><img src=3D"https://learn.zenefits.com/rs/180-GFH-982/images/four_seasons_=
+banner.png" width=3D"94%" alt=3D"Reserve Your Spot Now" /></a></div>
+<br>
+<hr style=3D"display:block;height:1px;width:100px;border:0;border-top:1px s=
+olid #979797;margin:1em auto;padding:0"></td>
+</tr>
+<tr ><td style=3D"text-align:center; " ><div class=3D"mktEditable" id=3D"cu=
+stomer_quote" style=3D"text-align:center; " ><h3 style=3D"color: #313e49;">=
+People Are Loving the New Zenefits</h3>
+<table cellspacing=3D"20" cellpadding=3D"0" width=3D"94%" border=3D"0" styl=
+e=3D"background-color: #eeeeee; text-align: left; margin: 0 auto; -webkit-b=
+ox-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.5); -moz-box-shadow: 0px 2px 4px=
+ 0px rgba(0, 0, 0, 0.5); box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.5);" a=
+lign=3D"center">
+<tbody>
+<tr>
+<td><img src=3D"https://learn.zenefits.com/rs/180-GFH-982/images/twitter-he=
+lloz2-praise-cropped.png" height=3D"70" width=3D"70" /></td>
+<td><span style=3D"color: #313e49; font-size: 16px; line-height: 19px;"><st=
+rong>Tom Ryan</strong></span> <span style=3D"color: #aaa;">@tomdryan &bull;=
+ Oct 18</span><br /> <span style=3D"font-size: 14px; line-height: 19px;"><a=
+ style=3D"color: #00a2ca; text-decoration: none;" href=3D
+"http://go.zenefits.com/K00EtGF004FZ0sLUI0950H0"
+>@Zenefits</a> Announces Z2 &mdash; an open platform for HR management: The=
+y really hit the bullseye for small businesses HR needs. <span style=3D"col=
+or: #00a2ca;">#HelloZ2</span></span></td>
+</tr>
+</tbody>
+</table></div>
+<br>
+<br>
+<br></td>
+</tr>
+<tr ><td style=3D"text-align:center; color:#000000; " ><div style=3D"backgr=
+ound-color:#AAD3DD; padding:50px 0px 50px 0px; " class=3D"mktEditable" id=
+=3D"footer_section" >
+<h2 style=3D"font-size: 18px; color: #313e49; font-weight: 800; line-height=
+: 28px; width: 80%; margin: auto; letter-spacing: 1.04px;">Tell a Friend</h=
+2>
+<br />
+<p style=3D"letter-spacing: 10px; margin: 0; line-height: 50px;"><a href=3D
+"http://go.zenefits.com/DG0t00u0HFU00G09450I0LE" target=3D"_blank"
+><img src=3D"https://learn.zenefits.com/rs/180-GFH-982/images/facebook.png"=
+ alt=3D"Share on Facebook" width=3D"44px" height=3D"44px" /></a> <a  href=
+=3D
+"http://go.zenefits.com/dL04I915GE0HU00Ftv000G0" target=3D"_blank"
+><img src=3D"https://learn.zenefits.com/rs/180-GFH-982/images/twitter.png" =
+alt=3D"Share on Twitter" width=3D"44px" height=3D"44px"=20
+/></a> <a  href=3D
+"http://go.zenefits.com/o002500wG009IG0tUHFLE40"=20
+target=3D"_blank"
+><img src=3D"https://learn.zenefits.com/rs/180-GFH-982/images/linkedin.png"=
+ alt=3D"Share on Linkedin" width=3D"44px" height=3D"44px" /></a></p>
+<p style=3D"font-size: 18px;">#HelloZ2</p>
+<p style=3D"font-size: 16px;">Questions? <a href=3D
+"http://go.zenefits.com/rt030H0G0Fx4U5G9I00E0L0" style=3D"color: #313e49;"
+>events@zenefits.com</a></p>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"text-align:center;color:#aaaaaa;text-align:center;"><br>
+<div style=3D"text-align: center;margin: 0 auto;"><img src=3D"https://learn=
+.zenefits.com/rs/180-GFH-982/images/ZenLogoEmail.png" width=3D"165px" heigh=
+t=3D"45px" alt=3D"Zenefits"></div>
+<p style=3D"font-size:11px;margin:15px 0 0;text-align:center">&copy;2016 Ze=
+nefits, 303 2nd St., San Francisco CA 94107</p>
+<p style=3D"font-size:11px;margin:0 0 15px;text-align:center">All insurance=
+ products are sold by Zenefits FTW Insurance Services</p>
+<p style=3D"font-size:13px;margin:0;text-align:center"><a href=3D
+"http://go.zenefits.com/q9HG0L0U4y05tG00F0I400E" target=3D"_blank" style=3D=
+"text-decoration:none;color:#999999"
+>Terms</a> | <a href=3D
+"http://go.zenefits.com/u55000UFt40L0z00GIEGH90" target=3D"_blank" style=3D=
+"text-decoration:none;color:#999999"
+>Privacy</a> | <a href=3D
+"http://go.zenefits.com/XL40IAF05000HGtUE009G60" target=3D"_blank" style=3D=
+"text-decoration:none;color:#999999"
+>Licenses</a> | <a href=3D
+"http://go.zenefits.com/e50U7H00000FGG0Et9B4I0L" target=3D"_blank" style=3D=
+"text-decoration:none;color:#999999"
+>Unsubscribe</a></p>
+<br>
+<br></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td>&nbsp;</td>
+</tr>
+</table>
+</center>
+<a href=3D
+"http://go.zenefits.com/tLHI0E0GGU04C005Ft00098"
+></a>
+<img src=3D"http://go.zenefits.com/trk?t=3D1&mid=3DMTgwLUdGSC05ODI6MTcxODU6=
+NTIwODo1ODMzNjowOjgyMDg6Nzo3MDY4Nzg4OnBhbUBtYWdpY2Fsc3RyaW5ncy5jb20%3D" wid=
+th=3D"1" height=3D"1" style=3D"display:none !important;" alt=3D"" />
+
+<div style=3D"text-align: center; width: 100%;"><font face=3D"Arial" size=
+=3D"1">This email was sent to pam@magicalstrings.com. If you no longer wish=
+ to receive these emails you may <a href=3D
+"http://go.zenefits.com/u/JF04GE099H05DGU0LI000t0"
+>unsubscribe</a> at any time. </font> </div>
+</body>
+</html>
+------=_Part_397397812_1354335533.1479843710131--

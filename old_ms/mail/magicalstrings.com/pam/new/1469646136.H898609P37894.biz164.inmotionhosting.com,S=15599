@@ -1,0 +1,240 @@
+Return-path: <prvs=0016F5FA23=Irada.Kerimova@tdsb.on.ca>
+Envelope-to: pam@magicalstrings.com
+Delivery-date: Wed, 27 Jul 2016 12:02:16 -0700
+Received: from mail-bl2nam02hn0221.outbound.protection.outlook.com ([104.47.38.221]:58629 helo=NAM02-BL2-obe.outbound.protection.outlook.com)
+	by biz164.inmotionhosting.com with esmtps (TLSv1.2:AES256-SHA256:256)
+	(Exim 4.86_1)
+	(envelope-from <prvs=0016F5FA23=Irada.Kerimova@tdsb.on.ca>)
+	id 1bSU5j-0009Ja-Dq
+	for pam@magicalstrings.com; Wed, 27 Jul 2016 12:02:16 -0700
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=tdsb.on.ca;
+ s=selector2; h=From:Date:Subject:Message-ID:Content-Type:MIME-Version;
+ bh=fWV+R8vHNJua/TYE1Y/+sMkfWekPCI2yg3zaHzf9tnA=;
+ b=pnxLfXKujE9cvOfmIxrI0Se4QB84D840HemfCM1yXru9wLRcN8F4o0z7j5bdEZZ5gpylmkKdFsGO+1gp9wGDzuXhNvpbmhLo/8fSUpg+GcaG3JZ8f90ECtaZuiujKQIoiRYw3cOjD2rn4IzcURoatz11SloKzt3/vQ/c/6k6R24=
+Received: from BY2PR02CA0083.namprd02.prod.outlook.com (10.242.32.41) by
+ BY2PR02MB522.namprd02.prod.outlook.com (10.141.139.156) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P384) id
+ 15.1.544.10; Wed, 27 Jul 2016 19:01:51 +0000
+Received: from BL2FFO11FD016.protection.gbl (2a01:111:f400:7c09::193) by
+ BY2PR02CA0083.outlook.office365.com (2a01:111:e400:2c2a::41) with Microsoft
+ SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P384) id 15.1.544.10 via
+ Frontend Transport; Wed, 27 Jul 2016 19:01:49 +0000
+Authentication-Results: spf=pass (sender IP is 38.116.192.55)
+ smtp.mailfrom=tdsb.on.ca; aol.com; dkim=none (message not signed)
+ header.d=none;aol.com; dmarc=pass action=none header.from=tdsb.on.ca;
+Received-SPF: Pass (protection.outlook.com: domain of tdsb.on.ca designates
+ 38.116.192.55 as permitted sender) receiver=protection.outlook.com;
+ client-ip=38.116.192.55; helo=tls.tdsb.on.ca;
+Received: from tls.tdsb.on.ca (38.116.192.55) by
+ BL2FFO11FD016.mail.protection.outlook.com (10.173.160.224) with Microsoft
+ SMTP Server (TLS) id 15.1.539.16 via Frontend Transport; Wed, 27 Jul 2016
+ 19:01:50 +0000
+Received: from TDSBHUB1.tdsb.on.ca (172.22.19.104) by TLS.tdsb.on.ca
+ (172.22.200.205) with Microsoft SMTP Server (TLS) id 14.3.235.1; Wed, 27 Jul
+ 2016 15:01:31 -0400
+Received: from TDSBDAG1A.tdsb.on.ca ([169.254.1.17]) by TDSBHUB1.tdsb.on.ca
+ ([172.22.19.104]) with mapi id 14.03.0235.001; Wed, 27 Jul 2016 15:01:29
+ -0400
+From: "Kerimova, Irada" <Irada.Kerimova@tdsb.on.ca>
+Subject: Urgent
+Thread-Topic: Urgent
+Thread-Index: AdHlHRdLgQi+SeKOS2e4xqo4ADSi1A==
+Date: Wed, 27 Jul 2016 19:01:29 +0000
+Message-ID: <06BF88096A3E5149BF72E38FD9DCFB359C977C87@TDSBDAG1A.tdsb.on.ca>
+Reply-To: "capitalfinancialtd@yandex.com" <capitalfinancialtd@yandex.com>
+Accept-Language: en-CA, en-US
+Content-Language: en-US
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+x-originating-ip: [172.22.39.161]
+Content-Type: multipart/alternative;
+	boundary="_000_06BF88096A3E5149BF72E38FD9DCFB359C977C87TDSBDAG1Atdsbon_"
+MIME-Version: 1.0
+To: Undisclosed recipients:;
+X-EOPAttributedMessage: 0
+X-Forefront-Antispam-Report:
+	CIP:38.116.192.55;IPV:CAL;SCL:-1;CTRY:CA;EFV:NLI;SFV:SPM;SFS:(10009020)(6009001)(7916002)(2980300002)(438002)(199003)(189002)(4001450100002)(356003)(5003600100003)(33656002)(2930100002)(2900100001)(2920100001)(7696003)(74482002)(19300405004)(7736002)(107886002)(8676002)(110136002)(8666005)(53416004)(7846002)(5000100001)(84326002)(106476002)(77096005)(102836003)(790700001)(15975445007)(6116002)(8796002)(109986004)(81166006)(2860700002)(97736004)(8936002)(81156014)(3846002)(260700001)(221733001)(68736007)(1671002)(2906002)(3480700004)(87936001)(43066003)(218543002)(586003)(26826002)(19625215002)(189998001)(512954002)(881003)(50986999)(6806005)(16796002)(55846006)(53806999)(54356999)(106356001)(69596002)(16236675004)(229853001)(19580405001)(19580395003)(106466001)(85806002)(7099028)(9050700006);DIR:OUT;SFP:1501;SCL:5;SRVR:BY2PR02MB522;H:tls.tdsb.on.ca;FPR:;SPF:Pass;PTR:InfoNoRecords;A:1;MX:1;LANG:en;
+X-Microsoft-Exchange-Diagnostics: 1;BL2FFO11FD016;1:vOAZCMYNbjZ7tOz6CW/w0DorA3fPriKy6lfk62U1yDK/rNjw5oJq70VN5qWNy0HwZCRCoU0y8niqogTARoToZe7JPyrAOJ+9xDswtauMgG4AJPpQXH+/epyBhXq1LHyzokNdBdX2lcN0u82KWfhFLoa612k8/Cq5UvpPlXPDN/41lqi4iwFkYQF1A/ok+R7dnSVDsA1eVnLpDKIaTf1L9CcDErFLEICLxYlHU9JQFf5ouR2P3dNJPW3JBGPM4tQAzkgaHaMSSP6laUhn1BSWFaUpQOeT57NVMlgiiIsCXuO9+oh9og6KByuEnUFL+xq1C3ktrSoxw70xKnbmZRizxspys6+wIYFSQGTQcbXVP/v/+0Sn+u4U3j1jE3e6B4JW2uUllI5dAMJZPsqBpqsfRCEuarr3KaLowTKNUDyyINKIwPmFZWoDvKOzsyBQ5LIU7Ge9sk4hD5UocJQjLeXX8rEuu9tDi0ta0nj4Gz14mSX1AjFi5vdy2AhwtyykUwUrBrwwWkk6LSNr5QQuQCpHul7Cr+4ax9hWv5FGbEcfIsnr6U7bfi/BDsxx6OF5XK19
+X-MS-Office365-Filtering-Correlation-Id: 99082115-00d3-4f51-6a22-08d3b65077b3
+X-Microsoft-Exchange-Diagnostics:
+	1;BY2PR02MB522;2:/6aF263dzuZoma3RzCDA6u3Lnw1ELv8pEWgjbNuSB0WPTn3J641V/sbA4t2OX6hbAO3T0zpVsaxqaOw+/NATAEgBRtLH25NR45yPgyQa8LO2pbAgYNiagmy5o4eNeQZ4/rkx2QE1IeHN52T1GhdV1N/Z2kFNaetuBc5aKWesZxrdCyNz3zG3LO93mvfJ5jyc;3:cwor9IlA68uLv4IKlR9ErOef9m7jwNYiwtnBMAR7qNMv5v6lDmuHIBZPR1Oxqb3sH1yMhzPGqhDnpflzw+ovg5GPTi3p+rT0ZD9RAEEy/OzNGhwIXbYAZG/BVtNJWJONqvRx92UARRASJGgz9eitAl+kffwZhhw8De7Vc8eE9NHmjlbvvFnr10PxNQdYQZDfUP7RM26HRgZvrEcG2iBw4W1Q5UcjAzNHXGJoe8Cyt/hO0ZwQZ7GK7xo5k9k/DlkVAPwa3pdGvREN4SgG+C6KLw==;25:GwochNyabtqNDwBVwwd/ehJCKhi9xYdAKuhAby45V1hjml9YN3IgOkRM3WVR+IwFxmkr38o9KDcfz3hxLGNznHnjmK/wdHM453/sW/wCsJp7S/TDo7z6bqMHKHBnTKhX4mLDzkgUo3VgITZFAVrpCa6mKRiRujRrWWOtRVMUqIKX67fYgDKXP5FNrRstZ3s51hzn/4m0voNj3rA/ZoMGAjQ6uYGlFEQNoEXEVenPJOotZ9Tv/sFV55n1PJbbnoxJacjkC9R8d8Fw19XocdnAKBSX7RRBka+qz6JIWF4kS2ewRz3gJVVawbkYky3rnn/EB/Rt1JF/1B+9aTZzVWPm7m43TY6F2qGSXSaQIJtOstSHwBt+O3XdbChqLKrYNXO/T1Kue2C0Lpl5GOH0iHqWiEBDUVfERi5L9U0PM4OkxK0=
+X-Microsoft-Antispam:
+	UriScan:;BCL:0;PCL:0;RULEID:(8251501002);SRVR:BY2PR02MB522;
+X-Microsoft-Exchange-Diagnostics:
+	1;BY2PR02MB522;31:AQAwNvoklJm1/hJjjrCSl83j4FYwkDLcpANYYMVF+sMXOaGArrThAbk5VM1rVBKjmErsc0xqBdWB/ONUwUCsDExdqzqk0y9H0jjR1y/ug+PndNfn7YkazqYumjftGaYWlWMyiCFoV8myB6tZtXade2HlwCuawtTaBHJqWtOuTFMqTxZuJSLP8KMaxzCMspN+Kdf3OrY1HrxBGSyJcNZ8mg==;20:e+/GlXzugzGPsV6Qf8bhvnCJQq8lzKXP9FjOgSOprRwTCOZnj04wo1h1EUupqaXeXJPsh9WCmfN+g7QLWg8+O8qzjfgIh7ADCeboSl6RTdjEratFh0gk5u59U8bJviGOCPZQan3Cv72F1aWEGMN9iPN/AzyAJv3Neb5T1AAfdec=;4:t7qKe6iHx7HXvyC1sznEn2kzFGRlqr6jSChZOBMSXrvB39DbmIFjAKuu3Yqs2G1BRZUi/lEq6zaSSRLe1gJknkIqjiMiidjWT9upxpW55bvsamX26tP5Ds7UMLaHa7sNcquE/PReEJ59Ohkv9U+NdrmS3BnOnHL87ws/Tt3H0OTRo4ptITpYP1d4H+qLyfv6npBy7AT1cMzzfhbGpfpZeXi33ygSgzetw2zTMS5MEhRKgLxd50xIaM1woJ6I+S2ybbsn28Ie/NmYTzAZzck+FL7EwhXv4kpm4MIK8P05TKItHfcq4ky8UzX5qj/Z6cRB3IQZAoumPR1oM2OV8Wtl7eHL5jNOF+MjdS9R6gH54E59ri4nmUXmo64vTUHxZH3yZ8+1feNJE8l9oJz69n40ILb4zR6+Y7076lmzzQlS6eTUV6x6aHG8/2TNACMwG87uGm+cuqP9nFG1mCyjfXSox1FiPucNy06koxdIui7UiJ8=
+X-Microsoft-Antispam-PRVS:
+	<BY2PR02MB522CE1A9A205124CEAA8D90FC0F0@BY2PR02MB522.namprd02.prod.outlook.com>
+X-Exchange-Antispam-Report-Test: UriScan:(21748063052155);
+X-Exchange-Antispam-Report-CFA-Test:
+	BCL:0;PCL:0;RULEID:(601004)(2401047)(13023025)(13013025)(13020025)(5005006)(8121501046)(3002001)(10201501046);SRVR:BY2PR02MB522;BCL:0;PCL:0;RULEID:;SRVR:BY2PR02MB522;
+X-Forefront-PRVS: 0016DEFF96
+X-Microsoft-Exchange-Diagnostics:
+	=?us-ascii?Q?1;BY2PR02MB522;23:cUa6X3TVSAk9ePbankGPDbxx6zWt0Y1TWRzxwje7Wc?=
+ =?us-ascii?Q?JDosUWqts4pWc4UstNGp0g3ziO3bX6aZo3abbNAb0HFGSJKVKGzxu6Qc6tz/?=
+ =?us-ascii?Q?OtapWOjyAFTCnJAcvHQ5ExPDLhC5DXvtGEW1zxHVqFznorW70NzWiP+tj6i4?=
+ =?us-ascii?Q?glGBJV34bWoM/Whj9F8ftmcZPz+3mOE/AElZGthGf2EHhT5H0OdenVSUK+zS?=
+ =?us-ascii?Q?ZSMXW6QfH+9wT0/8MAFJfh1vxHv538hih6OqvWL/ZN8oiV5EMIaA0Ed5a9P7?=
+ =?us-ascii?Q?LOFy/5WuIoPvGDmqP2JiX+jM1O+N2zGrXLufHKP0oQIms79n/Z+giMFX/uGN?=
+ =?us-ascii?Q?cUfEw6TEJ6Ab0pKF57x+mDFZtBSz7hPo/xdNHHScHkxR1AW3T0P7jEBukpz9?=
+ =?us-ascii?Q?rw+I/RYSBEOYZ8z7PuP+yFmJbJA9vv+meCUn6K6/13xcf7tf3tCQ0zqbilxH?=
+ =?us-ascii?Q?TWRbY6Wy+MG6RO0K3dx/Dnoo5aQRZrUqIal1uLiAdRSjJ+Qzdq++SG77yHJH?=
+ =?us-ascii?Q?qb8FtN3UsgVF6d9NyYaqnvOHQY7iXo0e7j3f8/oC7KQyMtzuDVbKgRReYK7g?=
+ =?us-ascii?Q?JK/CKEBEms5VgF/m+QcM5O+q5Od+C/L0O5ZIDZBM+d780lXuuw5NSvr2NiD7?=
+ =?us-ascii?Q?xi6weXHKiybaNaS1nRp3BBoY55VcDcdkmW7amJOV9it0V3JNlrfelERs+luq?=
+ =?us-ascii?Q?RYjccNZkTJzvamyroqi/oB/V7IJG3wzPiGSWR0Y8qhCIQdopsxnaIMAcYcEX?=
+ =?us-ascii?Q?VKfBUExgC05+4buGN4pzlAB5IhDI6/EwJ6yanXuX69ik+GWztwT9ToV6pPm0?=
+ =?us-ascii?Q?fPpQz+9HdNSjYrKjwxxMHYUo2a+zKMLTkMkthVbVvN6MgmkvrxNlzFMCRysA?=
+ =?us-ascii?Q?lT7U6fdvirVefGVzSJAc137B9qtbujEYLFmI/S62oQ+8YeohIHCiCWPrnMup?=
+ =?us-ascii?Q?6iEw9dm6xJ2Y9Zmjwg7wzUEDYCcbkx6aIhzavrX+uRJIVgc8KOC5ZRLRXkvQ?=
+ =?us-ascii?Q?xMGI5ttcyJK1v+urEyE09F0WCr1SvdkoU6t4GFteBSm6Jo3CtB4r2HVY4W46?=
+ =?us-ascii?Q?4nDy/M5PCXcJCTifs36v2mHMWr8IQ/8yGGFx8HVzLlZ+spAdb1RjsDbHLiuD?=
+ =?us-ascii?Q?1SDqC7CwriU8//TtB2m4mYFm2neGPt6wYmzQ7up5g42lvTbKRKmArW4jPiC0?=
+ =?us-ascii?Q?Xe6Ax6/rNQjPXIzADQ+HPCRFtD0zfYK9FKqttElM6M6Sk9yDTDtEKTOMthvt?=
+ =?us-ascii?Q?Ue0cCnYwgrCLX30RISSdGZwSzz8SSvzm/fQRZsH8DIUVTceqCgPtfmoI+MLs?=
+ =?us-ascii?Q?GRaL9DESDJWKVIIffYBuVn5iVSR3Nt6FkUcExgyabsUoMxVY6PKDe8FMaKXC?=
+ =?us-ascii?Q?5C4YHuABBm9TXXCJ6Ccdq+2RAxd3fBx+I0arasC0cqy1hIaFIdF9u/vce2PB?=
+ =?us-ascii?Q?E02JGwyryy76Hn+Fa93xiW9mKC978pyEEwvgbRNIw89cGe0GQbJEzl7jTeno?=
+ =?us-ascii?Q?jMAOg2XWrzwaBkQXKfDOOk5UcdXIIYoIMoaZlrVPItc3tKZDSI48TViClVcU?=
+ =?us-ascii?Q?hof1i15clvtDF0MUshNjDig5fLGYPjCwQdzECn4+n5++oSAQcWEnI9dSBUr8?=
+ =?us-ascii?Q?3C9W1p8tSbIHro80ngUhMzEVYzXu25e0eBmQm4ISIcQWQTs1UH66Ak7hQI+l?=
+ =?us-ascii?Q?IFS7K4YcmARvw0YVJC6XGaKInRV4uqVfVn/i2DfK6EGLQ=3D?=
+X-Microsoft-Exchange-Diagnostics:
+	1;BY2PR02MB522;6:IjPvz9apyZjzjAiQabf73lSD6LsZMv1fg13uZw60cfExcrvDZEWv3HFyWzwp3K6FaA4Ni4mKKivaAzWWZf94Xg2qXiawnoLbOqM3jNdPah26boEw/+NlLeGh0HPD630NHGQUYsZEexeJnkjiVHut/1pNZAMKfARLuTm6QBUrd3HOS+1R0ozMAM27eO+TwpU53XPMpnQI6U7kfF02UjKeurG/i7IKL0WJNuVC0q0dVz1kXwAH2QXpI/apHmDeFzYLI0xGz/IYX8awTjom+wZcpAFG2/XYHK+CEJqgvKx7M2M=;5:BldruruwtHdoUL1D1ZSXIrGZ67KfB6TqRxZFVm2d5dkNfYJ0KEdXGp95QD7MOdiXEJQLuPRsLkcuKZ4Csjsc/j71rpN1EvoEuVNR1OfYrWVC5x76izQOzKsESN9BqwyPVo0FBzolGczGKVHKvoFVOw==;24:ynXs9HkmrLb/qhBGiPGOaJcImUNM1BFMqj/my+sE0+Vk9uzGH3Y+goCV0OpT45hAejBk44w4qd42XQZPOoRg+w==;7:8jXGqooTfF9aF8Z8qXMT0J7ylfMDqTD9fuQPAnEi+NTA4ibuaSbvvl2PWRmQJ0NOwRyzsNb5Dnf7scfDgYEsSIlTn07au8MKync3Z1hlbM+KB4Rp0DzyTirHRh44zXJULmFay//T+ldBk16YWAFPHsz98lfXNX0iYIjHFtHCt1cEwrME3+dffGshv42gu8pVbtIDRidYMRFewdoNPWvEQZCw+KRF6dYs1owb8aql2fPgtpx3AqeCcq+ZE1/GuE/h
+SpamDiagnosticOutput: 1:22
+X-OriginatorOrg: tdsb.on.ca
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 27 Jul 2016 19:01:50.4549
+ (UTC)
+X-MS-Exchange-CrossTenant-Id: c4d72b4d-8155-4a90-9155-7705148c41ca
+X-MS-Exchange-CrossTenant-OriginalAttributedTenantConnectingIp: TenantId=c4d72b4d-8155-4a90-9155-7705148c41ca;Ip=[38.116.192.55];Helo=[tls.tdsb.on.ca]
+X-MS-Exchange-CrossTenant-FromEntityHeader: HybridOnPrem
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: BY2PR02MB522
+X-Spam-Status: No, score=2.0
+X-Spam-Score: 20
+X-Spam-Bar: ++
+X-Ham-Report: Spam detection software, running on the system "biz164.inmotionhosting.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ 
+ Content preview:  Apply for 2% interest rate loan today, 24 hours approval with
+    no stress, and swift transfer system to anywhere. [...] 
+ 
+ Content analysis details:   (2.0 points, 5.0 required)
+ 
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+ -0.0 SPF_HELO_PASS          SPF: HELO matches SPF record
+ -0.0 RCVD_IN_DNSWL_NONE     RBL: Sender listed at http://www.dnswl.org/, no
+                             trust
+                             [104.47.38.221 listed in list.dnswl.org]
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was blocked.
+                             See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: tdsb.on.ca]
+ -0.0 RCVD_IN_MSPIKE_H2      RBL: Average reputation (+2)
+                             [104.47.38.221 listed in wl.mailspike.net]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+ -0.0 BAYES_40               BODY: Bayes spam probability is 20 to 40%
+                             [score: 0.2762]
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from author's
+                             domain
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily valid
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  2.1 FREEMAIL_FORGED_REPLYTO Freemail in Reply-To, but not From
+X-Spam-Flag: NO
+
+--_000_06BF88096A3E5149BF72E38FD9DCFB359C977C87TDSBDAG1Atdsbon_
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+Apply for 2% interest rate loan today,
+
+24 hours approval with no stress,
+
+and swift transfer system to anywhere.
+
+Reply with amount needed and duration.
+
+Reply to: capitalfinancialtd@yandex.com
+
+
+--_000_06BF88096A3E5149BF72E38FD9DCFB359C977C87TDSBDAG1Atdsbon_
+Content-Type: text/html; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:o=3D"urn:schemas-micr=
+osoft-com:office:office" xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" xmlns=3D"http:=
+//www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dus-ascii"=
+>
+<meta name=3D"Generator" content=3D"Microsoft Word 15 (filtered medium)">
+<style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:#0563C1;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:#954F72;
+	text-decoration:underline;}
+span.EmailStyle17
+	{mso-style-type:personal-compose;
+	font-family:"Calibri","sans-serif";
+	color:windowtext;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:10.0pt;
+	font-family:"Calibri","sans-serif";}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]-->
+</head>
+<body lang=3D"EN-US" link=3D"#0563C1" vlink=3D"#954F72">
+<div class=3D"WordSection1">
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Arial&quot;,&quot;s=
+ans-serif&quot;">Apply for 2% interest rate loan today,
+<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Arial&quot;,&quot;s=
+ans-serif&quot;">24 hours approval with no stress,
+<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Arial&quot;,&quot;s=
+ans-serif&quot;">and swift transfer system to anywhere.<o:p></o:p></span></=
+p>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Arial&quot;,&quot;s=
+ans-serif&quot;">Reply with amount needed and duration.<o:p></o:p></span></=
+p>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Arial&quot;,&quot;s=
+ans-serif&quot;">Reply to: capitalfinancialtd@yandex.com<o:p></o:p></span><=
+/p>
+</div>
+</body>
+</html>
+
+--_000_06BF88096A3E5149BF72E38FD9DCFB359C977C87TDSBDAG1Atdsbon_--

@@ -1,0 +1,1766 @@
+Return-Path: <SeattleOpera_MTM0XzI4ODk5XzM1NzYzXzcxMjM@response.wordfly.com>
+Delivered-To: pam@magicalstrings.com
+Received: from biz164.inmotionhosting.com
+	by biz164.inmotionhosting.com with LMTP id 0MP3Hq0nKFoWtAAAtEtsOg
+	for <pam@magicalstrings.com>; Wed, 06 Dec 2017 09:23:57 -0800
+Return-path: <SeattleOpera_MTM0XzI4ODk5XzM1NzYzXzcxMjM@response.wordfly.com>
+Envelope-to: pam@magicalstrings.com
+Delivery-date: Wed, 06 Dec 2017 09:23:57 -0800
+Received: from m134-mta1.wordfly.com ([72.5.51.209]:51776)
+	by biz164.inmotionhosting.com with esmtp (Exim 4.89)
+	(envelope-from <SeattleOpera_MTM0XzI4ODk5XzM1NzYzXzcxMjM@response.wordfly.com>)
+	id 1eMdQ2-0003Dp-IX
+	for pam@magicalstrings.com; Wed, 06 Dec 2017 09:23:57 -0800
+DKIM-Signature: v=1; a=rsa-sha1; d=seattleopera.org; s=wordfly02; c=relaxed/relaxed;
+	q=dns/txt; i=@seattleopera.org; t=1512581017;
+	h=From:Subject:Date:To:MIME-Version:Content-Type;
+	bh=4t0V/8keZegooHcJ1nUN1PdQKro=;
+	b=lnfuBDLY41EZHJWuMbOzzY1bPgS4sVQWEI1d3i4Xe9JM4sz5duu+lNhfoBa+B329
+	TQD3MzIkyoeYI7HCVehjJZGL0YvF45DF6R/BsArvZbGJxrN0J+35mB6Q8SGJ6oKd
+	5NmBJFXfLtmv7McZF4orGofrtldxjk/2HwWEkdgdA7c=;
+X-MSFBL: cGFtQG1hZ2ljYWxzdHJpbmdzLmNvbUBTZWF0dGxlT3BlcmFNYXJrZXRpbmdAZGVm
+	YXVsdEBTZWF0dGxlT3BlcmFfTVRNMFh6STRPRGs1WHpNMU56WXpYemN4TWpN
+Received: from [10.100.30.41] ([10.100.30.41:51320] helo=app1)
+	by wfmta2 (envelope-from <SeattleOpera_MTM0XzI4ODk5XzM1NzYzXzcxMjM@response.wordfly.com>)
+	(ecelerity 3.5.3.37097 r(Platform:3.5.3.0)) with ESMTP
+	id 27/FA-08232-997282A5; Wed, 06 Dec 2017 09:23:37 -0800
+X-Binding-ID: SeattleOperaMarketing
+Message-ID: <27.FA.08232.997282A5@wfmta2>
+MIME-Version: 1.0
+From: "Seattle Opera" <seattle.opera@seattleopera.org>
+To: pam@magicalstrings.com
+Date: 6 Dec 2017 09:23:37 -0800
+Subject: =?utf-8?B?4p2E77iPVG9kYXkncyBEZWFsOiAkNzUgZm9yIEFpZGEsIG1h?=
+ =?utf-8?B?aW4gZmxvb3Igc2VhdHMh?=
+Content-Type: multipart/alternative;
+ boundary=--boundary_1651905_8eb634ce-49c5-4e1c-a8f2-2222f9efc865
+X-Spam-Status: No, score=-6.8
+X-Spam-Score: -67
+X-Spam-Bar: ------
+X-Ham-Report: Spam detection software, running on the system "biz164.inmotionhosting.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ 
+ Content preview:  Plus a new performance added on May 18! Just announced: by
+    popular demand, we've added an extra performance of AIDA on Friday, May 18
+    at 7:30 PM! TODAY ONLY, enjoy select Orchestra seats for AIDA for just $75
+    (regularly up to $170) on Wednesday, May 9 at 7:30 PM; Wednesday, May 16
+   at 7:30 PM; or the just-added performance on Friday, May 18 at 7:30 PM. Can't
+    make those dates or prefer a different seating area? No problem—most seats
+    at all nine AIDA performances are 20% off, only until 11:59 PM tonight! [...]
+    
+ 
+ Content analysis details:   (-6.8 points, 5.0 required)
+ 
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was blocked.
+                             See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: instagram.com]
+ -2.0 RCVD_IN_RP_SAFE        RBL: Sender in ReturnPath Safe - Contact
+                             safe-sa@returnpath.net
+                             [Return Path SenderScore Safe List (formerly]
+                     [Habeas Safelist) - <http://www.senderscorecertified.com>]
+ -3.0 RCVD_IN_RP_CERTIFIED   RBL: Sender in ReturnPath Certified - Contact
+                             cert-sa@returnpath.net
+                             [Return Path SenderScore Certified {formerly]
+                       [Bonded Sender} - <http://www.senderscorecertified.com>]
+ -0.0 T_RP_MATCHES_RCVD      Envelope sender domain matches handover relay
+                             domain
+  0.0 HEADER_FROM_DIFFERENT_DOMAINS From and EnvelopeFrom 2nd level mail
+                             domains are different
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+ -1.9 BAYES_00               BODY: Bayes spam probability is 0 to 1%
+                             [score: 0.0000]
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.2 KAM_TRACKIMAGE         RAW: Message has a remote image explicitly meant for
+                             tracking
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from author's
+                             domain
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily valid
+X-Spam-Flag: NO
+
+
+----boundary_1651905_8eb634ce-49c5-4e1c-a8f2-2222f9efc865
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+Plus a new performance added on May 18!=0D=0A=0D=0AJust announced=
+: by popular demand, we've added an extra performance of AIDA on =
+Friday, May 18 at 7:30 PM! =0D=0A=0D=0ATODAY ONLY, enjoy select O=
+rchestra seats for AIDA for just $75 (regularly up to $170) on We=
+dnesday, May 9 at 7:30 PM; Wednesday, May 16 at 7:30 PM; or the j=
+ust-added performance on Friday, May 18 at 7:30 PM. Can't make th=
+ose dates or prefer a different seating area? No problem=E2=80=94=
+most seats at all nine AIDA performances are 20% off, only until =
+11:59 PM tonight! =0D=0A=0D=0ABUY THIS DEAL:=0D=0Awww.seattleoper=
+a.org/holidaysale=0D=0A=0D=0AABOUT AIDA:=0D=0AA profoundly person=
+al love story told on a grand scale, AIDA showcases Verdi's power=
+ to translate human emotions into magnificent music. The high-sta=
+kes love triangle between a captured princess, a conflicted milit=
+ary commander, and the King=E2=80=99s formidable daughter unfolds=
+ amid glorious spectacle and rousing choruses=E2=80=94including t=
+he famous Triumphal March.=0D=0A=0D=0AYour login is pam@magicalst=
+rings.com.=0D=0A=0D=0A-------------------------------------------=
+-=0D=0A=0D=0AWWW.SEATTLEOPERA.ORG=0D=0A=0D=0AYour Account ID: 211=
+00004=0D=0A=0D=0AAudience Services: 9 AM-5 PM M-F at 206.389.7676=
+                        =0D=0AAdministrative Offices: 1020 John S=
+treet, Seattle, WA 98109                        =0D=0APerformance=
+s: McCaw Hall, 321 Mercer Street, Seattle, WA 98109      =0D=0A=0D=0A=
+AIDA Production Sponsors:        =0D=0ALenore M. Hanauer        =0D=0A=
+4Culture                         =0D=0A=0D=0AFacebook: www.facebo=
+ok.com/seattleopera=0D=0ATwitter: www.twitter.com/seattleopera=0D=0A=
+Instagram: www.instagram.com/seattleopera=0D=0AYouTube: www.youtu=
+be.com/seattleopera=0D=0ABlog: www.seattleoperablog.com/=0D=0ASou=
+ndCloud: www.soundcloud.com/seattle-opera=0D=0A=0D=0ANo promotion=
+ code necessary; prices displayed online already reflect this dis=
+count. $75 offer valid only in the Orchestra Back (OB) section an=
+d select portions of the Orchestra (OR) section for the Wednesday=
+, May 9, Wednesday, May 16, and Friday, May 18 performances of AI=
+DA. 20% off offer valid for any other section or performance of A=
+IDA except Dress Circle Preferred and $25 seating areas, and $15 =
+under-18 tickets. Discount listed is approximate as it is calcula=
+ted prior to the addition of facility fee and is rounded up to th=
+e nearest whole dollar. May not be combined with any other discou=
+nts. Not valid with any other titles or on previously purchased t=
+ickets. Subject to availability. Offer valid only on December 6, =
+2017, 9 AM to 11:59 PM Pacific Time.=0D=0A=0D=0AOperas, artists, =
+schedule, and prices are subject to change. =0D=0A=0D=0AUnsubscri=
+be=0D=0Ahttp://tracking.wordfly.com/unsubscribe?sid=3DMTM0XzI4ODk=
+5XzM1NzYzXzcxMjM=0D=0A=0D=0AForward to a friend=0D=0Ahttp://track=
+ing.wordfly.com/forward?sid=3DMTM0XzI4ODk5XzM1NzYzXzcxMjM&l=3D485=
+9553e-64d4-e711-bcb0-e61f134a8c87&utm_source=3Dwordfly&utm_medium=
+=3Demail&utm_campaign=3D20171206HolidaySaleday3-Aida&utm_content=3D=
+version_A=0D=0A=0D=0AView in browser=0D=0Ahttp://tracking.wordfly=
+.com/view?sid=3DMTM0XzI4ODk5XzM1NzYzXzcxMjM&l=3D4959553e-64d4-e71=
+1-bcb0-e61f134a8c87&utm_source=3Dwordfly&utm_medium=3Demail&utm_c=
+ampaign=3D20171206HolidaySaleday3-Aida&utm_content=3Dversion_A=0D=0A=
+=0D=0A
+----boundary_1651905_8eb634ce-49c5-4e1c-a8f2-2222f9efc865
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html><html xmlns=3D"http://www.w3.org/1999/xhtml" dir=3D=
+"ltr" lang=3D"en" style=3D"margin: 0px; min-width: 100%; padding:=
+ 0px; width: 100%;" xmlns:v=3D"urn:schemas-microsoft-com:vml" xml=
+ns:o=3D"urn:schemas-microsoft-com:office:office"><head>=0D=0A		<m=
+eta charset=3D"utf-8" />=0D=0A		<meta name=3D"generator" content=3D=
+"WordFly 3.0.0.576" />=0D=0A		<!-- Derived from Starter A -->=0D=0A=
+=0D=0A		<!-- Welcome WordFly user! This is your HTML, we're just =
+guests here.=0D=0A		Please don't modify attributes and styles wit=
+h 'wf' in them, those are for our editor. -->=0D=0A=0D=0A		<!-- T=
+ell Outlook to use best available rendering engine. -->=0D=0A		<m=
+eta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge" />=0D=0A=
+=0D=0A		<!-- For responsive email layout -->=0D=0A		<meta name=3D=
+"viewport" content=3D"width=3Ddevice-width, initial-scale=3D1.0, =
+minimum-scale=3D1.0, maximum-scale=3D1.0" />=0D=0A=0D=0A		<!-- st=
+arter styles include a email-client reset, utility classes, and c=
+ontent blocks styles. -->=0D=0A		=0D=0A=0D=0A		<!-- Media query r=
+esets, pseudo selectors, and other css rules that cannot be inlin=
+ed. -->=0D=0A		<style type=3D"text/css" data-inline-options=3D"pr=
+eserve: true; ignore: true">=0D=0A			/* device width specific (e.=
+g. iPhone-ish) */=0D=0A			@media only screen and (max-width: 480p=
+x) {=0D=0A				.two-columns-block:not(.mobile-scale) .column,=0D=0A=
+				.three-columns-block:not(.mobile-scale) .column {=0D=0A					f=
+loat: none !important;=0D=0A					width: 100% !important;=0D=0A			=
+	}=0D=0A				.desktop-hide {=0D=0A					display: block !important;=0D=0A=
+					float: inherit !important;=0D=0A					max-height: none !impor=
+tant;=0D=0A					max-width: none !important;=0D=0A					text-indent=
+: 0 !important;=0D=0A					visibility: visible !important;=0D=0A		=
+		}=0D=0A				.mobile-hide {=0D=0A					display: none !important;=0D=0A=
+				}=0D=0A			}=0D=0A		</style>=0D=0A=0D=0A		<!-- Starter file sp=
+ecific rules. -->=0D=0A		=0D=0A=0D=0A		<!-- Basic styling: This i=
+s the style tag is edited by the style editor. -->=0D=0A		=0D=0A=0D=0A=
+		<!-- Advanced styling: This is the style tag is edited by the s=
+tyle editor. -->=0D=0A		<style data-wfeditor=3D"" type=3D"text/cs=
+s" data-inline-options=3D"preserve: true; ignore: true">			=0D=0A=
+			@media only screen and (max-width: 480px) {	=0D=0A				p {=0D=0A=
+					font-size: 14px !important;=0D=0A					line-height: 20px !imp=
+ortant;=0D=0A					text-align: left !important;=0D=0A					color: #=
+181a19 !important;=0D=0A					margin-bottom: 20px !important;=0D=0A=
+				}=0D=0A				p.fine-print {=0D=0A					font-size: 10px !importan=
+t;=0D=0A					line-height: 14px !important;=0D=0A					color: #5c5e=
+5d !important;=0D=0A					margin-bottom: 10px !important;=0D=0A			=
+		font-family: Verdana, sans-serif !important;=0D=0A				}=0D=0A		=
+		#social-links-block-1446679820075 p {=0D=0A					text-align: cen=
+ter !important;=0D=0A				}=0D=0A				#footer-block-1446680938407 p=
+ {=0D=0A					font-size: 10px !important;=0D=0A					line-height: 1=
+4px !important;=0D=0A					color: #5c5e5d !important;=0D=0A				}=0D=0A=
+				#preheader-block-1446678334348 p {=0D=0A					text-align: cent=
+er !important;=0D=0A					font-size: 10px !important;=0D=0A					li=
+ne-height: 15px !important;=0D=0A				}=0D=0A				li {=0D=0A					fo=
+nt-size: 14px !important;=0D=0A					line-height: 20px !important;=
+=0D=0A				}=0D=0A				#preheader-block-1446678334348 strong, #preh=
+eader-block-1446678334348 b {=0D=0A					line-height: 15px !import=
+ant;=0D=0A					font-size: 12px !important;=0D=0A				}=0D=0A				.t=
+ext-block img {=0D=0A					font-size: 12px !important;=0D=0A					f=
+ont-family: Verdana, sans-serif !important;=0D=0A					text-align:=
+ left !important;=0D=0A					color: #5c5e5d !important;=0D=0A				}=
+=0D=0A				.text-block img.image-left {=0D=0A					margin-right: 10=
+px !important;=0D=0A					margin-bottom: 10px !important;=0D=0A			=
+	}=0D=0A				.text-block img.image-right {=0D=0A					margin-left: =
+10px !important;=0D=0A					margin-bottom: 10px !important;=0D=0A	=
+			}=0D=0A				.text-block p.alt {=0D=0A					font-size: 14px !impo=
+rtant;=0D=0A					line-height: 20px !important;=0D=0A					font-fam=
+ily: Verdana, sans-serif !important;=0D=0A					text-align: left !=
+important;=0D=0A					color: #181a19 !important;=0D=0A					margin-=
+bottom: 20px !important;=0D=0A				}=0D=0A				.text-block a {=0D=0A=
+					font-size: 14px !important;=0D=0A					line-height: 20px !imp=
+ortant;=0D=0A				}=0D=0A				.text-block strong, .text-block b {=0D=0A=
+					font-size: 14px !important;=0D=0A					line-height: 20px !imp=
+ortant;=0D=0A				}=0D=0A				.text-block em, .text-block i {=0D=0A=
+					font-size: 14px !important;=0D=0A					line-height: 20px !imp=
+ortant;=0D=0A				}=0D=0A				.text-block p {=0D=0A					margin-bott=
+om: 20px !important;=0D=0A				}=0D=0A				.text-block li {=0D=0A		=
+			font-size: 14px !important;=0D=0A					line-height: 20px !impor=
+tant;=0D=0A				}=0D=0A				.button-block {=0D=0A					background-co=
+lor: #ffffff !important;=0D=0A				}=0D=0A				.button-block div.bu=
+tton div {=0D=0A					margin-bottom: 20px !important;=0D=0A				}=0D=0A=
+				.button-block div.button a {=0D=0A					font-size: 18px !impor=
+tant;=0D=0A				}=0D=0A				img.image-left {=0D=0A					margin-right=
+: 10px !important;=0D=0A					margin-bottom: 10px !important;=0D=0A=
+				}=0D=0A				img.image-right {=0D=0A					margin-left: 10px !imp=
+ortant;=0D=0A					margin-bottom: 10px !important;=0D=0A				}=0D=0A=
+				div.button a {=0D=0A					font-size: 18px !important;=0D=0A			=
+		font-family: Verdana, sans-serif !important;=0D=0A					font-wei=
+ght: bold !important;=0D=0A					color: #ffffff !important;=0D=0A	=
+			}=0D=0A				body {=0D=0A					font-size: 14px !important;=0D=0A	=
+				font-family: Verdana, sans-serif !important;=0D=0A					color:=
+ #181a19 !important;=0D=0A				}=0D=0A				p.alt {=0D=0A					font-s=
+ize: 14px !important;=0D=0A					line-height: 20px !important;=0D=0A=
+					font-family: Verdana, sans-serif !important;=0D=0A					text-=
+align: left !important;=0D=0A					color: #181a19 !important;=0D=0A=
+					margin-bottom: 20px !important;=0D=0A				}=0D=0A				p.captio=
+n {=0D=0A					font-size: 10px !important;=0D=0A					line-height: =
+14px !important;=0D=0A					font-family: Verdana, sans-serif !impo=
+rtant;=0D=0A					text-align: left !important;=0D=0A					color: #1=
+81a19 !important;=0D=0A					margin-bottom: 10px !important;=0D=0A=
+				}=0D=0A				a {=0D=0A					font-size: 14px !important;=0D=0A			=
+		line-height: 20px !important;=0D=0A					font-family: Verdana, s=
+ans-serif !important;=0D=0A				}=0D=0A				strong, b {=0D=0A					f=
+ont-size: 14px !important;=0D=0A					line-height: 20px !important=
+;=0D=0A					font-family: Verdana, sans-serif !important;=0D=0A			=
+		color: #181a19 !important;=0D=0A				}=0D=0A				em, i {=0D=0A			=
+		font-size: 14px !important;=0D=0A					line-height: 20px !import=
+ant;=0D=0A					font-family: Verdana, sans-serif !important;=0D=0A=
+				}=0D=0A				h1.heading-bar {=0D=0A					font-size: 20px !import=
+ant;=0D=0A					font-family: Verdana, sans-serif !important;=0D=0A=
+					text-align: left !important;=0D=0A					font-weight: bold !im=
+portant;=0D=0A					font-style: normal !important;=0D=0A					color=
+: #181a19 !important;=0D=0A					margin-bottom: 10px !important;=0D=0A=
+					background-color: #ffffff !important;=0D=0A				}=0D=0A				h1=
+.heading-bar a {=0D=0A					font-size: 20px !important;=0D=0A					=
+line-height: 20px !important;=0D=0A				}=0D=0A				h1 {=0D=0A					=
+font-size: 20px !important;=0D=0A					font-family: Verdana, sans-=
+serif !important;=0D=0A					text-align: left !important;=0D=0A			=
+		color: #181a19 !important;=0D=0A					margin-bottom: 5px !import=
+ant;=0D=0A				}=0D=0A				h2 {=0D=0A					font-size: 20px !importan=
+t;=0D=0A					font-family: Verdana, sans-serif !important;=0D=0A		=
+			text-align: left !important;=0D=0A					color: #181a19 !importa=
+nt;=0D=0A					margin-bottom: 5px !important;=0D=0A				}=0D=0A				=
+h3 {=0D=0A					font-size: 20px !important;=0D=0A					font-family:=
+ Verdana, sans-serif !important;=0D=0A					text-align: left !impo=
+rtant;=0D=0A					color: #181a19 !important;=0D=0A					margin-bott=
+om: 5px !important;=0D=0A				}=0D=0A				h4 {=0D=0A					font-size:=
+ 16px !important;=0D=0A					font-family: Verdana, sans-serif !imp=
+ortant;=0D=0A					text-align: left !important;=0D=0A					color: #=
+181a19 !important;=0D=0A					margin-bottom: 5px !important;=0D=0A=
+				}=0D=0A				h5 {=0D=0A					font-size: 16px !important;=0D=0A		=
+			font-family: Verdana, sans-serif !important;=0D=0A					text-al=
+ign: left !important;=0D=0A					color: #181a19 !important;=0D=0A	=
+				margin-bottom: 5px !important;=0D=0A				}=0D=0A				h6 {=0D=0A=
+					font-size: 16px !important;=0D=0A					font-family: Verdana, =
+sans-serif !important;=0D=0A					text-align: left !important;=0D=0A=
+					color: #181a19 !important;=0D=0A					margin-bottom: 5px !imp=
+ortant;=0D=0A				}=0D=0A				.footer-block p.caption {=0D=0A					f=
+ont-size: 10px !important;=0D=0A					line-height: 14px !important=
+;=0D=0A					font-family: Verdana, sans-serif !important;=0D=0A			=
+		text-align: left !important;=0D=0A					color: #5c5e5d !importan=
+t;=0D=0A					margin-bottom: 10px !important;=0D=0A				}=0D=0A				=
+.footer-block a {=0D=0A					font-size: 10px !important;=0D=0A				=
+	line-height: 14px !important;=0D=0A				}=0D=0A				.footer-block =
+strong, .footer-block b {=0D=0A					font-size: 10px !important;=0D=0A=
+					line-height: 14px !important;=0D=0A					color: #5c5e5d !impo=
+rtant;=0D=0A				}=0D=0A				.footer-block em, .footer-block i {=0D=0A=
+					font-size: 10px !important;=0D=0A					line-height: 14px !imp=
+ortant;=0D=0A					font-family: Verdana, sans-serif !important;=0D=0A=
+					font-style: italic !important;=0D=0A					color: #5c5e5d !imp=
+ortant;=0D=0A				}=0D=0A				.footer-block li {=0D=0A					font-siz=
+e: 10px !important;=0D=0A					line-height: 12px !important;=0D=0A=
+					font-family: Verdana, sans-serif !important;=0D=0A					text-=
+align: left !important;=0D=0A					color: #5c5e5d !important;=0D=0A=
+					margin-bottom: 2px !important;=0D=0A				}=0D=0A				.preheade=
+r-block p {=0D=0A					font-size: 10px !important;=0D=0A					line-=
+height: 10px !important;=0D=0A					font-family: Verdana, sans-ser=
+if !important;=0D=0A					color: #23cec8 !important;=0D=0A					mar=
+gin-bottom: 10px !important;=0D=0A				}=0D=0A				.preheader-block=
+ {=0D=0A					padding-top: 10px !important;=0D=0A				}=0D=0A				.p=
+reheader-block p.alt {=0D=0A					font-size: 10px !important;=0D=0A=
+					line-height: 10px !important;=0D=0A					font-family: Verdana=
+, sans-serif !important;=0D=0A					text-align: center !important;=
+=0D=0A					color: #23cec8 !important;=0D=0A					margin-bottom: 10=
+px !important;=0D=0A				}=0D=0A				.preheader-block p.fine-print =
+{=0D=0A					font-size: 10px !important;=0D=0A					line-height: 10=
+px !important;=0D=0A					font-family: Verdana, sans-serif !import=
+ant;=0D=0A					text-align: center !important;=0D=0A					color: #2=
+3cec8 !important;=0D=0A					margin-bottom: 10px !important;=0D=0A=
+				}=0D=0A				.preheader-block p.caption {=0D=0A					font-size: =
+10px !important;=0D=0A					line-height: 15px !important;=0D=0A			=
+		font-family: Verdana, sans-serif !important;=0D=0A					text-ali=
+gn: center !important;=0D=0A					color: #23cec8 !important;=0D=0A=
+					margin-bottom: 10px !important;=0D=0A				}=0D=0A				.prehead=
+er-block a {=0D=0A					font-size: 10px !important;=0D=0A					line=
+-height: 10px !important;=0D=0A					font-family: Verdana, sans-se=
+rif !important;=0D=0A					text-align: center !important;=0D=0A			=
+		color: #23cec8 !important;=0D=0A				}=0D=0A				.preheader-block=
+ strong, .preheader-block b {=0D=0A					font-size: 10px !importan=
+t;=0D=0A					line-height: 10px !important;=0D=0A					font-family:=
+ Verdana, sans-serif !important;=0D=0A					color: #23cec8 !import=
+ant;=0D=0A				}=0D=0A				.preheader-block em, .preheader-block i =
+{=0D=0A					font-size: 10px !important;=0D=0A					line-height: 10=
+px !important;=0D=0A					font-family: Verdana, sans-serif !import=
+ant;=0D=0A					font-style: italic !important;=0D=0A					color: #2=
+3cec8 !important;=0D=0A				}=0D=0A				.preheader-block li {=0D=0A=
+					font-size: 10px !important;=0D=0A					line-height: 10px !imp=
+ortant;=0D=0A					font-family: Verdana, sans-serif !important;=0D=0A=
+					text-align: center !important;=0D=0A					color: #23cec8 !imp=
+ortant;=0D=0A					margin-bottom: 2px !important;=0D=0A				}=0D=0A=
+				.preheader-block h1.heading-bar {=0D=0A					font-size: 10px !=
+important;=0D=0A					line-height: 10px !important;=0D=0A					font=
+-family: Verdana, sans-serif !important;=0D=0A					text-align: ce=
+nter !important;=0D=0A					font-weight: bold !important;=0D=0A			=
+		font-style: normal !important;=0D=0A					color: #23cec8 !import=
+ant;=0D=0A					background-color: #ffffff !important;=0D=0A				}=0D=0A=
+				.preheader-block h1 {=0D=0A					font-size: 10px !important;=0D=0A=
+					line-height: 10px !important;=0D=0A					font-family: Verdana=
+, sans-serif !important;=0D=0A					text-align: center !important;=
+=0D=0A					color: #23cec8 !important;=0D=0A					margin-bottom: 0p=
+x !important;=0D=0A				}=0D=0A				.preheader-block h2 {=0D=0A				=
+	font-size: 10px !important;=0D=0A					line-height: 10px !importa=
+nt;=0D=0A					font-family: Verdana, sans-serif !important;=0D=0A	=
+				text-align: center !important;=0D=0A					color: #23cec8 !impo=
+rtant;=0D=0A					margin-bottom: 0px !important;=0D=0A				}=0D=0A	=
+			.preheader-block h3 {=0D=0A					font-size: 10px !important;=0D=0A=
+					line-height: 10px !important;=0D=0A					font-family: Verdana=
+, sans-serif !important;=0D=0A					text-align: center !important;=
+=0D=0A					color: #23cec8 !important;=0D=0A					margin-bottom: 0p=
+x !important;=0D=0A				}=0D=0A				.preheader-block h4 {=0D=0A				=
+	font-size: 10px !important;=0D=0A					line-height: 10px !importa=
+nt;=0D=0A					font-family: Verdana, sans-serif !important;=0D=0A	=
+				text-align: center !important;=0D=0A					color: #23cec8 !impo=
+rtant;=0D=0A					margin-bottom: 0px !important;=0D=0A				}=0D=0A	=
+			.preheader-block h5 {=0D=0A					font-size: 10px !important;=0D=0A=
+					line-height: 10px !important;=0D=0A					font-family: Verdana=
+, sans-serif !important;=0D=0A					text-align: center !important;=
+=0D=0A					color: #23cec8 !important;=0D=0A					margin-bottom: 0p=
+x !important;=0D=0A				}=0D=0A				.preheader-block h6 {=0D=0A				=
+	font-size: 10px !important;=0D=0A					line-height: 10px !importa=
+nt;=0D=0A					font-family: Verdana, sans-serif !important;=0D=0A	=
+				text-align: center !important;=0D=0A					color: #23cec8 !impo=
+rtant;=0D=0A					margin-bottom: 0px !important;=0D=0A				}=0D=0A	=
+			#email-container {=0D=0A					padding-top: 10px !important;=0D=0A=
+					padding-right: 15px !important;=0D=0A					padding-bottom: 10=
+px !important;=0D=0A				}=0D=0A				.image-block {=0D=0A					margi=
+n-bottom: 15px !important;=0D=0A				}=0D=0A				.video-block {=0D=0A=
+					margin-bottom: 15px !important;=0D=0A					background-color: =
+#ffffff !important;=0D=0A				}=0D=0A				.preheader-block img {=0D=0A=
+					font-size: 12px !important;=0D=0A					font-family: Verdana, =
+sans-serif !important;=0D=0A					text-align: center !important;=0D=0A=
+					color: #5c5e5d !important;=0D=0A				}=0D=0A				.preheader-bl=
+ock img.image-left {=0D=0A					margin-right: 10px !important;=0D=0A=
+					margin-bottom: 10px !important;=0D=0A				}=0D=0A				.prehead=
+er-block img.image-right {=0D=0A					margin-left: 10px !important=
+;=0D=0A					margin-bottom: 10px !important;=0D=0A				}=0D=0A				.=
+footer-block img {=0D=0A					font-size: 8px !important;=0D=0A				=
+	font-family: Verdana, sans-serif !important;=0D=0A					text-alig=
+n: left !important;=0D=0A					color: #5c5e5d !important;=0D=0A			=
+	}=0D=0A				.footer-block img.image-left {=0D=0A					margin-right=
+: 10px !important;=0D=0A					margin-bottom: 10px !important;=0D=0A=
+				}=0D=0A				.footer-block img.image-right {=0D=0A					margin-l=
+eft: 10px !important;=0D=0A					margin-bottom: 10px !important;=0D=0A=
+				}=0D=0A				.footer-block p {=0D=0A					line-height: 14px !imp=
+ortant;=0D=0A					margin-bottom: 10px !important;=0D=0A				}=0D=0A=
+				.footer-block p.alt {=0D=0A					font-size: 10px !important;=0D=0A=
+					line-height: 14px !important;=0D=0A					font-family: Verdana=
+, sans-serif !important;=0D=0A					text-align: left !important;=0D=0A=
+					color: #5c5e5d !important;=0D=0A					margin-bottom: 10px !im=
+portant;=0D=0A				}=0D=0A				.footer-block p.fine-print {=0D=0A		=
+			font-size: 10px !important;=0D=0A					line-height: 14px !impor=
+tant;=0D=0A					font-family: Verdana, sans-serif !important;=0D=0A=
+				}=0D=0A				.footer-block h1.heading-bar {=0D=0A					font-size=
+: 12px !important;=0D=0A					line-height: 12px !important;=0D=0A	=
+				font-family: Verdana, sans-serif !important;=0D=0A					text-a=
+lign: left !important;=0D=0A					font-weight: bold !important;=0D=0A=
+					font-style: normal !important;=0D=0A					color: #5c5e5d !imp=
+ortant;=0D=0A					border-width: 0px !important;=0D=0A					backgro=
+und-color: #ffffff !important;=0D=0A				}=0D=0A				.footer-block =
+h1 {=0D=0A					font-size: 12px !important;=0D=0A					line-height:=
+ 12px !important;=0D=0A					font-family: Verdana, sans-serif !imp=
+ortant;=0D=0A					text-align: left !important;=0D=0A					color: #=
+5c5e5d !important;=0D=0A					margin-bottom: 5px !important;=0D=0A=
+				}=0D=0A				.footer-block h2 {=0D=0A					font-size: 12px !impo=
+rtant;=0D=0A					line-height: 12px !important;=0D=0A					font-fam=
+ily: Verdana, sans-serif !important;=0D=0A					text-align: left !=
+important;=0D=0A					color: #5c5e5d !important;=0D=0A					margin-=
+bottom: 5px !important;=0D=0A				}=0D=0A				.footer-block h3 {=0D=0A=
+					font-size: 12px !important;=0D=0A					line-height: 12px !imp=
+ortant;=0D=0A					font-family: Verdana, sans-serif !important;=0D=0A=
+					text-align: left !important;=0D=0A					color: #5c5e5d !impor=
+tant;=0D=0A					margin-bottom: 5px !important;=0D=0A				}=0D=0A		=
+		.footer-block h4 {=0D=0A					font-size: 10px !important;=0D=0A	=
+				line-height: 10px !important;=0D=0A					font-family: Verdana,=
+ sans-serif !important;=0D=0A					text-align: left !important;=0D=0A=
+					color: #5c5e5d !important;=0D=0A					margin-bottom: 5px !imp=
+ortant;=0D=0A				}=0D=0A				.footer-block h5 {=0D=0A					font-siz=
+e: 10px !important;=0D=0A					line-height: 10px !important;=0D=0A=
+					font-family: Verdana, sans-serif !important;=0D=0A					text-=
+align: left !important;=0D=0A					color: #5c5e5d !important;=0D=0A=
+					margin-bottom: 5px !important;=0D=0A				}=0D=0A				.footer-b=
+lock h6 {=0D=0A					font-size: 10px !important;=0D=0A					line-he=
+ight: 10px !important;=0D=0A					font-family: Verdana, sans-serif=
+ !important;=0D=0A					text-align: left !important;=0D=0A					col=
+or: #5c5e5d !important;=0D=0A					margin-bottom: 5px !important;=0D=0A=
+				}=0D=0A				.text-block p.fine-print {=0D=0A					font-size: 10=
+px !important;=0D=0A					line-height: 14px !important;=0D=0A					=
+font-family: Verdana, sans-serif !important;=0D=0A					text-align=
+: left !important;=0D=0A					color: #5c5e5d !important;=0D=0A				=
+	margin-bottom: 10px !important;=0D=0A				}=0D=0A				.text-block =
+p.caption {=0D=0A					font-size: 10px !important;=0D=0A					line-=
+height: 14px !important;=0D=0A					font-family: Verdana, sans-ser=
+if !important;=0D=0A					text-align: left !important;=0D=0A					c=
+olor: #5c5e5d !important;=0D=0A					margin-bottom: 10px !importan=
+t;=0D=0A				}=0D=0A				.text-block h1.heading-bar {=0D=0A					fon=
+t-size: 20px !important;=0D=0A					font-family: Verdana, sans-ser=
+if !important;=0D=0A					text-align: left !important;=0D=0A					f=
+ont-weight: bold !important;=0D=0A					font-style: normal !import=
+ant;=0D=0A					color: #181a19 !important;=0D=0A					background-co=
+lor: #ffffff !important;=0D=0A				}=0D=0A				.text-block h1 {=0D=0A=
+					font-size: 20px !important;=0D=0A					font-family: Verdana, =
+sans-serif !important;=0D=0A					text-align: left !important;=0D=0A=
+					color: #181a19 !important;=0D=0A					margin-bottom: 5px !imp=
+ortant;=0D=0A				}=0D=0A				.text-block h2 {=0D=0A					font-size:=
+ 20px !important;=0D=0A					font-family: Verdana, sans-serif !imp=
+ortant;=0D=0A					text-align: left !important;=0D=0A					color: #=
+181a19 !important;=0D=0A					margin-bottom: 5px !important;=0D=0A=
+				}=0D=0A				.text-block h3 {=0D=0A					font-size: 20px !import=
+ant;=0D=0A					font-family: Verdana, sans-serif !important;=0D=0A=
+					text-align: left !important;=0D=0A					color: #181a19 !impor=
+tant;=0D=0A					margin-bottom: 5px !important;=0D=0A				}=0D=0A		=
+		.text-block h4 {=0D=0A					font-size: 16px !important;=0D=0A			=
+		font-family: Verdana, sans-serif !important;=0D=0A					text-ali=
+gn: left !important;=0D=0A					color: #181a19 !important;=0D=0A		=
+			margin-bottom: 5px !important;=0D=0A				}=0D=0A				.text-block=
+ h5 {=0D=0A					font-size: 16px !important;=0D=0A					font-family=
+: Verdana, sans-serif !important;=0D=0A					text-align: left !imp=
+ortant;=0D=0A					color: #181a19 !important;=0D=0A					margin-bot=
+tom: 5px !important;=0D=0A				}=0D=0A				.text-block h6 {=0D=0A		=
+			font-size: 16px !important;=0D=0A					font-family: Verdana, sa=
+ns-serif !important;=0D=0A					text-align: left !important;=0D=0A=
+					color: #181a19 !important;=0D=0A					margin-bottom: 5px !imp=
+ortant;=0D=0A				}=0D=0A				.divider-block {=0D=0A					padding-to=
+p: 8px !important;=0D=0A					padding-bottom: 14px !important;=0D=0A=
+				}=0D=0A				.image-block img.image-left {=0D=0A					margin-rig=
+ht: 10px !important;=0D=0A					margin-bottom: 10px !important;=0D=0A=
+				}=0D=0A				.image-block img.image-right {=0D=0A					margin-le=
+ft: 10px !important;=0D=0A					margin-bottom: 10px !important;=0D=0A=
+				}=0D=0A				.social-links-block img.image-left {=0D=0A					mar=
+gin-right: 10px !important;=0D=0A					margin-bottom: 10px !import=
+ant;=0D=0A				}=0D=0A				.social-links-block img.image-right {=0D=0A=
+					margin-left: 10px !important;=0D=0A					margin-bottom: 10px =
+!important;=0D=0A				}=0D=0A				.social-links-block p.alt {=0D=0A=
+					font-size: 14px !important;=0D=0A					line-height: 20px !imp=
+ortant;=0D=0A					font-family: Verdana, sans-serif !important;=0D=0A=
+					text-align: center !important;=0D=0A					color: #181a19 !imp=
+ortant;=0D=0A				}=0D=0A				.social-links-block p.fine-print {=0D=0A=
+					font-size: 10px !important;=0D=0A					line-height: 14px !imp=
+ortant;=0D=0A					font-family: Verdana, sans-serif !important;=0D=0A=
+					text-align: center !important;=0D=0A					color: #5c5e5d !imp=
+ortant;=0D=0A					margin-bottom: 10px !important;=0D=0A				}=0D=0A=
+				.social-links-block p.caption {=0D=0A					font-size: 10px !im=
+portant;=0D=0A					line-height: 14px !important;=0D=0A					font-f=
+amily: Verdana, sans-serif !important;=0D=0A					text-align: cent=
+er !important;=0D=0A					color: #181a19 !important;=0D=0A					mar=
+gin-bottom: 10px !important;=0D=0A				}=0D=0A				.social-links-bl=
+ock a {=0D=0A					font-size: 14px !important;=0D=0A					line-heig=
+ht: 20px !important;=0D=0A					font-family: Verdana, sans-serif !=
+important;=0D=0A					color: #181a19 !important;=0D=0A				}=0D=0A	=
+			.social-links-block em, .social-links-block i {=0D=0A					font=
+-size: 14px !important;=0D=0A					line-height: 20px !important;=0D=0A=
+					font-family: Verdana, sans-serif !important;=0D=0A					font-=
+style: italic !important;=0D=0A					color: #181a19 !important;=0D=0A=
+				}=0D=0A				.social-links-block li {=0D=0A					font-size: 14px=
+ !important;=0D=0A					line-height: 20px !important;=0D=0A					fo=
+nt-family: Verdana, sans-serif !important;=0D=0A					text-align: =
+left !important;=0D=0A					color: #181a19 !important;=0D=0A					m=
+argin-bottom: 2px !important;=0D=0A				}=0D=0A				.social-links-b=
+lock h1.heading-bar {=0D=0A					font-size: 18px !important;=0D=0A=
+					line-height: 18px !important;=0D=0A					font-family: Verdana=
+, sans-serif !important;=0D=0A					text-align: center !important;=
+=0D=0A					font-weight: bold !important;=0D=0A					font-style: no=
+rmal !important;=0D=0A					color: #181a19 !important;=0D=0A					m=
+argin-bottom: 10px !important;=0D=0A					background-color: #23cec=
+8 !important;=0D=0A				}=0D=0A				.social-links-block h1 {=0D=0A	=
+				font-size: 18px !important;=0D=0A					line-height: 18px !impo=
+rtant;=0D=0A					font-family: Verdana, sans-serif !important;=0D=0A=
+					text-align: center !important;=0D=0A					color: #181a19 !imp=
+ortant;=0D=0A					margin-bottom: 10px !important;=0D=0A				}=0D=0A=
+				.social-links-block h2 {=0D=0A					font-size: 18px !important=
+;=0D=0A					line-height: 18px !important;=0D=0A					font-family: =
+Verdana, sans-serif !important;=0D=0A					text-align: center !imp=
+ortant;=0D=0A					color: #181a19 !important;=0D=0A					margin-bot=
+tom: 10px !important;=0D=0A				}=0D=0A				.social-links-block h3 =
+{=0D=0A					font-size: 16px !important;=0D=0A					line-height: 16=
+px !important;=0D=0A					font-family: Verdana, sans-serif !import=
+ant;=0D=0A					text-align: center !important;=0D=0A					color: #1=
+81a19 !important;=0D=0A					margin-bottom: 10px !important;=0D=0A=
+				}=0D=0A				.social-links-block h4 {=0D=0A					font-size: 16px=
+ !important;=0D=0A					line-height: 16px !important;=0D=0A					fo=
+nt-family: Verdana, sans-serif !important;=0D=0A					text-align: =
+center !important;=0D=0A					color: #181a19 !important;=0D=0A				=
+	margin-bottom: 10px !important;=0D=0A				}=0D=0A				.social-link=
+s-block h5 {=0D=0A					font-size: 14px !important;=0D=0A					line=
+-height: 14px !important;=0D=0A					font-family: Verdana, sans-se=
+rif !important;=0D=0A					text-align: center !important;=0D=0A			=
+		color: #181a19 !important;=0D=0A					margin-bottom: 5px !import=
+ant;=0D=0A				}=0D=0A				.social-links-block h6 {=0D=0A					font-=
+size: 14px !important;=0D=0A					line-height: 14px !important;=0D=0A=
+					font-family: Verdana, sans-serif !important;=0D=0A					text-=
+align: center !important;=0D=0A					color: #181a19 !important;=0D=0A=
+					margin-bottom: 5px !important;=0D=0A				}=0D=0A				.text-but=
+ton-block {=0D=0A					background-color: #ffffff !important;=0D=0A=
+				}=0D=0A				.text-button-block img {=0D=0A					font-size: 12px=
+ !important;=0D=0A					line-height: 18px !important;=0D=0A					fo=
+nt-family: Verdana, sans-serif !important;=0D=0A					text-align: =
+left !important;=0D=0A					color: #5c5e5d !important;=0D=0A				}=0D=0A=
+				.text-button-block img.image-left {=0D=0A					margin-right: 1=
+0px !important;=0D=0A					margin-bottom: 10px !important;=0D=0A		=
+		}=0D=0A				.text-button-block img.image-right {=0D=0A					margi=
+n-left: 10px !important;=0D=0A					margin-bottom: 10px !important=
+;=0D=0A				}=0D=0A				.text-button-block div.button {=0D=0A					t=
+ext-align: left !important;=0D=0A				}=0D=0A				.text-button-bloc=
+k div.button div {=0D=0A					padding: 10px 13px !important;=0D=0A=
+					margin-bottom: 30px !important;=0D=0A					background-color: =
+#bc7f55 !important;=0D=0A				}=0D=0A				.text-button-block div.bu=
+tton a {=0D=0A					font-size: 18px !important;=0D=0A					font-fam=
+ily: Verdana, sans-serif !important;=0D=0A					font-weight: bold =
+!important;=0D=0A					color: #ffffff !important;=0D=0A					line-h=
+eight: 20px !important;=0D=0A				}=0D=0A				.text-button-block p =
+{=0D=0A					font-size: 14px !important;=0D=0A					line-height: 20=
+px !important;=0D=0A					font-family: Verdana, sans-serif !import=
+ant;=0D=0A					text-align: left !important;=0D=0A					color: #181=
+a19 !important;=0D=0A					margin-bottom: 20px !important;=0D=0A		=
+		}=0D=0A				.text-button-block p.alt {=0D=0A					font-size: 14px=
+ !important;=0D=0A					line-height: 20px !important;=0D=0A					fo=
+nt-family: Verdana, sans-serif !important;=0D=0A					text-align: =
+left !important;=0D=0A					color: #181a19 !important;=0D=0A					m=
+argin-bottom: 20px !important;=0D=0A				}=0D=0A				.text-button-b=
+lock p.fine-print {=0D=0A					font-size: 10px !important;=0D=0A		=
+			line-height: 14px !important;=0D=0A					font-family: Verdana, =
+sans-serif !important;=0D=0A					text-align: left !important;=0D=0A=
+					color: #5c5e5d !important;=0D=0A					margin-bottom: 10px !im=
+portant;=0D=0A				}=0D=0A				.text-button-block p.caption {=0D=0A=
+					font-size: 10px !important;=0D=0A					line-height: 14px !imp=
+ortant;=0D=0A					font-family: Verdana, sans-serif !important;=0D=0A=
+					text-align: left !important;=0D=0A					color: #181a19 !impor=
+tant;=0D=0A					margin-bottom: 10px !important;=0D=0A				}=0D=0A	=
+			.text-button-block a {=0D=0A					font-size: 14px !important;=0D=0A=
+					line-height: 20px !important;=0D=0A					font-family: Verdana=
+, sans-serif !important;=0D=0A					text-align: left !important;=0D=0A=
+					color: #23cec8 !important;=0D=0A				}=0D=0A				.text-button-=
+block strong, .text-button-block b {=0D=0A					font-size: 14px !i=
+mportant;=0D=0A					line-height: 20px !important;=0D=0A					font-=
+family: Verdana, sans-serif !important;=0D=0A					font-weight: bo=
+ld !important;=0D=0A					color: #181a19 !important;=0D=0A				}=0D=0A=
+				.text-button-block em, .text-button-block i {=0D=0A					font-=
+size: 14px !important;=0D=0A					line-height: 20px !important;=0D=0A=
+					font-family: Verdana, sans-serif !important;=0D=0A					font-=
+style: italic !important;=0D=0A					color: #181a19 !important;=0D=0A=
+				}=0D=0A				.text-button-block li {=0D=0A					font-size: 14px =
+!important;=0D=0A					line-height: 18px !important;=0D=0A					fon=
+t-family: Verdana, sans-serif !important;=0D=0A					text-align: l=
+eft !important;=0D=0A					color: #181a19 !important;=0D=0A					ma=
+rgin-bottom: 2px !important;=0D=0A				}=0D=0A				.text-button-blo=
+ck h1.heading-bar {=0D=0A					font-size: 20px !important;=0D=0A		=
+			line-height: 20px !important;=0D=0A					font-family: Verdana, =
+sans-serif !important;=0D=0A					text-align: left !important;=0D=0A=
+					font-weight: bold !important;=0D=0A					font-style: normal !=
+important;=0D=0A					color: #181a19 !important;=0D=0A					margin-=
+bottom: 10px !important;=0D=0A					background-color: #ffffff !imp=
+ortant;=0D=0A				}=0D=0A				.text-button-block h1 {=0D=0A					fon=
+t-size: 20px !important;=0D=0A					line-height: 20px !important;=0D=0A=
+					font-family: Verdana, sans-serif !important;=0D=0A					text-=
+align: left !important;=0D=0A					color: #181a19 !important;=0D=0A=
+					margin-bottom: 5px !important;=0D=0A				}=0D=0A				.text-but=
+ton-block h2 {=0D=0A					font-size: 20px !important;=0D=0A					li=
+ne-height: 20px !important;=0D=0A					font-family: Verdana, sans-=
+serif !important;=0D=0A					text-align: left !important;=0D=0A			=
+		color: #181a19 !important;=0D=0A					margin-bottom: 5px !import=
+ant;=0D=0A				}=0D=0A				.text-button-block h3 {=0D=0A					font-s=
+ize: 20px !important;=0D=0A					line-height: 20px !important;=0D=0A=
+					font-family: Verdana, sans-serif !important;=0D=0A					text-=
+align: left !important;=0D=0A					color: #181a19 !important;=0D=0A=
+					margin-bottom: 5px !important;=0D=0A				}=0D=0A				.text-but=
+ton-block h4 {=0D=0A					font-size: 16px !important;=0D=0A					li=
+ne-height: 16px !important;=0D=0A					font-family: Verdana, sans-=
+serif !important;=0D=0A					text-align: left !important;=0D=0A			=
+		color: #181a19 !important;=0D=0A					margin-bottom: 5px !import=
+ant;=0D=0A				}=0D=0A				.text-button-block h5 {=0D=0A					font-s=
+ize: 16px !important;=0D=0A					line-height: 16px !important;=0D=0A=
+					font-family: Verdana, sans-serif !important;=0D=0A					text-=
+align: left !important;=0D=0A					color: #181a19 !important;=0D=0A=
+					margin-bottom: 5px !important;=0D=0A				}=0D=0A				.text-but=
+ton-block h6 {=0D=0A					font-size: 16px !important;=0D=0A					li=
+ne-height: 16px !important;=0D=0A					font-family: Verdana, sans-=
+serif !important;=0D=0A					text-align: left !important;=0D=0A			=
+		color: #181a19 !important;=0D=0A					margin-bottom: 5px !import=
+ant;=0D=0A				}=0D=0A				.text-button-block hr {=0D=0A					border=
+: 1px dotted #181a19 !important;=0D=0A				}=0D=0A				.image-text-=
+block {=0D=0A					background-color: #ffffff !important;=0D=0A				=
+}=0D=0A				.image-text-block img {=0D=0A					font-size: 12px !imp=
+ortant;=0D=0A					line-height: 15px !important;=0D=0A					font-fa=
+mily: Verdana, sans-serif !important;=0D=0A					text-align: left =
+!important;=0D=0A					color: #5c5e5d !important;=0D=0A				}=0D=0A=
+				.image-text-block img.image-left {=0D=0A					margin-right: 10=
+px !important;=0D=0A					margin-bottom: 10px !important;=0D=0A			=
+	}=0D=0A				.image-text-block img.image-right {=0D=0A					margin-=
+left: 10px !important;=0D=0A					margin-bottom: 10px !important;=0D=0A=
+				}=0D=0A				.image-text-block div.button {=0D=0A					text-alig=
+n: left !important;=0D=0A				}=0D=0A				.image-text-block div.but=
+ton div {=0D=0A					padding: 10px 13px !important;=0D=0A					marg=
+in-bottom: 30px !important;=0D=0A					background-color: #bc7f55 !=
+important;=0D=0A				}=0D=0A				.image-text-block div.button a {=0D=0A=
+					font-size: 20px !important;=0D=0A					line-height: 24px !imp=
+ortant;=0D=0A					font-family: Verdana, sans-serif !important;=0D=0A=
+					font-weight: bold !important;=0D=0A					color: #ffffff !impo=
+rtant;=0D=0A				}=0D=0A				.image-text-block p {=0D=0A					font-s=
+ize: 14px !important;=0D=0A					line-height: 20px !important;=0D=0A=
+					font-family: Verdana, sans-serif !important;=0D=0A					text-=
+align: left !important;=0D=0A					color: #181a19 !important;=0D=0A=
+					margin-bottom: 20px !important;=0D=0A				}=0D=0A				.image-t=
+ext-block p.alt {=0D=0A					font-size: 14px !important;=0D=0A				=
+	line-height: 20px !important;=0D=0A					font-family: Verdana, sa=
+ns-serif !important;=0D=0A					text-align: left !important;=0D=0A=
+					color: #181a19 !important;=0D=0A					margin-bottom: 20px !im=
+portant;=0D=0A				}=0D=0A				.image-text-block p.fine-print {=0D=0A=
+					font-size: 10px !important;=0D=0A					line-height: 14px !imp=
+ortant;=0D=0A					font-family: Verdana, sans-serif !important;=0D=0A=
+					text-align: left !important;=0D=0A					color: #5c5e5d !impor=
+tant;=0D=0A					margin-bottom: 10px !important;=0D=0A				}=0D=0A	=
+			.image-text-block p.caption {=0D=0A					font-size: 10px !impor=
+tant;=0D=0A					line-height: 14px !important;=0D=0A					font-fami=
+ly: Verdana, sans-serif !important;=0D=0A					text-align: left !i=
+mportant;=0D=0A					color: #181a19 !important;=0D=0A					margin-b=
+ottom: 10px !important;=0D=0A				}=0D=0A				.image-text-block a {=
+=0D=0A					font-size: 14px !important;=0D=0A					line-height: 20p=
+x !important;=0D=0A					font-family: Verdana, sans-serif !importa=
+nt;=0D=0A					text-align: left !important;=0D=0A					color: #23ce=
+c8 !important;=0D=0A				}=0D=0A				.image-text-block strong, .ima=
+ge-text-block b {=0D=0A					font-size: 14px !important;=0D=0A				=
+	line-height: 20px !important;=0D=0A					font-family: Verdana, sa=
+ns-serif !important;=0D=0A					font-weight: bold !important;=0D=0A=
+					color: #181a19 !important;=0D=0A				}=0D=0A				.image-text-b=
+lock em, .image-text-block i {=0D=0A					font-size: 14px !importa=
+nt;=0D=0A					line-height: 20px !important;=0D=0A					font-family=
+: Verdana, sans-serif !important;=0D=0A					font-style: italic !i=
+mportant;=0D=0A					color: #181a19 !important;=0D=0A				}=0D=0A		=
+		.image-text-block li {=0D=0A					font-size: 14px !important;=0D=0A=
+					line-height: 18px !important;=0D=0A					font-family: Verdana=
+, sans-serif !important;=0D=0A					text-align: left !important;=0D=0A=
+					color: #181a19 !important;=0D=0A					margin-bottom: 2px !imp=
+ortant;=0D=0A				}=0D=0A				.image-text-block h1.heading-bar {=0D=0A=
+					font-size: 20px !important;=0D=0A					line-height: 20px !imp=
+ortant;=0D=0A					font-family: Verdana, sans-serif !important;=0D=0A=
+					text-align: left !important;=0D=0A					font-weight: bold !im=
+portant;=0D=0A					font-style: normal !important;=0D=0A					color=
+: #181a19 !important;=0D=0A					margin-bottom: 10px !important;=0D=0A=
+					background-color: #ffffff !important;=0D=0A				}=0D=0A				.i=
+mage-text-block h1 {=0D=0A					font-size: 20px !important;=0D=0A	=
+				line-height: 20px !important;=0D=0A					font-family: Verdana,=
+ sans-serif !important;=0D=0A					text-align: left !important;=0D=0A=
+					color: #181a19 !important;=0D=0A					margin-bottom: 5px !imp=
+ortant;=0D=0A				}=0D=0A				.image-text-block h2 {=0D=0A					font=
+-size: 20px !important;=0D=0A					line-height: 20px !important;=0D=0A=
+					font-family: Verdana, sans-serif !important;=0D=0A					text-=
+align: left !important;=0D=0A					color: #181a19 !important;=0D=0A=
+					margin-bottom: 5px !important;=0D=0A				}=0D=0A				.image-te=
+xt-block h3 {=0D=0A					font-size: 20px !important;=0D=0A					lin=
+e-height: 20px !important;=0D=0A					font-family: Verdana, sans-s=
+erif !important;=0D=0A					text-align: left !important;=0D=0A				=
+	color: #181a19 !important;=0D=0A					margin-bottom: 5px !importa=
+nt;=0D=0A				}=0D=0A				.image-text-block h4 {=0D=0A					font-siz=
+e: 16px !important;=0D=0A					line-height: 16px !important;=0D=0A=
+					font-family: Verdana, sans-serif !important;=0D=0A					text-=
+align: left !important;=0D=0A					color: #181a19 !important;=0D=0A=
+					margin-bottom: 5px !important;=0D=0A				}=0D=0A				.image-te=
+xt-block h5 {=0D=0A					font-size: 16px !important;=0D=0A					lin=
+e-height: 16px !important;=0D=0A					font-family: Verdana, sans-s=
+erif !important;=0D=0A					text-align: left !important;=0D=0A				=
+	color: #181a19 !important;=0D=0A					margin-bottom: 5px !importa=
+nt;=0D=0A				}=0D=0A				.image-text-block h6 {=0D=0A					font-siz=
+e: 16px !important;=0D=0A					line-height: 16px !important;=0D=0A=
+					font-family: Verdana, sans-serif !important;=0D=0A					text-=
+align: left !important;=0D=0A					color: #181a19 !important;=0D=0A=
+					margin-bottom: 5px !important;=0D=0A				}=0D=0A				.image-te=
+xt-block hr {=0D=0A					border: 1px dotted #181a19 !important;=0D=0A=
+				}=0D=0A				.image-text-button-block {=0D=0A					background-co=
+lor: #ffffff !important;=0D=0A				}=0D=0A				.image-text-button-b=
+lock img {=0D=0A					font-size: 12px !important;=0D=0A					line-h=
+eight: 15px !important;=0D=0A					font-family: Verdana, sans-seri=
+f !important;=0D=0A					text-align: left !important;=0D=0A					co=
+lor: #5c5e5d !important;=0D=0A				}=0D=0A				.image-text-button-b=
+lock img.image-left {=0D=0A					margin-right: 15px !important;=0D=0A=
+					margin-bottom: 15px !important;=0D=0A				}=0D=0A				.image-t=
+ext-button-block img.image-right {=0D=0A					margin-left: 15px !i=
+mportant;=0D=0A					margin-bottom: 15px !important;=0D=0A				}=0D=0A=
+				.image-text-button-block div.button {=0D=0A					text-align: l=
+eft !important;=0D=0A				}=0D=0A				.image-text-button-block div.=
+button div {=0D=0A					padding: 10px 13px !important;=0D=0A					m=
+argin-bottom: 30px !important;=0D=0A					background-color: #bc7f5=
+5 !important;=0D=0A				}=0D=0A				.image-text-button-block div.bu=
+tton a {=0D=0A					font-size: 18px !important;=0D=0A					line-hei=
+ght: 22px !important;=0D=0A					font-family: Verdana, sans-serif =
+!important;=0D=0A					font-weight: bold !important;=0D=0A					col=
+or: #ffffff !important;=0D=0A				}=0D=0A				.image-text-button-bl=
+ock p {=0D=0A					font-size: 14px !important;=0D=0A					line-heig=
+ht: 20px !important;=0D=0A					font-family: Verdana, sans-serif !=
+important;=0D=0A					text-align: left !important;=0D=0A					color=
+: #181a19 !important;=0D=0A					margin-bottom: 20px !important;=0D=0A=
+				}=0D=0A				.image-text-button-block p.alt {=0D=0A					font-si=
+ze: 14px !important;=0D=0A					line-height: 20px !important;=0D=0A=
+					font-family: Verdana, sans-serif !important;=0D=0A					text-=
+align: left !important;=0D=0A					color: #181a19 !important;=0D=0A=
+					margin-bottom: 20px !important;=0D=0A				}=0D=0A				.image-t=
+ext-button-block p.fine-print {=0D=0A					font-size: 10px !import=
+ant;=0D=0A					line-height: 14px !important;=0D=0A					font-famil=
+y: Verdana, sans-serif !important;=0D=0A					text-align: left !im=
+portant;=0D=0A					color: #5c5e5d !important;=0D=0A					margin-bo=
+ttom: 10px !important;=0D=0A				}=0D=0A				.image-text-button-blo=
+ck p.caption {=0D=0A					font-size: 10px !important;=0D=0A					li=
+ne-height: 14px !important;=0D=0A					font-family: Verdana, sans-=
+serif !important;=0D=0A					text-align: left !important;=0D=0A			=
+		color: #181a19 !important;=0D=0A					margin-bottom: 10px !impor=
+tant;=0D=0A				}=0D=0A				.image-text-button-block a {=0D=0A					=
+font-size: 14px !important;=0D=0A					line-height: 20px !importan=
+t;=0D=0A					font-family: Verdana, sans-serif !important;=0D=0A		=
+			text-align: left !important;=0D=0A					color: #23cec8 !importa=
+nt;=0D=0A				}=0D=0A				.image-text-button-block strong, .image-t=
+ext-button-block b {=0D=0A					font-size: 14px !important;=0D=0A	=
+				line-height: 20px !important;=0D=0A					font-family: Verdana,=
+ sans-serif !important;=0D=0A					font-weight: bold !important;=0D=0A=
+					color: #181a19 !important;=0D=0A				}=0D=0A				.image-text-b=
+utton-block em, .image-text-button-block i {=0D=0A					font-size:=
+ 14px !important;=0D=0A					line-height: 20px !important;=0D=0A		=
+			font-family: Verdana, sans-serif !important;=0D=0A					font-st=
+yle: italic !important;=0D=0A					color: #181a19 !important;=0D=0A=
+				}=0D=0A				.image-text-button-block li {=0D=0A					font-size:=
+ 14px !important;=0D=0A					line-height: 18px !important;=0D=0A		=
+			font-family: Verdana, sans-serif !important;=0D=0A					text-al=
+ign: left !important;=0D=0A					color: #181a19 !important;=0D=0A	=
+				margin-bottom: 2px !important;=0D=0A				}=0D=0A				.image-tex=
+t-button-block h1.heading-bar {=0D=0A					font-size: 20px !import=
+ant;=0D=0A					line-height: 20px !important;=0D=0A					font-famil=
+y: Verdana, sans-serif !important;=0D=0A					text-align: left !im=
+portant;=0D=0A					font-weight: bold !important;=0D=0A					font-s=
+tyle: normal !important;=0D=0A					color: #181a19 !important;=0D=0A=
+					margin-bottom: 10px !important;=0D=0A					background-color: =
+#ffffff !important;=0D=0A				}=0D=0A				.image-text-button-block =
+h1 {=0D=0A					font-size: 20px !important;=0D=0A					line-height:=
+ 20px !important;=0D=0A					font-family: Verdana, sans-serif !imp=
+ortant;=0D=0A					text-align: left !important;=0D=0A					color: #=
+181a19 !important;=0D=0A					margin-bottom: 5px !important;=0D=0A=
+				}=0D=0A				.image-text-button-block h2 {=0D=0A					font-size:=
+ 20px !important;=0D=0A					line-height: 20px !important;=0D=0A		=
+			font-family: Verdana, sans-serif !important;=0D=0A					text-al=
+ign: left !important;=0D=0A					color: #181a19 !important;=0D=0A	=
+				margin-bottom: 5px !important;=0D=0A				}=0D=0A				.image-tex=
+t-button-block h3 {=0D=0A					font-size: 20px !important;=0D=0A		=
+			line-height: 20px !important;=0D=0A					font-family: Verdana, =
+sans-serif !important;=0D=0A					text-align: left !important;=0D=0A=
+					color: #181a19 !important;=0D=0A					margin-bottom: 5px !imp=
+ortant;=0D=0A				}=0D=0A				.image-text-button-block h4 {=0D=0A		=
+			font-size: 16px !important;=0D=0A					line-height: 16px !impor=
+tant;=0D=0A					font-family: Verdana, sans-serif !important;=0D=0A=
+					text-align: left !important;=0D=0A					color: #181a19 !impor=
+tant;=0D=0A					margin-bottom: 5px !important;=0D=0A				}=0D=0A		=
+		.image-text-button-block h5 {=0D=0A					font-size: 16px !import=
+ant;=0D=0A					line-height: 16px !important;=0D=0A					font-famil=
+y: Verdana, sans-serif !important;=0D=0A					text-align: left !im=
+portant;=0D=0A					color: #181a19 !important;=0D=0A					margin-bo=
+ttom: 5px !important;=0D=0A				}=0D=0A				.image-text-button-bloc=
+k h6 {=0D=0A					font-size: 16px !important;=0D=0A					line-heigh=
+t: 16px !important;=0D=0A					font-family: Verdana, sans-serif !i=
+mportant;=0D=0A					text-align: left !important;=0D=0A					color:=
+ #181a19 !important;=0D=0A					margin-bottom: 5px !important;=0D=0A=
+				}=0D=0A				.image-text-button-block hr {=0D=0A					border: 1p=
+x dotted #181a19 !important;=0D=0A				}=0D=0A				.heading-image-t=
+ext-block {=0D=0A					background-color: #ffffff !important;=0D=0A=
+				}=0D=0A				.heading-image-text-block img {=0D=0A					font-siz=
+e: 12px !important;=0D=0A					line-height: 15px !important;=0D=0A=
+					font-family: Verdana, sans-serif !important;=0D=0A					text-=
+align: left !important;=0D=0A					color: #5c5e5d !important;=0D=0A=
+				}=0D=0A				.heading-image-text-block img.image-left {=0D=0A		=
+			margin-right: 10px !important;=0D=0A					margin-bottom: 10px !=
+important;=0D=0A				}=0D=0A				.heading-image-text-block img.imag=
+e-right {=0D=0A					margin-left: 10px !important;=0D=0A					margi=
+n-bottom: 10px !important;=0D=0A				}=0D=0A				.heading-image-tex=
+t-block div.button {=0D=0A					text-align: left !important;=0D=0A=
+				}=0D=0A				.heading-image-text-block div.button div {=0D=0A		=
+			margin-bottom: 30px !important;=0D=0A					padding: 13px 10px !=
+important;=0D=0A					background-color: #bc7f55 !important;=0D=0A	=
+			}=0D=0A				.heading-image-text-block div.button a {=0D=0A					=
+font-size: 18px !important;=0D=0A					font-family: Verdana, sans-=
+serif !important;=0D=0A					font-weight: bold !important;=0D=0A		=
+			color: #ffffff !important;=0D=0A				}=0D=0A				.heading-image-=
+text-block p {=0D=0A					font-size: 14px !important;=0D=0A					li=
+ne-height: 20px !important;=0D=0A					font-family: Verdana, sans-=
+serif !important;=0D=0A					text-align: left !important;=0D=0A			=
+		color: #181a19 !important;=0D=0A					margin-bottom: 20px !impor=
+tant;=0D=0A				}=0D=0A				.heading-image-text-block p.alt {=0D=0A=
+					font-size: 14px !important;=0D=0A					line-height: 20px !imp=
+ortant;=0D=0A					font-family: Verdana, sans-serif !important;=0D=0A=
+					text-align: left !important;=0D=0A					color: #181a19 !impor=
+tant;=0D=0A					margin-bottom: 20px !important;=0D=0A				}=0D=0A	=
+			.heading-image-text-block p.fine-print {=0D=0A					font-size: =
+10px !important;=0D=0A					line-height: 14px !important;=0D=0A			=
+		font-family: Verdana, sans-serif !important;=0D=0A					text-ali=
+gn: left !important;=0D=0A					color: #5c5e5d !important;=0D=0A		=
+			margin-bottom: 10px !important;=0D=0A				}=0D=0A				.heading-i=
+mage-text-block p.caption {=0D=0A					font-size: 10px !important;=
+=0D=0A					line-height: 14px !important;=0D=0A					font-family: V=
+erdana, sans-serif !important;=0D=0A					text-align: left !import=
+ant;=0D=0A					color: #181a19 !important;=0D=0A					margin-bottom=
+: 10px !important;=0D=0A				}=0D=0A				.heading-image-text-block =
+a {=0D=0A					font-size: 14px !important;=0D=0A					line-height: =
+20px !important;=0D=0A					font-family: Verdana, sans-serif !impo=
+rtant;=0D=0A					text-align: left !important;=0D=0A					color: #2=
+3cec8 !important;=0D=0A				}=0D=0A				.heading-image-text-block s=
+trong, .heading-image-text-block b {=0D=0A					font-size: 14px !i=
+mportant;=0D=0A					line-height: 20px !important;=0D=0A					font-=
+family: Verdana, sans-serif !important;=0D=0A					font-weight: bo=
+ld !important;=0D=0A					color: #181a19 !important;=0D=0A				}=0D=0A=
+				.heading-image-text-block em, .heading-image-text-block i {=0D=0A=
+					font-size: 14px !important;=0D=0A					line-height: 20px !imp=
+ortant;=0D=0A					font-family: Verdana, sans-serif !important;=0D=0A=
+					font-style: italic !important;=0D=0A					color: #181a19 !imp=
+ortant;=0D=0A				}=0D=0A				.heading-image-text-block li {=0D=0A	=
+				font-size: 14px !important;=0D=0A					line-height: 18px !impo=
+rtant;=0D=0A					font-family: Verdana, sans-serif !important;=0D=0A=
+					text-align: left !important;=0D=0A					color: #181a19 !impor=
+tant;=0D=0A					margin-bottom: 2px !important;=0D=0A				}=0D=0A		=
+		.heading-image-text-block h1.heading-bar {=0D=0A					font-size:=
+ 20px !important;=0D=0A					line-height: 20px !important;=0D=0A		=
+			font-family: Verdana, sans-serif !important;=0D=0A					text-al=
+ign: left !important;=0D=0A					font-weight: bold !important;=0D=0A=
+					font-style: normal !important;=0D=0A					color: #181a19 !imp=
+ortant;=0D=0A					margin-bottom: 10px !important;=0D=0A					backg=
+round-color: #ffffff !important;=0D=0A				}=0D=0A				.heading-ima=
+ge-text-block h1 {=0D=0A					font-size: 20px !important;=0D=0A			=
+		line-height: 20px !important;=0D=0A					font-family: Verdana, s=
+ans-serif !important;=0D=0A					text-align: left !important;=0D=0A=
+					color: #181a19 !important;=0D=0A					margin-bottom: 5px !imp=
+ortant;=0D=0A				}=0D=0A				.heading-image-text-block h2 {=0D=0A	=
+				font-size: 20px !important;=0D=0A					line-height: 20px !impo=
+rtant;=0D=0A					font-family: Verdana, sans-serif !important;=0D=0A=
+					text-align: left !important;=0D=0A					color: #181a19 !impor=
+tant;=0D=0A					margin-bottom: 5px !important;=0D=0A				}=0D=0A		=
+		.heading-image-text-block h3 {=0D=0A					font-size: 20px !impor=
+tant;=0D=0A					line-height: 20px !important;=0D=0A					font-fami=
+ly: Verdana, sans-serif !important;=0D=0A					text-align: left !i=
+mportant;=0D=0A					color: #181a19 !important;=0D=0A					margin-b=
+ottom: 5px !important;=0D=0A				}=0D=0A				.heading-image-text-bl=
+ock h4 {=0D=0A					font-size: 16px !important;=0D=0A					line-hei=
+ght: 16px !important;=0D=0A					font-family: Verdana, sans-serif =
+!important;=0D=0A					text-align: left !important;=0D=0A					colo=
+r: #181a19 !important;=0D=0A					margin-bottom: 5px !important;=0D=0A=
+				}=0D=0A				.heading-image-text-block h5 {=0D=0A					font-size=
+: 16px !important;=0D=0A					line-height: 16px !important;=0D=0A	=
+				font-family: Verdana, sans-serif !important;=0D=0A					text-a=
+lign: left !important;=0D=0A					color: #181a19 !important;=0D=0A=
+					margin-bottom: 5px !important;=0D=0A				}=0D=0A				.heading-=
+image-text-block h6 {=0D=0A					font-size: 16px !important;=0D=0A=
+					line-height: 16px !important;=0D=0A					font-family: Verdana=
+, sans-serif !important;=0D=0A					text-align: left !important;=0D=0A=
+					color: #181a19 !important;=0D=0A					margin-bottom: 5px !imp=
+ortant;=0D=0A				}=0D=0A				.heading-image-text-block hr {=0D=0A	=
+				border: 1px dotted #181a19 !important;=0D=0A				}=0D=0A				.h=
+eading-image-text-button-block {=0D=0A					background-color: #fff=
+fff !important;=0D=0A				}=0D=0A				.heading-image-text-button-bl=
+ock img {=0D=0A					font-size: 12px !important;=0D=0A					line-he=
+ight: 15px !important;=0D=0A					font-family: Verdana, sans-serif=
+ !important;=0D=0A					text-align: left !important;=0D=0A					col=
+or: #5e5c5d !important;=0D=0A				}=0D=0A				.heading-image-text-b=
+utton-block img.image-left {=0D=0A					margin-right: 10px !import=
+ant;=0D=0A					margin-bottom: 10px !important;=0D=0A				}=0D=0A		=
+		.heading-image-text-button-block img.image-right {=0D=0A					ma=
+rgin-left: 10px !important;=0D=0A					margin-bottom: 10px !import=
+ant;=0D=0A				}=0D=0A				.heading-image-text-button-block div.but=
+ton {=0D=0A					text-align: left !important;=0D=0A				}=0D=0A				=
+.heading-image-text-button-block div.button div {=0D=0A					paddi=
+ng: 10px 13px !important;=0D=0A					margin-bottom: 30px !importan=
+t;=0D=0A					background-color: #bc7f55 !important;=0D=0A				}=0D=0A=
+				.heading-image-text-button-block div.button a {=0D=0A					fon=
+t-size: 18px !important;=0D=0A					line-height: 20px !important;=0D=0A=
+					font-family: Verdana, sans-serif !important;=0D=0A					font-=
+weight: bold !important;=0D=0A					color: #ffffff !important;=0D=0A=
+				}=0D=0A				.heading-image-text-button-block p {=0D=0A					fon=
+t-size: 14px !important;=0D=0A					line-height: 20px !important;=0D=0A=
+					font-family: Verdana, sans-serif !important;=0D=0A					text-=
+align: left !important;=0D=0A					color: #181a19 !important;=0D=0A=
+					margin-bottom: 20px !important;=0D=0A				}=0D=0A				.heading=
+-image-text-button-block p.alt {=0D=0A					font-size: 14px !impor=
+tant;=0D=0A					line-height: 20px !important;=0D=0A					font-fami=
+ly: Verdana, sans-serif !important;=0D=0A					text-align: left !i=
+mportant;=0D=0A					color: #181a19 !important;=0D=0A					text-dec=
+oration: none !important;=0D=0A					margin-bottom: 20px !importan=
+t;=0D=0A				}=0D=0A				.heading-image-text-button-block p.fine-pr=
+int {=0D=0A					font-size: 10px !important;=0D=0A					line-height=
+: 14px !important;=0D=0A					font-family: Verdana, sans-serif !im=
+portant;=0D=0A					text-align: left !important;=0D=0A					color: =
+#5e5c5d !important;=0D=0A					margin-bottom: 10px !important;=0D=0A=
+				}=0D=0A				.heading-image-text-button-block p.caption {=0D=0A=
+					font-size: 10px !important;=0D=0A					line-height: 14px !imp=
+ortant;=0D=0A					font-family: Verdana, sans-serif !important;=0D=0A=
+					text-align: left !important;=0D=0A					color: #181a19 !impor=
+tant;=0D=0A					margin-bottom: 10px !important;=0D=0A				}=0D=0A	=
+			.heading-image-text-button-block a {=0D=0A					font-size: 14px=
+ !important;=0D=0A					line-height: 20px !important;=0D=0A					fo=
+nt-family: Verdana, sans-serif !important;=0D=0A					text-align: =
+left !important;=0D=0A					color: #23cec8 !important;=0D=0A				}=0D=0A=
+				.heading-image-text-button-block strong, .heading-image-text-=
+button-block b {=0D=0A					font-size: 14px !important;=0D=0A					=
+line-height: 20px !important;=0D=0A					font-family: Verdana, san=
+s-serif !important;=0D=0A					font-weight: bold !important;=0D=0A=
+					color: #181a19 !important;=0D=0A				}=0D=0A				.heading-imag=
+e-text-button-block em, .heading-image-text-button-block i {=0D=0A=
+					font-size: 14px !important;=0D=0A					line-height: 20px !imp=
+ortant;=0D=0A					font-family: Verdana, sans-serif !important;=0D=0A=
+					font-style: italic !important;=0D=0A					color: #181a19 !imp=
+ortant;=0D=0A				}=0D=0A				.heading-image-text-button-block li {=
+=0D=0A					font-size: 14px !important;=0D=0A					line-height: 18p=
+x !important;=0D=0A					font-family: Verdana, sans-serif !importa=
+nt;=0D=0A					text-align: left !important;=0D=0A					color: #181a=
+19 !important;=0D=0A					margin-bottom: 2px !important;=0D=0A				=
+}=0D=0A				.heading-image-text-button-block h1.heading-bar {=0D=0A=
+					font-size: 20px !important;=0D=0A					line-height: 20px !imp=
+ortant;=0D=0A					font-family: Verdana, sans-serif !important;=0D=0A=
+					text-align: left !important;=0D=0A					font-weight: bold !im=
+portant;=0D=0A					font-style: normal !important;=0D=0A					color=
+: #181a19 !important;=0D=0A					margin-bottom: 10px !important;=0D=0A=
+					background-color: #ffffff !important;=0D=0A				}=0D=0A				.h=
+eading-image-text-button-block h1 {=0D=0A					font-size: 20px !im=
+portant;=0D=0A					line-height: 20px !important;=0D=0A					font-f=
+amily: Verdana, sans-serif !important;=0D=0A					text-align: left=
+ !important;=0D=0A					color: #181a19 !important;=0D=0A					margi=
+n-bottom: 5px !important;=0D=0A				}=0D=0A				.heading-image-text=
+-button-block h2 {=0D=0A					font-size: 20px !important;=0D=0A			=
+		line-height: 20px !important;=0D=0A					font-family: Verdana, s=
+ans-serif !important;=0D=0A					text-align: left !important;=0D=0A=
+					color: #181a19 !important;=0D=0A					margin-bottom: 5px !imp=
+ortant;=0D=0A				}=0D=0A				.heading-image-text-button-block h3 {=
+=0D=0A					font-size: 20px !important;=0D=0A					line-height: 20p=
+x !important;=0D=0A					font-family: Verdana, sans-serif !importa=
+nt;=0D=0A					text-align: left !important;=0D=0A					color: #181a=
+19 !important;=0D=0A					margin-bottom: 5px !important;=0D=0A				=
+}=0D=0A				.heading-image-text-button-block h4 {=0D=0A					font-s=
+ize: 16px !important;=0D=0A					line-height: 16px !important;=0D=0A=
+					font-family: Verdana, sans-serif !important;=0D=0A					text-=
+align: left !important;=0D=0A					color: #181a19 !important;=0D=0A=
+					margin-bottom: 5px !important;=0D=0A				}=0D=0A				.heading-=
+image-text-button-block h5 {=0D=0A					font-size: 16px !important=
+;=0D=0A					line-height: 16px !important;=0D=0A					font-family: =
+Verdana, sans-serif !important;=0D=0A					text-align: left !impor=
+tant;=0D=0A					color: #181a19 !important;=0D=0A					margin-botto=
+m: 5px !important;=0D=0A				}=0D=0A				.heading-image-text-button=
+-block h6 {=0D=0A					font-size: 16px !important;=0D=0A					line-=
+height: 16px !important;=0D=0A					font-family: Verdana, sans-ser=
+if !important;=0D=0A					text-align: left !important;=0D=0A					c=
+olor: #181a19 !important;=0D=0A					margin-bottom: 5px !important=
+;=0D=0A				}=0D=0A				.heading-image-text-button-block hr {=0D=0A=
+					border: 1px dotted #181a19 !important;=0D=0A				}=0D=0A				#=
+heading-bar-block-1510873241277 em, #heading-bar-block-1510873241=
+277 i {=0D=0A					font-size: 20px !important;=0D=0A					line-heig=
+ht: 20px !important;=0D=0A				}=0D=0A				}=0D=0A			</style>=0D=0A=
+=0D=0A		<!--[if mso]>=0D=0A		<style data-wfstyle=3D"outlook" type=
+=3D"text/css">=0D=0A			/* Outlook specific duct tape styles */=0D=0A=
+			table { border-collapse: collapse; border-spacing: 0; mso-tabl=
+e-lspace: 0pt; mso-table-rspace: 0pt; }=0D=0A			td, th { padding:=
+ 0; vertical-align: top; }=0D=0A		</style>=0D=0A		<![endif]-->=0D=0A=
+	<title>Seattle Opera</title>=0D=0A<!--[if gte mso 9]><xml><o:Off=
+iceDocumentSettings><o:AllowPNG/><o:PixelsPerInch>96</o:PixelsPer=
+Inch></o:OfficeDocumentSettings></xml><![endif]--></head>=0D=0A	<=
+body style=3D"margin: 0px; min-width: 100%; padding: 0px; width: =
+100%; background-color: rgb(255, 255, 255); color: rgb(24, 26, 25=
+); font-family: Verdana, sans-serif; font-size: 15px;">=0D=0A		=0D=0A=
+<!--[if !mso]><!--><div id=3D"email-container" data-wfeviltwin=3D=
+"align: center; width: 600px" class=3D"" style=3D"background-colo=
+r: rgb(255, 255, 255); margin-left: auto; margin-right: auto; max=
+-width: 800px; padding: 15px; font-size: 15px; font-family: Verda=
+na, sans-serif; color: rgb(24, 26, 25);">=0D=0A			<div class=3D"p=
+reheader-block" id=3D"preheader-block-1446678334348" style=3D"pad=
+ding-top: 15px; overflow: hidden; zoom: 1; font-size: 15px; font-=
+family: Verdana, sans-serif; color: rgb(24, 26, 25);">=0D=0A				<=
+div class=3D"" style=3D"font-size: 15px; font-family: Verdana, sa=
+ns-serif; color: rgb(24, 26, 25);">=0D=0A					<p align=3D"center"=
+ class=3D"" style=3D"margin: 0px 0px 15px; text-align: center; fo=
+nt-size: 14px; line-height: 14px; font-family: Verdana, sans-seri=
+f; color: rgb(35, 206, 200); text-transform: uppercase;"><b class=
+=3D"" style=3D"font-size: 14px; font-family: Verdana, sans-serif;=
+ color: rgb(35, 206, 200); line-height: 14px; font-weight: bold;"=
+>=0D=0A						Plus a new performance added on May 18!</b></p>=0D=0A=
+				</div>=0D=0A			</div>=0D=0A=0D=0A			<div class=3D"image-block=
+ mobile-hide" id=3D"image-block-1446678202900" style=3D"overflow:=
+ hidden; zoom: 1; line-height: 0px; font-size: 15px; font-family:=
+ Verdana, sans-serif; color: rgb(24, 26, 25); margin-bottom: 30px=
+; background-color: rgb(255, 255, 255);">=0D=0A				<a href=3D"htt=
+p://tracking.wordfly.com/click?sid=3DMTM0XzI4ODk5XzM1NzYzXzcxMjM&=
+l=3D3d59553e-64d4-e711-bcb0-e61f134a8c87&utm_source=3Dwordfly&utm=
+_medium=3Demail&utm_campaign=3D20171206HolidaySaleday3-Aida&utm_c=
+ontent=3Dversion_A" target=3D"_blank" class=3D"" style=3D"color: =
+rgb(35, 206, 200); font-size: 15px; font-family: Verdana, sans-se=
+rif; line-height: 22px; text-decoration: none; text-align: left;"=
+><img src=3D"http://media.wordfly.com/seattleopera/emails/2017-12=
+-06-holiday-sale-day-3-aida/800x600-email-header-2017-holiday-sal=
+e-wed.jpg" class=3D"full-width" alt=3D"$75 Orchestra seats for Ai=
+da! | Buy this Deal &gt; " style=3D"border: 0px none rgb(92, 94, =
+93); border-image-source: none; border-image-slice: 100%; border-=
+image-width: 1; border-image-outset: 0px; border-image-repeat: st=
+retch; outline: rgb(92, 94, 93) none 0px; text-decoration: none; =
+width: 100%; font-size: 12px; font-family: Verdana, sans-serif; c=
+olor: rgb(92, 94, 93);" /></a>=0D=0A			</div><div class=3D"image-=
+block desktop-hide" id=3D"image-block-1446681882036" style=3D"dis=
+play: none; float: left; max-height: 0px; max-width: 0px; text-in=
+dent: 999999px; visibility: hidden; overflow: hidden; zoom: 1; li=
+ne-height: 0px; font-size: 15px; font-family: Verdana, sans-serif=
+; color: rgb(24, 26, 25); margin-bottom: 10px; background-color: =
+rgb(255, 255, 255);">=0D=0A	<a href=3D"http://tracking.wordfly.co=
+m/click?sid=3DMTM0XzI4ODk5XzM1NzYzXzcxMjM&l=3D3d59553e-64d4-e711-=
+bcb0-e61f134a8c87&utm_source=3Dwordfly&utm_medium=3Demail&utm_cam=
+paign=3D20171206HolidaySaleday3-Aida&utm_content=3Dversion_A" tar=
+get=3D"_blank" class=3D"" style=3D"color: rgb(35, 206, 200); font=
+-size: 15px; font-family: Verdana, sans-serif; line-height: 22px;=
+ text-decoration: none; text-align: left;"><img src=3D"http://med=
+ia.wordfly.com/seattleopera/emails/2017-12-06-holiday-sale-day-3-=
+aida/500x700-email-header-2017-holiday-sale-wed.jpg" class=3D"ful=
+l-width" alt=3D"$75 Orchestra seats for Aida! | Buy this Deal &gt=
+; " style=3D"border: 0px none rgb(92, 94, 93); border-image-sourc=
+e: none; border-image-slice: 100%; border-image-width: 1; border-=
+image-outset: 0px; border-image-repeat: stretch; outline: rgb(92,=
+ 94, 93) none 0px; text-decoration: none; width: 100%; font-size:=
+ 12px; font-family: Verdana, sans-serif; color: rgb(92, 94, 93);"=
+ /></a>=0D=0A</div>=0D=0A=0D=0A			=0D=0A=0D=0A			<div class=3D"te=
+xt-block" id=3D"text-block-1446678864528" style=3D"overflow: hidd=
+en; zoom: 1; font-size: 15px; font-family: Verdana, sans-serif; c=
+olor: rgb(24, 26, 25); background-color: rgb(255, 255, 255);">=0D=0A=
+				<div class=3D"" style=3D"font-size: 15px; font-family: Verdan=
+a, sans-serif; color: rgb(24, 26, 25);">=0D=0A					<p align=3D"le=
+ft" style=3D"text-align: left; margin: 0px 0px 20px; font-size: 1=
+5px; line-height: 22px; font-family: Verdana, sans-serif; color: =
+rgb(24, 26, 25);">Just announced: by popular demand, we've added =
+an extra performance of <b style=3D"font-size: 15px; font-family:=
+ Verdana, sans-serif; color: rgb(24, 26, 25); line-height: 22px; =
+font-weight: bold;"><i style=3D"font-size: 15px; font-family: Ver=
+dana, sans-serif; color: rgb(35, 206, 200); line-height: 22px; fo=
+nt-style: italic;"><a href=3D"http://tracking.wordfly.com/click?s=
+id=3DMTM0XzI4ODk5XzM1NzYzXzcxMjM&l=3D3e59553e-64d4-e711-bcb0-e61f=
+134a8c87&utm_source=3Dwordfly&utm_medium=3Demail&utm_campaign=3D2=
+0171206HolidaySaleday3-Aida&utm_content=3Dversion_A" target=3D"_b=
+lank" style=3D"color: rgb(35, 206, 200); font-size: 15px; font-fa=
+mily: Verdana, sans-serif; line-height: 22px; text-decoration: no=
+ne; text-align: left;">Aida</a></i></b> on Friday, May 18 at 7:30=
+ PM!&nbsp;</p><p align=3D"left" style=3D"text-align: left; margin=
+: 0px 0px 20px; font-size: 15px; line-height: 22px; font-family: =
+Verdana, sans-serif; color: rgb(24, 26, 25);"><a href=3D"http://t=
+racking.wordfly.com/click?sid=3DMTM0XzI4ODk5XzM1NzYzXzcxMjM&l=3D3=
+f59553e-64d4-e711-bcb0-e61f134a8c87&utm_source=3Dwordfly&utm_medi=
+um=3Demail&utm_campaign=3D20171206HolidaySaleday3-Aida&utm_conten=
+t=3Dversion_A" target=3D"_blank" style=3D"font-weight: bold; colo=
+r: rgb(35, 206, 200); font-size: 15px; font-family: Verdana, sans=
+-serif; line-height: 22px; text-decoration: none; text-align: lef=
+t;">TODAY ONLY, enjoy select Orchestra seats for <i style=3D"font=
+-size: 15px; font-family: Verdana, sans-serif; color: rgb(35, 206=
+, 200); line-height: 22px; font-style: italic;">Aida</i>&nbsp;for=
+ just $75</a> (regularly up to $170)&nbsp;on Wednesday, May 9 at =
+7:30 PM; Wednesday, May 16 at 7:30 PM;&nbsp;or the just-added per=
+formance on Friday, May 18&nbsp;at 7:30 PM. Can't make those date=
+s or prefer a different seating area? No problem=E2=80=94most sea=
+ts at <b style=3D"font-size: 15px; font-family: Verdana, sans-ser=
+if; color: rgb(24, 26, 25); line-height: 22px; font-weight: bold;=
+">all nine&nbsp;performances are 20% off</b>, only until 11:59 PM=
+ tonight!&nbsp;</p>=0D=0A				</div>=0D=0A			</div>=0D=0A=0D=0A			=
+<div class=3D"button-block" id=3D"button-block-1446679311891" sty=
+le=3D"overflow: hidden; zoom: 1; padding: 0px; font-size: 15px; f=
+ont-family: Verdana, sans-serif; color: rgb(24, 26, 25);">=0D=0A	=
+			<div class=3D"button" style=3D"text-align: left; font-size: 15=
+px; font-family: Verdana, sans-serif; color: rgb(24, 26, 25);">=0D=0A=
+					<div class=3D"no-wrap" style=3D"white-space: nowrap; backgro=
+und-color: rgb(188, 127, 85); border-collapse: separate; border-t=
+op-left-radius: 0px; border-top-right-radius: 0px; border-bottom-=
+right-radius: 0px; border-bottom-left-radius: 0px; display: inlin=
+e-block; padding: 10px 13px; text-align: center; border-style: no=
+ne; margin-bottom: 30px; margin-left: 0px; font-size: 15px; font-=
+family: Verdana, sans-serif; color: rgb(24, 26, 25);">=0D=0A					=
+	<a href=3D"http://tracking.wordfly.com/click?sid=3DMTM0XzI4ODk5X=
+zM1NzYzXzcxMjM&l=3D3d59553e-64d4-e711-bcb0-e61f134a8c87&utm_sourc=
+e=3Dwordfly&utm_medium=3Demail&utm_campaign=3D20171206HolidaySale=
+day3-Aida&utm_content=3Dversion_A" target=3D"_blank" class=3D"" s=
+tyle=3D"color: rgb(255, 255, 255); font-size: 20px; text-decorati=
+on: none; font-weight: bold; font-family: Verdana, sans-serif; te=
+xt-transform: uppercase; line-height: 22px; text-align: left;">Bu=
+y this Deal</a>=0D=0A					</div>=0D=0A				</div>=0D=0A			</div><d=
+iv class=3D"heading-bar-block" id=3D"heading-bar-block-1510873241=
+277" style=3D"overflow: hidden; zoom: 1; font-size: 15px; font-fa=
+mily: Verdana, sans-serif; color: rgb(24, 26, 25);">=0D=0A  <div =
+style=3D"font-size: 15px; font-family: Verdana, sans-serif; color=
+: rgb(24, 26, 25);">=0D=0A    <h1 class=3D"heading-bar" align=3D"=
+left" style=3D"text-align: left; margin: 0px 0px 10px; padding: 0=
+px; font-size: 22px; background-image: none; background-attachmen=
+t: scroll; background-origin: padding-box; background-clip: borde=
+r-box; background-color: rgb(255, 255, 255); background-size: aut=
+o; color: rgb(24, 26, 25); font-family: Verdana, sans-serif; font=
+-style: normal; font-weight: bold; background-position: 0% 0%;">A=
+bout<i style=3D"font-size: 22px; font-family: Verdana, sans-serif=
+; color: rgb(24, 26, 25); line-height: 22px; font-style: italic;"=
+> Aida</i></h1>=0D=0A  </div>=0D=0A</div><div class=3D"text-block=
+" id=3D"text-block-1464114199703" style=3D"overflow: hidden; zoom=
+: 1; font-size: 15px; font-family: Verdana, sans-serif; color: rg=
+b(24, 26, 25); background-color: rgb(255, 255, 255);">=0D=0A	<div=
+ style=3D"font-size: 15px; font-family: Verdana, sans-serif; colo=
+r: rgb(24, 26, 25);">=0D=0A		<p align=3D"left" class=3D"" style=3D=
+"text-align: left; margin: 0px 0px 20px; font-size: 15px; line-he=
+ight: 22px; font-family: Verdana, sans-serif; color: rgb(24, 26, =
+25);">A profoundly personal love story told on a grand scale, <i =
+style=3D"font-size: 15px; font-family: Verdana, sans-serif; color=
+: rgb(24, 26, 25); line-height: 22px; font-style: italic;">Aida</=
+i> showcases Verdi's power to translate human emotions into magni=
+ficent music. The high-stakes love triangle between a captured pr=
+incess, a conflicted military commander, and the King=E2=80=99s f=
+ormidable daughter unfolds amid glorious spectacle and rousing ch=
+oruses=E2=80=94including the famous Triumphal March.</p><p align=3D=
+"left" style=3D"margin: 0px 0px 20px; text-align: left; font-size=
+: 15px; line-height: 22px; font-family: Verdana, sans-serif; colo=
+r: rgb(24, 26, 25);"></p>=0D=0A	</div>=0D=0A</div><div class=3D"t=
+ext-block" style=3D"overflow: hidden; zoom: 1; font-size: 15px; f=
+ont-family: Verdana, sans-serif; color: rgb(24, 26, 25); backgrou=
+nd-color: rgb(255, 255, 255);">=0D=0A	<div style=3D"font-size: 15=
+px; font-family: Verdana, sans-serif; color: rgb(24, 26, 25);">=0D=0A=
+		<p align=3D"left" class=3D"" style=3D"margin: 0px 0px 20px; tex=
+t-align: left; font-size: 15px; line-height: 22px; font-family: V=
+erdana, sans-serif; color: rgb(24, 26, 25);">Your login is pam@ma=
+gicalstrings.com.</p>=0D=0A	</div>=0D=0A</div>=0D=0A=0D=0A			=0D=0A=
+=0D=0A			<div class=3D"social-links-block" id=3D"social-links-blo=
+ck-1446679820075" style=3D"overflow: hidden; zoom: 1; font-size: =
+15px; font-family: Verdana, sans-serif; color: rgb(24, 26, 25); p=
+adding-top: 5px; padding-bottom: 5px; background-color: rgb(35, 2=
+06, 200);">=0D=0A				<div class=3D"social-links" style=3D"padding=
+-top: 20px; text-align: center; font-size: 15px; font-family: Ver=
+dana, sans-serif; color: rgb(24, 26, 25);">=0D=0A					<p class=3D=
+"" align=3D"center" style=3D"margin: 0px 0px 20px; text-align: ce=
+nter; font-size: 15px; line-height: 22px; font-family: Verdana, s=
+ans-serif; color: rgb(24, 26, 25);"><b class=3D"" style=3D"font-s=
+ize: 15px; font-family: Verdana, sans-serif; color: rgb(24, 26, 2=
+5); line-height: 22px; font-weight: bold;"><a href=3D"http://trac=
+king.wordfly.com/click?sid=3DMTM0XzI4ODk5XzM1NzYzXzcxMjM&l=3D4059=
+553e-64d4-e711-bcb0-e61f134a8c87&utm_source=3Dwordfly&utm_medium=3D=
+email&utm_campaign=3D20171206HolidaySaleday3-Aida&utm_content=3Dv=
+ersion_A" class=3D"" target=3D"_blank" style=3D"color: rgb(24, 26=
+, 25); font-size: 15px; font-family: Verdana, sans-serif; line-he=
+ight: 22px; text-decoration: none; text-align: center; text-trans=
+form: uppercase; font-weight: bold;">Seattleopera.org</a></b></p>=
+<p class=3D"" align=3D"center" style=3D"margin: 0px 0px 20px; tex=
+t-align: center; font-size: 15px; line-height: 22px; font-family:=
+ Verdana, sans-serif; color: rgb(24, 26, 25);"><a href=3D"http://=
+tracking.wordfly.com/click?sid=3DMTM0XzI4ODk5XzM1NzYzXzcxMjM&l=3D=
+4159553e-64d4-e711-bcb0-e61f134a8c87&utm_source=3Dwordfly&utm_med=
+ium=3Demail&utm_campaign=3D20171206HolidaySaleday3-Aida&utm_conte=
+nt=3Dversion_A" target=3D"_blank" style=3D"font-size: 12px; color=
+: rgb(24, 26, 25); font-family: Verdana, sans-serif; line-height:=
+ 22px; text-decoration: none; text-align: center; text-transform:=
+ uppercase; font-weight: bold;" class=3D""><img src=3D"http://med=
+ia.wordfly.com/seattleopera/emails/marketing-starter/facebook-yel=
+low.png" alt=3D"Like Seattle Opera on Facebook" width=3D"30" heig=
+ht=3D"30" class=3D"icon" style=3D"border: 0px none rgb(92, 94, 93=
+); border-image-source: none; border-image-slice: 100%; border-im=
+age-width: 1; border-image-outset: 0px; border-image-repeat: stre=
+tch; outline: rgb(92, 94, 93) none 0px; text-decoration: none; fo=
+nt-size: 12px; width: 30px; height: 30px; margin: 5px; font-famil=
+y: Verdana, sans-serif; color: rgb(92, 94, 93); text-align: left;=
+" /></a>&nbsp;&nbsp;&nbsp;<a href=3D"http://tracking.wordfly.com/=
+click?sid=3DMTM0XzI4ODk5XzM1NzYzXzcxMjM&l=3D4259553e-64d4-e711-bc=
+b0-e61f134a8c87&utm_source=3Dwordfly&utm_medium=3Demail&utm_campa=
+ign=3D20171206HolidaySaleday3-Aida&utm_content=3Dversion_A" targe=
+t=3D"_blank" style=3D"font-size: 12px; color: rgb(24, 26, 25); fo=
+nt-family: Verdana, sans-serif; line-height: 22px; text-decoratio=
+n: none; text-align: center; text-transform: uppercase; font-weig=
+ht: bold;" class=3D""><img src=3D"http://media.wordfly.com/seattl=
+eopera/emails/marketing-starter/twitter-yellow.png" alt=3D"Follow=
+ Seattle Opera Twitter" width=3D"30" height=3D"30" class=3D"icon"=
+ style=3D"border: 0px none rgb(92, 94, 93); border-image-source: =
+none; border-image-slice: 100%; border-image-width: 1; border-ima=
+ge-outset: 0px; border-image-repeat: stretch; outline: rgb(92, 94=
+, 93) none 0px; text-decoration: none; font-size: 12px; width: 30=
+px; height: 30px; margin: 5px; font-family: Verdana, sans-serif; =
+color: rgb(92, 94, 93); text-align: left;" /></a>&nbsp;&nbsp;&nbs=
+p;<a href=3D"http://tracking.wordfly.com/click?sid=3DMTM0XzI4ODk5=
+XzM1NzYzXzcxMjM&l=3D4359553e-64d4-e711-bcb0-e61f134a8c87&utm_sour=
+ce=3Dwordfly&utm_medium=3Demail&utm_campaign=3D20171206HolidaySal=
+eday3-Aida&utm_content=3Dversion_A" target=3D"_blank" style=3D"fo=
+nt-size: 12px; color: rgb(24, 26, 25); font-family: Verdana, sans=
+-serif; line-height: 22px; text-decoration: none; text-align: cen=
+ter; text-transform: uppercase; font-weight: bold;" class=3D""><i=
+mg src=3D"http://media.wordfly.com/seattleopera/emails/marketing-=
+starter/instagram.png" alt=3D"Follow Seattle Opera on Instagram" =
+width=3D"30" height=3D"30" class=3D"icon" style=3D"border: 0px no=
+ne rgb(92, 94, 93); border-image-source: none; border-image-slice=
+: 100%; border-image-width: 1; border-image-outset: 0px; border-i=
+mage-repeat: stretch; outline: rgb(92, 94, 93) none 0px; text-dec=
+oration: none; font-size: 12px; width: 30px; height: 30px; margin=
+: 5px; font-family: Verdana, sans-serif; color: rgb(92, 94, 93); =
+text-align: left;" /></a>&nbsp;&nbsp;&nbsp;<a href=3D"http://trac=
+king.wordfly.com/click?sid=3DMTM0XzI4ODk5XzM1NzYzXzcxMjM&l=3D4459=
+553e-64d4-e711-bcb0-e61f134a8c87&utm_source=3Dwordfly&utm_medium=3D=
+email&utm_campaign=3D20171206HolidaySaleday3-Aida&utm_content=3Dv=
+ersion_A" target=3D"_blank" style=3D"font-size: 12px; color: rgb(=
+24, 26, 25); font-family: Verdana, sans-serif; line-height: 22px;=
+ text-decoration: none; text-align: center; text-transform: upper=
+case; font-weight: bold;" class=3D""><img src=3D"http://media.wor=
+dfly.com/seattleopera/emails/marketing-starter/youtube-yellow.png=
+" alt=3D"Follow Seattle Opera on YouTube" width=3D"30" height=3D"=
+30" class=3D"icon" style=3D"border: 0px none rgb(92, 94, 93); bor=
+der-image-source: none; border-image-slice: 100%; border-image-wi=
+dth: 1; border-image-outset: 0px; border-image-repeat: stretch; o=
+utline: rgb(92, 94, 93) none 0px; text-decoration: none; font-siz=
+e: 12px; width: 30px; height: 30px; margin: 5px; font-family: Ver=
+dana, sans-serif; color: rgb(92, 94, 93); text-align: left;" /></=
+a>&nbsp;&nbsp;&nbsp;<a href=3D"http://tracking.wordfly.com/click?=
+sid=3DMTM0XzI4ODk5XzM1NzYzXzcxMjM&l=3D4559553e-64d4-e711-bcb0-e61=
+f134a8c87&utm_source=3Dwordfly&utm_medium=3Demail&utm_campaign=3D=
+20171206HolidaySaleday3-Aida&utm_content=3Dversion_A" target=3D"_=
+blank" style=3D"font-size: 12px; color: rgb(24, 26, 25); font-fam=
+ily: Verdana, sans-serif; line-height: 22px; text-decoration: non=
+e; text-align: center; text-transform: uppercase; font-weight: bo=
+ld;" class=3D""><img src=3D"http://media.wordfly.com/seattleopera=
+/emails/marketing-starter/blogger-yellow.png" alt=3D"Read the Sea=
+ttle Opera Blog" width=3D"30" height=3D"30" class=3D"icon" style=3D=
+"border: 0px none rgb(92, 94, 93); border-image-source: none; bor=
+der-image-slice: 100%; border-image-width: 1; border-image-outset=
+: 0px; border-image-repeat: stretch; outline: rgb(92, 94, 93) non=
+e 0px; text-decoration: none; font-size: 12px; width: 30px; heigh=
+t: 30px; margin: 5px; font-family: Verdana, sans-serif; color: rg=
+b(92, 94, 93); text-align: left;" /></a>&nbsp;&nbsp;&nbsp;<a href=
+=3D"http://tracking.wordfly.com/click?sid=3DMTM0XzI4ODk5XzM1NzYzX=
+zcxMjM&l=3D4659553e-64d4-e711-bcb0-e61f134a8c87&utm_source=3Dword=
+fly&utm_medium=3Demail&utm_campaign=3D20171206HolidaySaleday3-Aid=
+a&utm_content=3Dversion_A" target=3D"_blank" style=3D"font-size: =
+12px; color: rgb(24, 26, 25); font-family: Verdana, sans-serif; l=
+ine-height: 22px; text-decoration: none; text-align: center; text=
+-transform: uppercase; font-weight: bold;" class=3D""><img src=3D=
+"http://media.wordfly.com/seattleopera/emails/marketing-starter/s=
+oundcloud-yellow.png" alt=3D"Listen to Seattle Opera on Soundclou=
+d" width=3D"30" height=3D"30" class=3D"icon" style=3D"border: 0px=
+ none rgb(92, 94, 93); border-image-source: none; border-image-sl=
+ice: 100%; border-image-width: 1; border-image-outset: 0px; borde=
+r-image-repeat: stretch; outline: rgb(92, 94, 93) none 0px; text-=
+decoration: none; font-size: 12px; width: 30px; height: 30px; mar=
+gin: 5px; font-family: Verdana, sans-serif; color: rgb(92, 94, 93=
+); text-align: left;" /></a></p>=0D=0A				</div>=0D=0A			</div>=0D=0A=
+=0D=0A			<div class=3D"footer-block" id=3D"footer-block-144668093=
+8407" style=3D"padding-top: 15px; overflow: hidden; zoom: 1; font=
+-size: 15px; font-family: Verdana, sans-serif; color: rgb(24, 26,=
+ 25);">=0D=0A				<div class=3D"" style=3D"font-size: 15px; font-f=
+amily: Verdana, sans-serif; color: rgb(24, 26, 25);">=0D=0A					<=
+p style=3D"text-align: left; margin: 0px 0px 10px; font-size: 10p=
+x; line-height: 15px; font-family: Verdana, sans-serif; color: rg=
+b(92, 94, 93);" align=3D"left" class=3D""><b class=3D"" style=3D"=
+font-size: 10px; font-family: Verdana, sans-serif; color: rgb(92,=
+ 94, 93); line-height: 15px; font-weight: bold;">Your Account ID:=
+ </b>21100004</p><p style=3D"text-align: left; margin: 0px 0px 10=
+px; font-size: 10px; line-height: 15px; font-family: Verdana, san=
+s-serif; color: rgb(92, 94, 93);" align=3D"left" class=3D""><b cl=
+ass=3D"" style=3D"font-size: 10px; font-family: Verdana, sans-ser=
+if; color: rgb(92, 94, 93); line-height: 15px; font-weight: bold;=
+">Audience Services: </b>9AM-5PM M-F at 206.389.7676</p><p style=3D=
+"text-align: left; margin: 0px 0px 10px; font-size: 10px; line-he=
+ight: 15px; font-family: Verdana, sans-serif; color: rgb(92, 94, =
+93);" align=3D"left" class=3D""><b class=3D"" style=3D"font-size:=
+ 10px; font-family: Verdana, sans-serif; color: rgb(92, 94, 93); =
+line-height: 15px; font-weight: bold;">Administrative Offices:</b=
+> 1020 John Street, Seattle, WA 98109<br style=3D"font-size: 15px=
+; font-family: Verdana, sans-serif; color: rgb(24, 26, 25);" /><b=
+ class=3D"" style=3D"font-size: 10px; font-family: Verdana, sans-=
+serif; color: rgb(92, 94, 93); line-height: 15px; font-weight: bo=
+ld;">Performances:</b> McCaw Hall, 321 Mercer Street, Seattle, WA=
+ 98109</p><p style=3D"text-align: left; margin: 0px 0px 10px; fon=
+t-size: 10px; line-height: 15px; font-family: Verdana, sans-serif=
+; color: rgb(92, 94, 93);" align=3D"left" class=3D""><i style=3D"=
+font-size: 10px; font-family: Verdana, sans-serif; color: rgb(92,=
+ 94, 93); line-height: 15px; font-style: italic;">Aida</i> Produc=
+tion Sponsors:<br style=3D"font-size: 15px; font-family: Verdana,=
+ sans-serif; color: rgb(24, 26, 25);" /><b style=3D"font-size: 10=
+px; font-family: Verdana, sans-serif; color: rgb(92, 94, 93); lin=
+e-height: 15px; font-weight: bold;">Lenore M. Hanauer&nbsp; &nbsp=
+; &nbsp; &nbsp;<br style=3D"font-size: 15px; font-family: Verdana=
+, sans-serif; color: rgb(24, 26, 25);" />4Culture&nbsp; &nbsp; &n=
+bsp;&nbsp;</b></p><p style=3D"text-align: left; margin: 0px 0px 1=
+0px; font-size: 10px; line-height: 15px; font-family: Verdana, sa=
+ns-serif; color: rgb(92, 94, 93);" align=3D"left">No promotion=0D=0A=
+code necessary; prices displayed online already reflect this disc=
+ount. $75=0D=0Aoffer valid only in the Orchestra Back (OB) sectio=
+n and select portions of the=0D=0AOrchestra (OR) section for the =
+Wednesday, May 9, Wednesday, May 16, and Friday,=0D=0AMay 18 perf=
+ormances of <i style=3D"font-size: 10px; font-family: Verdana, sa=
+ns-serif; color: rgb(92, 94, 93); line-height: 15px; font-style: =
+italic;">Aida</i>. 20% off=0D=0Aoffer valid for any other section=
+ or performance of <i=20style=3D"font-size: 10px; font-family: Ve=
+rdana, sans-serif; color: rgb(92, 94, 93); line-height: 15px; fon=
+t-style: italic;">Aida,</i>&nbsp;except Dress Circle Preferred, $=
+25 seating areas, and $15 under-18 tickets. Discount=0D=0Alisted =
+is approximate as it is calculated prior to the addition of facil=
+ity fee=0D=0Aand is rounded up to the nearest whole dollar. May n=
+ot be combined with any=0D=0Aother discounts. Not valid with any =
+other titles or on previously purchased tickets.=0D=0ASubject to =
+availability. Offer valid only on December 6, 2017, 9 AM to 11:59=
+ PM=0D=0APacific Time.</p><p style=3D"text-align: left; margin: 0=
+px 0px 10px; font-size: 10px; line-height: 15px; font-family: Ver=
+dana, sans-serif; color: rgb(92, 94, 93);" align=3D"left">Operas,=
+ artists, schedule, and prices are subject to change.&nbsp;</p><p=
+ class=3D"fine-print" align=3D"left" style=3D"text-align: left; m=
+argin: 0px 0px 10px; font-size: 10px; color: rgb(92, 94, 93); lin=
+e-height: 15px; font-family: Verdana, sans-serif;">=0D=0A						<b=
+ class=3D"" style=3D"font-size: 10px; font-family: Verdana, sans-=
+serif; color: rgb(92, 94, 93); line-height: 15px; font-weight: bo=
+ld;"><a href=3D"http://tracking.wordfly.com/unsubscribe?sid=3DMTM=
+0XzI4ODk5XzM1NzYzXzcxMjM" target=3D"_blank" class=3D"" style=3D"c=
+olor: rgb(35, 206, 200); font-size: 10px; font-family: Verdana, s=
+ans-serif; line-height: 15px; text-decoration: none; text-align: =
+left;">Unsubscribe</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href=3D"http://t=
+racking.wordfly.com/forward?sid=3DMTM0XzI4ODk5XzM1NzYzXzcxMjM&l=3D=
+4859553e-64d4-e711-bcb0-e61f134a8c87&utm_source=3Dwordfly&utm_med=
+ium=3Demail&utm_campaign=3D20171206HolidaySaleday3-Aida&utm_conte=
+nt=3Dversion_A" target=3D"_blank" class=3D"" style=3D"color: rgb(=
+35, 206, 200); font-size: 10px; font-family: Verdana, sans-serif;=
+ line-height: 15px; text-decoration: none; text-align: left;">For=
+ward</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href=3D"http://tracking.wordfl=
+y.com/view?sid=3DMTM0XzI4ODk5XzM1NzYzXzcxMjM&l=3D4959553e-64d4-e7=
+11-bcb0-e61f134a8c87&utm_source=3Dwordfly&utm_medium=3Demail&utm_=
+campaign=3D20171206HolidaySaleday3-Aida&utm_content=3Dversion_A" =
+target=3D"_blank" class=3D"" style=3D"color: rgb(35, 206, 200); f=
+ont-size: 10px; font-family: Verdana, sans-serif; line-height: 15=
+px; text-decoration: none; text-align: left;">View in browser</a>=
+</b></p>=0D=0A				</div>=0D=0A			</div>=0D=0A		<img src=3D"http:/=
+/tracking.wordfly.com//open?sid=3DMTM0XzI4ODk5XzM1NzYzXzcxMjM" wi=
+dth=3D"1" height=3D"1" border=3D"0" style=3D"position:absolute; l=
+eft: -10000px;" />=0D=0A</div>=0D=0A<style id=3D"wfeviltwin-style=
+"><!--<![endif]--><table border=3D"0" cellpadding=3D"0" cellspaci=
+ng=3D"0" data-wfmutant=3D"box div" id=3D"wfeviltwin-container" cl=
+ass=3D"" align=3D"center"><tr><td style=3D"padding-left: 0px;"><t=
+able border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"63=
+0" style=3D"background-color: rgb(255, 255, 255); width: 630px;">=
+<tr><td style=3D"padding: 15px; margin-left: auto; margin-right: =
+auto; max-width: 800px; font-size: 15px; font-family: Verdana, sa=
+ns-serif; color: rgb(24, 26, 25); width: 600px;"><table border=3D=
+"0" cellpadding=3D"0" cellspacing=3D"0" data-wfmutant=3D"box div.=
+preheader-block" class=3D"preheader-block" id=3D"preheader-block-=
+1446678334348"><tr><td><table border=3D"0" cellpadding=3D"0" cell=
+spacing=3D"0" width=3D"600" style=3D"width: 600px;"><tr><td style=
+=3D"padding-top: 15px; overflow: hidden; zoom: 1; font-size: 15px=
+; font-family: Verdana, sans-serif; color: rgb(24, 26, 25);"><tab=
+le border=3D"0" cellpadding=3D"0" cellspacing=3D"0" data-wfmutant=
+=3D"box div" class=3D""><tr><td><table border=3D"0" cellpadding=3D=
+"0" cellspacing=3D"0" width=3D"600" style=3D"width: 600px;"><tr><=
+td style=3D"font-size: 15px; font-family: Verdana, sans-serif; co=
+lor: rgb(24, 26, 25);"><p align=3D"center" class=3D"" style=3D"ma=
+rgin: 0px 0px 15px; text-align: center; font-size: 14px; line-hei=
+ght: 14px; font-family: Verdana, sans-serif; color: rgb(35, 206, =
+200); text-transform: uppercase;"><b class=3D"" style=3D"font-siz=
+e: 14px; font-family: Verdana, sans-serif; color: rgb(35, 206, 20=
+0); line-height: 14px; font-weight: bold;">=0D=0A						Plus a new=
+ performance added on May 18!</b></p></td></tr></table></td></tr>=
+</table></td></tr></table></td></tr></table><table border=3D"0" c=
+ellpadding=3D"0" cellspacing=3D"0" data-wfmutant=3D"box div.image=
+-block mobile-hide" class=3D"image-block mobile-hide" id=3D"image=
+-block-1446678202900"><tr><td style=3D"padding-bottom: 30px;"><ta=
+ble border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"600=
+" style=3D"background-color: rgb(255, 255, 255); width: 600px;"><=
+tr><td style=3D"overflow: hidden; zoom: 1; line-height: 0px; font=
+-size: 15px; font-family: Verdana, sans-serif; color: rgb(24, 26,=
+ 25);"><a href=3D"http://tracking.wordfly.com/click?sid=3DMTM0XzI=
+4ODk5XzM1NzYzXzcxMjM&l=3D3d59553e-64d4-e711-bcb0-e61f134a8c87&utm=
+_source=3Dwordfly&utm_medium=3Demail&utm_campaign=3D20171206Holid=
+aySaleday3-Aida&utm_content=3Dversion_A" target=3D"_blank" class=3D=
+"" style=3D"color: rgb(35, 206, 200); font-size: 15px; font-famil=
+y: Verdana, sans-serif; line-height: 22px; text-decoration: none;=
+ text-align: left;"><img src=3D"http://media.wordfly.com/seattleo=
+pera/emails/2017-12-06-holiday-sale-day-3-aida/800x600-email-head=
+er-2017-holiday-sale-wed.jpg" class=3D"full-width" alt=3D"$75 Orc=
+hestra seats for Aida! | Buy this Deal &gt; " style=3D"border: 0p=
+x none rgb(92, 94, 93); border-image-source: none; border-image-s=
+lice: 100%; border-image-width: 1; border-image-outset: 0px; bord=
+er-image-repeat: stretch; outline: rgb(92, 94, 93) none 0px; text=
+-decoration: none; width: 100%; font-size: 12px; font-family: Ver=
+dana, sans-serif; color: rgb(92, 94, 93);" width=3D"600" /></a></=
+td></tr></table></td></tr></table><table border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" data-wfmutant=3D"box div.text-block" ali=
+gn=3D"center" class=3D"text-block" id=3D"text-block-1446678864528=
+" style=3D"width: 100%;"><tr><td><table border=3D"0" cellpadding=3D=
+"0" cellspacing=3D"0" width=3D"600" style=3D"background-color: rg=
+b(255, 255, 255); width: 600px;"><tr><td style=3D"overflow: hidde=
+n; zoom: 1; font-size: 15px; font-family: Verdana, sans-serif; co=
+lor: rgb(24, 26, 25);"><table border=3D"0" cellpadding=3D"0" cell=
+spacing=3D"0" data-wfmutant=3D"box div" class=3D""><tr><td><table=
+ border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"600" s=
+tyle=3D"width: 600px;"><tr><td style=3D"font-size: 15px; font-fam=
+ily: Verdana, sans-serif; color: rgb(24, 26, 25);"><p align=3D"le=
+ft" style=3D"text-align: left; margin: 0px 0px 20px; font-size: 1=
+5px; line-height: 22px; font-family: Verdana, sans-serif; color: =
+rgb(24, 26, 25);">Just announced: by popular demand, we've added =
+an extra performance of <b style=3D"font-size: 15px; font-family:=
+ Verdana, sans-serif; color: rgb(24, 26, 25); line-height: 22px; =
+font-weight: bold;"><i style=3D"font-size: 15px; font-family: Ver=
+dana, sans-serif; color: rgb(35, 206, 200); line-height: 22px; fo=
+nt-style: italic;"><a href=3D"http://tracking.wordfly.com/click?s=
+id=3DMTM0XzI4ODk5XzM1NzYzXzcxMjM&l=3D3e59553e-64d4-e711-bcb0-e61f=
+134a8c87&utm_source=3Dwordfly&utm_medium=3Demail&utm_campaign=3D2=
+0171206HolidaySaleday3-Aida&utm_content=3Dversion_A" target=3D"_b=
+lank" style=3D"color: rgb(35, 206, 200); font-size: 15px; font-fa=
+mily: Verdana, sans-serif; line-height: 22px; text-decoration: no=
+ne; text-align: left;">Aida</a></i></b> on Friday, May 18 at 7:30=
+ PM!&nbsp;</p><p align=3D"left" style=3D"text-align: left; margin=
+: 0px 0px 20px; font-size: 15px; line-height: 22px; font-family: =
+Verdana, sans-serif; color: rgb(24, 26, 25);"><a href=3D"http://t=
+racking.wordfly.com/click?sid=3DMTM0XzI4ODk5XzM1NzYzXzcxMjM&l=3D3=
+f59553e-64d4-e711-bcb0-e61f134a8c87&utm_source=3Dwordfly&utm_medi=
+um=3Demail&utm_campaign=3D20171206HolidaySaleday3-Aida&utm_conten=
+t=3Dversion_A" target=3D"_blank" style=3D"font-weight: bold; colo=
+r: rgb(35, 206, 200); font-size: 15px; font-family: Verdana, sans=
+-serif; line-height: 22px; text-decoration: none; text-align: lef=
+t;">TODAY ONLY, enjoy select Orchestra seats for <i style=3D"font=
+-size: 15px; font-family: Verdana, sans-serif; color: rgb(35, 206=
+, 200); line-height: 22px; font-style: italic;">Aida</i>&nbsp;for=
+ just $75</a> (regularly up to $170)&nbsp;on Wednesday, May 9 at =
+7:30 PM; Wednesday, May 16 at 7:30 PM;&nbsp;or the just-added per=
+formance on Friday, May 18&nbsp;at 7:30 PM. Can't make those date=
+s or prefer a different seating area? No problem=E2=80=94most sea=
+ts at <b style=3D"font-size: 15px; font-family: Verdana, sans-ser=
+if; color: rgb(24, 26, 25); line-height: 22px; font-weight: bold;=
+">all nine&nbsp;performances are 20% off</b>, only until 11:59 PM=
+ tonight!&nbsp;</p></td></tr></table></td></tr></table></td></tr>=
+</table></td></tr></table><table border=3D"0" cellpadding=3D"0" c=
+ellspacing=3D"0" data-wfmutant=3D"box div.button-block" class=3D"=
+button-block" id=3D"button-block-1446679311891"><tr><td><table bo=
+rder=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"600" styl=
+e=3D"width: 600px;"><tr><td style=3D"padding: 0px; overflow: hidd=
+en; zoom: 1; font-size: 15px; font-family: Verdana, sans-serif; c=
+olor: rgb(24, 26, 25);"><table border=3D"0" cellpadding=3D"0" cel=
+lspacing=3D"0" data-wfmutant=3D"box div.button" class=3D"button">=
+<tr><td><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" w=
+idth=3D"600" align=3D"left" style=3D"width: 600px;"><tr><td style=
+=3D"text-align: left; font-size: 15px; font-family: Verdana, sans=
+-serif; color: rgb(24, 26, 25);"><table border=3D"0" cellpadding=3D=
+"0" cellspacing=3D"0" data-wfmutant=3D"box div.no-wrap" class=3D"=
+no-wrap" align=3D"left"><tr><td style=3D"padding-bottom: 30px; pa=
+dding-left: 0px;"><table border=3D"0" cellpadding=3D"0" cellspaci=
+ng=3D"0" width=3D"202" style=3D"background-color: rgb(188, 127, 8=
+5); border: none; width: 202px;" align=3D"center"><tr><td nowrap=3D=
+"true" style=3D"padding: 10px 13px; white-space: nowrap; border-c=
+ollapse: separate; border-top-left-radius: 0px; border-top-right-=
+radius: 0px; border-bottom-right-radius: 0px; border-bottom-left-=
+radius: 0px; display: inline-block; text-align: center; font-size=
+: 15px; font-family: Verdana, sans-serif; color: rgb(24, 26, 25);=
+"><a href=3D"http://tracking.wordfly.com/click?sid=3DMTM0XzI4ODk5=
+XzM1NzYzXzcxMjM&l=3D3d59553e-64d4-e711-bcb0-e61f134a8c87&utm_sour=
+ce=3Dwordfly&utm_medium=3Demail&utm_campaign=3D20171206HolidaySal=
+eday3-Aida&utm_content=3Dversion_A" target=3D"_blank" class=3D"" =
+style=3D"color: rgb(255, 255, 255); font-size: 20px; text-decorat=
+ion: none; font-weight: bold; font-family: Verdana, sans-serif; t=
+ext-transform: uppercase; line-height: 22px; text-align: left;">B=
+uy this Deal</a></td></tr></table></td></tr></table></td></tr></t=
+able></td></tr></table></td></tr></table></td></tr></table><table=
+ border=3D"0" cellpadding=3D"0" cellspacing=3D"0" data-wfmutant=3D=
+"box div.heading-bar-block" class=3D"heading-bar-block" id=3D"hea=
+ding-bar-block-1510873241277"><tr><td><table border=3D"0" cellpad=
+ding=3D"0" cellspacing=3D"0" width=3D"600" style=3D"width: 600px;=
+"><tr><td style=3D"overflow: hidden; zoom: 1; font-size: 15px; fo=
+nt-family: Verdana, sans-serif; color: rgb(24, 26, 25);"><table b=
+order=3D"0" cellpadding=3D"0" cellspacing=3D"0" data-wfmutant=3D"=
+box div"><tr><td><table border=3D"0" cellpadding=3D"0" cellspacin=
+g=3D"0" width=3D"600" style=3D"width: 600px;"><tr><td style=3D"fo=
+nt-size: 15px; font-family: Verdana, sans-serif; color: rgb(24, 2=
+6, 25);"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" =
+data-wfmutant=3D"wrap h1.heading-bar"><tr><td style=3D"padding: 0=
+px 0px 10px;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D=
+"0" width=3D"600" style=3D"background-color: rgb(255, 255, 255); =
+width: 600px;"><tr><td style=3D"padding: 0px;"><h1 class=3D"headi=
+ng-bar" align=3D"left" style=3D"text-align: left; font-size: 22px=
+; background-image: none; background-attachment: scroll; backgrou=
+nd-origin: padding-box; background-clip: border-box; background-s=
+ize: auto; color: rgb(24, 26, 25); font-family: Verdana, sans-ser=
+if; font-style: normal; font-weight: bold; background-position: 0=
+% 0%;">About<i style=3D"font-size: 22px; font-family: Verdana, sa=
+ns-serif; color: rgb(24, 26, 25); line-height: 22px; font-style: =
+italic;"> Aida</i></h1></td></tr></table></td></tr></table></td><=
+/tr></table></td></tr></table></td></tr></table></td></tr></table=
+><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" data-wfm=
+utant=3D"box div.text-block" align=3D"center" class=3D"text-block=
+" id=3D"text-block-1464114199703" style=3D"width: 100%;"><tr><td>=
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"=
+600" style=3D"background-color: rgb(255, 255, 255); width: 600px;=
+"><tr><td style=3D"overflow: hidden; zoom: 1; font-size: 15px; fo=
+nt-family: Verdana, sans-serif; color: rgb(24, 26, 25);"><table b=
+order=3D"0" cellpadding=3D"0" cellspacing=3D"0" data-wfmutant=3D"=
+box div"><tr><td><table border=3D"0" cellpadding=3D"0" cellspacin=
+g=3D"0" width=3D"600" style=3D"width: 600px;"><tr><td style=3D"fo=
+nt-size: 15px; font-family: Verdana, sans-serif; color: rgb(24, 2=
+6, 25);"><p align=3D"left" class=3D"" style=3D"text-align: left; =
+margin: 0px 0px 20px; font-size: 15px; line-height: 22px; font-fa=
+mily: Verdana, sans-serif; color: rgb(24, 26, 25);">A profoundly =
+personal love story told on a grand scale, <i style=3D"font-size:=
+ 15px; font-family: Verdana, sans-serif; color: rgb(24, 26, 25); =
+line-height: 22px; font-style: italic;">Aida</i> showcases Verdi'=
+s power to translate human emotions into magnificent music. The h=
+igh-stakes love triangle between a captured princess, a conflicte=
+d military commander, and the King=E2=80=99s formidable daughter =
+unfolds amid glorious spectacle and rousing choruses=E2=80=94incl=
+uding the famous Triumphal March.</p><p align=3D"left" style=3D"m=
+argin: 0px 0px 20px; text-align: left; font-size: 15px; line-heig=
+ht: 22px; font-family: Verdana, sans-serif; color: rgb(24, 26, 25=
+);"></p></td></tr></table></td></tr></table></td></tr></table></t=
+d></tr></table><table border=3D"0" cellpadding=3D"0" cellspacing=3D=
+"0" data-wfmutant=3D"box div.text-block" align=3D"center" class=3D=
+"text-block" style=3D"width: 100%;"><tr><td><table border=3D"0" c=
+ellpadding=3D"0" cellspacing=3D"0" width=3D"600" style=3D"backgro=
+und-color: rgb(255, 255, 255); width: 600px;"><tr><td style=3D"ov=
+erflow: hidden; zoom: 1; font-size: 15px; font-family: Verdana, s=
+ans-serif; color: rgb(24, 26, 25);"><table border=3D"0" cellpaddi=
+ng=3D"0" cellspacing=3D"0" data-wfmutant=3D"box div"><tr><td><tab=
+le border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"600"=
+ style=3D"width: 600px;"><tr><td style=3D"font-size: 15px; font-f=
+amily: Verdana, sans-serif; color: rgb(24, 26, 25);"><p align=3D"=
+left" class=3D"" style=3D"margin: 0px 0px 20px; text-align: left;=
+ font-size: 15px; line-height: 22px; font-family: Verdana, sans-s=
+erif; color: rgb(24, 26, 25);">Your login is pam@magicalstrings.c=
+om.</p></td></tr></table></td></tr></table></td></tr></table></td=
+></tr></table><table border=3D"0" cellpadding=3D"0" cellspacing=3D=
+"0" data-wfmutant=3D"box div.social-links-block" class=3D"social-=
+links-block" id=3D"social-links-block-1446679820075"><tr><td><tab=
+le border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"600"=
+ style=3D"background-color: rgb(35, 206, 200); width: 600px;"><tr=
+><td style=3D"padding-top: 5px; padding-bottom: 5px; overflow: hi=
+dden; zoom: 1; font-size: 15px; font-family: Verdana, sans-serif;=
+ color: rgb(24, 26, 25);"><table border=3D"0" cellpadding=3D"0" c=
+ellspacing=3D"0" data-wfmutant=3D"box div.social-links" class=3D"=
+social-links"><tr><td><table border=3D"0" cellpadding=3D"0" cells=
+pacing=3D"0" width=3D"600" align=3D"center" style=3D"width: 600px=
+;"><tr><td style=3D"padding-top: 20px; text-align: center; font-s=
+ize: 15px; font-family: Verdana, sans-serif; color: rgb(24, 26, 2=
+5);"><p class=3D"" align=3D"center" style=3D"margin: 0px 0px 20px=
+; text-align: center; font-size: 15px; line-height: 22px; font-fa=
+mily: Verdana, sans-serif; color: rgb(24, 26, 25);"><b class=3D""=
+ style=3D"font-size: 15px; font-family: Verdana, sans-serif; colo=
+r: rgb(24, 26, 25); line-height: 22px; font-weight: bold;"><a hre=
+f=3D"http://tracking.wordfly.com/click?sid=3DMTM0XzI4ODk5XzM1NzYz=
+XzcxMjM&l=3D4059553e-64d4-e711-bcb0-e61f134a8c87&utm_source=3Dwor=
+dfly&utm_medium=3Demail&utm_campaign=3D20171206HolidaySaleday3-Ai=
+da&utm_content=3Dversion_A" class=3D"" target=3D"_blank" style=3D=
+"color: rgb(24, 26, 25); font-size: 15px; font-family: Verdana, s=
+ans-serif; line-height: 22px; text-decoration: none; text-align: =
+center; text-transform: uppercase; font-weight: bold;">Seattleope=
+ra.org</a></b></p><p class=3D"" align=3D"center" style=3D"margin:=
+ 0px 0px 20px; text-align: center; font-size: 15px; line-height: =
+22px; font-family: Verdana, sans-serif; color: rgb(24, 26, 25);">=
+<a href=3D"http://tracking.wordfly.com/click?sid=3DMTM0XzI4ODk5Xz=
+M1NzYzXzcxMjM&l=3D4159553e-64d4-e711-bcb0-e61f134a8c87&utm_source=
+=3Dwordfly&utm_medium=3Demail&utm_campaign=3D20171206HolidaySaled=
+ay3-Aida&utm_content=3Dversion_A" target=3D"_blank" style=3D"font=
+-size: 12px; color: rgb(24, 26, 25); font-family: Verdana, sans-s=
+erif; line-height: 22px; text-decoration: none; text-align: cente=
+r; text-transform: uppercase; font-weight: bold;" class=3D""><img=
+ src=3D"http://media.wordfly.com/seattleopera/emails/marketing-st=
+arter/facebook-yellow.png" alt=3D"Like Seattle Opera on Facebook"=
+ width=3D"30" height=3D"30" class=3D"icon" style=3D"border: 0px n=
+one rgb(92, 94, 93); border-image-source: none; border-image-slic=
+e: 100%; border-image-width: 1; border-image-outset: 0px; border-=
+image-repeat: stretch; outline: rgb(92, 94, 93) none 0px; text-de=
+coration: none; font-size: 12px; width: 30px; height: 30px; margi=
+n: 5px; font-family: Verdana, sans-serif; color: rgb(92, 94, 93);=
+ text-align: left;" /></a>&nbsp;&nbsp;&nbsp;<a href=3D"http://tra=
+cking.wordfly.com/click?sid=3DMTM0XzI4ODk5XzM1NzYzXzcxMjM&l=3D425=
+9553e-64d4-e711-bcb0-e61f134a8c87&utm_source=3Dwordfly&utm_medium=
+=3Demail&utm_campaign=3D20171206HolidaySaleday3-Aida&utm_content=3D=
+version_A" target=3D"_blank" style=3D"font-size: 12px; color: rgb=
+(24, 26, 25); font-family: Verdana, sans-serif; line-height: 22px=
+; text-decoration: none; text-align: center; text-transform: uppe=
+rcase; font-weight: bold;" class=3D""><img src=3D"http://media.wo=
+rdfly.com/seattleopera/emails/marketing-starter/twitter-yellow.pn=
+g" alt=3D"Follow Seattle Opera Twitter" width=3D"30" height=3D"30=
+" class=3D"icon" style=3D"border: 0px none rgb(92, 94, 93); borde=
+r-image-source: none; border-image-slice: 100%; border-image-widt=
+h: 1; border-image-outset: 0px; border-image-repeat: stretch; out=
+line: rgb(92, 94, 93) none 0px; text-decoration: none; font-size:=
+ 12px; width: 30px; height: 30px; margin: 5px; font-family: Verda=
+na, sans-serif; color: rgb(92, 94, 93); text-align: left;" /></a>=
+&nbsp;&nbsp;&nbsp;<a href=3D"http://tracking.wordfly.com/click?si=
+d=3DMTM0XzI4ODk5XzM1NzYzXzcxMjM&l=3D4359553e-64d4-e711-bcb0-e61f1=
+34a8c87&utm_source=3Dwordfly&utm_medium=3Demail&utm_campaign=3D20=
+171206HolidaySaleday3-Aida&utm_content=3Dversion_A" target=3D"_bl=
+ank" style=3D"font-size: 12px; color: rgb(24, 26, 25); font-famil=
+y: Verdana, sans-serif; line-height: 22px; text-decoration: none;=
+ text-align: center; text-transform: uppercase; font-weight: bold=
+;" class=3D""><img src=3D"http://media.wordfly.com/seattleopera/e=
+mails/marketing-starter/instagram.png" alt=3D"Follow Seattle Oper=
+a on Instagram" width=3D"30" height=3D"30" class=3D"icon" style=3D=
+"border: 0px none rgb(92, 94, 93); border-image-source: none; bor=
+der-image-slice: 100%; border-image-width: 1; border-image-outset=
+: 0px; border-image-repeat: stretch; outline: rgb(92, 94, 93) non=
+e 0px; text-decoration: none; font-size: 12px; width: 30px; heigh=
+t: 30px; margin: 5px; font-family: Verdana, sans-serif; color: rg=
+b(92, 94, 93); text-align: left;" /></a>&nbsp;&nbsp;&nbsp;<a href=
+=3D"http://tracking.wordfly.com/click?sid=3DMTM0XzI4ODk5XzM1NzYzX=
+zcxMjM&l=3D4459553e-64d4-e711-bcb0-e61f134a8c87&utm_source=3Dword=
+fly&utm_medium=3Demail&utm_campaign=3D20171206HolidaySaleday3-Aid=
+a&utm_content=3Dversion_A" target=3D"_blank" style=3D"font-size: =
+12px; color: rgb(24, 26, 25); font-family: Verdana, sans-serif; l=
+ine-height: 22px; text-decoration: none; text-align: center; text=
+-transform: uppercase; font-weight: bold;" class=3D""><img src=3D=
+"http://media.wordfly.com/seattleopera/emails/marketing-starter/y=
+outube-yellow.png" alt=3D"Follow Seattle Opera on YouTube" width=3D=
+"30" height=3D"30" class=3D"icon" style=3D"border: 0px none rgb(9=
+2, 94, 93); border-image-source: none; border-image-slice: 100%; =
+border-image-width: 1; border-image-outset: 0px; border-image-rep=
+eat: stretch; outline: rgb(92, 94, 93) none 0px; text-decoration:=
+ none; font-size: 12px; width: 30px; height: 30px; margin: 5px; f=
+ont-family: Verdana, sans-serif; color: rgb(92, 94, 93); text-ali=
+gn: left;" /></a>&nbsp;&nbsp;&nbsp;<a href=3D"http://tracking.wor=
+dfly.com/click?sid=3DMTM0XzI4ODk5XzM1NzYzXzcxMjM&l=3D4559553e-64d=
+4-e711-bcb0-e61f134a8c87&utm_source=3Dwordfly&utm_medium=3Demail&=
+utm_campaign=3D20171206HolidaySaleday3-Aida&utm_content=3Dversion=
+_A" target=3D"_blank" style=3D"font-size: 12px; color: rgb(24, 26=
+, 25); font-family: Verdana, sans-serif; line-height: 22px; text-=
+decoration: none; text-align: center; text-transform: uppercase; =
+font-weight: bold;" class=3D""><img src=3D"http://media.wordfly.c=
+om/seattleopera/emails/marketing-starter/blogger-yellow.png" alt=3D=
+"Read the Seattle Opera Blog" width=3D"30" height=3D"30" class=3D=
+"icon" style=3D"border: 0px none rgb(92, 94, 93); border-image-so=
+urce: none; border-image-slice: 100%; border-image-width: 1; bord=
+er-image-outset: 0px; border-image-repeat: stretch; outline: rgb(=
+92, 94, 93) none 0px; text-decoration: none; font-size: 12px; wid=
+th: 30px; height: 30px; margin: 5px; font-family: Verdana, sans-s=
+erif; color: rgb(92, 94, 93); text-align: left;" /></a>&nbsp;&nbs=
+p;&nbsp;<a href=3D"http://tracking.wordfly.com/click?sid=3DMTM0Xz=
+I4ODk5XzM1NzYzXzcxMjM&l=3D4659553e-64d4-e711-bcb0-e61f134a8c87&ut=
+m_source=3Dwordfly&utm_medium=3Demail&utm_campaign=3D20171206Holi=
+daySaleday3-Aida&utm_content=3Dversion_A" target=3D"_blank" style=
+=3D"font-size: 12px; color: rgb(24, 26, 25); font-family: Verdana=
+, sans-serif; line-height: 22px; text-decoration: none; text-alig=
+n: center; text-transform: uppercase; font-weight: bold;" class=3D=
+""><img src=3D"http://media.wordfly.com/seattleopera/emails/marke=
+ting-starter/soundcloud-yellow.png" alt=3D"Listen to Seattle Oper=
+a on Soundcloud" width=3D"30" height=3D"30" class=3D"icon" style=3D=
+"border: 0px none rgb(92, 94, 93); border-image-source: none; bor=
+der-image-slice: 100%; border-image-width: 1; border-image-outset=
+: 0px; border-image-repeat: stretch; outline: rgb(92, 94, 93) non=
+e 0px; text-decoration: none; font-size: 12px; width: 30px; heigh=
+t: 30px; margin: 5px; font-family: Verdana, sans-serif; color: rg=
+b(92, 94, 93); text-align: left;" /></a></p></td></tr></table></t=
+d></tr></table></td></tr></table></td></tr></table><table border=3D=
+"0" cellpadding=3D"0" cellspacing=3D"0" data-wfmutant=3D"box div.=
+footer-block" class=3D"footer-block" id=3D"footer-block-144668093=
+8407"><tr><td><table border=3D"0" cellpadding=3D"0" cellspacing=3D=
+"0" width=3D"600" style=3D"width: 600px;"><tr><td style=3D"paddin=
+g-top: 15px; overflow: hidden; zoom: 1; font-size: 15px; font-fam=
+ily: Verdana, sans-serif; color: rgb(24, 26, 25);"><table border=3D=
+"0" cellpadding=3D"0" cellspacing=3D"0" data-wfmutant=3D"box div"=
+ class=3D""><tr><td><table border=3D"0" cellpadding=3D"0" cellspa=
+cing=3D"0" width=3D"600" style=3D"width: 600px;"><tr><td style=3D=
+"font-size: 15px; font-family: Verdana, sans-serif; color: rgb(24=
+, 26, 25);"><p style=3D"text-align: left; margin: 0px 0px 10px; f=
+ont-size: 10px; line-height: 15px; font-family: Verdana, sans-ser=
+if; color: rgb(92, 94, 93);" align=3D"left" class=3D""><b class=3D=
+"" style=3D"font-size: 10px; font-family: Verdana, sans-serif; co=
+lor: rgb(92, 94, 93); line-height: 15px; font-weight: bold;">Your=
+ Account ID: </b>21100004</p><p style=3D"text-align: left; margin=
+: 0px 0px 10px; font-size: 10px; line-height: 15px; font-family: =
+Verdana, sans-serif; color: rgb(92, 94, 93);" align=3D"left" clas=
+s=3D""><b class=3D"" style=3D"font-size: 10px; font-family: Verda=
+na, sans-serif; color: rgb(92, 94, 93); line-height: 15px; font-w=
+eight: bold;">Audience Services: </b>9AM-5PM M-F at 206.389.7676<=
+/p><p style=3D"text-align: left; margin: 0px 0px 10px; font-size:=
+ 10px; line-height: 15px; font-family: Verdana, sans-serif; color=
+: rgb(92, 94, 93);" align=3D"left" class=3D""><b class=3D"" style=
+=3D"font-size: 10px; font-family: Verdana, sans-serif; color: rgb=
+(92, 94, 93); line-height: 15px; font-weight: bold;">Administrati=
+ve Offices:</b> 1020 John Street, Seattle, WA 98109<br style=3D"f=
+ont-size: 15px; font-family: Verdana, sans-serif; color: rgb(24, =
+26, 25);" /><b class=3D"" style=3D"font-size: 10px; font-family: =
+Verdana, sans-serif; color: rgb(92, 94, 93); line-height: 15px; f=
+ont-weight: bold;">Performances:</b> McCaw Hall, 321 Mercer Stree=
+t, Seattle, WA 98109</p><p style=3D"text-align: left; margin: 0px=
+ 0px 10px; font-size: 10px; line-height: 15px; font-family: Verda=
+na, sans-serif; color: rgb(92, 94, 93);" align=3D"left" class=3D"=
+"><i style=3D"font-size: 10px; font-family: Verdana, sans-serif; =
+color: rgb(92, 94, 93); line-height: 15px; font-style: italic;">A=
+ida</i> Production Sponsors:<br style=3D"font-size: 15px; font-fa=
+mily: Verdana, sans-serif; color: rgb(24, 26, 25);" /><b style=3D=
+"font-size: 10px; font-family: Verdana, sans-serif; color: rgb(92=
+, 94, 93); line-height: 15px; font-weight: bold;">Lenore M. Hanau=
+er&nbsp; &nbsp; &nbsp; &nbsp;<br style=3D"font-size: 15px; font-f=
+amily: Verdana, sans-serif; color: rgb(24, 26, 25);" />4Culture&n=
+bsp; &nbsp; &nbsp;&nbsp;</b></p><p style=3D"text-align: left; mar=
+gin: 0px 0px 10px; font-size: 10px; line-height: 15px; font-famil=
+y: Verdana, sans-serif; color: rgb(92, 94, 93);" align=3D"left">N=
+o promotion=0D=0Acode necessary; prices displayed online already =
+reflect this discount. $75=0D=0Aoffer valid only in the Orchestra=
+ Back (OB) section and select portions of the=0D=0AOrchestra (OR)=
+ section for the Wednesday, May 9, Wednesday, May 16, and Friday,=
+=0D=0AMay 18 performances of <i style=3D"font-size: 10px; font-fa=
+mily: Verdana, sans-serif; color: rgb(92, 94, 93); line-height: 1=
+5px; font-style: italic;">Aida</i>. 20% off=0D=0Aoffer valid for =
+any other section or performance of <i style=3D"font-size: 10px; =
+font-family: Verdana, sans-serif; color: rgb(92, 94, 93); line-he=
+ight: 15px; font-style: italic;">Aida,</i>&nbsp;except Dress Circ=
+le Preferred, $25 seating areas, and $15 under-18 tickets. Discou=
+nt=0D=0Alisted is approximate as it is calculated prior to the ad=
+dition of facility fee=0D=0Aand is rounded up to the nearest whol=
+e dollar. May not be combined with any=0D=0Aother discounts. Not =
+valid with any other titles or on previously purchased tickets.=0D=0A=
+Subject to availability. Offer valid only on December 6, 2017, 9 =
+AM to 11:59 PM=0D=0APacific Time.</p><p style=3D"text-align: left=
+; margin: 0px 0px 10px; font-size: 10px; line-height: 15px; font-=
+family: Verdana, sans-serif; color: rgb(92, 94, 93);" align=3D"le=
+ft">Operas, artists, schedule, and prices are subject to change.&=
+nbsp;</p><p class=3D"fine-print" align=3D"left" style=3D"text-ali=
+gn: left; margin: 0px 0px 10px; font-size: 10px; color: rgb(92, 9=
+4, 93); line-height: 15px; font-family: Verdana, sans-serif;"><b =
+class=3D"" style=3D"font-size: 10px; font-family: Verdana, sans-s=
+erif; color: rgb(92, 94, 93); line-height: 15px; font-weight: bol=
+d;"><a href=3D"http://tracking.wordfly.com/unsubscribe?sid=3DMTM0=
+XzI4ODk5XzM1NzYzXzcxMjM" target=3D"_blank" class=3D"" style=3D"co=
+lor: rgb(35, 206, 200); font-size: 10px; font-family: Verdana, sa=
+ns-serif; line-height: 15px; text-decoration: none; text-align: l=
+eft;">Unsubscribe</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href=3D"http://tr=
+acking.wordfly.com/forward?sid=3DMTM0XzI4ODk5XzM1NzYzXzcxMjM&l=3D=
+4859553e-64d4-e711-bcb0-e61f134a8c87&utm_source=3Dwordfly&utm_med=
+ium=3Demail&utm_campaign=3D20171206HolidaySaleday3-Aida&utm_conte=
+nt=3Dversion_A" target=3D"_blank" class=3D"" style=3D"color: rgb(=
+35, 206, 200); font-size: 10px; font-family: Verdana, sans-serif;=
+ line-height: 15px; text-decoration: none; text-align: left;">For=
+ward</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href=3D"http://tracking.wordfl=
+y.com/view?sid=3DMTM0XzI4ODk5XzM1NzYzXzcxMjM&l=3D4959553e-64d4-e7=
+11-bcb0-e61f134a8c87&utm_source=3Dwordfly&utm_medium=3Demail&utm_=
+campaign=3D20171206HolidaySaleday3-Aida&utm_content=3Dversion_A" =
+target=3D"_blank" class=3D"" style=3D"color: rgb(35, 206, 200); f=
+ont-size: 10px; font-family: Verdana, sans-serif; line-height: 15=
+px; text-decoration: none; text-align: left;">View in browser</a>=
+</b></p></td></tr></table></td></tr></table></td></tr></table></t=
+d></tr></table><img src=3D"http://tracking.wordfly.com//open?sid=3D=
+MTM0XzI4ODk5XzM1NzYzXzcxMjM" width=3D"1" height=3D"1" border=3D"0=
+" style=3D"position:absolute; left: -10000px;" />=0D=0A</td></tr>=
+</table></td></tr></table><!--[if !mso]><!--></style><!--<![endif=
+]-->=0D=0A=0D=0A	=0D=0A=0D=0A</body></html>
+----boundary_1651905_8eb634ce-49c5-4e1c-a8f2-2222f9efc865--
+
+

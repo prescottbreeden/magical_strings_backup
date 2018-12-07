@@ -1,0 +1,94 @@
+Return-path: <JeniferHolmes@automatizo.com.br>
+Envelope-to: pam@magicalstrings.com
+Delivery-date: Sun, 14 Aug 2016 00:16:10 -0700
+Received: from resellergws41.admincontrolpanel.com ([189.126.126.41]:38199 helo=admincontrolpanel.com)
+	by biz164.inmotionhosting.com with esmtp (Exim 4.86_1)
+	(envelope-from <JeniferHolmes@automatizo.com.br>)
+	id 1bYpeQ-0002dp-4n
+	for pam@magicalstrings.com; Sun, 14 Aug 2016 00:16:10 -0700
+x-locaweb-id: SZgXDePfNes7_9sNJjMdwi1THlDxyH73mwUicBage49mBNcpGaFry3DjSgXYmbERyWfYIFECKTge1VmBV8bBZhALxp9UbtEszftYwtECdSwc-sQIPIyFs-dGaKyJh-qvkNiB5DjfqP4K9GmpkZr2eVIfawQPaPwuBLw3LxyX4lobbAtD9avkUHepFxCEx75eL4cabVo3TTuejvJOI-rFsA== NGE2NTZlNjk2NjY1NzI0ODZmNmM2ZDY1NzM0MDYxNzU3NDZmNmQ2MTc0Njk3YTZmMmU2MzZmNmQyZTYyNzI=
+x-locaweb-id: SZgXDePfNes7_9sNJjMdwi1THlDxyH73mwUicBage49mBNcpGaFry3DjSgXYmbERyWfYIFECKTge1VmBV8bBZhALxp9UbtEszftYwtECdSwc-sQIPIyFs-dGaKyJh-qvkNiB5DjfqP4K9GmpkZr2eVIfawQPaPwuBLw3LxyX4lobbAtD9avkUHepFxCEx75eL4cabVo3TTuejvJOI-rFsA== NGE2NTZlNjk2NjY1NzI0ODZmNmM2ZDY1NzM0MDYxNzU3NDZmNmQ2MTc0Njk3YTZmMmU2MzZmNmQyZTYyNzI=
+x-locaweb-id: SZgXDePfNes7_9sNJjMdwi1THlDxyH73mwUicBage49mBNcpGaFry3DjSgXYmbERyWfYIFECKTge1VmBV8bBZhALxp9UbtEszftYwtECdSwc-sQIPIyFs-dGaKyJh-qvkNiB5DjfqP4K9GmpkZr2eVIfawQPaPwuBLw3LxyX4lobbAtD9avkUHepFxCEx75eL4cabVo3TTuejvJOI-rFsA== NGE2NTZlNjk2NjY1NzI0ODZmNmM2ZDY1NzM0MDYxNzU3NDZmNmQ2MTc0Njk3YTZmMmU2MzZmNmQyZTYyNzI=
+x-locaweb-id: SZgXDePfNes7_9sNJjMdwi1THlDxyH73mwUicBage49mBNcpGaFry3DjSgXYmbERyWfYIFECKTge1VmBV8bBZhALxp9UbtEszftYwtECdSwc-sQIPIyFs-dGaKyJh-qvkNiB5DjfqP4K9GmpkZr2eVIfawQPaPwuBLw3LxyX4lobbAtD9avkUHepFxCEx75eL4cabVo3TTuejvJOI-rFsA== NGE2NTZlNjk2NjY1NzI0ODZmNmM2ZDY1NzM0MDYxNzU3NDZmNmQ2MTc0Njk3YTZmMmU2MzZmNmQyZTYyNzI=
+x-locaweb-id: SZgXDePfNes7_9sNJjMdwi1THlDxyH73mwUicBage49mBNcpGaFry3DjSgXYmbERyWfYIFECKTge1VmBV8bBZhALxp9UbtEszftYwtECdSwc-sQIPIyFs-dGaKyJh-qvkNiB5DjfqP4K9GmpkZr2eVIfawQPaPwuBLw3LxyX4lobbAtD9avkUHepFxCEx75eL4cabVo3TTuejvJOI-rFsA== NGE2NTZlNjk2NjY1NzI0ODZmNmM2ZDY1NzM0MDYxNzU3NDZmNmQ2MTc0Njk3YTZmMmU2MzZmNmQyZTYyNzI=
+x-locaweb-id: SZgXDePfNes7_9sNJjMdwi1THlDxyH73mwUicBage49mBNcpGaFry3DjSgXYmbERyWfYIFECKTge1VmBV8bBZhALxp9UbtEszftYwtECdSwc-sQIPIyFs-dGaKyJh-qvkNiB5DjfqP4K9GmpkZr2eVIfawQPaPwuBLw3LxyX4lobbAtD9avkUHepFxCEx75eL4cabVo3TTuejvJOI-rFsA== NGE2NTZlNjk2NjY1NzI0ODZmNmM2ZDY1NzM0MDYxNzU3NDZmNmQ2MTc0Njk3YTZmMmU2MzZmNmQyZTYyNzI=
+x-locaweb-id: SZgXDePfNes7_9sNJjMdwi1THlDxyH73mwUicBage49mBNcpGaFry3DjSgXYmbERyWfYIFECKTge1VmBV8bBZhALxp9UbtEszftYwtECdSwc-sQIPIyFs-dGaKyJh-qvkNiB5DjfqP4K9GmpkZr2eVIfawQPaPwuBLw3LxyX4lobbAtD9avkUHepFxCEx75eL4cabVo3TTuejvJOI-rFsA== NGE2NTZlNjk2NjY1NzI0ODZmNmM2ZDY1NzM0MDYxNzU3NDZmNmQ2MTc0Njk3YTZmMmU2MzZmNmQyZTYyNzI=
+x-locaweb-id: SZgXDePfNes7_9sNJjMdwi1THlDxyH73mwUicBage49mBNcpGaFry3DjSgXYmbERyWfYIFECKTge1VmBV8bBZhALxp9UbtEszftYwtECdSwc-sQIPIyFs-dGaKyJh-qvkNiB5DjfqP4K9GmpkZr2eVIfawQPaPwuBLw3LxyX4lobbAtD9avkUHepFxCEx75eL4cabVo3TTuejvJOI-rFsA== NGE2NTZlNjk2NjY1NzI0ODZmNmM2ZDY1NzM0MDYxNzU3NDZmNmQ2MTc0Njk3YTZmMmU2MzZmNmQyZTYyNzI=
+x-locaweb-id: SZgXDePfNes7_9sNJjMdwi1THlDxyH73mwUicBage49mBNcpGaFry3DjSgXYmbERyWfYIFECKTge1VmBV8bBZhALxp9UbtEszftYwtECdSwc-sQIPIyFs-dGaKyJh-qvkNiB5DjfqP4K9GmpkZr2eVIfawQPaPwuBLw3LxyX4lobbAtD9avkUHepFxCEx75eL4cabVo3TTuejvJOI-rFsA== NGE2NTZlNjk2NjY1NzI0ODZmNmM2ZDY1NzM0MDYxNzU3NDZmNmQ2MTc0Njk3YTZmMmU2MzZmNmQyZTYyNzI=
+x-locaweb-id: SZgXDePfNes7_9sNJjMdwi1THlDxyH73mwUicBage49mBNcpGaFry3DjSgXYmbERyWfYIFECKTge1VmBV8bBZhALxp9UbtEszftYwtECdSwc-sQIPIyFs-dGaKyJh-qvkNiB5DjfqP4K9GmpkZr2eVIfawQPaPwuBLw3LxyX4lobbAtD9avkUHepFxCEx75eL4cabVo3TTuejvJOI-rFsA== NGE2NTZlNjk2NjY1NzI0ODZmNmM2ZDY1NzM0MDYxNzU3NDZmNmQ2MTc0Njk3YTZmMmU2MzZmNmQyZTYyNzI=
+x-locaweb-id: SZgXDePfNes7_9sNJjMdwi1THlDxyH73mwUicBage49mBNcpGaFry3DjSgXYmbERyWfYIFECKTge1VmBV8bBZhALxp9UbtEszftYwtECdSwc-sQIPIyFs-dGaKyJh-qvkNiB5DjfqP4K9GmpkZr2eVIfawQPaPwuBLw3LxyX4lobbAtD9avkUHepFxCEx75eL4cabVo3TTuejvJOI-rFsA== NGE2NTZlNjk2NjY1NzI0ODZmNmM2ZDY1NzM0MDYxNzU3NDZmNmQ2MTc0Njk3YTZmMmU2MzZmNmQyZTYyNzI=
+x-locaweb-id: SZgXDePfNes7_9sNJjMdwi1THlDxyH73mwUicBage49mBNcpGaFry3DjSgXYmbERyWfYIFECKTge1VmBV8bBZhALxp9UbtEszftYwtECdSwc-sQIPIyFs-dGaKyJh-qvkNiB5DjfqP4K9GmpkZr2eVIfawQPaPwuBLw3LxyX4lobbAtD9avkUHepFxCEx75eL4cabVo3TTuejvJOI-rFsA== NGE2NTZlNjk2NjY1NzI0ODZmNmM2ZDY1NzM0MDYxNzU3NDZmNmQ2MTc0Njk3YTZmMmU2MzZmNmQyZTYyNzI=
+x-locaweb-id: SZgXDePfNes7_9sNJjMdwi1THlDxyH73mwUicBage49mBNcpGaFry3DjSgXYmbERyWfYIFECKTge1VmBV8bBZhALxp9UbtEszftYwtECdSwc-sQIPIyFs-dGaKyJh-qvkNiB5DjfqP4K9GmpkZr2eVIfawQPaPwuBLw3LxyX4lobbAtD9avkUHepFxCEx75eL4cabVo3TTuejvJOI-rFsA== NGE2NTZlNjk2NjY1NzI0ODZmNmM2ZDY1NzM0MDYxNzU3NDZmNmQ2MTc0Njk3YTZmMmU2MzZmNmQyZTYyNzI=
+x-locaweb-id: SZgXDePfNes7_9sNJjMdwi1THlDxyH73mwUicBage49mBNcpGaFry3DjSgXYmbERyWfYIFECKTge1VmBV8bBZhALxp9UbtEszftYwtECdSwc-sQIPIyFs-dGaKyJh-qvkNiB5DjfqP4K9GmpkZr2eVIfawQPaPwuBLw3LxyX4lobbAtD9avkUHepFxCEx75eL4cabVo3TTuejvJOI-rFsA== NGE2NTZlNjk2NjY1NzI0ODZmNmM2ZDY1NzM0MDYxNzU3NDZmNmQ2MTc0Njk3YTZmMmU2MzZmNmQyZTYyNzI=
+x-locaweb-id: SZgXDePfNes7_9sNJjMdwi1THlDxyH73mwUicBage49mBNcpGaFry3DjSgXYmbERyWfYIFECKTge1VmBV8bBZhALxp9UbtEszftYwtECdSwc-sQIPIyFs-dGaKyJh-qvkNiB5DjfqP4K9GmpkZr2eVIfawQPaPwuBLw3LxyX4lobbAtD9avkUHepFxCEx75eL4cabVo3TTuejvJOI-rFsA== NGE2NTZlNjk2NjY1NzI0ODZmNmM2ZDY1NzM0MDYxNzU3NDZmNmQ2MTc0Njk3YTZmMmU2MzZmNmQyZTYyNzI=
+x-locaweb-id: SZgXDePfNes7_9sNJjMdwi1THlDxyH73mwUicBage49mBNcpGaFry3DjSgXYmbERyWfYIFECKTge1VmBV8bBZhALxp9UbtEszftYwtECdSwc-sQIPIyFs-dGaKyJh-qvkNiB5DjfqP4K9GmpkZr2eVIfawQPaPwuBLw3LxyX4lobbAtD9avkUHepFxCEx75eL4cabVo3TTuejvJOI-rFsA== NGE2NTZlNjk2NjY1NzI0ODZmNmM2ZDY1NzM0MDYxNzU3NDZmNmQ2MTc0Njk3YTZmMmU2MzZmNmQyZTYyNzI=
+x-locaweb-id: SZgXDePfNes7_9sNJjMdwi1THlDxyH73mwUicBage49mBNcpGaFry3DjSgXYmbERyWfYIFECKTge1VmBV8bBZhALxp9UbtEszftYwtECdSwc-sQIPIyFs-dGaKyJh-qvkNiB5DjfqP4K9GmpkZr2eVIfawQPaPwuBLw3LxyX4lobbAtD9avkUHepFxCEx75eL4cabVo3TTuejvJOI-rFsA== NGE2NTZlNjk2NjY1NzI0ODZmNmM2ZDY1NzM0MDYxNzU3NDZmNmQ2MTc0Njk3YTZmMmU2MzZmNmQyZTYyNzI=
+x-locaweb-id: SZgXDePfNes7_9sNJjMdwi1THlDxyH73mwUicBage49mBNcpGaFry3DjSgXYmbERyWfYIFECKTge1VmBV8bBZhALxp9UbtEszftYwtECdSwc-sQIPIyFs-dGaKyJh-qvkNiB5DjfqP4K9GmpkZr2eVIfawQPaPwuBLw3LxyX4lobbAtD9avkUHepFxCEx75eL4cabVo3TTuejvJOI-rFsA== NGE2NTZlNjk2NjY1NzI0ODZmNmM2ZDY1NzM0MDYxNzU3NDZmNmQ2MTc0Njk3YTZmMmU2MzZmNmQyZTYyNzI=
+x-locaweb-id: SZgXDePfNes7_9sNJjMdwi1THlDxyH73mwUicBage49mBNcpGaFry3DjSgXYmbERyWfYIFECKTge1VmBV8bBZhALxp9UbtEszftYwtECdSwc-sQIPIyFs-dGaKyJh-qvkNiB5DjfqP4K9GmpkZr2eVIfawQPaPwuBLw3LxyX4lobbAtD9avkUHepFxCEx75eL4cabVo3TTuejvJOI-rFsA== NGE2NTZlNjk2NjY1NzI0ODZmNmM2ZDY1NzM0MDYxNzU3NDZmNmQ2MTc0Njk3YTZmMmU2MzZmNmQyZTYyNzI=
+x-locaweb-id: SZgXDePfNes7_9sNJjMdwi1THlDxyH73mwUicBage49mBNcpGaFry3DjSgXYmbERyWfYIFECKTge1VmBV8bBZhALxp9UbtEszftYwtECdSwc-sQIPIyFs-dGaKyJh-qvkNiB5DjfqP4K9GmpkZr2eVIfawQPaPwuBLw3LxyX4lobbAtD9avkUHepFxCEx75eL4cabVo3TTuejvJOI-rFsA== NGE2NTZlNjk2NjY1NzI0ODZmNmM2ZDY1NzM0MDYxNzU3NDZmNmQ2MTc0Njk3YTZmMmU2MzZmNmQyZTYyNzI=
+Received: from mail.domain.com (unknown [201.76.50.15])
+	by admincontrolpanel.com (Postfix) with ESMTP id 2AED8318062;
+	Sun, 14 Aug 2016 04:16:01 -0300 (BRT)
+Received: from automatizo.com.br ([131.117.246.127])
+        by mail.domain.com (Merak 8.3.15-1) with ASMTP id CPD16159;
+        Sun, 14 Aug 2016 04:15:59 -0300
+From: Jenifer Holmes <JeniferHolmes@automatizo.com.br>
+Content-Type: multipart/alternative; boundary="Apple-Mail-85ACA3CD-8FC5-4878-B937-74ACD06E5BA6"
+Subject: Re:
+Message-Id: <5BAE11A1-F267-4B66-BB20-14388D65DA8C@automatizo.com.br>
+Date: Sat, 14 Aug 2016 07:15:31 +0000
+To: <bestbuyinfo@emailinfo.bestbuy.com>, <janetljensen@gmail.com>, <janetljensen@thenewstribune.com>, <randyboss@comcast.net>, <music@mail.ilike.com>, <fulcrum@oliverdoriss.com>, <aggrenouille@msn.com>, <pam@magicalstrings.com>, <Johnny_b70@yahoo.com>, <marta.olson@comcast.net>, <password@sirius-radio.com>, <kafchat@aol.com>, <metalarts@centurytel.net>, <charlee@centurytel.net>, <cdegroot@harbornet.com.>, <tedfoshaug@comcast.net>, <cakelady111@gmail.com>, <jimvalley@earthlink.net>, <linda.knipher@gmail.com>, <j_hockett@comcast.net>
+Mime-Version: 1.0 (Mac OS X Mail 9.3 \(3124\))
+X-Mailer: Apple Mail (2.3124)
+X-Spam-Status: No, score=2.5
+X-Spam-Score: 25
+X-Spam-Bar: ++
+X-Ham-Report: Spam detection software, running on the system "biz164.inmotionhosting.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ 
+ Content preview:  This is my favorite one http://care.jmcollectors.com/Jenifer_Holmes
+    <http://care.jmcollectors.com/Jenifer_Holmes> Jenifer Holmes This is my favorite
+    one http://care.jmcollectors.com/Jenifer_Holmes [...] 
+ 
+ Content analysis details:   (2.5 points, 5.0 required)
+ 
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was blocked.
+                             See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: jmcollectors.com]
+ -0.0 RCVD_IN_DNSWL_NONE     RBL: Sender listed at http://www.dnswl.org/, no
+                             trust
+                             [189.126.126.41 listed in list.dnswl.org]
+ -0.0 SPF_HELO_PASS          SPF: HELO matches SPF record
+  1.5 SPF_SOFTFAIL           SPF: sender does not match SPF record (softfail)
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.8 BAYES_50               BODY: Bayes spam probability is 40 to 60%
+                             [score: 0.4765]
+  0.2 KAM_MANYTO             Email has more than one To Header
+X-Spam-Flag: NO
+
+
+--Apple-Mail-85ACA3CD-8FC5-4878-B937-74ACD06E5BA6
+Content-Transfer-Encoding: 7bit
+Content-Type: text/plain;
+	charset=us-ascii
+
+This is my favorite one http://care.jmcollectors.com/Jenifer_Holmes <http://care.jmcollectors.com/Jenifer_Holmes>
+
+
+
+
+Jenifer Holmes
+--Apple-Mail-85ACA3CD-8FC5-4878-B937-74ACD06E5BA6
+Content-Transfer-Encoding: 7bit
+Content-Type: text/html;
+	charset=us-ascii
+
+<html><head><meta http-equiv="Content-Type" content="text/html charset=us-ascii"></head><body style="word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;" class=""><div style="margin: 0px; line-height: normal;" class=""><i class="">This is my favorite one&nbsp;<a href="http://care.jmcollectors.com/Jenifer_Holmes" class="">http://care.jmcollectors.com/Jenifer_Holmes</a></i></div><div style="margin: 0px; line-height: normal;" class=""><i class=""><font face="Times" class=""><br class=""></font></i></div><div style="margin: 0px; line-height: normal;" class=""><i class=""><font face="Times" class=""><br class=""></font></i></div><div style="margin: 0px; line-height: normal;" class=""><i class=""><font face="Times" class=""><br class=""></font></i></div><div style="margin: 0px; line-height: normal;" class=""><i class=""><br class=""></i></div><div style="margin: 0px; line-height: normal;" class=""><i class="">Jenifer Holmes</i></div></body></html>
+--Apple-Mail-85ACA3CD-8FC5-4878-B937-74ACD06E5BA6--

@@ -1,0 +1,502 @@
+Return-Path: <mail.cyhhhewtatqpiwmtdrecf@gen.msgfocus.com>
+Delivered-To: pam@magicalstrings.com
+Received: from biz164.inmotionhosting.com
+	by biz164.inmotionhosting.com (Dovecot) with LMTP id EQu8GezXzFlmDQAAtEtsOg
+	for <pam@magicalstrings.com>; Thu, 28 Sep 2017 04:07:24 -0700
+Return-path: <mail.cyhhhewtatqpiwmtdrecf@gen.msgfocus.com>
+Envelope-to: pam@magicalstrings.com
+Delivery-date: Thu, 28 Sep 2017 04:07:24 -0700
+Received: from mail79-163.us1.msgfocus.com ([81.29.79.163]:52336)
+	by biz164.inmotionhosting.com with esmtps (TLSv1.2:ECDHE-RSA-AES256-GCM-SHA384:256)
+	(Exim 4.89)
+	(envelope-from <mail.cyhhhewtatqpiwmtdrecf@gen.msgfocus.com>)
+	id 1dxWeu-00010c-Fz
+	for pam@magicalstrings.com; Thu, 28 Sep 2017 04:07:24 -0700
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=msgf; d=msgfocus.com;
+ h=Subject:Message-ID:Reply-To:X-Mailer:To:From:Date:MIME-Version:Content-Type;
+ bh=PWemRPsNrKZeJcn1g+PhNKA8cO8=;
+ b=IrA738HpLTe5r50O1Ez2IW0fbwTkQn+wJbN93BD/KsxiCzreMpMAKa4imfq76ROxaYUTLZ6KZt6H
+   8tdXjnD13eifDkhPeHX4mC3zrjY6p3FNiXMwqRM16sKncG2tduqESdypaupP1BrN/mBSU/uk4i9e
+   uuf8STlp7hOPRXp86kQ=
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=msgf; d=msgfocus.com;
+ h=Subject:Message-ID:Reply-To:X-Mailer:To:From:Date:MIME-Version:Content-Type; i=IPNetworks@gen.msgfocus.com;
+ bh=PWemRPsNrKZeJcn1g+PhNKA8cO8=;
+ b=J7589VxM1VzlVypDTk87rdILuO+Un+6tSQ9Widsi7Y7jM/Omb6Th7w12f6ZlxvajI6odVZiOzjMi
+   pZKGErg/5T/uJZ7Xf79Hko+3sUxTnI94ipTOGJR3N624Oj8TzA/nEHfFsBOdNU7zIwuTC3h3ONff
+   g0TNYKKVCai+EnGTJFM=
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=msgf; d=msgfocus.com;
+ b=b6JFBaatozT4SI8ikEDlzeuk46qGCUJNm0UeOJfUXkGBIIViUoVCsDKvMWyaVp0c6VEaOxvXgqLg
+   Pdf2LlyNzSlkH9mvgfqSeRGFgV8YctLg+EchXeeSHxAtKEuGGY4R/3hXRz5suUtxCViLOcz3nDOm
+   TN+QRFm5kdgb+dE/4H8=;
+Subject: Last Chance: Webinar Invite - Register Today for Amazon Gift Card
+Message-ID: <kpIx2-6toTt5GUf-VyPO-1g6P5twHoLWZqwXiZ@gen.msgfocus.com>
+Reply-To: mail.cyhhhewtatqpiwmtdrecf@gen.msgfocus.com
+X-Mailer: MessageFocus v2 launch
+To: pam@magicalstrings.com
+From: IP Networks <IPNetworks@gen.msgfocus.com>
+Date: Thu, 28 Sep 2017 12:07:10 +0100
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="--14D4E2AB5AA0CB928EF720EAFB7EA"
+X-Spam-Status: No, score=4.6
+X-Spam-Score: 46
+X-Spam-Bar: ++++
+X-Ham-Report: Spam detection software, running on the system "biz164.inmotionhosting.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ 
+ Content preview:  LIVE WEBINAR Thursday, September 28, 2017 The Increasing Risk
+    of DDoS Attacks [...] 
+ 
+ Content analysis details:   (4.6 points, 5.0 required)
+ 
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was blocked.
+                             See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: msgfocus.com]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+ -0.0 RCVD_IN_MSPIKE_H4      RBL: Very Good reputation (+4)
+                             [81.29.79.163 listed in wl.mailspike.net]
+ -0.0 RP_MATCHES_RCVD        Envelope sender domain matches handover relay domain
+ -0.0 SPF_HELO_PASS          SPF: HELO matches SPF record
+  1.2 HTML_TAG_BALANCE_BODY  BODY: HTML has unbalanced "body" tags
+ -1.9 BAYES_00               BODY: Bayes spam probability is 0 to 1%
+                             [score: 0.0000]
+  0.7 MIME_HTML_ONLY         BODY: Message only has text/html MIME parts
+  0.8 MPART_ALT_DIFF         BODY: HTML and text parts are different
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily valid
+  0.4 HTML_MIME_NO_HTML_TAG  HTML-only message, but there is no HTML tag
+  0.0 MIME_HTML_ONLY_MULTI   Multipart message only has text/html MIME parts
+ -0.0 RCVD_IN_MSPIKE_WL      Mailspike good senders
+  3.5 KAM_WEBINAR            Spam for webinars
+X-Spam-Flag: NO
+
+
+----14D4E2AB5AA0CB928EF720EAFB7EA
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.=
+w3.org/TR/html4/loose.dtd">
+<head>=20
+<style type=3D"text/css">
+#outlook a {
+              padding: 0;
+          }
+          .body{
+              width: 100% !important;
+              -webkit-text-size-adjust: 100%;
+              -ms-text-size-adjust: 100%;
+              margin: 0;
+              padding: 0;
+          }
+          .ExternalClass {
+              width:100%;
+          }
+          .ExternalClass,
+          .ExternalClass p,
+          .ExternalClass span,
+          .ExternalClass font,
+          .ExternalClass td,
+          .ExternalClass div {
+              line-height: 100%;
+          }
+          img {
+              outline: none;
+              text-decoration: none;
+              -ms-interpolation-mode: bicubic;
+          }
+          a img {
+              border: none;
+          }
+          p {
+              margin: 1em 0;
+          }
+          table td {
+              border-collapse: collapse;
+          }
+          /* hide unsubscribe from forwards*/
+          blockquote .original-only, .WordSection1 .original-only {
+            display: none !important;
+          }
+        @media only screen and (max-width: 480px){
+            body, table, td, p, a, li, blockquote{-webkit-text-size-adjust:=
+none !important;} /* Prevent Webkit platforms from changing default text si=
+zes */
+            body{width:100% !important; min-width:100% !important;} /* Prev=
+ent iOS Mail from adding padding to the body */
+            #bodyCell{padding:10px !important;}
+            #templateContainer{
+                max-width:600px !important;
+                width:100% !important;
+            }
+            h1{
+                font-size:24px !important;
+                line-height:100% !important;
+            }
+            h2{
+                font-size:20px !important;
+                line-height:100% !important;
+            }
+            h3{
+                font-size:18px !important;
+                line-height:100% !important;
+            }
+            h4{
+                font-size:16px !important;
+                line-height:100% !important;
+            }
+            #templatePreheader{display:none !important;} /* Hide the templa=
+te preheader to save space */
+            #headerImage{
+                height:auto !important;
+                max-width:600px !important;
+                width:100% !important;
+            }
+            .headerContent{
+                font-size:20px !important;
+                line-height:125% !important;
+            }
+            .templateColumnContainer{display:block !important; width:100% !=
+important;}
+            .columnImage{
+                height:auto !important;
+                max-width:260px !important;
+                width:100% !important;
+            }
+            .leftColumnContent{
+                font-size:16px !important;
+                line-height:125% !important;
+            }
+            .rightColumnContent{
+                font-size:16px !important;
+                line-height:125% !important;
+            }
+            .footerContent{
+                font-size:14px !important;
+                line-height:115% !important;
+            }
+            .footerContent a{display:block !important;} /* Place footer soc=
+ial and utility links on their own lines, for easier access */
+        }
+</style>=20
+<title></title>=20
+</head>=20
+<body bgcolor=3D"#FAFAFA" style=3D"-webkit-text-size-adjust:100%; -ms-text-=
+size-adjust:100%; height:100% !important; width:100% !important; background=
+-color:#FAFAFA; margin:0; padding:0; ">=20
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" id=
+=3D"bodyTable" style=3D"-ms-text-size-adjust:100%; -webkit-text-size-adjust=
+:100%; background-color:#FAFAFA; border-collapse:collapse !important; heigh=
+t:100% !important; margin:0; mso-table-lspace:0pt; mso-table-rspace:0pt; pa=
+dding:0; width:100% !important; " width=3D"100%">=20
+=20
+<tr style=3D"">=20
+<td align=3D"center" id=3D"bodyCell" style=3D"-webkit-text-size-adjust:100%=
+; -ms-text-size-adjust:100%; mso-table-lspace:0pt; mso-table-rspace:0pt; he=
+ight:100% !important; width:100% !important; border-top-width:4px; border-t=
+op-color:#dddddd; border-top-style:solid; margin:0; padding:20px; " valign=
+=3D"top">
+<!-- BEGIN TEMPLATE // -->=20
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" id=3D"templateConta=
+iner" style=3D"-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; ms=
+o-table-lspace:0pt; mso-table-rspace:0pt; border-collapse:collapse !importa=
+nt; width:600px; border:1px solid #dddddd; ">=20
+=20
+<tr style=3D"">=20
+<td align=3D"center" style=3D"-webkit-text-size-adjust:100%; -ms-text-size-=
+adjust:100%; mso-table-lspace:0pt; mso-table-rspace:0pt; " valign=3D"top">
+<!-- BEGIN PREHEADER // -->=20
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" id=3D"templatePrehe=
+ader" style=3D"-ms-text-size-adjust:100%; -webkit-text-size-adjust:100%; ba=
+ckground-color:#FFFFFF; border-bottom-color:#CCCCCC; border-bottom-style:so=
+lid; border-bottom-width:1px; border-collapse:collapse !important; mso-tabl=
+e-lspace:0pt; mso-table-rspace:0pt; " width=3D"100%">=20
+=20
+<tr style=3D"">=20
+<td align=3D"left" class=3D"preheaderContent" style=3D"-webkit-text-size-ad=
+just:100%; -ms-text-size-adjust:100%; mso-table-lspace:0pt; mso-table-rspac=
+e:0pt; color:#808080; font-family:Helvetica; font-size:10px; line-height:12=
+.5px; text-align:left; padding:10px 20px; " valign=3D"top">=20
+<div class=3D"mktEditable" id=3D"prehead_left" style=3D"">
+<p><strong><span style=3D"font-family: arial,helvetica,sans-serif;">LIVE WE=
+BINAR</span><br></strong></p>
+</div> </td>=20
+<td align=3D"left" class=3D"preheaderContent" style=3D"-webkit-text-size-ad=
+just:100%; -ms-text-size-adjust:100%; mso-table-lspace:0pt; mso-table-rspac=
+e:0pt; color:#808080; font-family:Helvetica; font-size:10px; line-height:12=
+.5px; text-align:right; padding:10px 20px 10px 0; " valign=3D"top" width=3D=
+"180">=20
+<div class=3D"mktEditable" id=3D"prehead_right" style=3D"">
+<p><span style=3D"font-family: arial,helvetica,sans-serif;">Thursday, Septe=
+mber 28, 2017</span></p>
+</div> </td>=20
+</tr>=20
+=20
+</table>=20
+<!-- // END PREHEADER --></td>=20
+</tr>=20
+<tr style=3D"">=20
+<td align=3D"center" style=3D"-webkit-text-size-adjust:100%; -ms-text-size-=
+adjust:100%; mso-table-lspace:0pt; mso-table-rspace:0pt; " valign=3D"top">
+<!-- BEGIN HEADER // -->=20
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" id=3D"templateHeade=
+r" style=3D"-ms-text-size-adjust:100%; -webkit-text-size-adjust:100%; backg=
+round-color:#FFFFFF; border-bottom-color:#CCCCCC; border-bottom-style:solid=
+; border-bottom-width:1px; border-collapse:collapse !important; mso-table-l=
+space:0pt; mso-table-rspace:0pt; " width=3D"100%">=20
+=20
+<tr style=3D"">=20
+<td align=3D"left" class=3D"headerContent" style=3D"-webkit-text-size-adjus=
+t:100%; -ms-text-size-adjust:100%; mso-table-lspace:0pt; mso-table-rspace:0=
+pt; color:#505050; font-family:Helvetica; font-size:20px; font-weight:bold;=
+ line-height:20px; text-align:left; vertical-align:middle; padding:0; " val=
+ign=3D"top">=20
+<div class=3D"mktEditable" id=3D"banner_image" style=3D"">
+<p><img id=3D"headerImage" style=3D"max-width: 703px; height: auto; outline=
+: none; text-decoration: none; border: 0;" src=3D"https://pages.arbornetwor=
+ks.com/rs/082-KNA-087/images/IP_Networks_Email_DDoS_703x125_wht_logo.jpg" c=
+onstrain=3D"true" imagepreview=3D"false" height=3D"125" width=3D"703"></p>
+</div> </td>=20
+</tr>=20
+=20
+</table>=20
+<!-- // END HEADER --></td>=20
+</tr>=20
+<tr style=3D"">=20
+<td align=3D"center" style=3D"-webkit-text-size-adjust:100%; -ms-text-size-=
+adjust:100%; mso-table-lspace:0pt; mso-table-rspace:0pt; " valign=3D"top">
+<!-- BEGIN COLUMNS // -->=20
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" id=3D"templateColum=
+ns" style=3D"-ms-text-size-adjust:100%; -webkit-text-size-adjust:100%; back=
+ground-color:#FFFFFF; border-bottom-color:#CCCCCC; border-bottom-style:soli=
+d; border-bottom-width:1px; border-collapse:collapse !important; border-top=
+-color:#FFFFFF; border-top-style:solid; border-top-width:1px; mso-table-lsp=
+ace:0pt; mso-table-rspace:0pt; " width=3D"100%">=20
+=20
+<tr style=3D"">=20
+<td align=3D"center" class=3D"templateColumnContainer" style=3D"padding-top=
+:20px; -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; mso-table-=
+lspace:0pt; mso-table-rspace:0pt; width:350px; " valign=3D"top">=20
+<table border=3D"0" cellpadding=3D"20" cellspacing=3D"0" style=3D"-webkit-t=
+ext-size-adjust:100%; -ms-text-size-adjust:100%; mso-table-lspace:0pt; mso-=
+table-rspace:0pt; border-collapse:collapse !important; " width=3D"100%">=20
+=20
+<tr style=3D"">=20
+<td align=3D"left" class=3D"leftColumnContent" style=3D"-webkit-text-size-a=
+djust:100%; -ms-text-size-adjust:100%; mso-table-lspace:0pt; mso-table-rspa=
+ce:0pt; color:#505050; font-family:Helvetica; font-size:14px; line-height:2=
+1px; text-align:left; padding:0 20px 20px; " valign=3D"top">=20
+<div id=3D"leftCol" class=3D"mktEditable" style=3D"">
+<p style=3D"margin: 0px;"><span style=3D"color: #0c2d3f; font-family: arial=
+,helvetica,sans-serif; font-weight: bold; font-size: 24px;">The Increasing =
+Risk of DDoS Attacks</span></p>=20
+<p><span style=3D"font-family: arial,helvetica,sans-serif;">The data is cry=
+stal clear. DDoS attacks are dramatically increasing in size, frequency and=
+ complexity. Unfortunately, many organizations have been severely impacted =
+by DDoS attacks simply because they either assumed they would never be the =
+target or they thought they had adequate protection in place.</span><br></p=
+>=20
+<p style=3D"text-align: center;"><span style=3D"font-family: arial,helvetic=
+a,sans-serif;"><strong><a style=3D"border: 1px solid #2e2d32; padding: 5px =
+5px 5px 5px; background-color: #97d700; color: #0c2d3f; text-transform: upp=
+ercase; font-size: 16px; text-decoration: none;" title=3D"Register to atten=
+d" href=3D"http://gen.msgfocus.com/c/1gGbUNw6xPeDLLQbm5nt9HKci4" target=3D"=
+_blank">REGISTER NOW</a></strong></span></p>=20
+<p><span style=3D"font-family: arial,helvetica,sans-serif;">Join IP Network=
+s and Arbor Networks - the industry leader in DDoS attack protection produc=
+ts and services for this <strong><a style=3D"color: #3c6377; text-decoratio=
+n: none;" title=3D"Register to attend" href=3D"http://gen.msgfocus.com/c/1g=
+Gc2AeLmZJBcPokvDrZyu2xdh" target=3D"_blank">webcast</a></strong> to learn:<=
+/span></p>=20
+<ul>=20
+<li><span style=3D"font-family: arial,helvetica,sans-serif;">The latest tre=
+nds in DDoS attacks &lt;optional: &ndash; specifically attacks targeting ed=
+ucational institutions and regional ISPs.<br><br></span></li>=20
+<li><span style=3D"font-family: arial,helvetica,sans-serif;">The importance=
+ of proper network visibility for anomaly &amp; DDoS attack detection.<br><=
+br></span></li>=20
+<li><span style=3D"font-family: arial,helvetica,sans-serif;">Best practices=
+ in DDoS attack defense; including an intelligent combination of in-cloud a=
+nd on-premises attack protection solutions - which offers the most comprehe=
+nsive form of protection.</span></li>=20
+</ul>=20
+<hr>=20
+<p><span style=3D"color: #97d700; font-family: arial,helvetica,sans-serif;"=
+><strong>Event Details:</strong></span><br><span style=3D"font-family: aria=
+l,helvetica,sans-serif;"><strong>Date:</strong> Thursday, September 28, 201=
+7 | <strong>Time:</strong> 12 PM EDT</span><br><span style=3D"font-family: =
+arial,helvetica,sans-serif;"><em><strong>Can't make the live webinar?</stro=
+ng></em> <strong>No problem!</strong></span><br><span style=3D"font-family:=
+ arial,helvetica,sans-serif;">All registrants will have access to the on-de=
+mand webinar replay, so <a style=3D"color: #3c6377; text-decoration: none;"=
+ title=3D"Register to attend" href=3D"http://gen.msgfocus.com/c/1gGcamXqcae=
+yDSWtFbwvXgkS8u" target=3D"_blank"><strong>register today</strong></a>.</sp=
+an></p>=20
+<p><span style=3D"font-size: 11px; font-family: arial,helvetica,sans-serif;=
+">IP Networks is a nationwide high-tech boutique reseller that offers best =
+of breed IP based data networking solutions to customers cross industry. Th=
+e hardware and software solutions we represent allow our customers to take =
+a proactive approach in gaining insights into their network traffic and use=
+rs, optimizing their network traffic and applications while protecting thei=
+r network and users from Internet based attacks. We provide solutions that =
+deliver a return on investment, application performance and protection.</sp=
+an></p>=20
+<p><br></p>
+</div> </td>=20
+</tr>=20
+=20
+</table> </td>=20
+<td align=3D"center" class=3D"templateColumnContainer" style=3D"background-=
+color:#f6f2e0; padding-top:20px; -webkit-text-size-adjust:100%; -ms-text-si=
+ze-adjust:100%; mso-table-lspace:0pt; mso-table-rspace:0pt; width:170px; " =
+valign=3D"top">=20
+<table border=3D"0" cellpadding=3D"20" cellspacing=3D"0" style=3D"-webkit-t=
+ext-size-adjust:100%; -ms-text-size-adjust:100%; mso-table-lspace:0pt; mso-=
+table-rspace:0pt; border-collapse:collapse !important; " width=3D"100%">=20
+=20
+<tr style=3D"">=20
+<td align=3D"left" class=3D"rightColumnContent" style=3D"-webkit-text-size-=
+adjust:100%; -ms-text-size-adjust:100%; mso-table-lspace:0pt; mso-table-rsp=
+ace:0pt; color:#505050; font-family:Helvetica; font-size:14px; line-height:=
+21px; text-align:left; padding:0 20px 20px; " valign=3D"top">=20
+<div id=3D"twoCol" class=3D"mktEditable" style=3D"">
+<p style=3D"margin: 0px; text-align: center;"><span style=3D"color: #0c2d3f=
+; font-weight: bold; font-size: 14px;">FEATURED PRESENTERS</span></p>=20
+<p style=3D"text-align: center;"><span style=3D"font-size: 12px; color: #3c=
+6377;"><strong>Tom Bienkowski<br></strong></span></p>=20
+<p style=3D"text-align: center;"><span style=3D"font-size: 12px;"><img src=
+=3D"https://pages.arbornetworks.com/rs/082-KNA-087/images/Tom Bienkowski 15=
+0x150.png" alt=3D"Tom Bienkowski" constrain=3D"true" imagepreview=3D"false"=
+ height=3D"146" width=3D"150"></span></p>=20
+<p style=3D"text-align: center;"><span style=3D"font-size: 12px;">Director =
+of DDoS Product Marketing<br>Arbor Networks</span></p>=20
+<p style=3D"text-align: center;"><span style=3D"font-size: 12px;"><img src=
+=3D"https://pages.arbornetworks.com/rs/082-KNA-087/images/ArborLogo_Tribute=
+_CMYK.png" alt=3D"" height=3D"52" border=3D"0" width=3D"125"></span><br><sp=
+an style=3D"font-size: 12px;">&mdash;</span><br><span style=3D"font-size: 1=
+2px; color: #3c6377;"><strong>John Pearson<br></strong></span></p>=20
+<p style=3D"text-align: center;"><span style=3D"font-size: 12px;"><img src=
+=3D"https://pages.arbornetworks.com/rs/082-KNA-087/images/John_Pearson.jpg"=
+ alt=3D"John Pearson" constrain=3D"true" imagepreview=3D"false" height=3D"1=
+50" width=3D"150"></span></p>=20
+<p style=3D"text-align: center;"><span style=3D"font-size: 12px;">Founder a=
+nd Chief Strategist<br>IP Networks Inc.<br><img src=3D"https://pages.arborn=
+etworks.com/rs/082-KNA-087/images/IP_Networks_logo_488x86.png" alt=3D"IP Ne=
+tworks" constrain=3D"true" imagepreview=3D"false" height=3D"26" border=3D""=
+ width=3D"150"><br></span></p>=20
+<p style=3D"text-align: center;"><span style=3D"font-size: 12px;">&mdash;</=
+span><br></p>=20
+<p style=3D"text-align: center;"><span style=3D"font-size: 12px;"><img src=
+=3D"https://pages.arbornetworks.com/rs/082-KNA-087/images/Amazon_gift_cards=
+.png" alt=3D"" constrain=3D"true" imagepreview=3D"false" style=3D"display: =
+block; margin-left: auto; margin-right: auto;" height=3D"81" border=3D"" wi=
+dth=3D"100"> Qualified attendees of the live event will receive $50 Amazon =
+Gift Card.</span></p>
+</div> </td>=20
+</tr>=20
+=20
+</table> </td>=20
+</tr>=20
+=20
+</table>=20
+<!-- // END COLUMNS --></td>=20
+</tr>=20
+<tr style=3D"">=20
+<td align=3D"center" style=3D"-webkit-text-size-adjust:100%; -ms-text-size-=
+adjust:100%; mso-table-lspace:0pt; mso-table-rspace:0pt; " valign=3D"middle=
+">
+<!-- BEGIN footer // -->=20
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" id=3D"templateFoote=
+r" style=3D"-ms-text-size-adjust:100%; -webkit-text-size-adjust:100%; backg=
+round-color:#f6f2e0; border-top:solid #97d700; border-top-style:solid; bord=
+er-bottom-width:1px; border-collapse:collapse !important; mso-table-lspace:=
+0pt; mso-table-rspace:0pt; " width=3D"100%">=20
+=20
+<tr style=3D"">=20
+<td align=3D"left" class=3D"footerContent" style=3D"-webkit-text-size-adjus=
+t:100%; -ms-text-size-adjust:100%; mso-table-lspace:0pt; mso-table-rspace:0=
+pt; color:#808080; font-family:Helvetica; font-size:12px; line-height:12.5p=
+x; text-align:left; padding:10px 20px; " valign=3D"middle">=20
+<div id=3D"footer_copyright" class=3D"mktEditable" style=3D"">
+<p>&copy; 2017 Arbor Networks, Inc. All rights reserved.</p>
+</div> </td>=20
+<td><img src=3D"https://pages.arbornetworks.com/rs/082-KNA-087/images/green=
+_angle.png"></td>=20
+<td align=3D"left" class=3D"preheaderContent" style=3D"-webkit-text-size-ad=
+just:100%; -ms-text-size-adjust:100%; mso-table-lspace:0pt; mso-table-rspac=
+e:0pt; color:#808080; font-family:Helvetica; font-size:12px; line-height:12=
+.5px; text-align:left; padding:10px 20px; " valign=3D"middle">=20
+<div id=3D"footer_social" class=3D"mktEditable" style=3D"">
+<a style=3D"color: #fff;" href=3D"http://gen.msgfocus.com/c/1gGci9G51kJw4Wu=
+COJB2m2Dd3H" target=3D"_blank"><img src=3D"https://pages.arbornetworks.com/=
+rs/082-KNA-087/images/icon_mail.png" alt=3D"Email"></a>=20
+<a style=3D"color: #fff;" href=3D"http://gen.msgfocus.com/c/1gGcpWoJQvetw02=
+LYhFyKOVxYU" target=3D"_blank"><img src=3D"https://pages.arbornetworks.com/=
+rs/082-KNA-087/images/icon_facebook.png" alt=3D"Facebook"></a>=20
+<a style=3D"color: #fff;" href=3D"http://gen.msgfocus.com/c/1gGcxJ7oFFJqX3A=
+V7PK59BdSU7" target=3D"_blank"><img src=3D"https://pages.arbornetworks.com/=
+rs/082-KNA-087/images/icon-twitter.png" alt=3D"Twitter"></a>=20
+<a style=3D"color: #fff;" href=3D"http://gen.msgfocus.com/c/1gGcFvQ3uQeoo79=
+4hnOBynwdPk" target=3D"_blank"><img src=3D"https://pages.arbornetworks.com/=
+rs/082-KNA-087/images/icon-linkedin.png" alt=3D"LinkedIn"></a>=20
+<a style=3D"color:=20
+#fff;" href=3D"http://gen.msgfocus.com/c/1gGcNiyIk0JlPaHdqVT7X9OyKx" target=
+=3D"_blank"><img src=3D"https://pages.arbornetworks.com/rs/082-KNA-087/imag=
+es/icon-rss.png" alt=3D"RSS"></a>=20
+<a style=3D"color: #fff;" href=3D"http://gen.msgfocus.com/c/1gGcV5hn9bejgef=
+mAtXElW6TFK" target=3D"_blank"><img src=3D"https://pages.arbornetworks.com/=
+rs/082-KNA-087/images/icon_youtube.png" alt=3D"YouTube"></a>=20
+</div> </td>=20
+</tr>=20
+=20
+</table>=20
+<!-- // END footer --></td>=20
+</tr>=20
+=20
+</table>=20
+<!-- // END TEMPLATE --></td>=20
+</tr>=20
+=20
+</table>=20
+<br>=20
+<table class=3D"container" align=3D"center" border=3D"0" cellpadding=3D"0" =
+cellspacing=3D"0" style=3D"">=20
+=20
+<tr style=3D"">=20
+<td class=3D"container" style=3D"font-size:11px; padding-left:0px; line-hei=
+ght:1.5em; font-family:Open Sans, arial, sans-serif; color:#000000; ">=20
+<div id=3D"footer_address" class=3D"mktEditable" style=3D""></div> </td>=20
+</tr>=20
+=20
+</table>=20=20=20
+<td valign=3D"top" colspan=3D"12" width=3D"100.0%" class=3D" column" style=
+=3D"-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; mso-table-lsp=
+ace:0pt; mso-table-rspace:0pt; width:100.0%; text-align:left; padding:0; fo=
+nt-family:'Helvetica Neue', Helvetica, Arial, sans-serif; font-size:15px; l=
+ine-height:1.5em; color:#444444" align=3D"left">
+<div class=3D"widget-span widget-type-email_can_spam " style=3D"" data-widg=
+et-type=3D"email_can_spam"><p id=3D"footer" style=3D"margin-bottom:1em; -we=
+bkit-text-size-adjust:100%; -ms-text-size-adjust:100%; font-family:Geneva, =
+Verdana, Arial, Helvetica, sans-serif; text-align:center; font-size:12px; l=
+ine-height:1.34em; color:#999999; display:block" align=3D"center">Arbor Net=
+works, Inc.&nbsp;|
+11400 E. Andalusian Place |
+Tucson, AZ 85748
+<div style=3D"font-size:9pt;font-family:arial,san-serif;padding:10px 15px;m=
+argin:5px;line-height:12pt;text-align:center;">
+If you do not wish to receive these emails in the future you may unsubscrib=
+e here:  <a href=3D"http://gen.msgfocus.com/u/17m6z3Ug1ux0verR6Nu9FPZ">Unsu=
+bscribe</a></div><img src=3D"http://gen.msgfocus.com/t/1g6P5twHoLWZqwXiZ.pn=
+g" alt=3D"">
+<!--[if lt mso 12]><img src=3D"https://gen.msgfocus.com/r/1g6P5twHoLWZqwXiZ=
+.png?c=3D1" alt=3D""><![endif]--><![if gt mso 11]><img src=3D"https://gen.m=
+sgfocus.com/r/1g6P5twHoLWZqwXiZ.png" alt=3D""><![endif]>
+
+----14D4E2AB5AA0CB928EF720EAFB7EA--

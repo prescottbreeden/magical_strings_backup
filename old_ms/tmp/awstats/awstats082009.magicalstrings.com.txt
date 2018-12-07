@@ -1,0 +1,2304 @@
+AWSTATS DATA FILE 6.9 (build 1.925)
+# If you remove this file, all statistics for date 200908 will be lost/reset.
+
+# Position (offset in bytes) in this file of beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1864                
+POS_TIME 2546                
+POS_VISITOR 30799               
+POS_DAY 85397               
+POS_DOMAIN 3526                
+POS_LOGIN 4527                
+POS_ROBOT 4682                
+POS_WORMS 5303                
+POS_EMAILSENDER 5434                
+POS_EMAILRECEIVER 5577                
+POS_SESSION 86341               
+POS_SIDER 86557               
+POS_FILETYPES 5712                
+POS_OS 5972                
+POS_BROWSER 6246                
+POS_SCREENSIZE 7143                
+POS_UNKNOWNREFERER 7217                
+POS_UNKNOWNREFERERBROWSER 10394               
+POS_ORIGIN 12091               
+POS_SEREFERRALS 12242               
+POS_PAGEREFS 12583               
+POS_SEARCHWORDS 16902               
+POS_KEYWORDS 21591               
+POS_MISC 2208                
+POS_ERRORS 24613               
+POS_CLUSTER 4383                
+POS_SIDER_404 24754               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20090901000351 838 193067 28404882361
+FirstTime 20090801011845
+LastTime 20090831235140
+LastUpdate 20090901040842 838 0 837 0 0
+TotalVisits 1677                
+TotalUnique 883                 
+MonthHostsKnown 808                 
+MonthHostsUnknown 202                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 396 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 153 263 5984763 136 167 525467
+1 184 378 6335424 167 187 1136867
+2 152 273 5815213 252 282 2444507
+3 225 326 5611726 238 273 2295105
+4 320 436 14590052 206 230 923984
+5 822 976 16700075 248 278 2100100
+6 542 845 14054478 225 259 1606162
+7 520 1174 31248056 186 221 3692741
+8 486 1212 45737131 249 273 654488
+9 207 926 33393351 173 205 1303593
+10 503 1339 24967689 236 273 6267746
+11 234 1134 23264761 149 173 5647518
+12 213 955 13544364 179 205 1095198
+13 263 921 14199939 205 235 1967506
+14 317 967 24129576 206 259 4550969
+15 517 1504 32604243 295 335 1778348
+16 212 816 11008264 194 232 5149252
+17 242 746 15898951 189 235 2287317
+18 237 891 21242465 169 200 4834114
+19 339 1068 24834522 242 263 7637323
+20 413 1240 23647660 193 235 964512
+21 424 1376 17868286 278 321 3645887
+22 348 668 9280502 183 226 2010723
+23 158 382 7081031 158 180 14236134
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 49
+us 3217 13863 303946502
+ru 2879 2928 57271347
+cn 378 583 16355984
+ro 302 308 3104933
+lv 272 378 5166972
+nl 234 290 2772096
+ca 145 610 7776375
+th 72 111 5536477
+kr 57 67 611310
+de 56 89 3035456
+es 52 66 696121
+au 49 254 9888591
+jp 46 100 2437059
+at 42 43 413011
+gb 38 227 2933264
+br 23 72 1603256
+it 19 91 1972927
+ie 17 109 1137486
+pl 15 15 153269
+cz 15 122 1392928
+il 13 13 111050
+fr 13 37 1533347
+tg 11 37 4735373
+se 8 55 1082247
+ua 7 7 740631
+pt 2 13 185279
+eg 3 20 192268
+ph 3 35 392974
+no 4 11 452216
+my 2 3 56600
+mx 4 39 276352
+cr 1 6 28819
+in 2 5 827767
+sg 0 1 10436
+hk 1 6 47541
+fi 5 45 622205
+ir 1 1 12654
+cs 1 3 15343
+pr 1 10 108312
+tw 1 12 176163
+bs 2 16 254128
+eu 3 13 241714
+pk 1 10 263655
+hu 7 53 726563
+za 2 14 190199
+ng 1 1 7857
+nz 1 11 111078
+lu 2 2 1213663
+ve 1 11 220724
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 13
+slurp 896 7962320 20090831235311 0
+msnbot 838 2554086 20090831222424 0
+bot[+:,\.\;\/\\-] 388 4645998 20090831140257 0
+crawl 298 19518226 20090831222254 0
+googlebot 230 2191605 20090831233617 0
+robot 218 2092519 20090831152446 0
+spider 193 1243228 20090831235353 0
+jeeves 57 1167139 20090831144651 0
+no_user_agent 48 693111 20090830055418 0
+voila 37 396939 20090831151811 0
+ia_archiver 7 80567 20090826181420 0
+webcollage 2 10869 20090821131442 0
+[+:,\.\;\/\\-]bot 1 9116 20090829150432 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 10
+css 1478 4415077 0 0
+mp3 2748 221235299 0 0
+pdf 93 5174041 0 0
+htm 162 1542521 0 0
+php 269 1984640 0 0
+html 4653 38472262 0 0
+js 324 11135670 0 0
+jpg 6987 138289446 0 0
+gif 3996 15012458 0 0
+ram 106 5781108 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 20
+linuxsuse 15
+winxp 9499
+winlong 3831
+win2000 248
+linuxfedora 30
+winunknown 85
+win95 5
+wince 15
+win2003 147
+linuxdebian 12
+winnt 6
+win98 178
+linuxubuntu 29
+linux 116
+bsdfreebsd 1
+winme 6
+macosx 1957
+win16 2750
+Unknown 1741
+win2008 145
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 61
+msie6.0 2592
+winamp 14
+firefox3.0.7 9
+up\. 25
+chrome 428
+firefox3.0.9 19
+firefox3.0.1 2
+firefox2.0.0.1 14
+epiphany 2
+msie4.01 1
+netscape7.2 10
+firefox2.0.0.12 14
+msie3.02 1
+links 1
+netscape4.76 2
+msie8.0 3574
+netscape4.07 1
+firefox2.0.0.14 3
+firefox2.0.0.18 24
+netscape3.0 2
+firefox2.0.0.3 22
+msie7.0 4034
+msie2.0 2
+xine 1
+wget 69
+msie5.0 37
+firefox1.5 1
+Unknown 4027
+firefox3.0.8 1
+netscape 1
+firefox2.0.0.20 53
+msie5.01 147
+firefox2.0.0.8 9
+firefox3.5.1 162
+lwp 2
+firefox3.0.4 73
+firefox3.0 50
+opera 199
+nsplayer 82
+netscape4.05 5
+firefox3.0.11 56
+firefox3.5.2 852
+firefox2.0.0.6 3
+msie5.5 3
+firefox3.0.5 54
+firefox2.0.0.11 4
+firefox1.0.7 21
+nokia 1
+firefox1.0 1
+mozilla 183
+firefox3.0.12 451
+netscape5.0 3
+firefox2.0.0.17 38
+netscape4.0 189
+firefox2.0 16
+firefox2.0.0.16 3
+firefox3.0.13 1726
+msie 1
+firefox3.5 49
+firefox3.0.10 121
+safari 1326
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 61
+Mozilla/4.05_[en] 20090830051441
+bloo/Nutch-1.0_(bloo;_wiki.bloo.com;_bloo_at_bloo_dot_com) 20090821115856
+copyright_sheriff_(_http://www.copyrightsheriff.com/) 20090824155703
+LegalX_Deep_Analyzer_(_http://www.legalx.net_)_<a_href=\ 20090814181406
+NSPlayer/7.10.0.3059 20090814140253
+Mimetype_Getinfo 20090817050403
+Wget/1.8.2 20090824223132
+QuickTime/7.6.2_(qtver=7.6.2;cpu=IA32;os=Mac_10.5.7) 20090816093548
+BlackBerry8310/4.5.0.110_Profile/MIDP-2.0_Configuration/CLDC-1.1_VendorID/102 20090828171017
+Java/1.6.0_13 20090828034109
+Mozilla/5.0_(compatible;_heritrix/${pom.version}__http://www.adsafemedia.com) 20090831150528
+QuickTime/7.6.2_(qtver=7.6.2;cpu=IA32;os=Mac_10.5.8) 20090815195629
+xine/1.1.8 20090818081705
+NSPlayer/10.0.0.3802_WMFSDK/10.0 20090814063003
+Mozilla 20090821033454
+NSPlayer/11.00.6001.7000_WMFSDK/11.00.6001.7000 20090815022505
+Java/1.5.0_16 20090809075140
+NSPlayer/11.00.6001.7001_WMFSDK/11.00.6001.7001 20090825222607
+MLBot_(www.metadatalabs.com/mlbot) 20090829072843
+Combine/3_http://combine.it.lth.se/ 20090817084637
+Mozilla/4.0 20090831233010
+Mozilla/5.0 20090810060524
+WinampMPEG/2.7 20090817050405
+Mozilla/4.0_(compatible;__see_http://www.parchmenthill.com/search.htm) 20090831154433
+Java/1.6.0_04 20090826173012
+Wget/1.10.2_(Red_Hat_modified) 20090811133539
+KDDI-TS3L_UP.Browser/6.2_7.2.7.1.K.2.232_(GUI)_MMP/2.0 20090828104251
+lwp-trivial/1.41 20090818162551
+Mozilla/5.0_(compatible;_ScoutJet;__http://www.scoutjet.com/) 20090809090036
+swish-e_http://swish-e.org/ 20090830074451
+SBIder/Nutch-1.0-dev_(http://www.sitesell.com/sbider.html) 20090831145836
+page_test_larbin2.6.3@unspecified.mail 20090824234801
+PrivacyFinder/1.1 20090801020659
+panscient.com 20090825083417
+Jakarta_Commons-HttpClient/3.1 20090813013855
+Mozilla/4.0_(compatible) 20090818173601
+NSPlayer/10.0.0.4066_WMFSDK/10.0 20090829145240
+NSPlayer/11.00.6002.18005_WMFSDK/11.00.6002.18005 20090831150933
+NSPlayer/11.00.6000.6346_WMFSDK/11.00.6000.6346 20090814135141
+Wouah/Nutch-1.0_(http://www.wouah.fr) 20090801162725
+Mozilla/5.0_(compatible;_Butterfly/1.0;__http://labs.topsy.com/butterfly.html)_Gecko/2009032608_Firefox/3.0.8 20090818092151
+li_viewer_larbin2.6.3@unspecified.mail 20090803093814
+baypup/1.1_(Baypup;_http://www.baypup.com/;_jason@baypup.com) 20090821044736
+Java/1.6.0_15 20090831105010
+BlackBerry8310/4.2.2_Profile/MIDP-2.0_Configuration/CLDC-1.1_VendorID/102 20090810205444
+Java/1.6.0-oem 20090821073740
+Mozzila/4.0 20090806195602
+Wget/1.11.4 20090823230344
+Wget/1.10.2 20090816013612
+Opera/9.60_(J2ME/MIDP;_Opera_Mini/4.2.14320/554;_U;_en)_Presto/2.2.0 20090810111847
+http://ask.24x.info/ 20090820194511
+Mail.Ru/1.0 20090801190546
+LWP::Simple/5.814 20090806180036
+Mozilla/4.0_(compatible;) 20090824101854
+BlackBerry8330/4.5.0.77_Profile/MIDP-2.0_Configuration/CLDC-1.1_VendorID/105 20090810190548
+NSPlayer/11.0.5721.5251_WMFSDK/11.0 20090821182758
+Java/1.6.0 20090831115512
+betaBot 20090825011929
+Nokia6131/2.0_Profile/MIDP-1.0_Configuration/CLDC-1.0 20090813083345
+WinHttp 20090831045053
+Mozilla/5.0_(compatible;_heritrix/1.14.3__http://www.toofaan.com) 20090803064807
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 33
+bloo/Nutch-1.0_(bloo;_wiki.bloo.com;_bloo_at_bloo_dot_com) 20090821115856
+copyright_sheriff_(_http://www.copyrightsheriff.com/) 20090824155703
+LegalX_Deep_Analyzer_(_http://www.legalx.net_)_<a_href=\ 20090814181406
+Yandex/1.01.001_(compatible;_Win16;_I) 20090831235140
+Mimetype_Getinfo 20090817050403
+Yandex/1.01.001_(compatible;_Win16;_H) 20090831234621
+QuickTime/7.6.2_(qtver=7.6.2;cpu=IA32;os=Mac_10.5.7) 20090816093548
+BlackBerry8310/4.5.0.110_Profile/MIDP-2.0_Configuration/CLDC-1.1_VendorID/102 20090828171017
+Java/1.6.0_13 20090828034109
+QuickTime/7.6.2_(qtver=7.6.2;cpu=IA32;os=Mac_10.5.8) 20090815195629
+Yandex/1.01.001_(compatible;_Win16;_m) 20090831065601
+Java/1.5.0_16 20090809075140
+MLBot_(www.metadatalabs.com/mlbot) 20090829072843
+Combine/3_http://combine.it.lth.se/ 20090817084637
+Java/1.6.0_04 20090826173012
+swish-e_http://swish-e.org/ 20090830074451
+SBIder/Nutch-1.0-dev_(http://www.sitesell.com/sbider.html) 20090831145836
+page_test_larbin2.6.3@unspecified.mail 20090824234801
+PrivacyFinder/1.1 20090801020659
+panscient.com 20090825083417
+Jakarta_Commons-HttpClient/3.1 20090813013855
+Wouah/Nutch-1.0_(http://www.wouah.fr) 20090801162725
+li_viewer_larbin2.6.3@unspecified.mail 20090803093814
+Java/1.6.0_15 20090831105010
+Java/1.6.0-oem 20090821073740
+BlackBerry8310/4.2.2_Profile/MIDP-2.0_Configuration/CLDC-1.1_VendorID/102 20090810205444
+Mozzila/4.0 20090806195602
+http://ask.24x.info/ 20090820194511
+Mail.Ru/1.0 20090801190546
+BlackBerry8330/4.5.0.77_Profile/MIDP-2.0_Configuration/CLDC-1.1_VendorID/105 20090810190548
+Java/1.6.0 20090831115512
+WinHttp 20090831045053
+betaBot 20090825011929
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 5008 5341
+From1 5 5
+From2 352 368
+From3 406 444
+From4 2260 14658
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 16
+earthlink 1 1
+google 232 233
+search 6 6
+att 1 1
+dogpile 2 2
+google_image 11 19
+yahoo 29 30
+soso 57 57
+alltheweb 1 1
+aol 6 6
+goodsearch 2 2
+ask 1 1
+live 1 6
+mywebsearch 1 1
+yandex 0 1
+netscape 1 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 87
+http://www.entpages.com/entertainment.pr/Magical-Strings/3577163/profile.htm 55 55
+http://www.echoes.org/comingup.html 32 32
+http://www.echoes.org/playlists/0932A.html 31 31
+http://www.harpmall.com/harps_for_sale.htm 24 24
+http://seattle.craigslist.org/see/msg/1336765348.html 20 20
+http://www.bing.com/search 18 18
+http://www.anacortesartsfestival.com/ba_list_media.cfm 16 16
+http://www.harpmall.com/lever_harp_makers.htm 16 16
+http://www.weddingharper.com/harplust.html 12 12
+http://www.neopets.com/petlookup.phtml 10 10
+http://www.w9names.org 9 9
+http://seattle.craigslist.org/see/msg/1306547024.html 9 9
+http://www.theguitarsherpa.com/harp_makers/default.html 9 9
+http://www.harpmall.com/wire_strung_harps.htm 9 9
+http://www.harp.net/HarpLinks.htm 8 8
+http://starlogic.biz/Time_to_change_hosting 7 7
+http://www.harpmall.com/harps_for_rent.htm 7 7
+http://anacortesartsfestival.com/ba_list_names.cfm 5 5
+http://www.modelsailboat.com/trimov.html 5 5
+http://www.anacortesartsfestival.com/ent_kplu.cfm 5 5
+http://www.kaboodle.com/harpraxis/harps--quality-budget-harps.html 5 5
+http://www.ci.kent.wa.us/arts/page.aspx 5 5
+http://www.kitchenmusician.net/pages/dstores.html 4 4
+http://www.celticharper.com/Buyhrp.html 4 4
+http://www.celticharper.com/teachers.html 4 4
+http://www.echoes.org/playlists/wk32-09.html 1 1
+http://tagoo.ru/search.php 2 2
+http://psfhs.home.comcast.net/~psfhs/directory.htm 1 1
+http://www.victoriafolkmusic.ca/performer_links.html 2 2
+http://74.125.95.132/search 1 1
+http://www.kaboodle.com/reviews/magical-strings-instruments--harps 1 1
+http://www.modelsailboat.com/t50mdmov.html 2 2
+http://sz0130.ev.mail.comcast.net/zimbra/mail 0 5
+http://www.gentlespirit.com/gslinks8.htm 1 1
+http://spain.real.com/music/artist/_11007/ 1 1
+http://www.fallcityarts.org/calendar.htm 1 1
+http://www.modelsailboat.com/andyf.html 2 2
+http://www5.ocn.ne.jp/~htf/top.html 2 2
+http://us.mc361.mail.yahoo.com/mc/showMessage 0 1
+http://ourblogs.ru 3 3
+http://suche.t-online.de/fast-cgi/tsc 1 1
+http://www.tarbagan.net/nodo/mgst/mgst05.html 1 1
+http://www.sodahead.com/my/messages/conversation/2174649/ 0 1
+http://us.mc535.mail.yahoo.com/mc/welcome 1 1
+http://74.125.79.132/translate_c 1 12
+http://webhelp.qwest.net/main 1 1
+http://www.enotes.com/contemporary-musicians/magical-strings-biography 1 1
+http://www.yellowpages.com/info-13114195/Magical-Strings 1 1
+http://sz0021.ev.mail.comcast.net/zimbra/mail 0 2
+http://10.49.50.63:15871/cgi-bin/blockOptions.cgi 1 1
+http://www.harpmall.com/harp_events.htm 1 1
+http://www.chimehost.com 1 1
+http://www.swagbucks.com 1 1
+http://www.kriscoop.com/discuss/index.php 1 1
+http://www.information-online.com 2 2
+http://anacortesartsfestival.com/ba_list_media.cfm 2 2
+http://us.mc508.mail.yahoo.com/mc/compose 0 1
+http://harpmall.com/harps_for_sale.htm 1 1
+http://www.celticharper.com/otherharprs.html 1 1
+http://www.buylocalfoodinkitsap.org/agri-culture 1 1
+http://www.hoilands.com/calendar.htm 2 2
+http://www.colleenraney.com/links.html 1 1
+http://www.tboats.com/t50mdmov.html 1 1
+http://earlymusichicago.org/businesses_strings.htm 1 1
+http://www.youtube.com/watch 2 2
+http://earlymusichicago.org/businesses_harp.htm 3 3
+http://www.legalx.net 1 1
+http://us.mc361.mail.yahoo.com/mc/welcome 0 2
+http://yellowpages.superpages.com/listings.jsp 1 1
+http://www.modelsailboat.com/t27mov.html 1 1
+http://us.mc508.mail.yahoo.com/mc/welcome 0 1
+http://seattle.craigslist.org/see/msg/1290048970.html 3 3
+http://sz0100.ev.mail.comcast.net/zimbra/mail 0 4
+http://www.echoes.org/playlists/thisweek.html 3 3
+http://127.0.0.1:4664/preview 0 8
+http://www.opland-freeman.com/menolly.htm 1 1
+http://www.echoes.org/playlists/0924A.html 1 1
+http://www.modelsailboat.com/tmovies.html 1 1
+http://www.zonemusicreporter.com/playlist/viewplaylist.asp 1 1
+http://www.inlandcrafts.org/artists/artist_images.htm 1 1
+http://beemp3.com/player/player.swf 2 2
+http://www.harpexcellence.com/harplinks.html 2 2
+http://www.bing.com/images/search 2 3
+http://www.conjure.com/CELT/cmusart.html 1 1
+http://www.anacortesartsfestival.com/ba_list_business.cfm 3 3
+http://www.anacortesartsfestival.com/ba_list_names.cfm 4 4
+http://pelipejchenko.livejournal.com/195441.html 0 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 128
+magical+strings 90
+philip+boulding 10
+magical+strings+celtic+yuletide+concert 7
+magic+strings 6
+printable+school+register 5
+magical+strings+harp 3
+magical+strings+harps 3
+phillip+boulding 3
+site 3
+playing+the+dulcimer+versus+celtic+harp 2
+raney+irish+dancers 2
+magical+strings+cd 2
+warm+island+magical+strings 2
+where+dragons+dance 2
+harp+rental+seattle 2
+magical+strings+spring+tide 2
+pam+boulding+olalla+wa 2
+philip+boulding-magical+strings 2
+tristy+harp 2
+magic+strings+workshop 2
+magical+strings+harp+and+autoharp 2
+printable+school+registers 2
+celtic+strings 2
+printable+school+registration+forms 2
+harp+camp 2
+magical+strings+seattle+wa 1
+harp+rental+port+orchard 1
+school+register+blank 1
+mark+raney+irish+music 1
+magical+strings+harp+stringing 1
+tristy+harp+from+magical+strings 1
+grand+solace+magical+strings+philip+%26+pam+boulding 1
+little+haven+wales+new+years+celebrated+in+mid-january 1
+what+is+oladion 1
+sample+radio+psa+for+performing+arts+concert 1
+magical+strings%e3%80%80bell+off+the+ledge 1
+printable+register+for+school 1
+bastions 1
+magical+strings.com 1
+when+did+florence+beeler+sing+in+seattle+wa%3f 1
+recording+artist+brenin 1
+lap+harp+dulcimer 1
+school+assembly+japan 1
+printable+paperwork+to+register+for+school 1
+harp+string+design+program 1
+school+assembly+programme+introduction 1
+how+to+make+harp+strings 1
+magical+strings+oladion+wire+strung+harp 1
+phil+boulding+harps 1
+philip+bolding 1
+magical+concerts 1
+shoreline+harpist+rhode+island 1
+magical 1
+w6ydn%252bnhfqnxx%252brngivws3e0q7zylpo%252fpiz%252fkxxqcwhprtl%252bpuniuvprvexw2p6mo7sf3oc01pl6i7lmz5%252brryex%252b0rgtfinahhqya8cbemufjgpljhqvm3%252bfqgnjg6hpwt1a7ofikufbtotlpqejsvuamiv5eypawzd8hbwmlfjgolae%252btsarhq0iryawhhn%252bwuczt6is2gfzwir5x0s86kpnmpkp9w0ke4ngahsdudz9qqusc1g%252fg8qibxaq0cqf7pekrgapsz2na%252bmnjxpvy78ppfvhbqrah1vx3vjpnojglfiv889hj8xuwvupop5qf4lrl1d9nafwaw9prfteq4dbad6u7gpjjo39s65ymudscdme4wvjkvqggnixxw%252btwtower2vzwp4anjil53pqiswis9ip5lr0qhtjduxbhk2k9lgzfdhfci6hrrjkx%252fhlfh2upp0sllml3wefcsm74%252fctn5dzuovd4tfblg2yohhuoerimkuvrq8xsiun4myxjjfylgpevgat%252bh9tlbqizzczuo0on%252f9kmggldekp5k8fyeed3ozai%252bsvstf%252fytzetf8suvdw3vc4muzrcbybtebcr3i94v%252bg9vth37cdyxojjvp2nb6i%252bsmo%252byuohckmlf8pguhjecsrwvfzdvgjwqu07ifjhnfxpwcee%252fl1oymemhzsc%252bk7ghepk60ujd2nags8wa6vantcec8ym4egoembp2krzxzbdjucduv6pj3sg5ab3pea3awuh8owypzemi%252b%252fsczx1n0nhbmbqwbfvlxumhb449o1iehm6krxhbbcxyzu8myb4hvhnvhhyr2ncc6njq2gcndgi2vngt%252bqp23mobn7kvlxdcppqcf5dewaihpadgtdq%252f5l61gn%252fwrt%252btg4rdtkqbgu%252bbvk7go%252bewzfqfdjijwnllquu%252bze%253d 1
+blank+school+regidter 1
+concert+oranmore+harp 1
+magical+strings+com 1
+making+a+bardic+harp 1
+harps 1
+lyre+lessions+san+diego 1
+printable+register+for+schools 1
+phillip+boulding+tristy+harp 1
+boulding+percussion+instrument 1
+phillip+bolding 1
+philip+and+pam+boulding 1
+magic+strings+harps 1
+welcome+to+heaven+here+s+your+harp 1
+hammered+dulicmer+magical+strings 1
+philip+boulding-ohana+kai 1
+www.magicalstrings+.com 1
+philip+daniel+boulding+the+summer+river 1
+celtic+harp+musings 1
+bard+college+coffeehouse 1
+rent+a+celtic+dulcimer 1
+describe+school+assembly 1
+lindsey+marshal+family+philadelphia 1
+affordable+harps 1
+magical+strings+in+wa 1
+harp+construction 1
+magical+string+islands+calling 1
+phillip+and+pam+boulding 1
+dan+fogelberg+and+the+magical+strings 1
+school+registers+i+can+print+off 1
+harps+seattle 1
+magicial+schools 1
+school+assembly+fee 1
+phil+boulding+magical+strings 1
+lap+harps 1
+harmonic+curve+harp 1
+homepage 1
+school+assembly+music+programs+seattle 1
+philip+boulding+harp+classes 1
+best+of+magical+strings 1
+at+what+age+did+oliver+cromwell+waldorf+school 1
+britney+rice+university+music+violin 1
+site+magicalstrings.com+magicalstrings.com 1
+philip+daniel+boulding+summer+river 1
+magical+strings+celtic+yuletide 1
+magicalstrings.com 2
+magical+strings+hammer+dulcimer 1
+boulding+student+harp 1
+phillip+boulding+harp 1
+magical+strings+bell+off+the+ledge 1
+philip+boulding+harp+lessons 1
+school+registers+printouts 1
+daniel+mernweather 1
+oladion+philip 1
+beneath+the+moon 1
+strings.com 1
+maple+c52 1
+dan+fogelberg+concert+dates+mud+island 1
+magical+strings+seattle 2
+celtic+string+vst 1
+celtic+harp+seattle 1
+kailey+s+dream+cd 1
+strings 1
+harriet+talbert 1
+narrows+of+the+harpes+camping 1
+the+irish+yuletideei=utf-8 1
+phillip+boulding+harpist.com 1
+harp+lessons+bremerton+wa 1
+lyre+magical 2
+celtic+harp+teacher+seattle 1
+brenin+williams 1
+magical+strings+where+dragons+dance 2
+magical+hill 1
+perform+at+school+assemblies+washington 1
+kailey+harps+for+sale 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 201
+strings 144
+magical 137
+harp 34
+boulding 29
+school 22
+philip 21
+celtic 17
+printable 12
+harps 10
+concert 10
+seattle 10
+the 9
+magic 9
+register 9
+yuletide 8
+phillip 8
+wa 5
+assembly 5
+dulcimer 5
+for 5
+pam 5
+and 5
+registers 4
+where 4
+dance 4
+vst 1
+%26 1
+print 1
+kai 1
+program 1
+phil 2
+river 2
+narrows 1
+williams 1
+percussion 1
+what 2
+rhode 1
+maple 1
+programme 1
+your 1
+introduction 1
+yuletideei=utf-8 1
+boulding-magical 2
+of 2
+tide 2
+is 1
+forms 2
+programs 1
+harpist 1
+when 1
+marshal 1
+college 1
+can 1
+beneath 1
+construction 1
+harpes 1
+japan 1
+com 1
+wales 1
+a 2
+dates 1
+lessons 2
+harpist.com 1
+off 3
+strung 1
+in 3
+teacher 1
+sing 1
+sample 1
+tristy 4
+camp 2
+curve 1
+summer 2
+describe 1
+s 2
+washington 1
+dragons 4
+lindsey 1
+kailey 2
+moon 1
+bolding 2
+magicalstrings.com 4
+san 1
+bardic 1
+calling 1
+rent 1
+shoreline 1
+oliver 1
+bremerton 1
+i 1
+hammered 1
+make 1
+cd 3
+dulicmer 1
+celebrated 1
+diego 1
+irish 4
+solace 1
+haven 1
+autoharp 2
+magicial 1
+warm 2
+.com 1
+string 3
+mark 1
+years 1
+bastions 1
+perform 1
+beeler 1
+islands 1
+violin 1
+versus 2
+www.magicalstrings 1
+stringing 1
+philadelphia 1
+performing 1
+ledge 2
+oladion 3
+welcome 1
+family 1
+w6ydn%252bnhfqnxx%252brngivws3e0q7zylpo%252fpiz%252fkxxqcwhprtl%252bpuniuvprvexw2p6mo7sf3oc01pl6i7lmz5%252brryex%252b0rgtfinahhqya8cbemufjgpljhqvm3%252bfqgnjg6hpwt1a7ofikufbtotlpqejsvuamiv5eypawzd8hbwmlfjgolae%252btsarhq0iryawhhn%252bwuczt6is2gfzwir5x0s86kpnmpkp9w0ke4ngahsdudz9qqusc1g%252fg8qibxaq0cqf7pekrgapsz2na%252bmnjxpvy78ppfvhbqrah1vx3vjpnojglfiv889hj8xuwvupop5qf4lrl1d9nafwaw9prfteq4dbad6u7gpjjo39s65ymudscdme4wvjkvqggnixxw%252btwtower2vzwp4anjil53pqiswis9ip5lr0qhtjduxbhk2k9lgzfdhfci6hrrjkx%252fhlfh2upp0sllml3wefcsm74%252fctn5dzuovd4tfblg2yohhuoerimkuvrq8xsiun4myxjjfylgpevgat%252bh9tlbqizzczuo0on%252f9kmggldekp5k8fyeed3ozai%252bsvstf%252fytzetf8suvdw3vc4muzrcbybtebcr3i94v%252bg9vth37cdyxojjvp2nb6i%252bsmo%252byuohckmlf8pguhjecsrwvfzdvgjwqu07ifjhnfxpwcee%252fl1oymemhzsc%252bk7ghepk60ujd2nags8wa6vantcec8ym4egoembp2krzxzbdjucduv6pj3sg5ab3pea3awuh8owypzemi%252b%252fsczx1n0nhbmbqwbfvlxumhb449o1iehm6krxhbbcxyzu8myb4hvhnvhhyr2ncc6njq2gcndgi2vngt%252bqp23mobn7kvlxdcppqcf5dewaihpadgtdq%252f5l61gn%252fwrt%252btg4rdtkqbgu%252bbvk7go%252bewzfqfdjijwnllquu%252bze%253d 1
+regidter 1
+heaven 1
+here 1
+paperwork 1
+fee 1
+did 2
+waldorf 1
+strings%e3%80%80bell 1
+bard 1
+fogelberg 2
+registration 2
+boulding-ohana 1
+design 1
+lap 2
+to 3
+making 1
+student 1
+from 1
+daniel 3
+rice 1
+instrument 1
+wire 1
+radio 1
+harmonic 1
+site 4
+little 1
+schools 2
+assemblies 1
+hill 1
+island 4
+printouts 1
+recording 1
+dan 2
+harriet 1
+mud 1
+spring 2
+dream 1
+britney 1
+music 3
+blank 2
+rental 3
+new 1
+talbert 1
+how 1
+grand 1
+playing 2
+port 1
+bell 1
+wa%3f 1
+hammer 1
+homepage 1
+mid-january 1
+lessions 1
+lyre 3
+best 1
+florence 1
+sale 1
+olalla 2
+concerts 1
+orchard 1
+workshop 2
+age 1
+psa 1
+dancers 2
+at 2
+coffeehouse 1
+musings 1
+raney 3
+university 1
+classes 1
+strings.com 2
+affordable 1
+cromwell 1
+oranmore 1
+c52 1
+brenin 2
+mernweather 1
+arts 1
+artist 1
+camping 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 6
+403 14 0
+302 64 110
+416 17 0
+206 250 36189728
+405 24 0
+404 2165 0
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 174
+/m/d/yy 1 -
+/Images/Yuletide/YT_2006B1.jpg 6 -
+/http:/www.swedenembindia.com/ 1 -
+/PDF/Boulding 2 -
+/Recordings.html/R-Harp.html 1 -
+/safari/opera 1 -
+/w3c/p3p.xml 1 -
+/gecko/i 1 -
+/cancel/i 1 -
+/Brittany.html 40 -
+/Philip&Chen5.html 1 -
+/%3E 1 -
+/index.html/News.html 1 -
+/insert/i 1 -
+/News.html/R-Dances&Dreams.html 1 -
+/News.html/News2005.html 1 -
+/SchoolIndex.html/School_Assemblies_Workshops_intro.html 1 -
+/JTom_Creegan1.html 1 -
+/Pam&Dulcimer.html 1 -
+/bio.html 1 -
+/dd/mm/yyyy 1 -
+/Sheetmusic.html 1 -
+/includes/common/js/-source_box.width/2 1 -
+/target_box.y+target_box.height/2 1 -
+/HarpCamp.html/Links.html 1 -
+/Brittany2.html 1 -
+/Harp%20Camp%202002%20Accommodations_files/filelist.xml 12 -
+/samples/Musings 2 -
+/Jarrod1.html 1 -
+/HarpCamp.html/SchoolIndex.html 1 -
+/HarpCamp.html/Recordings.html 1 -
+/index.html/HarpCamp.html 1 -
+/form_school_print.html 1 -
+/Brittany1.html 1 -
+/Images/Whispers/JPEG 1 -
+/recordings.html 4 -
+/HarpsDulcimers.htm 1 -
+/Calendar.html/Recordings.html 1 -
+/links.html 1 -
+/SCHOOL%20OF%20MAGICAL%20STRINGS%20WINTER%20TERM%202002_files/filelist.xml 14 -
+/Recordings.html/R-AbovetheTower.html 1 -
+/sales@magicalstrings.com 1 http://magicalstrings.com/W-Whispers.html
+/CreatingWhereDragonsDance/Where+Dragons+Dance_LowLow1.html 1 -
+/Recordings.html/R-Musings.html 1 -
+/wp-login.php 3 http://www.magicalstrings.com/
+/http:/www.sophie-moone.org/lots-to-do_4550.html 1 -
+/Bio.html/Bio-Short.html 1 -
+/YT_2005.html 2 -
+/form_contact.php 5 -
+/Form_School_Assemblies.html 2 -
+/https 1 -
+/CreatingWhereDragonsDance/Where%20Dragons%20Dance_LowLow1.html 22 -
+/includes/common/js/target_box.y+target_box.height/2 1 -
+/Recordings.html/Bio.html 2 -
+/Brittany4.html 1 -
+/thank_you_comment.html 2 http://mail.google.com/mail/h/1pq5vqrv898df/
+/calendar.html 1 -
+/Brenin1.html 1 -
+/schoolindex.html 1 -
+/Recordings.html/Links.html 1 -
+/_vti_bin/_vti_aut/author.dll 6 -
+/Philip&Chen6.html 1 -
+/text/css 2 -
+/2Quartetstanding1.html 1 -
+/Philip&Chen3.html 1 -
+/samples/Musings+Margaret 2 -
+/samples/musings%20napili%20nights.mp3 1 -
+/mailto 1 -
+/Links.html/harp121.htm 1 -
+/samples/Magical 1 -
+/includes/skins/nxt/back.php 2 -
+/samples/track_01.ram 1 -
+/Images/Yuletide/YT_2006A1.jpg 3 -
+/Recordings.html/R-Yuletide.html 2 -
+/PHarps.html 1 -
+/Images/YT%20Children1.jpg 3 -
+/harpsdulcimers.html 5 -
+/favicon.gif 6 -
+/http:/www.sophie-moone.org/not-make-me-angry_2523.html 1 -
+/Recordings.html/R-CrossingtoSkellig.html 1 -
+/HarpCamp.html/Bio.html 1 -
+/HarpCamp.html/Reviews.html 1 -
+/samples/loi3_battle.smi 2 -
+/http:/www.sophie-moone.org/blondes-in-heat_4616.html 1 -
+/Calendar.html/HarpCamp.html 2 -
+/CreatingWhereDragonsDance/FAMILY+COUCH.html 1 -
+/Form_Contact.html 46 -
+/News.html/News2004.html 1 -
+/Where%20Dragons%20Dance_LowLow1.html 1 -
+/application/x-www-form-urlencoded 2 -
+/1BigRedStudio.html 1 -
+/YT%202008.html 1 -
+/PDF/Philip%20&%20Pam%20Bio 1 -
+/15.00 1 http://magicalstrings.com/W-Whispers.html
+/robots.txt 1521 -
+/PDF/Boulding%20Family%20Story%20Yuletides%202004.pdf 1 -
+/PDF/Philip%2520%26%2520Pam%2520Bio%27s.pdf 1 -
+/Images/padlock.gif 12 http://www.magicalstrings.com/Form_School_Reg.php
+/includes/common/js/application/x-www-form-urlencoded 2 -
+/JTom_Creegan.html 1 -
+/News.html/News2003.html 1 -
+/harpcamp.html 1 -
+/Images/harp_camp_2004.jpg 1 -
+/schoolindex 31 -
+/includes/common/js/-source_box.height/2 1 -
+/includes/common/js/text/xml 1 -
+/http:/www.sophie-moone.org/the-end_5591.html 1 -
+/(null) 3 -
+/Recordings.html/R-Dances&Dreams.html 1 -
+/R-Celtic+Holiday.html 1 -
+/YT_2006.html 10 -
+/http:/www.sophie-moone.org/nothing-special_2941.html 1 -
+/Jarrod.html 1 -
+/Philip.html 1 -
+/CreatingWhereDragonsDance/FAMILY 1 -
+/http:/www.sophie-moone.org/i%EF%BF%BD-m-busy%EF%BF%BD_3766.html 1 -
+/Images/YT%203%20Raney%20Dancers1sm.jpg 3 -
+/reviews.html 1 -
+/HarpCamp.html/Form_Camp_Print.html 1 -
+/Brittany&Pam.html 1 -
+/d/m/yy 1 -
+/HarpCamp.html/Form_Contact.php 1 -
+/Images/Harp%20Conc%20Oladion.jpg 1 -
+/target_box.x+target_box.width/2 1 -
+/r-harp.html 4 -
+/1FAMILY.html 1 -
+/Recordings.html/R-Legend.html 1 -
+/samples/Magical%2520Strings%2520-%2520Track%25204.mp3 1 -
+/R-Dances&Dreams.html/OrderForm.html 1 -
+/Images/New%20Album%202008/pam&amp 4 -
+/-source_box.height/2 2 -
+/PDF/All 3 -
+/Recordings.html/R-OntheBurren.html 2 -
+/harpcamp.css 96 http://www.magicalstrings.com/HarpCamp.html
+/Billy.html 1 -
+/-source_box.width/2 2 -
+/BigRedt.html 1 -
+/Recordings.html/Recordings.html 1 -
+/Form_School_Reg.html 2 -
+/YT%202002.html 1 -
+/Images/Harp%20Conc%20Kailey.jpg 3 -
+/samples/best/the_rolling_wave.mp3 1 -
+/login/i 1 -
+/http:/www.sophie-moone.org/artwork_2571.html 1 -
+/Pam&KB3.html 1 -
+/CreatingWhereDragonsDance/Images/MSHeader-Background.gif 1 http://www.magicalstrings.com/CreatingWhereDragonsDance/2Quartetstanding1.html
+/BreninCello.html 1 -
+/harp121.htm 62 -
+/text/xml 2 -
+/miva/merchant.mv 67 -
+/disable/enable 1 -
+/Images/instruments/Harp%2520Conc%2520Oladion.jpg 4 -
+/school_assemblies_workshops_intro.html 1 -
+/mm/dd/yyyy 1 -
+/CreatingWhereDragonsDance/Where 1 -
+/samples/Musings%20Margaret 1 -
+/http:/www.sophie-moone.org/what%EF%BF%BD-s-up-with-me_3581.html 1 -
+/Reviews.html/Presskit.html 1 -
+/WDD_Home.htm 1 -
+/FAMILY%20COUCH.html 1 -
+/SchoolIndex.html/school_current_class.htm 2 -
+/includes/common/js/target_box.x+target_box.width/2 1 -
+/http:/www.sophie-moone.org/crazy-weather_4191.html 1 -
+/HarpCamp.html/index.html 1 -
+/news.html 1 -
+/update/i 1 -
+/delete/i 1 -
+/Images/Yuletide/YT_2007_medplus.jpg=http://www.lancasterfarms.com/images/12345609636.gif 1 -
+/includes/common/js/text/css 2 -
+/HarpCamp.html/Calendar.html 1 -
+/r-dances&dreams.html 1 -
+/HarpCamp.html/HarpsDulcimers.html 1 -
+/Philip1.html 1 -
+/Background-Gold.gif 1 http://www.magicalstrings.com/News2004.html
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 1010
+piano.yandex.ru 1308 1308 17052502 20090831065601
+spider54.yandex.ru 1190 1190 36179456 20090831235140
+seal001.yandex.ru 240 240 3224286 20090814065329
+67.55.72.165 196 206 471004 20090830074451
+89.122.29.32 120 120 1225147 20090817104625
+38.100.8.50 113 121 1023710 20090825083417
+g9214.upc-g.chello.nl 97 97 887386 20090825224336
+89.122.224.52 90 90 917710 20090815203713
+194.8.74.130 82 82 610676 20090831075744
+spider7.mail.ru 80 80 1577823 20090801190546
+92.241.182.25 74 74 287324 20090829182229
+fa.2d.344a.static.theplanet.com 72 72 480341 20090814221839
+92.241.182.30 66 66 343122 20090805032135
+c-76-28-129-134.hsd1.wa.comcast.net 63 301 4252285 20090827133610
+adsl-99-141-216-198.dsl.emhril.sbcglobal.net 63 96 18023109 20090817074231
+89.122.29.80 60 60 611198 20090826173012
+98.125.243.178 59 190 1675525 20090803110511
+121.14.76.185 57 57 11999157 20090830120917
+c-24-17-107-232.hsd1.wa.comcast.net 55 139 9968361 20090811210146
+121.138.194.106 55 55 493882 20090831141323
+222.123.9.145 55 55 1158921 20090802055720
+rrcs-71-41-201-38.sw.biz.rr.com 54 54 337472 20090828180442
+221.194.132.186 53 53 334589 20090806015518
+173-21-176-177.client.mchsi.com 53 249 14464465 20090816093954
+205.209.142.43 49 49 446773 20090828034109
+93.190.138.249 26 26 267950 20090817215430
+c-24-18-123-1.hsd1.wa.comcast.net 2 19 272779 20090802085541
+cache-ntc-ac05.proxy.aol.com 1 2 25973 20090822083153
+msnbot-65-55-220-209.search.msn.com 0 1 7171 
+c-76-29-92-231.hsd1.il.comcast.net 8 35 457554 20090801163255
+71-93-44-70.static.snlo.ca.charter.com 2 19 273292 20090829225312
+itcdsl126196.iro.ptd.net 9 50 428625 20090831145627
+ec2-67-202-18-89.compute-1.amazonaws.com 2 2 18232 20090827232410
+cpe-124-176-45-141.nsw.bigpond.net.au 3 27 367891 20090808022819
+cpe-121-219-119-124.vic.bigpond.net.au 2 19 273292 20090820213610
+213.212.251.83 2 10 83769 20090809103702
+65.55.217.58 25 33 269381 20090821174734
+esprx02x.nokia.com 1 11 220724 20090811135836
+pool-72-72-132-178.hrbgpa.dsl-w.verizon.net 2 19 273292 20090818084130
+75-169-125-209.slkc.qwest.net 1 10 108312 20090809084336
+ip68-7-3-64.sd.sd.cox.net 3 13 135320 20090811135121
+msnbot-65-55-165-112.search.msn.com 1 2 15089 20090822214754
+w6d51.ngnfl3.vectant.ne.jp 1 1 0 20090801015931
+cache-dtc-ab13.proxy.aol.com 0 1 23707 
+pool-96-232-213-213.nycmny.east.verizon.net 32 75 3725484 20090816130717
+nv-206-107-221-3.sta.embarqhsd.net 2 8 732703 20090826230701
+65.55.108.170 0 1 51530 
+72-193-54-24-dynamic.choicecable.net.193.54.24.in-addr.arpa 1 12 176163 20090818180349
+lputeaux-151-41-8-230.w217-128.abo.wanadoo.fr 1 1 805117 20090803060051
+65.55.231.43 0 2 14242 
+63-226-197-136.tukw.qwest.net 1 4 27698 20090826140343
+c-24-19-61-57.hsd1.wa.comcast.net 1 10 108312 20090805145759
+irvinemail.ci.irvine.ca.us 1 1 173043 20090804162127
+c-24-16-4-100.hsd1.wa.comcast.net 4 32 431072 20090819151620
+cache-dtc-af04.proxy.aol.com 1 1 15702 20090817050329
+207.108.244.129 1 12 176163 20090831135722
+66.249.17.200 1 12 175816 20090805201249
+210.51.184.62 1 1 5229 20090815040200
+68-116-173-192.dhcp.oxfr.ma.charter.com 2 20 216811 20090817032018
+58.61.164.139 29 47 310503 20090829233111
+adsl-76-226-81-24.dsl.sfldmi.sbcglobal.net 3 27 368238 20090830190625
+c-75-66-47-152.hsd1.tn.comcast.net 2 19 273292 20090827031606
+8.20.84.18 2 2 15294 20090819074656
+msnbot-65-55-220-223.search.msn.com 0 1 6008 
+65.55.231.119 0 1 51487 
+host-64-188-141-218.windjammercable.net 7 46 598301 20090816204739
+seadsl-d-209-90-238-54.dsl.w-link.net 6 61 773718 20090823165503
+cache-ntc-ac04.proxy.aol.com 0 6 32904 
+96-25-70-237.war.clearwire-wmx.net 4 22 290495 20090816080334
+static-90-10-224-77.ipcom.comunitel.net 1 1 105893 20090831103517
+208.79.147.101 2 14 189802 20090828164846
+netblock-75-79-141-246.dslextreme.com 3 22 315353 20090814195951
+c-67-183-216-82.hsd1.wa.comcast.net 9 39 4795487 20090816151428
+c-76-104-254-205.hsd1.wa.comcast.net 3 31 272779 20090808070458
+static-208-80-195-48.as13448.com 10 10 89204 20090830142855
+pool-71-112-254-12.sttlwa.dsl-w.verizon.net 8 23 1227123 20090831151201
+gate3-norfolk.nmci.navy.mil 1 4 24827 20090811082951
+97-85-54-211.dhcp.bycy.mi.charter.com 1 9 61889 20090815042840
+adsl-065-015-100-179.sip.jan.bellsouth.net 6 39 580938 20090817203648
+98.125.188.202 8 44 725084 20090819075058
+24-113-173-180.wavecable.com 3 9 109479 20090819155827
+79-79-154-131.dynamic.dsl.as9105.com 1 10 108499 20090819080156
+75-150-156-89-philadelphia.hfc.comcastbusiness.net 2 10 78284 20090813054656
+aquarius.theservergroup.net 3 3 27348 20090831154433
+173-23-218-135.client.mchsi.com 5 25 310697 20090810161925
+c-76-121-85-228.hsd1.wa.comcast.net 2 24 175816 20090804234112
+fl-64-45-235-152.sta.embarqhsd.net 3 19 268746 20090808103126
+cpc1-renf5-2-0-cust49.14-1.cable.virginmedia.com 2 19 272779 20090809132411
+67-60-50-61.cpe.cableone.net 7 48 630074 20090824104642
+c-98-239-10-84.hsd1.ms.comcast.net 4 19 228669 20090809232414
+anonymizer.kallisti.de 2 2 17513 20090809103708
+222.231.42.191 1 1 9116 20090814173708
+c-76-105-218-71.hsd1.or.comcast.net 1 10 108312 20090807165117
+c-98-247-46-168.hsd1.wa.comcast.net 3 15 198989 20090805161645
+91-150-17-199.customer.karistelefon.fi 3 16 454031 20090817235123
+wb35proxy05.ezweb.ne.jp 1 6 136292 20090828104248
+cache-dtc-ad15.proxy.aol.com 0 1 7121 
+pool-173-61-87-112.cmdnnj.fios.verizon.net 1 6 28840 20090825174844
+c-71-58-168-133.hsd1.pa.comcast.net 4 38 289676 20090816095049
+pool-70-16-50-92.syr.east.verizon.net 1 5 47541 20090811110848
+px2cv.gv.shawcable.net 3 21 343970 20090810192644
+msnbot-65-55-37-190.search.msn.com 0 3 20476 
+unknown.altushost.com 2 2 15135 20090830110003
+cache-ntc-aa09.proxy.aol.com 0 1 4976 
+nc-71-54-146-15.dhcp.embarqhsd.net 2 2 602920 20090803075922
+cache-dtc-aa03.proxy.aol.com 0 1 6988 
+cache-mtc-ad02.proxy.aol.com 1 1 25922 20090804054859
+remote.atsu.edu 7 65 403291 20090831102635
+71-212-48-166.tukw.qwest.net 3 17 204613 20090816012557
+123.125.69.13 1 1 9116 20090821033454
+206.53.157.28 3 17 204266 20090810205444
+12.red-88-17-71.dynamicip.rima-tde.net 1 6 32000 20090811143529
+cpe-74-69-112-72.rochester.res.rr.com 5 28 140435 20090823130717
+c-24-21-43-13.hsd1.wa.comcast.net 1 10 108499 20090824142141
+86.40.192.31 5 28 354960 20090817150846
+cache-dtc-af14.proxy.aol.com 0 1 3397 
+cache-dtc-ad11.proxy.aol.com 1 1 6674 20090817043314
+209.125.133.66 1 10 108499 20090820072006
+msnbot-65-55-220-13.search.msn.com 2 4 53784 20090830130335
+173-20-174-101.client.mchsi.com 2 19 272779 20090811183253
+cache-ntc-ac02.proxy.aol.com 0 4 9762 
+office.fatlens.com 1 1 9116 20090820162534
+static-208-80-195-33.as13448.com 8 8 71950 20090826115155
+system-91-142-57-222.fastnetonline.com 1 1 408546 20090801034932
+65.55.234.168 0 3 61254 
+nc7-rba-vif0-1.cache.isnet.net 2 14 190199 20090801052731
+i59f5d096.versanet.de 9 9 101822 20090824155703
+107.253.8.67.cfl.res.rr.com 3 11 880133 20090814203750
+74.125.16.65 1 1 8790 20090802122107
+58.61.164.141 27 45 292417 20090829215725
+ec2-174-129-146-185.compute-1.amazonaws.com 1 1 9116 20090826214913
+146-115-34-220.c3-0.smr-ubr1.sbo-smr.ma.cable.rcn.com 1 5 80641 20090811221455
+68-189-131-237.dhcp.wlwl.wa.charter.com 2 19 272779 20090811000114
+pool-71-113-66-136.sttlwa.dsl-w.verizon.net 1 10 108312 20090807151627
+cache-dtc-ab03.proxy.aol.com 1 1 25922 20090817050403
+cache-dtc-ad02.proxy.aol.com 1 2 39678 20090817050225
+cache-ntc-ab01.proxy.aol.com 0 3 50927 
+htest01.yandex.ru 12 12 109392 20090831234621
+baserver.proservis.net 26 26 276131 20090815040209
+cache-dtc-ab11.proxy.aol.com 0 1 28674 
+c-24-7-195-194.hsd1.il.comcast.net 10 47 605621 20090818075226
+host86-140-16-160.range86-140.btcentralplus.com 1 4 23338 20090810125557
+pool-71-113-9-244.sttlwa.dsl-w.verizon.net 8 37 311591 20090811214927
+dsl231-038-147.sea1.dsl.speakeasy.net 10 42 541599 20090805152413
+dodds-y128.pac.dodea.edu 0 1 0 
+61-229-81-164.dynamic.hinet.net 1 12 176163 20090825012022
+pool-71-115-164-64.gdrpmi.dsl-w.verizon.net 2 19 272779 20090801115442
+ip68-3-20-246.ph.ph.cox.net 1 10 108312 20090811165046
+pool-68-237-96-39.ny325.east.verizon.net 5 58 549598 20090815134335
+bas4-toronto63-1096806455.dsl.bell.ca 1 10 108499 20090828131007
+gate1-norfolk.nmci.navy.mil 0 6 44162 
+adsl-69-226-54-3.dsl.irvnca.pacbell.net 1 12 176163 20090822203156
+c-76-31-152-236.hsd1.tx.comcast.net 1 5 47562 20090830110901
+cpc3-ayle1-0-0-cust904.watf.cable.ntl.com 1 4 23359 20090823092655
+ip24-250-165-64.ga.at.cox.net 0 1 4195 
+c-71-236-150-162.hsd1.wa.comcast.net 1 10 108312 20090804213758
+cache-dtc-aa01.proxy.aol.com 0 1 28674 
+dsl254-015-179.sea1.dsl.speakeasy.net 3 17 201645 20090829235937
+pool-71-175-150-230.phlapa.east.verizon.net 9 65 392216 20090813140300
+63-224-250-184.ptld.qwest.net 3 21 284130 20090823153143
+ac5-webproxy60.direcpc.com 1 1 105893 20090824042418
+cache-ntc-ac06.proxy.aol.com 0 3 8668 
+220-244-175-4.static.tpgi.com.au 28 82 6900505 20090801152102
+65-101-111-160.spkn.qwest.net 6 37 553270 20090807082656
+rrcs-70-62-13-78.central.biz.rr.com 3 35 255709 20090811122724
+host-41.234.49.10.tedata.net 1 10 108499 20090819151133
+220.181.61.234 4 4 35486 20090815195104
+65.55.217.55 0 1 66818 
+dirt05.netscape.com 1 1 8790 20090812030351
+ppp-70-129-132-75.dsl.rcsntx.swbell.net 1 12 176163 20090831031244
+static-208-80-195-34.as13448.com 1 1 9116 20090828034414
+123.111.165.68 1 10 108312 20090811002131
+166.129.55.211 1 12 175816 20090813125624
+cache-dtc-ae04.proxy.aol.com 1 1 159788 20090817043735
+78.154.154.114 11 51 389438 20090809115416
+203-173-160-94.static.ihug.co.nz 1 11 111078 20090818194409
+8.20.84.12 1 1 7647 20090816095629
+msnbot-65-55-231-89.search.msn.com 0 1 19734 
+cache-dtc-ac01.proxy.aol.com 1 2 14589 20090807150925
+msnbot-65-55-165-111.search.msn.com 1 1 921 20090824013504
+64.113.1.122 0 1 2579 
+65.55.234.167 0 1 9646 
+c-24-63-130-175.hsd1.ma.comcast.net 1 12 175816 20090801220034
+cache-dtc-af08.proxy.aol.com 1 1 25922 20090817043327
+p4fdb6cf4.dip.t-dialin.net 3 19 594061 20090828013203
+78-86-120-96.zone2.bethere.co.uk 1 1 9116 20090817084637
+164.47.45.146 3 33 249477 20090821072920
+194.71.24.248 2 2 317952 20090829145240
+65.208.151.113 11 32 3121730 20090820171817
+069-064-230-111.pdx.net 2 14 189802 20090814151432
+cache-dtc-ab07.proxy.aol.com 1 1 46362 20090817043625
+msnbot-65-55-37-194.search.msn.com 0 1 5572 
+75-174-104-27.bois.qwest.net 2 19 273292 20090824105615
+74-61-45-79.sea.clearwire-dns.net 1 10 108499 20090822171611
+68.28.115.119 2 14 77980 20090816161022
+static-24-113-60-17.wavecable.com 9 58 535820 20090804115135
+msnbot-65-55-37-174.search.msn.com 9 9 83377 20090823151237
+p57a4c707.dip.t-dialin.net 1 1 9116 20090820194511
+p54a29c01.dip0.t-ipconnect.de 0 1 66818 
+ip68-7-184-34.sd.sd.cox.net 15 68 902717 20090825170802
+dpm-lm208.websys.aol.com 2 2 25560 20090813013855
+145wsaa.cvc.net 1 12 176163 20090820181636
+c-67-183-98-155.hsd1.wa.comcast.net 2 7 51906 20090818192205
+221-81-183-216.etnet.ca 38 60 718166 20090816065206
+38.119.133.34 6 40 1022240 20090817140424
+ip208.78.dhcp-acs2.511.iinet.com 6 38 271810 20090831182957
+node0.grid1.khronowerx.com 1 1 9116 20090814181406
+unused-64-111-143-130.unused.epix.net 1 12 175816 20090810102752
+muhc15220.muhc.mcgill.ca 2 19 273292 20090824101854
+s0106000d5689e6db.su.shawcable.net 6 33 301863 20090816131533
+pool-71-115-226-182.spknwa.dsl-w.verizon.net 8 56 1223449 20090805155233
+65.55.232.40 2 2 29384 20090818213813
+i154-126.nv.iinet.net.au 3 20 277108 20090814024749
+c-24-17-157-225.hsd1.wa.comcast.net 1 12 175816 20090808085726
+s0106000d934a55e4.vs.shawcable.net 1 12 175816 20090808002147
+host-72-175-103-106.lar-wy.client.bresnan.net 1 10 108312 20090802212043
+208.95.49.212 1 12 175816 20090801123713
+65.55.217.64 0 5 45072 
+adsl-76-229-168-226.dsl.milwwi.sbcglobal.net 5 13 940088 20090810154938
+n198-169-189-000.static.online-age.net 2 20 272779 20090804095044
+208.74.159.2 1 12 175816 20090808090324
+119.63.193.37 20 20 181668 20090831103910
+ip68-101-33-193.dc.dc.cox.net 6 33 432594 20090811125742
+cache-dtc-ad12.proxy.aol.com 1 1 14129 20090817050432
+ool-18bdee53.dyn.optonline.net 1 9 61889 20090825201643
+24-113-7-243.wavecable.com 1 12 175816 20090806201655
+d3-syd-equinix04.day3.com.au 1 10 108312 20090812051458
+92.41.115.38.sub.mbb.three.co.uk 1 4 23338 20090806054013
+cpe-67-242-173-106.rochester.res.rr.com 5 38 272258 20090830173507
+pool-71-112-147-37.sttlwa.dsl-w.verizon.net 2 19 272779 20090812211417
+c-67-170-83-11.hsd1.wa.comcast.net 8 22 198989 20090801153238
+nc-65-173-75-47.dyn.embarqhsd.net 2 19 273292 20090824143733
+bas10-montrealak-1128591575.dsl.bell.ca 3 3 27348 20090822175124
+dsl017-059-019.wdc2.dsl.speakeasy.net 6 30 1442005 20090817100113
+mn-74-5-69-251.dhcp.embarqhsd.net 26 78 6306676 20090802144147
+12.69.87.172 1 10 263655 20090802215040
+c-98-237-245-19.hsd1.wa.comcast.net 1 10 108499 20090830115539
+cpe-098-025-182-226.sc.res.rr.com 1 1 533652 20090820225155
+mail.majesticinnandspa.com 7 46 418525 20090809213850
+122.246.47.132 1 1 8790 20090811133539
+cache-dtc-ae12.proxy.aol.com 0 1 4195 
+cache-dtc-ac02.proxy.aol.com 0 2 5352 
+92.24.68.76 2 2 429751 20090814135141
+75-92-179-221.sea.clearwire-dns.net 4 19 220436 20090805135128
+indah.dcs.gla.ac.uk 1 1 9186 20090809075140
+ip185.98.dhcp-acs2.sea.iinet.com 2 12 21812 20090815152912
+ool-ad02b527.dyn.optonline.net 11 51 2428346 20090823105718
+bas10-montrealak-1128580967.dsl.bell.ca 1 1 9116 20090822162956
+or-67-237-96-8.sta.embarqhsd.net 4 17 182579 20090805115351
+adsl-76-192-2-167.dsl.wlfrct.sbcglobal.net 2 19 272779 20090809173158
+cache-mtc-ab01.proxy.aol.com 0 2 6794 
+65-101-89-98.dvnp.qwest.net 3 20 284583 20090812150403
+d67-193-123-193.home3.cgocable.net 8 50 740659 20090806095514
+s66-76-72-25.parscmta01.parstx.sta.suddenlink.net 1 1 533652 20090820082109
+c-24-19-151-113.hsd1.wa.comcast.net 2 12 129867 20090821073008
+cpe-76-166-241-128.socal.res.rr.com 0 1 57116 
+ip68-108-74-117.lv.lv.cox.net 7 27 404150 20090812104703
+cache-mtc-aa15.proxy.aol.com 0 1 57116 
+213.174.140.69 3 3 0 20090803143807
+75-172-28-110.tukw.qwest.net 1 10 108499 20090825182143
+c-67-164-223-30.hsd1.ca.comcast.net 1 1 9116 20090821115856
+msnbot-65-55-165-90.search.msn.com 1 1 14692 20090814172334
+201.196.130.222 1 6 28819 20090802155738
+msnbot-65-55-231-92.search.msn.com 0 1 2919628 
+c-24-22-184-52.hsd1.wa.comcast.net 6 34 437499 20090829161908
+c-71-230-168-88.hsd1.pa.comcast.net 2 28 121564 20090814204132
+93-42-216-165.ip88.fastwebnet.it 4 22 299787 20090809111235
+adsl-76-199-160-50.dsl.milwwi.sbcglobal.net 14 82 576468 20090823190101
+c-67-160-51-155.hsd1.wa.comcast.net 3 19 594061 20090829165206
+c-24-18-28-253.hsd1.wa.comcast.net 0 1 23707 
+93.107.157.45 2 32 238070 20090802151859
+pool-71-112-16-121.sttlwa.dsl-w.verizon.net 14 70 746260 20090830110621
+67.224.214.127 1 10 108312 20090802171839
+216.104.15.134 1 1 18634 20090819073730
+ip68-7-0-16.sd.sd.cox.net 2 19 273112 20090813212932
+65.55.231.51 2 3 34130 20090812231349
+bbdhome3-213-65.cwgsy.net 1 20 327140 20090815010742
+cache-dtc-af12.proxy.aol.com 0 1 1057 
+security.lightspeedsystems.com 1 5 152671 20090804062820
+65.55.231.67 0 1 6533 
+65.208.151.114 10 33 1421083 20090820081045
+cache-mtc-ab06.proxy.aol.com 0 2 10509 
+67.110.217.48.ptr.us.xo.net 1 10 108499 20090828141350
+c-24-18-226-108.hsd1.wa.comcast.net 1 10 108499 20090827094209
+24-113-68-209.wavecable.com 3 17 208950 20090831180942
+71-218-155-220.hlrn.qwest.net 3 12 429222 20090810221435
+c-76-121-216-7.hsd1.wa.comcast.net 13 106 1213982 20090826091651
+cpe00096b5f4e1b-cm001947933d08.cpe.net.cable.rogers.com 5 39 281569 20090813165005
+96.248.143.250 27 159 903076 20090804182317
+207.46.92.19 1 1 9116 20090824091910
+194.8.75.40 1 1 9866 20090821064853
+h214.148.21.98.dynamic.ip.windstream.net 4 40 454920 20090830121758
+205.193.221.87.dynamic.jazztel.es 48 48 440613 20090822221803
+121.97.148.168.bti.net.ph 1 10 108312 20090808013630
+196.1.179.242 1 1 7857 20090817073917
+adsl-71-136-227-94.dsl.sndg02.pacbell.net 1 5 80641 20090803160522
+74.222.3.186 4 4 36464 20090824234801
+81-233-67-208-no120.tbcn.telia.com 1 12 176163 20090829050519
+65.55.217.54 2 9 123861 20090820193406
+70.67.0.253 1 10 108499 20090814164634
+74.50.192.13 35 169 1051455 20090829164616
+cache-ntc-aa10.proxy.aol.com 0 1 56499 
+tide502.microsoft.com 1 12 175816 20090805115620
+p4fde2d76.dip.t-dialin.net 6 22 1829882 20090811102348
+cache-ntc-aa01.proxy.aol.com 0 2 26144 
+msnbot-65-55-108-133.search.msn.com 2 3 30801 20090816202944
+88-107-47-38.dynamic.dsl.as9105.com 3 38 258432 20090802063643
+24-113-228-61.wavecable.com 1 12 175816 20090813111720
+65.55.231.126 0 1 13756 
+msnbot-65-55-165-108.search.msn.com 2 3 13493 20090827135710
+98.125.239.165 2 12 119150 20090801175107
+66.155.195.2 4 29 229432 20090810210301
+67-40-11-126.tukw.qwest.net 22 61 5617878 20090815195629
+170.185.118.22 1 13 108499 20090819115522
+pool-71-124-197-210.bstnma.east.verizon.net 2 14 131604 20090822135442
+75-121-215-254.dyn.centurytel.net 1 9 61889 20090816233449
+204-112-96-154.dedicated.mts.net 2 19 272779 20090801140118
+ool-435348b7.dyn.optonline.net 1 10 108312 20090811104418
+adsl-75-57-65-99.dsl.emhril.sbcglobal.net 1 12 176163 20090824193307
+cache-dtc-aa12.proxy.aol.com 0 2 29929 
+75-105-13-199.cust.wildblue.net 2 23 287487 20090814104837
+c-71-197-150-105.hsd1.wa.comcast.net 6 35 485088 20090807205640
+mailing.orbus.fr 2 2 13910 20090809103700
+h251.51.23.98.dynamic.ip.windstream.net 2 19 272779 20090812090754
+static-208-80-195-38.as13448.com 5 5 45254 20090831163407
+24-164-172-243.hvc.rr.com 1 1 105893 20090831145621
+65.55.217.41 7 7 92607 20090820224811
+cache-dtc-aa02.proxy.aol.com 0 1 5572 
+pool-71-113-30-106.sttlwa.dsl-w.verizon.net 12 46 350750 20090816223324
+cache-mtc-ab15.proxy.aol.com 0 1 13072 
+174-21-17-134.tukw.qwest.net 20 75 4990434 20090831151629
+dhcp561-1-95.dsl.ucc-net.ca 5 21 461312 20090802123417
+124-170-214-40.dyn.iinet.net.au 4 24 897716 20090821073915
+pool-71-102-168-165.snloca.dsl-w.verizon.net 2 19 273292 20090816213524
+h147.128.21.98.dynamic.ip.windstream.net 9 68 322083 20090816071742
+207.229.13.65 4 36 261265 20090814083516
+116.25.128.239 1 1 8790 20090809205220
+c-24-16-250-61.hsd1.wa.comcast.net 9 52 696273 20090820171604
+c-98-225-27-100.hsd1.wa.comcast.net 4 33 439758 20090821201109
+cache-mtc-ab11.proxy.aol.com 0 1 28674 
+69-77-152-207.skybest.com 1 10 108312 20090803064247
+dustymain.dustystrings.com 5 33 461896 20090810143748
+gw.autotalolaakkonen.fi 2 29 168174 20090819060834
+c-98-247-140-120.hsd1.wa.comcast.net 6 31 371333 20090825151049
+24.130.70.225 1 1 364032 20090830080358
+msnbot-65-55-220-207.search.msn.com 0 2 155423 
+cache-ntc-ac08.proxy.aol.com 0 1 6988 
+71-32-81-89.tukw.qwest.net 4 28 377354 20090821121153
+65.55.108.156 0 2 1276413 
+64.56.64.57 1 1 8790 20090803093814
+71-212-94-156.tukw.qwest.net 3 9 46396 20090829085907
+dpc691914033.direcpc.com 0 1 6356 
+adsl-68-124-183-132.dsl.pltn13.pacbell.net 2 12 116607 20090814205151
+cache-mtc-ae15.proxy.aol.com 1 1 14129 20090828154421
+wb35proxy02.ezweb.ne.jp 0 3 19959 
+225.chicago-15rh15rt.il.dial-access.att.net 1 9 61868 20090811115155
+abts-kk-dynamic-134.19.172.122.airtelbroadband.in 1 1 805117 20090806065829
+193.253.141.72 3 16 164291 20090811162447
+75-172-30-114.tukw.qwest.net 2 19 272779 20090804202708
+cache-los-aa08.proxy.aol.com 2 2 0 20090807025131
+65.55.232.48 1 1 14692 20090807061654
+c-98-233-34-241.hsd1.md.comcast.net 2 19 272779 20090808063627
+pool-71-248-59-154.bltmmd.east.verizon.net 7 39 1275091 20090818121632
+cpe-24-209-225-223.cinci.res.rr.com 11 57 542507 20090810194439
+msnbot-65-55-220-206.search.msn.com 0 1 78723 
+c-71-197-221-168.hsd1.wa.comcast.net 1 4 27698 20090831091911
+71-36-32-196.tukw.qwest.net 2 14 198360 20090823145233
+c-67-183-73-178.hsd1.wa.comcast.net 6 45 544067 20090810194535
+msnbot-65-55-231-74.search.msn.com 0 1 6988 
+89.122.29.79 30 30 306520 20090803201110
+pd9ec3d8a.dip.t-dialin.net 2 2 86706 20090821030119
+93.107.95.131 1 4 23359 20090830105144
+ramonycajal.mit.edu 0 2 54016 
+19-68-133-95.pool.ukrtel.net 1 12 176163 20090821031056
+host86-156-102-111.range86-156.btcentralplus.com 2 19 273292 20090817082236
+65.55.217.57 3 6 71423 20090820155219
+adsl-240-154-36.msy.bellsouth.net 1 4 23359 20090829172432
+218.56.64.210 1 1 7647 20090830202640
+sciop-ip91.scinternet.net 1 12 176163 20090822093926
+cache-mtc-ad04.proxy.aol.com 0 3 8454 
+cache-mtc-aa01.proxy.aol.com 0 1 730 
+c-24-17-0-241.hsd1.wa.comcast.net 12 54 1059018 20090806211816
+187.104.119.70.cfl.res.rr.com 1 6 32000 20090812120429
+cn-esr1-74-215-80-125.fuse.net 2 19 272779 20090811163349
+bas19-montreal02-1176487556.dsl.bell.ca 4 32 458593 20090819151555
+rrcs-96-10-246-155.midsouth.biz.rr.com 3 35 313456 20090806183250
+host671420048130.direcway.com 0 1 20026 
+92-238-201-21.cable.ubr11.hawk.blueyonder.co.uk 1 4 23359 20090815111327
+c-24-18-11-199.hsd1.wa.comcast.net 0 2 47414 
+d66-183-57-244.bchsia.telus.net 2 2 7398 20090804163115
+pool-72-64-173-192.tampfl.dsl-w.verizon.net 2 19 273292 20090823202025
+65.55.217.62 0 1 5727 
+173-81-26-29-pkbg.atw.dyn.suddenlink.net 1 12 175816 20090811184218
+c-24-3-51-227.hsd1.pa.comcast.net 2 10 510953 20090817075032
+c-24-16-188-63.hsd1.wa.comcast.net 0 3 71121 
+msnbot-65-55-230-186.search.msn.com 14 14 123431 20090831233010
+24-113-95-83.wavecable.com 1 12 176163 20090816115554
+c-24-18-203-8.hsd1.wa.comcast.net 8 46 418466 20090825215712
+node126.piercecountylibrary.org 7 33 382274 20090825174456
+mobile-166-217-015-002.mycingular.net 1 9 61868 20090810114220
+41.207.187.10 11 37 4735373 20090804095003
+static.kpn.net 1 12 176163 20090826113803
+p54a390d6.dip0.t-ipconnect.de 1 1 22621 20090821102111
+c-71-197-186-152.hsd1.wa.comcast.net 1 12 175816 20090805153527
+ppp91-76-248-2.pppoe.mtu-net.ru 2 19 272779 20090811014256
+70-56-89-236.tukw.qwest.net 7 28 410314 20090819153223
+96.18.157.60 1 12 175816 20090806094247
+cache-ntc-ac07.proxy.aol.com 1 6 133029 20090822082647
+user-38lmbp3.cable.mindspring.com 2 22 272779 20090809115647
+67-42-92-245.tukw.qwest.net 11 48 699104 20090805093344
+83.69.207.42 3 3 34557 20090809103718
+unused.networksolutions.com 21 21 129872 20090829103337
+116.30.100.164 1 1 9116 20090831053658
+c-98-203-139-43.hsd1.wa.comcast.net 1 10 108499 20090822124134
+71-34-102-204.ptld.qwest.net 2 11 114864 20090821193738
+hiajhnstwc02.ngb.army.mil 2 19 273292 20090821130049
+207-118-92-14.stat.centurytel.net 1 1 173043 20090818171040
+11-197-113-92.pool.ukrtel.net 1 1 725496 20090825120707
+c-76-18-245-245.hsd1.fl.comcast.net 1 9 61889 20090816184438
+ips-crawl7.colo-fo.ilg1.verisign.com 20 20 223308 20090808100722
+static-71-127-90-14.aubnin.fios.verizon.net 1 1 8790 20090806003122
+75-121-133-245.dyn.centurytel.net 1 11 220724 20090801103704
+c-98-247-14-210.hsd1.wa.comcast.net 1 6 65510 20090820131111
+cpe0013f7f857ea-cm0013f7f857e6.cpe.net.cable.rogers.com 1 13 243519 20090818190558
+96.seattle-06rh15rt.wa.dial-access.att.net 2 14 189802 20090816215858
+p54890a54.dip0.t-ipconnect.de 1 1 11764 20090827115937
+76.216.112.146 3 20 282408 20090831201821
+ppp-69-230-86-212.dsl.irvnca.pacbell.net 4 39 368238 20090815231600
+adsl-220-218-129.bhm.bellsouth.net 1 9 61889 20090818191827
+254-90-262-66.syringanetworks.net 1 10 108499 20090828131955
+kd118157039105.ppp-bb.dion.ne.jp 3 17 889411 20090820064320
+cache-dtc-ae15.proxy.aol.com 2 2 18472 20090819201149
+c-76-25-231-11.hsd1.co.comcast.net 1 10 170662 20090816122906
+msnbot-65-55-231-83.search.msn.com 0 1 28045 
+97-113-250-190.tukw.qwest.net 5 39 520914 20090808081957
+c-76-121-93-37.hsd1.wa.comcast.net 1 10 108312 20090805175105
+cache-mtc-ac02.proxy.aol.com 0 3 8028 
+cpe-24-31-128-120.maine.res.rr.com 1 10 108499 20090830120534
+58.61.164.40 28 41 286777 20090829213331
+pool-72-80-177-29.nycmny.fios.verizon.net 12 12 4342968 20090817050405
+24-113-104-193.wavecable.com 1 10 108499 20090827213230
+216-160-150-239.hlrn.qwest.net 2 19 273292 20090827165909
+user-38q494d.cable.mindspring.com 2 12 116420 20090810053857
+8.20.84.16 2 2 15294 20090810110244
+wb35proxy07.ezweb.ne.jp 0 1 730 
+cpe-74-65-229-205.nyc.res.rr.com 5 23 576143 20090811021844
+msnbot-65-55-108-145.search.msn.com 0 1 23707 
+bzq-79-176-31-143.red.bezeqint.net 7 7 56680 20090806195636
+pool-96-235-191-90.cmdnnj.fios.verizon.net 20 64 6049270 20090813102829
+96.18.212.91 22 86 6118688 20090827105828
+wsip-216-231-25-34.oc.oc.cox.net 13 13 200334 20090805052332
+74.7.182.50 2 11 112315 20090817083312
+cache-mtc-ac07.proxy.aol.com 1 1 9116 20090828154414
+pool-71-116-161-91.lsanca.btas.verizon.net 2 19 272779 20090808083907
+cache-mtc-ab13.proxy.aol.com 0 1 23707 
+msnbot-65-55-220-163.search.msn.com 1 2 27457 20090825005911
+b2.27.85ae.static.theplanet.com 2 2 19018 20090821160013
+cache-mtc-af05.proxy.aol.com 0 3 7737 
+www.ambiweb.de 1 1 0 20090822225923
+5ac3ef2c.bb.sky.com 1 4 23338 20090812054716
+static-208-80-195-39.as13448.com 3 3 26696 20090819112623
+dynamic-oit-vapornet-c-214.princeton.edu 2 19 272779 20090809190053
+smtp.hllaw.com 1 1 11628 20090831095839
+65.55.232.41 1 1 14692 20090818044901
+feed5.local.corp.yahoo.com 1 1 8790 20090811145659
+host3-141-dynamic.6-87-r.retail.telecomitalia.it 1 11 166550 20090831104953
+ip72-218-109-159.hr.hr.cox.net 2 2 1067304 20090818194728
+msnbot-65-55-108-143.search.msn.com 1 2 9049 20090802193728
+pat-tdc.opera.com 1 8 56902 20090803132856
+65.55.231.104 1 2 23672 20090816103741
+c-98-233-11-180.hsd1.dc.comcast.net 1 9 61868 20090811210059
+c-76-121-40-61.hsd1.wa.comcast.net 1 12 175816 20090811192458
+n119237179098.netvigator.com 1 6 47541 20090807064451
+msnbot-65-55-230-187.search.msn.com 11 11 131295 20090831140935
+msnbot-65-55-220-216.search.msn.com 0 1 6356 
+c-71-197-238-104.hsd1.wa.comcast.net 3 31 285053 20090813213937
+s0106000f66ac396a.ok.shawcable.net 1 10 108499 20090815194553
+cache-ntc-aa05.proxy.aol.com 0 1 2844 
+cache-dtc-ab06.proxy.aol.com 0 2 20598 
+c-24-19-46-201.hsd1.wa.comcast.net 2 14 189802 20090830131849
+65.55.217.60 0 1 56499 
+fibhost-67-32-201.fibernet.hu 1 12 176163 20090816032329
+653279hfc77.tampabay.res.rr.com 4 22 304605 20090822134511
+c-174-51-173-153.hsd1.co.comcast.net 3 19 140364 20090810215537
+cache-dtc-ae06.proxy.aol.com 1 1 25922 20090817043352
+98.125.230.207 8 66 479464 20090816133155
+c-24-14-107-60.hsd1.il.comcast.net 2 20 216998 20090827223142
+c-98-237-221-113.hsd1.wa.comcast.net 3 21 295489 20090822144255
+cache-ntc-ab08.proxy.aol.com 0 1 1682 
+cache-mtc-ac01.proxy.aol.com 1 1 0 20090812152907
+65.55.232.49 1 1 14692 20090805193553
+216.57.213.220 5 36 467076 20090815111643
+c-71-237-211-50.hsd1.or.comcast.net 1 12 175816 20090812034335
+adsl-75-11-168-13.dsl.sndg02.sbcglobal.net 4 39 336270 20090810144656
+dsl017-115-033.sea1.dsl.speakeasy.net 6 54 380897 20090826152904
+mail.riderandassociates.com 5 36 637870 20090810091200
+tschild.de 2 2 0 20090829045308
+55-116-178-69.gci.net 1 4 27698 20090823100805
+cache-mtc-af08.proxy.aol.com 2 2 23460 20090817063301
+c-98-247-74-79.hsd1.wa.comcast.net 8 41 547519 20090823214845
+static-208-80-195-47.as13448.com 5 5 44928 20090824021009
+c-24-18-14-12.hsd1.wa.comcast.net 0 4 94828 
+66-190-28-96.dhcp.roch.mn.charter.com 29 80 995289 20090808195158
+165.83.87.169 1 12 176163 20090824124026
+71-32-81-162.tukw.qwest.net 5 34 468918 20090809013743
+38.105.83.6 48 51 453037 20090807153105
+pool-74-104-23-198.bstnma.east.verizon.net 1 7 27415 20090809114300
+151.138.28.142 1 12 176163 20090826051414
+tmcb-u110-3n1e-ce2.byu.edu 2 19 272779 20090805115454
+205.201.115.18 1 18 234091 20090822104437
+206.53.153.173 4 16 265105 20090810190548
+host-69-146-247-160.kls-mt.client.bresnan.net 1 10 108499 20090826043235
+c-71-197-132-162.hsd1.wa.comcast.net 3 20 281898 20090823175618
+c-24-16-67-98.hsd1.wa.comcast.net 13 65 713536 20090830123436
+65.55.217.66 0 3 12105 
+203.sub-70-192-18.myvzw.com 1 10 108499 20090826094937
+c-67-185-47-247.hsd1.wa.comcast.net 4 32 430725 20090811211312
+64.27.10.39 2 2 18232 20090818064225
+174-21-60-40.tukw.qwest.net 4 26 332250 20090807124953
+msnbot-65-55-109-101.search.msn.com 3 19 333518 20090808204024
+65.208.151.112 18 33 6182544 20090820171824
+z.meditech.com 2 14 189802 20090827102138
+c-24-18-167-141.hsd1.wa.comcast.net 3 17 231863 20090815084047
+msnbot-65-55-220-210.search.msn.com 1 2 11125 20090827200546
+dns1.pavianetwork.com 2 2 11476 20090809103708
+host86-140-164-104.range86-140.btcentralplus.com 1 10 108312 20090807233003
+c-71-227-207-52.hsd1.wa.comcast.net 4 38 272779 20090805111614
+c-24-18-117-3.hsd1.wa.comcast.net 2 19 102296 20090820183432
+211.136.86.204 1 1 9902 20090815040033
+119.131.201.235 1 1 9116 20090820052102
+udp134421uds.hawaiiantel.net 2 19 272779 20090802031152
+ip-85.128.38.194.static.crowley.pl 15 15 153269 20090830213151
+pool-71-115-152-234.gdrpmi.dsl-w.verizon.net 2 19 273292 20090816125308
+220.181.26.124 1 1 8790 20090809031655
+rrcs-24-129-150-120.se.biz.rr.com 6 14 2083289 20090814132353
+host65-16-135-133.birch.net 1 12 176163 20090827182056
+cache-dtc-af05.proxy.aol.com 0 2 5158 
+113.91.7.71 4 32 431072 20090828020225
+24-113-77-181.wavecable.com 3 18 201164 20090813213937
+69-42-237-141.rrt.stellarllc.net 1 4 23338 20090807113216
+124.115.1.8 27 42 283470 20090829235847
+ec2-75-101-226-83.compute-1.amazonaws.com 2 2 19018 20090827100649
+204.152.60.20 16 83 1017707 20090827163934
+nv-67-232-142-66.dhcp.embarqhsd.net 4 22 299787 20090805210734
+dsl-216-227-68-163.pmtnet.net 1 10 108312 20090812115651
+adsl-155-16-86.tys.bellsouth.net 3 29 381791 20090826122129
+194.8.75.251 16 16 159763 20090829062147
+cache-ntc-ab05.proxy.aol.com 0 2 11144 
+ec2-67-202-11-18.compute-1.amazonaws.com 2 2 18692 20090812092124
+92.17.151.91 1 4 23359 20090818050750
+cache-dtc-ae09.proxy.aol.com 2 2 72284 20090817043753
+host86-168-24-172.range86-168.btcentralplus.com 2 16 254128 20090822121428
+151.68.43.199 1 1 11804 20090806014701
+h-68-165-77-214.sttnwaho.dynamic.covad.net 3 21 309263 20090819074404
+89-32-3-27-comloc.romplus.net 1 7 31431 20090813121938
+c-69-136-223-242.hsd1.pa.comcast.net 12 33 2867181 20090818140000
+c-69-139-91-228.hsd1.pa.comcast.net 1 9 61889 20090815071250
+morgue2.corp.yahoo.com 5 5 44928 20090830051441
+pool-71-254-246-56.hrbgpa.dsl-w.verizon.net 2 28 121543 20090810205548
+gw-bco.battelle.com 1 12 176163 20090827125551
+124.115.0.145 2 4 23882 20090821152421
+210-213-9-34.static.asianet.co.th 17 56 4377556 20090824194054
+105.4.8.67.cfl.res.rr.com 1 1 9116 20090829082601
+user-387h2us.cable.mindspring.com 1 1 23220 20090816051926
+76.164.21.55 2 8 45310 20090817121607
+pa-67-234-253-116.dhcp.embarqhsd.net 1 9 61889 20090817111343
+75-164-225-129.ptld.qwest.net 2 19 272779 20090812132836
+ip98-183-134-254.hr.hr.cox.net 3 23 260410 20090817055224
+ool-45776daf.dyn.optonline.net 2 24 176163 20090819105847
+116.25.15.60 1 1 8957 20090813213627
+c-24-16-253-26.hsd1.wa.comcast.net 4 40 593485 20090819221859
+pool-173-48-123-185.bstnma.fios.verizon.net 2 14 189802 20090817233101
+98.125.231.220 9 38 471958 20090804095809
+host83-145-dynamic.11-87-r.retail.telecomitalia.it 1 11 166550 20090826134600
+ext-1-7.ghc.org 15 31 5386849 20090824112551
+193.171.32.6 1 2 8011 20090809103716
+pool-74-106-68-169.spfdma.east.verizon.net 2 19 272779 20090805071233
+host86-135-175-18.range86-135.btcentralplus.com 3 22 315353 20090815075151
+75-151-121-237-washington.hfc.comcastbusiness.net 1 12 175816 20090813110952
+static-208-80-195-55.as13448.com 6 6 54044 20090831154156
+dsl-64-30-205-173.static.linkline.com 2 3 26070 20090819155036
+cache-mtc-af15.proxy.aol.com 0 3 12585 
+24.113.35.15 1 10 108499 20090827112354
+c-67-183-248-59.hsd1.wa.comcast.net 1 12 175816 20090809110305
+cache-dtc-ad04.proxy.aol.com 0 2 5629 
+rrcs-208-105-139-8.nys.biz.rr.com 2 2 18372 20090815145839
+pool-96-235-0-66.pitbpa.east.verizon.net 2 13 185279 20090816132025
+cpe-173-89-219-234.insight.res.rr.com 1 12 175816 20090811150729
+msnbot-65-55-232-39.search.msn.com 2 2 29384 20090819211707
+c-98-232-63-117.hsd1.wa.comcast.net 0 2 47414 
+c-71-204-211-62.hsd1.md.comcast.net 3 28 110852 20090811121945
+38.108.67.30 1 1 9116 20090831145836
+77.35.201.19 3 34 248977 20090823015421
+c-24-18-197-178.hsd1.wa.comcast.net 3 27 367887 20090804150045
+c-24-131-200-149.hsd1.pa.comcast.net 8 39 516812 20090823160701
+149.sub-75-253-122.myvzw.com 3 21 284130 20090815085833
+ip-67-205-85-53.static.privatedns.com 1 1 9116 20090825141926
+static-208-80-195-36.as13448.com 3 3 27022 20090828045055
+adsl-99-16-181-179.dsl.irvnca.sbcglobal.net 2 2 9116 20090828040220
+209.17.186.10 1 1 8790 20090813041229
+75-101-8-77.dsl.static.sonic.net 3 34 248939 20090802090605
+crawler6132.ask.com 2 24 351979 20090823045444
+cache-dtc-ae05.proxy.aol.com 2 2 37652 20090817050315
+65.55.217.65 0 9 148873 
+cache-ntc-ab10.proxy.aol.com 0 3 3888 
+cache01.vgs.untd.com 1 9 61889 20090829170339
+c-71-229-96-122.hsd1.fl.comcast.net 1 12 175816 20090804185740
+98.125.177.101 12 58 608022 20090805121153
+pool-96-227-99-253.phlapa.east.verizon.net 2 19 273292 20090829192028
+d154-20-49-139.bchsia.telus.net 1 12 175816 20090806081550
+pool-71-248-89-152.bltmmd.east.verizon.net 2 15 93868 20090810190831
+24-113-61-111.wavecable.com 6 26 348248 20090804133554
+ec2-67-202-1-148.compute-1.amazonaws.com 1 1 9116 20090830033103
+c-67-176-82-194.hsd1.co.comcast.net 1 9 61868 20090812230254
+91.142.63.252 1 1 805117 20090812151550
+166-205-130-221.mobile.mymmode.com 3 27 367891 20090802192750
+aa20080909957cd7d40e.userreverse.dion.ne.jp 1 1 9116 20090823110739
+67.sub-75-223-104.myvzw.com 2 24 90107 20090807205513
+65.55.234.164 0 1 5869 
+c-24-22-255-25.hsd1.wa.comcast.net 2 19 272779 20090808101730
+adsl-68-127-87-172.dsl.frsn02.pacbell.net 0 1 13610 
+67-40-198-238.tukw.qwest.net 13 57 558358 20090831104440
+40.red.171.225.212.user.ptvtelecom.com 1 1 9116 20090826162048
+65.55.231.27 1 2 84807 20090815182002
+w170191.wireless.fsr.net 2 19 272779 20090802215329
+cpe-121-214-37-27.lnse4.win.bigpond.net.au 1 10 108499 20090824174238
+netblock-68-183-66-172.dslextreme.com 1 1 8790 20090805143908
+c-67-163-129-211.hsd1.pa.comcast.net 1 1 8790 20090810170118
+static-208-80-195-54.as13448.com 6 6 53392 20090817122111
+c-24-17-251-214.hsd1.wa.comcast.net 6 32 407437 20090817150616
+65.208.151.118 15 27 2165454 20090820171707
+cache-mtc-af02.proxy.aol.com 0 2 14242 
+24-113-84-173.wavecable.com 1 1 11730 20090824201304
+c-24-20-69-53.hsd1.or.comcast.net 4 23 326644 20090812193951
+c-67-185-4-198.hsd1.wa.comcast.net 2 6 0 20090809002757
+ks29436.kimsufi.com 1 1 8790 20090801162725
+ip565a4150.direct-adsl.nl 4 38 273292 20090826110950
+128.148.208.97 1 12 176163 20090821083630
+c-76-22-127-77.hsd1.wa.comcast.net 8 33 416698 20090809211217
+95.83.192.206 6 50 286413 20090825134939
+c-98-243-176-179.hsd1.mi.comcast.net 1 10 108312 20090808171604
+c-71-226-49-1.hsd1.az.comcast.net 2 19 272779 20090805122330
+host671420024163.direcway.com 0 2 25456 
+pool-96-253-131-225.sttlwa.fios.verizon.net 10 63 549439 20090819144529
+71-14-107-252.dhcp.gnvl.sc.charter.com 2 25 85274 20090812115359
+cache-ntc-ab03.proxy.aol.com 1 1 14692 20090816201923
+smtp.gcsd.k12.sc.us 1 4 23359 20090821094851
+wwapp1.mukilteo.wednet.edu 6 34 530036 20090827151734
+68-116-42-46.static.lncn.or.charter.com 1 9 61868 20090802083527
+egooge.com 1 12 176163 20090817191535
+w6d209.ngnfl4.vectant.ne.jp 1 1 0 20090808013730
+24-113-91-94.wavecable.com 9 47 523525 20090831145051
+cache-mtc-ac04.proxy.aol.com 0 1 10569 
+189-19-6-226.dsl.telesp.net.br 6 6 56722 20090804100927
+host1.tailwind.ca 3 3 26370 20090810060524
+cpe-97-104-250-171.cfl.res.rr.com 20 28 7756265 20090814181102
+189-18-155-98.dsl.telesp.net.br 16 65 1537744 20090814063507
+adsl-99-141-73-54.dsl.chcgil.sbcglobal.net 4 32 431068 20090819194528
+pool-71-112-208-62.sttlwa.dsl-w.verizon.net 7 48 643071 20090828224632
+pa-67-234-23-50.dhcp.embarqhsd.net 2 19 273292 20090826121142
+cache-dtc-af02.proxy.aol.com 1 1 25922 20090817043422
+65.55.232.45 3 3 44076 20090818195548
+63-231-53-168.tukw.qwest.net 3 29 190199 20090803203017
+cpe-98-15-241-201.hvc.res.rr.com 1 10 108499 20090829154842
+c-66-176-21-18.hsd1.fl.comcast.net 8 85 932032 20090831081854
+cache-dtc-ae11.proxy.aol.com 0 1 23707 
+cache-mtc-af03.proxy.aol.com 0 1 5869 
+75-172-103-95.tukw.qwest.net 10 54 484130 20090815215213
+s010600112f2d1603.gv.shawcable.net 7 23 282985 20090821182822
+msnbot-65-55-108-159.search.msn.com 1 2 4269692 20090805042442
+adsl-75-44-216-141.dsl.chi2ca.sbcglobal.net 1 9 61889 20090816064634
+blk-89-222-69.eastlink.ca 1 1 335387 20090802105209
+pool-71-112-246-179.sttlwa.dsl-w.verizon.net 1 12 175816 20090801221006
+c-98-240-210-56.hsd1.mn.comcast.net 1 1 344146 20090830093119
+24.244.178.198 2 16 254128 20090822180238
+pool-71-112-128-196.sttlwa.dsl-w.verizon.net 1 12 175816 20090806193120
+65.208.151.119 12 28 6047059 20090820081007
+c-98-216-101-39.hsd1.ma.comcast.net 5 19 220016 20090825182435
+h134.156.146.64.coastaccess.com 1 12 175816 20090806144229
+ip-95-223-170-13.unitymediagroup.de 1 12 176163 20090818074128
+174-21-15-39.tukw.qwest.net 6 18 174849 20090823071502
+97-112-184-131.clsp.qwest.net 0 1 23707 
+cache-mtc-ac09.proxy.aol.com 0 3 40830 
+83-71-14-188-dynamic.b-ras1.dbn.dublin.eircom.net 6 23 301192 20090816140821
+64.56.67.154 1 1 8790 20090802030505
+24.102.239.81.res-cmts.eph.ptd.net 3 34 249286 20090819072806
+tuning99.com 3 3 0 20090815074425
+66.179.93.124 1 1 11730 20090807111633
+pool-71-112-223-138.sttlwa.dsl-w.verizon.net 2 14 131504 20090805190726
+mdc-bc-3.utc.com 1 10 263655 20090804073342
+bas1-guelph22-1177767830.dsl.bell.ca 2 2 19022 20090827015317
+c-76-99-8-234.hsd1.pa.comcast.net 1 5 47562 20090817200017
+0019219e87ce.click-network.com 6 44 572246 20090814112402
+cpc3-brig14-0-0-cust903.brig.cable.ntl.com 1 5 80641 20090828072342
+static-208-80-195-41.as13448.com 3 3 26696 20090819122012
+68-191-60-207.dhcp.nwtn.ct.charter.com 1 12 176163 20090816154943
+65.55.232.42 1 1 14692 20090817210536
+cache-ntc-ab06.proxy.aol.com 1 2 8582 20090822083110
+user-10lf7l3.cable.mindspring.com 1 9 61868 20090810201925
+cache-dtc-ae02.proxy.aol.com 0 1 2579 
+ool-4350df18.dyn.optonline.net 4 30 276595 20090810155900
+c-24-18-242-42.hsd1.wa.comcast.net 1 12 176163 20090820223517
+adsl-68-123-233-228.dsl.irvnca.pacbell.net 7 54 521674 20090811200129
+elc.braila.astral.ro 1 1 12927 20090809103712
+201.160.159.191.cable.dyn.cableonline.com.mx 3 33 247533 20090817121746
+mail.shgl.org.uk 2 5 37458 20090809173908
+114.80.93.71 21 31 217182 20090829224039
+pool-71-187-159-19.nwrknj.fios.verizon.net 1 4 23359 20090817141821
+pool-71-240-149-224.hrbgpa.east.verizon.net 2 19 273292 20090827121053
+89-178-83-184.broadband.corbina.ru 46 46 430790 20090813203600
+116.30.95.239 1 1 9116 20090814010829
+75-143-78-16.dhcp.aubn.al.charter.com 2 29 322192 20090817080254
+9.sub-75-198-111.myvzw.com 12 47 595631 20090811211635
+93-42-230-17.ip88.fastwebnet.it 4 22 299787 20090805082511
+static-208-80-195-42.as13448.com 1 1 9116 20090830134838
+adsl-75-32-191-169.dsl.irvnca.sbcglobal.net 8 39 669181 20090812154527
+124.115.1.7 22 34 229929 20090827205104
+63.227.225.242 1 5 80641 20090810114616
+65.208.151.117 7 20 6105365 20090820081047
+71-215-156-248.ptld.qwest.net 3 15 189802 20090831144548
+wsip-70-167-73-137.sd.sd.cox.net 3 27 367891 20090813103923
+b2.a2.5646.static.theplanet.com 1 1 28900 20090818162551
+cache-dtc-ab15.proxy.aol.com 1 2 42779 20090817050256
+chtwpe0105w-142068022146.pppoe-dynamic.pei.aliant.net 1 5 80641 20090803090527
+74-32-169-19.dr01.myck.or.frontiernet.net 4 22 355774 20090807201348
+h-180-103.scoutjet.com 15 15 162046 20090809090036
+msnbot-65-55-230-184.search.msn.com 5 5 37028 20090825122842
+72.13.91.38 1 2 12539 20090803040247
+static-72-85-231-250.bstnma.east.verizon.net 2 2 9116 20090830143905
+es2-84-91-4-241.netvisao.pt 2 13 185279 20090823123937
+cpe-72-224-141-97.maine.res.rr.com 2 19 273292 20090825043734
+124-170-238-167.dyn.iinet.net.au 2 19 273292 20090814074526
+dhcp-10-160.edcenter.lane.edu 1 12 175816 20090804172935
+79.101.10.33 1 3 15343 20090803040152
+97-113-119-169.tukw.qwest.net 23 89 670079 20090805094938
+ec2-67-202-33-229.compute-1.amazonaws.com 2 2 18232 20090831150528
+70-96-165-0-dsl-pdx.hei.net 6 35 463175 20090821165901
+pool-173-49-81-132.phlapa.fios.verizon.net 1 1 105893 20090809143513
+253.174.136.219.broad.gz.gd.dynamic.163data.com.cn 1 1 9116 20090822003910
+acl1-1502bts.gw.smartbro.net 1 12 176163 20090817043240
+cpe-121-223-27-6.qld.bigpond.net.au 1 12 175816 20090813142337
+ip51cc2bd1.speed.planet.nl 0 11 167026 
+cpc3-blac1-0-0-cust225.manc.cable.ntl.com 1 4 23359 20090826060857
+65.55.231.101 1 2 16565 20090801214512
+65.55.108.76 2 4 53788 20090831045053
+d149-67-213-221.nap.wideopenwest.com 4 38 290073 20090802183603
+nc-63-162-197-228.sta.embarqhsd.net 1 10 108499 20090820062816
+nmd.sbx08345.memphtn.wayport.net 1 5 80641 20090808181708
+h-180-86.scoutjet.com 3 3 26370 20090808014717
+c-24-19-11-228.hsd1.wa.comcast.net 1 10 108499 20090828222459
+wdas-1.disneyanimation.com 1 5 47562 20090824115501
+pool-98-111-64-44.sttlwa.fios.verizon.net 2 14 189802 20090830192207
+dpc691914039.direcpc.com 1 19 248739 20090801085522
+u-159-189-131-148.xr.usgs.gov 2 10 77514 20090811104335
+8.20.84.14 1 1 7647 20090810150534
+p57a4cf2b.dip.t-dialin.net 1 1 9116 20090818003914
+adsl-99-186-238-34.dsl.bltnin.sbcglobal.net 2 17 211236 20090823215707
+93.174.93.55 6 6 80113 20090822183530
+c-68-52-59-254.hsd1.tn.comcast.net 1 6 28840 20090831101324
+wb35proxy04.ezweb.ne.jp 0 1 13610 
+mw-esr1-72-49-69-223.fuse.net 16 77 1149852 20090813134546
+75-167-71-228.desm.qwest.net 2 14 189802 20090817201242
+net-93-70-127-163.cust.dsl.vodafone.it 7 23 1028777 20090819042556
+msnbot-65-55-37-196.search.msn.com 0 1 13721 
+cache-ntc-ab04.proxy.aol.com 0 2 102974 
+152-132-13-1.dal.net.va.gov 2 19 272779 20090803103950
+65.55.231.127 0 1 13756 
+rrcs-74-87-148-93.west.biz.rr.com 2 14 186414 20090829213735
+pool-71-112-79-180.sttlwa.dsl-w.verizon.net 1 12 175816 20090806181721
+c-98-247-75-191.hsd1.wa.comcast.net 3 35 255957 20090822204334
+216-220-16-111.dsl.3rivers.net 7 50 455737 20090814164038
+client-141-158-20-2.sovereignbank.com 1 9 61889 20090824082946
+adsl-144-138-91.rmo.bellsouth.net 4 22 296394 20090831125701
+cache-dtc-af03.proxy.aol.com 0 1 5869 
+pool-71-175-126-124.phlapa.east.verizon.net 2 19 273292 20090829201057
+67-124-210-2.directed.com 1 5 47562 20090817170810
+67-61-192-39.cpe.cableone.net 23 146 865888 20090829215620
+63-229-25-111.tukw.qwest.net 3 26 113299 20090804202153
+cache-mtc-ab05.proxy.aol.com 0 1 5572 
+sprint-65-160-229-33.smf.ragingwire.net 1 9 61868 20090813142052
+cache-ntc-aa04.proxy.aol.com 0 4 11429 
+75-165-48-111.tukw.qwest.net 2 11 112315 20090824135418
+66-73-90-130.choosechicago.com 1 12 176163 20090820125555
+65.55.234.159 6 6 39601 20090831015131
+pool-71-112-224-214.sttlwa.dsl-w.verizon.net 1 10 108312 20090801093122
+65.55.231.112 0 1 30167 
+95-24-18-250.broadband.corbina.ru 2 2 18232 20090818114513
+72-24-101-176.cpe.cableone.net 1 10 108312 20090804190127
+38.109.37.42 14 14 147261 20090821044736
+c-98-223-245-93.hsd1.in.comcast.net 3 25 455730 20090803080620
+99-54-55-133.lightspeed.orpkil.sbcglobal.net 2 10 47562 20090822124144
+static-208-80-195-37.as13448.com 3 3 26696 20090829103023
+93.157.202.70 0 1 25111 
+msnbot-65-55-37-195.search.msn.com 0 1 4195 
+dsl092-075-173.bos1.dsl.speakeasy.net 2 15 189611 20090814193812
+dsl-189-129-185-78-dyn.prod-infinitum.com.mx 1 6 28819 20090811075820
+ip72-192-222-107.dc.dc.cox.net 1 1 805117 20090814182542
+msnbot-65-55-108-137.search.msn.com 0 1 7917 
+gvgrocery.com 4 21 285385 20090809123138
+97-126-120-103.tukw.qwest.net 1 10 108312 20090801155440
+c-67-183-20-26.hsd1.wa.comcast.net 18 74 826858 20090821215113
+adsl-69-154-245-191.dsl.snantx.swbell.net 1 12 175816 20090810202421
+adsl-76-220-95-180.dsl.covlil.sbcglobal.net 3 27 105140 20090821151748
+cpe-67-247-142-226.rochester.res.rr.com 1 12 176163 20090823111754
+121.214.147.17 2 19 272779 20090810152532
+c-67-183-224-140.hsd1.wa.comcast.net 1 9 65351 20090815190225
+c-24-16-228-152.hsd1.wa.comcast.net 4 20 735089 20090825222607
+or-76-2-7-139.dhcp.embarqhsd.net 2 19 272779 20090801125348
+65.55.109.74 1 2 11985 20090823042304
+90-228-211-238-no78.tbcn.telia.com 5 41 588132 20090814101046
+h-67-100-125-241.noclli.covad.net 9 30 322063 20090828161940
+c-71-227-67-8.hsd1.mi.comcast.net 1 12 176163 20090829180412
+24-113-78-194.wavecable.com 6 34 208950 20090828200858
+d72-39-87-6.home1.cgocable.net 1 12 175816 20090812153141
+emailt.jigsaw.com 1 1 9116 20090825203647
+65.55.217.67 0 3 30491 
+ool-43532d38.dyn.optonline.net 2 6 95333 20090815192101
+251.239.95.24.cfl.res.rr.com 11 47 1526293 20090817072927
+190-207-123-172.dyn.dsl.cantv.net 1 11 220724 20090807110032
+msnbot-65-55-104-70.search.msn.com 2 14 188074 20090819131905
+c-24-17-245-57.hsd1.wa.comcast.net 1 12 176163 20090822095453
+65.208.151.116 15 31 1985022 20090820171453
+74.218.102-84.rev.gaoland.net 2 2 365076 20090815022505
+98.125.217.182 5 24 366159 20090816074347
+cache-ntc-aa08.proxy.aol.com 0 1 1752 
+65-19-12-172.cybermesa.com 2 19 272779 20090812150217
+gate6-norfolk.nmci.navy.mil 1 1 360504 20090811083044
+c-24-99-113-150.hsd1.ga.comcast.net 0 1 57116 
+msnbot-65-55-165-85.search.msn.com 1 2 9689 20090828155111
+host671420017130.direcway.com 1 12 103471 20090828135320
+c-98-232-79-246.hsd1.wa.comcast.net 1 12 176163 20090826230653
+213.174.153.17 1 1 0 20090826052029
+borderfreehosting.com 4 4 38940 20090815212244
+msnbot-65-55-234-169.search.msn.com 0 1 13072 
+dsl081-052-159.sfo1.dsl.speakeasy.net 3 22 315353 20090822180913
+c-24-16-146-37.hsd1.wa.comcast.net 10 57 627028 20090802170722
+h-180-23.scoutjet.com 1 1 8790 20090806050022
+71-217-149-119.hlna.qwest.net 1 9 65330 20090806135104
+pool-71-112-40-55.sttlwa.dsl-w.verizon.net 5 20 230848 20090823173723
+169.130.19.14 2 13 305716 20090805125405
+38.99.65.50.nativehosting.com 1 1 7647 20090829065827
+24-113-133-146.wavecable.com 28 70 583974 20090813070313
+pool-98-111-113-144.hrbgpa.fios.verizon.net 2 11 422393 20090816184939
+c-24-22-116-63.hsd1.or.comcast.net 3 39 276299 20090808175947
+c-76-121-4-190.hsd1.wa.comcast.net 7 39 668450 20090829132956
+mail.dawood.cc 2 18 123778 20090815185531
+98.125.163.59 4 18 274375 20090813005602
+s0106000e08e94e4e.vc.shawcable.net 1 12 176163 20090827165458
+cache-mtc-aa02.proxy.aol.com 0 1 51487 
+barracuda.melbay.com 1 12 176163 20090814145014
+hosted-by.leaseweb.com 1 1 805117 20090813083345
+adsl-19-248-114.bna.bellsouth.net 3 17 180299 20090810181742
+205.203.134.197 1 1 8957 20090813191628
+cpe-174-101-219-121.cinci.res.rr.com 4 12 1409492 20090813212823
+ip68-110-70-94.ph.ph.cox.net 1 9 176913 20090817180358
+207.46.92.16 0 1 28674 
+82-38-233-238.cable.ubr06.shef.blueyonder.co.uk 1 4 22650 20090827102149
+pool-71-112-71-253.sttlwa.dsl-w.verizon.net 1 12 175816 20090806174058
+hst000076225um.lib.olemiss.edu 6 39 302055 20090824205239
+mcaslan.unbsj.ca 2 19 273292 20090820095330
+170.167.4.200 1 10 263655 20090805093424
+66-169-14-227.dhcp.spbg.sc.charter.com 3 20 282408 20090831103130
+cache-dtc-af10.proxy.aol.com 0 1 5869 
+cache-mtc-ae05.proxy.aol.com 0 2 27512 
+97-93-77-129.static.rvsd.ca.charter.com 1 11 220911 20090815153751
+65.55.234.166 1 4 11436 20090805000136
+71-212-2-56.tukw.qwest.net 0 1 23707 
+cache-ntc-ac01.proxy.aol.com 3 6 52265 20090831212326
+p03904d.tokynt01.ap.so-net.ne.jp 1 12 176163 20090822015532
+65.55.232.44 3 3 44076 20090818020224
+c-76-18-115-208.hsd1.al.comcast.net 1 6 32021 20090818115016
+c-76-28-129-108.hsd1.wa.comcast.net 7 33 477894 20090806190552
+49.212.broadband6.iol.cz 15 122 1392928 20090828233322
+242.219.196.216.ded-dsl.fuse.net 1 9 61868 20090811152121
+200-204-150-165.dsl.telesp.net.br 1 1 8790 20090809151353
+ool-18bdecb8.dyn.optonline.net 1 5 29709 20090826075714
+70-58-80-247.tukw.qwest.net 6 40 640159 20090816113115
+catv-80-99-97-99.catv.broadband.hu 6 41 550400 20090822112223
+ew01.sagamihara.attmil.ne.jp 1 1 533652 20090819235821
+68.28.59.113 4 16 197434 20090814205531
+ec2-174-129-244-170.compute-1.amazonaws.com 0 5 42807 
+78-33-237-146.static.enta.net 2 2 17906 20090814134907
+net66-219-58-34.static-customer.corenap.com 39 39 284628 20090829072843
+173-15-216-65-busname-atlanta.hfc.comcastbusiness.net 1 11 119047 20090828152050
+butterfly.topsy.com 1 1 9116 20090818092151
+96-32-93-237.ga.charter.com 2 18 218594 20090812072846
+gate4-norfolk.nmci.navy.mil 0 1 13610 
+c-98-217-42-51.hsd1.nh.comcast.net 1 5 80641 20090818131414
+adijon-157-1-104-168.w90-56.abo.wanadoo.fr 1 12 176163 20090830123336
+global.ci.seattle.wa.us 4 28 379695 20090803115748
+python.botlab.com 1 12 175816 20090807144836
+modemcable074.90-131-66.mc.videotron.ca 3 38 332967 20090820152410
+82.124.in-addr.arpa.tm.net.my 2 3 56600 20090805213053
+71-20-162-67.war.clearwire-wmx.net 2 19 272779 20090808103828
+pool-96-245-15-56.phlapa.fios.verizon.net 11 80 1388991 20090810062434
+92.241.182.29 6 6 20369 20090813180733
+cache-mtc-ad10.proxy.aol.com 0 1 16857 
+114.80.93.73 2 3 21057 20090821152307
+mail.mdk-llc.com 1 12 175816 20090811064423
+119.63.193.102 11 11 96690 20090811102352
+c-67-170-71-232.hsd1.wa.comcast.net 6 26 285180 20090813001116
+c-66-41-118-168.hsd1.mn.comcast.net 1 12 176163 20090815190444
+msnbot-65-55-108-135.search.msn.com 1 2 22624 20090817174717
+static-208-80-195-121.as13448.com 6 6 53718 20090827151655
+i118-19-122-97.s05.a020.ap.plala.or.jp 6 25 379768 20090807055230
+ac871dc3.ipt.aol.com 2 2 747180 20090804054951
+rev.advengro.ru 1 1 9906 20090822130259
+68.194.35.121.broad.sz.gd.dynamic.163data.com.cn 1 1 9116 20090830203906
+f142-042.opera-mini.net 3 3 395314 20090810111847
+c-76-104-248-45.hsd1.wa.comcast.net 1 6 22918 20090808164307
+msnbot-65-55-220-89.search.msn.com 2 5 42198 20090824011731
+58.61.164.39 29 46 307151 20090829220756
+ip-78-137-163-133.dedi.digiweb.ie 3 22 219905 20090818043426
+msnbot-65-55-165-121.search.msn.com 1 2 11941 20090828171305
+65.55.232.43 4 4 58768 20090819173705
+65.55.231.24 0 1 17090 
+pool-71-121-250-194.sttlwa.btas.verizon.net 1 5 30432 20090805194036
+cpe-121-222-128-16.qld.bigpond.net.au 2 12 233381 20090804024821
+ec2-67-202-1-135.compute-1.amazonaws.com 1 1 9116 20090826224927
+mobilehost12788.internet.mymmode.com 5 58 448682 20090812220344
+c-24-18-245-202.hsd1.wa.comcast.net 1 10 108499 20090823140228
+138.242.101.97.cfl.res.rr.com 2 19 273292 20090824184046
+212.219.248.231 1 4 23359 20090818020142
+gate2-norfolk.nmci.navy.mil 0 2 6871 
+mbl-82-60-190.dsl.net.pk 1 10 263655 20090807045201
+67.228.158.134-static.reverse.softlayer.com 1 12 175816 20090805071224
+cache-dtc-af11.proxy.aol.com 0 2 8390 
+c-68-50-193-69.hsd1.md.comcast.net 2 19 272779 20090802110933
+ev-esr1-74-83-206-124.fuse.net 1 6 32021 20090824154923
+static-72-66-115-250.washdc.fios.verizon.net 2 2 17580 20090803064807
+206.53.157.203 1 10 108499 20090828171017
+pool-96-232-28-26.nycmny.east.verizon.net 1 2 5111 20090817051417
+abts-tn-dynamic-107.128.174.122.airtelbroadband.in 1 4 22650 20090824043703
+chello062178217028.11.15.vie.surfer.at 41 41 405000 20090825011929
+152.red-88-17-243.dynamicip.rima-tde.net 1 10 108499 20090818082321
+54-162.207-68.elmore.res.rr.com 16 115 686604 20090817074608
+cache-ntc-ab09.proxy.aol.com 1 2 15937 20090828122705
+cpe-72-230-176-145.rochester.res.rr.com 1 1 6674 20090821131448
+c-98-209-1-49.hsd1.mi.comcast.net 1 12 176163 20090822070745
+c-98-247-182-180.hsd1.wa.comcast.net 1 12 175816 20090802170534
+s01060016763a9bab.ed.shawcable.net 1 9 61889 20090816051632
+209-150-55-70.c3-0.nwt-ubr3.sbo-nwt.ma.cable.rcn.com 2 19 273112 20090813204525
+24-113-110-136.wavecable.com 2 12 116420 20090802192222
+c-67-174-225-202.hsd1.ca.comcast.net 1 12 176163 20090828214401
+cpe-65-25-148-125.columbus.res.rr.com 4 22 136238 20090809212659
+chtwpe0105w-142068250087.pppoe-dynamic.pei.aliant.net 1 4 21960 20090815091807
+a113199.upc-a.chello.nl 48 48 440613 20090821073740
+blv-proxy-05.boeing.com 3 17 204266 20090810121926
+gate5-norfolk.nmci.navy.mil 1 3 430560 20090811083233
+d-65-175-170-115.cpe.metrocast.net 5 33 459303 20090812163323
+pool-173-75-229-159.phlapa.fios.verizon.net 1 4 22650 20090825190200
+pool-71-175-142-102.phlapa.east.verizon.net 11 44 772308 20090814140640
+91.84.94.87 1 4 23338 20090803065736
+wan-62-86.mycallis.com 1 10 108312 20090803105922
+bzq-179-82-199.static.bezeqint.net 1 1 8790 20090809221812
+119.95.168.178 1 13 108499 20090822022416
+65.208.151.115 8 24 1377904 20090820171817
+57.sub-75-211-228.myvzw.com 1 12 175816 20090806151637
+cpe-76-95-221-204.socal.res.rr.com 0 1 23707 
+66.194.68.226 2 22 284128 20090804185721
+5acd0689.bb.sky.com 3 16 207660 20090831080615
+c-76-105-141-51.hsd1.or.comcast.net 8 54 732333 20090810151116
+adsl-75-41-70-23.dsl.wlfrct.sbcglobal.net 1 1 533652 20090817130420
+65.55.108.130 0 1 5057521 
+58.61.164.140 31 52 336662 20090829215317
+221.204.253.154 17 17 167219 20090829154314
+pool-141-150-34-219.mad.east.verizon.net 1 10 108312 20090810105743
+216-160-95-248.tukw.qwest.net 3 17 265585 20090801171658
+89.165.9.89 1 1 12654 20090812051904
+cache-ntc-aa03.proxy.aol.com 1 2 15704 20090822083236
+c-24-0-137-53.hsd1.pa.comcast.net 1 9 61889 20090815073829
+70.44.15.8.res-cmts.sm.ptd.net 1 5 80641 20090822184447
+98.125.222.82 9 34 411142 20090803154019
+99-197-72-31.cust.wildblue.net 1 12 175816 20090810105850
+65.55.217.63 0 1 10436 
+173-10-84-174-busname-washington.hfc.comcastbusiness.net 3 33 247533 20090826151647
+c-76-104-141-98.hsd1.wa.comcast.net 1 12 175816 20090809073812
+static-71-120-128-12.gdrpmi.dsl-w.verizon.net 3 21 343970 20090811094051
+124.64.117.46 1 1 533652 20090809183044
+222.44.49.166 6 56 388050 20090825204728
+spoons.cups.cs.cmu.edu 1 1 8790 20090801020659
+c-24-143-68-142.customer.broadstripe.net 1 12 175816 20090805191823
+duck-pond.village.org 12 56 883271 20090812163938
+cache-ntc-ac09.proxy.aol.com 0 5 24323 
+155.69.150.155 0 1 10436 
+cache-dtc-aa15.proxy.aol.com 0 1 2676 
+c-98-233-232-226.hsd1.md.comcast.net 6 64 837461 20090831202338
+146.129.252.126 12 104 813603 20090812151730
+c-71-231-51-252.hsd1.wa.comcast.net 0 1 23707 
+adsl-070-147-230-248.sip.asm.bellsouth.net 1 7 39829 20090831105339
+msnbot-65-55-220-218.search.msn.com 0 1 4027 
+static-208-80-195-43.as13448.com 2 2 18232 20090829115729
+65.55.217.56 0 3 50571 
+75-139-166-93.dhcp.wa.charter.com 1 10 108312 20090812085015
+cache-dtc-ad16.proxy.aol.com 0 1 6356 
+219.234.81.33 5 5 44928 20090828123117
+caerus.ivegotafang.com 1 1 8790 20090811003124
+cpe-66-66-189-123.rochester.res.rr.com 11 69 645613 20090815070354
+nesher3.haifa.il.ibm.com 5 5 45580 20090831115512
+cpe-98-151-194-254.socal.res.rr.com 4 28 388309 20090826195328
+63.150.152.126 2 2 19022 20090825022117
+65.55.231.42 0 1 16857 
+70-58-69-190.tukw.qwest.net 3 17 232260 20090802125828
+72.25.52.30 3 19 484282 20090816164104
+dhcp-077-248-013-223.chello.nl 48 48 440613 20090826211107
+65.55.108.34 1 2 39336 20090824181103
+cache-mtc-aa13.proxy.aol.com 1 1 84322 20090804054741
+24-113-10-247.wavecable.com 1 12 175816 20090805114710
+c-68-81-120-154.hsd1.nj.comcast.net 1 5 80641 20090805174949
+adsl-69-104-16-220.dsl.irvnca.pacbell.net 1 1 9116 20090827122352
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 31
+20090801 265 608 14839518 59
+20090802 217 711 14511611 52
+20090803 309 795 9593829 49
+20090804 139 534 11448794 54
+20090805 322 813 21324993 58
+20090806 153 489 7931296 45
+20090807 195 442 5701554 40
+20090808 177 527 7326540 47
+20090809 215 608 8187318 59
+20090810 210 831 12034930 63
+20090811 382 1061 24244551 69
+20090812 304 811 11454947 72
+20090813 474 1062 20365674 66
+20090814 439 915 25387411 58
+20090815 320 821 17645054 67
+20090816 291 1176 33667895 70
+20090817 413 929 43602580 82
+20090818 174 378 7402320 54
+20090819 243 651 9929245 57
+20090820 265 666 37056693 67
+20090821 275 595 9051895 50
+20090822 144 434 5494813 49
+20090823 210 566 7214766 41
+20090824 161 473 16245415 40
+20090825 363 714 12870418 42
+20090826 185 491 6532206 47
+20090827 210 468 7403744 45
+20090828 137 409 6261042 41
+20090829 259 596 7651334 47
+20090830 341 580 7034474 40
+20090831 239 662 13625662 47
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 53
+5mn-15mn 77
+15mn-30mn 61
+30s-2mn 146
+2mn-5mn 111
+0s-30s 1196
+30mn-1h 33
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 186
+/ 1156 9762770 918 593
+/HarpsDulcimers.html 368 4831514 119 208
+/Calendar.html 190 1832740 19 44
+/R-Dances&Dreams.html 183 1911990 61 42
+/Recordings.html 161 1732218 6 18
+/SchoolIndex.html 145 488448 9 15
+/Form_Contact.php 140 1338293 13 19
+/Bio.html 133 597987 5 20
+/school_current_class.htm 121 1257755 9 32
+/News.html 120 3024059 15 22
+/HarpCamp.html 118 1557352 36 40
+/School_Assemblies_Workshops_intro.html 107 612361 5 6
+/R-WDD.html 95 817740 16 14
+/Reviews.html 94 642348 13 15
+/Links.html 87 490105 5 15
+/samples/Best/Knocknagow.mp3 78 13283475 3 8
+/includes/tng/scripts/FormValidation.js.php 78 214698 1 29
+/R-Musings.html 76 440484 16 16
+/Thank_you_Comment.html 71 371259 4 50
+/R-GoodPeopleAll.html 64 290466 6 5
+/Bio-Long.html 64 596090 10 16
+/samples/Bells%20of%20Ballinskelligs.mp3 63 9171971 31 30
+/samples/Doherty%92s%20Reels.mp3 60 8502787 27 29
+/R-Moon.html 54 494088 6 9
+/Form_Email_Add.html 54 408007 37 2
+/samples/CelticHolidayCD%202%20-%20Track%201.mp3 27 591500 0 1
+/CreatingWhereDragonsDance/1FAMILY.html 8 7816 0 0
+/samples/Best/Twilight_Over_Cove.mp3 48 6392057 3 6
+/samples/TRACK_10.ram 8 382104 0 2
+/samples/CelticHolidayCD%201%20-%20Track%207.mp3 29 710387 2 0
+/CreatingWhereDragonsDance/BigRedt.html 8 7608 0 0
+/News2005.html 35 261326 3 4
+/samples/Best/First_of_Spring.mp3 50 6371910 2 7
+/CreatingWhereDragonsDance/FAMILY%20COUCH.html 7 6461 0 0
+/R-OntheBurren.html 30 101346 1 2
+/Form_School_Reg_Online.html 19 250316 0 6
+/samples/DulcimerCD%201%20-%20Track%201.mp3 34 1292065 0 0
+/samples/Best/Oud_Night.mp3 42 3964354 1 4
+/R-SpringTide.html 39 102167 4 6
+/samples/CelticHolidayCD%202%20-%20Track%205.mp3 28 655401 1 3
+/PDF/Philip%20&%20Pam%20Bio%27s.pdf 11 180566 2 1
+/PDF/School_Program_Study_Guide.pdf 19 2602127 4 4
+/PDF/CD%27s%20&%20Reviews.pdf 12 961476 2 0
+/samples/botl6_merlin.mp3 30 2363710 2 4
+/samples/The%20Unseen%20Journey.mp3 34 3181092 1 0
+/Form_School_Assemblies.php 19 84208 1 1
+/CreatingWhereDragonsDance/Philip.html 9 8289 1 1
+/CreatingWhereDragonsDance/Jarrod1.html 8 7368 1 1
+/samples/CelticMistCD%202%20-%20Track%205.mp3 29 1085494 3 2
+/samples/CelticHolidayCD%201%20-%20Track%204.mp3 29 711139 1 2
+/Form_Camp_Print.html 36 347854 2 2
+/CreatingWhereDragonsDance/Philip&Chen5.html 8 7648 0 0
+/Presskit.html 44 320600 5 7
+/News2003.html 41 575648 4 6
+/CreatingWhereDragonsDance/Jarrod.html 9 8289 0 0
+/samples/TRACK_04.ram 9 524122 1 0
+/samples/Best/The_Everlasting_Peace.mp3 44 5259095 0 0
+/samples/Musings%20Margaret's%20Arrival.mp3 33 1760300 2 3
+/samples/The%20Summer%20River.mp3 34 2837798 0 5
+/samples/ic2_malagasy.mp3 31 1968017 3 2
+/Form_Order_Harps_Print.html 47 466032 4 8
+/R-Legend.html 38 267176 2 6
+/Form_Harp_Deposit.html 38 249574 3 3
+/R-IslandsCalling.html 40 199056 3 3
+/CreatingWhereDragonsDance/Brenin1.html 6 5508 0 0
+/samples/botl1_mummer.mp3 31 2766024 2 5
+/samples/TRACK_11.ram 7 358024 0 0
+/samples/Best/The_Rolling_Wave.mp3 53 7551546 3 8
+/samples/Best/Song_of_Love.mp3 37 2811434 1 1
+/R-Yuletide.html 34 92475 5 6
+/samples/btm1_rowan.mp3 32 1538122 1 1
+/samples/cts4_lament.mp3 31 1434016 1 2
+/samples/ic11_hornpipe.mp3 28 607006 0 1
+/samples/DulcimerCD%202%20-%20Track%205.mp3 29 705974 0 2
+/samples/The%20Humours%20of%20Scariff.mp3 33 2373878 0 1
+/samples/loi3_battle.mp3 29 707473 3 2
+/samples/botl2_bell.mp3 30 1962025 2 3
+/School%203%20cedars%20directions.html 25 62784 0 5
+/samples/Musings%20-%20Ohana%20Kai.mp3 37 2797900 2 2
+/School%20new%20discovery%20directions.html 6 3350 0 0
+/CreatingWhereDragonsDance/Brittany4.html 8 7624 0 1
+/samples/TRACK_06.ram 9 494032 2 2
+/CreatingWhereDragonsDance/PHarps.html 8 7560 0 0
+/samples/Best/The_Holy_Island.mp3 39 4251737 1 1
+/R-CrossingtoSkellig.html 39 227853 4 3
+/PDF/Venue%20Info.pdf 15 635358 4 4
+/samples/CelticMistCD%201%20-%20Track%207.mp3 30 1061657 1 1
+/samples/btm3_brittany.mp3 40 5899804 11 11
+/samples/ic7_wintospring.mp3 29 1416124 3 2
+/OrderForm.html 42 442794 6 5
+/samples/CelticMistCD%202%20-%20Track%209.mp3 31 1158716 2 3
+/samples/Best/Warm_Island.mp3 40 4189754 3 3
+/Harp_Deposit_Pay.html 2 12296 0 2
+/samples/TRACK_03.ram 9 586150 2 2
+/samples/ic5_jamaican.mp3 28 1189099 1 1
+/R-AbovetheTower.html 43 159970 2 2
+/R-CelticMist.html 48 261820 1 5
+/samples/TRACK_09.ram 7 341300 1 0
+/R-BellOfftheLedge.html 45 249690 1 10
+/samples/botl12_peace.mp3 30 1758029 0 0
+/samples/btm5_dance.mp3 31 1460946 0 0
+/samples/Best/Farewell.mp3 43 5894404 1 3
+/samples/TRACK_01.ram 9 607626 1 1
+/samples/btm4_mother.mp3 31 1493078 2 0
+/samples/CelticHolidayCD%201%20-%20Track%202.mp3 30 750107 1 0
+/PDF/Redlands%20Letter%20&%20Daily%20Facts%20review%20%2799.pdf 11 346086 0 0
+// 3 26370 1 1
+/samples/CelticHolidayCD%201%20-%20Track%203.mp3 27 635322 0 3
+/PDF/Boulding%20Family%20Story%20Yuletide%202004.pdf 11 46440 3 2
+/samples/Musings%20Margaret%27s%20Arrival.mp3 1 270540 0 0
+/WDD_Home.html 20 106722 4 5
+/CreatingWhereDragonsDance/Philip&Chen6.html 9 8307 0 0
+/samples/DulcimerCD%201-%20Track%203.mp3 37 1692157 0 3
+/samples/TRACK_13.ram 8 407908 2 2
+/samples/CelticMistCD%201%20-%20Track%201.mp3 30 1341428 2 2
+/samples/Magical%20Strings%20-%20Track%204.mp3 49 2885240 7 5
+/CreatingWhereDragonsDance/1BigRedStudio.html 8 6904 0 0
+/samples/Best/Astronomers_Dream.mp3 46 6695630 0 4
+/samples/cts1_knock.mp3 28 1243660 2 0
+/samples/Musings%20Wild%20Willy.mp3 33 2109906 2 0
+/News2004.html 37 210728 4 3
+/samples/Best/The_Mary_Medley.mp3 53 7882558 2 9
+/samples/TRACK_05.ram 9 523108 1 2
+/CreatingWhereDragonsDance/Brittany1.html 8 7400 0 0
+/W-Whispers.html 45 156348 2 2
+/CreatingWhereDragonsDance/JTom_Creegan.html 8 7424 1 1
+/PDF/Redlands%20Letter%20&%20Daily%20Facts%20review%20'99.pdf 2 346086 2 2
+/YT_2008.html 22 355420 11 6
+/samples/Poet's%20Love.mp3 1 890569 0 0
+/samples/cts9_skellig.mp3 33 2500330 0 2
+/samples/Best/Father_Dollards.mp3 42 5272120 1 3
+/Form_School_Print.html 46 465960 20 21
+/samples/Best/Dance_of_the_Valiha.mp3 47 5605202 1 5
+/samples/TRACK_08.ram 8 384276 0 0
+/samples/Best/Song_for_Reconciliation.mp3 38 3311181 2 2
+/R-Elegance.html 49 256269 0 3
+/CreatingWhereDragonsDance/Pam&Dulcimer.html 9 8595 1 3
+/samples/loi5_house.mp3 28 714167 2 3
+/samples/CelticHolidayCD%202%20-%20Track%2010.mp3 29 683923 5 1
+/CreatingWhereDragonsDance/Sheetmusic.html 8 7496 0 1
+/CreatingWhereDragonsDance/WDDSlideShow.html 14 83241 2 2
+/samples/TRACK_12.ram 7 339890 1 0
+/samples/loi2_vali.mp3 39 5803731 9 10
+/samples/CelticHolidayCD%202%20-%20Track%203.mp3 29 917308 1 1
+/R-Dances%26Dreams.html 1 11730 0 0
+/Form_School_Reg.php 30 347141 3 1
+/CreatingWhereDragonsDance/Philip&Chen3.html 11 10450 1 1
+/samples/CelticMistCD%202%20-%20Track%203.mp3 28 749347 1 1
+/samples/CelticMistCD%201%20-%20Track%208.mp3 30 1056097 2 2
+/CreatingWhereDragonsDance/Philip1.html 7 6412 0 1
+/CreatingWhereDragonsDance/2Quartetstanding1.html 7 6965 0 1
+/samples/Best/By_the_Island_Knoll.mp3 37 2495473 2 1
+/R-Harp.html 38 110809 6 3
+/Fairy_School.html 7 14420 2 2
+/School_Assemblies_Workshops.html 30 284988 6 7
+/samples/DulcimerCD%202%20-%20Track%204.mp3 32 1336516 0 2
+/samples/Best/Grand_Solace.mp3 40 3567985 3 1
+/CreatingWhereDragonsDance/Brittany2.html 7 6650 0 0
+/samples/DulcimerCD%202%20-%20Track%203.mp3 32 1058531 2 1
+/samples/Musings%20Planxty%20Raney.mp3 33 2419382 1 1
+/CreatingWhereDragonsDance/Brittany&Pam.html 9 8586 0 0
+/samples/DulcimerCD%202%20-%20Track%202.mp3 33 1049401 2 4
+/PayPal_Thanks.html 5 20625 0 3
+/CreatingWhereDragonsDance/Pam&KB3.html 8 7776 0 0
+/samples/Best/Crossing_to_Skellig.mp3 42 6777831 1 2
+/CreatingWhereDragonsDance/Billy.html 13 4570 3 1
+/CreatingWhereDragonsDance/JTom_Creegan1.html 9 8397 2 2
+/PDF/All%20About%20&%20Critical%20Acclaim.pdf 12 55902 2 1
+/samples/TRACK_02.ram 9 457428 2 1
+/Bio-Short.html 49 314800 1 3
+/samples/Musings%20Napili%20Nights.mp3 36 3067524 3 1
+/samples/btm10_kailey.mp3 32 1922524 2 2
+/includes/nxt/back.php 2 300 0 0
+/samples/Poet%27s%20Love.mp3 32 2515036 0 1
+/R-Celtic%20Holiday.html 43 220768 2 1
+/CreatingWhereDragonsDance/BreninCello.html 9 8568 0 0
+/samples/Where%20Dragons%20Dance.mp3 51 4331878 2 2
+/samples/loi3_march.mp3 28 624024 2 4
+/samples/CelticMistCD%202%20-%20Track%202.mp3 30 1059804 0 2
+/samples/DulcimerCD%201%20-%20Track%207.mp3 35 1347766 0 2
+/YT_2007.html 4 88240 2 3
+/samples/DulcimerCD%201%20-%20Track%205.mp3 31 1196282 1 0
+/samples/TRACK_07.ram 7 375140 0 0
+/Harp_Camp_Accommodations.htm 41 284766 4 3
+/samples/Best/Mummers_Dance.mp3 49 6525682 2 5
+/samples/CelticMistCD%201%20-%20Track%203.mp3 32 1797839 0 0
+END_SIDER

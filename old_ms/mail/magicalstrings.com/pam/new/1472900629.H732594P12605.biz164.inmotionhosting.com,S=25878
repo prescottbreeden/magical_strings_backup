@@ -1,0 +1,543 @@
+Return-path: <bo-b83xs7dbg1vmdpausmdamqc4kpadyk@b.email.chicos.com>
+Envelope-to: pam@magicalstrings.com
+Delivery-date: Sat, 03 Sep 2016 04:03:49 -0700
+Received: from mta812.email.chicos.com ([63.146.96.122]:42939)
+	by biz164.inmotionhosting.com with esmtp (Exim 4.86_1)
+	(envelope-from <bo-b83xs7dbg1vmdpausmdamqc4kpadyk@b.email.chicos.com>)
+	id 1bg8jh-0003Dj-JW
+	for pam@magicalstrings.com; Sat, 03 Sep 2016 04:03:49 -0700
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=email.chicos.com;
+	s=20111007; t=1472900625; x=1488539025;
+	bh=lr2HytUqnwjvcLqS2DDR/gwSY6yRKLLo7A3NaouseWg=; h=From:Reply-To;
+	b=g4cJ4Tu4N60lR0p1tuXEKSm1wSOTScmpCYkgq6X3rmGd+bKleK8vWUTYjlYL4iv1W
+	 KPZ3XjWUATM9gg5uOD8JDG7aocHg6wDpj/eAB5IeFouTACVNjA+dIotNSgDYS1pDvb
+	 NU+EztP71n9ENxk43U4qjYr2bcJcoQQVklKWUbT0=
+DomainKey-Signature: a=rsa-sha1; q=dns; c=nofws;
+  s=200505; d=email.chicos.com;
+  b=aBMb9QcfjXKpr5SXQwmt4EJ9EG15C5SInRH6ZqKQ5HN6h6PnjaNg7c1Qxa6tjBV+NKtLozBSp5vBxMJFggZRE3A2+q46dck/g52xFnLFIAS0saHFnVbiNcoo0NLXqZRJKV+BgtSbEroXP3LM2mq6/E1IzyIy0XqkUtERXorp6UA=;
+ h=Date:Message-ID:List-Unsubscribe:From:To:Subject:MIME-Version:Reply-To:Content-type;
+Date: Sat, 3 Sep 2016 11:03:45 -0000
+Message-ID: <b83xs7dbg1vmdpausmdamqc4kpadyk.14717891292.3841@mta812.email.chicos.com>
+List-Unsubscribe: <mailto:rm-0b83xs7dbg1vmdpausmdamqc4kpadyk@email.chicos.com>
+From: "Chico's" <chicos@email.chicos.com>
+To: pam@magicalstrings.com
+Subject: =?UTF-8?B?SXQncyBZb3VyIEJpcnRoZGF5Li4u?=
+MIME-Version: 1.0
+Reply-To: "Chico's" <support-b83xs7dbg1vmdpausmdamqc4kpadyk@email.chicos.com>
+Content-type: multipart/alternative; boundary="=b83xs7dbg1vmdpausmdamqc4kpadyk"
+X-Spam-Status: No, score=-7.9
+X-Spam-Score: -78
+X-Spam-Bar: -------
+X-Ham-Report: Spam detection software, running on the system "biz164.inmotionhosting.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ 
+ Content preview:  Happy Birthday from Chico's. http://email.chicos.com/a/tBXyq03B75AdqB9R7voNtQTLcAj/promotop-0?CUSTOMER_NO=38003891
+    Please add chicos@email.chicos.com to your safe sender list or address book.
+    View on a mobile device or web browser. http://email.chicos.com/a/tBXyq03B75AdqB9R7voNtQTLcAj/html-0?email=pam@magicalstrings.com&password=B75AdqNtQTLcBXyq030MoJ2xDKdXbY&t_params=CUSTOMER_NO%3D38003891%26EMAIL%3Dpam%2540magicalstrings.com%26PASSWORD%3DB75AdqNtQTLcBXyq030MoJ2xDKdXbY
+    [...] 
+ 
+ Content analysis details:   (-7.9 points, 5.0 required)
+ 
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was blocked.
+                             See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: chicos.com]
+ -0.0 RCVD_IN_DNSWL_NONE     RBL: Sender listed at http://www.dnswl.org/, no
+                             trust
+                             [63.146.96.122 listed in list.dnswl.org]
+ -2.0 RCVD_IN_RP_SAFE        RBL: Sender in ReturnPath Safe - Contact
+                             safe-sa@returnpath.net
+                             [Return Path SenderScore Safe List (formerly]
+                     [Habeas Safelist) - <http://www.senderscorecertified.com>]
+ -3.0 RCVD_IN_RP_CERTIFIED   RBL: Sender in ReturnPath Certified - Contact
+                             cert-sa@returnpath.net
+                             [Return Path SenderScore Certified {formerly]
+                       [Bonded Sender} - <http://www.senderscorecertified.com>]
+ -0.0 RCVD_IN_MSPIKE_H3      RBL: Good reputation (+3)
+                             [63.146.96.122 listed in wl.mailspike.net]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+ -1.3 RP_MATCHES_RCVD        Envelope sender domain matches handover relay domain
+  0.4 HTML_IMAGE_RATIO_02    BODY: HTML has a low ratio of text to image area
+ -1.9 BAYES_00               BODY: Bayes spam probability is 0 to 1%
+                             [score: 0.0000]
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from author's
+                             domain
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily valid
+ -0.0 RCVD_IN_MSPIKE_WL      Mailspike good senders
+X-Spam-Flag: NO
+
+
+--=b83xs7dbg1vmdpausmdamqc4kpadyk
+Content-Type: text/plain; charset="utf-8"
+Content-transfer-encoding: 8bit
+
+
+Happy Birthday from Chico's.
+http://email.chicos.com/a/tBXyq03B75AdqB9R7voNtQTLcAj/promotop-0?CUSTOMER_NO=38003891
+
+Please add chicos@email.chicos.com to your safe sender list 
+or address book. 
+View on a mobile device or web browser.
+http://email.chicos.com/a/tBXyq03B75AdqB9R7voNtQTLcAj/html-0?email=pam@magicalstrings.com&password=B75AdqNtQTLcBXyq030MoJ2xDKdXbY&t_params=CUSTOMER_NO%3D38003891%26EMAIL%3Dpam%2540magicalstrings.com%26PASSWORD%3DB75AdqNtQTLcBXyq030MoJ2xDKdXbY
+
+***********************************************************************
+CHICO'S
+***********************************************************************
+
+To view your message from Chico's, please click here:
+http://email.chicos.com/a/tBXyq03B75AdqB9R7voNtQTLcAj/html-0?email=pam@magicalstrings.com&password=B75AdqNtQTLcBXyq030MoJ2xDKdXbY&t_params=CUSTOMER_NO%3D38003891%26EMAIL%3Dpam%2540magicalstrings.com%26PASSWORD%3DB75AdqNtQTLcBXyq030MoJ2xDKdXbY
+
+-----------------------------------------------------------------------
+
+Forward to a Friend:
+http://email.chicos.com/a/tBXyq03B75AdqB9R7voNtQTLcAj/friend-0?RAF_TRACK=&email=pam@magicalstrings.com&t_params=CUSTOMER_NO%3D38003891%26EMAIL%3Dpam%2540magicalstrings.com%26PASSWORD%3DB75AdqNtQTLcBXyq030MoJ2xDKdXbY
+
+Find Us on Facebook:
+http://email.chicos.com/a/tBXyq03B75AdqB9R7voNtQTLcAj/facebook-0
+ 
+Join Us on Twitter:
+http://email.chicos.com/a/tBXyq03B75AdqB9R7voNtQTLcAj/twitter-0
+
+Follow Us on Google+:
+http://email.chicos.com/a/tBXyq03B75AdqB9R7voNtQTLcAj/googleplus-0
+
+Visit Us on YouTube:
+http://email.chicos.com/a/tBXyq03B75AdqB9R7voNtQTLcAj/youtube-0
+
+Find Us on Pinterest:
+http://email.chicos.com/a/tBXyq03B75AdqB9R7voNtQTLcAj/pinterest-0
+
+Visit Us on Instagram:
+http://email.chicos.com/a/tBXyq03B75AdqB9R7voNtQTLcAj/instagram-0
+
+Visit Us on InsideChic Blog:
+http://email.chicos.com/a/tBXyq03B75AdqB9R7voNtQTLcAj/insidechic-0?CUSTOMER_NO=38003891
+ 
+-----------------------------------------------------------------------
+
+Shop New Arrivals:
+http://email.chicos.com/a/tBXyq03B75AdqB9R7voNtQTLcAj/tnnewarriv-0?CUSTOMER_NO=38003891
+
+Shop Clothing:
+http://email.chicos.com/a/tBXyq03B75AdqB9R7voNtQTLcAj/tnclothing-0?CUSTOMER_NO=38003891
+ 
+Shop Jewelry:
+http://email.chicos.com/a/tBXyq03B75AdqB9R7voNtQTLcAj/tnjewelry-0?CUSTOMER_NO=38003891
+ 
+Shop Accesories:
+http://email.chicos.com/a/tBXyq03B75AdqB9R7voNtQTLcAj/tnaccess-0?CUSTOMER_NO=38003891
+
+Shop Collections:
+http://email.chicos.com/a/tBXyq03B75AdqB9R7voNtQTLcAj/tncollect-0?CUSTOMER_NO=38003891
+
+Shop Petites:
+http://email.chicos.com/a/tBXyq03B75AdqB9R7voNtQTLcAj/tnpetites-0?CUSTOMER_NO=38003891
+
+Shop Sale:
+http://email.chicos.com/a/tBXyq03B75AdqB9R7voNtQTLcAj/tnsale-0?CUSTOMER_NO=38003891
+
+Inside Chic Blog:
+http://email.chicos.com/a/tBXyq03B75AdqB9R7voNtQTLcAj/tnblog-0?CUSTOMER_NO=38003891
+
+-----------------------------------------------------------------------
+
+Find A Boutique:
+http://email.chicos.com/a/tBXyq03B75AdqB9R7voNtQTLcAj/bnstore-0?CUSTOMER_NO=38003891
+ 
+Purchase Gift Cards:
+http://email.chicos.com/a/tBXyq03B75AdqB9R7voNtQTLcAj/bngiftcard-0?CUSTOMER_NO=38003891
+ 
+Contact Customer Service:
+http://email.chicos.com/a/tBXyq03B75AdqB9R7voNtQTLcAj/bncustomer-0?CUSTOMER_NO=38003891
+
+Request A Catalog:
+http://email.chicos.com/a/tBXyq03B75AdqB9R7voNtQTLcAj/bncatalog-0?CUSTOMER_NO=38003891
+
+View Privacy Policy:
+http://email.chicos.com/a/tBXyq03B75AdqB9R7voNtQTLcAj/bnprivacy-0?CUSTOMER_NO=38003891
+
+Unsubscribe:
+http://email.chicos.com/a/tBXyq03B75AdqB9R7voNtQTLcAj/unsub-0?password=B75AdqNtQTLcBXyq030MoJ2xDKdXbY&email=pam@magicalstrings.com
+
+-----------------------------------------------------------------------
+
+CHICO'S 
+Toll Free: 888.855.4986 
+11215 Metro Parkway, Fort Myers, FL 33966 USA 
+ 
+Chico's and Chico's Passport are registered trademarks of Chico's Brands
+Investments, Inc. (C) 2016 Chico's Distribution Services, LLC. All
+Rights Reserved.
+
+--=b83xs7dbg1vmdpausmdamqc4kpadyk
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+<title>Chico's</title>
+<meta name=3D"viewport" content=3D"width=3D729">
+</head>
+
+<body bgcolor=3D"#FFFFFF"><img src=3D"http://email.chicos.com/a/hBXyq03B75A=
+dqB9R7voNtQTLcAj/spacer-0.gif" width=3D"1" height=3D"1" style=3D"display:no=
+ne !important; max-height:1px !important; max-width:1px !important; border:=
+0 !important; background-color:transparent !important; padding:0 !important=
+; outline:0 !important; min-height:1px !important; min-width:1px !important=
+; height:1px !important; width:1px !important;" alt=3D"">
+=09
+<img src=3D"https://pixel.monitor1.returnpath.net/pixel.gif?r=3D1635f14f6b5=
+a3783a90c0b381450bf3b1ddb6354&amp;c=3Dchicos" height=3D"1" width=3D"1">
+
+<table bgcolor=3D"#FFFFFF" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"=
+ width=3D"100%">
+	<tr>
+		<td align=3D"center" valign=3D"top">
+=09=09=09
+			<!--START HEADER-->
+      <table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D=
+"0" width=3D"729">
+        <tr>
+          <td align=3D"center" valign=3D"top"><img src=3D"http://f.email.ch=
+icos.com/i/23/2078541674/spacer.gif" alt=3D"" style=3D"display:block;" heig=
+ht=3D"10" border=3D"0" width=3D"729"></td>
+        </tr>
+      </table>
+=20=20=20=20=20=20
+      <table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D=
+"0" width=3D"729">
+      	<tr>
+      		<td width=3D"600" valign=3D"top">=20
+    		<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D=
+"0" width=3D"600">
+      	<tr>
+      		<td align=3D"left" valign=3D"top"><font style=3D"font-family:Arial,=
+ Helvetica, sans-serif; font-size:10px; color:#292929; line-height:20px;"><=
+a href=3D"http://email.chicos.com/a/hBXyq03B75AdqB9R7voNtQTLcAj/promotop-0?=
+CUSTOMER_NO=3D38003891" style=3D"color:#292929; text-decoration:underline;"=
+>Happy Birthday from Chico's.</a><br>
+      			View in a <a href=3D"http://email.chicos.com/a/hBXyq03B75AdqB9R7vo=
+NtQTLcAj/html-0?email=3Dpam@magicalstrings.com&password=3DB75AdqNtQTLcBXyq0=
+30MoJ2xDKdXbY&t_params=3DCUSTOMER_NO%3D38003891%26EMAIL%3Dpam%2540magicalst=
+rings.com%26PASSWORD%3DB75AdqNtQTLcBXyq030MoJ2xDKdXbY" style=3D"color:#2929=
+29; text-decoration:underline;">web browser</a>.</font></td>
+      	</tr>
+      </table>=20
+      </td>
+      		<td width=3D"129" valign=3D"top">=20
+    		<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D=
+"0" width=3D"129">
+      	<tr>
+      		<td align=3D"right" valign=3D"top"><font style=3D"font-family:Arial=
+, Helvetica, sans-serif; font-size:12px; color:#292929; line-height:20px;">=
+<a href=3D"http://email.chicos.com/a/hBXyq03B75AdqB9R7voNtQTLcAj/tnonline-0=
+?CUSTOMER_NO=3D38003891" style=3D"color:#292929; text-decoration:underline;=
+">Shop Online</a><br>
+      			<a href=3D"http://email.chicos.com/a/hBXyq03B75AdqB9R7voNtQTLcAj/t=
+nboutique-0?CUSTOMER_NO=3D38003891" style=3D"color:#292929; text-decoration=
+:underline;">Find A Boutique</a></font></td>
+      	</tr>
+      </table>=20
+      </td>
+      </tr>
+      </table>=20=20=20=20=20
+
+      <table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D=
+"0" width=3D"729">
+      	<tr>
+      		<td align=3D"center" valign=3D"top"><img src=3D"http://f.email.chic=
+os.com/i/23/2078541674/20150810_CHS_updatedTemplate_0814_1.jpg" alt=3D"" st=
+yle=3D"display:block;" height=3D"135" border=3D"0" width=3D"183"></td>
+      		<td align=3D"center" valign=3D"top"><a href=3D"http://email.chicos.=
+com/a/hBXyq03B75AdqB9R7voNtQTLcAj/chicos-0?CUSTOMER_NO=3D38003891"><img src=
+=3D"http://f.email.chicos.com/i/23/2078541674/20150810_CHS_updatedTemplate_=
+0814_2.jpg" alt=3D"CHICO&rsquo;S" style=3D"display:block;" height=3D"135" b=
+order=3D"0" width=3D"364"></a></td>
+      		<td align=3D"center" valign=3D"top"><img src=3D"http://f.email.chic=
+os.com/i/23/2078541674/20150810_CHS_updatedTemplate_0814_3.jpg" alt=3D"" st=
+yle=3D"display:block;" height=3D"135" border=3D"0" width=3D"182"></td>
+      	</tr>
+      </table>
+      <!--END HEADER-->
+=20=20=20=20=20=20
+      <!--START CONTENT-->
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20
+      <table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D=
+"0" width=3D"729">
+      	<tr>
+      		<td align=3D"center" valign=3D"top"><a target=3D"null" href=3D"http=
+://email.chicos.com/a/hBXyq03B75AdqB9R7voNtQTLcAj/f1copy-0?CUSTOMER_NO=3D38=
+003891"><img src=3D"http://f.email.chicos.com/i/23/2078541674/20151102_1106=
+_CHS_NBV3_07.jpg" alt=3D"Make a Wish! I hope your special day is filled wit=
+h love, laughter and lots of jewelry. Here&rsquo;s to you. Cinny Murray. Pr=
+esident, Chico&rsquo;s." style=3D"display: block; width: 729px; height: 762=
+px;" border=3D"0"></a></td>
+        </tr>
+      </table>
+      <table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D=
+"0" width=3D"729">
+      	<tr>
+      		<td align=3D"center" valign=3D"top"><a href=3D"http://email.chicos.=
+com/a/hBXyq03B75AdqB9R7voNtQTLcAj/f2locate-0?CUSTOMER_NO=3D38003891"><img s=
+rc=3D"http://f.email.chicos.com/i/23/2078541674/20151102_1106_CHS_NB_13.jpg=
+" alt=3D"Shop at your local boutique (we would love to wish you a happy day=
+) or shop 24/7 at chicos.com." style=3D"display:block;" border=3D"0" height=
+=3D"126" width=3D"729"></a></td>
+        </tr>
+      </table>
+=20=20=20=20=20=20
+      <!--END CONTENT-->
+=20=20=20=20=20=20
+      <!--START BOTTOM NAV-->
+      <table align=3D"center" bgcolor=3D"#000000" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" width=3D"729">
+      	<tr>
+      		<td align=3D"center" valign=3D"top" style=3D"font-size:4px; line-he=
+ight:4px;"><img src=3D"http://f.email.chicos.com/i/23/2078541674/spacer.gif=
+" alt=3D"" style=3D"display:block;" height=3D"4" border=3D"0" width=3D"729"=
+></td>
+      	</tr>
+      </table>
+      <table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D=
+"0" width=3D"729">
+      	<tr>
+      		<td align=3D"center" valign=3D"top"><a href=3D"http://email.chicos.=
+com/a/hBXyq03B75AdqB9R7voNtQTLcAj/tnnewarriv-0?CUSTOMER_NO=3D38003891"><img=
+ src=3D"http://f.email.chicos.com/i/23/2078541674/20160203_0208_CHS_TUp_03.=
+jpg" alt=3D"NEW ARRIVALS" style=3D"display:block;" height=3D"86" border=3D"=
+0" width=3D"729"></a></td>
+      	</tr>
+      </table>=20=20=20=20
+      <table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D=
+"0" width=3D"729">
+      	<tr>
+      		<td align=3D"center" valign=3D"top"><a href=3D"http://email.chicos.=
+com/a/hBXyq03B75AdqB9R7voNtQTLcAj/tnclothing-0?CUSTOMER_NO=3D38003891"><img=
+ src=3D"http://f.email.chicos.com/i/23/2078541674/20160203_0208_CHS_TUp_05.=
+jpg" alt=3D"CLOTHING" style=3D"display:block;" height=3D"86" border=3D"0" w=
+idth=3D"729"></a></td>
+        </tr>
+      </table>
+      <table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D=
+"0" width=3D"729">
+        <tr>
+          <td align=3D"center" valign=3D"top"><a href=3D"http://email.chico=
+s.com/a/hBXyq03B75AdqB9R7voNtQTLcAj/tnjewelry-0?CUSTOMER_NO=3D38003891"><im=
+g src=3D"http://f.email.chicos.com/i/23/2078541674/20160203_0208_CHS_TUp_06=
+.jpg" alt=3D"JEWELRY" style=3D"display:block;" height=3D"86" border=3D"0" w=
+idth=3D"729"></a></td>
+        </tr>
+      </table>
+      <table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D=
+"0" width=3D"729">
+        <tr>
+          <td align=3D"center" valign=3D"top"><a href=3D"http://email.chico=
+s.com/a/hBXyq03B75AdqB9R7voNtQTLcAj/tnaccess-0?CUSTOMER_NO=3D38003891"><img=
+ src=3D"http://f.email.chicos.com/i/23/2078541674/20160203_0208_CHS_TUp_07.=
+jpg" alt=3D"ACCESSORIES" style=3D"display:block;" height=3D"86" border=3D"0=
+" width=3D"729"></a></td>
+        </tr>
+      </table>
+      <table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D=
+"0" width=3D"729">
+        <tr>
+          <td align=3D"center" valign=3D"top"><a href=3D"http://email.chico=
+s.com/a/hBXyq03B75AdqB9R7voNtQTLcAj/tncollect-0?CUSTOMER_NO=3D38003891"><im=
+g src=3D"http://f.email.chicos.com/i/23/2078541674/20160203_0208_CHS_TUp_08=
+.jpg" alt=3D"COLLECTIONS" style=3D"display:block;" height=3D"86" border=3D"=
+0" width=3D"729"></a></td>
+        </tr>
+      </table>
+      <table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D=
+"0" width=3D"729">
+        <tr>
+          <td align=3D"center" valign=3D"top"><a href=3D"http://email.chico=
+s.com/a/hBXyq03B75AdqB9R7voNtQTLcAj/tnpetites-0?CUSTOMER_NO=3D38003891"><im=
+g src=3D"http://f.email.chicos.com/i/23/2078541674/20160203_0208_CHS_TUp_09=
+.jpg" alt=3D"PETITES" style=3D"display:block;" height=3D"86" border=3D"0" w=
+idth=3D"729"></a></td>
+        </tr>
+      </table>
+      <table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D=
+"0" width=3D"729">
+        <tr>
+          <td align=3D"center" valign=3D"top"><a href=3D"http://email.chico=
+s.com/a/hBXyq03B75AdqB9R7voNtQTLcAj/tnsale-0?CUSTOMER_NO=3D38003891"><img s=
+rc=3D"http://f.email.chicos.com/i/23/2078541674/20160203_0208_CHS_TUp_10.jp=
+g" alt=3D"SALE" style=3D"display:block;" height=3D"86" border=3D"0" width=
+=3D"729"></a></td>
+        </tr>
+      </table>
+      <table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D=
+"0" width=3D"729">
+        <tr>
+          <td align=3D"center" valign=3D"top"><a href=3D"http://email.chico=
+s.com/a/hBXyq03B75AdqB9R7voNtQTLcAj/tnblog-0?CUSTOMER_NO=3D38003891"><img s=
+rc=3D"http://f.email.chicos.com/i/23/2078541674/20160203_0208_CHS_TUp_11.jp=
+g" alt=3D"INSIDE CHIC" style=3D"display:block;" height=3D"87" border=3D"0" =
+width=3D"729"></a></td>
+        </tr>
+      </table>
+      <table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D=
+"0" width=3D"729">
+      	<tr>
+          <td align=3D"center" valign=3D"top"><a href=3D"http://email.chico=
+s.com/a/hBXyq03B75AdqB9R7voNtQTLcAj/facebook-0"><img src=3D"http://f.email.=
+chicos.com/i/23/2078541674/20160420_0422_CHS_TpUp_06.jpg" alt=3D"Facebook" =
+style=3D"display:block;" height=3D"117" border=3D"0" width=3D"120"></a></td>
+          <td align=3D"center" valign=3D"top"><a href=3D"http://email.chico=
+s.com/a/hBXyq03B75AdqB9R7voNtQTLcAj/twitter-0"><img src=3D"http://f.email.c=
+hicos.com/i/23/2078541674/20160420_0422_CHS_TpUp_07.jpg" alt=3D"Twitter" st=
+yle=3D"display:block;" height=3D"117" border=3D"0" width=3D"98"></a></td>
+          <td align=3D"center" valign=3D"top"><a href=3D"http://email.chico=
+s.com/a/hBXyq03B75AdqB9R7voNtQTLcAj/googleplus-0"><img src=3D"http://f.emai=
+l.chicos.com/i/23/2078541674/20160420_0422_CHS_TpUp_08.jpg" alt=3D"Google+"=
+ style=3D"display:block;" height=3D"117" border=3D"0" width=3D"95"></a></td>
+          <td align=3D"center" valign=3D"top"><a href=3D"http://email.chico=
+s.com/a/hBXyq03B75AdqB9R7voNtQTLcAj/youtube-0"><img src=3D"http://f.email.c=
+hicos.com/i/23/2078541674/20160420_0422_CHS_TpUp_09.jpg" alt=3D"Youtube" st=
+yle=3D"display:block;" height=3D"117" border=3D"0" width=3D"100"></a></td>
+          <td align=3D"center" valign=3D"top"><a href=3D"http://email.chico=
+s.com/a/hBXyq03B75AdqB9R7voNtQTLcAj/pinterest-0"><img src=3D"http://f.email=
+.chicos.com/i/23/2078541674/20160420_0422_CHS_TpUp_10.jpg" alt=3D"Pinterest=
+" style=3D"display:block;" height=3D"117" border=3D"0" width=3D"100"></a></=
+td>
+          <td align=3D"center" valign=3D"top"><a href=3D"http://email.chico=
+s.com/a/hBXyq03B75AdqB9R7voNtQTLcAj/instagram-0"><img src=3D"http://f.email=
+.chicos.com/i/23/2078541674/160520_EM_CHS_EmailTemplateUpdate_Instagram_FIN=
+AL_tlt_03UP.jpg" alt=3D"Instagram" style=3D"display:block;" height=3D"117" =
+border=3D"0" width=3D"100"></a></td>
+<td align=3D"center" valign=3D"top"><a href=3D"http://email.chicos.com/a/hB=
+Xyq03B75AdqB9R7voNtQTLcAj/insidechic-0?CUSTOMER_NO=3D38003891"><img src=3D"=
+http://f.email.chicos.com/i/23/2078541674/20160420_0422_CHS_TpUp_12.jpg" al=
+t=3D"IC" style=3D"display:block;" height=3D"117" border=3D"0" width=3D"116"=
+></a></td>
+        </tr>
+      </table>
+      <table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D=
+"0" width=3D"729">
+      	<tr>
+      		<td align=3D"center" valign=3D"top"><img src=3D"http://f.email.chic=
+os.com/i/23/2078541674/20160420_0422_CHS_TpUp_13.jpg" alt=3D"Now Accepting =
+PayPal" style=3D"display:block;" height=3D"116" border=3D"0" width=3D"729">=
+</td>
+      	</tr>
+      </table>=20
+      <table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D=
+"0" width=3D"729">
+      	<tr>
+      		<td align=3D"center" valign=3D"top"><a href=3D"http://email.chicos.=
+com/a/hBXyq03B75AdqB9R7voNtQTLcAj/bnstore-0?CUSTOMER_NO=3D38003891"><img sr=
+c=3D"http://f.email.chicos.com/i/23/2078541674/20160203_0208_CHS_TUp_19.jpg=
+" alt=3D"FIND A BOUTIQUE" style=3D"display:block;" height=3D"77" border=3D"=
+0" width=3D"729"></a></td>
+      	</tr>
+      </table>=20=20=20=20
+      <table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D=
+"0" width=3D"729">
+        <tr>
+          <td align=3D"center" valign=3D"top"><a href=3D"http://email.chico=
+s.com/a/hBXyq03B75AdqB9R7voNtQTLcAj/bngiftcard-0?CUSTOMER_NO=3D38003891"><i=
+mg src=3D"http://f.email.chicos.com/i/23/2078541674/20160203_0208_CHS_TUp_2=
+0.jpg" alt=3D"GIFT CARDS" style=3D"display:block;" height=3D"77" border=3D"=
+0" width=3D"729"></a></td>
+        </tr>
+      </table>=20=20=20=20
+      <table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D=
+"0" width=3D"729">
+        <tr>
+          <td align=3D"center" valign=3D"top"><a href=3D"http://email.chico=
+s.com/a/hBXyq03B75AdqB9R7voNtQTLcAj/bncustomer-0?CUSTOMER_NO=3D38003891"><i=
+mg src=3D"http://f.email.chicos.com/i/23/2078541674/20160203_0208_CHS_TUp_2=
+1.jpg" alt=3D"CUSTOMER SERVICE" style=3D"display:block;" height=3D"77" bord=
+er=3D"0" width=3D"729"></a></td>
+        </tr>
+      </table>
+      <table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D=
+"0" width=3D"729">
+        <tr>
+          <td align=3D"center" valign=3D"top"><a href=3D"http://email.chico=
+s.com/a/hBXyq03B75AdqB9R7voNtQTLcAj/bncatalog-0?CUSTOMER_NO=3D38003891"><im=
+g src=3D"http://f.email.chicos.com/i/23/2078541674/20160203_0208_CHS_TUp_22=
+.jpg" alt=3D"REQUEST A CATALOG" style=3D"display:block;" height=3D"87" bord=
+er=3D"0" width=3D"729"></a></td>
+        </tr>
+      </table>
+      <table align=3D"center" bgcolor=3D"#000000" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" width=3D"729">
+      	<tr>
+      		<td align=3D"center" valign=3D"top" style=3D"font-size:4px; line-he=
+ight:4px;"><img src=3D"http://f.email.chicos.com/i/23/2078541674/spacer.gif=
+" alt=3D"" style=3D"display:block;" height=3D"4" border=3D"0" width=3D"729"=
+></td>
+      	</tr>
+      </table>
+      <table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D=
+"0" width=3D"729">
+        <tr>
+          <td align=3D"center" valign=3D"top"><img src=3D"http://f.email.ch=
+icos.com/i/23/2078541674/spacer.gif" alt=3D"" style=3D"display:block;" heig=
+ht=3D"20" border=3D"0" width=3D"729"></td>
+        </tr>
+      </table>=20=20
+      <!--END BOTTOM NAV-->=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=
+=20=20=20
+
+      <!--START DISCLAIMERS-->
+      <table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D=
+"0" width=3D"729">
+      	<tr>
+      		<td align=3D"left" valign=3D"top"><img src=3D"http://f.email.chicos=
+.com/i/23/2078541674/spacer.gif" alt=3D"" style=3D"display:block;" height=
+=3D"11" border=3D"0" width=3D"17"></td>
+          <td align=3D"left" valign=3D"top"><font style=3D"font-family:Aria=
+l, Helvetica, sans-serif; font-size:10px; color:#aaaaaa;">=20=20
+          	<strong>Please add chicos@email.chicos.com to your safe sender l=
+ist or address book.</strong><br>
+          	To unsubscribe from future e-mails, <a href=3D"http://email.chic=
+os.com/a/hBXyq03B75AdqB9R7voNtQTLcAj/unsub-0?password=3DB75AdqNtQTLcBXyq030=
+MoJ2xDKdXbY&email=3Dpam@magicalstrings.com" style=3D"color:#aaaaaa; text-de=
+coration:underline;">click here</a>.<br>
+          	To view our privacy policy, <a href=3D"http://email.chicos.com/a=
+/hBXyq03B75AdqB9R7voNtQTLcAj/bnprivacy-0?CUSTOMER_NO=3D38003891" style=3D"c=
+olor:#aaaaaa; text-decoration:underline;">click here</a>.<br>
+                To forward this email to your friends, <a href=3D"http://em=
+ail.chicos.com/a/hBXyq03B75AdqB9R7voNtQTLcAj/friend-0?RAF_TRACK=3D&email=3D=
+pam@magicalstrings.com&t_params=3DCUSTOMER_NO%3D38003891%26EMAIL%3Dpam%2540=
+magicalstrings.com%26PASSWORD%3DB75AdqNtQTLcBXyq030MoJ2xDKdXbY" style=3D"co=
+lor:#aaaaaa; text-decoration:underline;">click here</a>.
+      		<br><br>
+      		CHICO&rsquo;S<br>
+          	888.855.4986<br>
+            	11215 Metro Parkway, Fort Myers, FL 33966 USA<br>
+            	<br>
+            Chico&rsquo;s and Chico&rsquo;s Passport are registered tradema=
+rks of Chico&rsquo;s Brands Investments, Inc.<br>
+            &copy; 2016 Chico&rsquo;s Distribution Services, LLC., All Righ=
+ts Reserved.<br>
+            <br></font></td>
+          <td align=3D"right" valign=3D"top"><img src=3D"http://f.email.chi=
+cos.com/i/23/2078541674/spacer.gif" alt=3D"" style=3D"display:block;" heigh=
+t=3D"11" border=3D"0" width=3D"17"></td>
+        </tr>
+      </table>
+      <!--END DISCLAIMERS-->
+=20=20=20=20=20=20
+    </td>
+  </tr>
+</table>
+
+</body>
+</html>=
+
+
+--=b83xs7dbg1vmdpausmdamqc4kpadyk--
+

@@ -1,0 +1,3939 @@
+AWSTATS DATA FILE 6.6 (build 1.887)
+# If you remove this file, all statistics for date 200712 will be lost/reset.
+
+# Position (offset in bytes) in this file of beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1864                
+POS_TIME 2545                
+POS_VISITOR 45809               
+POS_DAY 132981              
+POS_DOMAIN 3562                
+POS_LOGIN 4308                
+POS_ROBOT 4463                
+POS_WORMS 5115                
+POS_EMAILSENDER 5246                
+POS_EMAILRECEIVER 5389                
+POS_SESSION 133965              
+POS_SIDER 134183              
+POS_FILETYPES 5524                
+POS_OS 5827                
+POS_BROWSER 6064                
+POS_SCREENSIZE 7046                
+POS_UNKNOWNREFERER 7120                
+POS_UNKNOWNREFERERBROWSER 11376               
+POS_ORIGIN 14030               
+POS_SEREFERRALS 14185               
+POS_PAGEREFS 14581               
+POS_SEARCHWORDS 24366               
+POS_KEYWORDS 33339               
+POS_MISC 2207                
+POS_ERRORS 36313               
+POS_CLUSTER 4164                
+POS_SIDER_404 36456               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20080101000441 344 73419 46767742110
+FirstTime 20071201000040
+LastTime 20071231234802
+LastUpdate 20080101144704 344 0 343 0 0
+TotalVisits 3483                
+TotalUnique 2099                
+MonthHostsKnown 0                   
+MonthHostsUnknown 2199                
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 869 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 306 1005 19351180 251 294 7851266
+1 130 457 9416682 218 232 11659520
+2 194 586 19320679 268 283 8742975
+3 134 373 19168983 264 275 6837339
+4 190 567 9751480 350 368 15124315
+5 256 701 14555113 302 340 15013827
+6 346 1262 21363292 260 288 10758123
+7 306 1488 19170989 243 275 9076593
+8 404 2172 23896824 272 308 10345231
+9 576 2949 36135227 303 366 23758966
+10 516 3073 45286289 253 303 13607795
+11 611 3159 53840024 276 336 19911828
+12 669 3178 39976106 265 306 24636302
+13 532 2906 35713919 224 257 9412165
+14 709 3934 77804619 306 342 15282765
+15 671 3090 39550713 328 366 29503425
+16 606 2740 47148877 313 360 13459328
+17 509 2394 41884895 295 337 28382595
+18 515 2017 27976518 297 329 12843360
+19 454 2323 53903386 205 254 17641442
+20 475 2294 43023168 219 256 12908159
+21 606 2450 45241237 343 436 18894490
+22 518 2301 38587005 224 269 19566381
+23 282 1103 29899523 240 261 15742276
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 35
+us 9120 43403 732832424
+ip 493 2509 43447747
+ca 266 1419 20359574
+es 223 233 532878
+ru 156 156 3212380
+nl 45 60 1723546
+eu 36 177 1805889
+au 27 135 1268061
+no 26 26 217750
+fr 23 23 293386
+jp 12 47 414334
+de 12 46 374361
+it 11 69 1185494
+gb 8 54 583259
+sk 8 8 107396
+kr 7 7 93970
+hk 6 46 510210
+at 5 5 66990
+cn 4 4 32949
+va 4 20 193279
+tw 4 14 829652
+th 3 3 662488
+nz 3 20 205419
+eg 2 2 27008
+ua 1 1 10439
+sg 1 1 7252
+sa 1 4 17586
+et 1 6 23955
+br 1 1 7252
+cz 1 1 8332
+be 1 5 42083
+hu 1 1 691641
+pl 1 5 15539
+za 1 1 84256
+se 1 10 77949
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 14
+slurp 1748 186611448 20071231231437 0
+crawl 431 32875469 20071231230913 0
+\wbot[\/\-] 377 5879941 20071231221843 0
+googlebot 280 9350726 20071231190459 0
+msnbot 183 1454994 20071231232510 0
+spider 125 2246246 20071231165626 0
+jeeves 75 696666 20071231230910 0
+msnbot\-media 53 560719 20071231125437 0
+voila 44 126645 20071231145342 0
+robot 38 298661 20071231115810 0
+ia_archiver 10 118323 20071231062523 0
+yahoo!\sslurp\schina 6 26023 20071229024422 0
+appie 3 40012 20071209200503 0
+webcollage 2 21404 20071221063741 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 13
+mp3 1804 348993437 0 0
+css 2993 4534545 0 0
+pdf 46 4365279 0 0
+htm 151 1694549 0 0
+pl 1 1882 0 0
+swf 19 114542 0 0
+php 51 85885 0 0
+html 8195 86778090 0 0
+js 2 16090 0 0
+xml 31 52625 0 0
+jpg 22192 313681964 0 0
+gif 12820 42167698 0 0
+ram 217 9480142 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 17
+macintosh 59
+winlong 3790
+winxp 33815
+win2000 1543
+linuxfedora 51
+win95 63
+win2003 163
+wince 132
+unix 6
+winnt 143
+win98 277
+linuxubuntu 17
+linux 303
+winme 113
+macosx 5455
+bsdfreebsd 1
+Unknown 2591
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 65
+msie6.0 14878
+webcapture 1
+bonecho 19
+winamp 9
+msie5.23 16
+firefox1.0.1 9
+up\. 23
+firefox1.5.0.12 108
+firefox2.0.0.1 68
+firefox2.0.0.10 318
+msie4.01 20
+curl 1
+netscape7.2 260
+emailsiphon 1
+POE\-Component\-Client\-HTTP 1
+msie3.02 4
+firefox1.0.8 14
+firefox1.5.0.1 47
+firefox2.0.0.7 168
+firefox2.0.0.5 36
+netscape4.07 1
+firefox1.5.0.2 1
+netscape7.1 20
+webcopier 1
+firefox2.0.0.3 109
+firefox2.0.0.9 402
+msie7.0 18014
+netscape4.5 1
+firefox1.5.0.4 34
+msie5.0 15
+Unknown 1721
+firefox1.5.0.7 41
+msie5.01 38
+netscape4.61 6
+firefox2.0.0.8 65
+libwww 1
+opera 141
+msie5.22 24
+lg\- 138
+samsung 1
+nsplayer 36
+netscape4.05 4
+msie5.5 133
+firefox2.0.0.6 213
+msie6.1 19
+real 40
+netscape4.7 1
+firefox1.5.0.9 19
+firefox2.0.0.11 6459
+firefox1.0.7 189
+konqueror 14
+itunes 18
+msie4.0 2
+firefox1.0 22
+mozilla 743
+netscape5.0 11
+netscape4.0 1
+firefox2.0.0.4 108
+firefox2.0 12
+firefox1.0.3 26
+firefox1.0.6 9
+firebird 4
+netscape8.1.3 34
+safari 3563
+camino 67
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 82
+Mozilla/4.05_[en] 20071226082438
+QuickTime/7.3.1_(qtver=7.3.1;cpu=IA32;os=Mac_10.5.1) 20071216145239
+Mozilla/4.0_(compatible;_MSIE_6.0) 20071231090742
+Mimetype_Getinfo 20071217121505
+VadixBot 20071228205737
+tags2dir.com/0.8_(_http://tags2dir.com/directory/) 20071216161911
+Mozilla/4.0_(compatible;_DepSpid/5.21;__http://about.depspid.net) 20071213122009
+NSPlayer/9.0.0.3265_WMFSDK/9.0 20071207171917
+Mozilla/4.0_(compatible;_WebCapture_3.0;_Windows) 20071203083247
+QuickTime/7.1.5_(qtver=7.1.5;cpu=IA32;os=Mac_10.4.9) 20071222181828
+Java/1.5.0_06 20071217162228
+iearthworm/1.0,_mailto:iearthworm@yahoo.com.cn 20071229143310
+ccubee/2008 20071220235255
+bot/1.0_(bot;_http://;_bot@bot.bot) 20071224011758
+LG-LX160_AU-MIC-LX160/2.0_MMP/2.0_Profile/MIDP-2.0_Configuration/CLDC-1.1 20071217002742
+boitho.com-dc/0.82_(_http://www.boitho.com/dcbot.html_) 20071230220416
+Mozilla/4.0 20071226115231
+WinampMPEG/2.7 20071217121515
+dmoz_tool3 20071206062621
+shelob_v1.0 20071224191844
+PEAR_HTTP_Request_class_(_http://pear.php.net/_) 20071219042158
+contype 20071231214327
+nutch/Nutch-1.0-dev_(nutch) 20071214012221
+panscient.com 20071214064533
+www.vhotup.com 20071229012540
+- 20071230101901
+CFNetwork/129.21 20071218134752
+NextGenSearchBot_1_(for_information_visit_http://www.zoominfo.com/About/misc/NextGenSearchBot.aspx) 20071212224417
+facebookexternalhit/1.0_(_http://www.facebook.com/externalhit_uatext.php) 20071212184828
+VB_Project 20071218150757
+Java/1.5.0 20071226131151
+Java/1.4.1_04 20071216175841
+POE-Component-Client-HTTP/0.65_(perl;_N;_POE;_en;_rv:0.650000) 20071208165423
+iearthworm/1.0,_iearthworm@yahoo.com.cn 20071217202219
+Mozilla/5.0_(compatible;_Charlotte/1.0b;_http://www.searchme.com/support/) 20071230183552
+Mozilla/5.0_(compatible;_heritrix/@VERSION@__http://vermut.aol.com) 20071224152032
+Java/1.5.0_13 20071224152033
+asterias/2.0 20071231212140
+QuickTime/7.3_(qtver=7.3;cpu=PPC;os=Mac_10.4.9) 20071218222647
+Jakarta_Commons-HttpClient/3.1-rc1 20071225225123
+Mozilla/5.0_(compatible;_LiteFinder/1.0;__http://www.litefinder.net/about.html) 20071211141302
+Java/1.5.0_04 20071219072855
+Xenu_Link_Sleuth_1.2j 20071219073712
+Mozilla/4.0_(compatible;) 20071231220903
+Robozilla/1.0 20071212140002
+nutchsearch/Nutch-0.9_(Nutch_Search_1.0;_herceg_novi_at_yahoo_dot_com) 20071230030940
+sait/Nutch-0.9_(SAIT_Research;_http://www.samsung.com) 20071229180213
+Mozilla/5.0_(compatible;_Gigamega.bot/1.0;__http://www.gigamega.net/bot.html) 20071225210915
+SBIder/SBIder-0.8.2-dev_(http://www.sitesell.com/sbider.html) 20071228084928
+WebCopier_v3.0.1 20071221052734
+boitho.com-dc/0.85_(_http://www.boitho.com/dcbot.html_) 20071231013951
+libwww-perl/5.805 20071230054231
+page_verifier_http://www.securecomputing.com/goto/pv 20071217185708
+PHP_version_tracker_(http://www.nexen.net/phpversion/bot.php) 20071213084358
+CFNetwork/129.20 20071205194305
+larbin_2.6.3_larbin2.6.3@unspecified.mail 20071213212831
+NSPlayer/10.0.0.3802_WMFSDK/10.0 20071231150643
+QuickTime/7.3.1_(qtver=7.3.1;cpu=PPC;os=Mac_10.4.9) 20071219142227
+Mozilla/3.0_(compatible) 20071218064223
+QuickTime/7.3_(qtver=7.3;cpu=PPC;os=Mac_10.3.9) 20071215152316
+Google-Sitemaps/1.0 20071216151120
+RMA/1.0_(compatible;_RealMedia) 20071231083530
+NSPlayer/10.0.0.4054_WMFSDK/10.0 20071214101729
+Mozilla/5.0 20071221214547
+QuickTime/7.3_(qtver=7.3;cpu=IA32;os=Mac_10.4.9) 20071216111429
+NSPlayer/11.0.5721.5145_WMFSDK/11.0 20071220062013
+PECL::HTTP/1.6.0_(PHP/5.2.4) 20071210063638
+Mozilla/5.0_(SnapPreviewBot)_Gecko/20061206_Firefox/1.5.0.9 20071204215809
+Java/1.6.0_02 20071219175345
+TestAgentName/Nutch-0.8.1 20071218113227
+EmailSiphon 20071214170834
+TheRarestParser_(http://therarestwords.com/) 20071215213838
+TheRarestParser/0.2a_(http://therarestwords.com/) 20071226012045
+LGE-VX9900/1.0_UP.Browser/6.2.3.2_(GUI)_MMP/2.0 20071214164300
+NSPlayer/11.00.6000.6324_WMFSDK/11.00.6000.6324 20071230053916
+Java/1.6.0_03 20071217180512
+Mozilla/3.01_(compatible;) 20071219144527
+woriobot_(_http://www.worio.com/) 20071202204121
+boitho.com-dc/0.86_(_http://www.boitho.com/dcbot.html_) 20071231055133
+Mail.Ru/1.0 20071216154108
+QuickTime/7.2_(qtver=7.2;cpu=PPC;os=Mac_10.4.9) 20071205193833
+T-Online_Browser 20071218125834
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 53
+Robozilla/1.0 20071212140002
+QuickTime/7.3.1_(qtver=7.3.1;cpu=IA32;os=Mac_10.5.1) 20071216145239
+nutchsearch/Nutch-0.9_(Nutch_Search_1.0;_herceg_novi_at_yahoo_dot_com) 20071230030940
+Mimetype_Getinfo 20071217121505
+VadixBot 20071228205737
+tags2dir.com/0.8_(_http://tags2dir.com/directory/) 20071216161911
+SBIder/SBIder-0.8.2-dev_(http://www.sitesell.com/sbider.html) 20071228084928
+boitho.com-dc/0.85_(_http://www.boitho.com/dcbot.html_) 20071231013951
+PHP_version_tracker_(http://www.nexen.net/phpversion/bot.php) 20071213084358
+page_verifier_http://www.securecomputing.com/goto/pv 20071217185708
+QuickTime/7.1.5_(qtver=7.1.5;cpu=IA32;os=Mac_10.4.9) 20071222181828
+CFNetwork/129.20 20071205194305
+larbin_2.6.3_larbin2.6.3@unspecified.mail 20071213212831
+Java/1.5.0_06 20071217162228
+QuickTime/7.3.1_(qtver=7.3.1;cpu=PPC;os=Mac_10.4.9) 20071219142227
+Google-Sitemaps/1.0 20071216151120
+QuickTime/7.3_(qtver=7.3;cpu=PPC;os=Mac_10.3.9) 20071215152316
+iearthworm/1.0,_mailto:iearthworm@yahoo.com.cn 20071229143310
+ccubee/2008 20071220235255
+bot/1.0_(bot;_http://;_bot@bot.bot) 20071224011758
+boitho.com-dc/0.82_(_http://www.boitho.com/dcbot.html_) 20071230220416
+QuickTime/7.3_(qtver=7.3;cpu=IA32;os=Mac_10.4.9) 20071216111429
+dmoz_tool3 20071206062621
+shelob_v1.0 20071224191844
+PECL::HTTP/1.6.0_(PHP/5.2.4) 20071210063638
+Java/1.6.0_02 20071219175345
+PEAR_HTTP_Request_class_(_http://pear.php.net/_) 20071219042158
+TestAgentName/Nutch-0.8.1 20071218113227
+contype 20071231214327
+nutch/Nutch-1.0-dev_(nutch) 20071214012221
+panscient.com 20071214064533
+- 20071230101901
+TheRarestParser_(http://therarestwords.com/) 20071215213838
+CFNetwork/129.21 20071218134752
+NextGenSearchBot_1_(for_information_visit_http://www.zoominfo.com/About/misc/NextGenSearchBot.aspx) 20071212224417
+VB_Project 20071218150757
+facebookexternalhit/1.0_(_http://www.facebook.com/externalhit_uatext.php) 20071212184828
+Java/1.5.0 20071226131151
+Java/1.4.1_04 20071216175841
+iearthworm/1.0,_iearthworm@yahoo.com.cn 20071217202219
+Java/1.5.0_13 20071224152033
+TheRarestParser/0.2a_(http://therarestwords.com/) 20071226012045
+asterias/2.0 20071231212140
+QuickTime/7.3_(qtver=7.3;cpu=PPC;os=Mac_10.4.9) 20071218222647
+Jakarta_Commons-HttpClient/3.1-rc1 20071225225123
+Java/1.6.0_03 20071217180512
+Java/1.5.0_04 20071219072855
+woriobot_(_http://www.worio.com/) 20071202204121
+boitho.com-dc/0.86_(_http://www.boitho.com/dcbot.html_) 20071231055133
+Mail.Ru/1.0 20071216154108
+Xenu_Link_Sleuth_1.2j 20071219073712
+QuickTime/7.2_(qtver=7.2;cpu=PPC;os=Mac_10.4.9) 20071205193833
+T-Online_Browser 20071218125834
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 2652 3444
+From1 2 2
+From2 1066 1103
+From3 1403 1438
+From4 5392 42535
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 19
+earthlink 7 7
+google 714 714
+search 16 16
+att 11 11
+msn 62 62
+dogpile 6 6
+google_image 18 23
+yahoo 85 93
+tango_hu 1 1
+google_cache 8 32
+aol 18 18
+goodsearch 3 3
+ask 6 6
+excite 1 1
+infospace 2 2
+altavista 14 14
+live 91 91
+netscape 2 2
+findarticles 1 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 181
+http://www.singingfish.com 754 754
+http://music.soso.com 75 75
+http://www.rtpnet.org/~hdweb/buying/builders/builders.html 38 38
+http://seattle.craigslist.org/see/msg/501975335.html 32 32
+http://www.harpmall.com/harps_for_sale.htm 32 32
+http://www.neopets.com/petlookup.phtml 30 30
+http://www.themckassons.com/schedule.htm 20 20
+http://www.sacred-knights.net/gamma/sk 18 18
+http://www.harpmall.com/lever_harp_makers.htm 13 13
+http://www.allclassical.org/pages/events.php5 11 11
+http://www.weddingharper.com/harplust.html 10 10
+http://www.earthsongonline.com/CD_Beneath_the_Moon.htm 10 10
+http://www.harpmall.com/harps_for_rent.htm 9 9
+http://mp3realm.org 9 9
+http://ismymovies.com/movie/black/0/4/812/0/ 8 8
+http://www.celticharper.com/Buyhrp.html 8 8
+http://seattlepi.nwsource.com/pop/340576_postcard23.html 8 8
+http://gewilli.blogspot.com 8 8
+http://www.praise1065.com/events-dynamic.php 7 7
+http://rs6.net/tn.jsp 7 7
+http://earlymusichicago.org/businesses_harp.htm 7 7
+http://www.BigFinder.de/index.php 7 7
+http://us.mg2.mail.yahoo.com/dc/launch 6 6
+http://seattletimes.nwsource.com/html/entertainment/2004028441_holclassicallist23.html 6 6
+http://webmail.aol.com/33161/aol/en-us/Suite.aspx 6 6
+http://webmail.aol.com/33161/aol/en-gb/suite.aspx 1 1
+http://www.oasiscd.com/intro/artistlinks.asp 1 1
+http://us.mg1.mail.yahoo.com/dc/blank.html 2 2
+http://www.methowdata.com/winthrop/calendar/events.cfm 4 4
+http://us.f506.mail.yahoo.com/ym/ShowLetter 2 2
+http://blogw.we.bs 4 4
+http://us.f551.mail.yahoo.com/ym/ShowLetter 1 1
+http://www.thewildgeese.com/pages/events.html 1 1
+http://www.midnightspecial.org/chicago/c20041225.html 1 1
+http://www.metaseek.nl/cgi-bin/meta/do/nph-zoek.cgi 1 1
+http://webmail.schmitztech.com/src/read_body.php 1 1
+http://us.f361.mail.yahoo.com/ym/ShowLetter 1 1
+http://celtic-connection.com/around/around2007_11_06.html 1 1
+http://www.gentlespirit.com/gslinks8.htm 1 1
+http://www.rtpnet.org/~hdweb/music/records/records.html 3 3
+http://spain.real.com/music/artist/_11007/ 1 1
+http://www.rtpnet.org/%7Ehdweb/buying/builders/builders.html 1 1
+http://us.f325.mail.yahoo.com/ym/ShowLetter 1 1
+http://mailcenter.comcast.net/wmc/v/wm/4761662E000B68D900005D6322007614389D0A04040A029C010A 1 1
+http://us.f514.mail.yahoo.com/ym/ShowLetter 2 2
+http://www.edmondsartsfestival.com/page.php 2 2
+http://www.competitor-analysis.com/logged_in/view_changes.php 1 1
+http://www.harp.net/HarpLinks.htm 5 5
+http://www.gilamountaindulcimers.com/perform-3.htm 1 1
+http://www.harpmall.com/complete_mall_m_1.htm 1 1
+http://www.rhapsody.com/magicalstrings 1 1
+http://us.f843.mail.yahoo.com/ym/ShowLetter 1 1
+http://www.pipcom.com/~thaney/Buyhrp.html 1 1
+http://directory.mozilla.org 1 1
+http://seattletimes.nwsource.com/html/entertainment/2002093410_webholmusiclist23.html 1 1
+http://www.harpmall.com/harp_events.htm 3 3
+http://mailcenter3.comcast.net/wmc/v/wm/4760C688000261B90000561A221653849603019D9B9C0E0D9C 1 1
+http://us.f334.mail.yahoo.com/ym/ShowLetter 1 1
+http://www.woodsongs.com/showdetailspage.asp 1 1
+http://www.underthegrid.com/event/11626 1 1
+http://mailcenter3.comcast.net/wmc/v/wm/4752F04B0005B78D000002E322165579969901029C0A9C07020A0B 1 1
+http://www.ojaiconcertseries.com/index_files/Page690.htm 1 1
+http://blogwaybaby.com 1 1
+http://newagereporter.com/charts/top100.asp 1 1
+http://www.gewilli.blogspot.com 3 3
+http://www.geocities.com/mollydoyle.geo/ 3 3
+http://webmail.aol.com/33161/kol/en-us/Suite.aspx 0 1
+http://mailcenter.comcast.net/wmc/v/wm/47600EF5000C4E97000060112213528573C8C7C7CE970A040401089C9D 1 1
+http://us.f592.mail.yahoo.com/ym/ShowLetter 1 1
+http://www.underthegrid.com/event/11625 1 1
+http://www.celticharper.com/otherharprs.html 3 3
+http://www.brownpapertickets.com/event/21619 3 3
+http://webmaila.juno.com/webmail/new/8 1 1
+http://us.f301.mail.yahoo.com/ym/ShowLetter 1 1
+http://mailcenter.comcast.net/wmc/v/wm/4760E45D0002F2D100006E402200750744CC050C079D040A0E04 1 1
+http://northernvirginia.cox.net/cci/google 1 1
+http://us.f604.mail.yahoo.com/ym/ShowLetter 1 1
+http://us.f562.mail.yahoo.com/ym/ShowLetter 4 4
+http://therarestwords.com/magicalstrings.com 2 2
+http://webmail.aol.com/33161/aol/en-us/Lite/MsgRead.aspx 1 1
+http://www.faerieworlds.com/html/vending.html 1 1
+http://cgrconsulting.org/portfolio.php 1 1
+http://us.mg1.mail.yahoo.com/dc/launch 1 1
+http://syndicateus.org/events/webs/michiganfolklive/scalendar.asp 1 1
+http://psfhs.home.comcast.net/~psfhs/calendar.htm 4 4
+http://us.f538.mail.yahoo.com/ym/ShowLetter 1 1
+http://de.real.com/music/artist/_11007/ 1 1
+http://www.ksow.org/pages/playlist.html 1 1
+http://mailcenter.comcast.net/wmc/v/wm/47579C72000E548F000039782205886442CCCECDCE030C 1 1
+http://france.real.com/music/artist/_11007/ 1 1
+http://www.modelsailboat.com/tmovies.html 4 4
+http://tacoma.planetdiscover.com/qsearch 1 1
+http://www.inlandcrafts.org/artists/artist_images.htm 1 1
+http://us.f307.mail.yahoo.com/ym/ShowLetter 1 1
+http://www.mac.com/WebObjects/Webmail.woa/wa/default 1 1
+http://neopets.com/petlookup.phtml 5 5
+http://uk.real.com/music/artist/_11007/ 2 2
+http://www2.plala.or.jp/kazuhikobucci/link.html 1 1
+http://www.conjure.com/CELT/cmusart.html 1 1
+http://www.enotes.com/contemporary-musicians/magical-strings-biography/print 1 1
+http://www.parentmap.com/newsletter/newsletter_south.html 1 1
+http://www.harpmall.com/teachers.htm 4 4
+http://www.brownpapertickets.com/event/21620 4 4
+http://celtic-connection.com/around/around2007_02_09.html 1 1
+http://www.bigskyharpfestival.com/index.php 1 1
+http://www.bellinghamherald.com/entertainment/story/261586.html 1 1
+http://us.mg2.mail.yahoo.com/dc/blank.html 3 3
+http://webmail.aol.com/33060/aol/en-us/Suite.aspx 1 1
+http://www.k103.com/pages/events/index.php 2 2
+http://webmail.aol.com/33060/aim/en-us/Suite.aspx 1 1
+http://www.christmasreviews.com/xunipgm1.shtml 1 1
+http://www.hoilands.com/ceilisteps_moreinfo.htm 1 1
+http://www.metrobellevue.com/bellevue_localevents.htm 1 1
+http://mailcenter.comcast.net/wmc/v/wm/475C9C4E000B81B7000043532200750784CDCD02080A01059C 1 1
+http://us.f580.mail.yahoo.com/ym/ShowLetter 1 1
+http://mailcenter3.comcast.net/wmc/v/wm/47600EBB000691ED00006D142212020784C9CB0E0A07020E0A0B 1 1
+http://jyxo.1188.cz/s 1 1
+http://www.musikit.com/Merchant2/merchant.mvc 3 3
+http://www.tboats.com/tmovies.html 3 3
+http://us.f544.mail.yahoo.com/ym/ShowLetter 1 1
+http://us.f841.mail.yahoo.com/ym/ShowLetter 3 3
+http://www.sitidi.net 3 3
+http://www.kitchenmusician.net/pages/dstores-prp.html 2 2
+http://www.modelsailboat.com/andyf.html 2 2
+http://www.anacortesartsfestival.com/ba_listing.cfm 1 1
+http://www.celticharper.com/teachers.html 5 5
+http://nova.methowdata.net/webmail/src/read_body.php 1 1
+http://harpmall.com/harps_for_rent.htm 1 1
+http://mailcenter.comcast.net/wmc/v/wm/4762C547000465920000727722007456729C0A0499010205D29B 1 1
+http://translate.google.com/translate 2 2
+http://us.f607.mail.yahoo.com/ym/ShowLetter 1 1
+http://mobrender.com/proxy.aspx 1 1
+http://www.oregonmom.com/Winter&Holiday/holiday_music_and_theater_around.htm 1 1
+http://tags2dir.com/directory/category/classes/ 1 1
+http://mywbs.com 1 1
+http://www.enotes.com/contemporary-musicians/magical-strings-biography 2 2
+http://www.cgrconsulting.org/portfolio.php 2 2
+http://www.rtpnet.org/hdweb/buying/builders/builders.html 6 6
+http://www.nwfolklife.org/P_F/vmusic.html 2 2
+http://www.kitchenmusician.net/pages/dstores.html 4 4
+http://www.thelivingmadonna.com/links8863.cfm 2 2
+http://www.sportfishermen.com/board/f204/possible-sites-list-em-28907.html 1 1
+http://us.f527.mail.yahoo.com/ym/ShowLetter 1 1
+http://www.hoilands.com/ceilisteps_moreinfo2.htm 2 2
+http://www.facebook.com/inbox/ 0 5
+http://faerieworlds.com/pages2006/music.html 1 1
+http://honyaku.yahoofs.jp/url_result 0 21
+http://www.sitedossier.com/site/www.magicalstrings.com 1 1
+http://www.b3ta.cr3ation.co.uk/site/music-plus/musicplus.swf 1 1
+http://gewilli.blogspot.com/2007/12/tale-of-two-races.html 2 2
+http://harpmall.com/harps_for_sale.htm 2 2
+http://www.methowdata.com/winthrop/calendar/Monthpages/December.cfm 4 4
+http://www.cityofseattle.net/tda/gifts.htm 1 1
+http://www.BigFinder.de 1 1
+http://webmail.aol.com/33060/aol/en-us/Mail/DisplayMessage.aspx 1 1
+http://webmail1.webmail.aol.com/33161/aol/en-us/Suite.aspx 2 2
+http://us.f563.mail.yahoo.com/ym/ShowLetter 1 1
+http://www.parentmap.com/index.php 4 4
+http://www.coolchaser.com/layout/create 0 1
+http://www.colleenraney.com/html/modules.php 5 5
+http://mailcenter.comcast.net/wmc/v/wm/476311F500061ECC00001D0222064244130E969D0E09D20A020A049D0E0C 3 3
+http://www.bellevuefest.org/WebsiteInfo_2007.pdf 1 1
+http://www.webfetchgo.com/uk.webfetch/search/web/port%2Bo%2527%2Bcall%2Bmp3/41/20/3/-/0/0/1/1/1/0/_blank/-/-/di9%253A1196796475346/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/0/417/bottom 1 1
+http://www.folkproject.org/fp_minsthist.html 1 1
+http://earlymusichicago.org/businesses_strings.htm 1 1
+http://www.mixx96.com/ext/frameset.php 3 3
+http://www.harpmall.com/wire_strung_harps.htm 5 5
+http://us.f343.mail.yahoo.com/ym/ShowLetter 0 6
+http://www.charter.net/google/index.php 2 2
+http://seattlepi.nwsource.com/wh/goingout.asp 3 3
+http://us.f569.mail.yahoo.com/ym/ShowLetter 0 1
+http://gocitykids.parentsconnect.com/calendar/ 1 1
+http://www.tacomaweekly.com/article/1429 2 2
+http://us.f310.mail.yahoo.com/ym/ShowLetter 4 4
+http://www.faerieworlds.com/pages2007/music.html 1 1
+http://forum.thesmallprint.org/index.php 6 6
+http://us.f510.mail.yahoo.com/ym/ShowLetter 1 1
+http://members.aol.com/kitchiegal/dstores.html 1 1
+http://my.opera.com/juliestalkingharp/blog/ 1 1
+http://www.brownpapertickets.com/event/21621 4 4
+https://www.paypal.com/us/cgi-bin/webscr 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 328
+magical+strings 395
+magical+strings+seattle 29
+www.magicalstrings.com 20
+magicalstrings.com 19
+philip+boulding 16
+bell 10
+celtic+yuletide 9
+lap+harps 9
+magicalstrings 9
+magical+strings+celtic+yuletide 8
+magical+strings+bellevue 8
+magic+strings+toy+violin 7
+harp+camp 7
+magical+strings+tacoma 6
+seattlepi.nwsource.com/pop/340576_postcard23.html+seattlenoise+magical+strings+gene+stout 6
+magical+strings+concert 5
+celtic+strings 5
+magical+strings+yuletide 5
+harp+camps 4
+raney+irish+dancers 4
+magical+strings+concert+schedule 4
+magical+strings+harp 4
+magical+strings+concert+seattle 4
+magical+strings+concerts 4
+magical 4
+celtic+yuletide+concert+seattle 1
+right+of+strings+concert 1
+harp+camp+ireland 1
+magical+strings+olympia 1
+magical+strings+port+orchard 1
+mark+raney+irish+music 2
+magic+strings+toy+violins 1
+magical+strings+celtic+concert+tickets 1
+how+many+strings+on+a+harp 1
+seattle+celtic+yuletide+concert 1
+magical+strings.com 2
+celtic%2fyuletide+celebrations 1
+large+concert+instruments 1
+harp+making 2
+elise+kennedy+celtic+singing+recording 1
+harp+concert+seattle 2
+boulding+family 2
+www.magiclstrings.com 1
+colleen+raney+and+actress 1
+magical+strings+concert+in+portland+or 2
+harps+tide 1
+magical+strings+lyre 1
+botl2 1
+seattle+celtic+harp 1
+cossack+lullaby+mp3 2
+oladion+harp 1
+seattle+the+barn+concert 1
+the+yule+beggar 1
+harps 3
+celtic+yuletide+seattle+2007 1
+celtic+mist+song 1
+dan+fogelberg+maine 1
+betaa 2
+introduction+for+school+assembly 1
+magical+strings+legend+of+inishcahey 1
+matt+jerrell 3
+magical+strings+2007+yuletide+concert 1
+magic+strings 1
+philip+bouldings+harp 1
+celtic+yuletide+mt.+vernon 1
+rent+harp+seattle 1
+dr+mark+raney+irish+music 1
+playing+the+jamaican+harp 1
+printable+school+forms 1
+magical+strings+seattle+w+a. 1
+magical+strings+christmas+concert+bellevue+wa 1
+knock+mp3 1
+philip+and+pam+boulding+harp 1
+magical+strings+celtic+yuletide+bellevue 1
+phillip+boulding 3
+tacoma+harp+rentals 1
+www%2emagicalstrings%2ecom 1
+above+the+tower+magical+strings 1
+magical+strings+yuletide+concert+bellevue 1
+hammered+dulcimer+reel+-camp+-playlist+filetype+pdf 1
+www.magicalstrings.com%2f 1
+celtic+harp+rentals 1
+magical+strings+concert+olympia 1
+brittany+boulding 1
+waldorf+harp 1
+magical+strings+celtic+christmas+2007 1
+boulding+family+christmas 1
+magical+strings+concert+schedule+vernon 1
+yuletide+festival+poulsbo 1
+olalla+family+musicians 1
+concert+harp+construction 1
+dan+fogelberg+island+maine 1
+rent+harp+in+wa 1
+pam+boulding+dulcimer+stand 1
+auto 1
+best+prices+on+used+lap+harps 1
+dan+fogelberg+maine+island%3f 1
+yuletide+concert 1
+magical+strings+music 1
+magical+bell 2
+magical+harps+olalla 1
+harp+making+strings+nylon 1
+choroi+strings 1
+magic+hill+summer+camp 1
+boulding+phil 1
+magical+strings+kent+2007 1
+maine+island+of+dan+fogelberg 1
+celtic+strings+seattle 2
+si+beg+si+mor 1
+the+magical+cross 1
+magical+strings+concert+olympia+wa 1
+skellig+introduction 1
+glass+horse+magical+strings 1
+raney+family+irish+dancers 1
+celtic+yuletide+festival 1
+magic+strings+seattle 1
+celtic+tacoma+wa+yuletide 1
+mark+raney+irish+band 1
+magical+strings+wa 1
+seattle+magical+strings 2
+magical+strings+harp+camp 1
+1st+covenant+church+seattle+400+e.+pike+street 1
+what+is+a+boulding 1
+brenin+boulding+brown+university 1
+philip+and+pam+boulding 2
+celtic+yuletide+olympia 1
+celtic+music+first+covenant+seattle 1
+magical+strings+on+the+burren 1
+boulding+harp 2
+celtic+yuletide+2007+and+seattle 1
+celtic+yuletide+in+bellevue 1
+philip+boulding+magical+strings 1
+used+lap+harps 1
+assembly+workshop 1
+philip+%26+pam+boulding+magical+strings 1
+school+assembly+introduction 1
+harp+making+school 1
+boulding+magical+strings 1
+harp+waldorf 1
+concert+harps 1
+boulding+family+magical+strings 1
+celtic+yuletide+seattle 2
+whistle+and+valiha 1
+yuletide+strings+seattle 1
+magical+strings+winthrop 2
+yuletide+olympia 1
+magical+strings%2ecom 1
+magical+strings+21st+annual+celtic+yuletide+concert 1
+concert+harp+case 1
+the+magical+blend 1
+yuletide+concert+first+congregational+church+portland 1
+harps+dulcimers+books 1
+harp+lessons+seattle 1
+philip+boulding+harp+instrument+review 1
+celtic+magical+strings 1
+concert+2007 1
+magical+strings+celtic+yuletide+concert 1
+colleen+raney 1
+dan+fogelberg+lives+in+maine 1
+boulding+family+s+celtic+harps 1
+magical+strings+yuletide+concert 2
+magical+circle 1
+magical+strings+concert.+portland 1
+hammered+dulcimer+rental+fees+towards+purchase 1
+dan+fogelberg+maine+island 1
+glass+horse+hammered+dulcimer 1
+magical+strigs 1
+bar 2
+magic+strings.com 1
+magical+strings+bellevue+washington 2
+listen+to+dragon+dances 1
+philip+pam+boulding 1
+phillip+harps+seattle 1
+www.magical+strings.com 2
+celtic+lever+harps 1
+celtic+yuletide+blessings 1
+magical+strings+celtic+yuletide+bellevue+wa 1
+harp+lessons+bellevue 1
+printable+lap+harp+cards 1
+magical+strings+olympia+wa 2
+magical+strings+concert+in+seattle 1
+mellow+used+36+string+harps 1
+magical+string+yuletide 1
+magical+strings+celtic 2
+welsh+lap+harp 1
+pam+and+philip+boulding 1
+magical+strings+concerts+wa 2
+www.philip+magic.com 1
+magic+strings+harps 1
+dulcimer+strings 1
+celtic+harp+in+olalla+washington 2
+magical+celtic+yuletide 1
+phil+boulding 2
+harp+strings+celtic+lever 1
+magical+strings+2007 1
+phil+pam+boulding 1
+magial+string+and+olympia 1
+celtic+dulcimers 1
+boulding 1
+maine+island+news+fogelberg 1
+magical+strings+concert+tacoma 1
+harp+construction 1
+madagascar+study+sheet+for+children 1
+harp+like+instruments 1
+on+the+burren 1
+magical+website 1
+yuletide+music 2
+5+octave+harp 1
+sonnets+magic 1
+si+beg+si+mor+mp3 2
+valiha+harp 1
+q+school+registration 1
+string+harps 1
+magical+strings+portland 2
+harps+5+octaves 1
+yule+celebrations+in+olympia+washington 1
+boulding+harps 1
+%c7%cf%c7%c1 2
+magical+strings+christmas+seattle 2
+magical+strings+portland+concert 1
+harp+rental+bellevue 1
+boulding+family+website 2
+celtic+yuletide+mt+vernon+washington 1
+harp+like+instrument 2
+mummer+s+dance 2
+lyre+harps+vancouver+bc 1
+a+lullaby+by+dragons 1
+magical+strings+christmas+kent+concert+2007 1
+magical+strings+christmas+concert 2
+magical+strings+celtic+yuletide+tacoma 1
+this+endress+night 1
+celtic+harp+instruments+by+philip+boulding 1
+celtic+harp+lesson+seattle 1
+harps+rental+small 1
+bellevue+celtic+yuletide 1
+harp+boulding+philip+seattle 1
+magical+musical+instruments 1
+olympia+strings+review 1
+magical+strings+harps 3
+celtic+yuletide+urban+grace 2
+irish+yuletide+blessings 1
+magical+strings+performances 1
+lap+harp+tuning+sheet+pdf 1
+boulding+christmas+concert+tacoma 2
+music+c.d.+s+by+a+strings 1
+magical.strings 1
+molly+st+george 1
+who+was+inishcahey 1
+magical+strings+portland+oregon 1
+bell+off+the+ledge 1
+magical+strings+glass+horse 1
+lap+harp+templates 1
+magical+strings+tacoma+wa 1
+philip+boulding+harp 1
+lindsey+love+houston 1
+celtic+yuletide+seattle+wa 2
+magic+strings+olympia 1
+celtic+yuletide+magical+strings 2
+dan+fogelberg+and+maine 2
+magical+strings+schedule+of+events 1
+lap+harp+review 2
+magical+strings+concerts+seattle+wa 1
+magical+strings+concert+portland+or 1
+harp+the+instrument 1
+magial+strings+seattle 1
+magical+strings+family+tree 1
+philip+boulding+wa 1
+raney+family+concert+tacoma 1
+magical+fairy+harp 1
+school 1
+lincoln+theater+mount+vernon+washington+magical+strings 1
+maple+c+pocket+instrument 1
+scottish+lap+harps 1
+ancient+and+modern+geometrical+instruments 1
+yuletide+blessings+celtic 1
+beginner+s+wooden+lap+harp 1
+a+string+of+islands+is+called%3f 1
+yuletide+christmas+bellevue+wa 1
+raney+family+dancers 2
+magical+strings+portland+2007 1
+great+skellig 1
+magical+strings+international+competition 1
+a+school+registration+form 1
+how+many+strings+does+a+kora+have%3f 1
+choroi+harp+strings 1
+margaret%e2%80%99s+new+tour+beautiful 1
+boulding+philip 1
+magical+strings+instrument 1
+celtic+harp+rental 1
+magical+strings+bellevue+concert 1
+construction+of+strings 1
+harp+rental+tacoma 1
+lap+harp 3
+celtic+concert+meydenbauer+dec 1
+study+guide+oliver+cromwell 1
+printable+school+registration+forms 1
+magical+strings+concerts+2007 2
+renting+dulcimers 1
+hammered+dulcimer+purchase+seattle+wa 1
+boulding+family+music 1
+gary+larson+accordion+harp 1
+crossing+to+skellig 1
+magical+strings+celtic+christmas 1
+harp+rentals+seattle 1
+celtic+harp+lessons+seattle 2
+%a5%de%a5%b8%a5%ab%a5%eb%a1%a6%a5%b9%a5%c8%a5%ea%a5%f3%a5%b0%a5%b9 1
+study+notes+on+nylon 1
+mark+raney+celtic+music 1
+magical+strings+in+seattle+washington 1
+make+a+lap+harp 1
+magical+on+strings 1
+celtic+yultide+seattle 1
+a+printable+schools+register 1
+harmonica+class+seattle+children 1
+santur+history+filetype+pdf 1
+glass+horse+hammered+dulcimer+pam+boulding 1
+celtic+yuletide+concert+boulding+family+s 2
+700-foot+rock+song 1
+magical+yo+yo+strings+band 2
+celtic+harps 2
+seattle+celtic+yuletide+concert+tickets 1
+summer+harp+camp 1
+harps+phillip+boulding 1
+celtic+yuletide+bellevue 2
+purchase+a+school+harp 1
+strings 1
+skellig+study+guide 1
+school+assemblies 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 298
+strings 594
+magical 580
+celtic 83
+harp 78
+seattle 72
+yuletide 68
+boulding 59
+concert 54
+harps 35
+philip 30
+lap 23
+bellevue 22
+www.magicalstrings.com 20
+magicalstrings.com 19
+wa 17
+family 16
+raney 15
+magic 15
+tacoma 15
+bell 13
+christmas 12
+2007 11
+olympia 11
+camp 11
+and 11
+performances 1
+form 1
+brittany 1
+skellig 4
+margaret%e2%80%99s 1
+many 2
+phil 4
+ireland 1
+pike 1
+blend 1
+history 1
+night 1
+what 1
+violins 1
+www.magiclstrings.com 1
+used 3
+seattlenoise 6
+e. 1
+botl2 1
+church 2
+annual 1
+tide 1
+of 6
+vancouver 1
+choroi 2
+mt. 1
+blessings 3
+betaa 2
+have%3f 1
+sonnets 1
+tickets 2
+nylon 2
+santur 1
+a 10
+review 4
+in 10
+urban 2
+si 6
+stand 1
+pdf 3
+matt 3
+www%2emagicalstrings%2ecom 1
+lullaby 3
+by 3
+-camp 1
+magic.com 1
+kent 2
+vernon 4
+lindsey 1
+strigs 1
+oregon 1
+www.magicalstrings.com%2f 1
+festival 2
+maine 9
+welsh 1
+reel 1
+yule 2
+register 1
+auto 1
+irish 10
+international 1
+5 2
+tree 1
+mor 3
+children 2
+string 5
+jamaican 1
+on 6
+theater 1
+geometrical 1
+study 4
+assembly 3
+houston 1
+crossing 1
+love 1
+oladion 1
+yultide 1
+knock 1
+concert. 1
+case 1
+fogelberg 9
+colleen 2
+yo 4
+valiha 2
+making 4
+printable 4
+dances 1
+purchase 3
+camps 4
+dr 1
+instrument 6
+stout 6
+schools 1
+assemblies 1
+www.philip 1
+covenant 2
+website 3
+pocket 1
+street 1
+inishcahey 2
+celtic%2fyuletide 1
+rental 5
+new 1
+how 2
+lyre 2
+best 1
+modern 1
+700-foot 1
+endress 1
+band 3
+seattlepi.nwsource.com/pop/340576_postcard23.html 6
+concerts 9
+kennedy 1
+workshop 1
+orchard 1
+renting 1
+elise 1
+dancers 7
+gary 1
+musical 1
+university 1
+36 1
+wooden 1
+lincoln 1
+brenin 1
+celebrations 2
+molly 1
+was 1
+magicalstrings 9
+george 1
+tower 1
+%26 1
+bar 2
+larson 1
+c.d. 1
+beggar 1
+dulcimer 7
+octaves 1
+400 1
+st 1
+maple 1
+tuning 1
+kora 1
+dance 2
+introduction 3
+rentals 3
+prices 1
+w 1
+beg 3
+small 1
+barn 1
+forms 2
+is 2
+mt 1
+toy 8
+meydenbauer 1
+sheet 2
+whistle 1
+fairy 1
+right 1
+singing 1
+construction 3
+scottish 1
+notes 1
+events 1
+21st 1
+lessons 4
+a. 1
+off 1
+horse 4
+like 3
+phillip 5
+lever 2
+instruments 5
+mp3 5
+circle 1
+guide 2
+summer 2
+s 7
+washington 8
+dragons 1
+harmonica 1
+c 1
+pam 9
+fees 1
+filetype 2
+rent 2
+oliver 1
+%c7%cf%c7%c1 2
+musicians 1
+portland 10
+bc 1
+hammered 5
+make 1
+cossack 2
+congregational 1
+jerrell 3
+1st 1
+news 1
+beginner 1
+island%3f 1
+gene 6
+strings%2ecom 1
+mark 5
+winthrop 2
+listen 1
+who 1
+brown 1
+magical.strings 1
+islands 1
+mount 1
+violin 7
+schedule 6
+madagascar 1
+actress 1
+q 1
+tour 1
+ledge 1
+octave 1
+dec 1
+waldorf 2
+books 1
+burren 2
+registration 3
+magial 2
+to 2
+mist 1
+towards 1
+school 10
+dulcimers 3
+www.magical 2
+grace 2
+accordion 1
+large 1
+glass 4
+the 10
+hill 1
+island 4
+cross 1
+recording 1
+dan 8
+dragon 1
+or 3
+called%3f 1
+rock 1
+does 1
+music 10
+mummer 2
+this 1
+-playlist 1
+for 2
+song 2
+legend 1
+playing 1
+port 1
+poulsbo 1
+lesson 1
+class 1
+templates 1
+%a5%de%a5%b8%a5%ab%a5%eb%a1%a6%a5%b9%a5%c8%a5%ea%a5%f3%a5%b0%a5%b9 1
+olalla 4
+above 1
+great 1
+competition 1
+strings.com 5
+first 2
+ancient 1
+mellow 1
+beautiful 1
+cromwell 1
+lives 1
+bouldings 1
+cards 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 6
+403 35 0
+302 11 50
+206 585 130652162
+405 1 327
+301 2 650
+404 3432 0
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 218
+/PDF/Boulding 2 -
+/Images/Yuletide/YT_2006B1.jpg 2 -
+/samples/ic7_win2spring.mp3 11 -
+/School_of_Magical_Strings_Fall_Term_2003.htm 3 -
+/miva/graphics/en-US/mmui/dot.gif 4 http://209.85.173.104/search
+/Brittany.html 23 -
+/PDF%20Files/CD%27s%20&%20Reviews.pdf 11 -
+/Images/Yuletide/YT_2004_Group.jpg 1 -
+/samples/Magical%20Strings%20-%20Track%204.smi 1 -
+/samples/TRACK_10.ram 1 -
+/dusty.html 27 -
+/%3E 1 -
+/PDF%20Files/All%20About.pdf 14 -
+/form_School_Print.html 1 http://www.magicalstrings.com/form_School_Print.html
+/1896406312000a02.ram 3 -
+/tours/Calendar.html 1 -
+/School_of_Magical_Strings_Winter_Term_2004.htm 3 -
+/tours/SchoolIndex.html 1 -
+/R-Musings.html 1 -
+/bio.html 13 -
+/tours/orinda_directions.htm 4 -
+/samples/FILE_NAME.mp3 6 -
+/_vti_bin/owssvr.dll 6 -
+/Images/Harp-Tristy.jpg 3 -
+/Harp%20Camp%202002%20Accommodations_files/filelist.xml 3 -
+/samples/Musings 2 -
+/PDF%20Files/Boulding%20Family%20Story%20Yuletide%202004.pdf 11 -
+/1896406312000a06.ram 3 -
+/global.css 1 -
+/samples/The%20Unseen%20Journey.mp3 4 http://music.soso.com
+/miva/graphics/00000001/basket1.gif 4 http://209.85.173.104/search
+/News2002.html 19 -
+/Images/26th%20YT.gif 1 -
+/form_Camp_Print.html 1 http://www.magicalstrings.com/form_Camp_Print.html
+/School_of_Magical_Strings_Fall_Term_2005.htm 10 http://www.google.com/search
+/Images/Yuletide/YT_2006B1thmb.jpg 2 http://image.yodao.com/
+/samples/CelticMistCD%202%20-%20Track%205.mp3 1 http://www.magicalstrings.com/R-CelticMist.html
+/samples/CelticHolidayCD%201%20-%20Track%204.mp3 3 http://www.magicalstrings.com/R-Celtic%20Holiday.html
+/form_school_print.html 4 -
+/School_of_Magical_Strings_fall_Term_2004.htm 5 -
+/Images/Fairy%20School%20group.jpg 1 -
+/School_form.html 6 -
+/recordings.html 13 -
+/links.html 13 -
+/css/nms.css 1 -
+/SCHOOL%20OF%20MAGICAL%20STRINGS%20WINTER%20TERM%202002_files/filelist.xml 10 -
+/1896406312000a05.ram 3 -
+/Images/Whispers/JPEGofFrontCover.jpg 6 -
+/images/clear.gif 3 http://honyaku.yahoofs.jp/url_result
+/samples/The%20Summer%20River.mp3 5 -
+/Images/Btn%20Portland.gif 7 http://www.magicalstrings.com/YT_2007.html
+/yt_2007.htm 1 -
+/YT_2005.html 12 -
+/Images/Harp%2520Conc%2520Kailey.jpg 1 -
+/1896406312000a13.ram 3 -
+/Images/Yuletide/YT%2004%20Group.jpg 1 -
+/YT_2004.html 6 -
+/Images/Yuletide/YT_2004_Group_sm.jpg 1 -
+/CreatingWhereDragonsDance/Where%20Dragons%20Dance_LowLow1.html 19 -
+/Images/Yuletide/YT%2004%20Family_sm.jpg 1 -
+/1896406312000a11.ram 3 -
+/Images/instruments/harp_new3.jpg 1 -
+/miva/graphics/00000001/MS%20Header%20MIVA.gif 5 http://209.85.173.104/search
+/calendar.html 13 -
+/Images/Btn%20Olympia.gif 6 http://www.magicalstrings.com/YT_2007.html
+/samples/TRACK_11.ram 2 -
+/schoolindex.html 13 -
+/r-musings.html 12 -
+/YT_2007 1 -
+/samples/cts4_lament.mp3 3 http://www.magicalstrings.com/R-CrossingtoSkellig.html
+/Brittany 1 -
+/Contact.html 7 -
+/Images/Brittany_side.jpg 1 http://images.search.yahoo.com/search/images/view
+/samples/ic11_hornpipe.mp3 2 -
+/file:///C|/MS/Yuletide%202003Images/Background-Gold.gif 6 http://www.magicalstrings.com/YT_2007.html
+/samples/DulcimerCD%202%20-%20Track%205.mp3 2 -
+/School%20of%20Magical%20Strings%20Fall%20Term%202002.htm 1 -
+/samples/Magical 2 -
+/samples/The%20Humours%20of%20Scariff.mp3 3 http://music.soso.com
+/YT_2007.html/ 3 http://www.northwestprimetime.com/test_calendar_events.php
+/School%203%20cedars%20directions.html 31 -
+/Images/Verisign1.gif 2 http://image.yodao.com/
+/HarpCamp2002pics.html 2 -
+/samples/TRACK_06.ram 2 -
+/Images/harp_new3.jpg 1 -
+/samples/CelticMistCD%201%20-%20Track%207.mp3 5 -
+/tours/Reviews.html 1 -
+/samples/btm3_brittany.mp3 3 http://www.neopets.com/petlookup.phtml
+/samples/Doherty%92s%20Reels.mp3 1 http://music.soso.com
+/school%20new%20discovery%20directions.html 4 -
+/harpsdulcimers.html 13 -
+/favicon.gif 1 -
+/1896406312000a07.ram 3 -
+/miva/graphics/00000001/Btn%20Tac%20Resv.gif 3 http://209.85.173.104/search
+/miva/graphics/00000001/Checkout1.gif 4 http://209.85.173.104/search
+/form_contact.html 13 -
+/wdd_home.html 1 -
+/samples/TRACK_03.ram 3 -
+/miva/graphics/00000001/Background-Gold.gif 5 http://209.85.173.104/search
+/Images/instruments/HarpConcOladion.jpg 1 -
+/Images/Yuletide/YT%2004%20Groupsm.jpg 1 -
+/main.htm 1 -
+/Images/MSLogo.gif 1 -
+/PDF%20Files/ALU%20VIS%20MAG%20STRINGS%20one%20sheet.pdf 1 -
+/1896406312000a12.ram 3 -
+/graphics/en-US/mmui/dot.gif 1 -
+/PDF%20Files/Redlands%20Letter%20&%20Daily%20Facts%20review%20%2799.pdf 5 -
+/form_school_reg.html 4 -
+/Images/Performers/ColleenRaney2_sm.jpg 6 http://magicalstrings.com/YT_2007.html
+/samples/btm5_dance.mp3 4 -
+/samples/Bells%20of%20Ballinskelligs.mp3 2 http://www.magicalstrings.com/R-WDD.html
+/PDF/Yuletide_Family_Story_2003.pdf 2 -
+/robots.txt 1427 -
+/tours/Recordings.html 1 -
+/Images/padlock.gif 28 http://www.magicalstrings.com/Form_School_Reg.html
+/samples/CelticHolidayCD%201%20-%20Track%202.mp3 6 -
+/YT_2003.html 9 -
+/css/MS_Styles.css 41 http://www.magicalstrings.com/Presskit.html
+/Images/R-WDD-NSsm.jpg 6 -
+/samples/CelticHolidayCD%201%20-%20Track%203.mp3 3 http://www.magicalstrings.com/R-Celtic%20Holiday.html
+/samples/botl2_bell.smi 1 -
+/PDF%20Files/Philip%20&%20Pam%20Bio's.pdf 6 -
+/PDF%20Files/School_Program_Study_Guide.pdf 13 -
+/Images/MagicalStrings.zip 3 -
+/schoolindex 9 -
+/samples/CelticMistCD%201%20-%20Track%201.mp3 2 -
+/samples/TRACK_13.ram 1 http://www.magicalstrings.com/R-Legend.html
+/samples/Magical%20Strings%20-%20Track%204.mp3 4 -
+/school%20of%20magical%20strings%20winter%20term%202002_files/filelist.xml 5 -
+/form_Harp_Deposit.html 1 http://www.magicalstrings.com/form_Harp_Deposit.html
+/Images/MSLogo_lg.gif 1 -
+/samples/cts1_knock.mp3 1 http://www.magicalstrings.com/R-CrossingtoSkellig.html
+/PDF%20Files/Philip%20&%20Pam%20Bio%27s.pdf 9 -
+/Images/Whispers/JPEG%20of%20Front%20Cover.jpg 1 http://magicalstrings.com/W-Whispers.html
+/form_Contact.html 1 http://www.magicalstrings.com/form_Contact.html
+/w-whispers.html 8 -
+/YT_2006.html 151 -
+/news2003_old.html 2 -
+/tours/Bio.html 1 -
+/CreatingWhereDragonsDance/FAMILY 2 -
+/samples/cts9_skellig.mp3 2 -
+/Form_Camp.html 1 -
+/test-sound.php 1 -
+/1896406312000a09.ram 3 -
+/reviews.html 13 -
+/samples/TRACK_08.ram 1 http://www.magicalstrings.com/R-Legend.html
+/Images/harp_group.jpg 1 -
+/samples/loi5_house.mp3 2 -
+/Images/Fairy%20School%20meadow.jpg 1 -
+/samples/CelticHolidayCD%202%20-%20Track%2010.mp3 4 -
+/Images/YT_CAST.jpg 1 -
+/samples/loi2_vali.mp3 1 http://www.magicalstrings.com/R-Legend.html
+/PDF%20Files/CD's%20&%20Reviews.pdf 5 -
+/r-wdd.html 5 -
+/1896406312000a08.ram 3 -
+/1896406312000a04.ram 3 -
+/form_Order_Harps_Print.html 1 http://www.magicalstrings.com/form_Order_Harps_Print.html
+/samples/CelticHolidayCD%202%20-%20Track%203.mp3 5 http://www.magicalstrings.com/R-Celtic%20Holiday.html
+/form_School_Reg.html 1 http://www.magicalstrings.com/form_School_Reg.html
+/School_of_Magical_Strings_winter_Term_2005.htm 2 -
+/PDF/All 2 -
+/samples/ 2 -
+/Orderform.html 1 http://www.magicalstrings.com/Orderform.html
+/graphics/00000001/basket1.gif 1 -
+/Images/YT%20Raney%20Dancers%20w-babies%20sm.jpg 2 -
+/PDF%20Files/Redlands%20Letter%20&%20Daily%20Facts%20review%20'99.pdf 3 -
+/harpcamp.css 95 http://www.magicalstrings.com/HarpCamp.html
+/Images/HarpCamp20006.jpg 102 http://www.magicalstrings.com/HarpCamp.html
+/yt_2006.html 1 -
+/Images/Yuletide/YT_2005A.jpg 2 -
+/Images/instruments/new_kailey_thmb.jpg 1 -
+/miva/ 2 -
+/PDF%20Files/Venue%20Info.pdf 13 -
+/samples/CelticMistCD%202%20-%20Track%203.mp3 1 -
+/graphics/00000001/Checkout1.gif 1 -
+/mailto:%72%61%79%40%63%67%72%63%6f%6e%73%75%6c%74%69%6e%67%2e%6f%72%67 4 -
+/YT%202002.html 23 -
+/Rowan 2 -
+/Fairy_School.html 13 -
+/Images/Harp%20Conc%20Kailey.jpg 3 http://resim.turkcebilgi.com/resim_detay.asp
+/Images/Harp-Oladion-High.jpg 2 -
+/Help.html 6 -
+/MSOffice/cltreq.asp 6 -
+/samples/botl13_peace.mp3 9 -
+/1896406312000a03.ram 3 -
+/CreatingWhereDragonsDance/Images/MSHeader-Background.gif 6 http://magicalstrings.com/CreatingWhereDragonsDance/2Quartetstanding1.html
+/Images/Fairy%20School%20loft.jpg 1 -
+/News2003_old.html 23 -
+/harp121.htm 45 -
+/miva/merchant.mv 370 -
+/Images/Yuletide/YT_04_Family_120w.jpg 1 -
+/form_Email_Add.html 1 http://www.magicalstrings.com/form_Email_Add.html
+/Images/Yuletide/YT%2004%20Family.jpg 1 -
+/CreatingWhereDragonsDance/Where 2 -
+/School.html 8 -
+/yt_2007.html 17 -
+/Dance 1 -
+/samples/Musings%20Margaret 9 -
+/School_of_Magical_Strings_spring_Term_2004.htm 1 -
+/Images/Yuletide/YT_04_Group120w.jpg 1 -
+/menu.html 5 -
+/Images/MSLogo_sm.gif 1 -
+/tours/orinda2005.htm 13 -
+/Form_Order_Harps.html 4 -
+/presskit.html 14 -
+/tours/Links.html 1 -
+/1896406312000a10.ram 3 -
+/samples/Poet%27s%20Love.mp3 3 http://www.magicalstrings.com/R-WDD.html
+/news.html 4 -
+/samples/Where%20Dragons%20Dance.mp3 8 http://www.magicalstrings.com/R-WDD.html
+/YT%202007.html 1 -
+/School_of_Magical_Strings_Spring_Term_2003.htm 1 -
+/Harp_Camp_Accommodations.htm 35 -
+/samples/CelticMistCD%201%20-%20Track%203.mp3 3 -
+/Images/Yuletide/YT_2005.jpg 3 -
+/CalendarYT2004.html 9 -
+/PDF%20Files/ 1 -
+/Background-Gold.gif 190 http://magicalstrings.com/News2005.html
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 2199
+69.29.218.251 275 1167 30671279 20071227211512
+80.37.75.28 223 233 532878 20071213122009
+195.239.211.236 156 156 3212380 20071216154108
+199.2.132.83 139 1029 3354577 20071229152010
+77.248.44.230 117 117 1175917 20071219072855
+67.160.78.253 103 470 22154350 20071230024122
+75.165.14.247 103 245 16955778 20071213063256
+38.99.203.110 87 87 643790 20071214064533
+209.249.86.17 85 117 30917263 20071230133546
+64.12.186.238 76 76 1054094 20071231183511
+64.119.10.26 76 176 10407978 20071206215620
+121.14.76.185 74 74 9904328 20071231090742
+64.12.186.232 68 68 937477 20071231200550
+64.12.186.231 67 67 950985 20071231183122
+201.95.2.226 67 333 2002004 20071229183131
+64.12.186.229 67 67 948017 20071231181938
+64.12.186.235 66 66 939698 20071231203550
+64.12.186.239 66 66 920703 20071231203403
+64.12.186.234 66 66 948417 20071231173233
+64.12.186.241 65 65 913770 20071231212140
+60.190.240.73 65 65 390663 20071229160036
+64.12.186.233 64 64 895149 20071230200950
+64.12.186.242 58 58 804033 20071231203543
+24.113.100.67 54 370 1417995 20071216125653
+64.12.186.243 52 52 718785 20071231173348
+70.234.13.21 1 1 7252 20071206170924
+24.19.226.112 2 18 131468 20071208074700
+74.142.166.41 1 4 22303 20071210181518
+209.166.95.42 2 17 206557 20071213131506
+66.133.205.70 3 28 180552 20071221012125
+162.114.40.32 2 18 182659 20071213154153
+24.18.156.234 2 17 206557 20071216151936
+91.124.132.63 1 1 0 20071212080935
+207.118.105.204 1 10 79892 20071215202746
+24.19.245.51 9 55 650638 20071218184609
+76.195.160.190 1 10 107577 20071219162844
+86.132.224.146 1 10 107741 20071230143948
+67.171.166.3 1 8 64947 20071209165638
+216.175.70.49 1 10 77813 20071226191406
+190.10.144.186 1 1 987996 20071230133949
+205.188.116.70 0 2 13976 
+12.104.83.205 0 1 2579 
+24.149.130.30 1 1 8332 20071221002006
+209.166.74.142 2 15 191605 20071207145314
+24.22.214.23 14 105 4114892 20071212204039
+71.38.143.82 2 15 191605 20071201141630
+207.69.137.7 2 17 206557 20071216175543
+71.231.141.99 6 37 326283 20071212171211
+207.225.233.118 2 17 206557 20071215121612
+67.42.102.238 3 19 219902 20071214121213
+24.10.1.97 1 1 7598 20071210162120
+64.65.187.11 3 17 204950 20071206111052
+65.214.44.29 6 58 458278 20071229145905
+24.143.70.219 12 93 291523 20071214132650
+75.142.10.110 1 10 107577 20071201100326
+71.202.129.45 1 1 5002 20071230220416
+71.160.70.191 1 8 64947 20071209190741
+74.61.38.99 1 8 64947 20071206130136
+140.160.42.52 1 8 127730 20071203091143
+198.147.40.60 2 18 262943 20071217095621
+66.165.57.43 6 42 339057 20071220145214
+196.205.109.67 2 2 37170 20071231051115
+24.18.16.71 1 10 107577 20071210143914
+71.231.41.248 2 18 131468 20071209164415
+199.3.115.254 2 17 206557 20071215080001
+71.32.84.99 1 9 131468 20071209133106
+64.21.210.152 1 10 79892 20071214081124
+67.78.34.170 10 10 613942 20071228205737
+75.125.194.178 3 3 28855 20071219074805
+71.112.32.133 3 15 113381 20071212133302
+67.183.13.229 4 18 212202 20071202094959
+4.242.33.44 1 9 131468 20071202210456
+71.170.149.203 2 16 167714 20071205122006
+64.12.116.71 0 5 126710 
+71.197.227.252 3 18 190474 20071204173433
+24.19.7.74 11 45 451571 20071230082710
+75.68.126.76 1 10 77949 20071228141218
+70.180.213.228 1 8 64947 20071209162048
+67.183.186.157 3 17 204950 20071206164010
+70.1.11.129 4 22 243384 20071213183608
+207.237.2.51 1 9 131475 20071216140143
+216.19.253.80 1 9 131475 20071221110252
+202.180.112.13 3 20 205419 20071214121643
+71.112.164.70 2 15 191605 20071205142605
+213.246.63.110 23 23 293386 20071230101901
+87.7.56.96 4 20 197023 20071226045938
+12.72.245.91 2 14 185815 20071213100422
+63.236.113.198 2 15 191605 20071210132340
+67.168.63.127 1 9 131475 20071211204426
+216.139.27.21 1 9 131468 20071210085330
+71.112.16.144 2 15 191605 20071203080023
+204.15.20.138 0 1 43011 
+71.236.237.232 1 10 79892 20071212191607
+199.250.57.231 1 10 107577 20071210100602
+209.51.251.182 5 5 75275 20071219145545
+76.104.242.101 3 17 204950 20071208094302
+205.188.116.7 1 1 10766 20071216141825
+97.97.157.167 3 18 190474 20071202122053
+71.197.169.172 9 46 404144 20071212195533
+75.172.32.28 10 45 463842 20071230125438
+67.101.1.117 2 17 206557 20071215190849
+24.16.4.87 4 19 217828 20071205161454
+84.61.158.129 3 3 31890 20071201003915
+71.227.180.171 4 27 347158 20071228184911
+75.108.220.225 2 11 119843 20071205123120
+24.19.253.110 2 12 155382 20071209203946
+74.86.249.98 3 3 28855 20071225210915
+208.120.14.114 1 10 79892 20071216091557
+207.210.101.49 3 3 0 20071201013851
+24.16.173.121 37 205 13590606 20071215103131
+74.70.223.115 1 9 131475 20071212184313
+213.226.224.31 1 1 21479 20071220112539
+96.20.13.132 4 25 239913 20071205070742
+207.118.44.214 1 9 131468 20071209203601
+24.18.141.175 2 15 191605 20071202093727
+207.161.20.67 3 17 177617 20071205164702
+144.183.224.2 3 17 204950 20071206091455
+76.118.41.31 3 14 156954 20071210063851
+66.119.215.231 3 17 204950 20071205173849
+71.112.111.57 6 37 480176 20071222115401
+71.164.236.35 6 17 1201972 20071226154037
+216.40.220.18 1 1 8332 20071223101736
+98.203.233.54 1 9 131475 20071214140645
+24.16.150.43 6 24 255572 20071221174659
+4.142.156.38 2 16 165750 20071221220833
+71.206.245.181 7 7 0 20071226133722
+76.215.9.175 4 35 236724 20071201210356
+71.212.125.195 7 36 809041 20071217143425
+67.169.150.240 10 48 650473 20071202113301
+125.115.16.46 2 2 44106 20071204160440
+207.50.146.249 4 32 167714 20071202130846
+67.47.251.46 7 53 244044 20071225201535
+64.122.103.206 4 18 213417 20071210121500
+71.238.183.92 2 18 182659 20071215182427
+74.193.109.170 1 1 533652 20071212192014
+76.28.175.230 31 157 4990832 20071216220729
+64.209.150.78 1 10 79892 20071215004043
+71.236.212.24 3 17 204950 20071201111704
+68.192.236.115 1 11 220153 20071230105719
+206.103.41.233 9 43 344038 20071202014031
+64.12.117.195 0 3 16482 
+189.25.160.254 0 14 146189 
+198.238.87.168 4 29 219902 20071213143701
+72.11.69.215 4 30 383210 20071204151441
+165.30.11.1 11 60 512782 20071214102615
+71.36.43.82 1 9 131468 20071209131641
+71.124.122.76 2 17 152218 20071208155323
+207.69.140.37 1 10 107605 20071225143836
+67.173.145.4 1 10 107577 20071218112647
+162.119.64.110 1 10 107605 20071224143127
+24.17.206.205 6 34 409900 20071209120651
+76.121.107.73 3 17 204950 20071207144436
+210.49.84.237 1 10 107577 20071201131239
+216.254.3.74 5 17 120960 20071218103057
+71.231.197.189 3 19 219902 20071217162159
+64.12.117.11 4 4 35435 20071229105524
+67.81.43.166 1 6 52519 20071202171343
+65.212.114.226 3 19 189160 20071219085534
+71.113.30.19 8 44 385723 20071217140953
+71.197.223.71 2 17 206557 20071212084158
+208.80.193.41 1 1 10439 20071215103815
+41.235.151.24 2 2 25044 20071231110520
+75.92.199.188 1 9 131475 20071216224242
+75.92.174.206 3 27 309324 20071212152950
+82.155.79.1 2 2 21260 20071203141646
+63.125.196.144 1 9 131468 20071210073644
+64.60.112.210 1 10 79892 20071213150612
+71.40.59.18 0 3 10207 
+156.74.250.7 18 117 1171032 20071218075200
+65.54.97.151 1 9 131468 20071203083610
+80.57.182.19 2 2 1106962 20071230053916
+205.188.117.17 0 1 4027 
+66.218.203.164 11 55 272735 20071217191323
+67.183.74.152 3 13 99626 20071231101136
+70.57.71.245 5 23 233062 20071209212743
+207.200.116.12 0 7 117005 
+87.218.70.178 1 1 7252 20071207014258
+216.254.63.50 1 9 131468 20071210110719
+207.46.92.19 1 1 7252 20071204085045
+76.121.15.6 1 9 131468 20071208100735
+146.129.26.63 4 30 191605 20071206074646
+74.140.155.183 1 5 42083 20071217150343
+76.24.179.250 3 3 642310 20071215143513
+68.174.185.12 1 10 77949 20071231185821
+76.171.175.220 1 10 107577 20071210020939
+60.240.248.24 2 2 16664 20071220011940
+64.12.117.203 0 3 86022 
+71.231.205.101 1 5 42083 20071202173256
+205.188.116.19 2 3 28546 20071222195257
+217.234.85.206 2 18 180716 20071228143932
+71.104.139.212 2 16 167714 20071207220713
+164.116.223.34 1 2 6275 20071214064804
+71.231.18.226 4 30 383226 20071211153703
+76.121.79.11 3 17 204950 20071205213326
+76.27.246.10 3 17 204950 20071209000210
+98.203.141.141 4 23 269891 20071208110301
+66.235.71.82 2 17 206557 20071215100534
+88.68.121.89 1 1 0 20071225013903
+24.17.107.34 14 55 447761 20071204220319
+75.92.134.62 8 50 279925 20071201121424
+216.31.33.50 1 10 79892 20071213111032
+134.39.100.70 5 22 244083 20071227164107
+76.103.184.70 1 5 42083 20071206182858
+82.99.30.28 1 1 8332 20071231234802
+63.164.145.198 7 30 295659 20071211010948
+67.185.157.177 4 21 229774 20071213074515
+204.15.20.144 0 1 43011 
+71.80.150.94 6 34 409900 20071204105924
+24.113.67.6 7 29 314233 20071220004329
+75.57.134.0 2 13 97807 20071213142435
+131.191.69.185 5 34 411507 20071212193119
+71.35.145.198 1 9 131468 20071202232124
+168.212.159.11 3 20 223234 20071212092502
+65.54.154.13 1 1 7252 20071206091147
+24.113.46.174 23 87 2782793 20071213043931
+12.104.75.4 2 14 95399 20071218072630
+24.16.117.241 4 20 230668 20071212160012
+71.63.96.164 1 10 107741 20071227215339
+216.255.212.56 8 88 336167 20071214103433
+207.200.116.199 0 4 8532 
+216.39.146.109 2 15 191605 20071208205144
+65.54.98.105 1 9 131475 20071215085040
+64.209.150.200 1 8 64947 20071210142235
+207.118.42.203 3 17 204950 20071202143605
+71.35.156.252 2 15 191605 20071208103508
+131.191.54.114 3 13 166155 20071213171650
+129.241.104.186 6 6 47433 20071230232332
+207.119.165.39 1 10 107577 20071203113239
+69.120.230.102 1 6 27362 20071212044102
+69.91.23.20 6 26 318757 20071209084617
+71.158.236.83 6 37 345783 20071209102848
+202.20.190.217 1 1 8332 20071229180213
+209.183.55.4 0 7 0 
+209.216.178.86 1 9 131468 20071203112803
+66.14.95.197 3 31 94745 20071214141119
+91.125.128.99 2 12 124144 20071201142901
+219.117.42.34 1 8 64525 20071201055121
+76.25.0.173 3 13 90433 20071203172314
+74.52.245.146 2 2 15584 20071227074931
+24.17.77.183 10 72 565282 20071207154753
+67.160.74.69 1 9 131475 20071215122832
+98.203.210.62 6 32 762221 20071205225536
+12.18.176.34 3 17 204950 20071206091817
+70.56.80.75 3 17 204950 20071203100755
+71.231.46.98 2 17 206557 20071214224156
+75.100.158.92 1 9 131475 20071215092314
+67.183.2.162 3 21 155389 20071214215828
+4.242.213.23 2 10 82877 20071212215833
+63.211.201.210 2 12 155382 20071203083936
+71.36.33.241 1 8 64947 20071206143446
+24.41.39.107 5 34 187105 20071206140734
+67.170.35.172 2 15 191605 20071209072547
+87.118.114.131 1 1 8332 20071226115231
+67.168.121.243 1 9 131475 20071214084738
+70.18.11.42 9 31 357455 20071210155951
+206.116.191.87 1 8 64948 20071210205056
+76.28.188.171 3 17 204950 20071208154533
+71.121.130.162 2 12 155389 20071214153139
+67.171.39.90 1 9 131475 20071218170600
+67.171.57.190 14 70 1284601 20071214153953
+67.168.89.192 1 9 131475 20071210234805
+77.163.110.228 1 1 12774 20071230115346
+67.173.156.58 1 1 57973 20071206104917
+190.164.72.19 1 1 7252 20071210185119
+67.160.125.215 3 19 219902 20071213180812
+129.241.50.33 4 4 33392 20071227110008
+71.121.157.196 15 81 785856 20071203195714
+64.34.145.200 4 4 33263 20071215175400
+24.22.5.137 3 15 176144 20071201144918
+76.115.184.158 3 17 204950 20071201181427
+41.196.163.44 1 1 12522 20071230003859
+64.12.117.7 1 1 7252 20071204071448
+69.22.214.246 1 4 21938 20071213183054
+76.31.10.246 1 10 77785 20071222080351
+67.182.142.157 1 9 131468 20071201204613
+66.29.168.2 10 40 4484982 20071205210638
+209.183.55.8 0 1 0 
+65.59.220.18 1 1 7252 20071208192322
+67.72.98.95 1 10 107577 20071212182526
+69.212.23.8 1 1 22060 20071214170834
+75.172.119.166 4 22 206557 20071215113500
+75.165.5.201 4 34 413114 20071214155319
+69.17.203.133 1 10 77949 20071227164157
+71.236.57.73 1 4 21938 20071218204000
+140.194.192.38 2 12 124144 20071222201244
+64.136.49.229 5 36 390838 20071215084906
+24.19.174.86 7 33 389573 20071217202610
+87.8.247.68 3 24 251984 20071201054740
+164.116.221.173 4 20 230341 20071217114523
+69.29.208.148 3 26 206557 20071214161811
+166.129.92.10 1 9 131475 20071211093350
+41.196.190.51 26 26 336060 20071231025743
+67.128.168.238 2 16 167292 20071201044444
+72.160.125.23 5 17 488401 20071215152514
+68.193.150.51 1 10 79892 20071214123925
+67.168.175.70 3 17 204950 20071207192710
+64.113.7.135 4 15 759743 20071216142203
+87.25.26.77 1 6 26465 20071203020030
+208.46.239.70 6 38 219902 20071214141921
+207.200.116.131 34 34 451552 20071219172407
+83.130.85.73 1 10 77949 20071228050755
+24.17.63.81 8 72 722372 20071231212028
+204.16.158.146 3 19 219902 20071212134412
+75.125.194.194 3 3 28855 20071223055439
+70.83.39.51 4 4 29009 20071211135346
+24.60.77.187 1 6 28151 20071216190635
+71.112.7.172 0 1 3255 
+71.162.164.10 1 8 64947 20071207172258
+205.188.117.70 0 2 4196 
+24.152.214.37 9 36 5059051 20071205194327
+75.165.169.212 2 18 182659 20071214133322
+75.142.99.66 2 12 155382 20071201131703
+64.40.47.1 3 32 156952 20071225044629
+199.79.112.38 3 19 219902 20071212084100
+24.19.3.51 1 9 131475 20071211124638
+68.178.18.224 2 10 141766 20071201035821
+24.17.28.148 3 17 204950 20071208111231
+76.103.72.123 6 38 226127 20071222082606
+201.95.0.22 32 156 313672 20071230121529
+70.90.183.189 1 8 64947 20071205144717
+129.241.50.32 3 3 28651 20071231055133
+130.76.32.145 2 17 206557 20071214121758
+141.211.172.121 4 19 194429 20071207111003
+67.170.85.80 7 34 283669 20071215134815
+24.16.42.79 2 12 130337 20071219101014
+75.203.134.168 2 18 180716 20071230000653
+216.178.50.189 7 49 407045 20071222112027
+67.183.175.209 3 23 155382 20071208203718
+209.91.55.196 3 26 206557 20071213081822
+71.231.234.103 3 19 219902 20071214154206
+84.166.104.65 1 1 12594 20071210132927
+72.244.203.163 2 17 206557 20071215141559
+131.191.20.70 4 21 191605 20071210133622
+65.96.48.235 5 36 239209 20071209123355
+192.108.124.40 2 18 180552 20071221114039
+212.112.47.199 1 10 77949 20071229081436
+24.198.87.163 1 5 2298 20071228070517
+72.72.139.51 1 10 107577 20071206093716
+71.112.1.254 3 17 204950 20071210155244
+76.104.205.173 2 15 191613 20071210212740
+83.84.173.56 1 1 12716 20071230150252
+66.235.42.136 4 32 250809 20071215141202
+207.69.137.40 5 33 267007 20071216180813
+38.100.41.113 44 45 456492 20071207021811
+24.113.78.37 15 58 667748 20071215233944
+66.36.243.210 4 4 34899 20071228190631
+24.18.120.51 8 60 705175 20071216200332
+84.66.234.155 2 2 41550 20071231041055
+128.221.197.20 2 10 78292 20071204133357
+64.146.239.250 3 17 204950 20071209152036
+67.78.34.174 13 13 863849 20071219014008
+24.18.129.96 4 22 292878 20071225193131
+84.45.216.238 1 4 22164 20071213120502
+71.112.22.4 2 15 191605 20071207223310
+68.167.254.164 2 15 191605 20071207211558
+24.226.33.25 20 55 4103435 20071206174115
+65.101.155.161 2 12 119032 20071215105255
+161.55.88.61 2 15 191605 20071203120643
+68.186.92.33 1 10 107577 20071209214533
+71.231.137.83 13 38 1743619 20071230121151
+24.113.112.35 7 44 204950 20071208134636
+64.65.190.86 4 24 248626 20071213013653
+66.174.79.201 6 22 223745 20071214164252
+217.122.38.29 1 1 15636 20071219053744
+71.197.209.136 4 35 261725 20071210115152
+24.113.212.5 11 89 208289 20071218143244
+71.212.19.183 1 9 131468 20071207103305
+24.19.12.104 4 28 351377 20071215135800
+76.97.241.119 1 1 533652 20071223150451
+168.9.35.14 1 4 22164 20071207085610
+67.142.130.47 2 25 276596 20071208102144
+66.67.24.165 2 2 25548 20071231214327
+65.249.53.126 1 9 131475 20071212152844
+24.19.253.149 3 19 219902 20071213103038
+67.43.164.250 3 3 22102 20071210162153
+99.135.34.215 2 18 180552 20071218212355
+87.118.120.23 12 12 129168 20071209002709
+67.5.121.241 3 20 300946 20071209163544
+12.172.32.236 1 7 2134 20071201020637
+68.108.21.3 1 1 533652 20071210145410
+66.4.209.194 3 17 179980 20071204120921
+98.203.242.126 6 49 253487 20071206210041
+147.56.70.199 2 12 146925 20071206163834
+63.109.229.19 1 9 131475 20071220080108
+61.93.182.5 1 9 131639 20071230090122
+24.16.249.19 5 23 267614 20071215104800
+152.131.10.74 1 10 107577 20071210160821
+131.191.57.93 4 33 253487 20071205222206
+207.38.187.114 10 92 2471041 20071215120513
+41.234.128.195 3 3 80410 20071231083530
+75.90.197.141 1 10 107577 20071212194859
+67.160.43.6 2 17 206557 20071213084023
+24.113.199.242 25 137 1547171 20071227125435
+70.57.64.158 2 15 191605 20071203195135
+208.100.253.186 2 19 293128 20071229072130
+85.225.182.13 1 6 26465 20071216151709
+168.156.217.78 2 15 191605 20071205142053
+216.34.91.132 4 27 332084 20071217222319
+24.60.198.201 3 19 176222 20071203184151
+147.56.84.77 1 9 131468 20071205142800
+216.66.97.141 4 45 273648 20071213100710
+64.12.116.5 0 4 52288 
+69.29.212.243 16 85 515370 20071203194411
+24.17.254.39 4 28 229317 20071216181221
+71.232.198.28 18 84 4033565 20071220163108
+66.74.130.49 5 5 87308 20071218064223
+128.95.218.221 2 15 191605 20071208095348
+205.188.117.8 0 2 10569 
+41.210.6.161 1 1 10439 20071212175339
+150.148.0.27 9 79 598655 20071214112841
+67.161.47.205 1 4 21938 20071218124053
+68.81.235.164 1 1 7598 20071210162140
+213.55.64.98 1 6 23955 20071221025201
+68.101.173.199 2 14 151216 20071210131742
+71.113.7.70 1 9 131475 20071213181521
+12.18.155.163 1 9 131475 20071213172613
+71.96.3.247 0 105 729237 
+24.22.241.210 2 17 206557 20071213061815
+68.112.246.34 1 9 131468 20071210073323
+74.12.126.13 2 18 180716 20071231105912
+67.168.54.82 1 9 131475 20071210195203
+207.200.116.130 1 6 195739 20071209170026
+24.18.192.93 2 18 262943 20071213210313
+67.161.93.15 1 9 131475 20071215130828
+24.107.180.81 2 19 147272 20071228213704
+67.183.145.52 3 19 188884 20071218221651
+71.112.35.130 3 19 219902 20071212212922
+195.93.21.129 0 1 28674 
+168.189.64.96 2 18 180580 20071226071154
+64.29.209.118 2 2 14336 20071202154044
+71.32.0.120 3 19 219902 20071213000214
+217.160.19.157 1 1 8332 20071218113227
+70.245.224.38 2 7 609957 20071204112906
+71.217.53.75 1 9 131468 20071207003105
+82.20.233.213 0 1 10436 
+72.183.193.224 4 28 119886 20071226163729
+203.80.0.4 2 18 180580 20071226001648
+193.201.82.1 1 1 10439 20071212030006
+76.121.134.210 2 14 155382 20071206080803
+71.217.98.80 1 10 77785 20071219102521
+65.102.119.122 3 19 217795 20071219120834
+64.40.45.226 3 19 219902 20071211213050
+216.174.247.100 2 18 180716 20071229160352
+67.135.43.71 1 10 79892 20071213093857
+75.164.230.51 3 15 192655 20071201154741
+24.19.40.206 1 10 107577 20071208085851
+71.74.127.143 2 16 167714 20071209215119
+67.183.186.221 2 17 191605 20071206183727
+78.60.68.20 1 10 107577 20071205032438
+69.248.12.186 1 9 77758 20071216093255
+128.148.237.69 12 45 519180 20071220062432
+71.212.78.137 4 19 128784 20071214235831
+69.62.180.76 1 10 107577 20071208135028
+192.208.44.100 2 18 180552 20071219033949
+76.3.126.222 2 2 319576 20071224133024
+81.169.154.94 3 3 0 20071231130837
+217.230.205.210 2 7 32106 20071212113958
+66.212.64.234 0 5 100867 
+203.209.240.152 0 1 0 
+204.212.38.16 1 1 10439 20071215054620
+66.82.9.108 3 30 317841 20071218151524
+164.116.47.202 2 14 160199 20071217101401
+82.126.152.133 1 1 0 20071227070042
+71.212.109.103 7 47 204950 20071207163310
+209.147.120.154 1 8 64947 20071206192035
+67.168.126.65 3 17 204958 20071210213932
+4.178.66.1 2 10 135268 20071204051921
+24.16.98.142 5 36 269889 20071210191721
+216.207.204.68 3 19 219902 20071217175232
+96.233.50.127 3 13 90433 20071210183632
+63.226.242.195 4 14 176914 20071201162703
+75.172.111.193 2 17 206557 20071212214400
+71.113.84.254 5 16 1309851 20071208193356
+71.117.0.72 3 26 338032 20071215133823
+38.102.41.247 12 34 343493 20071208231108
+74.235.25.177 1 10 107577 20071213194851
+216.39.152.73 2 15 191605 20071205214457
+71.121.132.244 1 9 131468 20071203125455
+204.181.130.186 1 4 21938 20071231163807
+76.104.144.249 5 43 413114 20071217163957
+65.102.116.155 2 16 64947 20071202215540
+68.63.204.69 1 4 21938 20071214082340
+71.212.10.109 2 15 191605 20071209140234
+69.178.52.147 5 32 396555 20071205215624
+64.252.6.100 1 10 77949 20071229184723
+76.22.106.135 2 13 154228 20071206055206
+70.193.80.109 4 19 194429 20071206120807
+67.183.219.27 2 12 155382 20071208154117
+138.163.0.41 6 29 271287 20071218070141
+71.35.136.57 1 8 64947 20071208102001
+63.64.84.194 4 36 214775 20071218090647
+69.7.45.138 3 31 8081766 20071203150004
+75.51.233.245 1 10 77813 20071226081148
+68.167.252.239 2 14 190875 20071209123446
+131.191.80.112 2 5 34448 20071207220226
+211.14.9.245 3 3 21756 20071202051453
+24.18.96.23 2 15 191605 20071201123635
+217.237.65.209 1 8 64947 20071210064805
+71.38.141.132 6 39 2892575 20071204195405
+71.112.207.85 5 35 216996 20071216134048
+205.188.117.79 0 4 59858 
+60.190.240.76 9 9 86771 20071212233605
+76.23.238.231 3 17 204950 20071204101208
+24.18.201.221 5 29 132565 20071203122930
+4.243.2.208 2 16 173697 20071215201747
+69.88.113.41 23 94 863155 20071217181814
+63.230.166.12 1 5 42083 20071201160816
+24.16.245.239 10 68 237870 20071211202003
+74.235.148.14 1 1 533652 20071204161801
+198.145.98.63 4 18 217671 20071207214345
+205.188.117.196 0 4 6402 
+221.194.136.37 4 4 43910 20071222020308
+195.93.21.34 0 1 2134 
+207.200.116.73 0 6 27008 
+190.10.155.250 1 1 30236 20071215160246
+71.231.5.150 10 67 468924 20071215212303
+41.235.148.227 3 3 164956 20071230144614
+24.17.190.126 1 5 28724 20071217163428
+68.13.209.131 3 12 96093 20071217181829
+218.102.208.85 1 8 64947 20071203092321
+68.167.250.114 3 19 219902 20071212132402
+67.183.115.185 2 12 155389 20071217162716
+66.231.232.95 1 1 6839 20071214100101
+71.113.28.204 1 10 107577 20071208234028
+24.17.78.103 2 15 177990 20071201074833
+67.168.96.223 13 102 3175360 20071213071654
+192.80.95.242 6 27 323850 20071210075103
+70.59.133.119 17 106 610622 20071206203025
+4.242.186.130 3 15 197668 20071201171847
+63.229.15.209 1 9 121806 20071212072035
+205.188.116.209 0 4 8390 
+75.161.205.191 1 1 7252 20071205101730
+208.117.91.65 1 10 77785 20071219153418
+71.212.103.107 4 24 310771 20071210205516
+66.97.3.3 3 17 204950 20071203125354
+66.140.214.48 2 16 167714 20071201124243
+24.19.23.233 7 51 624088 20071215135503
+85.58.134.8 1 7 44546 20071217141814
+71.112.116.89 6 34 204950 20071208083910
+208.252.89.2 2 10 87707 20071205145126
+71.193.234.129 11 55 493896 20071206002117
+78.137.163.133 4 38 300437 20071226124222
+64.233.178.136 2 2 21526 20071211185627
+75.92.158.90 5 33 244742 20071202224420
+71.38.145.9 14 56 510624 20071201091536
+97.84.128.4 2 18 180580 20071225121948
+207.200.116.135 1 2 38572 20071217122217
+128.148.83.64 4 36 525879 20071211071449
+4.242.33.234 3 13 106654 20071213051313
+66.235.71.66 3 17 204950 20071202234417
+81.18.62.173 2 2 24114 20071213142908
+75.125.34.66 3 3 28855 20071221112252
+131.191.58.84 12 68 527831 20071219114800
+146.129.252.126 13 74 313174 20071204153941
+204.16.43.39 3 19 219902 20071213062153
+64.34.145.198 9 9 93142 20071210041756
+97.90.50.125 15 90 3080013 20071213233124
+67.185.243.110 2 12 130337 20071208104745
+203.209.240.148 0 1 0 
+65.169.79.106 2 25 155382 20071210072222
+66.167.48.59 1 10 107577 20071224094046
+70.57.73.191 3 17 204950 20071204181027
+24.18.110.167 4 18 215716 20071202102038
+8.12.144.16 2 16 81491 20071204215223
+220.220.202.79 1 5 42111 20071227133048
+207.108.209.28 6 29 290290 20071208231454
+63.231.53.105 3 18 159398 20071212161438
+129.241.104.174 1 1 3955 20071211061503
+4.243.33.214 1 9 131468 20071206082741
+67.160.3.138 3 19 217795 20071217231314
+69.19.14.37 5 59 239672 20071212175540
+220.238.81.31 1 1 0 20071230050004
+70.112.25.17 46 293 6894073 20071227183219
+83.64.205.100 1 1 8332 20071231102315
+74.54.99.194 3 3 33069 20071215002100
+74.92.141.50 0 15 109755 
+61.225.204.237 4 14 829652 20071212063523
+70.55.141.38 1 10 79892 20071212180024
+87.79.230.147 1 1 517736 20071214074344
+72.160.23.234 1 10 77949 20071230193902
+216.231.59.206 2 13 94490 20071227095455
+75.148.52.209 2 13 149082 20071210092019
+206.81.198.242 3 17 179980 20071204202319
+131.191.25.68 11 48 473240 20071215082324
+204.128.29.8 33 240 1769966 20071220090209
+134.39.240.225 2 15 191605 20071201161942
+216.204.130.90 1 6 28151 20071217105257
+65.24.111.10 5 21 201668 20071225145916
+207.200.116.72 0 25 54494 
+24.17.10.173 2 16 167714 20071208135054
+98.203.186.16 5 34 411507 20071215235707
+24.113.107.45 1 10 79892 20071216194623
+24.22.251.15 2 12 155389 20071215100117
+81.86.3.220 1 9 131475 20071211050328
+67.183.12.118 6 32 374788 20071207105245
+63.226.192.101 8 42 240911 20071222220521
+71.37.27.206 2 15 191605 20071206124319
+24.113.112.133 2 7 62869 20071205203143
+24.19.130.109 1 9 131468 20071204192823
+70.58.93.37 14 69 660634 20071215123346
+64.146.161.58 1 9 131475 20071219134651
+67.185.3.237 3 14 398535 20071212233157
+24.18.0.192 5 32 396555 20071210161314
+204.15.23.168 0 1 43011 
+216.27.12.21 2 16 167714 20071204101425
+205.188.117.11 3 3 18771 20071222195216
+207.1.30.124 5 40 282250 20071224104222
+198.173.173.248 1 1 18553 20071219115448
+71.197.181.205 2 15 191605 20071203044105
+4.243.50.19 12 55 430144 20071227193405
+207.178.45.227 1 4 21938 20071214200944
+198.203.146.29 1 4 22164 20071204082508
+71.113.40.30 1 9 131475 20071211100611
+68.215.177.219 1 8 64947 20071202175451
+65.33.247.127 1 6 27618 20071208035848
+66.109.195.180 1 9 0 20071211215858
+166.122.44.199 4 31 155541 20071211135058
+207.202.179.40 3 17 176322 20071209180811
+75.100.156.135 14 59 1444808 20071208141559
+64.113.7.12 3 17 204950 20071208184725
+129.79.86.31 1 4 22303 20071207055657
+71.227.184.140 7 25 300997 20071208211731
+221.194.136.30 2 2 15585 20071228202932
+71.33.169.204 2 18 180580 20071226001644
+206.80.1.253 1 10 77813 20071226032731
+75.92.183.228 2 17 206557 20071214164248
+208.99.195.54 19 20 219196 20071205205839
+219.146.171.83 2 2 14178 20071204161546
+81.77.28.118 2 18 180716 20071230021013
+68.199.138.183 1 6 25347 20071228035348
+71.113.59.78 1 9 131468 20071205112705
+71.37.48.43 3 22 204950 20071204220932
+69.10.193.6 1 1 8332 20071227131914
+67.71.50.78 1 1 364032 20071205163717
+207.200.116.196 0 5 2190 
+69.225.202.236 23 118 3932331 20071225140051
+75.27.24.231 1 9 67380 20071227193614
+65.28.93.56 31 182 7689726 20071210171920
+69.19.14.21 5 36 349274 20071219082026
+71.231.181.112 1 8 64947 20071208113429
+91.37.230.249 1 6 26465 20071208020745
+71.227.131.79 3 17 204950 20071208214936
+204.15.20.159 1 1 22060 20071211145346
+71.56.140.76 7 59 305856 20071201113758
+70.109.25.186 1 4 21938 20071226132032
+84.81.104.130 1 1 666408 20071230054033
+209.183.55.2 0 3 0 
+61.28.166.130 4 14 99716 20071206225707
+24.19.6.123 3 21 168985 20071217170748
+67.170.221.76 8 41 326784 20071201112907
+64.12.116.70 0 3 20964 
+66.235.71.136 3 17 204950 20071201135323
+64.12.117.69 0 4 22288 
+88.208.222.123 1 1 10439 20071212232520
+207.224.224.115 6 51 206557 20071214091518
+71.156.90.162 1 9 131475 20071222122903
+74.86.14.10 3 3 28855 20071222143906
+206.130.128.151 6 26 281107 20071229183301
+71.39.45.253 5 40 295450 20071217205228
+64.45.226.114 1 1 533652 20071202161111
+66.235.10.28 3 19 219902 20071215111446
+24.17.80.245 3 19 219902 20071215172724
+208.71.200.114 3 26 275291 20071208134522
+129.241.104.183 3 3 22380 20071230052802
+66.181.13.162 2 16 167714 20071204210707
+140.107.157.149 1 9 131475 20071211095338
+207.200.81.166 1 1 10439 20071212140002
+71.231.186.74 5 31 219902 20071212134414
+205.188.116.201 0 2 7260 
+67.202.4.131 1 1 8332 20071228004740
+71.227.208.250 1 9 131468 20071204082129
+66.170.4.2 1 10 79892 20071214115935
+195.93.21.67 1 1 12488 20071215090422
+149.175.103.94 1 7 30927 20071229150240
+75.172.119.142 1 5 0 20071216092227
+71.35.134.117 6 38 296958 20071213122440
+207.118.38.196 5 32 396571 20071211193836
+74.70.149.49 1 9 131468 20071210073531
+24.22.42.133 3 17 204950 20071201125529
+206.228.222.38 1 10 77785 20071221025056
+209.91.49.151 2 15 191605 20071208104854
+24.22.244.59 2 12 119032 20071220191110
+207.171.191.60 1 1 7252 20071210131946
+41.235.150.130 1 1 114194 20071230115637
+208.80.193.40 2 2 16664 20071230095724
+85.207.179.13 2 7 564737 20071224063343
+71.197.189.96 3 18 207070 20071211204240
+71.112.250.135 1 9 131468 20071201130322
+146.129.131.57 7 28 191423 20071207114503
+71.197.227.248 23 134 4790628 20071208144515
+71.121.178.45 3 18 228878 20071202150216
+69.138.22.214 3 19 219902 20071213121613
+216.215.0.4 1 9 131468 20071203113326
+62.135.4.143 1 1 14234 20071230052929
+24.245.30.135 2 14 97211 20071230160319
+209.191.87.216 12 12 125268 20071213090606
+75.92.239.174 4 30 286864 20071215122849
+129.241.50.34 4 4 43347 20071230215446
+24.19.189.239 4 22 243360 20071218180622
+64.139.101.196 3 30 146180 20071222093011
+80.71.126.159 3 18 159398 20071215071240
+207.226.255.67 3 19 219902 20071213072312
+67.183.148.46 7 43 437697 20071220114528
+65.102.187.92 2 15 191605 20071209120625
+205.188.117.77 0 2 47414 
+71.121.138.64 1 8 64947 20071205185647
+195.228.130.34 1 1 691641 20071204020159
+24.222.237.13 1 1 533652 20071215110832
+207.115.69.219 2 2 15584 20071231171004
+159.142.102.83 4 28 232905 20071203083159
+208.80.193.33 3 3 24996 20071227054442
+67.78.34.166 13 13 772784 20071216114612
+65.212.165.20 3 19 219902 20071214112050
+67.105.187.229 2 18 180552 20071223160956
+207.115.65.139 1 9 131475 20071210235136
+24.17.191.81 1 10 107577 20071211195858
+208.131.25.68 1 10 77813 20071226181503
+74.165.200.184 1 5 42083 20071210074251
+67.170.4.239 4 32 398162 20071215095638
+69.10.211.250 3 13 93327 20071202165722
+208.187.34.4 6 35 139306 20071203121839
+71.112.34.240 3 19 219902 20071216130416
+66.45.175.2 9 40 656313 20071220163755
+75.139.223.232 1 9 131468 20071209192919
+75.172.101.148 1 9 131475 20071211082439
+207.200.116.200 1 36 271822 20071208214240
+69.3.70.204 7 36 420462 20071208152907
+70.56.84.244 2 17 206557 20071215102420
+67.170.106.231 2 17 206557 20071214165819
+63.228.106.249 1 9 131475 20071211061853
+12.111.160.82 2 15 191605 20071204132816
+24.30.7.87 3 18 184281 20071203145721
+190.0.143.140 3 9 97498 20071229210615
+207.180.110.10 3 19 219902 20071214130322
+64.9.127.45 3 13 93401 20071209093403
+71.231.177.20 3 17 204950 20071204205431
+203.160.28.205 1 11 219989 20071202045508
+24.16.56.161 2 12 155382 20071201123056
+209.166.79.21 1 10 79892 20071216133132
+67.183.177.84 5 44 382892 20071211063543
+66.74.155.6 1 11 83521 20071230075650
+70.20.152.155 1 6 23067 20071226095025
+83.167.116.30 1 10 107577 20071222092817
+76.213.129.250 1 8 64525 20071201031034
+71.188.252.25 10 31 324538 20071220124651
+66.235.71.124 34 144 1114913 20071215084453
+98.203.234.203 9 45 386562 20071209211741
+67.168.9.146 2 17 191605 20071204193715
+24.113.1.11 3 27 262950 20071211103602
+24.17.241.50 15 78 12777914 20071211194525
+79.72.251.0 1 1 127774 20071213135436
+75.139.164.207 9 53 457386 20071225115341
+24.20.152.9 1 8 64525 20071201071143
+207.126.224.241 4 4 34355 20071226082438
+24.20.159.5 3 12 147255 20071201141305
+74.61.2.174 9 34 390992 20071208200544
+209.191.87.219 2 2 44120 20071210234053
+63.87.6.102 2 13 104683 20071206111530
+192.150.143.18 1 9 131468 20071207165444
+200.25.175.82 1 1 12774 20071231074041
+68.122.35.102 1 10 107577 20071217221800
+24.18.226.253 17 132 1452665 20071230180602
+69.88.122.107 3 15 107409 20071217154346
+68.165.228.136 3 18 232866 20071217175118
+140.160.236.89 5 17 125720 20071216095851
+70.58.68.68 2 17 206557 20071216111127
+75.164.248.17 1 9 131468 20071201185633
+41.222.60.244 1 6 27618 20071216071618
+216.160.76.188 2 15 191605 20071205100737
+63.229.11.114 1 9 131475 20071214142602
+131.191.15.23 4 21 230464 20071214222912
+89.122.16.96 1 1 7253 20071201051825
+71.112.97.245 1 10 107577 20071208151533
+67.170.73.176 8 58 520422 20071217155803
+24.19.197.67 3 20 203476 20071230181530
+208.66.209.63 2 18 180716 20071228155807
+209.181.90.129 1 9 131475 20071214102228
+160.36.174.135 1 10 79892 20071212132419
+76.118.2.207 2 13 90052 20071229070020
+24.17.154.240 3 19 217795 20071219095315
+71.35.142.70 3 19 219902 20071215093415
+67.183.90.79 1 10 79892 20071214091934
+76.22.57.49 2 15 191605 20071205202834
+69.34.81.152 8 46 409049 20071211060517
+192.55.52.4 1 10 77785 20071219163737
+85.53.180.227 1 10 107577 20071215124943
+4.243.55.8 2 17 206557 20071215165004
+203.179.92.249 1 5 42111 20071226165839
+79.64.211.242 3 3 4764488 20071231211619
+63.225.161.90 2 17 206557 20071214125139
+71.112.154.99 9 55 447274 20071214155021
+166.102.143.101 1 10 107741 20071231125957
+207.200.116.66 3 33 222784 20071215223536
+68.221.62.212 2 18 182659 20071212162551
+81.138.185.76 2 20 180552 20071220065914
+67.131.15.226 4 34 413114 20071217152902
+71.231.185.92 4 23 252452 20071218212406
+79.184.99.134 1 1 21476 20071230125835
+203.209.240.147 0 1 0 
+24.20.141.66 1 9 131468 20071201193322
+130.76.32.15 6 44 556761 20071210062545
+24.22.31.104 1 9 131468 20071201131109
+69.66.65.231 4 19 194429 20071206181419
+71.164.20.50 1 9 105443 20071209173110
+204.128.192.5 1 8 64947 20071207110628
+131.191.12.204 3 25 96034 20071206222054
+71.112.120.59 2 17 206557 20071215121359
+71.35.110.211 1 9 131475 20071212001436
+142.22.186.7 2 6 60717 20071231143656
+207.115.87.206 1 9 131475 20071211085518
+24.18.254.9 1 9 131475 20071215114718
+71.113.42.79 1 9 131468 20071203201508
+76.28.137.249 2 18 262936 20071205211455
+4.178.177.196 2 8 66729 20071201165637
+67.171.127.249 1 10 107577 20071201142150
+129.173.67.100 6 6 46752 20071226131151
+12.2.10.242 2 14 155389 20071217150533
+64.12.117.79 0 3 50571 
+164.159.255.67 5 41 411507 20071213104440
+75.165.12.103 3 17 204958 20071210210255
+24.18.14.63 3 24 236097 20071201192159
+75.172.75.237 3 19 219902 20071214162651
+140.142.196.80 1 9 131475 20071214163920
+216.254.27.120 5 34 411507 20071215095402
+70.67.139.111 3 17 204950 20071208094809
+97.82.223.83 2 14 103233 20071213164837
+71.37.133.113 30 232 391666 20071222152209
+216.9.12.200 4 22 233068 20071228185913
+70.1.145.107 2 12 155389 20071215090352
+204.80.217.22 24 138 1208856 20071207141314
+71.198.120.67 1 1 533652 20071208154716
+65.101.143.142 2 15 191605 20071202092944
+212.76.64.4 1 4 17586 20071203025037
+205.188.117.203 0 2 57348 
+67.168.14.95 3 20 223740 20071227125427
+81.198.18.89 1 6 28315 20071230061408
+71.227.254.252 2 15 191605 20071208114355
+24.17.200.57 1 9 131475 20071217072131
+24.113.202.12 4 30 191605 20071208134602
+68.193.0.132 1 10 79892 20071216163937
+203.209.240.173 0 2 34326 
+71.231.29.219 1 1 12721 20071215132347
+216.221.100.141 1 9 0 20071209140054
+71.112.198.114 2 10 78293 20071211153308
+71.112.132.29 1 8 64947 20071202180525
+164.116.126.138 1 10 79892 20071212134710
+76.174.49.140 1 1 533652 20071227122414
+67.160.132.13 1 10 77785 20071222105050
+205.188.116.20 0 2 3738 
+66.74.160.215 5 27 324350 20071219080711
+158.123.63.26 3 22 204950 20071206102232
+71.35.161.84 2 17 206557 20071214130418
+71.113.79.80 1 8 64947 20071210014332
+208.74.152.146 0 1 3255 
+71.112.31.89 1 1 10439 20071217160608
+67.170.48.77 2 15 191605 20071202202727
+72.160.125.216 2 15 191605 20071209170024
+208.80.193.39 2 2 14506 20071211082314
+75.16.43.191 6 22 251515 20071201065339
+98.203.232.71 5 34 411515 20071213185553
+63.239.116.165 1 10 79892 20071212172627
+129.241.104.189 1 1 5113 20071211004921
+89.101.2.100 1 7 44546 20071217143024
+68.51.119.72 1 9 131475 20071211082615
+81.176.222.6 1 1 6845 20071224205559
+75.110.44.135 1 5 42083 20071213183717
+67.161.104.35 1 5 42083 20071221105206
+67.202.22.194 1 1 8332 20071221064952
+24.19.105.32 3 17 204950 20071209172934
+24.17.198.159 16 91 692958 20071215104820
+131.191.149.123 4 22 191605 20071207103351
+71.113.21.235 2 17 204450 20071219143846
+129.241.104.188 2 2 11954 20071231013951
+24.113.99.29 6 29 266591 20071205203415
+91.96.56.116 38 140 10399372 20071206035220
+167.88.201.100 2 13 109976 20071214100307
+128.208.34.216 4 25 232830 20071221110859
+216.64.169.240 4 4 33275 20071225125959
+82.158.171.87 1 1 7252 20071202031747
+24.16.236.254 14 52 585747 20071209193147
+58.89.240.113 1 9 131475 20071211143723
+66.44.253.28 1 4 22164 20071208161311
+67.183.183.165 14 77 500953 20071216003405
+63.64.127.193 1 9 131475 20071214160918
+152.131.10.72 9 41 414910 20071217111356
+68.227.222.20 1 10 107577 20071220125617
+124.42.42.29 2 7 688953 20071223225012
+67.183.122.26 3 19 217823 20071226110008
+207.118.41.6 5 36 426459 20071214104359
+65.54.155.14 1 9 138221 20071201165648
+208.27.203.128 1 8 64948 20071211155323
+71.231.166.90 1 1 7253 20071210230316
+67.160.96.3 1 9 131475 20071212214615
+24.19.114.188 4 23 155389 20071213222529
+24.17.142.14 3 19 219902 20071213065243
+207.200.116.8 1 21 396748 20071210114656
+121.35.236.161 3 3 34981 20071209221645
+67.168.165.59 6 45 327005 20071209135624
+134.39.185.132 1 10 107577 20071208150936
+69.29.207.194 3 19 219902 20071215220818
+72.49.72.99 1 5 42083 20071216091011
+217.20.171.197 1 1 10439 20071214070059
+209.183.55.5 3 8 22060 20071215095513
+71.156.84.16 2 2 20878 20071212215616
+76.104.236.176 3 19 219902 20071214132453
+131.70.204.121 2 16 167714 20071207115717
+207.200.116.10 2 2 48224 20071217121751
+200.150.145.68 1 1 7252 20071202073610
+208.46.227.190 3 17 204950 20071205141140
+67.168.119.138 3 14 859416 20071210203648
+71.231.8.145 3 28 206557 20071215091851
+129.92.250.41 1 10 107577 20071204054652
+74.60.11.191 2 10 150029 20071204214903
+71.231.150.93 3 16 202371 20071204181516
+65.45.150.28 2 19 206557 20071214213342
+78.146.55.133 1 6 26465 20071220022249
+65.96.73.115 5 19 149173 20071217040204
+63.228.106.223 4 16 177670 20071219124937
+83.255.134.29 1 1 8332 20071229112554
+66.53.221.118 1 9 131468 20071208101913
+64.83.192.114 2 18 182659 20071216083905
+24.16.113.237 2 14 185815 20071215145659
+207.69.140.51 2 19 187812 20071221203831
+207.207.127.235 2 17 191605 20071205121900
+60.41.30.251 0 21 57695 
+205.188.116.208 2 2 22060 20071216141831
+67.171.35.131 3 9 56024 20071216141235
+140.142.129.67 14 110 689023 20071207231902
+65.117.227.27 8 39 1613758 20071208164806
+131.107.0.74 1 9 131475 20071211085407
+64.4.181.134 13 56 499328 20071214172824
+70.82.51.98 2 2 0 20071213084358
+82.99.30.61 1 1 8332 20071231143419
+24.18.201.23 2 18 182659 20071212231738
+67.42.105.102 2 17 206557 20071212185651
+71.112.233.80 2 14 173558 20071224082919
+72.69.131.253 5 33 208371 20071224183508
+71.118.124.244 2 17 206557 20071214100108
+207.14.37.92 16 75 981368 20071219170354
+71.112.129.159 6 23 546405 20071215091017
+142.59.170.228 5 22 250373 20071201155039
+140.142.182.31 3 16 199160 20071212075656
+67.160.38.125 8 38 248616 20071210211250
+74.6.22.75 5 6 46386 20071217131352
+75.161.111.110 5 33 191339 20071224205913
+131.191.10.203 1 8 64948 20071211011651
+222.84.75.92 1 1 8332 20071229012540
+75.165.52.142 5 21 227857 20071203204445
+86.82.107.23 1 1 1332168 20071209012551
+205.178.184.154 1 1 8332 20071224073752
+64.34.145.197 9 9 81633 20071214215032
+122.57.91.146 1 6 23039 20071213224602
+71.227.136.178 1 10 79892 20071215174756
+41.235.153.213 2 2 25025 20071231095052
+130.76.32.144 9 45 470336 20071217064838
+65.102.177.25 4 31 162101 20071205081559
+71.35.123.28 4 22 282362 20071214132046
+213.46.86.206 39 39 396193 20071216175841
+69.29.206.211 3 13 93401 20071207182502
+68.167.250.159 2 15 191605 20071205141846
+71.113.17.13 16 96 543652 20071206092405
+67.171.35.205 19 93 1889294 20071215230054
+152.157.78.119 8 35 402589 20071212114025
+71.121.198.160 1 9 131475 20071211184353
+75.165.41.43 3 17 204950 20071205172145
+72.146.84.99 1 10 77949 20071231120243
+67.160.54.162 3 20 219907 20071219153945
+4.242.84.167 2 15 191605 20071202125229
+165.24.153.129 2 17 206557 20071212123316
+71.197.146.188 1 9 131468 20071207145527
+199.237.181.97 3 19 219902 20071213082346
+71.197.229.186 4 22 228617 20071214180135
+71.107.251.221 1 6 27195 20071201073439
+77.46.252.94 1 1 10630 20071204132152
+68.82.92.144 1 4 31227 20071208065855
+65.117.201.201 6 35 385542 20071206200747
+71.113.37.183 4 16 176784 20071202214316
+76.104.170.203 2 15 191605 20071207080805
+24.19.97.57 0 1 12778 
+146.129.250.251 3 19 219902 20071217055229
+24.18.192.228 6 29 254918 20071206063852
+207.118.110.249 8 37 769302 20071220094837
+207.200.116.7 0 1 16857 
+125.170.134.85 2 18 180552 20071220014531
+68.178.27.178 3 22 217286 20071217114934
+71.238.36.181 1 10 77949 20071229091314
+12.155.161.34 2 16 167714 20071203115139
+71.112.178.164 2 18 191605 20071201215749
+76.28.130.23 1 10 107577 20071209111648
+71.165.35.161 1 10 107577 20071214130151
+24.17.35.135 2 15 191605 20071202194408
+38.100.41.104 5 5 41536 20071203034200
+131.191.16.208 3 21 286857 20071212202603
+151.203.181.27 1 6 28151 20071217064218
+24.126.42.89 34 153 7246052 20071210230756
+24.19.139.184 19 106 934368 20071222000854
+122.109.4.126 1 4 22303 20071211023255
+71.213.225.27 1 10 79892 20071214071419
+72.82.31.37 4 20 255922 20071212155422
+24.16.0.43 2 18 131475 20071216153031
+71.219.110.94 2 16 167714 20071205110127
+196.46.242.73 2 2 29940 20071215215326
+99.239.116.97 1 1 10439 20071216161911
+24.18.25.129 2 12 155382 20071208160531
+69.84.246.10 3 17 204950 20071203132659
+64.40.45.178 6 27 260676 20071202231450
+70.174.59.177 1 1 0 20071217162754
+71.113.56.105 1 10 107577 20071207143707
+70.102.156.170 2 15 191605 20071206155138
+209.193.54.65 6 23 236679 20071204001122
+209.166.77.119 8 52 643186 20071211202951
+76.173.106.77 1 9 131475 20071217155028
+71.230.61.229 4 36 421736 20071214153202
+71.34.111.88 2 16 167714 20071201145026
+24.22.154.143 6 37 250056 20071209122409
+82.227.146.101 1 1 8332 20071225225123
+70.1.226.68 2 12 155389 20071215094204
+165.24.153.138 3 27 206557 20071212123302
+24.22.254.120 6 34 3291719 20071210235553
+207.200.116.138 2 7 58660 20071214122934
+199.67.138.84 5 24 271273 20071217130710
+198.160.96.25 1 10 107577 20071211160051
+64.40.45.1 2 15 191605 20071206095712
+71.112.30.150 4 36 382868 20071212100820
+69.29.206.16 3 20 205419 20071213040342
+69.134.204.102 1 6 27618 20071210100640
+218.102.106.130 1 6 24525 20071229074100
+131.252.79.39 2 11 19289 20071204143159
+72.14.119.108 1 10 107741 20071229094159
+207.225.245.128 10 39 362654 20071213063400
+79.183.253.223 1 10 77785 20071223141404
+198.22.100.4 3 16 201212 20071210142813
+72.186.74.199 3 19 217959 20071228063721
+90.204.215.119 1 10 107154 20071201062418
+75.72.252.158 1 1 7252 20071206062621
+85.216.73.136 1 1 21534 20071216043556
+24.18.184.82 2 16 167714 20071202213204
+66.108.50.105 2 8 39450 20071216095819
+137.159.108.211 2 16 167714 20071202185733
+195.93.21.42 0 1 2676 
+67.101.6.138 3 19 219902 20071217163058
+69.29.212.244 3 18 217226 20071213165214
+142.167.241.227 1 1 533652 20071229151527
+164.116.47.250 2 13 162069 20071214111738
+71.182.88.58 1 8 64947 20071201144858
+64.136.27.227 11 55 443447 20071210104536
+71.229.215.7 2 6 28027 20071208090113
+66.235.71.61 1 8 64947 20071208100501
+71.164.0.150 2 12 155382 20071201121331
+64.136.49.225 3 19 219902 20071215150723
+69.133.82.84 1 1 12774 20071230210729
+12.111.165.253 2 12 155382 20071208173542
+208.80.193.37 2 2 14506 20071201005538
+71.212.69.231 9 29 281511 20071213162543
+71.112.100.139 5 21 314294 20071203175559
+206.81.197.201 4 26 161877 20071213143035
+76.110.157.150 1 10 77813 20071226155530
+81.153.68.42 1 6 24451 20071207093218
+67.183.152.113 1 8 64947 20071209175424
+168.99.197.188 2 15 191605 20071203155642
+208.139.7.64 10 68 346705 20071204100523
+82.2.57.188 1 1 101776 20071203055235
+24.89.193.38 2 2 16664 20071231061408
+71.121.135.164 9 55 258191 20071216083849
+41.207.3.249 1 1 7252 20071201102322
+24.18.101.108 2 15 191605 20071204120047
+207.118.47.63 2 17 206557 20071214124900
+71.113.31.9 1 9 131468 20071203160436
+71.193.167.29 2 18 131468 20071201193741
+75.7.192.27 2 18 180552 20071222134557
+24.17.167.73 2 11 196546 20071211180839
+75.223.118.158 1 9 131468 20071210081720
+207.118.39.232 8 39 1436653 20071217102059
+213.239.223.4 1 1 8332 20071230054231
+67.168.119.237 1 10 107577 20071210063435
+71.35.131.238 1 10 79892 20071216221323
+71.14.122.178 1 4 21938 20071216192809
+74.53.243.18 3 3 28855 20071222025326
+204.15.20.149 0 1 43011 
+24.113.156.254 0 6 104605 
+89.236.155.67 1 1 0 20071229063239
+64.12.116.131 0 6 16056 
+72.221.101.181 17 67 3071267 20071219142227
+24.17.24.214 1 10 79892 20071214190430
+207.188.8.252 1 9 131468 20071206164608
+65.102.148.157 1 9 131475 20071213172114
+201.95.1.62 7 51 0 20071231160528
+64.62.13.75 2 17 206557 20071212200843
+165.151.82.98 4 33 279714 20071217100016
+85.94.120.147 3 3 31890 20071223084029
+71.207.60.10 3 19 217959 20071228212328
+208.80.193.43 4 4 34356 20071226234227
+64.184.138.245 2 15 191605 20071206103143
+69.29.214.98 3 16 198857 20071202145859
+67.183.223.150 3 3 7096320 20071215222812
+76.104.142.97 12 101 3143032 20071215231255
+208.223.208.181 16 16 151546 20071224191844
+81.246.196.206 3 17 171669 20071206013155
+74.61.13.109 1 9 131475 20071216161035
+71.212.96.157 3 21 155382 20071207102117
+63.226.211.154 2 18 153521 20071208111439
+69.59.114.233 1 4 21938 20071213184541
+205.188.116.14 0 2 730 
+207.200.116.67 0 3 93584 
+38.97.196.233 1 1 14273 20071214221000
+64.181.83.200 1 10 107577 20071207194502
+71.217.61.159 1 9 131475 20071213221632
+68.167.255.162 4 22 246492 20071209223719
+216.160.121.19 3 19 217795 20071221111158
+24.18.92.152 3 17 204958 20071210233109
+204.10.126.233 5 36 228234 20071221190310
+69.29.217.148 1 9 131475 20071211064731
+61.238.37.86 2 20 182659 20071214072439
+76.104.165.8 2 12 146925 20071204090454
+66.32.38.235 1 9 131475 20071223162812
+205.188.116.10 1 1 0 20071216141831
+41.232.21.113 1 1 19962 20071230002215
+81.226.217.28 5 25 310815 20071209095750
+66.53.215.232 1 7 55963 20071202195941
+71.59.202.92 5 21 215309 20071206195734
+87.210.72.113 39 39 391638 20071211125154
+219.122.45.190 2 18 180716 20071227195815
+68.3.121.93 1 10 79892 20071213094542
+208.80.193.46 2 2 14505 20071211151129
+67.170.27.51 3 22 204958 20071210212152
+209.91.38.22 6 36 478865 20071213112155
+70.58.70.141 1 9 131475 20071211110042
+71.202.191.3 1 8 64948 20071210204327
+207.200.116.197 8 19 119748 20071217121752
+66.82.9.109 8 55 583667 20071212090946
+131.191.33.91 3 21 224170 20071211231902
+71.112.102.159 7 34 223503 20071220212834
+143.231.249.137 5 31 159398 20071213095854
+207.118.30.20 2 18 180580 20071227110909
+66.30.56.147 6 22 223051 20071203154701
+69.246.181.160 8 36 543460 20071215001209
+76.104.189.242 1 9 131475 20071212130203
+218.227.87.146 1 9 71898 20071206050521
+84.120.183.107 1 1 8332 20071219111352
+67.171.12.115 8 49 421425 20071205221835
+4.242.33.38 6 39 250332 20071219193640
+217.222.228.131 2 7 675744 20071206085833
+64.42.55.14 7 23 261658 20071214144603
+205.188.117.69 0 2 11144 
+76.22.60.153 9 45 406494 20071203191142
+24.16.1.245 5 40 204958 20071211154934
+74.61.17.145 1 9 131475 20071211002101
+159.226.40.7 1 1 8332 20071219175345
+69.76.51.65 2 18 180552 20071222154547
+72.160.127.167 2 15 191605 20071203191550
+71.112.161.36 1 9 131475 20071220105007
+208.80.193.38 2 2 14505 20071204013449
+71.218.133.113 2 16 167714 20071206173241
+64.12.116.14 0 5 3650 
+58.120.182.67 1 10 107577 20071210085852
+67.34.245.236 15 78 267395 20071226180406
+72.155.34.195 1 10 107577 20071206073906
+24.218.206.116 1 1 23220 20071211200726
+24.22.218.94 15 31 3322500 20071216111429
+24.20.164.120 3 15 170452 20071201121808
+195.93.21.105 1 2 19767 20071215090348
+168.103.162.59 3 38 314052 20071210153530
+70.44.23.185 2 20 215154 20071219092048
+68.28.83.114 32 138 1081097 20071217002742
+69.236.135.222 1 1 8332 20071220205557
+24.18.232.240 2 15 191605 20071205114834
+71.197.149.9 3 20 230471 20071215153657
+131.191.89.206 11 42 6641531 20071219002900
+212.186.97.162 2 2 43074 20071206115759
+192.254.1.7 5 28 323301 20071222033954
+76.28.190.202 1 9 131468 20071203111446
+67.160.42.252 7 30 369126 20071203092400
+168.103.164.154 1 9 131475 20071213003314
+91.177.232.84 1 8 64947 20071207085947
+64.209.153.250 3 17 204950 20071209102052
+196.204.157.245 9 9 270780 20071230212132
+67.160.77.179 3 17 204950 20071204130313
+74.129.75.120 6 41 290030 20071224091038
+64.12.117.77 0 3 71121 
+216.254.20.204 5 20 234955 20071209180116
+64.182.124.212 1 1 8332 20071221214547
+24.205.92.109 1 1 7252 20071204223020
+63.226.205.225 1 6 28151 20071221224143
+72.73.223.84 1 9 176222 20071203150005
+207.118.14.31 8 45 228357 20071219225429
+38.100.41.101 17 18 187434 20071216164906
+67.183.18.71 3 17 204950 20071205221023
+204.75.125.172 0 2 6317 
+71.105.242.100 1 1 21534 20071230224807
+24.18.87.147 2 15 191605 20071206100842
+208.54.14.110 1 9 131475 20071211091014
+209.63.26.253 4 21 278330 20071210095854
+207.200.116.137 3 3 24943 20071214103505
+66.212.78.221 7 50 419994 20071215142258
+86.123.135.3 1 1 0 20071213105145
+205.139.210.18 1 1 24112 20071203194634
+130.76.60.179 3 16 198857 20071203124909
+71.163.212.181 2 18 180552 20071223182725
+58.105.80.188 2 9 147993 20071203220417
+142.46.214.202 1 5 42083 20071216054216
+212.77.0.223 4 20 193279 20071228092901
+64.65.185.42 5 27 346865 20071213104157
+217.43.208.6 2 18 180716 20071230073934
+71.236.230.190 2 15 191605 20071202134354
+84.244.80.19 2 7 43084 20071224072404
+74.236.126.210 1 5 42083 20071203213304
+67.42.92.41 2 17 206557 20071214152046
+24.18.48.115 8 53 366313 20071201215645
+207.225.232.131 3 19 219902 20071214133136
+207.200.116.5 1 12 95377 20071208214047
+72.187.45.190 1 6 28151 20071223164755
+71.177.26.157 8 16 1742042 20071213231745
+98.203.227.74 1 7 126665 20071213125501
+75.172.27.252 1 5 42083 20071216113205
+71.187.170.144 2 18 182659 20071216143937
+69.40.175.93 2 16 167714 20071208123522
+66.224.211.218 3 17 132902 20071209161740
+209.183.55.10 2 19 119745 20071201140805
+69.36.158.19 10 10 99050 20071206184813
+195.93.21.8 0 1 6988 
+67.40.27.15 4 32 244846 20071214044546
+71.212.93.141 4 21 207431 20071231203635
+86.25.8.58 1 8 64947 20071203095720
+71.39.143.10 3 30 229717 20071217084633
+76.115.35.45 4 15 436372 20071213112107
+70.130.206.153 3 32 163441 20071226114549
+207.218.101.142 3 22 204950 20071207103420
+71.207.135.141 2 14 130337 20071218094648
+69.10.213.96 5 29 295609 20071215210526
+24.113.231.61 2 19 211367 20071213210901
+71.166.125.252 1 10 107577 20071209131908
+216.40.222.98 6 6 59766 20071213144626
+83.77.196.94 2 2 30250 20071229091527
+24.17.5.145 2 12 92517 20071206061744
+68.2.207.249 1 9 131475 20071211094701
+12.218.192.53 3 10 70537 20071221182618
+210.197.156.88 2 2 16664 20071229041237
+207.200.116.65 0 58 1586469 
+65.102.190.39 50 209 1904929 20071203093351
+67.170.104.24 1 10 107577 20071208103248
+213.239.141.156 1 1 8332 20071231074648
+96.233.151.207 8 27 279077 20071227081017
+90.4.66.159 4 14 721554 20071213123925
+172.132.51.232 1 1 7252 20071207163128
+75.164.239.57 5 21 289130 20071201013349
+72.10.206.219 2 18 180580 20071224112950
+71.215.2.110 18 95 486990 20071205163832
+66.82.9.79 24 80 2991231 20071211225000
+82.24.139.103 2 17 178040 20071228084722
+75.175.81.107 3 17 204950 20071201145144
+62.13.168.78 4 38 253010 20071217113027
+4.242.60.49 6 23 218713 20071223162752
+24.16.196.193 17 69 454843 20071209195035
+67.185.240.16 7 36 369500 20071220170228
+67.168.42.207 1 9 131475 20071212083931
+131.39.248.7 2 13 115058 20071218141554
+82.21.48.84 2 2 1067304 20071220030847
+211.233.61.5 6 6 85638 20071222051037
+24.128.248.91 3 18 178554 20071201165136
+98.203.232.72 2 15 191613 20071210231525
+69.62.214.49 4 17 197202 20071211072052
+24.22.171.172 3 20 217286 20071212191251
+69.244.111.163 1 1 497439 20071212093927
+64.122.3.242 1 10 107577 20071211173859
+70.96.142.227 2 10 144196 20071212180258
+195.93.21.33 2 2 0 20071203030122
+71.112.237.108 1 10 107577 20071207215124
+71.112.69.184 3 17 204950 20071204205629
+65.10.148.220 3 17 204950 20071204191436
+207.118.80.53 2 15 191605 20071202213619
+71.112.153.119 6 36 424852 20071215120024
+70.58.226.19 3 25 345073 20071205225223
+24.19.32.249 3 19 219902 20071214211612
+98.203.251.227 7 50 229122 20071212134138
+207.118.35.52 3 19 219902 20071214131932
+71.227.209.203 3 19 219902 20071213160312
+63.226.254.29 2 17 206557 20071214095805
+64.65.184.146 1 10 131468 20071203163019
+209.81.40.66 1 1 22060 20071217162228
+71.112.91.223 3 18 208117 20071209202529
+209.183.55.26 2 6 40079 20071201155116
+24.16.136.205 2 15 191605 20071205190513
+66.218.202.74 7 38 379662 20071217143924
+67.183.223.193 3 19 219902 20071215120453
+71.112.213.21 6 24 228807 20071216211807
+71.117.14.96 3 19 219902 20071214204024
+67.160.54.180 3 21 155389 20071214164815
+207.118.40.124 5 24 256381 20071217095238
+209.166.79.103 1 9 131475 20071211110814
+65.216.53.149 1 1 8332 20071226021722
+67.42.111.88 3 19 219902 20071215085627
+74.4.180.147 3 22 204950 20071202130953
+67.170.112.31 3 18 206557 20071214090944
+63.150.69.253 4 27 282735 20071218115955
+168.99.95.251 0 4 44488 
+24.22.136.164 3 19 219902 20071213150435
+64.147.188.188 41 41 698807 20071217032548
+63.226.214.139 2 15 191605 20071201124612
+71.35.155.119 3 18 159398 20071212183555
+71.37.39.35 1 8 64947 20071201182139
+67.170.83.102 9 76 996995 20071222220036
+66.235.42.109 6 38 439804 20071217120017
+164.116.223.43 5 28 348460 20071210063126
+70.70.140.34 1 9 131475 20071216194818
+137.28.182.247 1 4 21938 20071215141911
+71.231.187.249 25 120 1381904 20071220140331
+71.109.230.51 3 21 206557 20071214153701
+75.165.184.46 1 8 64947 20071203184047
+69.7.44.191 1 9 131475 20071214165634
+74.69.121.207 1 10 107577 20071208195926
+76.250.138.0 9 21 167595 20071211065153
+67.42.100.160 28 116 1572083 20071216133212
+67.165.122.226 4 18 227003 20071206211716
+131.191.57.2 1 9 131468 20071204213831
+66.41.180.176 1 4 22303 20071212065121
+71.197.208.131 3 19 255570 20071208104213
+75.165.20.152 2 17 206557 20071216074450
+138.162.0.44 0 2 6871 
+204.61.32.30 1 10 79892 20071213080712
+71.231.148.224 8 39 409369 20071216041725
+98.203.171.119 1 9 131475 20071214080817
+160.125.253.9 1 10 107577 20071218072255
+207.170.238.235 2 11 85201 20071231121812
+98.203.162.157 1 11 109711 20071212084410
+207.200.116.9 3 33 115791 20071217121400
+78.51.77.64 1 1 0 20071212004848
+67.42.110.221 4 31 385344 20071206104245
+64.233.166.136 2 2 19474 20071230045931
+128.193.17.164 2 17 206557 20071213090507
+63.64.127.15 2 12 146925 20071208122309
+220.236.153.21 6 18 167427 20071203221051
+130.76.32.182 15 77 3906796 20071213164138
+68.118.252.24 2 20 180552 20071219204826
+76.119.13.28 5 18 205067 20071210064222
+71.235.183.52 3 3 1471303 20071225222143
+4.243.37.70 1 9 131475 20071211105800
+88.90.245.81 6 48 112153 20071203050408
+71.227.214.239 4 36 394411 20071216135015
+67.101.0.254 1 11 219989 20071212192946
+71.231.82.224 1 9 131468 20071205215841
+24.17.128.3 1 10 107577 20071210121729
+80.194.23.54 1 1 8332 20071231110944
+66.235.67.123 5 27 280657 20071208222556
+71.112.144.95 1 9 131468 20071203203941
+208.103.143.9 2 18 182659 20071216125159
+62.54.4.138 4 4 35382 20071214012221
+86.150.114.171 1 8 64947 20071209055126
+64.12.116.209 0 4 16780 
+69.224.48.148 0 8 158233 
+68.100.32.38 3 18 108843 20071222134228
+67.100.45.71 3 17 204950 20071207081356
+76.246.53.130 2 12 123355 20071205161444
+67.100.127.38 5 37 482852 20071215133422
+170.173.0.17 1 9 131468 20071210103956
+66.45.205.222 33 170 3421226 20071219133119
+67.171.27.222 3 14 107384 20071213100851
+71.59.183.110 4 26 228878 20071201111905
+64.91.48.209 51 406 5477549 20071201200800
+131.191.28.35 10 59 526004 20071229153124
+67.170.36.130 0 4 17958 
+64.239.7.216 1 1 7252 20071208165423
+64.12.117.197 2 6 22804 20071228120739
+208.1.73.1 5 26 342333 20071211103633
+83.116.48.124 1 1 12522 20071230232234
+75.125.194.210 9 9 86565 20071224033849
+67.168.64.158 4 22 206557 20071214212514
+84.203.42.142 3 17 174545 20071201064600
+24.18.217.122 6 26 293179 20071213141308
+63.226.215.24 3 28 191605 20071208030604
+71.112.223.100 6 37 1140892 20071218093151
+76.105.246.206 29 159 542013 20071201142145
+199.79.222.119 10 49 268030 20071205130934
+207.118.100.46 3 19 217795 20071219113710
+24.18.229.42 3 21 219933 20071215145326
+67.170.34.150 7 40 465602 20071215140619
+67.150.124.158 4 15 525653 20071214212612
+70.20.139.70 1 8 64947 20071208160125
+12.72.226.19 3 17 204950 20071208160705
+66.194.72.32 2 18 131475 20071213084610
+66.82.9.92 11 56 1203592 20071213141327
+71.113.104.134 1 8 64947 20071210110045
+12.126.21.170 2 18 182659 20071212110155
+71.114.35.224 1 7 44574 20071226234037
+71.111.72.211 2 15 191605 20071201113512
+131.191.93.234 1 9 131475 20071214181000
+67.135.43.162 6 41 382643 20071218063340
+69.27.202.179 2 16 167714 20071208092943
+74.6.22.137 5 5 51348 20071221075133
+68.183.208.57 3 12 117899 20071216082833
+70.102.205.242 2 18 131475 20071219085357
+67.185.11.60 13 57 516017 20071230223336
+207.200.116.69 0 4 8097 
+24.16.10.165 1 9 0 20071208231117
+214.3.17.38 2 34 119801 20071205141003
+66.249.85.134 11 18 171987 20071216151120
+66.127.60.121 1 4 21938 20071224204232
+24.19.225.82 50 184 2571958 20071217200434
+64.18.188.181 8 61 725259 20071217134052
+71.112.86.242 4 30 383218 20071211173350
+68.52.45.203 1 8 64947 20071209194134
+67.170.75.95 5 35 238323 20071221002805
+24.16.117.165 3 26 338025 20071217163615
+206.212.236.49 3 24 219902 20071213104642
+68.231.70.145 2 16 167715 20071211051911
+70.58.91.229 7 31 330845 20071216094541
+88.74.34.161 1 1 7252 20071204111357
+98.203.253.103 2 18 262943 20071212221943
+75.196.157.139 3 14 129872 20071222081645
+76.88.189.255 7 30 345430 20071230101535
+192.138.82.196 2 11 61859 20071218160107
+77.133.11.94 1 1 0 20071222050525
+209.191.87.217 6 6 45672 20071224101759
+24.19.140.40 2 17 206557 20071217192948
+198.104.248.67 6 34 409908 20071211105026
+91.143.218.82 9 9 129800 20071209111311
+74.59.112.122 1 10 107577 20071214052126
+74.142.184.117 1 4 27570 20071212072904
+84.197.252.148 1 8 64947 20071204065315
+81.251.106.254 1 10 77785 20071218175805
+69.56.86.81 7 36 307712 20071210160401
+121.97.18.2 2 15 191605 20071204064957
+76.164.21.44 3 17 204950 20071204090236
+64.12.186.230 13 13 180422 20071223001344
+67.171.28.95 6 17 1000094 20071222181828
+206.248.175.71 1 5 42083 20071210095112
+208.80.193.42 1 1 7253 20071201003046
+75.73.150.161 3 18 159398 20071214195021
+140.254.35.87 6 33 959604 20071210221639
+76.242.131.198 3 19 193800 20071214152333
+125.99.59.100 1 4 22303 20071208224808
+68.38.155.188 3 13 93401 20071210112934
+64.139.102.185 4 20 230341 20071213103804
+220.189.219.37 4 4 88212 20071204161509
+208.100.245.5 1 9 131468 20071203094858
+12.47.62.19 22 116 706426 20071207153416
+205.188.117.195 0 2 10988 
+64.12.117.196 0 5 10834 
+67.183.139.77 6 18 1206139 20071221211006
+4.255.1.34 1 9 54550 20071216180459
+64.223.74.146 1 9 131468 20071210092336
+12.18.155.159 3 19 219902 20071212133331
+71.217.64.92 3 19 219902 20071214135123
+78.48.68.179 1 6 52519 20071218054222
+24.180.96.53 5 52 303592 20071220143201
+71.193.251.241 2 15 191605 20071201162617
+71.112.38.204 2 12 155389 20071216130528
+64.40.61.118 1 10 79892 20071216144237
+71.124.240.193 3 19 217959 20071228155055
+70.187.130.253 1 1 8332 20071230030940
+67.170.103.206 4 21 228052 20071215085126
+216.52.75.7 2 16 167714 20071205060632
+70.188.128.145 12 56 980549 20071218155008
+24.113.106.19 1 9 131475 20071214135854
+38.100.225.66 2 19 211367 20071214083308
+75.121.232.122 1 9 131475 20071216010316
+65.104.249.226 2 12 155382 20071203124838
+207.200.116.134 0 1 4035 
+216.40.220.34 5 5 45519 20071224182815
+64.12.186.237 26 26 369646 20071230201617
+164.116.253.7 6 30 617006 20071214070424
+168.216.185.16 6 34 407535 20071203074639
+76.22.109.26 2 15 191613 20071211150653
+82.208.48.68 2 2 678166 20071218194505
+67.170.4.149 2 16 200985 20071214164009
+67.202.27.193 1 1 8332 20071226012045
+87.218.70.204 1 1 10439 20071213175029
+67.183.244.218 3 19 219902 20071212235135
+68.6.75.201 4 15 117744 20071224210329
+83.46.63.228 2 26 80426 20071207072717
+67.158.228.24 2 18 180552 20071219185810
+209.183.55.6 1 7 0 20071201163026
+207.86.122.165 2 16 167714 20071203080824
+71.99.123.137 1 10 77949 20071228094632
+76.105.153.192 1 10 79892 20071213140657
+24.16.197.116 13 77 892242 20071227101227
+209.166.76.244 3 19 219902 20071214222630
+70.56.64.234 6 25 274008 20071213002025
+71.112.224.141 5 27 204950 20071203050453
+64.113.2.101 2 17 206557 20071213171751
+164.116.47.179 2 17 206557 20071213114437
+213.82.50.202 4 15 125265 20071211015941
+71.164.27.166 3 17 204950 20071202135329
+64.122.248.97 3 19 219902 20071213102757
+75.164.138.158 2 15 191605 20071201155459
+67.100.124.211 2 15 191605 20071203213832
+130.76.32.167 23 83 8182377 20071219155941
+24.16.142.76 2 12 155389 20071217124942
+65.116.75.5 18 94 857200 20071214072029
+72.235.30.234 1 10 107577 20071212191138
+71.217.94.107 1 9 131468 20071209132522
+216.86.177.36 1 6 22883 20071208142718
+80.53.143.212 1 5 15539 20071204055558
+76.22.65.147 5 28 118056 20071208103226
+209.20.176.252 2 18 167714 20071209101013
+24.16.73.150 4 20 207371 20071215114123
+207.126.211.103 1 4 21938 20071212101812
+122.3.103.17 1 10 47415 20071218190604
+24.18.215.100 10 55 355197 20071219115838
+71.197.149.249 4 22 234937 20071215091030
+216.160.64.46 3 23 155382 20071202110757
+71.119.187.246 1 8 64947 20071204164441
+4.178.66.141 3 24 191605 20071207225123
+65.162.43.69 8 56 403191 20071225004009
+205.175.121.253 1 9 131468 20071206150151
+131.107.0.102 16 65 775415 20071218150757
+71.89.55.37 5 15 106256 20071205113456
+66.44.245.147 1 9 131475 20071212104948
+64.12.117.70 0 4 8392 
+172.158.18.18 1 1 0 20071209033104
+209.113.228.74 1 9 131468 20071210084712
+142.59.217.192 1 2 58652 20071209164911
+12.104.64.130 2 15 191605 20071204111935
+65.102.182.244 4 34 206557 20071212190446
+59.35.135.246 2 31 139955 20071211222044
+90.2.252.74 1 6 28151 20071215124340
+24.19.28.107 8 44 647945 20071216151154
+24.19.155.88 2 15 191605 20071203143011
+67.183.17.2 2 18 180552 20071221175146
+161.88.255.139 1 9 131475 20071211092058
+122.26.160.10 1 1 17960 20071230062622
+207.109.76.238 8 45 355623 20071214172007
+207.23.252.129 1 1 7526 20071202204121
+97.80.115.186 2 16 167714 20071204113715
+63.138.11.3 1 4 21938 20071204043232
+70.190.160.6 1 1 533652 20071202101507
+168.99.197.187 1 8 64947 20071203130328
+217.53.90.148 1 1 12774 20071230214301
+140.142.182.146 1 9 131475 20071215220946
+67.166.137.179 3 36 240143 20071215222344
+192.103.201.124 2 15 191605 20071201111836
+69.30.70.230 3 19 219902 20071214161111
+195.93.21.9 0 1 4195 
+206.169.110.66 1 1 10439 20071217185708
+76.197.168.16 1 5 42083 20071216114038
+67.108.51.225 6 34 204950 20071202120502
+24.17.133.151 5 32 204950 20071208230643
+68.105.77.188 1 8 64525 20071201080547
+207.200.116.201 0 22 135510 
+24.16.155.91 5 23 262985 20071209150325
+76.214.138.139 2 8 170242 20071214155345
+68.249.104.110 2 18 180716 20071231004307
+69.254.104.93 1 1 7598 20071210162149
+86.139.248.54 2 2 0 20071219073712
+12.104.72.2 2 17 206557 20071213112401
+71.197.148.214 5 24 219902 20071215111307
+71.56.22.160 15 52 1049652 20071215151019
+64.40.60.22 1 5 107097 20071201052413
+70.56.94.212 2 15 191613 20071211162438
+80.200.201.156 1 5 42083 20071215064107
+74.71.17.251 2 8 61645 20071218201100
+216.160.65.115 6 23 220381 20071216224455
+24.19.81.91 2 15 191605 20071201203340
+85.195.137.197 2 2 534614 20071204080436
+64.34.145.196 8 8 73351 20071214004556
+24.19.126.16 3 26 338025 20071214225726
+24.16.74.11 5 45 525879 20071215141754
+203.168.222.34 0 2 6871 
+67.69.12.210 1 1 0 20071227094222
+199.233.178.253 8 61 627322 20071219113411
+24.18.146.91 3 18 207062 20071205202408
+88.107.159.56 1 1 386476 20071212094550
+99.232.120.81 2 16 167714 20071207194144
+75.92.216.49 2 17 206557 20071212225210
+24.16.119.237 2 15 191605 20071205111540
+88.239.9.55 1 1 0 20071209042535
+69.232.175.50 1 5 42083 20071221212955
+24.19.184.92 5 21 213816 20071212233438
+24.22.220.60 2 15 191605 20071203200618
+157.208.13.124 7 40 1066163 20071212095754
+66.114.43.130 17 89 737975 20071218123116
+24.19.164.191 3 18 228617 20071213160146
+155.70.23.101 15 70 768596 20071226103116
+209.168.32.4 9 53 475053 20071208113147
+209.91.56.158 13 72 813707 20071208172124
+209.150.58.38 1 10 79892 20071216181121
+69.85.140.160 1 1 533652 20071208103322
+201.95.1.40 25 103 217875 20071230054306
+58.61.33.229 1 1 15636 20071201193828
+71.212.17.148 2 17 159980 20071213173758
+209.183.55.9 0 3 3255 
+194.213.194.211 1 1 8332 20071220235255
+67.165.124.34 10 36 377977 20071217131005
+209.180.211.19 3 17 204950 20071204114017
+71.233.63.127 9 52 462033 20071225143245
+70.98.106.155 2 15 191605 20071204080808
+71.113.87.83 1 9 131468 20071203071619
+24.19.138.131 1 9 131468 20071209133624
+66.167.141.162 3 19 219902 20071217223638
+71.212.53.109 9 31 363053 20071201201713
+89.243.39.92 1 1 11514 20071230125819
+216.251.105.226 2 26 96349 20071217175127
+198.145.100.143 2 15 191605 20071204112818
+170.215.151.23 1 10 77813 20071227053346
+4.179.59.125 1 5 49053 20071221170127
+82.34.217.44 1 5 42083 20071202015523
+67.183.117.88 3 17 204950 20071202190853
+65.55.165.48 1 2 15432 20071216001931
+71.164.26.18 4 33 303126 20071214115510
+62.178.2.49 3 3 23916 20071225052252
+69.88.123.85 7 30 1875951 20071203160323
+207.69.139.160 3 17 204950 20071202094133
+71.173.80.177 2 16 167714 20071202204151
+71.108.10.117 1 4 27570 20071203191032
+66.235.71.207 7 20 82513 20071225182802
+216.145.54.58 1 1 8332 20071219024848
+66.210.103.197 7 44 245342 20071202093713
+86.64.186.119 1 13 251505 20071202180705
+74.230.194.247 2 11 100437 20071220200529
+24.79.72.103 3 32 158077 20071219183540
+65.102.177.24 2 12 23914 20071206185714
+75.164.206.49 9 47 420016 20071201162501
+98.197.89.155 1 6 28151 20071216185458
+77.179.45.217 1 1 0 20071211111349
+74.6.22.173 5 7 51276 20071230215055
+65.102.180.65 2 14 95563 20071228110823
+4.240.234.255 1 10 79892 20071215050230
+71.166.142.238 2 16 167714 20071204151025
+71.33.114.246 4 15 0 20071206132120
+124.171.67.34 1 8 64947 20071203031103
+131.191.54.27 3 24 323088 20071215084340
+65.54.154.116 1 9 128792 20071202201847
+24.19.58.222 2 17 206557 20071212225730
+71.212.50.25 2 15 191605 20071202135257
+89.122.224.179 1 1 7252 20071208224835
+71.113.32.76 1 7 39304 20071231141352
+64.236.128.9 4 4 33328 20071224152033
+67.101.6.120 2 12 155389 20071212204615
+76.164.20.42 4 18 212202 20071207153111
+146.129.28.7 4 30 223234 20071213163759
+67.160.83.133 1 9 131475 20071211193328
+166.89.61.92 4 29 133863 20071219121147
+71.236.166.61 2 18 182659 20071212181542
+72.251.57.175 3 19 214944 20071213115808
+207.200.116.203 5 27 465067 20071226162442
+86.138.116.231 1 1 12774 20071231034118
+72.174.105.72 12 23 1751859 20071214125333
+208.54.14.36 1 9 131475 20071217175329
+75.125.52.146 1 1 8332 20071223072910
+67.168.70.111 2 17 234235 20071202172200
+66.194.74.66 2 17 206557 20071212143903
+76.99.241.94 1 6 28151 20071217111018
+24.17.79.220 4 41 417849 20071215135452
+146.76.42.48 2 15 191605 20071204171432
+207.7.205.16 5 21 260784 20071204115027
+71.13.115.117 1 1 8332 20071224011758
+71.215.177.51 3 19 217823 20071224172957
+24.113.66.43 0 1 4562 
+167.21.254.11 1 4 22164 20071212125523
+65.198.3.2 4 20 191038 20071231132650
+69.88.116.186 9 46 1194595 20071220105322
+198.54.202.250 1 1 84256 20071231012607
+76.27.242.136 7 41 397620 20071216085241
+75.172.79.141 7 44 489799 20071211212213
+69.131.99.8 1 9 77597 20071211151048
+131.191.70.54 1 9 131468 20071209215953
+98.203.154.211 2 17 206557 20071213233725
+75.92.179.221 2 12 155389 20071211191530
+167.127.104.11 3 18 190474 20071205135056
+66.77.136.153 6 6 63404 20071224194027
+76.121.76.26 8 62 227010 20071215104714
+207.118.8.114 1 10 107577 20071208090822
+69.59.28.197 1 1 8332 20071224134745
+65.102.189.53 3 21 155382 20071205191533
+75.92.176.47 1 9 131468 20071208194036
+71.112.110.64 1 10 77785 20071219171737
+208.80.193.31 1 1 7252 20071207135531
+83.181.216.139 36 83 725020 20071213093937
+63.231.35.140 1 10 107577 20071207192640
+195.91.54.87 8 8 107396 20071227144345
+67.183.167.191 3 16 144453 20071203095643
+86.104.55.110 1 1 7252 20071205161509
+38.98.19.68 1 2 14867 20071204215808
+69.29.211.221 2 13 91500 20071222125831
+68.14.88.229 3 16 128773 20071223031904
+72.160.125.58 3 17 204950 20071206094625
+66.77.138.70 1 10 77949 20071229041910
+98.203.173.107 2 15 191605 20071207151551
+207.200.116.68 1 5 13121 20071215124144
+222.166.160.232 0 1 2134 
+74.6.22.159 1 1 12488 20071211125350
+71.231.49.31 6 31 331853 20071205160325
+4.242.75.53 2 12 155382 20071209163333
+209.180.170.215 2 12 168741 20071201175538
+67.183.176.20 4 26 204958 20071210222618
+76.28.149.82 2 17 206557 20071217063117
+64.62.7.162 2 15 191605 20071203155905
+12.30.178.2 1 10 107577 20071209162434
+71.59.184.60 4 20 242223 20071201121330
+24.113.84.196 3 19 219902 20071215084246
+96.228.103.79 2 18 180552 20071221174805
+71.197.172.120 3 19 219902 20071214185334
+64.184.143.201 6 22 277702 20071208180504
+165.234.104.46 3 18 292392 20071207120611
+24.19.124.73 3 21 200759 20071216151046
+71.236.193.38 2 15 191605 20071201164612
+75.165.89.1 6 27 335150 20071209212755
+67.160.23.129 3 37 209260 20071218125253
+75.47.174.124 3 19 219902 20071213135226
+209.183.55.7 0 1 10569 
+76.22.15.99 1 9 131468 20071203044802
+64.209.151.172 3 19 53241 20071214182533
+24.17.138.85 3 17 204950 20071201133541
+83.224.186.228 3 3 21260 20071222160533
+69.245.40.23 1 10 107577 20071212200214
+66.53.105.96 2 18 180716 20071228144939
+74.227.174.46 1 10 77813 20071225094913
+68.109.133.210 2 2 206656 20071222165013
+71.217.86.1 2 12 155389 20071217085614
+70.58.92.205 2 15 191605 20071208160321
+67.168.149.199 7 46 660511 20071202203638
+68.210.116.2 1 10 107577 20071211105928
+201.95.0.74 15 66 71030 20071231192730
+67.79.42.254 1 6 28151 20071204102419
+71.32.33.186 1 10 107577 20071222125512
+24.18.121.203 2 18 131468 20071209152517
+69.29.200.184 2 15 191605 20071204080128
+198.145.80.191 2 15 129051 20071201135756
+4.255.49.233 1 9 131468 20071201174044
+70.192.110.223 5 31 0 20071217091423
+69.55.245.82 1 10 77949 20071228213239
+64.229.238.97 2 2 28546 20071221040508
+204.147.223.1 4 27 338530 20071210131538
+71.112.54.190 3 19 229317 20071215205300
+75.7.31.212 1 1 750260 20071220193533
+71.53.226.204 1 11 219989 20071212192736
+24.72.180.122 1 10 107577 20071214005632
+76.28.155.170 2 12 155382 20071205085511
+71.194.181.227 1 6 24760 20071201060333
+208.74.152.194 2 6 65303 20071224001441
+75.172.108.83 2 17 0 20071215133642
+76.28.180.26 2 15 191605 20071206004248
+63.145.199.75 8 44 352341 20071210144903
+216.73.189.207 1 1 9903 20071222023800
+75.165.63.100 3 18 222801 20071215142220
+24.22.191.40 2 17 206557 20071212195043
+207.200.116.13 1 4 10801 20071225162357
+68.251.184.125 4 26 327791 20071210192610
+24.22.232.25 2 12 155389 20071215123640
+24.17.246.57 4 29 299794 20071215140831
+63.231.53.91 27 111 5396079 20071229175027
+70.193.58.41 3 19 219902 20071216141108
+195.224.40.42 1 11 219989 20071218072459
+71.121.249.66 13 82 948546 20071227132238
+212.219.82.38 1 9 64622 20071207033759
+63.225.174.240 3 17 204950 20071203113123
+134.67.6.11 0 2 2134 
+66.165.40.10 3 19 219902 20071213001921
+207.104.101.98 1 10 107577 20071205141042
+199.181.165.233 4 24 177442 20071220081443
+78.149.70.144 2 13 94626 20071229084635
+76.4.137.81 2 16 167292 20071201080255
+71.231.142.101 11 75 452218 20071214110236
+64.12.116.201 0 5 36300 
+140.107.21.91 5 38 333536 20071212120128
+207.118.255.120 4 26 313279 20071213210806
+24.16.127.52 4 28 351377 20071213121927
+71.222.4.213 3 17 216239 20071201173533
+130.76.32.23 2 15 191605 20071207132800
+76.120.182.39 1 1 7252 20071210082145
+66.197.217.117 1 1 10439 20071215213838
+4.255.79.167 3 16 200451 20071213071350
+24.71.223.152 9 9 3373246 20071220131100
+70.0.179.85 1 9 131639 20071229223705
+198.182.194.170 2 3 14505 20071211072233
+140.107.0.226 5 51 282677 20071220084207
+97.101.13.62 25 143 2030368 20071213061851
+66.32.97.198 1 11 107577 20071215212309
+75.165.85.63 2 15 191605 20071202193851
+125.17.11.118 1 10 77949 20071230202609
+24.178.44.127 1 8 64947 20071210094619
+216.171.98.77 4 4 43532 20071203073756
+207.200.116.11 0 5 21660 
+38.100.41.118 1 1 10439 20071213090634
+97.101.59.148 0 2 13161 
+128.148.62.184 1 9 131468 20071210065607
+76.104.189.166 2 16 167714 20071201210140
+129.241.104.187 1 1 14273 20071211070130
+68.167.254.237 6 20 154430 20071227143143
+24.17.219.41 4 34 206557 20071214221350
+71.227.226.221 3 19 219902 20071211214816
+71.217.22.77 2 15 191605 20071201112851
+66.44.241.116 1 4 22164 20071205170421
+24.87.19.237 1 8 64947 20071206024053
+66.235.50.190 1 9 131475 20071215162844
+67.171.42.159 2 15 191605 20071202150358
+130.76.32.181 13 61 605266 20071217140625
+146.129.224.76 2 12 91130 20071218133016
+41.219.245.12 3 12 87991 20071208090155
+202.120.61.3 1 1 10439 20071213212831
+24.143.71.32 2 17 206557 20071212072758
+67.183.41.78 2 17 206557 20071214220822
+76.121.97.146 5 36 219902 20071213181920
+24.18.97.248 2 15 191605 20071201224709
+71.197.175.123 1 10 79892 20071214062837
+203.144.143.13 3 3 662488 20071218104210
+71.231.186.206 3 25 309324 20071217161633
+24.16.104.209 6 6 5369536 20071205112741
+68.77.152.24 1 5 42083 20071219121841
+71.197.192.151 2 18 133773 20071228133142
+128.95.212.166 4 22 234937 20071214124551
+195.93.21.7 0 1 2579 
+64.42.62.114 1 8 64947 20071210112415
+64.34.145.199 13 13 165200 20071228084928
+67.160.96.99 2 17 206557 20071215133625
+164.116.47.156 13 54 571032 20071205140611
+209.183.55.3 2 6 0 20071201163055
+207.200.116.6 0 12 48070 
+88.165.12.94 2 18 167714 20071203143515
+67.150.1.135 2 15 191605 20071205134317
+67.168.121.214 3 19 219902 20071214152701
+41.234.130.22 1 1 12522 20071230095910
+71.113.46.22 1 9 131468 20071203055701
+204.10.125.121 2 17 206557 20071216172834
+141.150.84.111 1 1 125696 20071222161339
+76.28.211.176 9 53 480500 20071231190303
+65.211.128.235 4 29 297687 20071220103733
+205.188.116.71 0 2 25342 
+24.22.134.19 2 12 155389 20071220225407
+24.19.29.203 36 258 5567114 20071217175919
+71.35.116.242 3 17 204950 20071209202049
+75.165.16.196 1 9 131475 20071212170910
+24.41.59.24 1 9 131468 20071209173437
+24.21.186.128 1 9 131468 20071201123830
+87.218.70.43 1 1 15143 20071219202522
+66.235.71.166 3 19 219902 20071215083417
+70.59.176.246 1 8 64947 20071208114422
+76.22.163.78 1 1 533652 20071230093204
+86.31.30.168 1 10 77949 20071230013722
+207.225.250.200 3 17 204950 20071205130647
+71.113.74.242 21 108 677097 20071202100611
+206.63.251.148 2 15 191605 20071203175914
+71.112.42.118 1 9 131475 20071214233845
+72.164.207.144 3 17 204950 20071210165641
+131.191.55.170 3 19 219902 20071212233146
+71.117.186.148 2 16 167714 20071208113830
+84.190.201.132 3 18 157291 20071223085709
+69.3.70.12 3 17 204950 20071202203230
+158.59.194.127 1 1 109336 20071217065234
+71.32.87.189 2 15 191605 20071208103435
+71.112.81.150 3 17 204950 20071206180719
+24.64.16.9 2 2 300987 20071211211235
+81.208.83.215 2 7 85385 20071214064231
+71.113.28.123 1 9 131468 20071203071023
+67.42.104.232 1 9 131468 20071208131342
+24.150.175.231 1 10 107577 20071205061100
+118.100.7.215 2 2 46172 20071226203849
+69.62.251.164 1 6 27362 20071214161422
+24.18.130.25 3 22 204950 20071205223734
+24.138.51.58 5 30 217795 20071218075026
+24.113.123.177 4 39 302533 20071201102229
+76.28.238.214 6 24 252166 20071230175527
+70.57.188.218 2 18 180552 20071223114431
+207.200.116.198 0 1 2579 
+74.92.227.122 2 13 185589 20071213102050
+207.200.116.132 2 34 488733 20071217121505
+24.17.142.163 1 8 64947 20071207184603
+90.202.160.158 1 1 533652 20071213112548
+64.34.145.194 9 9 94487 20071216032336
+68.166.238.76 2 20 155570 20071219163116
+70.238.78.38 6 24 257179 20071213065030
+24.18.99.64 3 17 204950 20071201123154
+72.86.16.4 2 17 206557 20071216135736
+71.37.43.142 5 18 147461 20071228172617
+66.235.9.138 13 51 429543 20071213223121
+141.153.143.215 4 9 2268467 20071202064918
+209.166.79.165 3 26 191613 20071211132054
+70.132.143.230 1 5 42111 20071226123109
+209.183.55.25 0 5 46749 
+207.6.113.34 6 31 259361 20071205204254
+4.243.35.6 1 9 102083 20071209164800
+209.91.39.28 1 8 64947 20071204183241
+67.40.199.145 2 15 191605 20071203200932
+71.231.26.181 1 9 131475 20071220085039
+195.93.21.65 0 1 23707 
+79.184.155.214 5 5 145340 20071231083104
+66.167.136.143 2 17 206557 20071215115329
+67.160.72.164 12 83 983632 20071226104136
+208.80.193.35 1 1 8332 20071231210753
+64.184.161.171 2 13 96243 20071213020525
+205.134.212.190 3 17 204950 20071205160802
+84.1.61.170 2 7 102364 20071213044839
+72.165.51.242 1 10 107577 20071212135231
+71.92.98.128 5 21 219708 20071207222625
+72.173.248.218 2 13 86434 20071203080948
+205.144.218.234 2 18 182659 20071215130058
+216.39.146.211 2 15 191605 20071203135112
+199.79.112.254 26 150 1314522 20071220163420
+12.206.203.78 1 10 79892 20071216150212
+24.67.212.222 2 16 167714 20071209143822
+67.171.29.212 9 51 403132 20071229133425
+216.231.37.170 2 17 206557 20071212134042
+66.31.163.252 1 4 21938 20071210081813
+76.105.202.105 1 10 77813 20071227110335
+205.188.117.75 0 3 81416 
+146.129.251.118 5 39 148152 20071217110437
+75.165.0.213 4 30 191605 20071202213101
+69.210.123.127 4 18 143602 20071229094305
+71.212.64.241 1 10 107577 20071211223150
+140.142.74.116 3 24 219902 20071212071239
+24.97.82.65 1 8 64947 20071204093839
+207.200.116.139 1 3 261193 20071209165804
+131.109.1.48 17 101 2035106 20071217121246
+207.200.116.74 3 9 63778 20071215124117
+71.197.162.171 4 32 222794 20071214130724
+67.168.54.79 2 15 191605 20071202095050
+66.27.95.28 3 3 2017897 20071210114949
+208.54.15.12 5 20 188093 20071208191725
+72.14.194.26 38 67 627476 20071224103900
+71.162.162.12 2 18 182659 20071214005207
+71.113.19.189 2 17 204614 20071230143723
+69.3.7.98 2 17 204614 20071230105256
+75.92.161.120 3 14 241501 20071204113652
+80.67.25.132 2 2 16664 20071226090757
+71.113.0.37 2 15 191605 20071204070058
+75.104.159.4 3 25 207612 20071201175027
+67.61.88.196 1 4 21938 20071222065033
+74.61.0.101 1 8 64947 20071204211947
+71.193.238.191 2 15 191605 20071201181125
+89.176.68.41 13 13 204972 20071223112627
+71.112.40.147 7 49 300657 20071214181944
+68.63.47.210 1 8 64947 20071209053330
+209.166.77.236 2 17 206557 20071212130347
+66.235.35.192 2 13 117165 20071216220937
+24.17.173.157 3 19 217795 20071221150957
+71.37.14.248 1 9 131475 20071215123426
+67.100.223.193 1 8 64947 20071201142701
+72.84.8.58 4 22 255068 20071219145536
+24.9.39.45 1 6 25970 20071201000040
+207.207.127.242 3 28 338025 20071212152345
+72.160.21.51 1 6 28151 20071222093847
+64.12.117.8 0 5 52845 
+195.93.21.35 1 1 3955 20071215090415
+71.190.64.254 2 15 191605 20071209103021
+24.113.94.117 3 21 210867 20071205220454
+203.168.193.3 1 1 13298 20071208031913
+83.133.125.202 10 10 82240 20071225011557
+205.188.116.145 0 1 0 
+63.172.100.11 7 56 464031 20071217093253
+71.231.24.24 11 54 484655 20071210095816
+69.144.144.186 2 18 182659 20071215011534
+67.183.96.29 16 128 1401043 20071216124410
+24.18.97.63 3 23 191605 20071207144113
+12.72.245.55 3 19 217795 20071221221828
+64.136.49.227 0 1 2579 
+64.34.145.201 2 2 20143 20071215020551
+70.56.87.133 3 19 219902 20071215095412
+4.191.42.193 1 14 184353 20071206091423
+64.38.187.98 1 10 77785 20071220123631
+69.19.14.40 4 45 325172 20071205145133
+124.96.80.177 5 19 434092 20071223211015
+67.160.46.211 2 16 195632 20071206191219
+68.167.254.146 12 42 347194 20071209170220
+76.28.233.130 2 15 191605 20071203173409
+92.81.205.229 17 17 184164 20071211214244
+214.3.17.37 8 65 335805 20071205143102
+67.185.15.121 1 12 98536 20071212173148
+208.71.162.85 3 17 204950 20071210154513
+138.162.0.42 1 4 21280 20071217073959
+67.183.164.215 1 8 64947 20071205190442
+84.95.81.132 1 1 19973 20071208061250
+207.200.112.72 1 6 34370 20071214114618
+172.212.156.144 2 2 1388060 20071230000121
+4.224.186.1 1 8 64947 20071203035119
+68.26.78.4 4 15 107008 20071215150629
+165.151.81.141 3 26 191605 20071206130834
+205.188.116.131 0 3 5352 
+75.93.246.246 1 10 107577 20071209195805
+71.112.114.53 6 29 304322 20071222103300
+89.243.12.89 1 1 11874 20071229225004
+65.54.155.36 1 9 0 20071209202137
+198.238.190.191 6 39 265303 20071213103807
+207.200.116.136 19 23 314297 20071217121946
+67.171.7.234 13 77 957518 20071216162826
+162.5.25.99 15 85 685350 20071214101859
+89.182.108.132 1 1 14034 20071216091650
+97.100.99.51 1 10 107577 20071204194755
+64.12.116.19 3 4 51803 20071229105551
+198.134.96.10 2 15 191605 20071207164309
+24.17.207.76 3 17 204950 20071206103804
+81.193.34.239 2 12 100573 20071226005309
+74.61.37.30 4 14 116572 20071218184445
+141.150.132.11 2 20 180580 20071226175401
+70.144.221.240 1 6 26465 20071223153846
+81.153.28.47 1 13 224799 20071214073815
+71.35.109.86 1 9 131468 20071210183207
+71.222.47.112 3 17 204950 20071201170657
+209.86.66.85 1 1 6367 20071219193720
+70.183.160.46 2 15 191605 20071205102436
+24.16.20.29 3 25 309324 20071215224611
+205.188.117.200 1 1 8332 20071222195416
+99.164.170.209 0 1 10436 
+12.27.8.175 2 16 64947 20071207133525
+67.160.127.31 2 17 206557 20071215144756
+216.20.149.134 1 9 131468 20071201151604
+70.57.65.87 2 12 155382 20071207101642
+67.202.25.186 1 1 22053 20071210063638
+69.29.207.10 5 55 475065 20071214171234
+76.108.183.233 2 2 1067304 20071228212601
+71.113.64.108 2 17 206557 20071215122349
+69.3.70.253 6 38 435590 20071219203947
+85.103.36.166 1 1 18449 20071230062154
+76.22.23.65 1 10 107577 20071209004716
+192.48.23.39 0 7 23902 
+65.107.252.74 3 8 43195 20071227142056
+87.218.70.37 2 2 16664 20071229230235
+71.120.111.58 0 1 20826 
+67.100.45.15 3 13 133717 20071225232936
+206.63.227.8 3 19 219902 20071213045118
+209.249.86.210 33 39 16720216 20071230183552
+75.141.45.187 4 14 101273 20071205122105
+76.121.123.6 8 62 781372 20071213144250
+67.110.125.227 1 6 28151 20071224105353
+220.149.255.207 1 11 219989 20071206235418
+67.182.143.104 1 10 77785 20071218174448
+4.242.39.38 2 15 153193 20071231005356
+76.22.48.98 2 15 191605 20071206102026
+75.41.115.37 3 18 285520 20071227221526
+71.190.157.124 16 72 2009497 20071212221641
+208.71.113.140 1 1 45908 20071219230338
+67.183.163.31 8 41 371363 20071214124849
+76.28.150.214 36 129 1123029 20071229083845
+195.212.29.67 3 15 109600 20071212082844
+75.165.94.73 6 42 369624 20071210161820
+71.217.95.55 1 8 64947 20071201102256
+69.62.226.208 9 9 142940 20071202124711
+74.249.200.196 2 18 180552 20071223151132
+76.28.194.123 1 8 64948 20071211102129
+64.81.165.23 1 10 79892 20071214182512
+24.19.22.79 1 9 131475 20071215135114
+71.35.127.241 4 27 154692 20071218222807
+71.231.184.147 2 12 93237 20071217054255
+68.167.191.186 2 17 206557 20071214022315
+63.240.143.147 1 1 0 20071220102907
+209.191.208.68 2 18 180580 20071225102756
+71.37.46.226 2 12 155382 20071209141047
+74.94.68.180 3 25 222786 20071217163202
+24.90.150.77 1 10 79892 20071215014222
+205.188.116.16 0 1 12169 
+24.34.84.118 1 6 28151 20071217103206
+71.231.189.41 5 19 201695 20071209214801
+71.217.19.178 28 153 1027838 20071216144751
+147.56.11.188 2 13 81624 20071203162811
+216.99.215.210 3 17 204950 20071201174616
+68.120.89.245 1 4 22164 20071201185719
+68.77.83.172 1 11 146899 20071211075919
+71.217.10.163 5 45 405123 20071215120301
+70.247.252.72 1 9 131468 20071207135313
+98.203.209.223 4 30 320656 20071201115955
+63.226.213.72 1 10 77949 20071230013308
+206.28.72.1 1 9 131475 20071217113306
+70.58.89.27 2 15 0 20071202194708
+71.230.46.168 1 10 107605 20071226213746
+24.113.125.60 1 4 17586 20071201095716
+68.23.160.101 2 18 180716 20071231072637
+24.113.200.138 6 50 367605 20071218230038
+67.108.223.130 31 31 329021 20071212224417
+192.234.111.13 1 9 131475 20071213220358
+75.172.27.91 8 45 326617 20071219014103
+70.192.248.103 2 19 206557 20071216153630
+204.60.81.52 1 6 28151 20071217114538
+69.236.90.51 1 10 77785 20071219201326
+71.112.174.185 3 13 98436 20071210120159
+216.227.68.12 0 16 181798 
+38.98.19.67 0 2 12703 
+217.227.175.122 1 7 44546 20071204143416
+71.112.96.90 5 29 355420 20071229144032
+207.200.116.133 2 5 26960 20071210114538
+72.14.195.56 2 9 124915 20071223102216
+87.244.194.124 1 1 0 20071231112853
+203.209.240.151 0 1 0 
+64.146.161.90 5 23 243670 20071221122846
+164.116.47.178 6 43 542975 20071213080401
+131.107.0.72 41 193 4161680 20071227094259
+201.95.1.64 13 85 72888 20071231043808
+205.188.117.13 1 1 3955 20071204021328
+69.252.241.149 1 2 26246 20071211154208
+207.200.116.195 33 72 416117 20071223163558
+146.129.22.4 1 9 131475 20071217075224
+207.200.116.204 3 26 273883 20071214100315
+166.122.31.2 2 11 120298 20071213181800
+138.163.0.42 2 10 23361 20071205132545
+76.104.247.167 1 9 131468 20071209214125
+24.19.248.224 2 17 204450 20071218155502
+137.28.244.244 1 9 131475 20071211154926
+121.216.58.165 2 2 13690 20071210030431
+66.224.97.226 2 15 191605 20071204163120
+67.107.229.35 2 15 129051 20071204065101
+24.17.246.213 2 17 206557 20071212071919
+77.183.85.231 1 1 0 20071218062620
+38.100.41.100 1 1 10439 20071214001322
+198.238.208.2 14 54 1509608 20071207090041
+71.172.189.212 1 10 77785 20071220124730
+71.35.119.25 1 10 107577 20071208081913
+66.182.26.64 1 8 64947 20071205124252
+71.37.19.87 2 12 155382 20071208153634
+76.104.210.3 2 15 191605 20071202143006
+209.181.137.249 2 15 129051 20071202192324
+207.118.27.6 3 19 219902 20071217110513
+205.188.117.197 0 3 7737 
+67.170.164.191 8 27 289395 20071225210827
+8.12.144.17 5 24 199052 20071204215136
+4.242.9.194 2 13 151848 20071224181048
+203.126.45.181 1 1 7252 20071204144012
+71.121.250.219 3 19 217795 20071218210855
+24.16.30.120 3 19 219902 20071213155759
+38.100.41.119 1 1 7253 20071211091650
+67.165.236.99 1 4 21938 20071222201208
+72.248.59.158 2 2 14504 20071203222414
+82.201.229.234 1 1 12702 20071229220647
+24.113.134.207 3 19 219902 20071213113920
+12.171.41.135 3 19 219902 20071216205306
+195.93.21.69 0 1 16857 
+4.240.232.42 1 5 49053 20071221062547
+193.71.173.58 1 1 7252 20071202101312
+63.229.24.227 3 19 219902 20071215095807
+4.243.54.44 1 4 37153 20071208152130
+67.183.174.7 2 15 191605 20071209000518
+85.127.61.179 1 1 12597 20071210052538
+207.200.116.70 1 5 16673 20071210115152
+210.165.9.96 1 1 8332 20071219042158
+71.112.205.88 7 36 828552 20071218222647
+71.217.104.127 2 12 155389 20071212134037
+66.222.170.153 1 1 533652 20071203213801
+68.197.83.16 1 10 107577 20071204100652
+12.72.238.186 2 11 140854 20071203000358
+68.109.24.97 2 13 115086 20071226125420
+71.112.106.46 6 7 3150090 20071217121515
+66.119.207.74 38 182 13481915 20071229144138
+72.71.249.99 1 6 28151 20071217183122
+24.16.117.18 5 34 411507 20071215053935
+117.98.13.94 1 1 12713 20071216044840
+63.231.20.169 3 19 219902 20071215103818
+217.228.151.94 1 1 8332 20071221052734
+141.154.199.152 2 13 96243 20071213143143
+70.59.137.84 2 12 155382 20071201165833
+70.7.125.195 2 19 206557 20071212190333
+75.80.202.126 2 17 206557 20071216085116
+69.139.168.224 3 9 139897 20071218172955
+216.193.26.1 5 38 294372 20071208124814
+203.181.103.90 1 1 8332 20071222104554
+71.197.170.128 1 10 77785 20071219184032
+66.235.22.210 4 18 145619 20071217225704
+71.245.108.64 7 29 342693 20071202185810
+81.104.94.202 1 5 42083 20071205033054
+76.28.238.12 4 27 363767 20071211200411
+64.40.60.21 22 61 432863 20071226222442
+76.28.198.4 1 9 131468 20071203094613
+41.209.112.37 1 4 22303 20071210012911
+24.22.222.85 16 58 452872 20071216075918
+24.18.99.86 2 18 262936 20071205182354
+66.204.50.130 1 6 24437 20071207070819
+208.64.244.70 2 17 206557 20071214103525
+207.118.40.189 5 27 176151 20071214081436
+75.172.110.131 2 12 155389 20071215171256
+67.42.107.14 4 20 230515 20071205221526
+65.55.160.101 1 1 10439 20071216233558
+80.57.59.217 1 8 64948 20071211071157
+207.244.148.33 32 181 3280466 20071213063151
+131.191.28.164 2 15 191605 20071204113018
+167.176.6.8 1 6 28151 20071217074337
+84.0.121.78 1 6 26465 20071223150847
+135.214.42.162 1 9 131475 20071211092911
+68.165.76.97 2 17 206557 20071214164119
+209.30.99.249 1 7 97370 20071211093023
+64.34.145.195 12 12 88636 20071218080556
+75.175.30.36 2 17 206557 20071213074111
+67.160.28.129 1 10 79892 20071216225214
+131.191.36.43 2 12 155389 20071212154153
+76.104.136.34 1 9 131468 20071203081457
+24.19.89.196 4 20 230341 20071214171415
+208.80.193.48 1 1 7252 20071204071656
+67.183.204.81 3 12 88164 20071207220510
+134.39.87.75 1 8 64947 20071204154015
+169.204.229.202 11 78 690421 20071214114526
+207.200.116.202 1 31 102145 20071208214127
+24.182.45.28 39 39 391629 20071203131231
+67.168.96.128 8 35 312893 20071216132343
+209.191.87.218 6 6 43514 20071211171813
+71.112.3.135 3 19 219902 20071212213954
+24.17.138.89 2 17 206557 20071213174745
+70.103.12.186 1 9 131475 20071212072617
+66.7.98.165 1 9 131475 20071214144736
+130.76.32.19 5 28 328785 20071217074312
+72.49.197.240 11 56 514889 20071204071307
+65.13.8.50 1 10 107741 20071230091700
+76.28.142.198 3 14 168267 20071211145928
+68.186.93.227 2 11 81624 20071204195218
+67.160.13.159 2 15 191605 20071202191759
+71.217.14.213 2 15 191605 20071206182410
+76.194.8.234 1 1 8332 20071227133610
+66.239.120.186 2 14 130337 20071220071938
+75.172.9.211 7 29 313242 20071209133534
+71.123.91.6 4 20 255915 20071210110055
+24.113.64.244 2 17 206557 20071214183321
+75.172.32.27 2 17 112494 20071213094757
+85.15.56.246 1 6 26465 20071210000754
+64.94.133.64 4 36 273648 20071217103413
+67.101.4.47 2 17 206557 20071217172030
+220.221.228.57 6 37 194405 20071224044717
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 31
+20071201 407 2492 25345309 145
+20071202 308 1699 23606225 117
+20071203 416 1949 31555468 147
+20071204 333 1736 23010364 141
+20071205 394 1957 43822656 135
+20071206 396 1885 43521016 113
+20071207 318 1484 24070218 117
+20071208 382 1907 29360090 146
+20071209 374 1624 31155402 158
+20071210 565 2631 63467077 179
+20071211 442 2026 51451608 155
+20071212 406 2177 42650680 168
+20071213 980 3766 67619271 209
+20071214 604 2892 38173685 206
+20071215 534 2768 48647689 180
+20071216 489 2025 24376686 111
+20071217 505 2551 24886533 159
+20071218 238 1169 12591483 97
+20071219 236 1008 18333372 88
+20071220 205 896 15116711 67
+20071221 165 743 13954461 58
+20071222 166 759 6382137 72
+20071223 88 355 4866669 45
+20071224 135 546 4856371 48
+20071225 148 547 8639834 50
+20071226 149 632 6570258 61
+20071227 352 1384 37177266 55
+20071228 81 325 4477093 49
+20071229 259 985 8121762 52
+20071230 312 1124 30853178 95
+20071231 128 480 3306156 60
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 40
+5mn-15mn 208
+15mn-30mn 112
+30s-2mn 353
+2mn-5mn 214
+0s-30s 2457
+30mn-1h 99
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 162
+/ 2106 15767661 1654 532
+/YT_2007.html 1515 29078851 393 1038
+/Calendar.html 674 6578026 86 71
+/HarpsDulcimers.html 484 6489598 126 264
+/Recordings.html 361 3136423 16 39
+/SchoolIndex.html 221 806820 15 22
+/News.html 220 5032673 56 87
+/Bio.html 189 940792 11 24
+/samples/Magical%20Strings%20-%20Track%204.mp3 179 72111771 85 92
+/school_current_class.htm 151 1694549 26 42
+/Form_Contact.html 127 1168554 8 36
+/R-Musings.html 126 936106 1 12
+/R-WDD.html 119 1372150 22 21
+/Bio-Long.html 119 1257440 41 43
+/Reviews.html 113 826092 5 21
+/Links.html 111 681269 9 33
+/R-Celtic%20Holiday.html 94 714112 11 16
+/HarpCamp.html 89 1073968 34 37
+/samples/Bells%20of%20Ballinskelligs.mp3 73 16422396 51 55
+/R-GoodPeopleAll.html 68 475187 9 8
+/samples/btm3_brittany.mp3 65 20191485 42 42
+/School_Assemblies_Workshops_intro.html 64 389050 5 13
+/R-CelticMist.html 63 514108 11 10
+/R-BellOfftheLedge.html 61 582768 22 17
+/R-Yuletide.html 60 375996 11 13
+/samples/CelticHolidayCD%202%20-%20Track%201.mp3 30 1839318 12 10
+/CreatingWhereDragonsDance/1FAMILY.html 11 9770 0 0
+/samples/TRACK_10.ram 15 712955 4 4
+/samples/CelticHolidayCD%201%20-%20Track%207.mp3 29 4349266 11 10
+/CreatingWhereDragonsDance/BigRedt.html 11 9510 1 1
+/News2005.html 21 201020 4 5
+/CreatingWhereDragonsDance/FAMILY%20COUCH.html 9 7384 0 0
+/R-OntheBurren.html 37 237637 5 6
+/Form_School_Reg_Online.html 29 451592 2 3
+/samples/DulcimerCD%201%20-%20Track%201.mp3 49 5606641 16 16
+/R-SpringTide.html 41 255721 7 13
+/samples/CelticHolidayCD%202%20-%20Track%205.mp3 21 2457270 8 11
+/PDF/Philip%20&%20Pam%20Bio%27s.pdf 5 361132 0 0
+/PDF/CD%27s%20&%20Reviews.pdf 5 929314 0 1
+/samples/botl6_merlin.mp3 46 3364351 21 25
+/PDF/School_Program_Study_Guide.pdf 14 1991487 8 9
+/samples/The%20Unseen%20Journey.mp3 29 14378880 2 1
+/imageflowgallery/3DFlowGallery1.xml 31 52625 0 0
+/CreatingWhereDragonsDance/Philip.html 11 9210 1 0
+/CreatingWhereDragonsDance/Jarrod1.html 10 8289 0 0
+/samples/CelticMistCD%202%20-%20Track%205.mp3 17 1814081 7 8
+/samples/CelticHolidayCD%201%20-%20Track%204.mp3 23 2504105 11 9
+/Form_Camp_Print.html 11 125100 2 4
+/CreatingWhereDragonsDance/Philip&Chen5.html 10 8604 0 0
+/Presskit.html 49 356832 3 14
+/CreatingWhereDragonsDance/Jarrod.html 10 8289 0 0
+/News2003.html 24 377769 5 7
+/samples/TRACK_04.ram 17 643870 6 6
+/samples/Musings%20Margaret's%20Arrival.mp3 48 9896379 0 4
+/samples/The%20Summer%20River.mp3 39 8906747 11 17
+/samples/ic2_malagasy.mp3 31 2326664 17 17
+/Form_Order_Harps_Print.html 27 306650 3 8
+/Form_Harp_Deposit.html 22 180768 4 6
+/R-Legend.html 39 472772 3 4
+/Form_School_Assemblies.html 1 5182 0 1
+/R-IslandsCalling.html 38 253655 8 8
+/samples/botl1_mummer.mp3 35 3175746 20 19
+/CreatingWhereDragonsDance/Brenin1.html 11 9180 0 1
+/Thank_you_Comment.html 57 287320 4 23
+/samples/TRACK_11.ram 5 466086 0 0
+/samples/btm1_rowan.mp3 35 7118648 12 7
+/samples/cts4_lament.mp3 8 3347967 1 1
+/samples/ic11_hornpipe.mp3 7 1487828 0 0
+/samples/DulcimerCD%202%20-%20Track%205.mp3 30 2224170 18 15
+/samples/loi3_battle.mp3 17 2808012 7 8
+/samples/botl2_bell.mp3 36 7050581 10 16
+/samples/The%20Humours%20of%20Scariff.mp3 34 7357534 8 8
+/samples/Musings%20-%20Ohana%20Kai.mp3 51 11741477 0 2
+/School%20new%20discovery%20directions.html 16 50280 1 4
+/CreatingWhereDragonsDance/Brittany4.html 10 8577 1 0
+/samples/TRACK_06.ram 5 466086 0 0
+/CreatingWhereDragonsDance/PHarps.html 11 8505 0 1
+/PDF/Venue%20Info.pdf 4 317679 0 0
+/R-CrossingtoSkellig.html 42 406378 7 11
+/samples/CelticMistCD%201%20-%20Track%207.mp3 7 1148998 0 0
+/samples/Doherty%92s%20Reels.mp3 56 17410496 39 41
+/samples/ic7_wintospring.mp3 14 2328495 9 6
+/OrderForm.html 24 312915 6 8
+/samples/CelticMistCD%202%20-%20Track%209.mp3 24 1561031 11 12
+/samples/TRACK_03.ram 6 890740 0 0
+/samples/ic5_jamaican.mp3 21 2823606 8 7
+/R-AbovetheTower.html 30 190455 3 4
+/samples/TRACK_09.ram 24 931017 10 13
+/samples/botl12_peace.mp3 2 551892 0 0
+/samples/btm5_dance.mp3 17 5208946 1 6
+/samples/TRACK_01.ram 18 913976 3 4
+/samples/CelticHolidayCD%201%20-%20Track%202.mp3 44 4089245 19 20
+/samples/btm4_mother.mp3 35 5830746 7 9
+/PDF/Redlands%20Letter%20&%20Daily%20Facts%20review%20%2799.pdf 4 519129 0 0
+/samples/CelticHolidayCD%201%20-%20Track%203.mp3 40 3762108 17 20
+// 1 8332 0 1
+/PDF/Boulding%20Family%20Story%20Yuletide%202004.pdf 6 116100 2 2
+/R-Moon.html 43 552685 4 8
+/WDD_Home.html 33 205875 3 2
+/CreatingWhereDragonsDance/Philip&Chen6.html 10 8307 0 0
+/samples/DulcimerCD%201-%20Track%203.mp3 25 2346603 9 9
+/samples/CelticMistCD%201%20-%20Track%201.mp3 25 2973497 8 11
+/samples/TRACK_13.ram 14 697288 6 4
+/CreatingWhereDragonsDance/1BigRedStudio.html 11 7767 1 1
+/samples/cts1_knock.mp3 29 5988802 10 14
+/samples/Musings%20Wild%20Willy.mp3 20 3735668 0 2
+/News2004.html 20 142994 3 3
+/samples/TRACK_05.ram 21 691938 8 9
+/CreatingWhereDragonsDance/Brittany1.html 10 8325 0 0
+/test_sound.php 5 2768 0 0
+/W-Whispers.html 52 371574 1 11
+/CreatingWhereDragonsDance/JTom_Creegan.html 10 8352 0 1
+/samples/Poet's%20Love.mp3 31 3972137 9 15
+/samples/cts9_skellig.mp3 17 4994711 7 10
+/Form_School_Print.html 21 258704 8 12
+/samples/TRACK_08.ram 19 654764 5 1
+/R-Elegance.html 48 376775 1 3
+/CreatingWhereDragonsDance/Pam&Dulcimer.html 9 7640 0 0
+/samples/loi5_house.mp3 7 2122251 0 1
+/samples/CelticHolidayCD%202%20-%20Track%2010.mp3 21 1656990 8 6
+/CreatingWhereDragonsDance/Sheetmusic.html 12 10307 1 4
+/CreatingWhereDragonsDance/WDDSlideShow.html 26 184980 4 4
+/samples/TRACK_12.ram 25 737086 13 8
+/test_show.php 46 83117 1 0
+/samples/loi2_vali.mp3 18 1827630 11 14
+/Form_Email_Add.html 53 451516 5 22
+/samples/CelticHolidayCD%202%20-%20Track%203.mp3 18 2965356 0 0
+/CreatingWhereDragonsDance/Philip&Chen3.html 9 7600 0 0
+/Form_School_Reg.html 25 323295 4 5
+/samples/CelticMistCD%202%20-%20Track%203.mp3 18 551239 13 13
+/samples/CelticMistCD%201%20-%20Track%208.mp3 44 1628308 27 29
+/CreatingWhereDragonsDance/Philip1.html 12 10076 2 2
+/CreatingWhereDragonsDance/2Quartetstanding1.html 11 9950 1 1
+/R-Harp.html 38 245052 10 5
+/School_Assemblies_Workshops.html 28 359046 12 13
+/samples/DulcimerCD%202%20-%20Track%204.mp3 42 2670728 21 21
+/CreatingWhereDragonsDance/Brittany2.html 9 7600 0 0
+/samples/DulcimerCD%202%20-%20Track%203.mp3 20 2128412 6 4
+/samples/Musings%20Planxty%20Raney.mp3 21 4490864 0 5
+/CreatingWhereDragonsDance/Brittany&Pam.html 10 8586 0 1
+/imageflowgallery/3DFlowGallery.swf 17 98364 0 0
+/PayPal_Thanks.html 8 33016 0 4
+/samples/DulcimerCD%202%20-%20Track%202.mp3 21 1574131 9 8
+/CreatingWhereDragonsDance/Pam&KB3.html 10 8748 1 1
+/CreatingWhereDragonsDance/JTom_Creegan1.html 9 7464 0 0
+/CreatingWhereDragonsDance/Billy.html 11 9140 1 0
+/PDF/All%20About%20&%20Critical%20Acclaim.pdf 8 130438 3 1
+/cgi-bin/FormMail.pl 1 1882 0 1
+/samples/TRACK_02.ram 30 920220 17 10
+/Bio-Short.html 49 377856 3 11
+/samples/Musings%20Napili%20Nights.mp3 25 2669808 0 2
+/samples/btm10_kailey.mp3 23 4207238 7 11
+/samples/Poet%27s%20Love.mp3 10 6262119 0 0
+/CreatingWhereDragonsDance/BreninCello.html 11 9520 0 0
+/samples/Where%20Dragons%20Dance.mp3 47 19889587 5 9
+/samples/loi3_march.mp3 25 1276305 9 12
+/samples/CelticMistCD%202%20-%20Track%202.mp3 35 3407438 17 20
+/samples/DulcimerCD%201%20-%20Track%207.mp3 28 3264041 9 11
+/samples/DulcimerCD%201%20-%20Track%205.mp3 24 3144736 11 9
+/samples/TRACK_07.ram 18 754116 5 4
+/samples/CelticMistCD%201%20-%20Track%203.mp3 18 2047958 8 10
+/ScriptLibrary/apple_player.swf 2 16178 0 0
+END_SIDER

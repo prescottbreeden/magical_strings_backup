@@ -1,0 +1,317 @@
+Return-path: <180-GFH-982.0.13488.0.0.9114.9.7068788-14@connect.zenefits.com>
+Envelope-to: pam@magicalstrings.com
+Delivery-date: Thu, 02 Feb 2017 11:17:27 -0800
+Received: from connect.zenefits.com ([199.15.212.26]:33574)
+	by biz164.inmotionhosting.com with esmtps (TLSv1.2:ECDHE-RSA-AES256-GCM-SHA384:256)
+	(Exim 4.87)
+	(envelope-from <180-GFH-982.0.13488.0.0.9114.9.7068788-14@connect.zenefits.com>)
+	id 1cZMs5-0008oM-Ny
+	for pam@magicalstrings.com; Thu, 02 Feb 2017 11:17:27 -0800
+X-MSFBL: cGFtQG1hZ2ljYWxzdHJpbmdzLmNvbUBkdnAtMTk5LTE1LTIxMi0yNkBiZy1hYmQt
+	MTIxQDE4MC1HRkgtOTgyOjE3ODU2OjU2MzE6NjA4OTM6MDo5MTE0Ojk6MTM0ODg6
+	NzA2ODc4OC0xNA==
+Received: from [10.1.87.249] ([10.1.87.249:44900] helo=abmas01.marketo.org)
+	by abmta16.marketo.org (envelope-from <lsalisbury@zenefits.com>)
+	(ecelerity 3.6.8.47404 r(Core:3.6.8.0)) with ESMTP
+	id 3C/7B-29114-19583985; Thu, 02 Feb 2017 13:16:33 -0600
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed; t=1486062993;
+	s=m1; d=zenefits.com; i=@zenefits.com;
+	h=Date:From:To:Subject:MIME-Version:Content-Type;
+	bh=scB80Cezp1SbevJvxiT3AFs+b+nRItepcqqWIxiXR2k=;
+	b=vnNy9fSqHpxahR4X/AFczQX/K/Gfnhp9VlG6JVqrEDkKm/mCWa6qFpEQxG9233A9
+	Rcs0F34Ux6FuAJ5/NE3MkU61kN5Nad2OeITaBz1+VmSv+zwJG27FbdTEmCvlHc4Unm4
+	wzq4MmkXn37UFQrOiHhd2iuPg8xRrgF7StLJzeeM=
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed; t=1486062993;
+	s=m1; d=mktdns.com; i=@mktdns.com;
+	h=Date:From:To:Subject:MIME-Version:Content-Type;
+	bh=scB80Cezp1SbevJvxiT3AFs+b+nRItepcqqWIxiXR2k=;
+	b=BgChaPEW+CAac3QT6mTTiR48R4h93UEFmz0Bmyqg0MXUopUJra3hJhA7nqywEAhx
+	D7Ui2m5LS87FpHN27jars1BijSl4s/ZakhCdaUkbr05gKwLmHvxb5GcIHN8zIF7rli2
+	ql7nmiamysMo5eEZwdxtxjrcd6RQU4yKMymZ+VwU=
+Date: Thu, 2 Feb 2017 13:16:33 -0600 (CST)
+From: Luke Salisbury <lsalisbury@zenefits.com>
+Reply-To: lsalisbury@zenefits.com
+To: pam@magicalstrings.com
+Message-ID: <1557498034.-1748345858.1486062993590.JavaMail.root@abmas01.marketo.org>
+Subject: Save up to 40% on your daily commute with Zenefits + Lyft!
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_-1748345860_206554003.1486062993590"
+X-PVIQ: mkto-180GFH982-000001-000000-013488
+X-Binding: bg-abd-121
+X-MarketoID: 180-GFH-982:17856:5631:60893:0:9114:9:13488:7068788-14
+X-MktArchive: false
+List-Unsubscribe: <mailto:JVXTSQ2CG5JXSZ3IPJDWIYZWJFSE6R3GNZTT2PI.13488.9114.9@unsub-ab.mktomail.com>
+X-Mailfrom: 180-GFH-982.0.13488.0.0.9114.9.7068788-14@connect.zenefits.com
+X-MSYS-API: {"options":{"open_tracking":false,"click_tracking":false}}
+X-MktMailDKIM: true
+X-Spam-Status: No, score=-5.2
+X-Spam-Score: -51
+X-Spam-Bar: -----
+X-Ham-Report: Spam detection software, running on the system "biz164.inmotionhosting.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ 
+ Content preview:  Lyft and Zenefits are partnering to make your daily commute
+    easier. <http://go.zenefits.com/b0000LF4yGU0HIbi000EUt5> <http://go.zenefits.com/b0000LF4yGU0HIbi000EUt5>
+    Hey Pam, Riding solo is so 2016. Starting today, Zenefits customers can now
+    use commuter benefits credits in Seattle toward eligible Lyft Lines—saving
+    you up to 40%! Wondering how you can get started on setting up a great commuter
+    program for your employees? Discover how with Zenefits by clicking below.
+    [...] 
+ 
+ Content analysis details:   (-5.2 points, 5.0 required)
+ 
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was blocked.
+                             See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: mktdns.com]
+ -3.2 RP_MATCHES_RCVD        Envelope sender domain matches handover relay domain
+ -0.0 SPF_HELO_PASS          SPF: HELO matches SPF record
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.0 URI_TRY_3LD            URI: "Try it" URI, suspicious hostname
+ -1.9 BAYES_00               BODY: Bayes spam probability is 0 to 1%
+                             [score: 0.0000]
+  0.0 T_KAM_HTML_FONT_INVALID BODY: Test for Invalidly Named or Formatted
+                             Colors in HTML
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily valid
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from author's
+                             domain
+X-Spam-Flag: NO
+
+------=_Part_-1748345860_206554003.1486062993590
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Lyft and Zenefits are partnering to make your daily commute easier.
+<http://go.zenefits.com/b0000LF4yGU0HIbi000EUt5>
+<http://go.zenefits.com/b0000LF4yGU0HIbi000EUt5>
+Hey Pam,
+Riding solo is so 2016. Starting today, Zenefits customers can now use comm=
+uter benefits credits in Seattle toward eligible Lyft Lines=E2=80=94saving =
+you up to 40%!
+Wondering how you can get started on setting up a great commuter program fo=
+r your employees? Discover how with Zenefits by clicking below.
+
+
+
+
+
+
+
+
+
+Get a Ride! <http://go.zenefits.com/SF0H0L0U40t05GI0b00zEp0>
+See you out there,
+ Luke
+FOLLOW US:
+<http://go.zenefits.com/WG0bk5Ft40W0HLI00E0Uy00>
+<http://go.zenefits.com/dL04IbX5yE0HU00Ftl000G0>
+<http://go.zenefits.com/rt0Y0H0y0Fm4U5GbI00E0L0>
+Zenefits
+
+303 Second Street, San Francisco, CA 94107 US
+Send to a Friend <[[http://go.zenefits.com/v/c0t00EIG045F0bLHr0U2z00]]> =C2=
+=B7 Unsubscribe <[[https://learn.zenefits.com/UnsubscribePage.html?mkt_unsu=
+bscribe=3D1&mkt_tok=3DeyJpIjoiWlRObU5qVTFNREZsTXpVMCIsInQiOiJGMmlhREJQd1VNZ=
+ENlK1NkS2hGT3lXQW5rb2lQQk1RTDVmbXAzQklwTVl0dlpaeVNGSzczaHR1TTNlYXJxU2V2b0FJ=
+UGtIaElKcDRTdUFyWmljZU1uMXNydmVLS0NJOTlKcEgxZmxoOG56ZG12VXdJanR6M2wxeFdYT09=
+6eUpFbCJ9]]>
+
+------=_Part_-1748345860_206554003.1486062993590
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en" >
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title></title>
+
+<style type="text/css">
+        div[style*="margin: 16px 0"] {
+          margin: 0 !important;
+        }
+        @media screen and (max-width: 499px) {
+          .inner {
+            padding-left: 10% !important;
+            padding-right: 10% !important;
+          }
+          .section-masthead img {
+            max-width: 80%;
+          }
+          .section-main .inner {
+            padding-top: 24px !important;
+          }
+          .contents {
+            font-size: 15px !important;
+            line-height: 1.75em !important;
+          }
+          .h1 {
+            font-size: 24px !important;
+            line-height: 1.25em !important;
+          }
+          ul,
+          ol {
+            padding-left: 24px !important;
+            margin-left: 0;
+          }
+        }
+        @media screen and (max-width: 620px) {
+          .hide {
+            display: none !important;
+          }
+        }
+        a.link-hover {
+          color: #222222;
+          text-decoration: underline;
+        }
+        a.link-hover:hover {
+          text-decoration: none !important;
+          color: #F99802 !important;
+        }
+        .section-main a:hover,
+        .section-footer a:hover {
+          text-decoration: underline !important;
+        }
+        .buttonwrapper a:hover {
+          text-decoration: none !important;
+        }
+        a[x-apple-data-detectors=true] {
+          text-decoration: none !important;
+          cursor: default;
+        }
+        .section-main a[x-apple-data-detectors=true] {
+          color: #222222;
+        }
+        .section-footer a[x-apple-data-detectors=true] {
+          color: #9b9b9b;
+        }
+        .h1 a[x-apple-data-detectors=true] {
+          color: #F99802;
+        }
+        .preheader {display: none;}
+</style>
+<!--[if !mso]><!-->
+<meta http-equiv="X-UA-Compatible" content="IE=edge"><!--<![endif]-->
+<!--[if(mso)|(IE)]>
+        <style type="text/css">
+            .one-col .inner {padding-left: 72px !important; padding-right: 72px !important;}
+        </style>
+    <![endif]-->
+<!--[if mso]>
+    <style type="text/css">
+        table {border-collapse: collapse !important;}
+        table, div {font-family: Helvetica, sans-serif !important;}
+        ul, ol {margin-left: 30px !important;}
+        .button {padding: 6px 9px 6px 9px !important;}
+        .one-col .inner {padding-left: 72px !important; padding-right: 72px !important;}
+    </style>
+    <![endif]-->
+</head>
+<body style="font-family:Helvetica,sans-serif; margin-top:0 !important; margin-bottom:0 !important; margin-right:0 !important; margin-left:0 !important; padding-top:0; padding-bottom:0; padding-right:0; padding-left:0; background-color:#CACACA; " ><div class="preheader mktEditable" id="Preheader" style="mso-hide:all; visibility:hidden; opacity:0; color:transparent; mso-line-height-rule:exactly; line-height:0; font-size:0; overflow:hidden; border-width:0; display:none !important; " ><p style="margin-top:0;margin-bottom:0;margin-right:0;margin-left:0;">Lyft and Zenefits are partnering to make your daily commute easier.</p>
+</div>
+<table width="100%" cellpadding="0" cellspacing="0" align="center" border="0" class="wrapper" style="margin-top:0; margin-bottom:0; margin-right:auto; margin-left:auto; font-family:Helvetica,sans-serif; table-layout:fixed; width:100%; -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; background-color:#CACACA; " ><tr ><td align="center" ><center ><div class="webkit" style="margin-top:0; margin-bottom:0; margin-right:auto; margin-left:auto; width:100%; max-width:600px; " ><!--[if(mso)|(IE)]>
+                    <table cellpadding="0" cellspacing="0" border="0" width="600"><tr><td>
+                    <![endif]-->
+<table width="100%" cellpadding="0" cellspacing="0" border="0" class="outer" style="margin-top:0; margin-bottom:0; margin-right:auto; margin-left:auto; width:100%; max-width:600px; " ><tr ><td ><div class="spacer hide" style="font-size:30px;line-height:30px;display:block;">&nbsp;</div>
+<!-- Masthead -->
+<table width="100%" cellpadding="0" cellspacing="0" border="0" class="contents section-masthead" bgcolor="#FFFFFF" style="font-size:16px; line-height:26px; text-align:left; " ><tr class="one-col" ><td class="inner" style="padding-left:12%; padding-right:12%; padding-top:23px; padding-bottom:20px; font-family:Helvetica,sans-serif; " ><div class="mktEditable" id="logo" ><p style="margin-top:0;margin-bottom:0;margin-right:0;margin-left:0;"><a href=
+"http://go.zenefits.com/b0000LF4yGU0HIbi000EUt5" style="text-decoration:none;"
+><img src="https://s3.amazonaws.com/uploads.knak.io/user_uploads/5840673623293/58470fc3a594f.png" alt="Zenefits" width="125" style="border-width:0;height:auto;-ms-interpolation-mode:bicubic;display:block;margin-top:0;margin-bottom:0;margin-right:auto;margin-left:auto;"></a></p>
+</div>
+</td>
+</tr>
+</table>
+<!-- Hero with Image -->
+<table width="100%" cellpadding="0" cellspacing="0" border="0" class="contents section-main" style="font-size:16px; line-height:26px; background-color:#ffffff; color:#222222; text-align:left; " ><tr class="one-col" ><td class="image" align="left" style="font-size:14px; color:#222222; font-family:Helvetica,sans-serif; " ><div class="mktEditable" id="hero-image" ><p style="margin: 0;"><a href=
+"http://go.zenefits.com/b0000LF4yGU0HIbi000EUt5" style="text-decoration: none; color: #222222;" target="_blank"
+><img src="https://12406-presscdn-0-60-pagely.netdna-ssl.com/blog/wp-content/uploads/2017/01/LyftZen-Blog-Banner-2.png" width="600" alt="" style="border-width: 0; height: auto; -ms-interpolation-mode: bicubic; display: block; width: 100%; max-width: 600px;"></a></p>
+</div>
+</td>
+</tr>
+<tr class="one-col" ><td class="inner copy" style="padding-left:12%; padding-right:12%; padding-top:50px; padding-bottom:10px; font-family:Helvetica,sans-serif; " ><div class="mktEditable" id="main-text" ><p style="margin: 0 0 14px 0;">Hey Pam,</p>
+<p style="margin: 0 0 14px 0;">Riding solo is <i>so</i> 2016. Starting today, Zenefits customers can now use commuter benefits credits in Seattle toward eligible Lyft Lines&mdash;saving you up to 40%!</p>
+<p style="margin: 0 0 14px 0;">Wondering how you can get started on setting up a great commuter program for your employees? Discover how with Zenefits by clicking below.<br /><br /></p>
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td align="center">
+<table align="center" cellpadding="0" cellspacing="0" class="buttonwrapper" border="0" style="background-color: #f99802; font-size: 16px; font-weight: bold; line-height: 18px; text-align: left; margin: 0 auto 0 auto;">
+<tbody>
+<tr>
+<td class="button" style="font-family: Helvetica,sans-serif;"><a href=
+"http://go.zenefits.com/uV5000UFt40L0j00yIEGHb0" style="border-radius: 6px; -webkit-border-radius: 6px; color: #ffffff; display: inline-block; text-decoration: none; border-width: 16px 22px 16px 22px; border-color: #F99802; border-style: solid;" target="_blank"
+>Get a Ride!</a></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table></div>
+</td>
+</tr>
+<tr class="signature" ><td class="inner copy" style="padding-left:12%; padding-right:12%; padding-top:30px; padding-bottom:24px; font-family:Helvetica,sans-serif; " ><div class="mktEditable" id="signature" ><p style="margin: 0 0 14px 0;">See you out there,<br /> Luke<br /></p></div>
+<div class="spacer" style="font-size:40px;line-height:40px;display:block;">&nbsp;</div>
+</td>
+</tr>
+</table>
+<!-- Footer -->
+<table width="100%" cellpadding="0" cellspacing="0" border="0" class="section-footer" ><tr class="one-col" ><td class="inner" style="padding-top:32px; padding-bottom:18px; padding-right:15px; padding-left:15px; " ><table cellpadding="0" cellspacing="0" border="0" width="100%" class="contents" style="font-size:13px; line-height:18px; color:#9b9b9b; text-align:center; " ><tr ><td style="padding-bottom:15px; font-family:Helvetica,sans-serif; " ><div class="mktEditable" id="social-heading" ><p style="text-align:center;font-size:14px;line-height:22px;margin-top:0;margin-right:0;margin-left:0;margin-bottom:12px;">FOLLOW US:</p>
+</div>
+<table align="center" cellpadding="0" cellspacing="0" border="0" class="social" style="font-size:8px; line-height:10px; margin-top:0; margin-bottom:0; margin-right:auto; margin-left:auto; " ><tr ><td width="60" align="center" style="font-family:Helvetica,sans-serif; " ><div class="mktEditable" id="social-twitter" ><p style="margin-top:0;margin-right:0;margin-left:0;margin-bottom:12px;"><a href=
+"http://go.zenefits.com/WG0bk5Ft40W0HLI00E0Uy00" style="text-decoration:none;color:#9b9b9b;"
+><img src="https://s3.amazonaws.com/templates.knak.io/55416b273eb56/social-twitter.png" title="Twitter" alt="Twitter" width="50" border="0" style="border-width:0;height:auto;-ms-interpolation-mode:bicubic;margin-top:0;margin-bottom:0;margin-right:auto;margin-left:auto;width:90%;max-width:50px;"></a></p>
+</div>
+</td>
+<td width="58" align="center" style="font-family:Helvetica,sans-serif; " ><div class="mktEditable" id="social-linkedin" ><p style="margin-top:0;margin-right:0;margin-left:0;margin-bottom:12px;"><a href=
+"http://go.zenefits.com/dL04IbX5yE0HU00Ftl000G0" style="text-decoration:none;color:#9b9b9b;"
+><img src="https://s3.amazonaws.com/templates.knak.io/55416b273eb56/social-linkedin.png" title="LinkedIn" alt="LinkedIn" width="50" border="0" style="border-width:0;height:auto;-ms-interpolation-mode:bicubic;margin-top:0;margin-bottom:0;margin-right:auto;margin-left:auto;width:90%;max-width:50px;"></a></p>
+</div>
+</td>
+<td width="50" align="center" style="font-family:Helvetica,sans-serif; " ><div class="mktEditable" id="social-facebook" ><p style="margin-top:0;margin-right:0;margin-left:0;margin-bottom:12px;"><a href=
+"http://go.zenefits.com/rt0Y0H0y0Fm4U5GbI00E0L0" style="text-decoration:none;color:#9b9b9b;"
+><img src="https://s3.amazonaws.com/templates.knak.io/55416b273eb56/social-facebook.png" title="Facebook" alt="Facebook" width="50" border="0" style="border-width:0;height:auto;-ms-interpolation-mode:bicubic;margin-top:0;margin-bottom:0;margin-right:auto;margin-left:auto;width:90%;max-width:50px;"></a></p>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr ><td style="font-family:Helvetica,sans-serif; " ><div class="mktEditable" id="footer" ><p style="margin-top:0;margin-right:0;margin-left:0;margin-bottom:12px;"><b>Zenefits</b><br>
+303 Second Street, San Francisco, CA 94107 US</p>
+<p style="margin-top:0;margin-right:0;margin-left:0;margin-bottom:12px;font-size:10px;"><a href="http://go.zenefits.com/v/c0t00EIG045F0bLHr0U2z00" style="text-decoration:none;color:#9b9b9b;">Send to a Friend</a> &middot; <a href="https://learn.zenefits.com/UnsubscribePage.html?mkt_unsubscribe=1&mkt_tok=eyJpIjoiWlRObU5qVTFNREZsTXpVMCIsInQiOiJGMmlhREJQd1VNZENlK1NkS2hGT3lXQW5rb2lQQk1RTDVmbXAzQklwTVl0dlpaeVNGSzczaHR1TTNlYXJxU2V2b0FJUGtIaElKcDRTdUFyWmljZU1uMXNydmVLS0NJOTlKcEgxZmxoOG56ZG12VXdJanR6M2wxeFdYT096eUpFbCJ9" style="text-decoration:none;color:#9b9b9b;">Unsubscribe</a></p>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<!--[if(mso)|(IE)]>
+                    </td></tr></table>
+                    <![endif]--></div>
+</center>
+</td>
+</tr>
+</table>
+<a href=
+"http://go.zenefits.com/K00EtGF004yZ0nLUI0b50H0"
+></a>
+<img src="http://go.zenefits.com/trk?t=1&mid=MTgwLUdGSC05ODI6MTc4NTY6NTYzMTo2MDg5MzowOjkxMTQ6OToxMzQ4ODo3MDY4Nzg4LTE0OnBhbUBtYWdpY2Fsc3RyaW5ncy5jb20%3D" width="1" height="1" style="display:none !important;" alt="" />
+</body>
+</html>
+------=_Part_-1748345860_206554003.1486062993590--

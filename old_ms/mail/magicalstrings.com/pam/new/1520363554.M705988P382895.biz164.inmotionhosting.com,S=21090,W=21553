@@ -1,0 +1,463 @@
+Return-Path: <131-SYO-861.0.156364.0.0.89651.9.27453768@email1.centurylinkmeansbusiness.com>
+Delivered-To: pam@magicalstrings.com
+Received: from biz164.inmotionhosting.com
+	by biz164.inmotionhosting.com with LMTP id AMoGKiLonlqv1wUAtEtsOg
+	for <pam@magicalstrings.com>; Tue, 06 Mar 2018 11:12:34 -0800
+Return-path: <131-SYO-861.0.156364.0.0.89651.9.27453768@email1.centurylinkmeansbusiness.com>
+Envelope-to: pam@magicalstrings.com
+Delivery-date: Tue, 06 Mar 2018 11:12:34 -0800
+Received: from email2.centurylinkmeansbusiness.com ([192.28.144.99]:49202)
+	by biz164.inmotionhosting.com with esmtps (TLSv1.2:ECDHE-RSA-AES256-GCM-SHA384:256)
+	(Exim 4.89_1)
+	(envelope-from <131-SYO-861.0.156364.0.0.89651.9.27453768@email1.centurylinkmeansbusiness.com>)
+	id 1etI0X-001jaI-Cv
+	for pam@magicalstrings.com; Tue, 06 Mar 2018 11:12:34 -0800
+X-MSFBL: cGFtQG1hZ2ljYWxzdHJpbmdzLmNvbUBkdnAtMTkyLTI4LTE0NC05OUBiZy1hYmQt
+	Mjk2QDEzMS1TWU8tODYxOjg5ODg3OjcwMjg2OjIxMDAwNDowOjg5NjUxOjk6MTU2
+	MzY0OjI3NDUzNzY4
+Received: from [10.1.87.249] ([10.1.87.249:37952] helo=abmas02.marketo.org)
+	by abmta11.marketo.org (envelope-from <editor@centurylink-business.com>)
+	(ecelerity 3.6.8.47404 r(Core:3.6.8.0)) with ESMTP
+	id 0E/E4-39058-018EE9A5; Tue, 06 Mar 2018 13:12:16 -0600
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed; t=1520363536;
+	s=m1; d=centurylink-business.com; i=@centurylink-business.com;
+	h=Date:From:To:Subject:MIME-Version:Content-Type;
+	bh=np9R/xXRPqiQihzHlO+r3vL0TgWO7+gTguH1qscH3uM=;
+	b=SgcGBK4KBlzYcNcqkxEml8R7iFcoXhwmwf7Tgz0ucuiUUBTpP7/FdbGr04GAhjZL
+	tWrczSR94PlJkL2A7V859bvEcFB7DXPtP7DDqjt0CreUHJBDe9KtHNU/IJ9fTu55PHn
+	U3GQYccNZ1wNWFU0cJiTYn33o6rYRxNvPxl5HmKQ=
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed; t=1520363536;
+	s=m1; d=mktdns.com; i=@mktdns.com;
+	h=Date:From:To:Subject:MIME-Version:Content-Type;
+	bh=np9R/xXRPqiQihzHlO+r3vL0TgWO7+gTguH1qscH3uM=;
+	b=HciRb/wzyELUD0UR2wLMXCrZJo2YH+600KRvVF/nkaZQthPVYSreo6GIM2tDMdHl
+	JBIfWylS2XepS86ggvWFaAvObwPz2d1hPg0ykzQOMS5enzgOQRqAphx8kVPd9jmuU6A
+	DNUeFwek4g7R9BHpMgSs5Eda6Zu7ZeXGNPu1neaE=
+Date: Tue, 6 Mar 2018 13:12:16 -0600 (CST)
+From: CenturyLink Business <editor@centurylink-business.com>
+Reply-To: editor@centurylink-business.com
+To: pam@magicalstrings.com
+Message-ID: <1392855542.-197440225.1520363536588.JavaMail.root@abmas02.marketo.org>
+Subject: CenturyLink Bright Ideas Newsletter
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_-197440227_1195038468.1520363536588"
+X-PVIQ: mkto-131SYO861-000001-000000-156364
+X-Binding: bg-abd-296
+X-MarketoID: 131-SYO-861:89887:70286:210004:0:89651:9:156364:27453768
+X-MktArchive: false
+List-Unsubscribe: <mailto:JFKE2YTKLJFUCN2TKNRC2TTNGVFHIUDNIZZTAQZTLFMTQOKOM5PVI4ZWKFRUMZLFKE4GOPI.156364.89651.9@unsub-ab.mktomail.com>
+X-Mailfrom: 131-SYO-861.0.156364.0.0.89651.9.27453768@email1.centurylinkmeansbusiness.com
+X-MSYS-API: {"options":{"open_tracking":false,"click_tracking":false}}
+X-MktMailDKIM: true
+X-Spam-Status: No, score=-1.8
+X-Spam-Score: -17
+X-Spam-Bar: -
+X-Ham-Report: Spam detection software, running on the system "biz164.inmotionhosting.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ 
+ Content preview:  To view this email as a web page, go to the following address:
+    http://info.centurylinkforbusiness.com/index.php/email/emailWebview?mkt_tok=eyJpIjoiTURWaVkyRmlOMkV4TmpCbSIsInQiOiIrU0tlWkVLMWgyU1NKNTkvaGsrcHcyRHZzT1RpcHQxUmZBZVBhc243RUtzTUUxOXZnZzZ2UUxSQmgycHc4WHFFZzZMVHZzRkgwcU45czRjUmNJSXkwaEg0anpDRTFLa2lyMm9tME1Edk5zbEpldW9uL0Z6WUhGWE1VaUxOMC9oMCJ9
+    [...] 
+ 
+ Content analysis details:   (-1.8 points, 5.0 required)
+ 
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was blocked.
+                             See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: centurylinkbrightideas.com]
+ -0.0 T_RP_MATCHES_RCVD      Envelope sender domain matches handover relay
+                             domain
+  0.2 HEADER_FROM_DIFFERENT_DOMAINS From and EnvelopeFrom 2nd level mail
+                             domains are different
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+ -1.9 BAYES_00               BODY: Bayes spam probability is 0 to 1%
+                             [score: 0.0000]
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily valid
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from author's
+                             domain
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+X-Spam-Flag: NO
+
+------=_Part_-197440227_1195038468.1520363536588
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+To view this email as a web page, go to the following address: http://info.=
+centurylinkforbusiness.com/index.php/email/emailWebview?mkt_tok=3DeyJpIjoiT=
+URWaVkyRmlOMkV4TmpCbSIsInQiOiIrU0tlWkVLMWgyU1NKNTkvaGsrcHcyRHZzT1RpcHQxUmZB=
+ZVBhc243RUtzTUUxOXZnZzZ2UUxSQmgycHc4WHFFZzZMVHZzRkgwcU45czRjUmNJSXkwaEg0anp=
+DRTFLa2lyMm9tME1Edk5zbEpldW9uL0Z6WUhGWE1VaUxOMC9oMCJ9
+
+Get Your Daily Fiber Network
+
+ <http://pages.centurylink.com/LbR0OY00L2eQ1SRYI0N0y0i>
+
+Fiber is fast becoming a necessity, not a luxury. In large part, its import=
+ance comes from the speed it offers. But rather than just nodding and agree=
+ing that speed is good, you should take a few minutes to ask yourself: What=
+ can my business do with all this speed?
+
+Read more... <http://pages.centurylink.com/LbR0OY00L2eQ1SRYI0N0y0i>
+Use Employees' Smartphones for Best Productivity and Savings <http://pages.=
+centurylink.com/VYYT102yQL0O000SNRbIgi0>
+  <http://pages.centurylink.com/VYYT102yQL0O000SNRbIgi0>
+
+Did you know that allowing employees to use their personal mobile devices c=
+an have productivity gains for your business? Smartphones, tablets, even sm=
+artwatches, are everywhere. In fact, 90% of small-business owners say that =
+their employees bring at least one mobile device to work , a trend known as=
+ bring your own device (BYOD). So what does the BYOD trend mean to you and =
+your business?
+
+Read more... <http://pages.centurylink.com/VYYT102yQL0O000SNRbIgi0>
+Thinking about a move to the cloud? First, make a plan. <http://pages.centu=
+rylink.com/CYI00U0hN1QS0iyY0b2LO0R>
+
+
+Cloud-based services can help your business stay flexible by enabling anywh=
+ere, anytime collaboration between your employees. Companies big and small =
+are making the transition, but moving to the cloud in segments has its risk=
+s. That=E2=80=99s why the best way to make the move is with a partner who c=
+an take the complexity and risk out of the cloud and help you make a smooth=
+ and efficient transition to the cloud.
+
+Read more... <http://pages.centurylink.com/CYI00U0hN1QS0iyY0b2LO0R>
+<http://pages.centurylink.com/iZQS0iYLImN00y012Yb0O0R>
+=C2=A92017 Services not available everywhere. CenturyLink. All Rights Reser=
+ved.
+The CenturyLink mark, pathways logo and certain CenturyLink product names a=
+re the property of CenturyLink. All other marks are the property of their r=
+espective owners. You are receiving this email because of your business rel=
+ationship with us. If you do not wish to receive future marketing emails, p=
+lease use the unsubscribe <http://pages.centurylink.com/GLY0OQ00YVRiS0yN012=
+0Iib>. link, or you can also respond to this email by writing to us at Cent=
+uryLink Customer Response Team, P.O. Box 4259, Monroe, LA 71211. Click here=
+ <http://pages.centurylink.com/GLY0OQ00YWRjS0yN0120Iib> to view our privacy=
+ policy.
+
+If you no longer wish to receive these emails, go to the following link to =
+unsubscribe: http://info.centurylinkforbusiness.com/UnsubscribePage.html?mk=
+t_unsubscribe=3D1&mkt_tok=3DeyJpIjoiTURWaVkyRmlOMkV4TmpCbSIsInQiOiIrU0tlWkV=
+LMWgyU1NKNTkvaGsrcHcyRHZzT1RpcHQxUmZBZVBhc243RUtzTUUxOXZnZzZ2UUxSQmgycHc4WH=
+FFZzZMVHZzRkgwcU45czRjUmNJSXkwaEg0anpDRTFLa2lyMm9tME1Edk5zbEpldW9uL0Z6WUhGW=
+E1VaUxOMC9oMCJ9.
+
+------=_Part_-197440227_1195038468.1520363536588
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.=
+w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml">
+<head>=20
+<title></title>=20
+<style media=3D"screen" type=3D"text/css">
+/*<![CDATA[*/
+    .trkimg { background: transparent;}
+                        div.OutlookMessageHeader .trkimg,.gmail_quote .trki=
+mg,#MailContainerBody .trkimg,table.moz-email-headers-table,blockquote .trk=
+img {background-image:url('http://www.thinkgig.com/o/1c-4-1av');}
+    /*]]>*/
+</style>=20
+</head>=20
+<body style=3D"background:#e6e6e6; padding:0; margin:0; padding-top:0px; pa=
+dding-bottom:0px; ">
+<div style=3D"text-align: center"><font face=3D"Arial" size=3D"1">To view t=
+his email as a web page, <a style=3D"color:#8CC63F; text-decoration:none;" =
+href=3D
+"http://pages.centurylink.com/v/E2y0S1IYYlY0i0bO0Q0RN0L"
+>click here</a><br /><br /></font></div>
+
+<center style=3D"">
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"background=
+:#fff; " width=3D"650">
+<tbody>
+<tr>=20
+<td width=3D"20"></td>=20
+</tr>=20
+</tbody>
+<tbody style=3D"">
+<tr>=20
+<td height=3D"75" style=3D"border-bottom:1px solid #e6e6e6;"><img alt=3D"" =
+height=3D"200" src=3D"http://info.centurylinkforbusiness.com/rs/131-SYO-861=
+/images/monthly_digest_banner.png" width=3D"650" /></td>=20
+</tr>=20
+<tr style=3D"">
+<td style=3D"">&nbsp;
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"frame" sty=
+le=3D"position:relative; " width=3D"100%">
+<tbody style=3D"">
+<tr>=20
+<td style=3D"height:18px;"></td>=20
+</tr>=20
+<tr style=3D"">
+<td valign=3D"top" style=3D"">
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" styl=
+e=3D"">
+<tbody style=3D"">
+<tr style=3D"">
+<td style=3D"font-size:1px;" width=3D"10">=E2=80=82</td>=20
+<td style=3D"padding:0px 0 0 0px !important; font-family:'Helvetica Neue', =
+Helvetica, Arial, sans-serif; color:#333333; "><span style=3D"font-family:a=
+rial,helvetica,sans-serif;">
+<!-- post image --></span>
+<table align=3D"right" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" cla=
+ss=3D"down">=20
+<tbody>=20
+<tr>=20
+<td width=3D"10"></td>=20
+<td class=3D"story-image-wrapper"><span style=3D"font-family:arial,helvetic=
+a,sans-serif;"><a href=3D
+"http://pages.centurylink.com/LbR0OY00L2eQ1SRYI0N0y0i" style=3D"decoration:=
+none;" title=3D"Get Your Daily Fiber Network"
+><img alt=3D"" border=3D"0" class=3D"story-image" src=3D"http://www.century=
+linkbrightideas.com/wp-content/uploads/2016/11/thumbnail-2ae7ceb195293561e5=
+472ddf4d854d0c-682x300.jpeg" width=3D"200" /></a></span></td>=20
+</tr>=20
+</tbody>=20
+</table> <span style=3D"font-family:arial,helvetica,sans-serif;">
+<!-- / image --><a href=3D
+"http://pages.centurylink.com/m100iS00R2byLNIYYQf0SO0" style=3D"text-decora=
+tion:none;" title=3D"Get Your Daily Fiber Network"
+></a></span>
+<div class=3D"mktEditable" id=3D"headline1" style=3D"">
+<span style=3D"font-family: arial,helvetica,sans-serif;"><span style=3D"mar=
+gin: 4px 0px 8px; color: #333333; font-size: 18px; line-height: 20px; font-=
+weight: bold;">Get Your Daily Fiber Network</span><br /> <a title=3D"Get Yo=
+ur Daily Fiber Network" style=3D"text-decoration: none;" href=3D
+"http://pages.centurylink.com/LbR0OY00L2eQ1SRYI0N0y0i"
+></a></span>=20
+<div class=3D"story-snippet">=20
+<p><span style=3D"font-family: arial,helvetica,sans-serif;">Fiber is fast b=
+ecoming a necessity, not a luxury. In large part, its importance comes from=
+ the speed it offers. But rather than just nodding and agreeing that speed =
+is good, you should take a few minutes to ask yourself: What can my busines=
+s do with all this speed?</span></p>=20
+<p><span style=3D"font-family: arial,helvetica,sans-serif;"><a title=3D"Get=
+ Your Daily Fiber Network" style=3D"text-decoration: none; color: #8dc642;"=
+ href=3D
+"http://pages.centurylink.com/n/LbR0OY00L2eQ1SRYI0N0y0i" target=3D"_self" c=
+lass=3D"mktNoTok"
+>Read more...</a></span></p>=20
+</div>
+</div></td>
+<td style=3D"font-size:1px;" width=3D"10">=E2=80=82</td>=20
+</tr>
+</tbody>
+</table></td>
+</tr>
+<tr>=20
+<td style=3D"height:18px;"></td>=20
+</tr>=20
+</tbody>
+</table>
+<hr class=3D"story-separator" style=3D"border:0;margin:0 auto;color:#e8e8e8=
+;background-color:#e8e8e8;height:1px;" width=3D"100%" />=20
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"frame" sty=
+le=3D"position:relative; " width=3D"100%">
+<tbody style=3D"">
+<tr>=20
+<td style=3D"height:18px;"></td>=20
+</tr>=20
+<tr style=3D"">
+<td valign=3D"top" style=3D"">
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" styl=
+e=3D"">
+<tbody style=3D"">
+<tr style=3D"">
+<td style=3D"font-size:1px;" width=3D"10">=E2=80=82</td>=20
+<td style=3D"padding:0px 0 0 0px !important; font-family:'Helvetica Neue', =
+Helvetica, Arial, sans-serif; color:#333333; "><span style=3D"font-family:a=
+rial,helvetica,sans-serif;">
+<!-- post image --></span>
+<table align=3D"right" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" cla=
+ss=3D"down">=20
+<tbody>=20
+<tr>=20
+<td width=3D"10"></td>=20
+<td class=3D"story-image-wrapper"><span style=3D"font-family:arial,helvetic=
+a,sans-serif;"><a href=3D
+"http://pages.centurylink.com/VYYT102yQL0O000SNRbIgi0" style=3D"decoration:=
+none;" title=3D"Use Employees=E2=80=99 Smartphones for Best Productivity an=
+d Savings"
+><img alt=3D"" border=3D"0" class=3D"story-image" src=3D"http://www.century=
+linkbrightideas.com/wp-content/uploads/2016/05/11_482569031-682x300.jpg" wi=
+dth=3D"200" /></a></span></td>=20
+</tr>=20
+</tbody>=20
+</table>=20
+<div class=3D"mktEditable" id=3D"headline2" style=3D"">
+<span style=3D"font-family: arial,helvetica,sans-serif;">
+<!-- / image --><a title=3D"Use Employees=E2=80=99 Smartphones for Best Pro=
+ductivity and Savings" style=3D"text-decoration: none;" href=3D
+"http://pages.centurylink.com/VYYT102yQL0O000SNRbIgi0"
+><span style=3D"margin: 4px 0px 8px; color: #333333; font-size: 18px; line-=
+height: 20px; font-weight: bold;">Use Employees' Smartphones for Best Produ=
+ctivity and Savings</span></a><br /></span>=20
+<a title=3D"Use Employees=E2=80=99 Smartphones for Best Productivity and Sa=
+vings" style=3D"text-decoration: none;" href=3D
+"http://pages.centurylink.com/VYYT102yQL0O000SNRbIgi0"
+></a>=20
+<div class=3D"story-snippet">=20
+<p><span style=3D"font-family: arial,helvetica,sans-serif;">Did you know th=
+at allowing employees to use their personal mobile devices can have product=
+ivity gains for your business? Smartphones, tablets, even smartwatches, are=
+ everywhere. In fact, 90% of small-business owners say that their employees=
+ bring at least one mobile device to work , a trend known as bring your own=
+ device (BYOD). So what does the BYOD trend mean to you and your business?<=
+/span></p>=20
+<p><span style=3D"font-family: arial,helvetica,sans-serif;"><a title=3D"Use=
+ Employees=E2=80=99 Smartphones for Best Productivity and Savings" style=3D=
+"text-decoration: none; color: #8dc642;" href=3D
+"http://pages.centurylink.com/n/VYYT102yQL0O000SNRbIgi0" target=3D"_self" c=
+lass=3D"mktNoTok"
+>Read more...</a></span></p>=20
+</div>
+</div></td>
+<td style=3D"font-size:1px;" width=3D"10">=E2=80=82</td>=20
+</tr>
+</tbody>
+</table></td>
+</tr>
+<tr>=20
+<td style=3D"height:18px;"></td>=20
+</tr>=20
+</tbody>
+</table>
+<hr class=3D"story-separator" style=3D"border:0;margin:0 auto;color:#e8e8e8=
+;background-color:#e8e8e8;height:1px;" width=3D"100%" />=20
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"frame" sty=
+le=3D"position:relative; " width=3D"100%">
+<tbody style=3D"">
+<tr>=20
+<td style=3D"height:18px;"></td>=20
+</tr>=20
+<tr style=3D"">
+<td valign=3D"top" style=3D"">
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" styl=
+e=3D"">
+<tbody style=3D"">
+<tr style=3D"">
+<td style=3D"font-size:1px;" width=3D"10">=E2=80=82</td>=20
+<td style=3D"padding:0px 0 0 0px !important; font-family:Helvetica, Arial, =
+sans-serif; color:#333333; "><span style=3D"font-family:arial,helvetica,san=
+s-serif;">
+<!-- post image --></span>
+<table align=3D"right" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" cla=
+ss=3D"down">=20
+<tbody>=20
+<tr>=20
+<td width=3D"10"></td>=20
+<td class=3D"story-image-wrapper"><span style=3D"font-family:arial,helvetic=
+a,sans-serif;"><a href=3D
+"http://pages.centurylink.com/CYI00U0hN1QS0iyY0b2LO0R" style=3D"decoration:=
+none;" title=3D"Thinking about a move to the cloud? First, make a plan."
+><img alt=3D"" border=3D"0" class=3D"story-image" src=3D"http://www.century=
+linkbrightideas.com/wp-content/uploads/2015/04/iStock_000037898196_Medium-e=
+1428526231559-682x300.jpg" width=3D"200" /></a></span></td>=20
+</tr>=20
+</tbody>=20
+</table>=20
+<div class=3D"mktEditable" id=3D"headline3" style=3D"">
+<span style=3D"font-family: arial,helvetica,sans-serif;">
+<!-- / image --><a title=3D"Thinking about a move to the cloud? First, make=
+ a plan." style=3D"text-decoration: none;" href=3D
+"http://pages.centurylink.com/CYI00U0hN1QS0iyY0b2LO0R"
+><span style=3D"margin: 4px 0px 8px; color: #333333; font-size: 18px; line-=
+height: 20px; font-weight: bold;">Thinking about a move to the cloud? First=
+, make a plan.</span></a><br /></span>=20
+<div class=3D"story-snippet">=20
+<p><span style=3D"font-family: arial,helvetica,sans-serif;">Cloud-based ser=
+vices can help your business stay flexible by enabling anywhere, anytime co=
+llaboration between your employees. Companies big and small are making the =
+transition, but moving to the cloud in segments has its risks. That=E2=80=
+=99s why the best way to make the move is with a partner who can take the c=
+omplexity and risk out of the cloud and help you make a smooth and efficien=
+t transition to the cloud.</span></p>=20
+<p><span style=3D"font-family: arial,helvetica,sans-serif;"><a title=3D"Thi=
+nking about a move to the cloud? First, make a plan." style=3D"text-decorat=
+ion: none; color: #8dc642;" href=3D
+"http://pages.centurylink.com/n/CYI00U0hN1QS0iyY0b2LO0R" target=3D"_self" c=
+lass=3D"mktNoTok"
+>Read more...</a></span></p>=20
+</div>
+</div></td>
+<td style=3D"font-size:1px;" width=3D"10">=E2=80=82</td>=20
+</tr>
+</tbody>
+</table></td>
+</tr>
+<tr>=20
+<td style=3D"height:0px;"></td>=20
+</tr>=20
+</tbody>
+</table></td>
+</tr>
+</tbody>
+</table>
+<table>=20
+<tbody>
+<tr>=20
+<td></td>=20
+</tr>=20
+</tbody>
+</table>=20
+<table bgcolor=3D"#FFFFFF" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"=
+ style=3D"border-top:#ffffff solid 1px; " width=3D"600">
+<tbody style=3D"">
+<tr style=3D"">
+<td style=3D"">
+<div class=3D"mktEditable" id=3D"BottomImage" style=3D"">
+<img height=3D"108" src=3D"http://info.centurylinkforbusiness.com/rs/131-SY=
+O-861/images/Generic footer.jpg" width=3D"600" constrain=3D"true" imageprev=
+iew=3D"false" />
+</div>
+<div class=3D"mktEditable" id=3D"footer" style=3D"padding:0 10px 10px 10px;=
+ ">
+<p style=3D"font-family: arial; font-size: 11px; color: #333333;"><span sty=
+le=3D"font-family: arial,helvetica,sans-serif;">=C2=A92018 Services not ava=
+ilable everywhere. CenturyLink. All Rights Reserved.</span></p>=20
+<p style=3D"font-family: arial; font-size: 11px; color: #333333;"><span sty=
+le=3D"font-family: arial,helvetica,sans-serif;">The CenturyLink mark, pathw=
+ays logo and certain CenturyLink product names are the property of CenturyL=
+ink. All other marks are the property of their respective owners. You are r=
+eceiving this email because of your business relationship with us. If you d=
+o not wish to receive future marketing emails, please use the <a href=3D
+"http://pages.centurylink.com/GLY0OQ00YVRiS0yN0120Iib" style=3D"color: #8ec=
+642; text-decoration: none;"
+>unsubscribe</a>. link, or you can also respond to this email by writing to=
+ us at CenturyLink Customer Response Team, P.O. Box 4259, Monroe, LA 71211.=
+ Click <a href=3D
+"http://pages.centurylink.com/GLY0OQ00YWRjS0yN0120Iib" style=3D"color: #8ec=
+642; text-decoration: none;"
+>here</a> to view our privacy policy.</span></p>
+</div></td>
+</tr>
+</tbody>
+</table>
+</center>
+<div class=3D"trkimg"></div>=20
+<a href=3D
+"http://pages.centurylink.com/x0S0020Q0kL1NiY0XyRIYOb"
+></a>
+<img src=3D"http://pages.centurylink.com/trk?t=3D1&mid=3DMTMxLVNZTy04NjE6OD=
+k4ODc6NzAyODY6MjEwMDA0OjA6ODk2NTE6OToxNTYzNjQ6Mjc0NTM3Njg6cGFtQG1hZ2ljYWxzd=
+HJpbmdzLmNvbQ%3D%3D" width=3D"1" height=3D"1" style=3D"display:none !import=
+ant;" alt=3D"" />
+
+<p><center><font face=3D"Arial" size=3D"1">If you no longer wish to receive=
+ these emails, click on the following link: <a style=3D"color:#8CC63F; text=
+-decoration:none;" href=3D
+"http://pages.centurylink.com/u/ei2YnO00010YSQ0bRL0NI0y"
+>Unsubscribe</a><br/> </font> </center></p>
+</body>
+</html>
+------=_Part_-197440227_1195038468.1520363536588--

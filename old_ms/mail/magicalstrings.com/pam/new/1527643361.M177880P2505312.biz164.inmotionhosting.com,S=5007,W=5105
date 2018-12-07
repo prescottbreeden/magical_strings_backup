@@ -1,0 +1,98 @@
+Return-Path: <reno@dkn.go.id>
+Delivered-To: pam@magicalstrings.com
+Received: from biz164.inmotionhosting.com
+	by biz164.inmotionhosting.com with LMTP id iLCPCuH8DVtgOiYAtEtsOg
+	for <pam@magicalstrings.com>; Tue, 29 May 2018 18:22:41 -0700
+Return-path: <reno@dkn.go.id>
+Envelope-to: pam@magicalstrings.com
+Delivery-date: Tue, 29 May 2018 18:22:41 -0700
+Received: from mx.dkn.go.id ([103.80.77.4]:61029)
+	by biz164.inmotionhosting.com with esmtps (TLSv1.2:AECDH-AES256-SHA:256)
+	(Exim 4.89_1)
+	(envelope-from <reno@dkn.go.id>)
+	id 1fNpor-00AcPw-PN
+	for pam@magicalstrings.com; Tue, 29 May 2018 18:22:41 -0700
+Received: from localhost (localhost [IPv6:::1])
+	by mx.dkn.go.id (Postfix) with ESMTP id 59DC73A225F0
+	for <pam@magicalstrings.com>; Wed, 30 May 2018 07:57:22 +0700 (WIB)
+Received: from mx.dkn.go.id ([IPv6:::1])
+	by localhost (mx.dkn.go.id [IPv6:::1]) (amavisd-new, port 10032)
+	with ESMTP id rnA8HUjAObiO for <pam@magicalstrings.com>;
+	Wed, 30 May 2018 07:57:22 +0700 (WIB)
+Received: from localhost (localhost [IPv6:::1])
+	by mx.dkn.go.id (Postfix) with ESMTP id B82953A225FD
+	for <pam@magicalstrings.com>; Wed, 30 May 2018 07:57:21 +0700 (WIB)
+DKIM-Filter: OpenDKIM Filter v2.10.3 mx.dkn.go.id B82953A225FD
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=dkn.go.id;
+	s=72D24242-BF9D-11E6-ACB4-5832D09BEAE0; t=1527641841;
+	bh=bA3i6aqeetWJP4Q0LHYjyv+loqMN3O1PZYlXPfX3cJM=;
+	h=From:Mime-Version:Message-Id:Date:To;
+	b=Q0DT0UqYS65BikNxPPtuFNRdZHai4PeyF+gil4XdAmOkMI8STnCcg8bdHIYwp8pR0
+	 bzg2kjHtklZYNt8KXXZtxGgFYe4wiEK88c/uVCB9vRJ3MS+jS+bzUjkSzizNT0eHLY
+	 kRWf0YgYJyz2fzY4/eTNQU4jT911Urxpo690TMNN240tXcdeRqxhopitd6CfdNI0G7
+	 og74XhAXpo7I+BMo6tJhBB7XhVJWP1CgQlSj2WcVk5mH1A1GJrVpFtn6WyUGZNb6XN
+	 sAAcIq+zUWDs+1VXA3tUwMu50mfwdmzSGI3ILDDvOSRZ2RIopW1ror/js+qnWX59Sf
+	 mHRIY/qhnVtZA==
+X-Virus-Scanned: amavisd-new at mx.dkn.go.id
+Received: from mx.dkn.go.id ([IPv6:::1])
+	by localhost (mx.dkn.go.id [IPv6:::1]) (amavisd-new, port 10026)
+	with ESMTP id hX1eoDUKltlD for <pam@magicalstrings.com>;
+	Wed, 30 May 2018 07:57:21 +0700 (WIB)
+Received: from [127.0.0.1] (unknown [37.233.18.99])
+	by mx.dkn.go.id (Postfix) with ESMTPSA id BF7DB3A22679
+	for <pam@magicalstrings.com>; Wed, 30 May 2018 07:57:19 +0700 (WIB)
+From: reno@dkn.go.id
+Content-Transfer-Encoding: base64
+Content-Type: text/plain; charset=UTF-8
+Mime-Version: 1.0 (1.0)
+Message-Id: <77395ED3-9FE0-B038-AE40-507F2E99855D@dkn.go.id>
+Date: Wed, 30 May 2018 02:57:22 +0200
+To: pam@magicalstrings.com
+X-Mailer: iPhone Mail (13E238)
+X-Spam-Status: Yes, score=12.4
+X-Spam-Score: 124
+X-Spam-Bar: ++++++++++++
+X-Spam-Report: Spam detection software, running on the system "biz164.inmotionhosting.com",
+ has identified this incoming email as possible spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ 
+ Content preview:  It’s so difficult to keep in secret all my dreams. Today
+    I decided to tell you everything. You don’t know me but I live in your
+   neighborhood and… I’m in love with you. You can check my profile. [...]
+    
+ 
+ Content analysis details:   (12.4 points, 5.0 required)
+ 
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was blocked.
+                             See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: senaryolarim.com]
+  2.7 RCVD_IN_PSBL           RBL: Received via a relay in PSBL
+                             [103.80.77.4 listed in psbl.surriel.com]
+  6.2 RCVD_IN_MSPIKE_L5      RBL: Very bad reputation (-5)
+                             [103.80.77.4 listed in bl.mailspike.net]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.8 BAYES_50               BODY: Bayes spam probability is 40 to 60%
+                             [score: 0.4973]
+  1.9 RAZOR2_CF_RANGE_51_100 Razor2 gives confidence level above 50%
+                             [cf: 100]
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily valid
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from author's
+                             domain
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.9 RAZOR2_CHECK           Listed in Razor2 (http://razor.sf.net/)
+  0.0 RCVD_IN_MSPIKE_BL      Mailspike blacklisted
+X-Spam-Flag: YES
+Subject: ***SPAM***  Melinda
+
+SXTigJlzIHNvIGRpZmZpY3VsdCB0byBrZWVwIGluIHNlY3JldCBhbGwgbXkgZHJlYW1zLg0KVG9k
+YXkgSSBkZWNpZGVkIHRvIHRlbGwgeW91IGV2ZXJ5dGhpbmcuDQpZb3UgZG9u4oCZdCBrbm93IG1l
+IGJ1dCBJIGxpdmUgaW4geW91ciBuZWlnaGJvcmhvb2QgYW5k4oCmDQpJ4oCZbSBpbiBsb3ZlIHdp
+dGggeW91Lg0KWW91IGNhbiBjaGVjayBteSBwcm9maWxlLg0KDQpodHRwOi8vd3d3LnNlbmFyeW9s
+YXJpbS5jb20vd3A5NWZzLzJubzdpMWdiLnBocD9jR0Z0UUcxaFoybGpZV3h6ZEhKcGJtZHpMbU52
+YlE9PQ0K

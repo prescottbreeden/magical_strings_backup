@@ -1,0 +1,16 @@
+proc /proc proc rw,relatime,gid=10,hidepid=2 0 0
+sysfs /sys sysfs rw,relatime 0 0
+devtmpfs /dev devtmpfs rw,relatime,size=65912244k,nr_inodes=16478061,mode=755 0 0
+devpts /dev/pts devpts rw,relatime,gid=5,mode=620,ptmxmode=000 0 0
+tmpfs /dev/shm tmpfs rw,relatime 0 0
+/dev/sda3 / ext4 rw,noatime,barrier=1,data=ordered,jqfmt=vfsv0,usrjquota=quota.user 0 0
+/proc/bus/usb /proc/bus/usb usbfs rw,relatime 0 0
+/dev/sda1 /boot ext4 rw,relatime,barrier=1,data=ordered 0 0
+/dev/sda3 /tmp/mod_security ext4 rw,nosuid,noexec,noatime,barrier=1,data=ordered,jqfmt=vfsv0,usrjquota=quota.user 0 0
+tmpfs /var/mod_security/secdata tmpfs rw,nosuid,noexec,relatime 0 0
+none /proc/sys/fs/binfmt_misc binfmt_misc rw,relatime 0 0
+/dev/loop0 /tmp ext3 rw,nosuid,noexec,relatime,errors=continue,barrier=1,data=ordered 0 0
+/dev/loop0 /var/tmp ext3 rw,nosuid,noexec,relatime,errors=continue,barrier=1,data=ordered 0 0
+sunrpc /var/lib/nfs/rpc_pipefs rpc_pipefs rw,relatime 0 0
+10.128.2.12:/mnt/m4/biz164/ /bkmnt nfs rw,noexec,relatime,vers=3,rsize=1048576,wsize=1048576,namlen=255,hard,proto=tcp,timeo=600,retrans=2,sec=sys,mountaddr=10.128.2.12,mountvers=3,mountport=47736,mountproto=udp,local_lock=none,addr=10.128.2.12 0 0
+10.128.2.12:/mnt/m4/biz164/ib_backup/ /bkmnt/ib_backup nfs rw,noexec,relatime,vers=3,rsize=1048576,wsize=1048576,namlen=255,hard,proto=tcp,timeo=600,retrans=2,sec=sys,mountproto=,local_lock=none,addr=10.128.2.12 0 0

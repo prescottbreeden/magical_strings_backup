@@ -1,0 +1,2082 @@
+Return-Path: <bo-2K1U-15HZM-7KRNCQ-C0C4D@adm-email.com>
+Delivered-To: pam@magicalstrings.com
+Received: from biz164.inmotionhosting.com
+	by biz164.inmotionhosting.com (Dovecot) with LMTP id pSNtEJBn51nnGgAAtEtsOg
+	for <pam@magicalstrings.com>; Wed, 18 Oct 2017 07:39:12 -0700
+Return-path: <bo-2K1U-15HZM-7KRNCQ-C0C4D@adm-email.com>
+Envelope-to: pam@magicalstrings.com
+Delivery-date: Wed, 18 Oct 2017 07:39:12 -0700
+Received: from worldata8.mta.dotmailer.com ([94.143.107.40]:34637)
+	by biz164.inmotionhosting.com with esmtps (TLSv1.2:ECDHE-RSA-AES256-GCM-SHA384:256)
+	(Exim 4.89)
+	(envelope-from <bo-2K1U-15HZM-7KRNCQ-C0C4D@adm-email.com>)
+	id 1e4pUr-0002Ya-0X
+	for pam@magicalstrings.com; Wed, 18 Oct 2017 07:39:12 -0700
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; s=dkim1024; d=adm-email.com;
+ h=From:Date:Subject:Message-Id:To:List-Unsubscribe:Reply-To:MIME-Version:
+ Content-Type; i=Staples@adm-email.com;
+ bh=5r1tVMQacVNMQdZxzbVbgNd42Q827zvsoZQpR3uA27c=;
+ b=goldvX3wce/bAH5DLk0pTa3EQjCuG8aalqOwDZPHTs5pPvko5o84qfb3dmsQvyHEmDzq6tI/GxeU
+   sQA7jmGVPHuOm9bjl/A1ZT9wC7OWlfGO/TXmvgm70oH8onWaJzof/X1G06Cl+wDZug3tXjRhH5Mv
+   G9vDGNULe2bWEqMEyOg=
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; s=dkim1024; d=dkim.dotmailer.com;
+ h=From:Date:Subject:Message-Id:To:List-Unsubscribe:Reply-To:MIME-Version:
+ Content-Type;
+ bh=5r1tVMQacVNMQdZxzbVbgNd42Q827zvsoZQpR3uA27c=;
+ b=rWX73GXpmCSSTxXyRlFSNtSh8drCU7ioTWkT5BvU90yKbiG8yj5pPsFfDeQksVVNJ5vjtCy1nukW
+   +OH7aSZ6WFQIW7vX8RYEYDOWj2dRo1ZHxI9VEVhVRKBB3pUCv7ZXI8MVu7md11nHRKKtR2N7yDow
+   6LPHeKxUqE+3ocKCTgc=
+From: Staples <Staples@adm-email.com>
+Date: Wed, 18 Oct 2017 09:38:59 -0500
+Message-Id: <15HZM.2D7KRNCQ31.20171018143859570@adm-email.com>
+To: pam@magicalstrings.com
+X-Mailer: dmDroid
+X-CampaignID: EGEFQ
+X-dmid: 2K1U-15HZM-7KRNCQ
+Feedback-ID: 2K1U:15HZM:20171018:DDGESP
+List-Unsubscribe: 
+ <mailto:listunsubscribe-2K1U-15HZM-2D7KRNCQ31@adm-email.com>,
+ <http://adm-email.com/2K1U-15HZM-2D7KRNCQ31/uauto.aspx>
+Reply-To: Staples <re-2K1U-15HZM-7KRNCQ-C0C4D@adm-email.com>
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="=-WX0iHTzAWUIf2LjL6Lnrbg=="
+X-Spam-Status: Yes, score=7.0
+X-Spam-Score: 70
+X-Spam-Bar: +++++++
+X-Spam-Report: Spam detection software, running on the system "biz164.inmotionhosting.com",
+ has identified this incoming email as possible spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ 
+ Content preview:  --- Want to unsubscribe? http://adm-email.com/2K1U-15HZM-2D7KRNCQ31/uns.aspx
+    Hurry! Be the 1st to own the newest label maker on the market Staples | Email
+    [...] 
+ 
+ Content analysis details:   (7.0 points, 5.0 required)
+ 
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was blocked.
+                             See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: hpinstantink.com]
+  4.4 RCVD_IN_BRBL_LASTEXT   RBL: No description available.
+                             [94.143.107.40 listed in bb.barracudacentral.org]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.8 MPART_ALT_DIFF         BODY: HTML and text parts are different
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.4 MIME_HTML_MOSTLY       BODY: Multipart message mostly text/html MIME
+ -1.9 BAYES_00               BODY: Bayes spam probability is 0 to 1%
+                             [score: 0.0000]
+  0.5 RAZOR2_CF_RANGE_51_100 Razor2 gives confidence level above 50%
+                             [cf: 100]
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from author's
+                             domain
+  1.9 RAZOR2_CF_RANGE_E8_51_100 Razor2 gives engine 8 confidence level
+                             above 50%
+                             [cf: 100]
+  0.9 RAZOR2_CHECK           Listed in Razor2 (http://razor.sf.net/)
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily valid
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+X-Spam-Flag: YES
+Subject: ***SPAM***  Hurry! Be the 1st to own the newest label maker on the market
+
+--=-WX0iHTzAWUIf2LjL6Lnrbg==
+Content-Type: text/plain; charset=utf-8
+
+
+
+---
+Want to unsubscribe? http://adm-email.com/2K1U-15HZM-2D7KRNCQ31/uns.aspx
+--=-WX0iHTzAWUIf2LjL6Lnrbg==
+Content-Type: text/html; charset=utf-8
+Content-Id: <SAWDELIXM2U4.8QTQSI7RHM9U2@EU1DME-DROID07P>
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http:/=
+/www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns=3D"http=
+://www.w3.org/1999/xhtml"><head>
+<meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge">
+<title>Hurry! Be the 1st to own the newest label maker on the market</=
+title><style type=3D"text/css" id=3D"editor_required_block" ee-render=3D=
+"block">body,html{Margin:0!important;padding:0!important;width:100%!im=
+portant}
+*{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}
+div[style*=3D"margin: 16px 0"]{margin:0!important}
+table,td{mso-table-lspace:0!important;mso-table-rspace:0!important}
+table{border-spacing:0!important;border-collapse:collapse!important;ta=
+ble-layout:auto!important}
+img{-ms-interpolation-mode:bicubic}
+.yshortcuts a{border-bottom:none!important}
+.mobile-link--footer a,a[x-apple-data-detectors]{color:inherit!importa=
+nt;text-decoration:underline!important}
+.email-width,.row{Margin:0 auto!important}
+img.ee_noresponsiveresize{max-width:100%}
+@media only screen and (min-device-width:768px) and (max-device-width:=
+1024px){.stack-column{Margin:0 -2px}
+}
+@media screen and (max-width:504px){.row .stack-column{display:block!i=
+mportant;width:100%!important;max-width:100%!important;direction:ltr!i=
+mportant;min-width:100%!important}
+body .ee-show-on-desktop{display:none!important}
+table .ee-hide-on-desktop{display:table;max-height:none;visibility:vis=
+ible;width:100%!important}
+}
+@media only screen and (min-width:505px){.row .stack-column{min-width:=
+0!important}
+.ee-show-on-desktop{display:block!important}
+table.ee-show-on-desktop{display:table!important}
+.ee_columns.ee-hide-on-desktop,.ee_element.ee-hide-on-desktop{display:=
+none!important}
+}
+[owa] .no-stack-column,[owa] .stack-column{Margin:0 -2px;float:left}
+.stack-column{min-width:0!important}
+body .stack-column{min-width:100%!important}
+[owa] .ee-show-on-desktop{display:block!important}
+[owa] table.ee-show-on-desktop{display:table!important}
+.ee-hide-on-desktop{visibility:hidden;width:0!important;max-height:0;d=
+isplay:block}
+body .ee-hide-on-desktop{visibility:visible;width:100%!important;displ=
+ay:table;max-height:none}</style><!--[if mso]>
+       <style>
+           * {font-family: sans-serif !important;}
+           .button-wrapper { padding: 12px 16px 12px 16px; }
+       </style>
+   <![endif]--><!--[if gte mso 9]>
+   <style type=3D"text/css">
+       .stack-column{
+           width:100%!important;
+       }
+       .no-stack-column{
+           width:100%!important;
+       }
+   </style>
+   <![endif]--><!--[if mso]>
+       <style>
+       .no-stack-column{
+           width:100%!important;
+       }
+       .stack-column{
+          width:100%!important;
+       }
+       </style>
+   <![endif]--><!--[if mso]>
+       <style>
+       .banner{
+           width:900 !important;
+       }
+       </style>
+   <![endif]--><style ee-render=3D"block">
+.button-td:hover .button-a { transition: all 100ms ease-in; background=
+: rgba(255, 255, 255, 0.2) !important; }
+</style><style type=3D"text/css" ee-render=3D"block">
+/* Vendor Prefixes CSS */
+html{ -webkit-text-size-adjust:none; -ms-text-size-adjust:none; font-s=
+ize:0 !important; line-height: 0px; }
+td { text-size-adjust:none !important; -webkit-text-size-adjust:none !=
+important; -ms-text-size-adjust:none !important; }
+</style><style type=3D"text/css" ee-render=3D"block">
+td, div{ font-family:Arial, Verdana, sans-serif; }
+a{ text-decoration:none !important; }
+a:link, a:visited, a:active, a:hover{ color:#000000; }
+a.underline{ text-decoration:underline !important; }
+a.underline:hover{ text-decoration:underline !important; }
+span.noWrap{ white-space:nowrap; }
+.ExternalClass *{ line-height:100%; }
+.addr a{ color:#4d4d4d !important; }
+table { font-size:0 !important; line-height: 0px; }
+@media screen and (max-width:640px){
+.w320{ width:320px !important; }
+.w300{ width:300px !important; }
+.w290{ width:290px !important; }
+.w288{ width:288px !important; }
+.w280{ width:280px !important; }
+.w270{ width:270px !important; }
+.w220{ width:220px !important; }
+.w190{ width:190px !important; }
+.w65{ width:65px !important; }
+.w25{ width:25px !important; }
+.w20{ width:20px !important; }
+.w16{ width:16px !important; }
+.w8{ width:8px !important; }
+.hei94{ height:94px !important; }
+.hei35{ height:35px !important; }
+.hei33{ height:33px !important; }
+.hei25{ height:25px !important; }
+.hei20{ height:20px !important; }
+.hei8{ height:8px !important; }
+.hei4{ height:4px !important; }
+.hei2{ height:2px !important; }
+.i100{ width:100% !important; height:auto !important;}
+.c50pc100pc{ display:block !important; width:100% !important; height:a=
+uto !important; float:left !important; }
+.f12{ font-size:12px !important; line-height:15px !important; }
+.remove{ display:none !important; }
+.underline{ text-decoration:underline !important; }
+.appBanner{ background-image:url('http://media.staples.com/email/templ=
+ates/usso/a1/mobile_app_banner.gif') !important; }
+.padL24{ padding-left:24px !important; }
+.padB7{ padding-bottom:7px !important; }
+.showFoTABLE{ display:block !important; font-size:100% !important; lin=
+e-height:100% !important; height:auto !important; }
+.showFoTD{ display:block !important; font-size:15px !important; line-h=
+eight:44px !important; }
+.dkGray{ color:#666666 !important; }
+.bgGray{ background-color:#e6e7e8 !important; }
+.borderGray{ background-color:#e3e3e3 !important; }
+.addr a{ color:#4d4d4d !important; }
+.left { text-align:left !important; }
+.right { text-align:right !important; }
+.center { text-align:center !important; }
+}
+</style><style type=3D"text/css" ee-render=3D"block">
+/* Vendor Prefixes and CSS not supported within gmail */
+@media screen and (max-width:640px){
+.flexbox {display: -webkit-box !important; display: -webkit-flex !impo=
+rtant; display: -moz-box !important; display: -ms-flexbox !important; =
+display: flex !important; -webkit-flex-flow: row wrap !important; -moz=
+-flex-flow: row wrap !important; -ms-flex-flow: row wrap !important; f=
+lex-flow: row wrap !important; }
+.order1 {width: 100% !important; -webkit-order: 1 !important; order: 1=
+ !important; float: left !important;}
+.order2 {width: 100% !important; -webkit-order: 2 !important; order: 2=
+ !important; float: left !important;}
+.order3 {width: 100% !important; -webkit-order: 3 !important; order: 3=
+ !important; float: left !important;}
+}
+</style><style type=3D"text/css" ee-render=3D"block">
+          @media screen and (max-width:640px){
+            .removebg { background:none !important; }
+            .heiauto { height:auto !important; }
+            .bg_ececec { background: #ececec !important; }
+            .text_444444 { color: #444444 !important; }
+          }
+        </style><style type=3D"text/css" ee-render=3D"block">
+@media screen and (max-width:640px){
+  *[class].headline_printfree { background-image: url('http://media.st=
+aples.com/email/63705/headline_printfree_blue.gif' ) !important; backg=
+round: no-repeat; height: 161px !important;}
+}
+                            </style><style type=3D"text/css" ee-render=
+=3D"block">
+                @media screen and (max-width:640px){
+                  *[class].headline_perfectprinter { background-image:=
+ url('http://media.staples.com/email/63705/headline_pickyourperfectpri=
+nter_m.gif' ) !important; background: no-repeat; height: 59px !importa=
+nt;}
+                }
+              </style><style type=3D"text/css" ee-render=3D"block">
+/* Vendor Prefixes CSS */
+html{ -webkit-text-size-adjust:none; -ms-text-size-adjust:none; font-s=
+ize:0 !important; line-height:0 !important; }
+td { text-size-adjust:none !important; -webkit-text-size-adjust:none !=
+important; -ms-text-size-adjust:none !important; }
+</style><style type=3D"text/css" ee-render=3D"block">
+td, div{ font-family:Arial, Verdana, sans-serif; }
+a{ text-decoration:none !important; }
+a:link, a:visited, a:active, a:hover{ color:#000000; }
+a.underline{ text-decoration:underline !important; }
+a.underline:hover{ text-decoration:underline !important; }
+span.noWrap{ white-space:nowrap; }
+.ExternalClass *{ line-height:100%; }
+.addr a{ color:#4d4d4d !important; }
+table { font-size:0 !important; line-height:0 !important; }
+@media screen and (max-width:640px){
+.w320{ width:320px !important; }
+.w300{ width:300px !important; }
+.w290{ width:290px !important; }
+.w288{ width:288px !important; }
+.w280{ width:280px !important; }
+.w270{ width:270px !important; }
+.w220{ width:220px !important; }
+.w190{ width:190px !important; }
+.w65{ width:65px !important; }
+.w25{ width:25px !important; }
+.w20{ width:20px !important; }
+.w16{ width:16px !important; }
+.w8{ width:8px !important; }
+.hei94{ height:94px !important; }
+.hei35{ height:35px !important; }
+.hei33{ height:33px !important; }
+.hei25{ height:25px !important; }
+.hei20{ height:20px !important; }
+.hei8{ height:8px !important; }
+.hei4{ height:4px !important; }
+.hei2{ height:2px !important; }
+.i100{ width:100% !important; height:auto !important;}
+.c50pc100pc{ display:block !important; width:100% !important; height:a=
+uto !important; float:left !important; }
+.f12{ font-size:12px !important; line-height:15px !important; }
+.remove{ display:none !important; }
+.underline{ text-decoration:underline !important; }
+.appBanner{ background-image:url('http://media.staples.com/email/templ=
+ates/usso/a1/mobile_app_banner.gif') !important; }
+.padL24{ padding-left:24px !important; }
+.padB7{ padding-bottom:7px !important; }
+.showFoTABLE{ display:block !important; font-size:100% !important; lin=
+e-height:100% !important; height:auto !important; }
+.showFoTD{ display:block !important; font-size:15px !important; line-h=
+eight:44px !important; }
+.dkGray{ color:#666666 !important; }
+.bgGray{ background-color:#e6e7e8 !important; }
+.borderGray{ background-color:#e3e3e3 !important; }
+.addr a{ color:#4d4d4d !important; }
+.left { text-align:left !important; }
+.right { text-align:right !important; }
+.center { text-align:center !important; }
+}
+</style><style type=3D"text/css" ee-render=3D"block">
+/* Vendor Prefixes and CSS not supported within gmail */
+@media screen and (max-width:640px){
+.flexbox {display: -webkit-box !important; display: -webkit-flex !impo=
+rtant; display: -moz-box !important; display: -ms-flexbox !important; =
+display: flex !important; -webkit-flex-flow: row wrap !important; -moz=
+-flex-flow: row wrap !important; -ms-flex-flow: row wrap !important; f=
+lex-flow: row wrap !important; }
+.order1 {width: 100% !important; -webkit-order: 1 !important; order: 1=
+ !important; float: left !important;}
+.order2 {width: 100% !important; -webkit-order: 2 !important; order: 2=
+ !important; float: left !important;}
+.order3 {width: 100% !important; -webkit-order: 3 !important; order: 3=
+ !important; float: left !important;}
+}
+</style><style type=3D"text/css" ee-render=3D"block">
+          @media screen and (max-width:640px){
+            .removebg { background:none !important; }
+            .heiauto { height:auto !important; }
+            .bg_ececec { background: #ececec !important; }
+            .text_444444 { color: #444444 !important; }
+          }
+        </style><style type=3D"text/css" ee-render=3D"block">
+@media screen and (max-width:640px){
+  *[class].headline_printfree { background-image: url('http://media.st=
+aples.com/email/63705/headline_printfree_blue.gif' ) !important; backg=
+round: no-repeat; height: 161px !important;}
+}
+          </style><style type=3D"text/css" ee-render=3D"block">
+                @media screen and (max-width:640px){
+*[class].headline_perfectprinter { background-image: url('http://media=
+.staples.com/email/63705/headline_pickyourperfectprinter_m.gif' ) !imp=
+ortant; background: no-repeat; height: 59px !important;}
+                }
+              </style><style type=3D"text/css" ee-render=3D"block">
+/* Vendor Prefixes CSS */
+html{ -webkit-text-size-adjust:none; -ms-text-size-adjust:none; font-s=
+ize:0 !important; line-height:0 !important; }
+td { text-size-adjust:none !important; -webkit-text-size-adjust:none !=
+important; -ms-text-size-adjust:none !important; }
+</style><style type=3D"text/css" ee-render=3D"block">
+td, div{ font-family:Arial, Verdana, sans-serif; }
+a{ text-decoration:none !important; }
+a:link, a:visited, a:active, a:hover{ color:#000000; }
+a.underline{ text-decoration:underline !important; }
+a.underline:hover{ text-decoration:underline !important; }
+span.noWrap{ white-space:nowrap; }
+.ExternalClass *{ line-height:100%; }
+.addr a{ color:#4d4d4d !important; }
+table { font-size:0 !important; line-height:0 !important; }
+@media screen and (max-width:640px){
+.w320{ width:320px !important; }
+.w300{ width:300px !important; }
+.w290{ width:290px !important; }
+.w288{ width:288px !important; }
+.w280{ width:280px !important; }
+.w270{ width:270px !important; }
+.w220{ width:220px !important; }
+.w190{ width:190px !important; }
+.w65{ width:65px !important; }
+.w25{ width:25px !important; }
+.w20{ width:20px !important; }
+.w16{ width:16px !important; }
+.w8{ width:8px !important; }
+.hei94{ height:94px !important; }
+.hei35{ height:35px !important; }
+.hei33{ height:33px !important; }
+.hei25{ height:25px !important; }
+.hei20{ height:20px !important; }
+.hei8{ height:8px !important; }
+.hei4{ height:4px !important; }
+.hei2{ height:2px !important; }
+.i100{ width:100% !important; height:auto !important;}
+.c50pc100pc{ display:block !important; width:100% !important; height:a=
+uto !important; float:left !important; }
+.f12{ font-size:12px !important; line-height:15px !important; }
+.remove{ display:none !important; }
+.underline{ text-decoration:underline !important; }
+.appBanner{ background-image:url('http://media.staples.com/email/templ=
+ates/usso/a1/mobile_app_banner.gif') !important; }
+.padL24{ padding-left:24px !important; }
+.padB7{ padding-bottom:7px !important; }
+.showFoTABLE{ display:block !important; font-size:100% !important; lin=
+e-height:100% !important; height:auto !important; }
+.showFoTD{ display:block !important; font-size:15px !important; line-h=
+eight:44px !important; }
+.dkGray{ color:#666666 !important; }
+.bgGray{ background-color:#e6e7e8 !important; }
+.borderGray{ background-color:#e3e3e3 !important; }
+.addr a{ color:#4d4d4d !important; }
+.left { text-align:left !important; }
+.right { text-align:right !important; }
+.center { text-align:center !important; }
+}
+</style><style type=3D"text/css" ee-render=3D"block">
+/* Vendor Prefixes and CSS not supported within gmail */
+@media screen and (max-width:640px){
+.flexbox {display: -webkit-box !important; display: -webkit-flex !impo=
+rtant; display: -moz-box !important; display: -ms-flexbox !important; =
+display: flex !important; -webkit-flex-flow: row wrap !important; -moz=
+-flex-flow: row wrap !important; -ms-flex-flow: row wrap !important; f=
+lex-flow: row wrap !important; }
+.order1 {width: 100% !important; -webkit-order: 1 !important; order: 1=
+ !important; float: left !important;}
+.order2 {width: 100% !important; -webkit-order: 2 !important; order: 2=
+ !important; float: left !important;}
+.order3 {width: 100% !important; -webkit-order: 3 !important; order: 3=
+ !important; float: left !important;}
+}
+</style><style type=3D"text/css" ee-render=3D"block">
+          @media screen and (max-width:640px){
+            .removebg { background:none !important; }
+            .heiauto { height:auto !important; }
+            .bg_ececec { background: #ececec !important; }
+            .text_444444 { color: #444444 !important; }
+          }
+        </style><style type=3D"text/css" ee-render=3D"block">
+@media screen and (max-width:640px){
+  *[class].headline_printfree { background-image: url('http://media.st=
+aples.com/email/63705/headline_printfree_blue.gif' ) !important; backg=
+round: no-repeat; height: 161px !important;}
+}
+          </style><style type=3D"text/css" ee-render=3D"block">
+                @media screen and (max-width:640px){
+*[class].headline_perfectprinter { background-image: url('http://media=
+.staples.com/email/63705/headline_pickyourperfectprinter_m.gif' ) !imp=
+ortant; background: no-repeat; height: 59px !important;}
+                }
+              </style><meta http-equiv=3D"content-type" content=3D"tex=
+t/html; charset=3Dutf-8"><meta http-equiv=3D"X-UA-Compatible" content=3D=
+"IE=3Dedge"></head>   <body style=3D"font-family: Arial, sans-serif"> =
+             <!-- Easy Editor -->
+<table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" height=3D"100%=
+" width=3D"100%" class=3D"border-collapse ee_responsive_campaign" styl=
+e=3D"border-collapse: collapse;table-layout: auto" ee-show-font-styles=
+=3D"" ee-template-version=3D"2.3" ee-mobile-first=3D"true">
+  <tbody>
+    <tr>
+      <td valign=3D"top" style=3D"font-family: Arial, sans-serif">
+        <center class=3D"width-100" style=3D"width: 100%">
+          <table cellspacing=3D"0" cellpadding=3D"0" border=3D"0" alig=
+n=3D"center" width=3D"100%" class=3D"email-body" style=3D"min-width: 1=
+00%;background-color: #ffffff;table-layout: auto" bgcolor=3D"#ffffff">
+            <tbody>
+              <tr>
+                <td class=3D"email-full-width margin-0-auto" style=3D"=
+font-family: Arial, sans-serif;margin: 0 auto;width: 100%">
+                  <!--[if (gte mso 9)|(IE)]><table cellspacing=3D"0" c=
+ellpadding=3D"0" border=3D"0" style=3D"width:691px;" width=3D"691" ali=
+gn=3D"center"><tr><td><![endif]-->
+                  <table cellspacing=3D"0" cellpadding=3D"0" border=3D=
+"0" align=3D"center" width=3D"100%" class=3D"email-width" style=3D"max=
+-width: 660px;table-layout: auto">
+                    <tbody>
+                      <tr>
+                        <td style=3D"font-family: Arial, sans-serif">
+                          <table cellpadding=3D"0" cellspacing=3D"0" b=
+order=3D"0" valign=3D"top" width=3D"100%" style=3D"table-layout: auto;=
+">
+                            <tbody>
+                              <tr>
+                                <td class=3D"row-container" style=3D"f=
+ont-family: Arial, sans-serif;padding: 0;text-align: center;height: 10=
+0%;vertical-align: top;width: 100%">
+                                  <!--[if mso]><table border=3D"0" cel=
+lspacing=3D"0" cellpadding=3D"0" align=3D"center" style=3D"width:691px=
+;" width=3D"691"><tr><td align=3D"center" valign=3D"top" style=3D"widt=
+h:691px;" width=3D"691"><![endif]-->=20
+                                  <div class=3D"ee_dropzone"></div>
+                                  <div class=3D"ee_dropzone">
+                                  	<table cellpadding=3D"0" cellspacin=
+g=3D"0" class=3D"col-font-reset ee_element ee_textelement" width=3D"10=
+0%" ee-type=3D"element" style=3D"font-size: 14px;text-align: left;min-=
+width: 100%;table-layout: auto" data-title=3D"Text">
+                                      <tbody>
+                                        <tr>
+                                          <td valign=3D"top" align=3D"=
+left" class=3D"element-pad element-bord root-element-pad" style=3D"fon=
+t-family: Arial, sans-serif;padding: 10px 20px;border-width: 0">
+                                            <div class=3D"ee_editable"=
+ style=3D"color: #333333;font-size: 14px;line-height: 22px">
+<!--Shell Version: S&O A.1-->
+
+
+<title>Staples | Email</title>
+<meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=
+=3D1, maximum-scale=3D2.5">
+<meta name=3D"format-detection" content=3D"telephone=3Dno">
+
+
+
+
+
+<!--[if gte mso 15]>
+<style type=3D"text/css" media=3D"all">
+tr { font-size:1px; mso-line-height-alt:0; mso-margin-top-alt:1px; }
+</style>
+<![endif]-->=20
+<table width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" style=3D"tab=
+le-layout: auto;">
+<tbody><tr>
+	<td align=3D"center" bgcolor=3D"#ffffff" style=3D"font-family: Arial,=
+ sans-serif;word-wrap: break-word;word-break: break-word;color: #33333=
+3;font-size: 14px;line-height: 22px"><table width=3D"640" class=3D"w32=
+0" cellpadding=3D"0" cellspacing=3D"0" bgcolor=3D"#ffffff" style=3D"ta=
+ble-layout: auto;">
+	<tbody><tr>
+		<td align=3D"center" style=3D"font-family: Arial, sans-serif;word-wr=
+ap: break-word;word-break: break-word;color: #333333;font-size: 14px;l=
+ine-height: 22px"><table width=3D"590" class=3D"w320" cellpadding=3D"0=
+" cellspacing=3D"0" style=3D"table-layout: auto;">=20
+		<!-- PRE-HEADER / VIEW IN BROWSER -->
+		<tbody><tr>
+			<td colspan=3D"2" style=3D"font-family: Arial, sans-serif;word-wrap=
+: break-word;word-break: break-word;color: #333333;font-size: 14px;lin=
+e-height: 22px"><img class=3D"w320 hei4  vedpw587 ee_smallimage" style=
+=3D"display: block; width: 0.170358%; height: auto;" src=3D"http://med=
+ia.staples.com/email/templates/usso/a1/4f49925e531f5e92bbf187fb03fdd93=
+3.gif" border=3D"0" width=3D"1"></td>
+		</tr>
+		<tr>
+			<td width=3D"490" class=3D"w220" height=3D"20" align=3D"left" valig=
+n=3D"middle" style=3D"font-family: Arial, sans-serif;word-wrap: break-=
+word;word-break: break-word;color: #333333;font-size: 14px;line-height=
+: 14px"><a class=3D"dkGray" href=3D"http://adm-email.com/2K1U-15HZM-7K=
+RNCQ-NERA6-1/c.aspx" style=3D"word-wrap: break-word;word-break: break-=
+word;font-family: Arial, Verdana, sans-serif;font-size: 11px;line-heig=
+ht: 14px;color: #999999;text-decoration: none">Get 15 Free prints ever=
+y month.</a></td> <td width=3D"100" height=3D"20" align=3D"right" vali=
+gn=3D"middle" style=3D"font-family: Arial, sans-serif;word-wrap: break=
+-word;word-break: break-word;color: #333333;font-size: 14px;line-heigh=
+t: 14px"><!-- <a class=3D"underline dkGray" href=3D"#" style=3D"font-f=
+amily:Arial, Verdana, sans-serif; font-size:11px; line-height:14px; co=
+lor:#999999;">View images</a> --></td>
+		</tr>
+		<!-- APP BANNER MOBILE 320-->
+		<tr>
+			<td colspan=3D"2" style=3D"font-family: Arial, sans-serif;word-wrap=
+: break-word;word-break: break-word;color: #333333;font-size: 14px;lin=
+e-height: 22px"><img class=3D"w320 hei4  vedpw587 ee_smallimage" style=
+=3D"display: block; width: 0.170358%; height: auto;" src=3D"http://med=
+ia.staples.com/email/templates/usso/a1/4f49925e531f5e92bbf187fb03fdd93=
+3.gif" border=3D"0" width=3D"1"></td>
+		</tr>
+		<tr>
+			<td colspan=3D"2" class=3D"appBanner" style=3D"font-family: Arial, =
+sans-serif;word-wrap: break-word;word-break: break-word;color: #333333=
+;font-size: 14px;line-height: 22px"><a href=3D"http://adm-email.com/2K=
+1U-15HZM-7KRNCQ-NERA7-1/c.aspx" style=3D"word-wrap: break-word;word-br=
+eak: break-word">
+			<img class=3D"hei35  vedpw587" style=3D"display: block; width: 45.9=
+966%; height: auto;" src=3D"http://media.staples.com/email/templates/u=
+sso/a1/4f49925e531f5e92bbf187fb03fdd933.gif" border=3D"0" alt=3D"Downl=
+oad our mobile App." width=3D"270">
+			</a></td>
+		</tr>
+		<tr>
+			<td colspan=3D"2" style=3D"font-family: Arial, sans-serif;word-wrap=
+: break-word;word-break: break-word;color: #333333;font-size: 14px;lin=
+e-height: 22px"><img class=3D"w320 hei4  vedpw587 ee_smallimage" style=
+=3D"display: block; width: 0.170358%; height: auto;" src=3D"http://med=
+ia.staples.com/email/templates/usso/a1/4f49925e531f5e92bbf187fb03fdd93=
+3.gif" border=3D"0" width=3D"1"></td>
+		</tr>
+		</tbody></table>
+		<table width=3D"640" class=3D"w320" cellpadding=3D"0" cellspacing=3D=
+"0" style=3D"table-layout: auto;">
+		<tbody><tr class=3D"flexbox">
+			<td width=3D"320" class=3D"order1" align=3D"left" valign=3D"bottom"=
+ style=3D"font-family: Arial, sans-serif;word-wrap: break-word;word-br=
+eak: break-word;color: #333333;font-size: 14px;line-height: 22px"><tab=
+le width=3D"320" cellpadding=3D"0" cellspacing=3D"0" style=3D"table-la=
+yout: auto;">
+			<tbody><tr>
+				<td width=3D"25" class=3D"remove" style=3D"font-family: Arial, san=
+s-serif;word-wrap: break-word;word-break: break-word;color: #333333;fo=
+nt-size: 14px;line-height: 22px"><img style=3D"display: block; width: =
+100%; height: auto;" src=3D"http://media.staples.com/email/templates/u=
+sso/a1/4f49925e531f5e92bbf187fb03fdd933.gif" class=3D"vedpw24 ee_small=
+image" border=3D"0" width=3D"24"></td> <td align=3D"center" style=3D"f=
+ont-family: Arial, sans-serif;word-wrap: break-word;word-break: break-=
+word;color: #333333;font-size: 14px;line-height: 22px"><!-- STAPLES lo=
+go start -->=20
+				<table cellpadding=3D"0" cellspacing=3D"0" style=3D"table-layout: =
+auto;">
+				<tbody><tr>
+					<td style=3D"font-family: Arial, sans-serif;word-wrap: break-word=
+;word-break: break-word;color: #333333;font-size: 14px;line-height: 22=
+px"><table cellpadding=3D"0" cellspacing=3D"0" style=3D"table-layout: =
+auto;">
+					<tbody><tr>
+						<td style=3D"font-family: Arial, sans-serif;word-wrap: break-wor=
+d;word-break: break-word;color: #333333;font-size: 14px;line-height: 2=
+2px"><img style=3D"display: block; width: 0.819672%; height: auto;" sr=
+c=3D"http://media.staples.com/email/templates/usso/a1/4f49925e531f5e92=
+bbf187fb03fdd933.gif" class=3D"vedpw122 ee_smallimage" border=3D"0" wi=
+dth=3D"1"></td>
+					</tr>
+					<tr>
+						<td align=3D"center" style=3D"font-family: Arial, sans-serif;wor=
+d-wrap: break-word;word-break: break-word;color: #333333;font-size: 14=
+px;line-height: 22px"><a style=3D"word-wrap: break-word;word-break: br=
+eak-word;line-height: 33px" href=3D"http://adm-email.com/2K1U-15HZM-7K=
+RNCQ-NERA8-1/c.aspx">
+						<img style=3D"display: block; width: 100%; height: auto;" src=3D=
+"http://media.staples.com/email/templates/usso/a1/logo_staples.png" bo=
+rder=3D"0" alt=3D"Staples=C2=AE" class=3D"vedpw122 ee_pnggif_image" wi=
+dth=3D"122">
+						</a></td>
+					</tr>
+					<tr>
+						<td style=3D"font-family: Arial, sans-serif;word-wrap: break-wor=
+d;word-break: break-word;color: #333333;font-size: 14px;line-height: 2=
+2px"><img style=3D"display: block; width: 0.819672%; height: auto;" sr=
+c=3D"http://media.staples.com/email/templates/usso/a1/4f49925e531f5e92=
+bbf187fb03fdd933.gif" class=3D"vedpw122 ee_smallimage" border=3D"0" wi=
+dth=3D"1"></td>
+					</tr>
+					</tbody></table></td> <td width=3D"147" class=3D"remove" style=3D=
+"font-family: Arial, sans-serif;word-wrap: break-word;word-break: brea=
+k-word;color: #333333;font-size: 14px;line-height: 22px"><img style=3D=
+"display: block; width: 100%; height: auto;" src=3D"http://media.stapl=
+es.com/email/templates/usso/a1/4f49925e531f5e92bbf187fb03fdd933.gif" c=
+lass=3D"vedpw146" border=3D"0" width=3D"146"></td>
+				</tr>
+				</tbody></table>
+			=09
+				<!-- STAPLES logo ends --></td> <td width=3D"25" class=3D"remove" =
+style=3D"font-family: Arial, sans-serif;word-wrap: break-word;word-bre=
+ak: break-word;color: #333333;font-size: 14px;line-height: 22px"><img =
+style=3D"display: block; width: 100%; height: auto;" src=3D"http://med=
+ia.staples.com/email/templates/usso/a1/4f49925e531f5e92bbf187fb03fdd93=
+3.gif" class=3D"vedpw24 ee_smallimage" border=3D"0" width=3D"24"></td>
+			</tr>
+			<tr>
+				<td colspan=3D"3" class=3D"borderGray" style=3D"font-family: Arial=
+, sans-serif;word-wrap: break-word;word-break: break-word;color: #3333=
+33;font-size: 14px;line-height: 22px"><img class=3D"w320  vedpw326" st=
+yle=3D"display: block; width: 98.1595%; height: auto;" src=3D"http://m=
+edia.staples.com/email/templates/usso/a1/4f49925e531f5e92bbf187fb03fdd=
+933.gif" border=3D"0" width=3D"320"></td>
+			</tr>
+			</tbody></table></td> <td width=3D"320" class=3D"order2" align=3D"r=
+ight" valign=3D"bottom" style=3D"font-family: Arial, sans-serif;word-w=
+rap: break-word;word-break: break-word;color: #333333;font-size: 14px;=
+line-height: 22px"><table width=3D"320" cellpadding=3D"0" cellspacing=3D=
+"0" style=3D"table-layout: auto;">
+			<tbody><tr>
+				<td width=3D"25" class=3D"w65" style=3D"font-family: Arial, sans-s=
+erif;word-wrap: break-word;word-break: break-word;color: #333333;font-=
+size: 14px;line-height: 22px"><img class=3D"w65  vedpw24 ee_smallimage=
+" style=3D"display: block; width: 100%; height: auto;" src=3D"http://m=
+edia.staples.com/email/templates/usso/a1/4f49925e531f5e92bbf187fb03fdd=
+933.gif" border=3D"0" width=3D"24"></td> <td width=3D"270" class=3D"w1=
+90" align=3D"right" style=3D"font-family: Arial, sans-serif;word-wrap:=
+ break-word;word-break: break-word;color: #333333;font-size: 14px;line=
+-height: 22px"><!-- Delivery Messaging start -->=20
+				<table width=3D"270" class=3D"w190" cellpadding=3D"0" cellspacing=3D=
+"0" style=3D"table-layout: auto;">
+				<tbody><tr>
+					<td style=3D"font-family: Arial, sans-serif;word-wrap: break-word=
+;word-break: break-word;color: #333333;font-size: 14px;line-height: 22=
+px"><img style=3D"display: block; width: 0.374532%; height: auto;" src=
+=3D"http://media.staples.com/email/templates/usso/a1/4f49925e531f5e92b=
+bf187fb03fdd933.gif" class=3D"vedpw267 ee_smallimage" border=3D"0" wid=
+th=3D"1"></td>
+				</tr>
+				<tr>
+					<td class=3D"left" align=3D"right" style=3D"font-family: Arial, V=
+erdana, sans-serif;word-wrap: break-word;word-break: break-word;color:=
+ #cc0000;font-size: 13px;line-height: 16px"><b>FREE NEXT-DAY DELIVERY.=
+</b></td>
+				</tr>
+				<tr>
+					<td class=3D"left" align=3D"right" style=3D"font-family: Arial, V=
+erdana, sans-serif;word-wrap: break-word;word-break: break-word;color:=
+ #444444;font-size: 13px;line-height: 16px">On eligible orders. <a hre=
+f=3D"http://adm-email.com/2K1U-15HZM-7KRNCQ-NERA9-1/c.aspx" style=3D"w=
+ord-wrap: break-word;word-break: break-word;font-family: Arial, Verdan=
+a, sans-serif;font-size: 13px;line-height: 16px;color: #444444;text-de=
+coration: underline !important">See details</a>.</td>
+				</tr>
+				<tr>
+					<td style=3D"font-family: Arial, sans-serif;word-wrap: break-word=
+;word-break: break-word;color: #333333;font-size: 14px;line-height: 22=
+px"><img style=3D"display: block; width: 0.374532%; height: auto;" src=
+=3D"http://media.staples.com/email/templates/usso/a1/4f49925e531f5e92b=
+bf187fb03fdd933.gif" class=3D"vedpw267 ee_smallimage" border=3D"0" wid=
+th=3D"1"></td>
+				</tr>
+				</tbody></table>
+			=09
+				<!-- Delivery Messaging end --></td> <td width=3D"25" class=3D"w65=
+" style=3D"font-family: Arial, sans-serif;word-wrap: break-word;word-b=
+reak: break-word;color: #333333;font-size: 14px;line-height: 22px"><im=
+g class=3D"w65  vedpw24 ee_smallimage" style=3D"display: block; width:=
+ 100%; height: auto;" src=3D"http://media.staples.com/email/templates/=
+usso/a1/4f49925e531f5e92bbf187fb03fdd933.gif" border=3D"0" width=3D"24=
+"></td>
+			</tr>
+			<tr>
+				<td colspan=3D"3" class=3D"borderGray" style=3D"font-family: Arial=
+, sans-serif;word-wrap: break-word;word-break: break-word;color: #3333=
+33;font-size: 14px;line-height: 22px"><img class=3D"w320  vedpw321" st=
+yle=3D"display: block; width: 99.6885%; height: auto;" src=3D"http://m=
+edia.staples.com/email/templates/usso/a1/4f49925e531f5e92bbf187fb03fdd=
+933.gif" border=3D"0" width=3D"320"></td>
+			</tr>
+			</tbody></table></td>
+		</tr>
+		</tbody></table>
+		<table width=3D"640" class=3D"remove" cellpadding=3D"0" cellspacing=3D=
+"0" style=3D"min-width:640px;table-layout: auto;" bgcolor=3D"#ececec">=
+=20
+		<!-- CATEGORY NAVIGATION -->
+		<tbody><tr>
+			<td width=3D"640" height=3D"10" style=3D"font-family: Arial, sans-s=
+erif;word-wrap: break-word;word-break: break-word;color: #333333;font-=
+size: 14px;line-height: 22px"><img style=3D"display: block; width: 100=
+%; height: auto;" src=3D"http://media.staples.com/email/templates/usso=
+/a1/4f49925e531f5e92bbf187fb03fdd933.gif" class=3D"vedpw639" border=3D=
+"0" width=3D"639"></td>
+		</tr>
+		<tr>
+			<td width=3D"640" style=3D"font-family: Arial, sans-serif;word-wrap=
+: break-word;word-break: break-word;color: #333333;font-size: 14px;lin=
+e-height: 22px"><table width=3D"640" cellpadding=3D"0" cellspacing=3D"=
+0" style=3D"table-layout: auto;">
+			<tbody><tr>
+				<td width=3D"16" valign=3D"middle" style=3D"font-family: Arial, sa=
+ns-serif;word-wrap: break-word;word-break: break-word;color: #333333;f=
+ont-size: 14px;line-height: 22px"><img style=3D"display: block; width:=
+ 100%; height: auto;" src=3D"http://media.staples.com/email/templates/=
+usso/a1/4f49925e531f5e92bbf187fb03fdd933.gif" class=3D"vedpw15 ee_smal=
+limage" border=3D"0" width=3D"15"></td> <td width=3D"85" align=3D"left=
+" valign=3D"middle" style=3D"font-family: Arial, sans-serif;word-wrap:=
+ break-word;word-break: break-word;color: #333333;font-size: 14px;line=
+-height: 16px"><a href=3D"http://adm-email.com/2K1U-15HZM-7KRNCQ-NERAA=
+-1/c.aspx" style=3D"word-wrap: break-word;word-break: break-word;font-=
+family: Arial, Verdana, sans-serif;font-size: 12px;line-height: 16px;c=
+olor: #000000;text-decoration: none">FURNITURE</a></td> <td width=3D"6=
+8" align=3D"center" valign=3D"middle" style=3D"font-family: Arial, san=
+s-serif;word-wrap: break-word;word-break: break-word;color: #333333;fo=
+nt-size: 14px;line-height: 16px"><a href=3D"http://adm-email.com/2K1U-=
+15HZM-7KRNCQ-NERAB-1/c.aspx" style=3D"word-wrap: break-word;word-break=
+: break-word;font-family: Arial, Verdana, sans-serif;font-size: 12px;l=
+ine-height: 16px;color: #000000;text-decoration: none">PAPER</a></td> =
+<td width=3D"110" align=3D"center" valign=3D"middle" style=3D"font-fam=
+ily: Arial, sans-serif;word-wrap: break-word;word-break: break-word;co=
+lor: #333333;font-size: 14px;line-height: 16px"><a href=3D"http://adm-=
+email.com/2K1U-15HZM-7KRNCQ-NERAC-1/c.aspx" style=3D"word-wrap: break-=
+word;word-break: break-word;font-family: Arial, Verdana, sans-serif;fo=
+nt-size: 12px;line-height: 16px;color: #000000;text-decoration: none">=
+BREAKROOM</a></td> <td width=3D"105" align=3D"center" valign=3D"middle=
+" style=3D"font-family: Arial, sans-serif;word-wrap: break-word;word-b=
+reak: break-word;color: #333333;font-size: 14px;line-height: 16px"><a =
+href=3D"http://adm-email.com/2K1U-15HZM-7KRNCQ-NERAD-1/c.aspx" style=3D=
+"word-wrap: break-word;word-break: break-word;font-family: Arial, Verd=
+ana, sans-serif;font-size: 12px;line-height: 16px;color: #000000;text-=
+decoration: none">INK &amp; TONER</a></td> <td width=3D"110" align=3D"=
+center" valign=3D"middle" style=3D"font-family: Arial, sans-serif;word=
+-wrap: break-word;word-break: break-word;color: #333333;font-size: 14p=
+x;line-height: 16px"><a href=3D"http://adm-email.com/2K1U-15HZM-7KRNCQ=
+-NERAE-1/c.aspx" style=3D"word-wrap: break-word;word-break: break-word=
+;font-family: Arial, Verdana, sans-serif;font-size: 12px;line-height: =
+16px;color: #000000;text-decoration: none">ELECTRONICS</a></td> <td wi=
+dth=3D"130" align=3D"right" valign=3D"middle" style=3D"font-family: Ar=
+ial, sans-serif;word-wrap: break-word;word-break: break-word;color: #3=
+33333;font-size: 14px;line-height: 16px"><a href=3D"http://adm-email.c=
+om/2K1U-15HZM-7KRNCQ-NERAF-1/c.aspx" style=3D"word-wrap: break-word;wo=
+rd-break: break-word;font-family: Arial, Verdana, sans-serif;font-size=
+: 12px;line-height: 16px;color: #000000;text-decoration: none">OFFICE =
+SUPPLIES</a></td> <td width=3D"16" valign=3D"middle" style=3D"font-fam=
+ily: Arial, sans-serif;word-wrap: break-word;word-break: break-word;co=
+lor: #333333;font-size: 14px;line-height: 22px"><img style=3D"display:=
+ block; width: 100%; height: auto;" src=3D"http://media.staples.com/em=
+ail/templates/usso/a1/4f49925e531f5e92bbf187fb03fdd933.gif" class=3D"v=
+edpw15 ee_smallimage" border=3D"0" width=3D"15"></td>
+			</tr>
+			</tbody></table></td>
+		</tr>
+		<tr>
+			<td width=3D"640" height=3D"10" style=3D"font-family: Arial, sans-s=
+erif;word-wrap: break-word;word-break: break-word;color: #333333;font-=
+size: 14px;line-height: 22px"><img style=3D"display: block; width: 100=
+%; height: auto;" src=3D"http://media.staples.com/email/templates/usso=
+/a1/4f49925e531f5e92bbf187fb03fdd933.gif" class=3D"vedpw639" border=3D=
+"0" width=3D"639"></td>
+		</tr>
+		</tbody></table>
+		<table width=3D"640" class=3D"w320" cellpadding=3D"0" cellspacing=3D=
+"0" style=3D"table-layout: auto;">
+		<tbody><tr>
+			<td style=3D"font-family: Arial, sans-serif;word-wrap: break-word;w=
+ord-break: break-word;color: #333333;font-size: 14px;line-height: 22px=
+"><img style=3D"display: block; width: 0.156986%; height: auto;" src=3D=
+"http://media.staples.com/email/templates/usso/a1/4f49925e531f5e92bbf1=
+87fb03fdd933.gif" class=3D"vedpw637 ee_smallimage" border=3D"0" width=3D=
+"1"></td>
+		</tr>
+		</tbody></table>
+	=09
+		<!--  BEGIN CREATIVE -->=20
+		<table width=3D"640" class=3D"w320" cellpadding=3D"0" cellspacing=3D=
+"0" style=3D"table-layout: auto;">=20
+		<!-- HERO -->
+		<tbody><tr>
+			<td style=3D"font-family: Arial, sans-serif;word-wrap: break-word;w=
+ord-break: break-word;color: #333333;font-size: 14px;line-height: 22px=
+"></td>
+		</tr>
+		<tr>
+			<td class=3D"removebg heiauto w320" valign=3D"top" height=3D"769px;=
+ background-image:url('http://media.staples.com/email/63705/bg.jpg')" =
+background=3D"http://media.staples.com/email/63705/bg.jpg" style=3D"fo=
+nt-family: Arial, sans-serif;word-wrap: break-word;word-break: break-w=
+ord;color: #333333;font-size: 14px;line-height: 22px;height: 769px; ba=
+ckground-image:url('http://media.staples.com/email/63705/bg.jpg');back=
+ground-repeat: no-repeat;background-position: center" bgcolor=3D"#7070=
+70"><!--[if gte mso 9]>
+        <v:image xmlns:v=3D"urn:schemas-microsoft-com:vml" id=3D"theIm=
+age" style=3D"display: inline-block; position: absolute; width: 640px;=
+ height: 769px; top: 0; left: 0; border: 0; z-index: 1;" src=3D"http:/=
+/media.staples.com/email/63705/bg.jpg"></v:image>          =20
+        <v:rect xmlns:v=3D"urn:schemas-microsoft-com:vml" fill=3D"true=
+" stroke=3D"false" style=3D"display: inline-block; position: absolute;=
+ width: 640px; height: 769px; top: 0; left: 0; border: 0; z-index: 2;"=
+>
+        <v:fill opacity=3D"0%" style=3D"z-index: 1;"></v:fill>=20
+        <div>    =20
+        <![endif]-->=20
+			<!-- Containing Table -->=20
+			<table width=3D"640" class=3D"w320" cellpadding=3D"0" cellspacing=3D=
+"0" style=3D"table-layout: auto;">
+			<tbody><tr class=3D"flexbox">
+				<td width=3D"310" class=3D"order1" align=3D"center" valign=3D"top"=
+ style=3D"font-family: Arial, sans-serif;word-wrap: break-word;word-br=
+eak: break-word;color: #333333;font-size: 14px;line-height: 22px"><tab=
+le width=3D"310" class=3D"w320" cellpadding=3D"0" cellspacing=3D"0" st=
+yle=3D"table-layout: auto;">
+				<tbody><tr>
+					<td width=3D"25" class=3D"w16" style=3D"font-family: Arial, sans-=
+serif;word-wrap: break-word;word-break: break-word;color: #333333;font=
+-size: 14px;line-height: 22px"><img class=3D"w16  vedpw24 ee_smallimag=
+e" style=3D"display: block; width: 100%; height: auto;" src=3D"http://=
+media.staples.com/email/templates/usso/a1/4f49925e531f5e92bbf187fb03fd=
+d933.gif" border=3D"0" width=3D"24"></td> <td width=3D"282" class=3D"w=
+288" align=3D"left" valign=3D"top" style=3D"font-family: Arial, sans-s=
+erif;word-wrap: break-word;word-break: break-word;color: #333333;font-=
+size: 14px;line-height: 22px"><table width=3D"282" class=3D"w288" cell=
+padding=3D"0" cellspacing=3D"0" style=3D"table-layout: auto;">
+					<tbody><tr class=3D"remove">
+						<td style=3D"font-family: Arial, sans-serif;word-wrap: break-wor=
+d;word-break: break-word;color: #333333;font-size: 14px;line-height: 2=
+2px"><img style=3D"display: block; width: 0.355872%; height: auto;" sr=
+c=3D"http://media.staples.com/email/templates/usso/a1/4f49925e531f5e92=
+bbf187fb03fdd933.gif" class=3D"vedpw281 ee_smallimage" border=3D"0" wi=
+dth=3D"1"></td>
+					</tr>
+					<tr class=3D"remove">
+						<!-- Desktop headline -->=20
+						<td align=3D"center" style=3D"font-family: Arial, sans-serif;wor=
+d-wrap: break-word;word-break: break-word;color: #333333;font-size: 14=
+px;line-height: 22px"><img style=3D"display: block; font-family: Arial=
+, Verdana, sans-serif; font-size: 60px; line-height: 64px; color: rgb(=
+255, 255, 255); font-weight: bold; text-transform: uppercase; width: 1=
+00%; height: auto;" src=3D"http://media.staples.com/email/63705/headli=
+ne_printfree_white.png" alt=3D"Print FREE for life." border=3D"0" clas=
+s=3D"vedpw281 ee_pnggif_image" width=3D"281"></td>
+					</tr>
+					<tr>
+						<!-- Mobile headline -->=20
+						<td style=3D"font-family: Arial, sans-serif;word-wrap: break-wor=
+d;word-break: break-word;color: #333333;font-size: 14px;line-height: 2=
+2px"></td>
+					</tr>
+					<tr>
+						<!-- Mobile headline -->=20
+						<td class=3D"w288 headline_printfree" align=3D"center" style=3D"=
+font-family: Arial, sans-serif;word-wrap: break-word;word-break: break=
+-word;color: #333333;font-size: 14px;line-height: 22px"><img class=3D"=
+i100  vedpw281" style=3D"display: block; width: 100%; height: auto;" s=
+rc=3D"http://media.staples.com/email/templates/usso/a1/4f49925e531f5e9=
+2bbf187fb03fdd933.gif" alt=3D"Print FREE for life." border=3D"0" width=
+=3D"281"></td>
+					</tr>
+					<tr>
+						<td class=3D"text_444444" align=3D"left" style=3D"font-family: A=
+rial, Verdana, sans-serif;word-wrap: break-word;word-break: break-word=
+;color: #ffffff;font-size: 16px;line-height: 20px">From kids=E2=80=99 =
+homework to movie tickets,&nbsp;having a printer at home can make thin=
+gs more convenient. Get 15&nbsp;free prints every month and never&nbsp=
+;run out of ink again.**</td>
+					</tr>
+					<tr>
+						<td style=3D"font-family: Arial, sans-serif;word-wrap: break-wor=
+d;word-break: break-word;color: #333333;font-size: 14px;line-height: 2=
+2px"><img style=3D"display: block; width: 0.355872%; height: auto;" sr=
+c=3D"http://media.staples.com/email/templates/usso/a1/4f49925e531f5e92=
+bbf187fb03fdd933.gif" class=3D"vedpw281 ee_smallimage" border=3D"0" wi=
+dth=3D"1"></td>
+					</tr>
+					<tr>
+						<td align=3D"left" style=3D"font-family: Arial, sans-serif;word-=
+wrap: break-word;word-break: break-word;color: #333333;font-size: 14px=
+;line-height: 22px"><table width=3D"121" cellpadding=3D"0" cellspacing=
+=3D"0" bgcolor=3D"#cc0000" style=3D"table-layout: auto;">
+						<tbody><tr>
+							<td width=3D"121" height=3D"33" align=3D"center" style=3D"font-=
+family: Arial, sans-serif;word-wrap: break-word;word-break: break-word=
+;color: #ffffff;font-size: 14px;line-height: 19px"><a href=3D"http://a=
+dm-email.com/2K1U-15HZM-7KRNCQ-NERAG-1/c.aspx" style=3D"word-wrap: bre=
+ak-word;word-break: break-word;display: block;font-family: Arial, Verd=
+ana, sans-serif;font-size: 15px;line-height: 19px;color: #ffffff;text-=
+decoration: none"><b>LEARN MORE</b></a></td>
+						</tr>
+						</tbody></table></td>
+					</tr>
+					<tr>
+						<td style=3D"font-family: Arial, sans-serif;word-wrap: break-wor=
+d;word-break: break-word;color: #333333;font-size: 14px;line-height: 2=
+2px"><img class=3D"hei33  vedpw281 ee_smallimage" style=3D"display: bl=
+ock; width: 0.355872%; height: auto;" src=3D"http://media.staples.com/=
+email/templates/usso/a1/4f49925e531f5e92bbf187fb03fdd933.gif" border=3D=
+"0" width=3D"1"></td>
+					</tr>
+					</tbody></table></td> <td width=3D"3" class=3D"w16" style=3D"font=
+-family: Arial, sans-serif;word-wrap: break-word;word-break: break-wor=
+d;color: #333333;font-size: 14px;line-height: 22px"><img class=3D"w16 =
+ vedpw2 ee_smallimage" style=3D"display: block; width: 100%; height: a=
+uto;" src=3D"http://media.staples.com/email/templates/usso/a1/4f49925e=
+531f5e92bbf187fb03fdd933.gif" border=3D"0" width=3D"2"></td>
+				</tr>
+				<tr class=3D"bg_ececec">
+					<td colspan=3D"3" width=3D"310" class=3D"w320" style=3D"font-fami=
+ly: Arial, sans-serif;word-wrap: break-word;word-break: break-word;col=
+or: #333333;font-size: 14px;line-height: 22px"><table width=3D"310" cl=
+ass=3D"w320" cellpadding=3D"0" cellspacing=3D"0" style=3D"table-layout=
+: auto;">
+					<tbody><tr>
+						<td width=3D"25" class=3D"w16" style=3D"font-family: Arial, sans=
+-serif;word-wrap: break-word;word-break: break-word;color: #333333;fon=
+t-size: 14px;line-height: 22px"><img class=3D"w16  vedpw24 ee_smallima=
+ge" style=3D"display: block; width: 100%; height: auto;" src=3D"http:/=
+/media.staples.com/email/templates/usso/a1/4f49925e531f5e92bbf187fb03f=
+dd933.gif" border=3D"0" width=3D"24"></td> <td width=3D"284" class=3D"=
+w288" style=3D"font-family: Arial, sans-serif;word-wrap: break-word;wo=
+rd-break: break-word;color: #333333;font-size: 14px;line-height: 22px"=
+><table width=3D"284" class=3D"w288" cellpadding=3D"0" cellspacing=3D"=
+0" style=3D"table-layout: auto;">
+						<tbody><tr>
+							<td style=3D"font-family: Arial, sans-serif;word-wrap: break-wo=
+rd;word-break: break-word;color: #333333;font-size: 14px;line-height: =
+22px"><img class=3D"hei33  vedpw281 ee_smallimage" style=3D"display: b=
+lock; width: 0.355872%; height: auto;" src=3D"http://media.staples.com=
+/email/templates/usso/a1/4f49925e531f5e92bbf187fb03fdd933.gif" border=3D=
+"0" width=3D"1"></td>
+						</tr>
+						<tr>
+							<td align=3D"left" style=3D"font-family: Arial, Verdana, sans-s=
+erif;word-wrap: break-word;word-break: break-word;color: #000000;font-=
+size: 22px;line-height: 26px"><a style=3D"word-wrap: break-word;word-b=
+reak: break-word;font-family: Arial, Verdana, sans-serif;font-size: 22=
+px;line-height: 26px;color: #000000;text-decoration: none" href=3D"htt=
+p://adm-email.com/2K1U-15HZM-7KRNCQ-NERAG-1/c.aspx"><b>Here=E2=80=99s =
+how it works:</b></a></td>
+						</tr>
+						<tr>
+							<td style=3D"font-family: Arial, sans-serif;word-wrap: break-wo=
+rd;word-break: break-word;color: #333333;font-size: 14px;line-height: =
+22px"><img style=3D"display: block; width: 0.355872%; height: auto;" s=
+rc=3D"http://media.staples.com/email/templates/usso/a1/4f49925e531f5e9=
+2bbf187fb03fdd933.gif" class=3D"vedpw281 ee_smallimage" border=3D"0" w=
+idth=3D"1"></td>
+						</tr>
+						<tr>
+							<td align=3D"left" style=3D"font-family: Arial, sans-serif;word=
+-wrap: break-word;word-break: break-word;color: #333333;font-size: 14p=
+x;line-height: 22px"><table cellpadding=3D"0" cellspacing=3D"0" style=3D=
+"table-layout: auto;">
+							<tbody><tr>
+								<td align=3D"left" valign=3D"middle" style=3D"font-family: Ari=
+al, sans-serif;word-wrap: break-word;word-break: break-word;color: #33=
+3333;font-size: 14px;line-height: 22px"><a href=3D"http://adm-email.co=
+m/2K1U-15HZM-7KRNCQ-NERAG-1/c.aspx" style=3D"word-wrap: break-word;wor=
+d-break: break-word">
+								<img style=3D"display: block; width: 100%; height: auto;" src=3D=
+"http://media.staples.com/email/63705/step1.png" border=3D"0" class=3D=
+"vedpw34 ee_smallimage ee_pnggif_image" width=3D"34">
+								</a></td> <td style=3D"font-family: Arial, sans-serif;word-wra=
+p: break-word;word-break: break-word;color: #333333;font-size: 14px;li=
+ne-height: 22px"><img style=3D"display: block; width: 100%; height: au=
+to;" src=3D"http://media.staples.com/email/templates/usso/a1/4f49925e5=
+31f5e92bbf187fb03fdd933.gif" class=3D"vedpw9 ee_smallimage" border=3D"=
+0" width=3D"9"></td> <td align=3D"left" style=3D"font-family: Arial, V=
+erdana, sans-serif;word-wrap: break-word;word-break: break-word;color:=
+ #000000;font-size: 15px;line-height: 19px"><a style=3D"word-wrap: bre=
+ak-word;word-break: break-word;font-family: Arial, Verdana, sans-serif=
+;font-size: 15px;line-height: 19px;color: #000000;text-decoration: non=
+e" href=3D"http://adm-email.com/2K1U-15HZM-7KRNCQ-NERAG-1/c.aspx">Choo=
+se one of the printers below.</a></td>
+							</tr>
+							<tr>
+								<td colspan=3D"3" style=3D"font-family: Arial, sans-serif;word=
+-wrap: break-word;word-break: break-word;color: #333333;font-size: 14p=
+x;line-height: 22px"><img style=3D"display: block; width: 0.358423%; h=
+eight: auto;" src=3D"http://media.staples.com/email/templates/usso/a1/=
+4f49925e531f5e92bbf187fb03fdd933.gif" class=3D"vedpw279 ee_smallimage"=
+ border=3D"0" width=3D"1"></td>
+							</tr>
+							<tr>
+								<td align=3D"left" valign=3D"middle" style=3D"font-family: Ari=
+al, sans-serif;word-wrap: break-word;word-break: break-word;color: #33=
+3333;font-size: 14px;line-height: 22px"><a href=3D"http://adm-email.co=
+m/2K1U-15HZM-7KRNCQ-NERAG-1/c.aspx" style=3D"word-wrap: break-word;wor=
+d-break: break-word">
+								<img style=3D"display: block; width: 100%; height: auto;" src=3D=
+"http://media.staples.com/email/63705/step2.png" border=3D"0" class=3D=
+"vedpw34 ee_smallimage ee_pnggif_image" width=3D"34">
+								</a></td> <td style=3D"font-family: Arial, sans-serif;word-wra=
+p: break-word;word-break: break-word;color: #333333;font-size: 14px;li=
+ne-height: 22px"><img style=3D"display: block; width: 100%; height: au=
+to;" src=3D"http://media.staples.com/email/templates/usso/a1/4f49925e5=
+31f5e92bbf187fb03fdd933.gif" class=3D"vedpw9 ee_smallimage" border=3D"=
+0" width=3D"9"></td> <td align=3D"left" style=3D"font-family: Arial, V=
+erdana, sans-serif;word-wrap: break-word;word-break: break-word;color:=
+ #000000;font-size: 15px;line-height: 19px"><a style=3D"word-wrap: bre=
+ak-word;word-break: break-word;font-family: Arial, Verdana, sans-serif=
+;font-size: 15px;line-height: 19px;color: #000000;text-decoration: non=
+e" href=3D"http://adm-email.com/2K1U-15HZM-7KRNCQ-NERAG-1/c.aspx">Prin=
+t 15 pages per month for free. Pay as you go after that or upgrade to =
+another plan.*</a></td>
+							</tr>
+							<tr>
+								<td colspan=3D"3" style=3D"font-family: Arial, sans-serif;word=
+-wrap: break-word;word-break: break-word;color: #333333;font-size: 14p=
+x;line-height: 22px"><img style=3D"display: block; width: 0.358423%; h=
+eight: auto;" src=3D"http://media.staples.com/email/templates/usso/a1/=
+4f49925e531f5e92bbf187fb03fdd933.gif" class=3D"vedpw279 ee_smallimage"=
+ border=3D"0" width=3D"1"></td>
+							</tr>
+							<tr>
+								<td align=3D"left" valign=3D"middle" style=3D"font-family: Ari=
+al, sans-serif;word-wrap: break-word;word-break: break-word;color: #33=
+3333;font-size: 14px;line-height: 22px"><a href=3D"http://adm-email.co=
+m/2K1U-15HZM-7KRNCQ-NERAG-1/c.aspx" style=3D"word-wrap: break-word;wor=
+d-break: break-word">
+								<img style=3D"display: block; width: 100%; height: auto;" src=3D=
+"http://media.staples.com/email/63705/step3.png" border=3D"0" class=3D=
+"vedpw34 ee_smallimage ee_pnggif_image" width=3D"34">
+								</a></td> <td style=3D"font-family: Arial, sans-serif;word-wra=
+p: break-word;word-break: break-word;color: #333333;font-size: 14px;li=
+ne-height: 22px"><img style=3D"display: block; width: 100%; height: au=
+to;" src=3D"http://media.staples.com/email/templates/usso/a1/4f49925e5=
+31f5e92bbf187fb03fdd933.gif" class=3D"vedpw9 ee_smallimage" border=3D"=
+0" width=3D"9"></td> <td align=3D"left" style=3D"font-family: Arial, V=
+erdana, sans-serif;word-wrap: break-word;word-break: break-word;color:=
+ #000000;font-size: 15px;line-height: 19px"><a style=3D"word-wrap: bre=
+ak-word;word-break: break-word;font-family: Arial, Verdana, sans-serif=
+;font-size: 15px;line-height: 19px;color: #000000;text-decoration: non=
+e" href=3D"http://adm-email.com/2K1U-15HZM-7KRNCQ-NERAG-1/c.aspx">Get =
+ink sent to your door for free before you run out and only when you ne=
+ed it.</a></td>
+							</tr>
+							</tbody></table></td>
+						</tr>
+						<tr>
+							<td style=3D"font-family: Arial, sans-serif;word-wrap: break-wo=
+rd;word-break: break-word;color: #333333;font-size: 14px;line-height: =
+22px"><img style=3D"display: block; width: 0.355872%; height: auto;" s=
+rc=3D"http://media.staples.com/email/templates/usso/a1/4f49925e531f5e9=
+2bbf187fb03fdd933.gif" class=3D"vedpw281 ee_smallimage" border=3D"0" w=
+idth=3D"1"></td>
+						</tr>
+						<tr>
+							<td align=3D"left" style=3D"font-family: Arial, sans-serif;word=
+-wrap: break-word;word-break: break-word;color: #333333;font-size: 14p=
+x;line-height: 22px"><a href=3D"http://adm-email.com/2K1U-15HZM-7KRNCQ=
+-NERAH-1/c.aspx" style=3D"word-wrap: break-word;word-break: break-word=
+">
+							<img style=3D"display: block; width: 40.5694%; height: auto;" s=
+rc=3D"http://media.staples.com/email/63705/hp_instant_ink.png" border=3D=
+"0" class=3D"vedpw281 ee_pnggif_image" width=3D"114">
+							</a></td>
+						</tr>
+						<tr>
+							<td style=3D"font-family: Arial, sans-serif;word-wrap: break-wo=
+rd;word-break: break-word;color: #333333;font-size: 14px;line-height: =
+22px"><img style=3D"display: block; width: 0.355872%; height: auto;" s=
+rc=3D"http://media.staples.com/email/templates/usso/a1/4f49925e531f5e9=
+2bbf187fb03fdd933.gif" class=3D"vedpw281 ee_smallimage" border=3D"0" w=
+idth=3D"1"></td>
+						</tr>
+						</tbody></table></td> <td width=3D"1" class=3D"w16" style=3D"fon=
+t-family: Arial, sans-serif;word-wrap: break-word;word-break: break-wo=
+rd;color: #333333;font-size: 14px;line-height: 22px"><img class=3D"w16=
+  vedpw1 ee_smallimage" style=3D"display: block; width: 100%; height: =
+auto;" src=3D"http://media.staples.com/email/templates/usso/a1/4f49925=
+e531f5e92bbf187fb03fdd933.gif" border=3D"0" width=3D"1"></td>
+					</tr>
+					</tbody></table></td>
+				</tr>
+				</tbody></table></td> <td width=3D"330" class=3D"order2 bg_ececec"=
+ align=3D"right" style=3D"font-family: Arial, sans-serif;word-wrap: br=
+eak-word;word-break: break-word;color: #333333;font-size: 14px;line-he=
+ight: 22px"><table width=3D"330" class=3D"w320" cellpadding=3D"0" cell=
+spacing=3D"0" style=3D"table-layout: auto;">
+				<tbody><tr class=3D"remove">
+					<td height=3D"320" style=3D"font-family: Arial, sans-serif;word-w=
+rap: break-word;word-break: break-word;color: #333333;font-size: 14px;=
+line-height: 22px"><img class=3D"hei20  vedpw329 ee_smallimage" style=3D=
+"display: block; width: 0.303951%; height: auto;" src=3D"http://media.=
+staples.com/email/templates/usso/a1/4f49925e531f5e92bbf187fb03fdd933.g=
+if" border=3D"0" width=3D"1"></td>
+				</tr>
+				<tr>
+					<td style=3D"font-family: Arial, sans-serif;word-wrap: break-word=
+;word-break: break-word;color: #333333;font-size: 14px;line-height: 22=
+px"><a href=3D"http://adm-email.com/2K1U-15HZM-7KRNCQ-NERAG-1/c.aspx" =
+style=3D"word-wrap: break-word;word-break: break-word">
+					<img class=3D"i100  vedpw329" style=3D"display: block; width: 100=
+%; height: auto;" src=3D"http://media.staples.com/email/63705/hero_pri=
+nter_v3.png" border=3D"0" width=3D"329">
+					</a></td>
+				</tr>
+				<tr>
+					<td style=3D"font-family: Arial, sans-serif;word-wrap: break-word=
+;word-break: break-word;color: #333333;font-size: 14px;line-height: 22=
+px"><img class=3D"hei20  vedpw329 ee_smallimage" style=3D"display: blo=
+ck; width: 0.303951%; height: auto;" src=3D"http://media.staples.com/e=
+mail/templates/usso/a1/4f49925e531f5e92bbf187fb03fdd933.gif" border=3D=
+"0" width=3D"1"></td>
+				</tr>
+				</tbody></table></td>
+			</tr>
+			</tbody></table>
+		=09
+			<!-- Containing Table END-->=20
+			<!--[if gte mso 9]>  =20
+      </div></v:rect><![endif]--></td>
+		</tr>
+		</tbody></table>
+		<table width=3D"640" class=3D"w320" cellpadding=3D"0" cellspacing=3D=
+"0" style=3D"table-layout: auto;">=20
+		<!-- Featured printers -->
+		<tbody><tr>
+			<td width=3D"25" class=3D"w16" style=3D"font-family: Arial, sans-se=
+rif;word-wrap: break-word;word-break: break-word;color: #333333;font-s=
+ize: 14px;line-height: 22px"><img class=3D"w16  vedpw24 ee_smallimage"=
+ style=3D"display: block; width: 100%; height: auto;" src=3D"http://me=
+dia.staples.com/email/templates/usso/a1/4f49925e531f5e92bbf187fb03fdd9=
+33.gif" border=3D"0" width=3D"24"></td> <td width=3D"590" class=3D"w28=
+8" align=3D"center" style=3D"font-family: Arial, sans-serif;word-wrap:=
+ break-word;word-break: break-word;color: #333333;font-size: 14px;line=
+-height: 22px"><table width=3D"590" class=3D"w288" cellpadding=3D"0" c=
+ellspacing=3D"0" style=3D"table-layout: auto;">
+			<tbody><tr>
+				<td style=3D"font-family: Arial, sans-serif;word-wrap: break-word;=
+word-break: break-word;color: #333333;font-size: 14px;line-height: 22p=
+x"><img style=3D"display: block; width: 0.168634%; height: auto;" src=3D=
+"http://media.staples.com/email/templates/usso/a1/4f49925e531f5e92bbf1=
+87fb03fdd933.gif" class=3D"vedpw593 ee_smallimage" border=3D"0" width=3D=
+"1"></td>
+			</tr>
+			<tr class=3D"remove">
+				<!-- Desktop headline -->=20
+				<td align=3D"center" style=3D"font-family: Arial, sans-serif;word-=
+wrap: break-word;word-break: break-word;color: #333333;font-size: 14px=
+;line-height: 22px"><img style=3D"display: block; font-family: &quot;A=
+rial Narrow&quot;, Verdana, sans-serif; font-size: 24px; line-height: =
+28px; color: rgb(0, 0, 0); font-weight: bold; text-transform: uppercas=
+e; width: 77.5717%; height: auto;" src=3D"http://media.staples.com/ema=
+il/63705/headline_pickyourperfectprinter_d.gif" alt=3D"Pick your perfe=
+ct printer for under $100." border=3D"0" class=3D"vedpw593" width=3D"4=
+60"></td>
+			</tr>
+			<tr>
+				<!-- Mobile headline -->=20
+				<td style=3D"font-family: Arial, sans-serif;word-wrap: break-word;=
+word-break: break-word;color: #333333;font-size: 14px;line-height: 22p=
+x"></td>
+			</tr>
+			<tr>
+				<!-- Mobile headline -->=20
+				<td class=3D"w288 headline_perfectprinter" align=3D"center" style=3D=
+"font-family: Arial, sans-serif;word-wrap: break-word;word-break: brea=
+k-word;color: #333333;font-size: 14px;line-height: 22px"><img class=3D=
+"i100  vedpw593" style=3D"display: block; width: 99.4941%; height: aut=
+o;" src=3D"http://media.staples.com/email/templates/usso/a1/4f49925e53=
+1f5e92bbf187fb03fdd933.gif" alt=3D"Pick your perfect printer for under=
+ $100." border=3D"0" width=3D"590"></td>
+			</tr>
+			<tr>
+				<td style=3D"font-family: Arial, sans-serif;word-wrap: break-word;=
+word-break: break-word;color: #333333;font-size: 14px;line-height: 22p=
+x"><img style=3D"display: block; width: 0.168634%; height: auto;" src=3D=
+"http://media.staples.com/email/templates/usso/a1/4f49925e531f5e92bbf1=
+87fb03fdd933.gif" class=3D"vedpw593 ee_smallimage" border=3D"0" width=3D=
+"1"></td>
+			</tr>
+			<tr>
+				<td width=3D"590" class=3D"w288" style=3D"font-family: Arial, sans=
+-serif;word-wrap: break-word;word-break: break-word;color: #333333;fon=
+t-size: 14px;line-height: 22px"><table width=3D"590" class=3D"w288" ce=
+llpadding=3D"0" cellspacing=3D"0" style=3D"table-layout: auto;">
+				<tbody><tr class=3D"flexbox">
+					<td width=3D"197" class=3D"order1" align=3D"center" style=3D"font=
+-family: Arial, sans-serif;word-wrap: break-word;word-break: break-wor=
+d;color: #333333;font-size: 14px;line-height: 22px"><table width=3D"19=
+7" cellpadding=3D"0" cellspacing=3D"0" style=3D"table-layout: auto;">
+					<tbody><tr>
+						<td align=3D"center" style=3D"font-family: Arial, sans-serif;wor=
+d-wrap: break-word;word-break: break-word;color: #333333;font-size: 14=
+px;line-height: 22px"><img style=3D"display: block; width: 88.1443%; h=
+eight: auto;" src=3D"http://media.staples.com/email/63705/officejet_38=
+30.jpg" class=3D"vedpw194" border=3D"0" width=3D"171"></td>
+					</tr>
+					<tr>
+						<td align=3D"center" style=3D"font-family: Arial, Verdana, sans-=
+serif;word-wrap: break-word;word-break: break-word;color: #000000;font=
+-size: 15px;line-height: 19px"><b>HP OfficeJet 3830<br>
+						All-in-One Inkjet<br>
+						Printer</b></td>
+					</tr>
+					<tr>
+						<td style=3D"font-family: Arial, sans-serif;word-wrap: break-wor=
+d;word-break: break-word;color: #333333;font-size: 14px;line-height: 2=
+2px"><img style=3D"display: block; width: 0.515464%; height: auto;" sr=
+c=3D"http://media.staples.com/email/templates/usso/a1/4f49925e531f5e92=
+bbf187fb03fdd933.gif" class=3D"vedpw194 ee_smallimage" border=3D"0" wi=
+dth=3D"1"></td>
+					</tr>
+					<tr>
+						<td align=3D"center" style=3D"font-family: Arial, sans-serif;wor=
+d-wrap: break-word;word-break: break-word;color: #333333;font-size: 14=
+px;line-height: 22px"><table width=3D"104" cellpadding=3D"0" cellspaci=
+ng=3D"0" bgcolor=3D"#cc0000" style=3D"table-layout: auto;">
+						<tbody><tr>
+							<td width=3D"104" height=3D"33" align=3D"center" style=3D"font-=
+family: Arial, sans-serif;word-wrap: break-word;word-break: break-word=
+;color: #ffffff;font-size: 14px;line-height: 19px"><a href=3D"http://a=
+dm-email.com/2K1U-15HZM-7KRNCQ-NERAI-1/c.aspx" style=3D"word-wrap: bre=
+ak-word;word-break: break-word;display: block;font-family: Arial, Verd=
+ana, sans-serif;font-size: 15px;line-height: 19px;color: #ffffff;text-=
+decoration: none"><b>SHOP NOW</b></a></td>
+						</tr>
+						</tbody></table></td>
+					</tr>
+					<tr>
+						<td style=3D"font-family: Arial, sans-serif;word-wrap: break-wor=
+d;word-break: break-word;color: #333333;font-size: 14px;line-height: 2=
+2px"><img class=3D"hei20  vedpw194 ee_smallimage" style=3D"display: bl=
+ock; width: 0.515464%; height: auto;" src=3D"http://media.staples.com/=
+email/templates/usso/a1/4f49925e531f5e92bbf187fb03fdd933.gif" border=3D=
+"0" width=3D"1"></td>
+					</tr>
+					</tbody></table></td> <td width=3D"196" class=3D"order1" align=3D=
+"center" style=3D"font-family: Arial, sans-serif;word-wrap: break-word=
+;word-break: break-word;color: #333333;font-size: 14px;line-height: 22=
+px"><table width=3D"196" cellpadding=3D"0" cellspacing=3D"0" style=3D"=
+table-layout: auto;">
+					<tbody><tr>
+						<td align=3D"center" style=3D"font-family: Arial, sans-serif;wor=
+d-wrap: break-word;word-break: break-word;color: #333333;font-size: 14=
+px;line-height: 22px"><img style=3D"display: block; width: 88.601%; he=
+ight: auto;" src=3D"http://media.staples.com/email/63705/envy_4520.jpg=
+" class=3D"vedpw193" border=3D"0" width=3D"171"></td>
+					</tr>
+					<tr>
+						<td align=3D"center" style=3D"font-family: Arial, Verdana, sans-=
+serif;word-wrap: break-word;word-break: break-word;color: #000000;font=
+-size: 15px;line-height: 19px"><b>HP ENVY 4520<br>
+						All-in-One Inkjet<br>
+						Photo Printer</b></td>
+					</tr>
+					<tr>
+						<td style=3D"font-family: Arial, sans-serif;word-wrap: break-wor=
+d;word-break: break-word;color: #333333;font-size: 14px;line-height: 2=
+2px"><img style=3D"display: block; width: 0.518135%; height: auto;" sr=
+c=3D"http://media.staples.com/email/templates/usso/a1/4f49925e531f5e92=
+bbf187fb03fdd933.gif" class=3D"vedpw193 ee_smallimage" border=3D"0" wi=
+dth=3D"1"></td>
+					</tr>
+					<tr>
+						<td align=3D"center" style=3D"font-family: Arial, sans-serif;wor=
+d-wrap: break-word;word-break: break-word;color: #333333;font-size: 14=
+px;line-height: 22px"><table width=3D"104" cellpadding=3D"0" cellspaci=
+ng=3D"0" bgcolor=3D"#cc0000" style=3D"table-layout: auto;">
+						<tbody><tr>
+							<td width=3D"104" height=3D"33" align=3D"center" style=3D"font-=
+family: Arial, sans-serif;word-wrap: break-word;word-break: break-word=
+;color: #ffffff;font-size: 14px;line-height: 19px"><a href=3D"http://a=
+dm-email.com/2K1U-15HZM-7KRNCQ-NERAJ-1/c.aspx" style=3D"word-wrap: bre=
+ak-word;word-break: break-word;display: block;font-family: Arial, Verd=
+ana, sans-serif;font-size: 15px;line-height: 19px;color: #ffffff;text-=
+decoration: none"><b>SHOP NOW</b></a></td>
+						</tr>
+						</tbody></table></td>
+					</tr>
+					<tr>
+						<td style=3D"font-family: Arial, sans-serif;word-wrap: break-wor=
+d;word-break: break-word;color: #333333;font-size: 14px;line-height: 2=
+2px"><img class=3D"hei20  vedpw193 ee_smallimage" style=3D"display: bl=
+ock; width: 0.518135%; height: auto;" src=3D"http://media.staples.com/=
+email/templates/usso/a1/4f49925e531f5e92bbf187fb03fdd933.gif" border=3D=
+"0" width=3D"1"></td>
+					</tr>
+					</tbody></table></td> <td width=3D"197" class=3D"order1" align=3D=
+"center" style=3D"font-family: Arial, sans-serif;word-wrap: break-word=
+;word-break: break-word;color: #333333;font-size: 14px;line-height: 22=
+px"><table width=3D"197" cellpadding=3D"0" cellspacing=3D"0" style=3D"=
+table-layout: auto;">
+					<tbody><tr>
+						<td align=3D"center" style=3D"font-family: Arial, sans-serif;wor=
+d-wrap: break-word;word-break: break-word;color: #333333;font-size: 14=
+px;line-height: 22px"><img style=3D"display: block; width: 88.1443%; h=
+eight: auto;" src=3D"http://media.staples.com/email/63705/officejet_46=
+50.jpg" class=3D"vedpw194" border=3D"0" width=3D"171"></td>
+					</tr>
+					<tr>
+						<td align=3D"center" style=3D"font-family: Arial, Verdana, sans-=
+serif;word-wrap: break-word;word-break: break-word;color: #000000;font=
+-size: 15px;line-height: 19px"><b>HP OfficeJet 4650<br>
+						Color Inkjet All-in-One<br>
+						Printer</b></td>
+					</tr>
+					<tr>
+						<td style=3D"font-family: Arial, sans-serif;word-wrap: break-wor=
+d;word-break: break-word;color: #333333;font-size: 14px;line-height: 2=
+2px"><img style=3D"display: block; width: 0.515464%; height: auto;" sr=
+c=3D"http://media.staples.com/email/templates/usso/a1/4f49925e531f5e92=
+bbf187fb03fdd933.gif" class=3D"vedpw194 ee_smallimage" border=3D"0" wi=
+dth=3D"1"></td>
+					</tr>
+					<tr>
+						<td align=3D"center" style=3D"font-family: Arial, sans-serif;wor=
+d-wrap: break-word;word-break: break-word;color: #333333;font-size: 14=
+px;line-height: 22px"><table width=3D"104" cellpadding=3D"0" cellspaci=
+ng=3D"0" bgcolor=3D"#cc0000" style=3D"table-layout: auto;">
+						<tbody><tr>
+							<td width=3D"104" height=3D"33" align=3D"center" style=3D"font-=
+family: Arial, sans-serif;word-wrap: break-word;word-break: break-word=
+;color: #ffffff;font-size: 14px;line-height: 19px"><a href=3D"http://a=
+dm-email.com/2K1U-15HZM-7KRNCQ-NERAK-1/c.aspx" style=3D"word-wrap: bre=
+ak-word;word-break: break-word;display: block;font-family: Arial, Verd=
+ana, sans-serif;font-size: 15px;line-height: 19px;color: #ffffff;text-=
+decoration: none"><b>SHOP NOW</b></a></td>
+						</tr>
+						</tbody></table></td>
+					</tr>
+					<tr>
+						<td style=3D"font-family: Arial, sans-serif;word-wrap: break-wor=
+d;word-break: break-word;color: #333333;font-size: 14px;line-height: 2=
+2px"><img class=3D"hei20  vedpw194 ee_smallimage" style=3D"display: bl=
+ock; width: 0.515464%; height: auto;" src=3D"http://media.staples.com/=
+email/templates/usso/a1/4f49925e531f5e92bbf187fb03fdd933.gif" border=3D=
+"0" width=3D"1"></td>
+					</tr>
+					</tbody></table></td>
+				</tr>
+				<tr class=3D"remove">
+					<td colspan=3D"3" style=3D"font-family: Arial, sans-serif;word-wr=
+ap: break-word;word-break: break-word;color: #333333;font-size: 14px;l=
+ine-height: 22px"><img style=3D"display: block; width: 0.169205%; heig=
+ht: auto;" src=3D"http://media.staples.com/email/templates/usso/a1/4f4=
+9925e531f5e92bbf187fb03fdd933.gif" class=3D"vedpw591 ee_smallimage" bo=
+rder=3D"0" width=3D"1"></td>
+				</tr>
+				<tr class=3D"flexbox">
+					<td width=3D"197" class=3D"order1" align=3D"center" style=3D"font=
+-family: Arial, sans-serif;word-wrap: break-word;word-break: break-wor=
+d;color: #333333;font-size: 14px;line-height: 22px"><table width=3D"19=
+7" cellpadding=3D"0" cellspacing=3D"0" style=3D"table-layout: auto;">
+					<tbody><tr>
+						<td align=3D"center" style=3D"font-family: Arial, sans-serif;wor=
+d-wrap: break-word;word-break: break-word;color: #333333;font-size: 14=
+px;line-height: 22px"><img style=3D"display: block; width: 88.1443%; h=
+eight: auto;" src=3D"http://media.staples.com/email/63705/deskjet_3755=
+_white.jpg" class=3D"vedpw194" border=3D"0" width=3D"171"></td>
+					</tr>
+					<tr>
+						<td align=3D"center" style=3D"font-family: Arial, Verdana, sans-=
+serif;word-wrap: break-word;word-break: break-word;color: #000000;font=
+-size: 15px;line-height: 19px"><b>HP Deskjet 3755<br>
+						Compact All-in-One<br>
+						Photo Printer, White</b></td>
+					</tr>
+					<tr>
+						<td style=3D"font-family: Arial, sans-serif;word-wrap: break-wor=
+d;word-break: break-word;color: #333333;font-size: 14px;line-height: 2=
+2px"><img style=3D"display: block; width: 0.515464%; height: auto;" sr=
+c=3D"http://media.staples.com/email/templates/usso/a1/4f49925e531f5e92=
+bbf187fb03fdd933.gif" class=3D"vedpw194 ee_smallimage" border=3D"0" wi=
+dth=3D"1"></td>
+					</tr>
+					<tr>
+						<td align=3D"center" style=3D"font-family: Arial, sans-serif;wor=
+d-wrap: break-word;word-break: break-word;color: #333333;font-size: 14=
+px;line-height: 22px"><table width=3D"104" cellpadding=3D"0" cellspaci=
+ng=3D"0" bgcolor=3D"#cc0000" style=3D"table-layout: auto;">
+						<tbody><tr>
+							<td width=3D"104" height=3D"33" align=3D"center" style=3D"font-=
+family: Arial, sans-serif;word-wrap: break-word;word-break: break-word=
+;color: #ffffff;font-size: 14px;line-height: 19px"><a href=3D"http://a=
+dm-email.com/2K1U-15HZM-7KRNCQ-NERAL-1/c.aspx" style=3D"word-wrap: bre=
+ak-word;word-break: break-word;display: block;font-family: Arial, Verd=
+ana, sans-serif;font-size: 15px;line-height: 19px;color: #ffffff;text-=
+decoration: none"><b>SHOP NOW</b></a></td>
+						</tr>
+						</tbody></table></td>
+					</tr>
+					<tr>
+						<td style=3D"font-family: Arial, sans-serif;word-wrap: break-wor=
+d;word-break: break-word;color: #333333;font-size: 14px;line-height: 2=
+2px"><img class=3D"hei20  vedpw194 ee_smallimage" style=3D"display: bl=
+ock; width: 0.515464%; height: auto;" src=3D"http://media.staples.com/=
+email/templates/usso/a1/4f49925e531f5e92bbf187fb03fdd933.gif" border=3D=
+"0" width=3D"1"></td>
+					</tr>
+					</tbody></table></td> <td width=3D"196" class=3D"order1" align=3D=
+"center" style=3D"font-family: Arial, sans-serif;word-wrap: break-word=
+;word-break: break-word;color: #333333;font-size: 14px;line-height: 22=
+px"><table width=3D"196" cellpadding=3D"0" cellspacing=3D"0" style=3D"=
+table-layout: auto;">
+					<tbody><tr>
+						<td align=3D"center" style=3D"font-family: Arial, sans-serif;wor=
+d-wrap: break-word;word-break: break-word;color: #333333;font-size: 14=
+px;line-height: 22px"><img style=3D"display: block; width: 88.601%; he=
+ight: auto;" src=3D"http://media.staples.com/email/63705/deskjet_3755_=
+blue.jpg" class=3D"vedpw193" border=3D"0" width=3D"171"></td>
+					</tr>
+					<tr>
+						<td align=3D"center" style=3D"font-family: Arial, Verdana, sans-=
+serif;word-wrap: break-word;word-break: break-word;color: #000000;font=
+-size: 15px;line-height: 19px"><b>HP Deskjet 3755<br>
+						Compact All-in-One<br>
+						Photo Printer, Blue</b></td>
+					</tr>
+					<tr>
+						<td style=3D"font-family: Arial, sans-serif;word-wrap: break-wor=
+d;word-break: break-word;color: #333333;font-size: 14px;line-height: 2=
+2px"><img style=3D"display: block; width: 0.518135%; height: auto;" sr=
+c=3D"http://media.staples.com/email/templates/usso/a1/4f49925e531f5e92=
+bbf187fb03fdd933.gif" class=3D"vedpw193 ee_smallimage" border=3D"0" wi=
+dth=3D"1"></td>
+					</tr>
+					<tr>
+						<td align=3D"center" style=3D"font-family: Arial, sans-serif;wor=
+d-wrap: break-word;word-break: break-word;color: #333333;font-size: 14=
+px;line-height: 22px"><table width=3D"104" cellpadding=3D"0" cellspaci=
+ng=3D"0" bgcolor=3D"#cc0000" style=3D"table-layout: auto;">
+						<tbody><tr>
+							<td width=3D"104" height=3D"33" align=3D"center" style=3D"font-=
+family: Arial, sans-serif;word-wrap: break-word;word-break: break-word=
+;color: #ffffff;font-size: 14px;line-height: 19px"><a href=3D"http://a=
+dm-email.com/2K1U-15HZM-7KRNCQ-NERAM-1/c.aspx" style=3D"word-wrap: bre=
+ak-word;word-break: break-word;display: block;font-family: Arial, Verd=
+ana, sans-serif;font-size: 15px;line-height: 19px;color: #ffffff;text-=
+decoration: none"><b>SHOP NOW</b></a></td>
+						</tr>
+						</tbody></table></td>
+					</tr>
+					<tr>
+						<td style=3D"font-family: Arial, sans-serif;word-wrap: break-wor=
+d;word-break: break-word;color: #333333;font-size: 14px;line-height: 2=
+2px"><img class=3D"hei20  vedpw193 ee_smallimage" style=3D"display: bl=
+ock; width: 0.518135%; height: auto;" src=3D"http://media.staples.com/=
+email/templates/usso/a1/4f49925e531f5e92bbf187fb03fdd933.gif" border=3D=
+"0" width=3D"1"></td>
+					</tr>
+					</tbody></table></td> <td width=3D"197" class=3D"order1" align=3D=
+"center" style=3D"font-family: Arial, sans-serif;word-wrap: break-word=
+;word-break: break-word;color: #333333;font-size: 14px;line-height: 22=
+px"><table width=3D"197" cellpadding=3D"0" cellspacing=3D"0" style=3D"=
+table-layout: auto;">
+					<tbody><tr>
+						<td align=3D"center" style=3D"font-family: Arial, sans-serif;wor=
+d-wrap: break-word;word-break: break-word;color: #333333;font-size: 14=
+px;line-height: 22px"><img style=3D"display: block; width: 88.1443%; h=
+eight: auto;" src=3D"http://media.staples.com/email/63705/deskjet_3755=
+_seagrass.jpg" class=3D"vedpw194" border=3D"0" width=3D"171"></td>
+					</tr>
+					<tr>
+						<td align=3D"center" style=3D"font-family: Arial, Verdana, sans-=
+serif;word-wrap: break-word;word-break: break-word;color: #000000;font=
+-size: 15px;line-height: 19px"><b>HP Deskjet 3755<br>
+						Compact All-in-One<br>
+						Photo Printer, Seagrass</b></td>
+					</tr>
+					<tr>
+						<td style=3D"font-family: Arial, sans-serif;word-wrap: break-wor=
+d;word-break: break-word;color: #333333;font-size: 14px;line-height: 2=
+2px"><img style=3D"display: block; width: 0.515464%; height: auto;" sr=
+c=3D"http://media.staples.com/email/templates/usso/a1/4f49925e531f5e92=
+bbf187fb03fdd933.gif" class=3D"vedpw194 ee_smallimage" border=3D"0" wi=
+dth=3D"1"></td>
+					</tr>
+					<tr>
+						<td align=3D"center" style=3D"font-family: Arial, sans-serif;wor=
+d-wrap: break-word;word-break: break-word;color: #333333;font-size: 14=
+px;line-height: 22px"><table width=3D"104" cellpadding=3D"0" cellspaci=
+ng=3D"0" bgcolor=3D"#cc0000" style=3D"table-layout: auto;">
+						<tbody><tr>
+							<td width=3D"104" height=3D"33" align=3D"center" style=3D"font-=
+family: Arial, sans-serif;word-wrap: break-word;word-break: break-word=
+;color: #ffffff;font-size: 14px;line-height: 19px"><a href=3D"http://a=
+dm-email.com/2K1U-15HZM-7KRNCQ-NERAN-1/c.aspx" style=3D"word-wrap: bre=
+ak-word;word-break: break-word;display: block;font-family: Arial, Verd=
+ana, sans-serif;font-size: 15px;line-height: 19px;color: #ffffff;text-=
+decoration: none"><b>SHOP NOW</b></a></td>
+						</tr>
+						</tbody></table></td>
+					</tr>
+					<tr>
+						<td style=3D"font-family: Arial, sans-serif;word-wrap: break-wor=
+d;word-break: break-word;color: #333333;font-size: 14px;line-height: 2=
+2px"><img class=3D"hei20  vedpw194 ee_smallimage" style=3D"display: bl=
+ock; width: 0.515464%; height: auto;" src=3D"http://media.staples.com/=
+email/templates/usso/a1/4f49925e531f5e92bbf187fb03fdd933.gif" border=3D=
+"0" width=3D"1"></td>
+					</tr>
+					</tbody></table></td>
+				</tr>
+				<tr class=3D"remove">
+					<td colspan=3D"3" style=3D"font-family: Arial, sans-serif;word-wr=
+ap: break-word;word-break: break-word;color: #333333;font-size: 14px;l=
+ine-height: 22px"><img style=3D"display: block; width: 0.169205%; heig=
+ht: auto;" src=3D"http://media.staples.com/email/templates/usso/a1/4f4=
+9925e531f5e92bbf187fb03fdd933.gif" class=3D"vedpw591 ee_smallimage" bo=
+rder=3D"0" width=3D"1"></td>
+				</tr>
+				</tbody></table></td>
+			</tr>
+			</tbody></table></td> <td width=3D"25" class=3D"w16" style=3D"font-=
+family: Arial, sans-serif;word-wrap: break-word;word-break: break-word=
+;color: #333333;font-size: 14px;line-height: 22px"><img class=3D"w16  =
+vedpw24 ee_smallimage" style=3D"display: block; width: 100%; height: a=
+uto;" src=3D"http://media.staples.com/email/templates/usso/a1/4f49925e=
+531f5e92bbf187fb03fdd933.gif" border=3D"0" width=3D"24"></td>
+		</tr>
+		</tbody></table>
+	=09
+		<!--  END CREATIVE -->=20
+	=09
+		<table width=3D"640" class=3D"w320" cellpadding=3D"0" cellspacing=3D=
+"0" style=3D"table-layout: auto;">
+		<tbody><tr>
+			<td style=3D"font-family: Arial, sans-serif;word-wrap: break-word;w=
+ord-break: break-word;color: #333333;font-size: 14px;line-height: 22px=
+"><img style=3D"display: block; width: 0.156986%; height: auto;" src=3D=
+"http://media.staples.com/email/templates/usso/a1/4f49925e531f5e92bbf1=
+87fb03fdd933.gif" class=3D"vedpw637 ee_smallimage" border=3D"0" width=3D=
+"1"></td>
+		</tr>
+		</tbody></table>
+		<table width=3D"640" class=3D"remove" cellpadding=3D"0" cellspacing=3D=
+"0" style=3D"table-layout: auto;">=20
+		<!-- DESKTOP - WEEKLY AD - COUPONS - STORE FINDER -->
+		<tbody><tr>
+			<td width=3D"212" align=3D"center" style=3D"font-family: Arial, san=
+s-serif;word-wrap: break-word;word-break: break-word;color: #333333;fo=
+nt-size: 14px;line-height: 22px"><a href=3D"http://adm-email.com/2K1U-=
+15HZM-7KRNCQ-NERAO-1/c.aspx" style=3D"word-wrap: break-word;word-break=
+: break-word">
+			<img style=3D"display: block; width: 100%; height: auto;" src=3D"ht=
+tp://media.staples.com/email/templates/usso/a1/weeklyad_d.gif" border=3D=
+"0" alt=3D"See our Weekly Ad" class=3D"vedpw211 ee_pnggif_image" width=
+=3D"211">
+			</a></td> <td width=3D"2" style=3D"font-family: Arial, sans-serif;w=
+ord-wrap: break-word;word-break: break-word;color: #333333;font-size: =
+14px;line-height: 22px"><img style=3D"display: block; width: 100%; hei=
+ght: auto;" src=3D"http://media.staples.com/email/templates/usso/a1/4f=
+49925e531f5e92bbf187fb03fdd933.gif" class=3D"vedpw1 ee_smallimage" bor=
+der=3D"0" width=3D"1"></td> <td width=3D"212" align=3D"center" style=3D=
+"font-family: Arial, sans-serif;word-wrap: break-word;word-break: brea=
+k-word;color: #333333;font-size: 14px;line-height: 22px"><a href=3D"ht=
+tp://adm-email.com/2K1U-15HZM-7KRNCQ-NERAP-1/c.aspx" style=3D"word-wra=
+p: break-word;word-break: break-word">
+			<img style=3D"display: block; width: 100%; height: auto;" src=3D"ht=
+tp://media.staples.com/email/templates/usso/a1/coupons_d.gif" border=3D=
+"0" alt=3D"Get your coupons" class=3D"vedpw211 ee_pnggif_image" width=3D=
+"211">
+			</a></td> <td width=3D"2" style=3D"font-family: Arial, sans-serif;w=
+ord-wrap: break-word;word-break: break-word;color: #333333;font-size: =
+14px;line-height: 22px"><img style=3D"display: block; width: 100%; hei=
+ght: auto;" src=3D"http://media.staples.com/email/templates/usso/a1/4f=
+49925e531f5e92bbf187fb03fdd933.gif" class=3D"vedpw1 ee_smallimage" bor=
+der=3D"0" width=3D"1"></td> <td width=3D"212" align=3D"center" style=3D=
+"font-family: Arial, sans-serif;word-wrap: break-word;word-break: brea=
+k-word;color: #333333;font-size: 14px;line-height: 22px"><a href=3D"ht=
+tp://adm-email.com/2K1U-15HZM-7KRNCQ-NERAQ-1/c.aspx" style=3D"word-wra=
+p: break-word;word-break: break-word">
+			<img style=3D"display: block; width: 100%; height: auto;" src=3D"ht=
+tp://media.staples.com/email/templates/usso/a1/storefinder_d.gif" bord=
+er=3D"0" alt=3D"Find a local store" class=3D"vedpw211 ee_pnggif_image"=
+ width=3D"211">
+			</a></td>
+		</tr>
+		</tbody></table>
+		<table width=3D"320" class=3D"showFoTABLE" cellpadding=3D"0" cellspa=
+cing=3D"0" bgcolor=3D"#ffffff" style=3D"display:none; font-size:0; lin=
+e-height:0; height:0; margin:0; padding-top: 0;padding-right: 0;paddin=
+g-bottom: 0;padding-left: 0;table-layout: auto;">=20
+		<!-- MOBILE - WEEKLY AD - COUPONS - STORE FINDER -->
+		<tbody><tr bgcolor=3D"#e3e3e3">
+			<td colspan=3D"3" style=3D"font-family: Arial, sans-serif;word-wrap=
+: break-word;word-break: break-word;color: #333333;font-size: 14px;lin=
+e-height: 22px"><img style=3D"display: block; width: 0%; height: auto;=
+" src=3D"http://media.staples.com/email/templates/usso/a1/4f49925e531f=
+5e92bbf187fb03fdd933.gif" class=3D"vedpw-2 ee_smallimage" border=3D"0"=
+ width=3D"1"></td>
+		</tr>
+		<tr>
+			<td width=3D"107" align=3D"center" style=3D"font-family: Arial, san=
+s-serif;word-wrap: break-word;word-break: break-word;color: #333333;fo=
+nt-size: 14px;line-height: 22px"><a href=3D"http://adm-email.com/2K1U-=
+15HZM-7KRNCQ-NERAO-1/c.aspx" style=3D"word-wrap: break-word;word-break=
+: break-word">
+			<img class=3D"hei94  vedpw-2 ee_smallimage ee_pnggif_image" style=3D=
+"display: block; width: 0%; height: auto;" src=3D"http://media.staples=
+.com/email/templates/usso/a1/weeklyad_m.gif" border=3D"0" alt=3D"See o=
+ur Weekly Ad" width=3D"1">
+			</a></td> <td width=3D"106" align=3D"center" style=3D"font-family: =
+Arial, sans-serif;word-wrap: break-word;word-break: break-word;color: =
+#333333;font-size: 14px;line-height: 22px"><a href=3D"http://adm-email=
+.com/2K1U-15HZM-7KRNCQ-NERAP-1/c.aspx" style=3D"word-wrap: break-word;=
+word-break: break-word">
+			<img class=3D"hei94  vedpw-2 ee_smallimage ee_pnggif_image" style=3D=
+"display: block; width: 0%; height: auto;" src=3D"http://media.staples=
+.com/email/templates/usso/a1/coupons_m.gif" border=3D"0" alt=3D"Get yo=
+ur coupons" width=3D"1">
+			</a></td> <td width=3D"107" align=3D"center" style=3D"font-family: =
+Arial, sans-serif;word-wrap: break-word;word-break: break-word;color: =
+#333333;font-size: 14px;line-height: 22px"><a href=3D"http://adm-email=
+.com/2K1U-15HZM-7KRNCQ-NERAQ-1/c.aspx" style=3D"word-wrap: break-word;=
+word-break: break-word">
+			<img class=3D"hei94  vedpw-2 ee_smallimage ee_pnggif_image" style=3D=
+"display: block; width: 0%; height: auto;" src=3D"http://media.staples=
+.com/email/templates/usso/a1/storefinder_m.gif" border=3D"0" alt=3D"Fi=
+nd a local store" width=3D"1">
+			</a></td>
+		</tr>
+		</tbody></table>
+		<table width=3D"640" class=3D"w320" cellpadding=3D"0" cellspacing=3D=
+"0" style=3D"table-layout: auto;">
+		<tbody><tr>
+			<td style=3D"font-family: Arial, sans-serif;word-wrap: break-word;w=
+ord-break: break-word;color: #333333;font-size: 14px;line-height: 22px=
+"><img style=3D"display: block; width: 0.156986%; height: auto;" src=3D=
+"http://media.staples.com/email/templates/usso/a1/4f49925e531f5e92bbf1=
+87fb03fdd933.gif" class=3D"vedpw637 ee_smallimage" border=3D"0" width=3D=
+"1"></td>
+		</tr>
+		</tbody></table>
+		<table width=3D"320" class=3D"showFoTABLE bgGray" cellpadding=3D"0" =
+cellspacing=3D"0" bgcolor=3D"#ffffff" style=3D"display:none; font-size=
+:0; line-height:0; height:0; margin:0; padding-top: 0;padding-right: 0=
+;padding-bottom: 0;padding-left: 0;table-layout: auto;">=20
+		<!-- FOOTER NAVIGATION -->
+		<tbody><tr>
+			<td width=3D"320" class=3D"c50pc100pc" align=3D"center" valign=3D"m=
+iddle" style=3D"font-family: Arial, sans-serif;word-wrap: break-word;w=
+ord-break: break-word;color: #333333;font-size: 14px;line-height: 22px=
+"><a class=3D"showFoTD" style=3D"word-wrap: break-word;word-break: bre=
+ak-word;display: none;font-size: 0;line-height: 0;color: #000000;text-=
+decoration: none" href=3D"http://adm-email.com/2K1U-15HZM-7KRNCQ-NERAR=
+-1/c.aspx">FURNITURE</a></td>
+		</tr>
+		<tr>
+			<td width=3D"320" class=3D"c50pc100pc" bgcolor=3D"#ffffff" style=3D=
+"font-family: Arial, sans-serif;word-wrap: break-word;word-break: brea=
+k-word;color: #333333;font-size: 14px;line-height: 22px"><img class=3D=
+"hei2  vedpw-2 ee_smallimage" style=3D"display: block; width: 0%; heig=
+ht: auto;" src=3D"http://media.staples.com/email/templates/usso/a1/4f4=
+9925e531f5e92bbf187fb03fdd933.gif" border=3D"0" width=3D"1"></td>
+		</tr>
+		<tr>
+			<td width=3D"320" class=3D"c50pc100pc" align=3D"center" valign=3D"m=
+iddle" style=3D"font-family: Arial, sans-serif;word-wrap: break-word;w=
+ord-break: break-word;color: #333333;font-size: 14px;line-height: 22px=
+"><a class=3D"showFoTD" style=3D"word-wrap: break-word;word-break: bre=
+ak-word;display: none;font-size: 0;line-height: 0;color: #000000;text-=
+decoration: none" href=3D"http://adm-email.com/2K1U-15HZM-7KRNCQ-NERAS=
+-1/c.aspx">PAPER</a></td>
+		</tr>
+		<tr>
+			<td width=3D"320" class=3D"c50pc100pc" bgcolor=3D"#ffffff" style=3D=
+"font-family: Arial, sans-serif;word-wrap: break-word;word-break: brea=
+k-word;color: #333333;font-size: 14px;line-height: 22px"><img class=3D=
+"hei2  vedpw-2 ee_smallimage" style=3D"display: block; width: 0%; heig=
+ht: auto;" src=3D"http://media.staples.com/email/templates/usso/a1/4f4=
+9925e531f5e92bbf187fb03fdd933.gif" border=3D"0" width=3D"1"></td>
+		</tr>
+		<tr>
+			<td width=3D"320" class=3D"c50pc100pc" align=3D"center" valign=3D"m=
+iddle" style=3D"font-family: Arial, sans-serif;word-wrap: break-word;w=
+ord-break: break-word;color: #333333;font-size: 14px;line-height: 22px=
+"><a class=3D"showFoTD" style=3D"word-wrap: break-word;word-break: bre=
+ak-word;display: none;font-size: 0;line-height: 0;color: #000000;text-=
+decoration: none" href=3D"http://adm-email.com/2K1U-15HZM-7KRNCQ-NERAT=
+-1/c.aspx">BREAKROOM</a></td>
+		</tr>
+		<tr>
+			<td width=3D"320" class=3D"c50pc100pc" bgcolor=3D"#ffffff" style=3D=
+"font-family: Arial, sans-serif;word-wrap: break-word;word-break: brea=
+k-word;color: #333333;font-size: 14px;line-height: 22px"><img class=3D=
+"hei2  vedpw-2 ee_smallimage" style=3D"display: block; width: 0%; heig=
+ht: auto;" src=3D"http://media.staples.com/email/templates/usso/a1/4f4=
+9925e531f5e92bbf187fb03fdd933.gif" border=3D"0" width=3D"1"></td>
+		</tr>
+		<tr>
+			<td width=3D"320" class=3D"c50pc100pc" align=3D"center" valign=3D"m=
+iddle" style=3D"font-family: Arial, sans-serif;word-wrap: break-word;w=
+ord-break: break-word;color: #333333;font-size: 14px;line-height: 22px=
+"><a class=3D"showFoTD" style=3D"word-wrap: break-word;word-break: bre=
+ak-word;display: none;font-size: 0;line-height: 0;color: #000000;text-=
+decoration: none" href=3D"http://adm-email.com/2K1U-15HZM-7KRNCQ-NERAU=
+-1/c.aspx">INK &amp; TONER</a></td>
+		</tr>
+		<tr>
+			<td width=3D"320" class=3D"c50pc100pc" bgcolor=3D"#ffffff" style=3D=
+"font-family: Arial, sans-serif;word-wrap: break-word;word-break: brea=
+k-word;color: #333333;font-size: 14px;line-height: 22px"><img class=3D=
+"hei2  vedpw-2 ee_smallimage" style=3D"display: block; width: 0%; heig=
+ht: auto;" src=3D"http://media.staples.com/email/templates/usso/a1/4f4=
+9925e531f5e92bbf187fb03fdd933.gif" border=3D"0" width=3D"1"></td>
+		</tr>
+		<tr>
+			<td width=3D"320" class=3D"c50pc100pc" align=3D"center" valign=3D"m=
+iddle" style=3D"font-family: Arial, sans-serif;word-wrap: break-word;w=
+ord-break: break-word;color: #333333;font-size: 14px;line-height: 22px=
+"><a class=3D"showFoTD" style=3D"word-wrap: break-word;word-break: bre=
+ak-word;display: none;font-size: 0;line-height: 0;color: #000000;text-=
+decoration: none" href=3D"http://adm-email.com/2K1U-15HZM-7KRNCQ-NERAV=
+-1/c.aspx">ELECTRONICS</a></td>
+		</tr>
+		<tr>
+			<td width=3D"320" class=3D"c50pc100pc" bgcolor=3D"#ffffff" style=3D=
+"font-family: Arial, sans-serif;word-wrap: break-word;word-break: brea=
+k-word;color: #333333;font-size: 14px;line-height: 22px"><img class=3D=
+"hei2  vedpw-2 ee_smallimage" style=3D"display: block; width: 0%; heig=
+ht: auto;" src=3D"http://media.staples.com/email/templates/usso/a1/4f4=
+9925e531f5e92bbf187fb03fdd933.gif" border=3D"0" width=3D"1"></td>
+		</tr>
+		<tr>
+			<td width=3D"320" class=3D"c50pc100pc" align=3D"center" valign=3D"m=
+iddle" style=3D"font-family: Arial, sans-serif;word-wrap: break-word;w=
+ord-break: break-word;color: #333333;font-size: 14px;line-height: 22px=
+"><a class=3D"showFoTD" style=3D"word-wrap: break-word;word-break: bre=
+ak-word;display: none;font-size: 0;line-height: 0;color: #000000;text-=
+decoration: none" href=3D"http://adm-email.com/2K1U-15HZM-7KRNCQ-NERAW=
+-1/c.aspx">OFFICE SUPPLIES</a></td>
+		</tr>
+		<tr>
+			<td width=3D"320" class=3D"c50pc100pc" bgcolor=3D"#ffffff" style=3D=
+"font-family: Arial, sans-serif;word-wrap: break-word;word-break: brea=
+k-word;color: #333333;font-size: 14px;line-height: 22px"><img class=3D=
+"hei8  vedpw-2 ee_smallimage" style=3D"display: block; width: 0%; heig=
+ht: auto;" src=3D"http://media.staples.com/email/templates/usso/a1/4f4=
+9925e531f5e92bbf187fb03fdd933.gif" border=3D"0" width=3D"1"></td>
+		</tr>
+		</tbody></table>
+		<table width=3D"640" class=3D"w320" cellpadding=3D"0" cellspacing=3D=
+"0" style=3D"table-layout: auto;">
+		<tbody><tr class=3D"flexbox">
+			<td width=3D"319" class=3D"order1" bgcolor=3D"#444444" style=3D"fon=
+t-family: Arial, sans-serif;word-wrap: break-word;word-break: break-wo=
+rd;color: #333333;font-size: 14px;line-height: 22px"><table width=3D"3=
+19" class=3D"w320" cellpadding=3D"0" cellspacing=3D"0" style=3D"table-=
+layout: auto;">
+			<tbody><tr>
+				<td width=3D"16" style=3D"font-family: Arial, sans-serif;word-wrap=
+: break-word;word-break: break-word;color: #333333;font-size: 14px;lin=
+e-height: 22px"><img style=3D"display: block; width: 100%; height: aut=
+o;" src=3D"http://media.staples.com/email/templates/usso/a1/4f49925e53=
+1f5e92bbf187fb03fdd933.gif" class=3D"vedpw15 ee_smallimage" border=3D"=
+0" width=3D"15"></td> <td width=3D"288" style=3D"font-family: Arial, s=
+ans-serif;word-wrap: break-word;word-break: break-word;color: #333333;=
+font-size: 14px;line-height: 22px"><table width=3D"288" cellpadding=3D=
+"0" cellspacing=3D"0" style=3D"table-layout: auto;">
+				<tbody><tr>
+					<td style=3D"font-family: Arial, sans-serif;word-wrap: break-word=
+;word-break: break-word;color: #333333;font-size: 14px;line-height: 22=
+px"><img style=3D"display: block; width: 0.348432%; height: auto;" src=
+=3D"http://media.staples.com/email/templates/usso/a1/4f49925e531f5e92b=
+bf187fb03fdd933.gif" class=3D"vedpw287 ee_smallimage" border=3D"0" wid=
+th=3D"1"></td>
+				</tr>
+				<tr>
+					<td style=3D"font-family: Arial, sans-serif;word-wrap: break-word=
+;word-break: break-word;color: #333333;font-size: 14px;line-height: 22=
+px"><table width=3D"288" cellpadding=3D"0" cellspacing=3D"0" style=3D"=
+table-layout: auto;">
+					<tbody><tr>
+						<td width=3D"251" align=3D"left" valign=3D"middle" style=3D"font=
+-family: Arial, sans-serif;word-wrap: break-word;word-break: break-wor=
+d;color: #333333;font-size: 12px;line-height: 16px"><a href=3D"http://=
+adm-email.com/2K1U-15HZM-7KRNCQ-NERAX-1/c.aspx" style=3D"word-wrap: br=
+eak-word;word-break: break-word;font-family: Arial, Verdana, sans-seri=
+f;font-size: 12px;line-height: 16px;color: #ffffff;text-decoration: no=
+ne">Get professional tips and ideas:<br>
+						<b style=3D"font-size:13px; line-height:17px;">BUSINESS RESOURCE=
+ CENTER</b>.</a></td> <td width=3D"37" align=3D"right" valign=3D"middl=
+e" style=3D"font-family: Arial, sans-serif;word-wrap: break-word;word-=
+break: break-word;color: #333333;font-size: 14px;line-height: 22px"><i=
+mg style=3D"display: block; width: 100%; height: auto;" src=3D"http://=
+media.staples.com/email/templates/usso/a1/insight_icon.gif" border=3D"=
+0" class=3D"vedpw36 ee_smallimage ee_pnggif_image" width=3D"36"></td>
+					</tr>
+					</tbody></table></td>
+				</tr>
+				<tr>
+					<td style=3D"font-family: Arial, sans-serif;word-wrap: break-word=
+;word-break: break-word;color: #333333;font-size: 14px;line-height: 22=
+px"><img style=3D"display: block; width: 0.348432%; height: auto;" src=
+=3D"http://media.staples.com/email/templates/usso/a1/4f49925e531f5e92b=
+bf187fb03fdd933.gif" class=3D"vedpw287 ee_smallimage" border=3D"0" wid=
+th=3D"1"></td>
+				</tr>
+				</tbody></table></td> <td width=3D"15" class=3D"w16" style=3D"font=
+-family: Arial, sans-serif;word-wrap: break-word;word-break: break-wor=
+d;color: #333333;font-size: 14px;line-height: 22px"><img class=3D"w16 =
+ vedpw14 ee_smallimage" style=3D"display: block; width: 100%; height: =
+auto;" src=3D"http://media.staples.com/email/templates/usso/a1/4f49925=
+e531f5e92bbf187fb03fdd933.gif" border=3D"0" width=3D"14"></td>
+			</tr>
+			</tbody></table></td> <td width=3D"1" class=3D"order2" style=3D"fon=
+t-family: Arial, sans-serif;word-wrap: break-word;word-break: break-wo=
+rd;color: #333333;font-size: 14px;line-height: 22px"><img style=3D"dis=
+play: block; width: 100%; height: auto;" src=3D"http://media.staples.c=
+om/email/templates/usso/a1/4f49925e531f5e92bbf187fb03fdd933.gif" class=
+=3D"vedpw1 ee_smallimage" border=3D"0" width=3D"1"></td> <td width=3D"=
+320" class=3D"order3" bgcolor=3D"#444444" style=3D"font-family: Arial,=
+ sans-serif;word-wrap: break-word;word-break: break-word;color: #33333=
+3;font-size: 14px;line-height: 22px"><table width=3D"320" cellpadding=3D=
+"0" cellspacing=3D"0" style=3D"table-layout: auto;">
+			<tbody><tr>
+				<td width=3D"16" style=3D"font-family: Arial, sans-serif;word-wrap=
+: break-word;word-break: break-word;color: #333333;font-size: 14px;lin=
+e-height: 22px"><img style=3D"display: block; width: 100%; height: aut=
+o;" src=3D"http://media.staples.com/email/templates/usso/a1/4f49925e53=
+1f5e92bbf187fb03fdd933.gif" class=3D"vedpw15 ee_smallimage" border=3D"=
+0" width=3D"15"></td> <td width=3D"292" style=3D"font-family: Arial, s=
+ans-serif;word-wrap: break-word;word-break: break-word;color: #333333;=
+font-size: 14px;line-height: 22px"><table width=3D"292" cellpadding=3D=
+"0" cellspacing=3D"0" style=3D"table-layout: auto;">
+				<tbody><tr>
+					<td width=3D"292" style=3D"font-family: Arial, sans-serif;word-wr=
+ap: break-word;word-break: break-word;color: #333333;font-size: 14px;l=
+ine-height: 22px"><img style=3D"display: block; width: 0.343643%; heig=
+ht: auto;" src=3D"http://media.staples.com/email/templates/usso/a1/4f4=
+9925e531f5e92bbf187fb03fdd933.gif" class=3D"vedpw291 ee_smallimage" bo=
+rder=3D"0" width=3D"1"></td>
+				</tr>
+				<tr>
+					<td width=3D"292" style=3D"font-family: Arial, sans-serif;word-wr=
+ap: break-word;word-break: break-word;color: #333333;font-size: 14px;l=
+ine-height: 22px"><table width=3D"292" cellpadding=3D"0" cellspacing=3D=
+"0" style=3D"table-layout: auto;">
+					<tbody><tr>
+						<td width=3D"137" class=3D"left" align=3D"left" valign=3D"middle=
+" style=3D"font-family: Arial, Verdana, sans-serif;word-wrap: break-wo=
+rd;word-break: break-word;color: #ffffff;font-size: 13px;line-height: =
+16px"><b>STAY CONNECTED</b></td> <td width=3D"31" align=3D"right" vali=
+gn=3D"middle" style=3D"font-family: Arial, sans-serif;word-wrap: break=
+-word;word-break: break-word;color: #333333;font-size: 14px;line-heigh=
+t: 22px"><a href=3D"http://adm-email.com/2K1U-15HZM-7KRNCQ-NERA7-1/c.a=
+spx" title=3D"Connect with our mobile App." style=3D"word-wrap: break-=
+word;word-break: break-word">
+						<img style=3D"display: block; width: 100%; height: auto;" src=3D=
+"http://media.staples.com/email/templates/usso/a1/icon_app.gif" border=
+=3D"0" class=3D"vedpw30 ee_smallimage ee_pnggif_image" width=3D"30">
+						</a></td> <td width=3D"31" align=3D"right" valign=3D"middle" sty=
+le=3D"font-family: Arial, sans-serif;word-wrap: break-word;word-break:=
+ break-word;color: #333333;font-size: 14px;line-height: 22px"><a href=3D=
+"http://adm-email.com/2K1U-15HZM-7KRNCQ-NERAY-1/c.aspx" title=3D"Conne=
+ct with us on LinkedIn." style=3D"word-wrap: break-word;word-break: br=
+eak-word">
+						<img style=3D"display: block; width: 100%; height: auto;" src=3D=
+"http://media.staples.com/email/templates/usso/a1/icon_in.gif" border=3D=
+"0" class=3D"vedpw30 ee_smallimage ee_pnggif_image" width=3D"30">
+						</a></td> <td width=3D"31" align=3D"right" valign=3D"middle" sty=
+le=3D"font-family: Arial, sans-serif;word-wrap: break-word;word-break:=
+ break-word;color: #333333;font-size: 14px;line-height: 22px"><a href=3D=
+"http://adm-email.com/2K1U-15HZM-7KRNCQ-NERAZ-1/c.aspx" title=3D"Conne=
+ct with us on Twitter." style=3D"word-wrap: break-word;word-break: bre=
+ak-word">
+						<img style=3D"display: block; width: 100%; height: auto;" src=3D=
+"http://media.staples.com/email/templates/usso/a1/icon_twee.gif" borde=
+r=3D"0" class=3D"vedpw30 ee_smallimage ee_pnggif_image" width=3D"30">
+						</a></td> <td width=3D"31" align=3D"right" valign=3D"middle" sty=
+le=3D"font-family: Arial, sans-serif;word-wrap: break-word;word-break:=
+ break-word;color: #333333;font-size: 14px;line-height: 22px"><a href=3D=
+"http://adm-email.com/2K1U-15HZM-7KRNCQ-NERB0-1/c.aspx" title=3D"Conne=
+ct with us on Facebook." style=3D"word-wrap: break-word;word-break: br=
+eak-word">
+						<img style=3D"display: block; width: 100%; height: auto;" src=3D=
+"http://media.staples.com/email/templates/usso/a1/icon_face.gif" borde=
+r=3D"0" class=3D"vedpw30 ee_smallimage ee_pnggif_image" width=3D"30">
+						</a></td> <td width=3D"31" align=3D"right" valign=3D"middle" sty=
+le=3D"font-family: Arial, sans-serif;word-wrap: break-word;word-break:=
+ break-word;color: #333333;font-size: 14px;line-height: 22px"><a href=3D=
+"http://adm-email.com/2K1U-15HZM-7KRNCQ-NERB1-1/c.aspx" title=3D"Conne=
+ct with us on YouTube." style=3D"word-wrap: break-word;word-break: bre=
+ak-word">
+						<img style=3D"display: block; width: 100%; height: auto;" src=3D=
+"http://media.staples.com/email/templates/usso/a1/icon_yout.gif" borde=
+r=3D"0" class=3D"vedpw30 ee_smallimage ee_pnggif_image" width=3D"30">
+						</a></td>
+					</tr>
+					</tbody></table></td>
+				</tr>
+				<tr>
+					<td width=3D"283" style=3D"font-family: Arial, sans-serif;word-wr=
+ap: break-word;word-break: break-word;color: #333333;font-size: 14px;l=
+ine-height: 22px"><img style=3D"display: block; width: 0.343643%; heig=
+ht: auto;" src=3D"http://media.staples.com/email/templates/usso/a1/4f4=
+9925e531f5e92bbf187fb03fdd933.gif" class=3D"vedpw291 ee_smallimage" bo=
+rder=3D"0" width=3D"1"></td>
+				</tr>
+				</tbody></table></td> <td width=3D"12" style=3D"font-family: Arial=
+, sans-serif;word-wrap: break-word;word-break: break-word;color: #3333=
+33;font-size: 14px;line-height: 22px"><img style=3D"display: block; wi=
+dth: 100%; height: auto;" src=3D"http://media.staples.com/email/templa=
+tes/usso/a1/4f49925e531f5e92bbf187fb03fdd933.gif" class=3D"vedpw11 ee_=
+smallimage" border=3D"0" width=3D"11"></td>
+			</tr>
+			</tbody></table></td>
+		</tr>
+		</tbody></table>
+		<table width=3D"640" class=3D"w320" cellpadding=3D"0" cellspacing=3D=
+"0" style=3D"table-layout: auto;">
+		<tbody><tr>
+			<td style=3D"font-family: Arial, sans-serif;word-wrap: break-word;w=
+ord-break: break-word;color: #333333;font-size: 14px;line-height: 22px=
+"><img style=3D"display: block; width: 0.156986%; height: auto;" src=3D=
+"http://media.staples.com/email/templates/usso/a1/4f49925e531f5e92bbf1=
+87fb03fdd933.gif" class=3D"vedpw637 ee_smallimage" border=3D"0" width=3D=
+"1"></td>
+		</tr>
+		</tbody></table>
+		<table width=3D"640" class=3D"w320" cellpadding=3D"0" cellspacing=3D=
+"0" style=3D"table-layout: auto;">=20
+		<!-- LEGAL -->
+		<tbody><tr>
+			<td colspan=3D"3" class=3D"w320" width=3D"640" style=3D"font-family=
+: Arial, sans-serif;word-wrap: break-word;word-break: break-word;color=
+: #333333;font-size: 14px;line-height: 22px"><img style=3D"display: bl=
+ock; width: 0.156986%; height: auto;" src=3D"http://media.staples.com/=
+email/templates/usso/a1/4f49925e531f5e92bbf187fb03fdd933.gif" class=3D=
+"vedpw637 ee_smallimage" border=3D"0" width=3D"1"></td>
+		</tr>
+		<tr>
+			<td width=3D"25" class=3D"w16" style=3D"font-family: Arial, sans-se=
+rif;word-wrap: break-word;word-break: break-word;color: #333333;font-s=
+ize: 14px;line-height: 22px"><img class=3D"w16  vedpw24 ee_smallimage"=
+ style=3D"display: block; width: 100%; height: auto;" src=3D"http://me=
+dia.staples.com/email/templates/usso/a1/4f49925e531f5e92bbf187fb03fdd9=
+33.gif" border=3D"0" width=3D"24"></td> <td class=3D"w288" width=3D"59=
+0" align=3D"center" style=3D"font-family: Arial, Verdana, sans-serif;w=
+ord-wrap: break-word;word-break: break-word;color: #666666;font-size: =
+11px;line-height: 16px"><!-- DISCLAIMER BEGIN -->
+		=09
+			<div class=3D"w288" width=3D"590"> *The free printing plan allows y=
+ou to print 15 pages per month at no cost (paper not included) for the=
+ life of your printer. Overage pages are excluded and will be charged =
+to customer credit/debit card at the end of the month at a rate of $1 =
+per additional block of 10 pages (Customer to be charged $1 for each b=
+lock even if customer doesn't use entire block). HP reserves the right=
+ to modify or cancel the free printing plan anytime on 60 days=E2=80=99=
+ notice. This offer cannot be redeemed for cash except as required by =
+law. Additional information available in HP Instant Ink Terms at hpins=
+tantink.com<br>
+				<br>
+				Change or cancel your plan at any time online except that you can=E2=
+=80=99t downgrade from a paid plan to the free plan since it is an int=
+roductory offer only. If you decide to cancel your HP Instant Ink plan=
+, you can go back to using HP original Standard or XL cartridges. Plan=
+ upgrades are effective immediately and the charges will be applied re=
+trospectively or in the next billing cycle, depending on user choice. =
+Plan downgrades and cancelations are effective after the last day of t=
+he current billing period. For full details, go to instantink.hpconnec=
+ted.com/terms.<br>
+				<br>
+				**Based on your plan usage, Internet connection to eligible HP pri=
+nter, valid credit/debit card, email address, and delivery service in =
+your geographic area.<br>
+				<br>
+			</div>
+		=09
+			<!-- DISCLAIMER END -->=20
+		=09
+			<span class=3D"addr">Staples, Inc., 500 Staples Drive, Framingham, =
+MA 01702</span></td> <td width=3D"25" class=3D"w16" style=3D"font-fami=
+ly: Arial, sans-serif;word-wrap: break-word;word-break: break-word;col=
+or: #333333;font-size: 14px;line-height: 22px"><img class=3D"w16  vedp=
+w24 ee_smallimage" style=3D"display: block; width: 100%; height: auto;=
+" src=3D"http://media.staples.com/email/templates/usso/a1/4f49925e531f=
+5e92bbf187fb03fdd933.gif" border=3D"0" width=3D"24"></td>
+		</tr>
+		<tr>
+<td colspan=3D"3" width=3D"1" style=3D"font-family: Arial, sans-serif;=
+word-wrap: break-word;word-break: break-word;color: #333333;font-size:=
+ 14px;line-height: 22px"><img src=3D"http://media.staples.com/email/te=
+mplates/usso/a1/4f49925e531f5e92bb" class=3D"vedpw637" style=3D"width:=
+ 1px; height: auto;" width=3D"1">
+		</td></tr></tbody></table>
+	</td></tr></tbody></table>
+</td></tr></tbody></table>
+<div style=3D"font-family: 'trebuchet ms', verdana, arial, sans-serif;=
+ font-size: 12px;"> <font style=3D"word-wrap: break-word;word-break: b=
+reak-word;font-family: 'trebuchet ms', verdana, arial, sans-serif;font=
+-size: 12px">
+	<center>
+		If you do not wish to receive these emails in the future you may uns=
+ubscribe <a href=3D"http://adm-email.com/2K1U-15HZM-2D7KRNCQ31/uns.asp=
+x" style=3D"word-wrap: break-word;word-break: break-word">here</a>.
+	</center>
+</font></div><font style=3D"word-wrap: break-word;word-break: break-wo=
+rd;font-family: 'trebuchet ms', verdana, arial, sans-serif;font-size: =
+12px">
+</font></div>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </div>
+                                  <!--[if mso]></td></tr></table><![en=
+dif]-->
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <!--[if (gte mso 9)|(IE)]></td></tr></table><![endif=
+]-->
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </center>
+      </td>
+    </tr>
+  </tbody>
+</table>       <img src=3D"http://adm-email.com/2K1U-15HZM-7KRNCQ/o.gi=
+f" height=3D"1" alt=3D"" style=3D"display:block;" width=3D"1"><font co=
+lor=3D"#1B4EBEFA"></font>   </body></html>
+
+--=-WX0iHTzAWUIf2LjL6Lnrbg==--
+

@@ -1,0 +1,134 @@
+Return-Path: <charlee@centurytel.net>
+Delivered-To: pam@magicalstrings.com
+Received: from biz164.inmotionhosting.com
+	by biz164.inmotionhosting.com with LMTP id 2COFFac6RVuA7AEAtEtsOg
+	for <pam@magicalstrings.com>; Tue, 10 Jul 2018 16:00:55 -0700
+Return-path: <charlee@centurytel.net>
+Envelope-to: pam@magicalstrings.com
+Delivery-date: Tue, 10 Jul 2018 16:00:55 -0700
+Received: from mail.onyx.syn-alias.com ([206.152.134.66]:44038 helo=smtp.centurylink.net)
+	by biz164.inmotionhosting.com with esmtps (TLSv1.2:ECDHE-RSA-AES256-GCM-SHA384:256)
+	(Exim 4.89_1)
+	(envelope-from <charlee@centurytel.net>)
+	id 1fd1ci-000nBz-96
+	for pam@magicalstrings.com; Tue, 10 Jul 2018 16:00:55 -0700
+DKIM-Signature: v=1; a=rsa-sha1; d=centurytel.net; s=ctl201402; c=relaxed/simple;
+	q=dns/txt; i=@centurytel.net; t=1531263643;
+	h=From:Subject:Date:To:Mime-Version:Content-Type;
+	bh=X2BeQ9T744tlMp4bG+8I1N1X9Qc=;
+	b=G1aN/xPOOQZwzSpspHy9y3QNghgDLgocAhpRG38WrCidsKs/BvF9+5DklQL8iavu
+	nlchzZ3iJGhIww7EQMVL5WAOtMv7B3z+3Fc+br6W6x/FA34tf1eN6aa1NJsPaCWo
+	RHxQ3Xrtg/tFD++cDpv/sDp6WtpArK+Ev0Aoz8a0jc2BnVtLH3cbE3IGIFBbuXyP
+	PJ+28D0AApl8tsJkC+xo6ExiNuGsJ8clqW06po4HoJDLIn0zkHytGRHz3scvjItX
+	vgz24Csh15H4zdXoas3s46bT5KwSYhszPfsX0P9wh+wmC6kutMqXdbg4fFrHAydC
+	+I95qI/wsbU79xv5kxJTjQ==;
+X_CMAE_Category: , ,
+X-CNFS-Analysis: v=2.2 cv=RM7xJMq+ c=1 sm=1 tr=0 a=A8hnSOH374dKe5IyWoR3bw==:117 a=A8hnSOH374dKe5IyWoR3bw==:17 a=KGjhK52YXX0A:10 a=9cW_t1CCXrUA:10 a=R9QF1RCXAYgA:10 a=ptE2iofFSQ4A:10 a=OVYYE5vnAAAA:8 a=_iZ5iP-XoF-D4oG96CMA:9 a=pILNOxqGKmIA:10 a=dblLf47rMMQA:10 a=4qpa6MexO5_BqVPZj9AA:9 a=aGRPhqytYabc9o9r:21 a=_W_S_7VecoQA:10 a=DajTIXEhSK9J_EhppuFW:22
+X-CM-Score: 0
+X-Scanned-by: Cloudmark Authority Engine
+X-Authed-Username: Y2hhcmxlZUBjZW50dXJ5dGVsLm5ldA==
+Authentication-Results:  smtp04.onyx.dfw.sync.lan smtp.user=charlee; auth=pass (LOGIN)
+Received: from [207.118.114.231] ([207.118.114.231:15624] helo=unknown.domain)
+	by smtp.centurylink.net (envelope-from <charlee@centurytel.net>)
+	(ecelerity 3.6.25.56547 r(Core:3.6.25.0)) with ESMTPA
+	id 6A/4B-31972-99A354B5; Tue, 10 Jul 2018 19:00:43 -0400
+From: charleeglock-jackson <charlee@centurytel.net>
+Content-Type: multipart/alternative; boundary="Apple-Mail=_7441CB21-BDD2-4AE1-9B9C-BD0D0F6C2100"
+Date: Tue, 10 Jul 2018 16:00:41 -0700
+Subject: Burn ban starts Thursday
+Message-Id: <EA970061-3812-41E9-AFCF-3A3FED841536@centurytel.net>
+Mime-Version: 1.0 (Apple Message framework v1283)
+X-Mailer: Apple Mail (2.1283)
+X-Spam-Status: No, score=-1.0
+X-Spam-Score: -9
+X-Spam-Bar: -
+X-Ham-Report: Spam detection software, running on the system "biz164.inmotionhosting.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ 
+ Content preview:  Neighbors — Summer has officially arrived as county officials
+    just announced a burn ban, effective Thursday July 12. Here's the information:
+    https://spf.kitsapgov.com/pages/CountyNews.aspx?FilterField1=ID&FilterValue1=235
+    [...] 
+ 
+ Content analysis details:   (-1.0 points, 5.0 required)
+ 
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was blocked.
+                             See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: kitsapgov.com]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  1.0 MISSING_HEADERS        Missing To: header
+ -1.9 BAYES_00               BODY: Bayes spam probability is 0 to 1%
+                             [score: 0.0000]
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily valid
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from author's
+                             domain
+X-Spam-Flag: NO
+
+
+--Apple-Mail=_7441CB21-BDD2-4AE1-9B9C-BD0D0F6C2100
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain;
+	charset=windows-1252
+
+Neighbors =97 Summer has officially arrived as county officials just =
+announced a burn ban, effective Thursday July 12.
+
+Here's the information:
+
+=
+https://spf.kitsapgov.com/pages/CountyNews.aspx?FilterField1=3DID&FilterVa=
+lue1=3D235
+
+Stay cool and enjoy this splendid weather...
+
+Charlee
+
+Summer afternoon=97summer afternoon; to me those have always been the =
+two most beautiful words in the English language. ~Henry James
+
+
+--Apple-Mail=_7441CB21-BDD2-4AE1-9B9C-BD0D0F6C2100
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html;
+	charset=windows-1252
+
+<html><head></head><body style=3D"word-wrap: break-word; =
+-webkit-nbsp-mode: space; -webkit-line-break: after-white-space; =
+">Neighbors =97 Summer has officially arrived as county officials just =
+announced a burn ban, effective Thursday July =
+12.<div><br></div><div>Here's the =
+information:</div><div><br></div><div><a =
+href=3D"https://spf.kitsapgov.com/pages/CountyNews.aspx?FilterField1=3DID&=
+amp;FilterValue1=3D235">https://spf.kitsapgov.com/pages/CountyNews.aspx?Fi=
+lterField1=3DID&amp;FilterValue1=3D235</a></div><div><br></div><div>Stay =
+cool and enjoy this splendid =
+weather...</div><div><br></div><div>Charlee</div><div><br></div><div>
+<span class=3D"Apple-style-span" style=3D"border-collapse: separate; =
+color: rgb(0, 0, 0); font-family: Helvetica; font-style: normal; =
+font-variant: normal; font-weight: normal; letter-spacing: normal; =
+line-height: normal; orphans: 2; text-align: -webkit-auto; text-indent: =
+0px; text-transform: none; white-space: normal; widows: 2; word-spacing: =
+0px; -webkit-border-horizontal-spacing: 0px; =
+-webkit-border-vertical-spacing: 0px; =
+-webkit-text-decorations-in-effect: none; -webkit-text-size-adjust: =
+auto; -webkit-text-stroke-width: 0px; font-size: medium; "><div><span =
+class=3D"Apple-style-span" style=3D"font-size: 11px; "><i><span =
+style=3D"font-family: Optima-Italic, sans-serif; color: rgb(42, 7, 5); =
+">Summer afternoon=97summer afternoon; to me those have always been the =
+two most beautiful words in the English language. =
+~</span></i></span><span class=3D"Apple-style-span" style=3D"font-size: =
+11px; "><span style=3D"font-family: Optima-Italic, sans-serif; color: =
+rgb(42, 7, 5); ">Henry James</span></span></div></span>
+</div>
+<br></body></html>=
+
+--Apple-Mail=_7441CB21-BDD2-4AE1-9B9C-BD0D0F6C2100--

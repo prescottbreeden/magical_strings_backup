@@ -1,0 +1,437 @@
+Return-path: <0101015adc7d0171-d8a7f52d-b7cc-4a78-824e-7badb43c0192-000000@us-west-2.amazonses.com>
+Envelope-to: PAM@MAGICALSTRINGS.COM
+Delivery-date: Fri, 17 Mar 2017 06:38:28 -0700
+Received: from a27-147.smtp-out.us-west-2.amazonses.com ([54.240.27.147]:35904)
+	by biz164.inmotionhosting.com with esmtps (TLSv1:ECDHE-RSA-AES128-SHA:128)
+	(Exim 4.87)
+	(envelope-from <0101015adc7d0171-d8a7f52d-b7cc-4a78-824e-7badb43c0192-000000@us-west-2.amazonses.com>)
+	id 1cos4i-00030l-Ca
+	for PAM@MAGICALSTRINGS.COM; Fri, 17 Mar 2017 06:38:28 -0700
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=4drskbe42cu3tqauvp7ftlstdppq2evk; d=business.amazon.com;
+	t=1489757864;
+	h=Message-ID:Date:Subject:From:To:MIME-Version:Content-Type:List-Unsubscribe;
+	bh=B5cjFFdZrPTaV/c1TaCbssntfGZYMBVaenixhdtkvNY=;
+	b=cuA1y5UDg/emSRasgL/NjlpD5w8RAeqgWkj78jOnH2rHAPLrlIHTNXS+TaTmvO6M
+	8K/N/DNNzqLAo8u+rcp7XOXD4XyuX5RnNZ9htZkhT7c10+uzWDhVuHoO5s+DBeyLQny
+	mgWnNfEmKPGyOKmQccYQm1XmqEFMZiyfN2Zf57bw=
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=hsbnp7p3ensaochzwyq5wwmceodymuwv; d=amazonses.com; t=1489757864;
+	h=Message-ID:Date:Subject:From:To:MIME-Version:Content-Type:List-Unsubscribe:Feedback-ID;
+	bh=B5cjFFdZrPTaV/c1TaCbssntfGZYMBVaenixhdtkvNY=;
+	b=f04AvVV5pVJ0fRe9aqIXOsTSkwkP6YYaqgXscgiv7jFElZyq5QXIOyN5JUlkK6Os
+	2n3xmIfheO15xYNH5XyrC+CQo0xNXIaNgy8zIxJGPRJ9jHFjy7PONFQ2SVe6yA95Ox5
+	QxA03ttdwgplxEX7AiWpWvX/GgFfafRBBBEGfKDY=
+Message-ID: <0101015adc7d0171-d8a7f52d-b7cc-4a78-824e-7badb43c0192-000000@us-west-2.amazonses.com>
+Date: Fri, 17 Mar 2017 13:37:44 +0000
+Subject: Free upgrade to Amazon Business
+From: Amazon <no-reply@business.amazon.com>
+To: PAM@MAGICALSTRINGS.COM
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="_=_swift_v4_1489757864_6771a858bf8973da675b37d1be735f5f_=_"
+X-Pardot-Route: 139:54552:419977759
+List-Unsubscribe: <http://www.amazonbusiness.com/unsubscribe/u/54552/f904bbc2932152b56f4311500552ff77d7755c03a1205d6e8cc3b715b3a2680b/419977759>
+X-Report-Abuse-To: abuse@pd25.com
+X-SES-Outgoing: 2017.03.17-54.240.27.147
+Feedback-ID: 1.us-west-2.DslCQSzKRwSQ0bYxCfi+GcY39H31l7QrR+kFUIOTrc4=:AmazonSES
+X-Spam-Status: No, score=-5.9
+X-Spam-Score: -58
+X-Spam-Bar: -----
+X-Ham-Report: Spam detection software, running on the system "biz164.inmotionhosting.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ 
+ Content preview:  Do you shop online for work? Upgrade to a free Amazon Business
+    account and access exclusive features. - Business-Only Pricing. Save more
+    with exclusive business prices and products. - FREE Two-Day Shipping. Unlimited
+    free deliveries on eligible orders of $49 or more. - Multi-User Accounts.
+    Connect your team, share payment methods, and set order approvals. - Business
+    Analytics. Gain insights into your team's spending. [...] 
+ 
+ Content analysis details:   (-5.9 points, 5.0 required)
+ 
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was blocked.
+                             See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: amazonbusiness.com]
+ -0.0 RCVD_IN_DNSWL_NONE     RBL: Sender listed at http://www.dnswl.org/, no
+                             trust
+                             [54.240.27.147 listed in list.dnswl.org]
+ -1.2 RCVD_IN_MSPIKE_H2      RBL: Average reputation (+2)
+                             [54.240.27.147 listed in wl.mailspike.net]
+  0.5 RCVD_IN_SORBS_SPAM     RBL: SORBS: sender is a spam source
+                             [54.240.27.147 listed in dnsbl.sorbs.net]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+ -3.2 RP_MATCHES_RCVD        Envelope sender domain matches handover relay domain
+  0.0 HEADER_FROM_DIFFERENT_DOMAINS From and EnvelopeFrom 2nd level mail
+                             domains are different
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+ -1.9 BAYES_00               BODY: Bayes spam probability is 0 to 1%
+                             [score: 0.0000]
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from author's
+                             domain
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily valid
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+X-Spam-Flag: NO
+
+
+--_=_swift_v4_1489757864_6771a858bf8973da675b37d1be735f5f_=_
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+Do you shop online for work?
+
+Upgrade to a free Amazon Business account=
+ and access exclusive features.
+
+- Business-Only Pricing.  Save more wi=
+th exclusive business prices and products.
+- FREE Two-Day Shipping. Unlim=
+ited free deliveries on eligible orders of $49 or more.
+- Multi-User Acco=
+unts. Connect your team, share payment methods, and set order approvals.
+=
+- Business Analytics. Gain insights into your team's spending.
+
+=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=09=09=09=20
+http://w=
+ww.amazonbusiness.com/e/54552/egistration-start-ref-b2b-e599/lk9rkz/4199777=
+59
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=09=09=09=
+=20
+
+We hope you found this message to be useful. However, if you'd rathe=
+r not
+receive future emails of this sort from Amazon, please unsubscribe =
+-
+http://www.amazonbusiness.com/unsubscribe/u/54552/f904bbc2932152b56f431=
+1500552ff77d7755c03a1205d6e8cc3b715b3a2680b/419977759 - or let us know your=
+ email preferences -
+http://www.amazonbusiness.com/preferences/?ehash=3Df=
+904bbc2932152b56f4311500552ff77d7755c03a1205d6e8cc3b715b3a2680b&email_id=3D=
+419977759
+
+=C2=A9  2017=E2=80=8B Amazon.com, Inc. or its affiliates. Al=
+l
+rights reserved. Amazon, Amazon.com and the Amazon.com logo are registe=
+red trademarks=20
+of Amazon.com, Inc. or its affiliates. Amazon.com, 410 Te=
+rry Avenue North, Seattle, WA
+98109-5210
+
+--_=_swift_v4_1489757864_6771a858bf8973da675b37d1be735f5f_=_
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://w=
+ww.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">=20
+<html xmlns:v=3D"urn:s=
+chemas-microsoft-com:vml">
+<head> =20
+ <title>Amazon</title>
+ <style ty=
+pe=3D"text/css">
+  @charset "UTF-8";
+
+  html {-webkit-text-size-adjus=
+t:none;}
+  body { width: 100%; background-color: "#fafafa"; font-family: =
+arial, sans-serif; font-size: 16px; color: #111; line-height: 1.4em; paddin=
+g: 0; margin: 0 auto;}
+  div, p, a, li, td { -webkit-text-size-adjust:non=
+e; }
+  p { margin: 1em 0px; }
+
+  a.footer {font-size: 1em; color: #55=
+5; text-decoration: none;}
+.reverse_poof {
+    display: none !important=
+;
+  }
+  @media screen and (max-width: 600px) {
+   .flex {
+    width=
+: 100% !important;
+  }
+   .phone-block{
+          display:block;
+  =
+        float:left;
+          padding-left:10px;
+          padding-righ=
+t:20px;
+          white-space: nowrap;
+   }         =20
+         =20
+  =
+.headerImage{
+       =09  height:auto !important;
+          max-width:6=
+00px !important;
+          width: 100% !important;=09         =20
+       =
+  =20
+  }
+   .box{
+          width: 100% !important;
+=09=09  padding:=
+ 0 0 30px 0 !important;
+          display:block;
+          float:left;=
+
+          border: 0 !important;=20
+  } =20
+  .tight {
+    padding: 0px=
+ !important;
+    padding-left: 10px !important;
+    padding-right: 10px=
+ !important;
+  }
+  .poof {
+    width: 0px !important;
+    display: =
+none !important;
+  }
+  .reverse_poof {
+    display: block !important;=
+
+}
+}
+  .proper_case {text-transform: capitalize; !important;}
+
+  =
+
+</style>
+</head>
+<body width=3D"100%" style=3D"padding:0; margin:0;"=
+ bgcolor=3D"#fafafa">
+<table border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" class=3D"flex" style=3D"font-family: arial, font-size: 16px; color: =
+#111; line-height: 1.4em;" width=3D"100%">
+=09<tbody>
+=09=09<tr>
+=09=
+=09=09<td align=3D"center" class=3D"flex">
+=09=09=09<table border=3D"0" c=
+ellpadding=3D"0" cellspacing=3D"0" class=3D"flex" width=3D"600">
+=09=09=
+=09=09<tbody>
+=09=09=09=09=09<tr>
+=09=09=09=09=09=09<td class=3D"poof" =
+style=3D"padding-left: 4px; font-size: 11px; color: rgb(153, 153, 153);">Fr=
+ee account includes price discounts, two-day shipping &amp; exclusive busin=
+ess customer benefits</td>
+=09=09=09=09=09</tr>
+=09=09=09=09=09<tr>
+=
+=09=09=09=09=09=09<td align=3D"center" bgcolor=3D"#FFFFFF" class=3D"flex" s=
+tyle=3D"border: 1px solid #ddd;">
+=09=09=09=09=09=09<table border=3D"0" c=
+ellpadding=3D"0" cellspacing=3D"0" class=3D"flex">
+=09=09=09=09=09=09=09<=
+tbody>
+=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09<td bgco=
+lor=3D"#286BB5" class=3D"flex" style=3D"line-height: 7px;">&nbsp;</td>
+=
+=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=
+=09=09=09=09=09<td class=3D"flex" style=3D"padding-bottom: 27px; padding-le=
+ft: 20px; padding-top: 13px;"><a href=3D"http://www.amazonbusiness.com/e/54=
+552/egistration-start-ref-b2b-e599/lk9rkz/419977759"><img alt=3D"Amazon Bus=
+iness" border=3D"0" height=3D"31" src=3D"http://www.amazonbusiness.com/l/54=
+552/2015-03-30/3v5m9/54552/31002/162x30_02.png" style=3D"width: 162px; heig=
+ht: 31px; border-width: 0px; border-style: solid;" width=3D"162"></a></td>=
+
+=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09<tr>
+=09=09=09=
+=09=09=09=09=09=09<td align=3D"center" class=3D"flex" style=3D"font-size: 2=
+7px; font-family: helvetica; color: #098dbd; padding-bottom: 10px; padding-=
+left: 20px; padding-right: 20px; line-height: 30px;"><span style=3D"proper_=
+case">pamela,</span>=C2=A0do you shop online for work?</td>
+=09=09=09=09=
+=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=
+=09<td align=3D"center" class=3D"flex" style=3D"padding-bottom: 12px; font-=
+family: arial; color: #111111; font-size: 16px; padding-bottom: 40px; paddi=
+ng-right: 20px; padding-left: 20px;"><span style=3D"text-align: -webkit-cen=
+ter;">Upgrade to a <strong><a href=3D"http://www.amazonbusiness.com/e/54552=
+/egistration-start-ref-b2b-e599/lk9rkz/419977759" style=3D"color:#098dbd;te=
+xt-decoration:none;">free Amazon Business account</a></strong> and access e=
+xclusive features.</span><br>
+=09=09=09=09=09=09=09=09=09<br>
+=09=09=09=
+=09=09=09=09=09=09<a href=3D"http://www.amazonbusiness.com/e/54552/egistrat=
+ion-start-ref-b2b-e599/lk9rkz/419977759"><img alt=3D"" border=3D"0" height=
+=3D"50" src=3D"http://www.amazonbusiness.com/l/54552/2016-12-14/kj7kfr/5455=
+2/93396/cta_createfreeacct_sky.png" style=3D"width: 240px; height: 50px; bo=
+rder-width: 0px; border-style: solid;" width=3D"240"></a></td>
+=09=09=09=
+=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=
+=09=09<td class=3D"flex">
+=09=09=09=09=09=09=09=09=09<table align=3D"cent=
+er" border=3D"0" cellpadding=3D"10" cellspacing=3D"0" class=3D"flex" width=
+=3D"90%">
+=09=09=09=09=09=09=09=09=09=09<tbody>
+=09=09=09=09=09=09=09=
+=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09=09=09<td align=3D"center"=
+ class=3D"box" style=3D"font-size: 18px; font-family: helvetica; color: #09=
+8dbd; text-align: center; border-right: 1px solid #d7d7d7; border-bottom: 1=
+px solid #d7d7d7; padding-bottom: 15px;" valign=3D"middle" width=3D"50%"><s=
+trong><a href=3D"http://www.amazonbusiness.com/e/54552/ding-ref-b2b-e599-pr=
+icesavings/lk9rl2/419977759" style=3D"text-decoration:none;color:#098dbd;">=
+Business-Only Pricing</a></strong><br>
+=09=09=09=09=09=09=09=09=09=09=09=
+=09<span style=3D"line-height: 30px;">&nbsp;</span> <span style=3D"font-siz=
+e: 14px; font-family: arial; color: #111; line-height: 10px;">Save more wit=
+h exclusive business prices and products.</span></td>
+=09=09=09=09=09=09=
+=09=09=09=09=09=09<td align=3D"center" class=3D"phone-block box" style=3D"f=
+ont-size: 18px; font-family: helvetica; color: #098dbd; line-height: 20px; =
+border-bottom: 1px solid #d7d7d7; padding-bottom: 15px;" valign=3D"middle" =
+width=3D"50%"><a href=3D"http://www.amazonbusiness.com/e/54552/-landing-ref=
+-b2b-e599-shipping/lk9rl4/419977759" style=3D"text-decoration:none;color:#0=
+98dbd;"><strong>FREE Two-Day Shipping</strong></a><br>
+=09=09=09=09=09=09=
+=09=09=09=09=09=09<span style=3D"line-height: 30px;">&nbsp;</span> <span st=
+yle=3D"font-size: 14px; font-family: arial; color: #111; line-height: 10px;=
+">Unlimited free deliveries on eligible orders of $49 or more.</span></td>=
+
+=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09=
+=09<tr>
+=09=09=09=09=09=09=09=09=09=09=09=09<td align=3D"center" class=3D=
+"phone-block box" style=3D"font-size: 18px; font-family: helvetica; color: =
+#098dbd; line-height: 20px; border-right: 1px solid #d7d7d7; padding-top: 1=
+5px;" valign=3D"middle" width=3D"50%"><a href=3D"http://www.amazonbusiness.=
+com/e/54552/t-landing-ref-b2b-e599-account/lk9rl6/419977759" style=3D"text-=
+decoration:none;color:#098dbd;"><strong>Multi-User Accounts</strong></a><br=
+>
+=09=09=09=09=09=09=09=09=09=09=09=09<span style=3D"line-height: 30px;">=
+&nbsp;</span><span style=3D"font-size: 14px; font-family: arial; color: #11=
+1; line-height: 10px;">Connect your team, share payment methods, and set or=
+der approvals.&nbsp;</span></td>
+=09=09=09=09=09=09=09=09=09=09=09=09<td =
+align=3D"center" class=3D"phone-block box" style=3D"font-size: 18px; font-f=
+amily: helvetica; color: #098dbd; line-height: 20px; padding-top: 15px;" va=
+lign=3D"middle" width=3D"50%"><a href=3D"http://www.amazonbusiness.com/e/54=
+552/cs-layout-landing-ref-b2b-e599/lk9rl8/419977759" style=3D"text-decorati=
+on:none;color:#098dbd;"><strong>Business Analytics</strong></a><br>
+=09=
+=09=09=09=09=09=09=09=09=09=09=09<span style=3D"line-height: 30px;">&nbsp;<=
+/span> <span style=3D"font-size: 14px; font-family: arial; color: #111; lin=
+e-height: 10px;">Gain insights into your team's spending.</span></td>
+=09=
+=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09</tbody=
+>
+=09=09=09=09=09=09=09=09=09</table>
+=09=09=09=09=09=09=09=09=09</td>=
+
+=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09<tr class=3D"poo=
+f" height=3D"40">
+=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=
+=09<!---START EMAIL STRIPE--><!---END EMAIL STRIPE-->
+=09=09=09=09=09=09=
+=09=09<tr>
+=09=09=09=09=09=09=09=09=09<td align=3D"center" bgcolor=3D"#e0=
+f5fd" class=3D"flex" height=3D"40" style=3D"color:#555; font-size: 12px; fo=
+nt-family: arial;" valign=3D"middle">For questions contact <a href=3D"http:=
+//www.amazonbusiness.com/e/54552/help-contact-us-b2b-help-html-/lk9rlb/4199=
+77759" style=3D"color:#0066cc;text-decoration:none;">Business Customer Serv=
+ice</a></td>
+=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09</tbody=
+>
+=09=09=09=09=09=09</table>
+=09=09=09=09=09=09</td>
+=09=09=09=09=09<=
+/tr>
+=09=09=09=09=09<tr>
+=09=09=09=09=09=09<td class=3D"flex tight" sty=
+le=3D"padding-left: 1px; font-size: 11px;">
+=09=09=09=09=09=09<table alig=
+n=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"flex=
+" width=3D"100%">
+=09=09=09=09=09=09=09<tbody>
+=09=09=09=09=09=09=09=09=
+<tr>
+=09=09=09=09=09=09=09=09=09<td class=3D"flex" style=3D"padding-left:=
+ 1px; font-family: arial; font-size: 11px; color: #999; line-height: 11px;"=
+>
+=09=09=09=09=09=09=09=09=09<p>We hope you found this message to be usef=
+ul. However, if you'd rather not receive future emails of this sort from Am=
+azon&nbsp;Business, please let us know your&nbsp;<a href=3D"http://www.amaz=
+onbusiness.com/preferences/?ehash=3Df904bbc2932152b56f4311500552ff77d7755c0=
+3a1205d6e8cc3b715b3a2680b&email_id=3D419977759" style=3D"color: #999;">emai=
+l preferences</a><strong>&nbsp;</strong>or&nbsp;<a href=3D"http://www.amazo=
+nbusiness.com/unsubscribe/u/54552/f904bbc2932152b56f4311500552ff77d7755c03a=
+1205d6e8cc3b715b3a2680b/419977759" style=3D"color: #999;">unsubscribe</a>.<=
+br>
+=09=09=09=09=09=09=09=09=09<br>
+=09=09=09=09=09=09=09=09=09=C2=
+=A9 <span style=3D"font-family:arial,helvetica,sans-serif;"><span style=3D"=
+font-size:11px;">2017</span></span>&nbsp;<a href=3D"http://www.amazonbusine=
+ss.com/e/54552/2017-03-17/lk9rld/419977759" style=3D"text-decoration:none;c=
+olor: #999;">Amazon.com</a>, Inc. or its affiliates. All rights reserved. A=
+mazon, <a href=3D"http://www.amazonbusiness.com/e/54552/2017-03-17/lk9rld/4=
+19977759" style=3D"text-decoration:none;color: #999;">Amazon.com</a> and th=
+e <a href=3D"http://www.amazonbusiness.com/e/54552/2017-03-17/lk9rld/419977=
+759" style=3D"text-decoration:none;color: #999;">Amazon.com</a> logo are re=
+gistered trademarks of <a href=3D"http://www.amazonbusiness.com/e/54552/201=
+7-03-17/lk9rld/419977759" style=3D"text-decoration:none;color: #999;">Amazo=
+n.com</a>, Inc. or its affiliates.&nbsp;<a href=3D"http://www.amazonbusines=
+s.com/e/54552/2017-03-17/lk9rld/419977759" style=3D"text-decoration:none;co=
+lor:
+#999;">Amazon.com, 410 Terry Avenue North, Seattle, WA 98109-5210</a=
+></p>
+=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09</tr>
+=
+=09=09=09=09=09=09=09</tbody>
+=09=09=09=09=09=09</table>
+=09=09=09=09=
+=09=09</td>
+=09=09=09=09=09</tr>
+=09=09=09=09</tbody>
+=09=09=09</tabl=
+e>
+=09=09=09</td>
+=09=09</tr>
+=09</tbody>
+</table>
+<img alt=3D"" =
+src=3D"http://www.amazonbusiness.com/r/54552/1/419977759/open/1" /><style>@=
+media print{ #_t { background-image: url('https://1i53aoki.emltrk.com/1i53a=
+oki?p');}} div.OutlookMessageHeader {background-image:url('https://1i53aoki=
+.emltrk.com/1i53aoki?f')} table.moz-email-headers-table {background-image:u=
+rl('https://1i53aoki.emltrk.com/1i53aoki?f')} blockquote #_t {background-im=
+age:url('https://1i53aoki.emltrk.com/1i53aoki?f')} #MailContainerBody #_t {=
+background-image:url('https://1i53aoki.emltrk.com/1i53aoki?f')}</style><div=
+ id=3D"_t"></div>
+<img src=3D"https://1i53aoki.emltrk.com/1i53aoki" width=
+=3D"1" height=3D"1" border=3D"0" /></body>
+</html>
+
+--_=_swift_v4_1489757864_6771a858bf8973da675b37d1be735f5f_=_--

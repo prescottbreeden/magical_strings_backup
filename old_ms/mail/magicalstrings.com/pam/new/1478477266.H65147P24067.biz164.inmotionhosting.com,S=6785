@@ -1,0 +1,113 @@
+Return-path: <andrea.preiss@outlook.com>
+Envelope-to: pam@magicalstrings.com
+Delivery-date: Sun, 06 Nov 2016 16:07:46 -0800
+Received: from col004-omc2s6.hotmail.com ([65.55.34.80]:62439)
+	by biz164.inmotionhosting.com with esmtps (TLSv1.2:ECDHE-RSA-AES256-SHA384:256)
+	(Exim 4.87)
+	(envelope-from <andrea.preiss@outlook.com>)
+	id 1c3XTS-0006Be-Gt
+	for pam@magicalstrings.com; Sun, 06 Nov 2016 16:07:46 -0800
+Received: from NAM02-BL2-obe.outbound.protection.outlook.com ([65.55.34.72]) by COL004-OMC2S6.hotmail.com over TLS secured channel with Microsoft SMTPSVC(7.5.7601.23008);
+	 Sun, 6 Nov 2016 16:07:41 -0800
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=outlook.com;
+ s=selector1; h=From:Date:Subject:Message-ID:Content-Type:MIME-Version;
+ bh=6jXe4jv4ukG2WaYZQz2Inr8CPZnasp1dEc2BfG9Msoc=;
+ b=Lhojp04rx3HxIgPCpIHJz7Zlrw2PW0Bpc6jOydiCz4Ec8gOva105Gp18zCbZzJP5iXzq+eCNLoRTFmTXTk0Xe8XqPREw6FF9EvZIhzFsxZ2u/6OG4CHZ7FgYtVcqJ+oFf4zORXlJ16y68i759SHsiKHQkj9dz3FCKSWisL+KYD0e5w+fWt3lYZuZv3Wbc2kztHjoEcETJBahTHYO1MVol0ySWrx8dO+tJx+CTrl4k3L+Y0vvuNuoPoxh341ufHBryuLPoEFF0KjDjmB/qjm3LoRc9BsbXF+5cUXPoEa9OGrRtlccpOI9z8hSPyzXbzHhAVaammf8T05qhEMSS1EE/A==
+Received: from CY1NAM02FT043.eop-nam02.prod.protection.outlook.com
+ (10.152.74.52) by CY1NAM02HT142.eop-nam02.prod.protection.outlook.com
+ (10.152.75.26) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P384) id 15.1.707.3; Mon, 7 Nov
+ 2016 00:07:30 +0000
+Received: from BLUPR05MB947.namprd05.prod.outlook.com (10.152.74.60) by
+ CY1NAM02FT043.mail.protection.outlook.com (10.152.74.182) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P384) id
+ 15.1.707.3 via Frontend Transport; Mon, 7 Nov 2016 00:07:30 +0000
+Received: from BLUPR05MB947.namprd05.prod.outlook.com ([10.141.204.24]) by
+ BLUPR05MB947.namprd05.prod.outlook.com ([10.141.204.24]) with mapi id
+ 15.01.0679.020; Mon, 7 Nov 2016 00:07:30 +0000
+From: Andrea Preiss <andrea.preiss@outlook.com>
+To: Pam Boulding <pam.boulding@gmail.com>, Pam Boulding
+	<pam@magicalstrings.com>
+Subject: Appointment
+Thread-Topic: Appointment
+Thread-Index: AQHSOIruEz+8Q7RgHECd/Ylqoz2Idg==
+Date: Mon, 7 Nov 2016 00:07:30 +0000
+Message-ID: <BLUPR05MB947C93E9CF7912D8CAAE24FE1A70@BLUPR05MB947.namprd05.prod.outlook.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+authentication-results: gmail.com; dkim=none (message not signed)
+ header.d=none;gmail.com; dmarc=none action=none header.from=outlook.com;
+x-incomingtopheadermarker: OriginalChecksum:;UpperCasedChecksum:;SizeAsReceived:6877;Count:33
+x-ms-exchange-messagesentrepresentingtype: 1
+x-incomingheadercount: 33
+x-eopattributedmessage: 0
+x-microsoft-exchange-diagnostics: 1;CY1NAM02HT142;5:HWgzN13TdnQcRT8WNBSAJJQTppjoE67rnW0lVSBSRjUhC9II2KEwBk/oaYAv5uGtZ1ouetuYGoK3SIwWN0OHsByyyeDKxwNJfbozOsymBfRH+J2uT9XeAZ+ZuR4bGwnYNVkeX298+uFxxzIlkeIc92X+iNYT9I+CF1RouO6D/xs=;24:gFEGeaZLxGqg5gh+bi1cmEG5GS17cbL1vr0VMhr6xMLwEldRt2aQm5VuVVRgk4xCHOC5iLl89qV9Kegzb68hyruwyGlYgYNkdLaNN6zsBcM=;7:pU2U+FceA7oymMumoPR2lNN7uEEd68YfcUNd8oGruwFGu0RvNm18omBaXMbcN6k4LGN2xMyZA91LPcIYYygDI3ELzuDgYJAOOQ5sp+wiHRvYqDn4zmsYBG2xl9AovlMjXSoNXMEWsqFuqelO4CLgfxDgtsyG9jXKNqbNEHB2kk+RHQJwVTCNC0fUG8HDDvuSnB58OQhVQh5chYNOCrSarZR/xxysSvwUr7dkoP5M0OSG7TC4BmAuR4fPMxnPjdC95r0vba4WkloaKLrAOKgRfzMiygE3xpmScHFj/9HZ85ARiHfckYy9lu+nVTWsW0owR+/v+Np1dITByt7yJzdR7WCujC20sueOdSeLyPDhnOw=
+x-forefront-antispam-report: EFV:NLI;SFV:NSPM;SFS:(10019020)(98900003);DIR:OUT;SFP:1102;SCL:1;SRVR:CY1NAM02HT142;H:BLUPR05MB947.namprd05.prod.outlook.com;FPR:;SPF:None;LANG:en;
+x-ms-office365-filtering-correlation-id: cae87afb-a2be-4bbe-8645-08d406a21020
+x-microsoft-antispam: UriScan:;BCL:0;PCL:0;RULEID:(1601124038)(1603103113)(1603101340)(1601125047);SRVR:CY1NAM02HT142;
+x-exchange-antispam-report-cfa-test: BCL:0;PCL:0;RULEID:(432015012)(82015046);SRVR:CY1NAM02HT142;BCL:0;PCL:0;RULEID:;SRVR:CY1NAM02HT142;
+x-forefront-prvs: 0119DC3B5E
+spamdiagnosticoutput: 1:99
+spamdiagnosticmetadata: NSPM
+Content-Type: text/plain; charset="us-ascii"
+Content-ID: <BF2F5B78DDFA5D48829450FF9337C6ED@namprd05.prod.outlook.com>
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+X-OriginatorOrg: outlook.com
+X-MS-Exchange-CrossTenant-originalarrivaltime: 07 Nov 2016 00:07:30.5789
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Internet
+X-MS-Exchange-CrossTenant-id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: CY1NAM02HT142
+X-OriginalArrivalTime: 07 Nov 2016 00:07:41.0987 (UTC) FILETIME=[F5561F30:01D2388A]
+X-Spam-Status: No, score=-2.7
+X-Spam-Score: -26
+X-Spam-Bar: --
+X-Ham-Report: Spam detection software, running on the system "biz164.inmotionhosting.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ 
+ Content preview:  Hi Pam, Hope you are doing well and your preparations for
+   Yuletide are in a good flow. Following our brief conversation, here are some
+    available times for the next two weeks, if you like: Tuesday, November 8th
+    4:30 pm, Wednesday, November 8th 2:30 or 4pm Tuesday, November 15th at 2:30
+    or 4pm and Wednesday, November 16th at 2:30 or 4pm [...] 
+ 
+ Content analysis details:   (-2.7 points, 5.0 required)
+ 
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+ -0.7 RCVD_IN_DNSWL_LOW      RBL: Sender listed at http://www.dnswl.org/, low
+                             trust
+                             [65.55.34.80 listed in list.dnswl.org]
+ -0.0 RCVD_IN_MSPIKE_H2      RBL: Average reputation (+2)
+                             [65.55.34.80 listed in wl.mailspike.net]
+  0.0 FREEMAIL_FROM          Sender email is commonly abused enduser mail provider
+                             (andrea.preiss[at]outlook.com)
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+ -1.9 BAYES_00               BODY: Bayes spam probability is 0 to 1%
+                             [score: 0.0000]
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily valid
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from author's
+                             domain
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+X-Spam-Flag: NO
+
+Hi Pam,
+
+Hope you are doing well and your preparations for Yuletide are in a good fl=
+ow.
+Following our brief conversation, here are some available times for the nex=
+t two weeks, if you like:
+
+Tuesday, November 8th 4:30 pm, Wednesday, November 8th 2:30 or 4pm
+Tuesday, November 15th at 2:30 or 4pm and Wednesday, November 16th at 2:30 =
+or 4pm
+
+Love,
+
+Andrea=

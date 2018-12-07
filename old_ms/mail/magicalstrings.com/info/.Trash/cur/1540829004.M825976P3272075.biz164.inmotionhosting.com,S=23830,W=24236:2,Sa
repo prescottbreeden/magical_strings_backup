@@ -1,0 +1,406 @@
+Return-Path: <pam.boulding@gmail.com>
+Delivered-To: info@magicalstrings.com
+Received: from biz164.inmotionhosting.com
+	by biz164.inmotionhosting.com with LMTP id EHwuMUwv11uL7TEAtEtsOg
+	for <info@magicalstrings.com>; Mon, 29 Oct 2018 09:03:24 -0700
+Return-path: <pam.boulding@gmail.com>
+Envelope-to: info@magicalstrings.com
+Delivery-date: Mon, 29 Oct 2018 09:03:24 -0700
+Received: from mail-qk1-f178.google.com ([209.85.222.178]:43965)
+	by biz164.inmotionhosting.com with esmtps (TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256:128)
+	(Exim 4.91)
+	(envelope-from <pam.boulding@gmail.com>)
+	id 1gHA0W-00Dpus-HX
+	for info@magicalstrings.com; Mon, 29 Oct 2018 09:03:24 -0700
+Received: by mail-qk1-f178.google.com with SMTP id r71so5240244qkr.10
+        for <info@magicalstrings.com>; Mon, 29 Oct 2018 09:03:12 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20161025;
+        h=mime-version:references:in-reply-to:from:date:message-id:subject:to
+         :cc;
+        bh=m2wGnSg0UiaHoe46LpOrDdSLYRQtKSFoA8qPrKmWukA=;
+        b=eczmL3YtXvw2ajVhpvjx3Xeiwa12iJ63nxAWV01rO2wACVNJYX38+Zu5NrXUpEZZAP
+         +rixdi2uNv4TUzbqBr8+w1JkixnDVuwyAizTytP9piBdpL/xyDx5An2yJAtqkrucHeL7
+         mTSH/+5lpcogILXICCzD31q8IPR1JUpK+uJeFoI18DEBpe+O8z6u3RKC5xCsMExz3gWb
+         gpWkxddyW+QMyGp6ujGOOO7xJKpp1CqMP26gw6deoz9myLhC8YWgto2G2Q72AofjbBwP
+         mAXkp8/sw6mwVbCBOx9snEsBrcP533Ljdg0xW4NFdzattAgtBWcfelSYKAn+vhl12nhu
+         +nlg==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:mime-version:references:in-reply-to:from:date
+         :message-id:subject:to:cc;
+        bh=m2wGnSg0UiaHoe46LpOrDdSLYRQtKSFoA8qPrKmWukA=;
+        b=C1eh2Vyf1CGx/7vy2c1snqYsypQurhkqIsV24G5TZ1O3XIRKIxs6vses0P/yjb45U/
+         WzwdFxTRaaVYNXARaOA3kC7ReDCttQ0eJg+zH3qYX4c84gq/7AiyU11gleNEw6wfsINv
+         D3VsQGCVQ8UYz4rUTQbTkvzpFmInIcVYmbMU/5f2u+J4RGbuCZbxA3vZwpB91qBrtTJ0
+         a7p/4aJ4+b1uFD1m9z3RJzWDydQIcIdoErtKDglDZA5uh2aKKl7fN2uS4plDXiXzDx63
+         7CdVa5nKbjzoa1VE8vUkIyz8CiPTEqaAdwpdmIwGsOCyaU6X+FHgCR+CvYGQFPhQXxoq
+         Qfng==
+X-Gm-Message-State: AGRZ1gKBq3jaD2H9GlIbfkI/UkS85+vh2fmJklOXjbG6tDog4pPSCHqy
+	fB3pLsJaF90MsiJU2YusmMwPs09u5UG57xwUdg==
+X-Google-Smtp-Source: AJdET5fUi/e8t5i8Aj5JyrVTulxUUj3p0nMSLkW2wEpntIUoHCZQCsSJC88RbukJJ1gLNeK8YVqzC4rOGe+0sW4SD6o=
+X-Received: by 2002:a37:18d5:: with SMTP id 82mr12439873qky.65.1540828991383;
+ Mon, 29 Oct 2018 09:03:11 -0700 (PDT)
+MIME-Version: 1.0
+References: <CABXXnkG2CZAyEv7oaiZU6GZe9pzCMR1SzBcc4mXhjeHsvvJatQ@mail.gmail.com>
+ <CABXXnkHf4hSyWBdX22QP6FpoioC=+_v11Q9YjsV3pmukRV7ngA@mail.gmail.com>
+In-Reply-To: <CABXXnkHf4hSyWBdX22QP6FpoioC=+_v11Q9YjsV3pmukRV7ngA@mail.gmail.com>
+From: Pam Boulding <pam.boulding@gmail.com>
+Date: Mon, 29 Oct 2018 09:02:56 -0700
+Message-ID: <CAFTBZtMhNCBs79GAtjsyL7rW2GeAOPjaQcZRSU=jEv53jwXqZQ@mail.gmail.com>
+Subject: Re: Yuletide
+To: Bonnie Freundlich <bfreundlich@seattlewaldorf.org>
+Cc: info <info@magicalstrings.com>
+Content-Type: multipart/alternative; boundary="000000000000b0eebd05796034df"
+X-Spam-Status: No, score=-1.0
+X-Spam-Score: -9
+X-Spam-Bar: -
+X-Ham-Report: Spam detection software, running on the system "biz164.inmotionhosting.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ 
+ Content preview:  Thanks and good morning to you too. Nov 13 I'll be there with
+    lyres. Can I get into the room a bit early to set them up? Say 3:15ish? At
+    what time can I park right there next to the building to unload
+ 
+ Content analysis details:   (-1.0 points, 5.0 required)
+ 
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was blocked.
+                             See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: docs.google.com]
+ -1.9 BAYES_00               BODY: Bayes spam probability is 0 to 1%
+                             [score: 0.0000]
+ -0.0 RCVD_IN_MSPIKE_H2      RBL: Average reputation (+2)
+                             [209.85.222.178 listed in wl.mailspike.net]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from author's
+                             domain
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily valid
+  0.0 FREEMAIL_FROM          Sender email is commonly abused enduser mail provider
+                             (pam.boulding[at]gmail.com)
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  1.0 FREEMAIL_REPLY         From and body contain different freemails
+  0.0 T_REMOTE_IMAGE         Message contains an external image
+X-Spam-Flag: NO
+
+--000000000000b0eebd05796034df
+Content-Type: text/plain; charset="UTF-8"
+
+Thanks and good morning to you too.
+Nov 13 I'll be there with lyres. Can I get into the room a bit early to set
+them up? Say 3:15ish? At what time can I park right there next to the
+building to unload lyres?
+
+Dec 4 would be best for the dress rehearsal. If we could have a quick lyre
+run through then, that would be great. I'll see how Nov 13th goes to
+determine if we need another day also for a lyre run through.
+
+Philip will be sending you music ASAP. At first it will just be the cello
+and violin parts. He won't have time to write out the harp part until next
+week. He's completely consumed with harp making and teaching this week.
+He's finishing a harp that is going to Argentina! and another prototype for
+someone living on a sailboat, plus harps for students of his classes that
+just began. He'll get to writing our the harp music soon, but hopefully the
+violin and cello parts will be helpful.
+
+Take good care. I'll miss All Soul's night, that's the night that my
+cousin's film is opening in Seattle and he has asked that I attend as the
+Seattle Art Commissioner will be leading a discussion afterwards.
+Nathaniel's film, "The Price of Everything" is about art  - collectors,
+artists and money, an interesting topic for us, being that we are trying to
+find ways to fund the pre-costs of Celtic Yuletide.
+
+Thanks for making the time to study the lectures. Perhaps we could have a
+brief discussion after our rehearsal, or even another time.
+Safe travels to be with your mother, so sorry she has to suffer especially
+at this time in her life. May she regain her strength and heal. You are a
+dear daughter to go all that way to be  with her and help her.
+Love,
+Pam
+If you have a time and are interested, here are some highlights from film
+reviews. The film is showing at the Northwest Film forum till Nov. 8th.
+http://www.thepriceofeverything.com/press/#highlights
+
+On Mon, Oct 29, 2018 at 8:29 AM Bonnie Freundlich <
+bfreundlich@seattlewaldorf.org> wrote:
+
+> Good morning, Pam.
+>
+> Melissa is helping me sort out my muddled mind....Tomorrow there is no
+> Eurythmy Club due to an all-school meeting. Next week I will be there (Nov
+> 6). I do think it will be best if you come with the lyres the day I will be
+> absent (Nov.13).
+> After that, I would welcome you to come again on one of our last two
+> meetings, December 4 or December 11. Also, it would be very helpful to
+> schedule the 'dress rehearsal" at SWS as soon as you are able.
+>
+> Listening to Fairy Wind again- it would be helpful to have the notation
+> ASAP.
+>
+> Bonnie
+>
+> On Sun, Oct 28, 2018 at 9:00 PM Bonnie Freundlich <
+> bfreundlich@seattlewaldorf.org> wrote:
+>
+>>
+>> Hi Pam,
+>>
+>> I am attaching the text and forms for the story to this email. We can
+>> talk about the music with Philip after you have reviewed this.
+>>
+>> *Eurythmy Club members*
+>> Grade Four: Opal, Meredith and Olivia (Opal and Meredith are the small
+>> ones and both are capable leaders.)
+>> Grade Six:
+>> Boys - Andrew, Tomoaki, Max, Truman (little man)
+>> Girls - Asha, Willow, Hazel
+>>
+>>  crystal mountain 1.pdf
+>> <https://drive.google.com/a/seattlewaldorf.org/file/d/0B-0fes6rTE7wRGtQczFnLVBIYkhWRy1wR2FJMXVOYTlFa2Nr/view?usp=drive_web>
+>>
+>>  crystal mountain 2.pdf
+>> <https://drive.google.com/a/seattlewaldorf.org/file/d/0B-0fes6rTE7wTFY2dU01WW8zbE85czBIYTFid1Y3d3FKUVZN/view?usp=drive_web>
+>>
+>>  crystal mountain 3.pdf
+>> <https://drive.google.com/a/seattlewaldorf.org/file/d/0B-0fes6rTE7wbjVwTTJvQlB2MkRiZUZfeEpuZHlPWkd1YVVz/view?usp=drive_web>
+>>
+>>  crystal mountain 4.pdf
+>> <https://drive.google.com/a/seattlewaldorf.org/file/d/0B-0fes6rTE7wVkp3U0xMbUNtcUpJcEJuOFVmZFdfalU1Ymhn/view?usp=drive_web>
+>>
+>>  crystal mountain 5.pdf
+>> <https://drive.google.com/a/seattlewaldorf.org/file/d/0B-0fes6rTE7wa3VQRFJ1cmVYVWJWRjRrYzJMZTNSNjJtbXVN/view?usp=drive_web>
+>>
+>>  crystal mountain 6.pdf
+>> <https://drive.google.com/a/seattlewaldorf.org/file/d/0B-0fes6rTE7wOXl4Wk1YVmNtLTA0M05MMV9PTTNwblpJQ3lZ/view?usp=drive_web>
+>> Thank you for sending the study material. I look forward to holding
+>> Yuletide in this way with you and Philip.
+>>
+>> Bonnie
+>> --
+>> Bonnie Freundlich | Pedagogical Chair & Eurythmist
+>>
+>> Seattle Waldorf School | 206.258.4013
+>> bfreundlich@seattlewaldorf.org | seattlewaldorf.org
+>>
+>>
+>>
+>>
+>>
+>>
+>
+> --
+> Bonnie Freundlich | Pedagogical Chair & Eurythmist
+>
+> Seattle Waldorf School | 206.258.4013
+> bfreundlich@seattlewaldorf.org | seattlewaldorf.org
+>
+>
+>
+>
+>
+>
+
+-- 
+*Pam Boulding*
+
+*pam.boulding@gmail.com <pam.boulding@gmail.com>*
+*www.magicalstrings.com <http://www.magicalstrings.com>*
+*P.O. Box 1240*
+*Olalla, WA 98359*
+*253-857-6402 home*
+*253-691-6287 mobile*
+
+--000000000000b0eebd05796034df
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><div dir=3D"ltr"><div>Thanks and good morning to you too.<=
+/div><div>Nov 13 I&#39;ll be there with lyres. Can I get into the room a bi=
+t early to set them up? Say 3:15ish? At what time can I park right there ne=
+xt to the building to unload lyres?</div><div><br></div><div>Dec 4 would be=
+ best for the dress rehearsal. If we could have a quick lyre run through th=
+en, that would be great. I&#39;ll see how Nov 13th goes to determine if we =
+need another day also for a lyre run through.</div><div><br></div><div>Phil=
+ip will be sending you music ASAP. At first it will just be the cello and v=
+iolin parts. He won&#39;t have time to write out the harp part until next w=
+eek. He&#39;s completely consumed with harp making and teaching this week. =
+He&#39;s finishing a harp that is going to Argentina! and another prototype=
+ for someone living on a sailboat, plus harps for students of his classes t=
+hat just began. He&#39;ll get to writing our the harp music soon, but hopef=
+ully the violin and cello parts will be helpful.=C2=A0</div><div><br></div>=
+<div>Take good care. I&#39;ll miss All Soul&#39;s night, that&#39;s the nig=
+ht that my cousin&#39;s film is opening in Seattle and he has asked that I =
+attend as the Seattle Art Commissioner will be leading a discussion afterwa=
+rds. Nathaniel&#39;s film, &quot;The Price of Everything&quot; is about art=
+=C2=A0 - collectors, artists and money, an interesting topic for us, being =
+that we are trying to find ways to fund the pre-costs of Celtic Yuletide.=
+=C2=A0</div><div><br></div><div>Thanks for making the time to study the lec=
+tures. Perhaps we could have a brief discussion after our rehearsal, or eve=
+n another time.=C2=A0</div><div>Safe travels to be with your mother, so sor=
+ry she has to suffer especially at this time in her life. May she regain he=
+r strength and heal. You are a dear daughter to go all that way to be=C2=A0=
+ with her and help her.</div><div>Love,</div><div>Pam</div><div>If you have=
+ a time and are interested, here are some highlights from film reviews. The=
+ film is showing at the Northwest Film forum till Nov. 8th.</div><div><a hr=
+ef=3D"http://www.thepriceofeverything.com/press/#highlights">http://www.the=
+priceofeverything.com/press/#highlights</a><br></div></div></div><br><div c=
+lass=3D"gmail_quote"><div dir=3D"ltr">On Mon, Oct 29, 2018 at 8:29 AM Bonni=
+e Freundlich &lt;<a href=3D"mailto:bfreundlich@seattlewaldorf.org">bfreundl=
+ich@seattlewaldorf.org</a>&gt; wrote:<br></div><blockquote class=3D"gmail_q=
+uote" style=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid;padding-left:1e=
+x"><div dir=3D"ltr">Good morning, Pam.<div><br><div>Melissa is helping me s=
+ort out my muddled mind....Tomorrow there is no Eurythmy Club due to an all=
+-school meeting. Next week I will be there (Nov 6). I do think it will be b=
+est if you come with the lyres the day I will be absent (Nov.13).</div><div=
+>After that, I would welcome you to come again on one of our last two meeti=
+ngs, December 4 or December 11. Also, it would be very helpful to schedule =
+the &#39;dress rehearsal&quot; at SWS as soon as you are able.</div><div><b=
+r></div><div>Listening to Fairy Wind again- it would be helpful to have the=
+ notation ASAP.=C2=A0</div><div><br></div><div>Bonnie</div></div></div><br>=
+<div class=3D"gmail_quote"><div dir=3D"ltr">On Sun, Oct 28, 2018 at 9:00 PM=
+ Bonnie Freundlich &lt;<a href=3D"mailto:bfreundlich@seattlewaldorf.org" ta=
+rget=3D"_blank">bfreundlich@seattlewaldorf.org</a>&gt; wrote:<br></div><blo=
+ckquote class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-left:1px #c=
+cc solid;padding-left:1ex"><div dir=3D"ltr"><br clear=3D"all"><div>Hi Pam,<=
+/div><div><br></div><div>I am attaching the text and forms for the story to=
+ this email. We can talk about the music with Philip after you have reviewe=
+d this.</div><div><br></div><div><u>Eurythmy Club members</u></div><div>Gra=
+de Four: Opal, Meredith and Olivia (Opal and Meredith are the small ones an=
+d both are capable leaders.)</div><div>Grade Six:=C2=A0</div><div>Boys - An=
+drew, Tomoaki, Max, Truman (little man)</div><div>Girls - Asha, Willow, Haz=
+el</div><div><br></div><div></div><div class=3D"gmail_chip gmail_drive_chip=
+" style=3D"width:396px;height:18px;max-height:18px;background-color:#f5f5f5=
+;padding:5px;color:#222;font-family:arial;font-style:normal;font-weight:bol=
+d;font-size:13px;border:1px solid #ddd;line-height:1"><a href=3D"https://dr=
+ive.google.com/a/seattlewaldorf.org/file/d/0B-0fes6rTE7wRGtQczFnLVBIYkhWRy1=
+wR2FJMXVOYTlFa2Nr/view?usp=3Ddrive_web" style=3D"display:inline-block;overf=
+low:hidden;text-overflow:ellipsis;white-space:nowrap;text-decoration:none;p=
+adding:1px 0px;border:none;width:100%" target=3D"_blank"><img style=3D"vert=
+ical-align:bottom;border:none" src=3D"https://drive-thirdparty.googleuserco=
+ntent.com/16/type/application/pdf">=C2=A0<span dir=3D"ltr" style=3D"color:#=
+15c;text-decoration:none;vertical-align:bottom">crystal mountain 1.pdf</spa=
+n></a></div><div></div><br><div class=3D"gmail_chip gmail_drive_chip" style=
+=3D"width:396px;height:18px;max-height:18px;background-color:#f5f5f5;paddin=
+g:5px;color:#222;font-family:arial;font-style:normal;font-weight:bold;font-=
+size:13px;border:1px solid #ddd;line-height:1"><a href=3D"https://drive.goo=
+gle.com/a/seattlewaldorf.org/file/d/0B-0fes6rTE7wTFY2dU01WW8zbE85czBIYTFid1=
+Y3d3FKUVZN/view?usp=3Ddrive_web" style=3D"display:inline-block;overflow:hid=
+den;text-overflow:ellipsis;white-space:nowrap;text-decoration:none;padding:=
+1px 0px;border:none;width:100%" target=3D"_blank"><img style=3D"vertical-al=
+ign:bottom;border:none" src=3D"https://drive-thirdparty.googleusercontent.c=
+om/16/type/application/pdf">=C2=A0<span dir=3D"ltr" style=3D"color:#15c;tex=
+t-decoration:none;vertical-align:bottom">crystal mountain 2.pdf</span></a><=
+/div><div></div><br><div class=3D"gmail_chip gmail_drive_chip" style=3D"wid=
+th:396px;height:18px;max-height:18px;background-color:#f5f5f5;padding:5px;c=
+olor:#222;font-family:arial;font-style:normal;font-weight:bold;font-size:13=
+px;border:1px solid #ddd;line-height:1"><a href=3D"https://drive.google.com=
+/a/seattlewaldorf.org/file/d/0B-0fes6rTE7wbjVwTTJvQlB2MkRiZUZfeEpuZHlPWkd1Y=
+VVz/view?usp=3Ddrive_web" style=3D"display:inline-block;overflow:hidden;tex=
+t-overflow:ellipsis;white-space:nowrap;text-decoration:none;padding:1px 0px=
+;border:none;width:100%" target=3D"_blank"><img style=3D"vertical-align:bot=
+tom;border:none" src=3D"https://drive-thirdparty.googleusercontent.com/16/t=
+ype/application/pdf">=C2=A0<span dir=3D"ltr" style=3D"color:#15c;text-decor=
+ation:none;vertical-align:bottom">crystal mountain 3.pdf</span></a></div><d=
+iv></div><br><div class=3D"gmail_chip gmail_drive_chip" style=3D"width:396p=
+x;height:18px;max-height:18px;background-color:#f5f5f5;padding:5px;color:#2=
+22;font-family:arial;font-style:normal;font-weight:bold;font-size:13px;bord=
+er:1px solid #ddd;line-height:1"><a href=3D"https://drive.google.com/a/seat=
+tlewaldorf.org/file/d/0B-0fes6rTE7wVkp3U0xMbUNtcUpJcEJuOFVmZFdfalU1Ymhn/vie=
+w?usp=3Ddrive_web" style=3D"display:inline-block;overflow:hidden;text-overf=
+low:ellipsis;white-space:nowrap;text-decoration:none;padding:1px 0px;border=
+:none;width:100%" target=3D"_blank"><img style=3D"vertical-align:bottom;bor=
+der:none" src=3D"https://drive-thirdparty.googleusercontent.com/16/type/app=
+lication/pdf">=C2=A0<span dir=3D"ltr" style=3D"color:#15c;text-decoration:n=
+one;vertical-align:bottom">crystal mountain 4.pdf</span></a></div><div></di=
+v><br><div class=3D"gmail_chip gmail_drive_chip" style=3D"width:396px;heigh=
+t:18px;max-height:18px;background-color:#f5f5f5;padding:5px;color:#222;font=
+-family:arial;font-style:normal;font-weight:bold;font-size:13px;border:1px =
+solid #ddd;line-height:1"><a href=3D"https://drive.google.com/a/seattlewald=
+orf.org/file/d/0B-0fes6rTE7wa3VQRFJ1cmVYVWJWRjRrYzJMZTNSNjJtbXVN/view?usp=
+=3Ddrive_web" style=3D"display:inline-block;overflow:hidden;text-overflow:e=
+llipsis;white-space:nowrap;text-decoration:none;padding:1px 0px;border:none=
+;width:100%" target=3D"_blank"><img style=3D"vertical-align:bottom;border:n=
+one" src=3D"https://drive-thirdparty.googleusercontent.com/16/type/applicat=
+ion/pdf">=C2=A0<span dir=3D"ltr" style=3D"color:#15c;text-decoration:none;v=
+ertical-align:bottom">crystal mountain 5.pdf</span></a></div><div></div><br=
+><div class=3D"gmail_chip gmail_drive_chip" style=3D"width:396px;height:18p=
+x;max-height:18px;background-color:#f5f5f5;padding:5px;color:#222;font-fami=
+ly:arial;font-style:normal;font-weight:bold;font-size:13px;border:1px solid=
+ #ddd;line-height:1"><a href=3D"https://drive.google.com/a/seattlewaldorf.o=
+rg/file/d/0B-0fes6rTE7wOXl4Wk1YVmNtLTA0M05MMV9PTTNwblpJQ3lZ/view?usp=3Ddriv=
+e_web" style=3D"display:inline-block;overflow:hidden;text-overflow:ellipsis=
+;white-space:nowrap;text-decoration:none;padding:1px 0px;border:none;width:=
+100%" target=3D"_blank"><img style=3D"vertical-align:bottom;border:none" sr=
+c=3D"https://drive-thirdparty.googleusercontent.com/16/type/application/pdf=
+">=C2=A0<span dir=3D"ltr" style=3D"color:#15c;text-decoration:none;vertical=
+-align:bottom">crystal mountain 6.pdf</span></a></div><div></div><div>Thank=
+ you for sending the study material. I look forward to holding Yuletide in =
+this way with you and Philip.</div><div><br></div><div>Bonnie</div>-- <br><=
+div dir=3D"ltr" class=3D"m_5071267625315440229m_3517260415468946825gmail_si=
+gnature" data-smartmail=3D"gmail_signature"><div dir=3D"ltr"><div><div dir=
+=3D"ltr"><div dir=3D"ltr"><div style=3D"font-size:12.8px;margin-bottom:0px;=
+margin-left:0px;padding-bottom:5px"><div><div dir=3D"ltr"><div><div dir=3D"=
+ltr"><div><div><div dir=3D"ltr"><div><div dir=3D"ltr"><div><div dir=3D"ltr"=
+ style=3D"font-size:12.8px"><span style=3D"font-size:12.8px">Bonnie Freundl=
+ich | Pedagogical Chair &amp; Eurythmist</span><br style=3D"font-size:12.8p=
+x"><br style=3D"font-size:12.8px"><span style=3D"font-size:12.8px">Seattle =
+Waldorf School | 206.</span><span style=3D"font-family:arial;font-size:smal=
+l">258.4013</span><br style=3D"font-size:12.8px"><a href=3D"mailto:bfreundl=
+ich@seattlewaldorf.org" target=3D"_blank">bfreundlich@seattlewaldorf.org</a=
+><span style=3D"font-size:12.8px">=C2=A0|=C2=A0</span><a href=3D"http://sea=
+ttlewaldorf.org/" target=3D"_blank">seattlewaldorf.org</a></div><div dir=3D=
+"ltr" style=3D"font-size:12.8px"><br></div><div style=3D"font-size:12.8px">=
+<div dir=3D"ltr" style=3D"font-size:small"><br></div><div dir=3D"ltr" style=
+=3D"font-size:small"><img src=3D"https://docs.google.com/uc?export=3Ddownlo=
+ad&amp;id=3D0Bw601ZXYJYMzZm0tajVfVU5Gb28&amp;revid=3D0Bw601ZXYJYMzWFRYM1c5d=
+TdqaFI5ZUdFREJxZ29nQzVUQVZjPQ"><br></div></div></div><div><br></div><div><f=
+ont color=3D"#ff0000"><br></font></div><div></div></div></div></div></div><=
+/div></div></div></div></div></div><div style=3D"font-size:12.8px"></div></=
+div></div></div></div></div></div>
+</blockquote></div><br clear=3D"all"><div><br></div>-- <br><div dir=3D"ltr"=
+ class=3D"m_5071267625315440229gmail_signature" data-smartmail=3D"gmail_sig=
+nature"><div dir=3D"ltr"><div><div dir=3D"ltr"><div dir=3D"ltr"><div style=
+=3D"font-size:12.8px;margin-bottom:0px;margin-left:0px;padding-bottom:5px">=
+<div><div dir=3D"ltr"><div><div dir=3D"ltr"><div><div><div dir=3D"ltr"><div=
+><div dir=3D"ltr"><div><div dir=3D"ltr" style=3D"font-size:12.8px"><span st=
+yle=3D"font-size:12.8px">Bonnie Freundlich | Pedagogical Chair &amp; Euryth=
+mist</span><br style=3D"font-size:12.8px"><br style=3D"font-size:12.8px"><s=
+pan style=3D"font-size:12.8px">Seattle Waldorf School | 206.</span><span st=
+yle=3D"font-family:arial;font-size:small">258.4013</span><br style=3D"font-=
+size:12.8px"><a href=3D"mailto:bfreundlich@seattlewaldorf.org" target=3D"_b=
+lank">bfreundlich@seattlewaldorf.org</a><span style=3D"font-size:12.8px">=
+=C2=A0|=C2=A0</span><a href=3D"http://seattlewaldorf.org/" target=3D"_blank=
+">seattlewaldorf.org</a></div><div dir=3D"ltr" style=3D"font-size:12.8px"><=
+br></div><div style=3D"font-size:12.8px"><div dir=3D"ltr" style=3D"font-siz=
+e:small"><br></div><div dir=3D"ltr" style=3D"font-size:small"><img src=3D"h=
+ttps://docs.google.com/uc?export=3Ddownload&amp;id=3D0Bw601ZXYJYMzZm0tajVfV=
+U5Gb28&amp;revid=3D0Bw601ZXYJYMzWFRYM1c5dTdqaFI5ZUdFREJxZ29nQzVUQVZjPQ"><br=
+></div></div></div><div><br></div><div><font color=3D"#ff0000"><br></font><=
+/div><div></div></div></div></div></div></div></div></div></div></div></div=
+><div style=3D"font-size:12.8px"></div></div></div></div></div></div>
+</blockquote></div><br clear=3D"all"><br>-- <br><div dir=3D"ltr" class=3D"g=
+mail_signature" data-smartmail=3D"gmail_signature"><div dir=3D"ltr"><font f=
+ace=3D"comic sans ms, sans-serif" color=3D"#0b5394"><i>Pam Boulding</i></fo=
+nt><div><font face=3D"comic sans ms, sans-serif" color=3D"#0b5394"><i><br><=
+/i></font></div><div><font face=3D"comic sans ms, sans-serif" color=3D"#0b5=
+394"><i><a href=3D"mailto:pam.boulding@gmail.com" target=3D"_blank">pam.bou=
+lding@gmail.com</a></i></font></div><div><font face=3D"comic sans ms, sans-=
+serif" color=3D"#0b5394"><i><a href=3D"http://www.magicalstrings.com" targe=
+t=3D"_blank">www.magicalstrings.com</a></i></font></div><div><font face=3D"=
+comic sans ms, sans-serif" color=3D"#0b5394"><i>P.O. Box 1240</i></font></d=
+iv><div><font face=3D"comic sans ms, sans-serif" color=3D"#0b5394"><i>Olall=
+a, WA 98359</i></font></div><div><font face=3D"comic sans ms, sans-serif" c=
+olor=3D"#0b5394"><i>253-857-6402 home</i></font></div><div><font face=3D"co=
+mic sans ms, sans-serif" color=3D"#0b5394"><i>253-691-6287 mobile</i></font=
+></div><div><font face=3D"comic sans ms, sans-serif" color=3D"#0b5394"><i><=
+br></i></font></div><div><font face=3D"comic sans ms, sans-serif" color=3D"=
+#0b5394"><i><br></i></font></div></div></div>
+
+--000000000000b0eebd05796034df--

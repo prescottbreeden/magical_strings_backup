@@ -1,0 +1,120 @@
+Return-path: <bsmiler@gmail.com>
+Envelope-to: pam@magicalstrings.com
+Delivery-date: Fri, 18 Nov 2016 18:28:37 -0800
+Received: from mail-yw0-f175.google.com ([209.85.161.175]:33852)
+	by biz164.inmotionhosting.com with esmtps (TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256:128)
+	(Exim 4.87)
+	(envelope-from <bsmiler@gmail.com>)
+	id 1c7vOE-000CmK-7J
+	for pam@magicalstrings.com; Fri, 18 Nov 2016 18:28:37 -0800
+Received: by mail-yw0-f175.google.com with SMTP id t125so175031619ywc.1
+        for <pam@magicalstrings.com>; Fri, 18 Nov 2016 18:28:26 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:reply-to:sender:in-reply-to:references:from:date
+         :message-id:subject:to;
+        bh=ggvdT1OTDBf6Jo8DAd+nZHiqapoKwZHoOO6LVhXBBPk=;
+        b=LxDiOiGe1W+nOFynOO5mzrqEUqg6GpSrPyv4E6WDqR9EKc5vUZsgd/rUmJn7gGjaU3
+         pBXbel6/RedsTYnPEDzeTQlNpzapReo2WSBBQY9/F2AyO39IudrKmjpFlSWLcF3XTQde
+         EqjTXJOpttGx3rDeMwUx/YRhU4ol+H/ov8f5hVNd27kDirZq+fAsU4jR5ck6Z7Dneizi
+         2n1va+lmVfCrrIPAqu8rtgvsRgxR2h41Q1TbaT2eWMtXbjCCzYqibSabEYpxt6TP1Zhc
+         GIwJtMQuhh5qc25TDo8wgyyQZv9XjXRQMZ5E3zokRmgC5WwEd9+iKbSlEKDlezsOoFOQ
+         g+cQ==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:reply-to:sender:in-reply-to
+         :references:from:date:message-id:subject:to;
+        bh=ggvdT1OTDBf6Jo8DAd+nZHiqapoKwZHoOO6LVhXBBPk=;
+        b=ZNnrltGyElCjNLqw3X0e5c1yLTF1NjWXxArdfnOAEbJ52o11pskK2dWFa9aIKsC67p
+         BsqB5VmwtqDu5zXTrq09bsCIaTWgMAATk3yq/YarpgxkIzSFFThF0te5FRI/o0nq+yD2
+         l+TC65PxAjNFFSnfi6Vf232g5KBG4ud7xjzpVSAlM7wZ7eEsQscW/oDU9IsolI8yLD24
+         hPos3bvbnV341+e1i9cfGFkVrqD8SJ8ZP8pmc/utUBEvIyokta/Tc8rZwVFvBnzLmWgC
+         EurqYi6P9tL0PGWLiP6OzS98CveCyRrqXpjaknpqGFFQplYoUz0T4hVfjkqMvexuABj+
+         JSDw==
+X-Gm-Message-State: AKaTC017Seu6boJqHqKZRX3/2L7xo/gA98Xhx/sm85dMCVN8AUwoM97YvlDFQ8wgV/vuxSR3RXgJD+QdvYnTNw==
+X-Received: by 10.13.226.13 with SMTP id l13mr2962639ywe.77.1479522505000;
+ Fri, 18 Nov 2016 18:28:25 -0800 (PST)
+MIME-Version: 1.0
+Reply-To: bsmiler@bardon.com
+Sender: bsmiler@gmail.com
+Received: by 10.37.6.194 with HTTP; Fri, 18 Nov 2016 18:28:23 -0800 (PST)
+Received: by 10.37.6.194 with HTTP; Fri, 18 Nov 2016 18:28:23 -0800 (PST)
+In-Reply-To: <CAAp8ZwXRDU61=fSswnS_fZeAeos32_P2Ro=V5BCu42djkuawWQ@mail.gmail.com>
+References: <CAAp8ZwXuUjs1BdOHPqWOBj8dpMiwYS8MuMLkCBiJNHrh+dyBbQ@mail.gmail.com>
+ <CAAp8ZwUZn1E1U69XY8ZaE=k4FYaQYpZTgLK68b3r8Qwu01AFoQ@mail.gmail.com>
+ <CAAp8ZwWG=4r8b2wKe3=6LZfL9yTAPr0TKx7osptkv-pO1fzZpA@mail.gmail.com>
+ <CAAp8ZwVuQ4Yh=jZd20y=b61G-7nDxo9RnOBZzeiLHwA2B19Yow@mail.gmail.com>
+ <CAAp8ZwW4xJ_5nnV0Emrj6oy-aSGof4Yt=+U3jo=RrG8MZUetwQ@mail.gmail.com>
+ <CAAp8ZwXp1wg7o+YtzGfLzww=O8tvtZsQukw2V7ZR9TcbzS1Tjg@mail.gmail.com> <CAAp8ZwXRDU61=fSswnS_fZeAeos32_P2Ro=V5BCu42djkuawWQ@mail.gmail.com>
+From: Barry Smiler <bsmiler@bardon.com>
+Date: Fri, 18 Nov 2016 21:28:23 -0500
+X-Google-Sender-Auth: NL92ZI5Ldl3qrnwkb3pRjAy0hBg
+Message-ID: <CAAp8ZwX=2ju1KH=WgO+Com_GHfwx4hTePw3_yB1EKWBz1rLKHw@mail.gmail.com>
+Subject: Ida Levin has passed
+To: Pam Boulding <pam@magicalstrings.com>
+Content-Type: multipart/alternative; boundary=001a114fbcbe5914fb05419e2dd6
+X-Spam-Status: No, score=-1.9
+X-Spam-Score: -18
+X-Spam-Bar: -
+X-Ham-Report: Spam detection software, running on the system "biz164.inmotionhosting.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ 
+ Content preview:  Pam, I know you enjoyed Ida Levin's music so I thought you
+    might want to know that she passed away last night. She'd had leukemia for
+    a couple years. We talked to her just a couple weeks ago and though she sounded
+    tired her spirits were as good as ever. Cathy was friends with her since
+   they were 11 years old. She was a great person and we will miss her. Baruch
+    dayan emet. [...] 
+ 
+ Content analysis details:   (-1.9 points, 5.0 required)
+ 
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+ -0.0 RCVD_IN_DNSWL_NONE     RBL: Sender listed at http://www.dnswl.org/, no
+                             trust
+                             [209.85.161.175 listed in list.dnswl.org]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.0 HEADER_FROM_DIFFERENT_DOMAINS From and EnvelopeFrom 2nd level mail
+                             domains are different
+  0.0 FREEMAIL_FROM          Sender email is commonly abused enduser mail provider
+                             (bsmiler[at]gmail.com)
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+ -1.9 BAYES_00               BODY: Bayes spam probability is 0 to 1%
+                             [score: 0.0000]
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily valid
+ -0.0 RCVD_IN_MSPIKE_H3      RBL: Good reputation (+3)
+                             [209.85.161.175 listed in wl.mailspike.net]
+  0.0 FREEMAIL_FORGED_FROMDOMAIN 2nd level domains in From and EnvelopeFrom
+                              freemail headers are different
+ -0.0 RCVD_IN_MSPIKE_WL      Mailspike good senders
+X-Spam-Flag: NO
+
+--001a114fbcbe5914fb05419e2dd6
+Content-Type: text/plain; charset=UTF-8
+
+Pam, I know you enjoyed Ida Levin's music so I thought you might want to
+know that she passed away last night. She'd had leukemia for a couple
+years. We talked to her just a couple weeks ago and though she sounded
+tired her spirits were as good as ever. Cathy was friends with her since
+they were 11 years old. She was a great person and we will miss her. Baruch
+dayan emet.
+
+Barry
+
+--001a114fbcbe5914fb05419e2dd6
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<p dir=3D"ltr">Pam, I know you enjoyed Ida Levin&#39;s music so I thought y=
+ou might want to know that she passed away last night. She&#39;d had leukem=
+ia for a couple years. We talked to her just a couple weeks ago and though =
+she sounded tired her spirits were as good as ever. Cathy was friends with =
+her since they were 11 years old. She was a great person and we will miss h=
+er. Baruch dayan emet.</p>
+<p dir=3D"ltr">Barry </p>
+
+--001a114fbcbe5914fb05419e2dd6--

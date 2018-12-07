@@ -1,0 +1,1332 @@
+Return-Path: <131-SYO-861.0.170762.0.0.98065.9.27453768@potomac1050.mktomail.com>
+Delivered-To: pam@magicalstrings.com
+Received: from biz164.inmotionhosting.com
+	by biz164.inmotionhosting.com with LMTP id MPzHJH7c6FqXJwsAtEtsOg
+	for <pam@magicalstrings.com>; Tue, 01 May 2018 14:30:38 -0700
+Return-path: <131-SYO-861.0.170762.0.0.98065.9.27453768@potomac1050.mktomail.com>
+Envelope-to: pam@magicalstrings.com
+Delivery-date: Tue, 01 May 2018 14:30:38 -0700
+Received: from jinfengopteryx.mktdns.com ([192.28.150.110]:36788)
+	by biz164.inmotionhosting.com with esmtps (TLSv1.2:ECDHE-RSA-AES256-GCM-SHA384:256)
+	(Exim 4.89_1)
+	(envelope-from <131-SYO-861.0.170762.0.0.98065.9.27453768@potomac1050.mktomail.com>)
+	id 1fDcqp-0034aD-TQ
+	for pam@magicalstrings.com; Tue, 01 May 2018 14:30:38 -0700
+X-MSFBL: cGFtQG1hZ2ljYWxzdHJpbmdzLmNvbUBkdnAtMTkyLTI4LTE1MC0xMTBAYmctYWJk
+	LTQwNEAxMzEtU1lPLTg2MTo5OTA5MDo3Njk4NDoyMjY2MzQ6MDo5ODA2NTo5OjE3
+	MDc2MjoyNzQ1Mzc2OA==
+Received: from [10.1.87.249] ([10.1.87.249:39255] helo=abmas02.marketo.org)
+	by abmta11.marketo.org (envelope-from <editor@centurylink-business.com>)
+	(ecelerity 3.6.8.47404 r(Core:3.6.8.0)) with ESMTP
+	id EE/4C-08151-B6CD8EA5; Tue, 01 May 2018 16:30:19 -0500
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed; t=1525210219;
+	s=m1; d=centurylink-business.com; i=@centurylink-business.com;
+	h=Date:From:To:Subject:MIME-Version:Content-Type;
+	bh=7mAqUZw0eLqVWctvUZ8YCTaAo2cdMJVyI94GNhqujIo=;
+	b=mbN6sKvWil02GIVjdKqW+jrIYfbAGXgv2SRnKW39XBOhwhDnQa4YJ2aEyxaKh0r7
+	SZ5sSoLqyLd1MWXJI2rDwa/VAm/k3P2rAiAGWZYTYqqyVxLgJwFr5VbRCkS3EfPjChE
+	kshvd5gQ+Y262rbjvJJzDjP+5H7B62qSOMpbtTtA=
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed; t=1525210219;
+	s=m1; d=mktdns.com; i=@mktdns.com;
+	h=Date:From:To:Subject:MIME-Version:Content-Type;
+	bh=7mAqUZw0eLqVWctvUZ8YCTaAo2cdMJVyI94GNhqujIo=;
+	b=oWiKhYWVFisAiBLVQ99KXKy0ric18tf2LO9DIY4Iuy/5adbr0gCRq4rF72LGpogr
+	2pvb4HFj7wb3C93xLliEU9BHKNfD1pmTdI7eMapBAhgtM9i1tdPvFp0+LclwM07tasg
+	DrPpnx7xxfdXsuXvCJDwLXb9TeJUBjy9Qun/Kkck=
+Date: Tue, 1 May 2018 16:30:19 -0500 (CDT)
+From: Centurylink <editor@centurylink-business.com>
+Reply-To: editor@centurylink-business.com
+To: pam@magicalstrings.com
+Message-ID: <2118369826.-1877356412.1525210219101.JavaMail.root@abmas02.marketo.org>
+Subject: Small Business Week specials all month long.
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_-1877356413_1841298729.1525210219100"
+X-PVIQ: mkto-131SYO861-000001-000000-170762
+X-Binding: bg-abd-404
+X-MarketoID: 131-SYO-861:99090:76984:226634:0:98065:9:170762:27453768
+X-MktArchive: false
+List-Unsubscribe: <mailto:JFKE2YTKLJFUCN2TKNRC2TTNGVFHIUDNIZZTAQZTLFMTQOKOM5PVI4ZWKFRUMZLFKE4GOPI.170762.98065.9@unsub-ab.mktomail.com>
+X-Mailfrom: 131-SYO-861.0.170762.0.0.98065.9.27453768@potomac1050.mktomail.com
+X-MSYS-API: {"options":{"open_tracking":false,"click_tracking":false}}
+X-MktMailDKIM: true
+X-Spam-Status: No, score=-6.8
+X-Spam-Score: -67
+X-Spam-Bar: ------
+X-Ham-Report: Spam detection software, running on the system "biz164.inmotionhosting.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ 
+ Content preview:  Get our best deal on a business bundle. <http://pages.centurylink.com/dc/-J_kft_9qEANlLrBffYEMAhYU0V5I06FqAOTLgpVc-Lc1Hi_n7MJC1nzU_4lY1b6XV9vwl40CGTmmPWekHF3iXMblFVCLiU7GJf5Q8ifR-Z151nzT6Fv8hL1NMWEbh3UOJvhISMlD8MFgsoZYVpERSnqncAi_g8MY7Cg31cpLnZKtduMYnM8pS3EypuWdB7PaYOVUeht4T249ChWtfrtjMcW0iPQPmwBeZX61KBTafsdsPfaEaZZJD7O5uk5h-Xm/B803GS0Oi000R1BY0YUNIby>
+    <http://www.centurylink.com/small-business?st-t=LCACTIVEUP&utm_source=Marketo&utm_medium=Email&utm_term=Q218CGPO8&utm_content=CBBREGULARBUNDLE&utm_campaign=PROSPECT>
+    My Account <https://www.centurylink.com/business/login?st-t=LCACTIVEUP&utm_source=Marketo&utm_medium=Email&utm_term=Q218CGPO8&utm_content=CBBREGULARBUNDLE&utm_campaign=PROSPECT>
+     |  Chat Now <https://z1.liveper.sn/api/account/58463210/route/campaign/252209514/engagement/252285414>
+     |  Call (888) 309-9774 Bundles <http://pages.centurylink.com/dc/CIwPnJqZ_7zNHhbi2GOs2eNLrSa4LZmyi_WR6hL2JRaEN6FXEAz9S-3Xz1hVjAHDXq-jaTs3FxiDpVXX17PdkvkYCyg0Fw2Ll9Eg3MKwk4EmhxB6WCGiCkN-cz9B9VR2kuxNkVGzl01W2xakOg9dSv1W-B5xsFAtMRHmdCQr2qLpaJfmcl64AM2K5-C5Kl8wXogOOASo1FA7f6XOgtFjEsmhe51r16mQWkTGcxH-Nliy3kixlKvzA7TrovFKWwXf/B803GS0Oi000R1BY0YUNIby>
+        |      Internet <http://pages.centurylink.com/dc/CIwPnJqZ_7zNHhbi2GOs2eNLrSa4LZmyi_WR6hL2JRZUqRy6ooO0yfiNHdkKPcqHzodZv8paJR2V2iKZ9jhNVNO0CA0JXpKMJCR888npQfIC92bx6Rj7SIILodsgZ3DPreLBnx3zH_0aGuMVMWDS4jFre-b2tAVRPt-9Y3e1kPA7bU3CAfBas9KAzG0ghxy5OcspB2QBlC8dsMxcEAHt1z1VqpwEe3DCKOvieFUZ5xLRrrp7JuimcqsJtJuOVry-/B803GS0Oi000R1BY0YUNIby>
+        |      Phone <http://pages.centurylink.com/dc/CIwPnJqZ_7zNHhbi2GOs2eNLrSa4LZmyi_WR6hL2JRZUqRy6ooO0yfiNHdkKPcqHiMO8C_dnGnQfSZe4GVy2qwqhpK0kV9yp_j6nZ35ZK3OUtNbIpt0K9pnkocoxxEsSKXKWYRoAHlNQrGCbZnc3wVQCVn2pWVtuPJ3f_eh7eB-sLfYUpAHaz9PNLbVYAP1db4AbekWm8b2BbxlPbT2lltK7uSamjvK2-ScJTqQORQHWtZ_BnGrNHNFVo1qwQqDB/B803GS0Oi000R1BY0YUNIby>
+        |      Cloud Services   [...] 
+ 
+ Content analysis details:   (-6.8 points, 5.0 required)
+ 
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was blocked.
+                             See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: centurylinkforbusiness.com]
+ -2.0 RCVD_IN_RP_SAFE        RBL: Sender in ReturnPath Safe - Contact
+                             safe-sa@returnpath.net
+                             [Return Path SenderScore Safe List (formerly]
+                     [Habeas Safelist) - <http://www.senderscorecertified.com>]
+ -3.0 RCVD_IN_RP_CERTIFIED   RBL: Sender in ReturnPath Certified - Contact
+                             cert-sa@returnpath.net
+                             [Return Path SenderScore Certified {formerly]
+                       [Bonded Sender} - <http://www.senderscorecertified.com>]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.2 HEADER_FROM_DIFFERENT_DOMAINS From and EnvelopeFrom 2nd level mail
+                             domains are different
+ -0.0 SPF_HELO_PASS          SPF: HELO matches SPF record
+ -1.9 BAYES_00               BODY: Bayes spam probability is 0 to 1%
+                             [score: 0.0000]
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.0 HTML_IMAGE_RATIO_06    BODY: HTML has a low ratio of text to image area
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily valid
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from author's
+                             domain
+X-Spam-Flag: NO
+
+------=_Part_-1877356413_1841298729.1525210219100
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Get our best deal on a business bundle. <http://pages.centurylink.com/dc/-J=
+_kft_9qEANlLrBffYEMAhYU0V5I06FqAOTLgpVc-Lc1Hi_n7MJC1nzU_4lY1b6XV9vwl40CGTmm=
+PWekHF3iXMblFVCLiU7GJf5Q8ifR-Z151nzT6Fv8hL1NMWEbh3UOJvhISMlD8MFgsoZYVpERSnq=
+ncAi_g8MY7Cg31cpLnZKtduMYnM8pS3EypuWdB7PaYOVUeht4T249ChWtfrtjMcW0iPQPmwBeZX=
+61KBTafsdsPfaEaZZJD7O5uk5h-Xm/B803GS0Oi000R1BY0YUNIby>
+<http://www.centurylink.com/small-business?st-t=3DLCACTIVEUP&utm_source=3DM=
+arketo&utm_medium=3DEmail&utm_term=3DQ218CGPO8&utm_content=3DCBBREGULARBUND=
+LE&utm_campaign=3DPROSPECT>
+My Account <https://www.centurylink.com/business/login?st-t=3DLCACTIVEUP&ut=
+m_source=3DMarketo&utm_medium=3DEmail&utm_term=3DQ218CGPO8&utm_content=3DCB=
+BREGULARBUNDLE&utm_campaign=3DPROSPECT> =C2=A0|=C2=A0=20
+Chat Now <https://z1.liveper.sn/api/account/58463210/route/campaign/2522095=
+14/engagement/252285414> =C2=A0|=C2=A0=20
+Call (888) 309-9774
+Bundles <http://pages.centurylink.com/dc/CIwPnJqZ_7zNHhbi2GOs2eNLrSa4LZmyi_=
+WR6hL2JRaEN6FXEAz9S-3Xz1hVjAHDXq-jaTs3FxiDpVXX17PdkvkYCyg0Fw2Ll9Eg3MKwk4Emh=
+xB6WCGiCkN-cz9B9VR2kuxNkVGzl01W2xakOg9dSv1W-B5xsFAtMRHmdCQr2qLpaJfmcl64AM2K=
+5-C5Kl8wXogOOASo1FA7f6XOgtFjEsmhe51r16mQWkTGcxH-Nliy3kixlKvzA7TrovFKWwXf/B8=
+03GS0Oi000R1BY0YUNIby> =C2=A0=C2=A0=C2=A0=C2=A0|=C2=A0=C2=A0 =C2=A0=C2=A0=
+=20
+Internet <http://pages.centurylink.com/dc/CIwPnJqZ_7zNHhbi2GOs2eNLrSa4LZmyi=
+_WR6hL2JRZUqRy6ooO0yfiNHdkKPcqHzodZv8paJR2V2iKZ9jhNVNO0CA0JXpKMJCR888npQfIC=
+92bx6Rj7SIILodsgZ3DPreLBnx3zH_0aGuMVMWDS4jFre-b2tAVRPt-9Y3e1kPA7bU3CAfBas9K=
+AzG0ghxy5OcspB2QBlC8dsMxcEAHt1z1VqpwEe3DCKOvieFUZ5xLRrrp7JuimcqsJtJuOVry-/B=
+803GS0Oi000R1BY0YUNIby> =C2=A0=C2=A0=C2=A0=C2=A0| =C2=A0=C2=A0=C2=A0=C2=A0=
+=20
+Phone <http://pages.centurylink.com/dc/CIwPnJqZ_7zNHhbi2GOs2eNLrSa4LZmyi_WR=
+6hL2JRZUqRy6ooO0yfiNHdkKPcqHiMO8C_dnGnQfSZe4GVy2qwqhpK0kV9yp_j6nZ35ZK3OUtNb=
+Ipt0K9pnkocoxxEsSKXKWYRoAHlNQrGCbZnc3wVQCVn2pWVtuPJ3f_eh7eB-sLfYUpAHaz9PNLb=
+VYAP1db4AbekWm8b2BbxlPbT2lltK7uSamjvK2-ScJTqQORQHWtZ_BnGrNHNFVo1qwQqDB/B803=
+GS0Oi000R1BY0YUNIby>=20
+=C2=A0=C2=A0=C2=A0=C2=A0|=C2=A0=C2=A0=20
+=C2=A0 =C2=A0Cloud Services=C2=A0=C2=A0 <http://pages.centurylink.com/dc/CI=
+wPnJqZ_7zNHhbi2GOs2eNLrSa4LZmyi_WR6hL2JRZUqRy6ooO0yfiNHdkKPcqHQNmsUYvMfUyee=
+YwR9FwoCm4Caz4bJL2P92Mje966zDOdlTxkSUYVekAKpqhjTsq1v90Wb6I0YhKjhSti4Mhv7-EU=
+QfbWPsxHOwQlYjXD9YTYmCHjy8Km8n1Dogg2jEmgR6Gs3OQ5No4D21ngdZRUoXkfKo4S1xad04B=
+qx1tJB8Dp2gQPZ_R1jBxPIh1RZNBAbpOWuzdYohoFbPWY1NDvUQ=3D=3D/B803GS0Oi000R1BY0=
+YUNIby>=C2=A0=C2=A0=C2=A0=C2=A0|=C2=A0=C2=A0=C2=A0=C2=A0=20
+TV <http://pages.centurylink.com/dc/CIwPnJqZ_7zNHhbi2GOs2eNLrSa4LZmyi_WR6hL=
+2JRZUqRy6ooO0yfiNHdkKPcqH2f6IaebNUq9mbq0c6X3MkI-fschc_gt9kYm5UOG_LfgVdTNkP3=
+mLGhhnxTuVwQFNI1WZSumxM7ImcFpVV8j2oasTmwNq345V0c-Q9qEBTq7DS3fdoOQKwEpr9o0t8=
+XTtL8LV4U4ylkMH18SZuRKbhXbE1Hc25eofvmz7BYr9PxQe_fgxFJ-xWbiMuLm2yUwP/B803GS0=
+Oi000R1BY0YUNIby>
+Get our best deal on a new business bundle online.
+We=E2=80=99re celebrating Small Business Week all month long! Take advantag=
+e of our=20
+best deal online <http://pages.centurylink.com/dc/-J_kft_9qEANlLrBffYEMAhYU=
+0V5I06FqAOTLgpVc-Lc1Hi_n7MJC1nzU_4lY1b6XV9vwl40CGTmmPWekHF3iXMblFVCLiU7GJf5=
+Q8ifR-Z151nzT6Fv8hL1NMWEbh3UOJvhISMlD8MFgsoZYVpERSnqncAi_g8MY7Cg31cpLnZKtdu=
+MYnM8pS3EypuWdB7PaYOVUeht4T249ChWtfrtjMcW0iPQPmwBeZX61KBTafsdsPfaEaZZJD7O5u=
+k5h-Xm/B803GS0Oi000R1BY0YUNIby> on a new business bundle. That=E2=80=99s hi=
+gh-speed Internet, voice and business applications all for one low price. F=
+ind out more!
+
+Now offering Vivial
+Find out how our newest partner, Vivial, can help you create a mobile-frien=
+dly site when you buy a bundle today.
+Call (888) 309-9774 to learn more.
+<http://pages.centurylink.com/dc/CIwPnJqZ_7zNHhbi2GOs2XTJVoQ3Gu-qT9DrE91M-z=
+noYhe_k2bBpuAsxenGyCS9ro-8JcSabLMgdUv3nb47vvw2Ed5fJNiX0zPU62lbLyFAgYxk91fO2=
+VrGuIKV3RCTHKIa_0eTR1OsAWcqs4oMqfyAI6PUsGKtaGcgxohF4-v7IDELAzrEC79U52Y2RrKa=
+C7nzeTcer4wOSx7Fekk3EQ=3D=3D/B803GS0Oi000R1BY0YUNIby>  <http://pages.centur=
+ylink.com/I081VSY0NRIHiy0b0B0YO03>  <http://pages.centurylink.com/lBYbI000N=
+8YI3O0yR0i0W1S>  <http://pages.centurylink.com/E3y0S1IJYXY0i0bO0B0RN08>
+Get our best deal on a business bundle. <http://pages.centurylink.com/dc/-J=
+_kft_9qEANlLrBffYEMAhYU0V5I06FqAOTLgpVc-Lc1Hi_n7MJC1nzU_4lY1b6XV9vwl40CGTmm=
+PWekHF3iXMblFVCLiU7GJf5Q8ifR-Z151nzT6Fv8hL1NMWEbh3UOJvhISMlD8MFgsoZYVpERSnq=
+ncAi_g8MY7Cg31cpLnZKtduMYnM8pS3EypuWdB7PaYOVUeht4T249ChWtfrtjMcW0iPQPmwBeZX=
+61KBTafsdsPfaEaZZJD7O5uk5h-Xm/B803GS0Oi000R1BY0YUNIby>
+<http://pages.centurylink.com/dc/CIwPnJqZ_7zNHhbi2GOs2eNLrSa4LZmyi_WR6hL2JR=
+ZUqRy6ooO0yfiNHdkKPcqHzodZv8paJR2V2iKZ9jhNVNO0CA0JXpKMJCR888npQfIC92bx6Rj7S=
+IILodsgZ3DPreLBnx3zH_0aGuMVMWDS4jFre-b2tAVRPt-9Y3e1kPA7bU3CAfBas9KAzG0ghxy5=
+OcspB2QBlC8dsMxcEAHt1z1VqpwEe3DCKOvieFUZ5xLRrrp7JuimcqsJtJuOVry-/B803GS0Oi0=
+00R1BY0YUNIby>
+My Account <http://pages.centurylink.com/dc/-J_kft_9qEANlLrBffYEMK3YjAvxJpQ=
+HK_rhFfwILj8WGmrsTgDgGGmOxhGqeWLbjmpOpK6V26E8xpwhojAWOq5jMNSVSDuRLYmYUsiZh3=
+v5puF11w8mY2MHOlR1EIENRDUCfi2fHomCa5CtGRON4tD_egs8HIz0dX23GoKWt3D4STBTNMeTo=
+cQXi58fG-RRqqu68MPGgjBDFEswIJavdQpRuYo_cGibN9AO46z7eME=3D/B803GS0Oi000R1BY0=
+YUNIby> =C2=A0|=C2=A0=20
+Chat Now <[[https://z1.liveper.sn/api/account/58463210/route/campaign/25220=
+9514/engagement/252285414]]> =C2=A0|=C2=A0=20
+Call (888) 309-9774
+Bundles <http://www.centurylink.com/small-business/bundles/business-bundles=
+?st-t=3DLCACTIVEUP&utm_source=3DMarketo&utm_medium=3DEmail&utm_term=3DQ218C=
+GPO8&utm_content=3DCBBREGULARBUNDLE&utm_campaign=3DPROSPECT>=C2=A0=C2=A0|=
+=C2=A0=C2=A0=20
+Internet <http://www.centurylink.com/small-business/products/business-inter=
+net?st-t=3DLCACTIVEUP&utm_source=3DMarketo&utm_medium=3DEmail&utm_term=3DQ2=
+18CGPO8&utm_content=3DCBBREGULARBUNDLE&utm_campaign=3DPROSPECT> =C2=A0=C2=
+=A0|=C2=A0=C2=A0=20
+Phone <http://www.centurylink.com/small-business/products/business-phone?st=
+-t=3DLCACTIVEUP&utm_source=3DMarketo&utm_medium=3DEmail&utm_term=3DQ218CGPO=
+8&utm_content=3DCBBREGULARBUNDLE&utm_campaign=3DPROSPECT>=C2=A0=C2=A0|=C2=
+=A0=C2=A0=20
+Cloud Services <http://www.centurylink.com/small-business/products/business=
+-cloud-services?st-t=3DLCACTIVEUP&utm_source=3DMarketo&utm_medium=3DEmail&u=
+tm_term=3DQ218CGPO8&utm_content=3DCBBREGULARBUNDLE&utm_campaign=3DPROSPECT>=
+=C2=A0=C2=A0|=C2=A0=C2=A0=20
+TV <http://www.centurylink.com/small-business/products/business-tv?st-t=3DL=
+CACTIVEUP&utm_source=3DMarketo&utm_medium=3DEmail&utm_term=3DQ218CGPO8&utm_=
+content=3DCBBREGULARBUNDLE&utm_campaign=3DPROSPECT>
+Get our best deal on a new business bundle online.
+We=E2=80=99re celebrating Small Business Week all month long! Take advantag=
+e of our=20
+best deal online <http://pages.centurylink.com/dc/-J_kft_9qEANlLrBffYEMAhYU=
+0V5I06FqAOTLgpVc-Lc1Hi_n7MJC1nzU_4lY1b6XV9vwl40CGTmmPWekHF3iXMblFVCLiU7GJf5=
+Q8ifR-Z151nzT6Fv8hL1NMWEbh3UOJvhISMlD8MFgsoZYVpERSnqncAi_g8MY7Cg31cpLnZKtdu=
+MYnM8pS3EypuWdB7PaYOVUeht4T249ChWtfrtjMcW0iPQPmwBeZX61KBTafsdsPfaEaZZJD7O5u=
+k5h-Xm/B803GS0Oi000R1BY0YUNIby> on a new business bundle. That=E2=80=99s hi=
+gh-speed Internet, voice and business applications all for one low price. F=
+ind out more!
+
+Now offering Vivial.
+Find out how our newest partner, Vivial, can help you create a mobile-frien=
+dly site when you buy a bundle today.=20
+=20
+  Call (888) 309-9774 to learn more.
+Connect with us.
+<http://pages.centurylink.com/v1RY0iBY0yNOSIK8Y00b003>
+<http://pages.centurylink.com/I081VSY0NRIHiy0b0B0YO03>
+<http://pages.centurylink.com/lBYbI000N8YI3O0yR0i0W1S>
+<http://pages.centurylink.com/E3y0S1IJYXY0i0bO0B0RN08>
+Limited-time offer only. Offer may not be available in all areas and may re=
+quire credit approval. Available to new qualifying business customers who s=
+ubscribe online to a new qualifying CenturyLink Business Bundle including H=
+igh-Speed Internet and unlimited nationwide voice with a 24-month term. Cen=
+turyLink may change, cancel, or substitute offers and services, or vary the=
+m by service area at its sole discretion without notice. Offer may not be c=
+ombined with other offers. Additional restrictions apply.=20
+
+=20
+
+ =C2=A9 2018 CenturyLink. All rights reserved.=20
+
+=20
+
+ Please do not reply to this email. It is automatically generated.=20
+
+=20
+
+ You are receiving this email because of your business relationship with us=
+. If you do not wish to receive future marketing emails, please use the uns=
+ubscribe link or you can also respond to this email by writing to us:=20
+
+=20
+
+ CenturyLink Customer Response Team=20
+
+ P.O. Box 4259=20
+
+ Monroe, LA 71211=20
+
+=20
+
+=20
+Unsubscribe from this list <[[http://info.centurylinkforbusiness.com/Unsubs=
+cribePage.html?mkt_unsubscribe=3D1&mkt_tok=3DeyJpIjoiWW1RM09ESXpOVEl4TVdRNS=
+IsInQiOiJXQkhibUlWME12YUdqc2h2bEtucWF2OFpJSUR3TzdGZldiZSs4MHNEZTZYNDdwOHlOT=
+3BUTW5IVHRxMlVuNjV0dDlpeXF5QlBGVlFJVDNuOFRNeVdxM2ZZNDdMRTVTdFNSbnFWcytFQ1FK=
+Rzl1TlV5ekpiZjlJTjhRVkNUbFRJViJ9]]> |=20
+Privacy Policy <http://pages.centurylink.com/dc/CIwPnJqZ_7zNHhbi2GOs2V27pTK=
+38U5eLt-bPWMu_9IT2UsplaNkAAzFAeZwtVjgSbssLnX3aamJTe9_gcy82dnq6o2_P7OoiqtDRB=
+AhBAY49Y2CP205i-dqPps2QmUqxy-zl3d27QV0Q-i2_ueZZq1_R2qstjBnNzkNv79oOzJy5bWZr=
+Invd-l7O3t_wnfGfzbLcXIs4SqvgLZAsYrcLseUe6mOXTwMIhGeTco86nvlsdWR1cJzHoF1Ijmr=
+4_Mk/B803GS0Oi000R1BY0YUNIby> |=20
+Visit us on Facebook <http://pages.centurylink.com/dc/uq3EykqQY7h0Yyhe2BWhM=
+OYNt6qsA0SI8ZDHAwcir4NOWlpLNopQSPh5F3axOzN6hS45DCHpGZGftCkyvUmBbfbQPZEjQu0N=
+K4Tg--s-pE33yW-6hWJnmkT2uz61eUSXN-AEZ8GxE4pEuqD9C5rQ4aci-PxpdaxhpFzF4WFzKNR=
+Oo9NiLMsnBZgNY83wIwrwrVlKaGws6cCweMDdhlnUzSiDe1eTkUjB5r5XLtQAF7Q=3D/B803GS0=
+Oi000R1BY0YUNIby> |=20
+CenturyLink.com <http://pages.centurylink.com/dc/CIwPnJqZ_7zNHhbi2GOs2eNLrS=
+a4LZmyi_WR6hL2JRaCzlRIrej_BmiP0BKg4hsIh5HbXqMPoLergzgXUrS2lKuhseZ059J-2zInJ=
+v6xdg4xY046MnkTKwN7jvE1y0kZRFO6jAIST4FdynWFQe2atLglJlg2VxwdNBlVpB6tgC-ubpRD=
+MotUeQsym3x2BZ8yIqhNfKRUJOVAc375boEWu3gfOlldrvwxX_pUWduyCzE=3D/B803GS0Oi000=
+R1BY0YUNIby>
+Q218CGPO8
+
+------=_Part_-1877356413_1841298729.1525210219100
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.=
+w3.org/TR/html4/loose.dtd">
+<html>
+<head>=20
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DUTF-8">=
+=20
+<meta name=3D"robots" content=3D"noindex,noarchive">=20
+<!-- Marketo Variable Definitions -->  =20
+<title>Save $10 a month on Internet.</title>=20
+<style type=3D"text/css">
+/*START: CSS Reset - All*/=20
+div, p, a, li, td, table { -webkit-text-size-adjust: none !important; }=20
+.ExternalClass * {line-height: 100%;}=20
+.appleGreen a{color:#00853f !important; text-decoration:none !important;}=
+=20
+.appleGrey a{color:#666666 !important; text-decoration:none !important;}=20
+.appleWhite a{color:#ffffff !important; text-decoration:none !important;}=
+=20
+.iFix1 a {color:#FFFFFF !important;text-decoration:underline !important;}=
+=20
+.iFix2 a {color:#666666 !important;text-decoration:none !important;}=20
+.ExternalClass * { line-height: 100% }=20
+ table[class=3D"backgroundTable"]{width:100% !important; padding: 0 !import=
+ant; margin:0 !important;}=20
+table { font-size:0px;line-height:0px;mso-margin-top-alt:0px;table-layout:f=
+ixed; }=20
+/*END: CSS Reset - All*/=20
+/*START: Universal Mobile Template Styles*/=20
+@media handheld, only screen and (max-width:480px){=20
+a[x-apple-data-detectors]{color:inherit!important;text-decoration:none!impo=
+rtant;font-size:inherit!important;font-family:inherit!important;font-weight=
+:inherit!important;line-height:inherit!important;}=20
+*[class=3D"wrapper"]{width:320px !important; padding: 0 !important; margin:=
+0 !important;}=20
+*[class=3D"single_column"]{width:320px !important;}=20
+*[class=3D"hide"]{display:none !important;}=20
+*[class=3D"hide_content"]{display:none !important;}=20
+table[class=3D"single_column_aligned"]{width:320px !important; border-right=
+:0px !important; border-right:none !important;}=20
+img[class=3D"full_size"]{height:auto !important; width:auto !important;}=20
+*[class=3D"reveal"]{max-height:none !important; max-width:none !important; =
+display:table !important; min-height:none!important; overflow:visible !impo=
+rtant;}=20
+td[class=3D"preheader"]{width:320px !important; padding-left:5px !important=
+; padding-right:5px !important;}=20
+td[class=3D"footer"]{width:300px !important; padding:0px 5px 0px 5px !impor=
+tant;}=20
+td[class=3D"smaller_td"]{width:5px !important;}=20
+/*END: Universal Mobile Template Styles*/=20
+/*START: Unique Template Styles*/=20
+table[class=3D"single_column_nav"]{width:320px !important; border-right:0px=
+ !important; border-right:none !important; border-bottom:1px solid #e5e5e5 =
+!important;}=20
+td[class=3D"logo"]{padding-left:5px !important; padding-bottom:0px !importa=
+nt; width:295px !important;}=20
+td[class=3D"nav"]{padding:12px 0 12px 0 !important; width:320px !important;=
+}=20
+td[class=3D"headline1"]{padding:22px 5px 8px 0 !important; font-size:28px !=
+important;}=20
+td[class=3D"headline2"]{padding:0px 0px 6px 0 !important; font-size:26px !i=
+mportant;}=20
+td[class=3D"subheadline"]{padding:0px 20px 10px 0 !important;}=20
+td[class=3D"hero_td"]{padding:0px 15px 0px 15px !important;}=20
+img[class=3D"hero"]{width:320px !important; height:161px !important;}=20
+td[class=3D"top_space"]{width:320px !important;height:30px !important;}=20
+td[class=3D"left_content1"]{padding:0px 0px 7px 71px !important;}=20
+td[class=3D"left_content2"]{padding:0px 0px 0px 71px !important;}=20
+td[class=3D"left_content3"]{padding:4px 60px 0px 71px !important;}=20
+td[class=3D"left_content4"]{padding:15px 0px 0px 71px !important;}=20
+td[class=3D"left_content5"]{padding:7px 0px 0px 71px !important;}=20
+td[class=3D"right_side_hero"]{padding:33px 0px 33px 0px !important;}=20
+td[class=3D"right_content1"]{padding:0 0 10px 67px !important;}=20
+td[class=3D"right_content2"]{padding:0 0 45px 67px !important;}=20
+td[class=3D"mid_content_title"]{padding:34px 27px 10px 27px !important;}=20
+td[class=3D"middle_text1"]{width:320px !important; padding-bottom:18px !imp=
+ortant;}=20
+td[class=3D"title2"]{color:#000000 !important; padding:24px 45px 19px 37px =
+!important;}=20
+table[class=3D"small_bullet_table"]{width:240px !important; border-right:0p=
+x !important; border-right:none !important; float:left !important;}=20
+td[class=3D"right_bullets1"]{padding:0px 5px 12px 40px !important;}=20
+td[class=3D"lineheight"]{line-height:15px !important;}=20
+td[class=3D"right_bullets2"]{padding:0px 0px 17px 45px !important;}=20
+td[class=3D"right_bullets3"]{padding:0px 0px 25px 45px !important;}=20
+td[class=3D"mid_bullets"]{padding:0px 27px 0px 27px !important;}=20
+td[class=3D"bottom_text"]{padding:22px 2px 26px 2px !important;}=20
+/*END: Unique Template Styles*/=20
+}=20
+</style>=20
+</head>=20
+<body style=3D"">=20
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"background=
+Table" style=3D"border-collapse:collapse; mso-table-lspace:0pt; mso-table-r=
+space:0pt; " width=3D"100%">=20
+<tbody style=3D"">=20
+<tr style=3D"">=20
+<td align=3D"center" class=3D"wrapper" valign=3D"top" width=3D"680" style=
+=3D"">=20
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"background=
+Table" style=3D"border-collapse:collapse; mso-table-lspace:0pt; mso-table-r=
+space:0pt; background-color:#eeeeee; " width=3D"100%">=20
+<tbody style=3D"">=20
+<tr style=3D"">=20
+<td align=3D"center" class=3D"wrapper" valign=3D"top" width=3D"680" style=
+=3D"">=20
+<!--Preheader Start-->=20
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"single_col=
+umn" style=3D"border-collapse:collapse; mso-table-lspace:0pt; mso-table-rsp=
+ace:0pt; " width=3D"680">=20
+<tbody style=3D"">=20
+<tr style=3D"">=20
+<td align=3D"left" bgcolor=3D"#EEEEEE" class=3D"hide" style=3D"line-height:=
+0px;font-size:0px;-webkit-text-size-adjust:none;-ms-text-size-adjust:100%;"=
+ valign=3D"top" width=3D"20">&nbsp;</td>=20
+<td align=3D"left" bgcolor=3D"#FFFFFF" class=3D"hide" style=3D"font-family:=
+Arial, Helvetica, sans-serif; color:#666666; font-size:11px; line-height:13=
+px; -webkit-text-size-adjust:none; -ms-text-size-adjust:100%; padding:20px =
+0px 20px 10px; mso-line-height-rule:exactly; " valign=3D"top">=20
+<div class=3D"mktEditable" id=3D"pre-nav-copy" style=3D"">
+<a style=3D"color: #666666; font-family: Arial, Helvetica, sans-serif; font=
+-size: 11px; text-decoration: underline; font-weight: bold; -webkit-text-si=
+ze-adjust: none; -ms-text-size-adjust: 100%;" href=3D
+"http://pages.centurylink.com/dc/-J_kft_9qEANlLrBffYEMAhYU0V5I06FqAOTLgpVc-=
+Lc1Hi_n7MJC1nzU_4lY1b6XV9vwl40CGTmmPWekHF3iXMblFVCLiU7GJf5Q8ifR-Z151nzT6Fv8=
+hL1NMWEbh3UOJvhISMlD8MFgsoZYVpERSnqncAi_g8MY7Cg31cpLnZKtduMYnM8pS3EypuWdB7P=
+aYOVUeht4T249ChWtfrtjMcW0iPQPmwBeZX61KBTafsdsPfaEaZZJD7O5uk5h-Xm/B803GS0Oi0=
+00R1BY0YUNIby" target=3D"_blank"
+>Get our best deal on a business bundle.</a>=20
+<br>
+</div> <br></td>=20
+<td align=3D"left" bgcolor=3D"#EEEEEE" class=3D"hide" style=3D"line-height:=
+0px;font-size:0px;-webkit-text-size-adjust:none;-ms-text-size-adjust:100%;"=
+ valign=3D"top" width=3D"20">&nbsp;</td>=20
+</tr>=20
+</tbody>=20
+</table>=20
+<!--Preheader End-->=20
+<!--Top Banner Start-->=20
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"hide" styl=
+e=3D"border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt; =
+" width=3D"640">=20
+<tbody style=3D"">=20
+<tr style=3D"">=20
+<td align=3D"left" bgcolor=3D"#FFFFFF" class=3D"bge6e7e8" style=3D"font-siz=
+e:0px; line-height:0px; mso-line-height-rule:exactly; " valign=3D"top">=20
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"border-col=
+lapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt; ">=20
+<tbody style=3D"">=20
+<tr style=3D"">=20
+<td bgcolor=3D"#FFFFFF" class=3D"logo_nav_area" style=3D"padding:0px 10px 0=
+px 13px; " valign=3D"top" width=3D"640">=20
+<table align=3D"left" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" styl=
+e=3D"border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt; =
+border-right:1px solid #ffffff; " width=3D"175">=20
+<tbody style=3D"">=20
+<tr style=3D"">=20
+<td align=3D"left" bgcolor=3D"#FFFFFF" height=3D"34" valign=3D"middle" styl=
+e=3D"">=20
+<div class=3D"mktEditable" id=3D"logo" style=3D"">
+<a href=3D
+"http://www.centurylink.com/small-business?st-t=3DLCACTIVEUP&utm_source=3DM=
+arketo&utm_medium=3DEmail&utm_term=3DQ218CGPO8&utm_content=3DCBBREGULARBUND=
+LE&utm_campaign=3DPROSPECT" target=3D"_blank" class=3D"mktNoTrack"
+><img alt=3D"CenturyLink=C2=AE Business" border=3D"0" height=3D"67" src=3D"=
+http://info.centurylinkforbusiness.com/rs/131-SYO-861/images/CL_H_4cp_p_140=
+5.jpg" style=3D"display: block; border: 0;" width=3D"175"></a>
+</div> </td>=20
+</tr>=20
+</tbody>=20
+</table>=20
+<table align=3D"right" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" cla=
+ss=3D"hide" style=3D"border-collapse:collapse; mso-table-lspace:0pt; mso-ta=
+ble-rspace:0pt; padding:18px 0px 0px 0px; " width=3D"350">=20
+<tbody style=3D"">=20
+<tr style=3D"">=20
+<td align=3D"right" bgcolor=3D"#FFFFFF" class=3D"nav" height=3D"34" style=
+=3D"color:#009933; font-family:'Universal Light', Arial, Helvetica, sans-se=
+rif; font-size:14px; font-weight:normal; -webkit-text-size-adjust:none; -ms=
+-text-size-adjust:100%; mso-line-height-rule:exactly; padding:18px 0px 0px =
+0px; " valign=3D"middle">=20
+<div class=3D"mktEditable" id=3D"logo-nav" style=3D"">
+<a class=3D"mktNoTrack" style=3D"color: #009933; text-decoration: none; -we=
+bkit-text-size-adjust: none; -ms-text-size-adjust: 100%;" href=3D
+"https://www.centurylink.com/business/login?st-t=3DLCACTIVEUP&utm_source=3D=
+Marketo&utm_medium=3DEmail&utm_term=3DQ218CGPO8&utm_content=3DCBBREGULARBUN=
+DLE&utm_campaign=3DPROSPECT" target=3D"_blank"
+>My Account</a> &nbsp;|&nbsp;=20
+<a class=3D"mktNoTrack" style=3D"color: #009933; text-decoration: none; -we=
+bkit-text-size-adjust: none; -ms-text-size-adjust: 100%;" href=3D"https://z=
+1.liveper.sn/api/account/58463210/route/campaign/252209514/engagement/25228=
+5414" target=3D"_blank">Chat Now</a> &nbsp;|&nbsp;=20
+<span style=3D"color: #009933; text-decoration: none; -webkit-text-size-adj=
+ust: none; -ms-text-size-adjust: 100%;"><span style=3D"color: #009933; text=
+-decoration: none; -webkit-text-size-adjust: none; -ms-text-size-adjust: 10=
+0%;">Call (888) 309-9774 </span></span>
+</div> </td>=20
+</tr>=20
+</tbody>=20
+</table> </td>=20
+</tr>=20
+<tr>=20
+<td></td>=20
+</tr>=20
+</tbody>=20
+</table> </td>=20
+</tr>=20
+</tbody>=20
+</table>=20
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"hide" styl=
+e=3D"border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt; =
+" width=3D"640">=20
+<tbody style=3D"">=20
+<tr style=3D"">=20
+<td align=3D"left" bgcolor=3D"#F0F0F0" class=3D"single_column" valign=3D"to=
+p" width=3D"547" style=3D"">=20
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"single_col=
+umn" style=3D"border-collapse:collapse; mso-table-lspace:0pt; mso-table-rsp=
+ace:0pt; border:solid 1px #d9d9d9; " width=3D"640">=20
+<tbody style=3D"">=20
+<tr style=3D"">=20
+<td align=3D"center" bgcolor=3D"#F0F0F0" height=3D"36" style=3D"color:#4539=
+38; font-family:Arial, Helvetica, sans-serif; font-size:14px; line-height:2=
+0px; text-decoration:none; font-weight:normal; height:36px; mso-line-height=
+-rule:exactly; -ms-text-size-adjust:100%; -webkit-text-size-adjust:none; " =
+valign=3D"middle">=20
+<div class=3D"mktEditable" id=3D"header-nav" style=3D"">
+<a href=3D
+"http://pages.centurylink.com/dc/CIwPnJqZ_7zNHhbi2GOs2eNLrSa4LZmyi_WR6hL2JR=
+aEN6FXEAz9S-3Xz1hVjAHDXq-jaTs3FxiDpVXX17PdkvkYCyg0Fw2Ll9Eg3MKwk4EmhxB6WCGiC=
+kN-cz9B9VR2kuxNkVGzl01W2xakOg9dSv1W-B5xsFAtMRHmdCQr2qLpaJfmcl64AM2K5-C5Kl8w=
+XogOOASo1FA7f6XOgtFjEsmhe51r16mQWkTGcxH-Nliy3kixlKvzA7TrovFKWwXf/B803GS0Oi0=
+00R1BY0YUNIby" style=3D"color:#666666;text-decoration:none;"
+>Bundles</a> &nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp; &nbsp;&nbsp;=20
+<a href=3D
+"http://pages.centurylink.com/dc/CIwPnJqZ_7zNHhbi2GOs2eNLrSa4LZmyi_WR6hL2JR=
+ZUqRy6ooO0yfiNHdkKPcqHzodZv8paJR2V2iKZ9jhNVNO0CA0JXpKMJCR888npQfIC92bx6Rj7S=
+IILodsgZ3DPreLBnx3zH_0aGuMVMWDS4jFre-b2tAVRPt-9Y3e1kPA7bU3CAfBas9KAzG0ghxy5=
+OcspB2QBlC8dsMxcEAHt1z1VqpwEe3DCKOvieFUZ5xLRrrp7JuimcqsJtJuOVry-/B803GS0Oi0=
+00R1BY0YUNIby" style=3D"color:#666666;text-decoration:none;"
+>Internet</a> &nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp;&nbsp;&nbsp;=20
+<a href=3D
+"http://pages.centurylink.com/dc/CIwPnJqZ_7zNHhbi2GOs2eNLrSa4LZmyi_WR6hL2JR=
+ZUqRy6ooO0yfiNHdkKPcqHiMO8C_dnGnQfSZe4GVy2qwqhpK0kV9yp_j6nZ35ZK3OUtNbIpt0K9=
+pnkocoxxEsSKXKWYRoAHlNQrGCbZnc3wVQCVn2pWVtuPJ3f_eh7eB-sLfYUpAHaz9PNLbVYAP1d=
+b4AbekWm8b2BbxlPbT2lltK7uSamjvK2-ScJTqQORQHWtZ_BnGrNHNFVo1qwQqDB/B803GS0Oi0=
+00R1BY0YUNIby" style=3D"color:#666666;text-decoration:none;"
+>Phone</a>=20
+<span class=3D"hide">&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;</span>=20
+<a href=3D
+"http://pages.centurylink.com/dc/CIwPnJqZ_7zNHhbi2GOs2eNLrSa4LZmyi_WR6hL2JR=
+ZUqRy6ooO0yfiNHdkKPcqHQNmsUYvMfUyeeYwR9FwoCm4Caz4bJL2P92Mje966zDOdlTxkSUYVe=
+kAKpqhjTsq1v90Wb6I0YhKjhSti4Mhv7-EUQfbWPsxHOwQlYjXD9YTYmCHjy8Km8n1Dogg2jEmg=
+R6Gs3OQ5No4D21ngdZRUoXkfKo4S1xad04Bqx1tJB8Dp2gQPZ_R1jBxPIh1RZNBAbpOWuzdYoho=
+FbPWY1NDvUQ=3D=3D/B803GS0Oi000R1BY0YUNIby" style=3D"color:#666666;text-deco=
+ration:none;"
+>&nbsp; &nbsp;Cloud Services&nbsp;&nbsp;</a>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;=
+&nbsp;&nbsp;&nbsp;=20
+<a href=3D
+"http://pages.centurylink.com/dc/CIwPnJqZ_7zNHhbi2GOs2eNLrSa4LZmyi_WR6hL2JR=
+ZUqRy6ooO0yfiNHdkKPcqH2f6IaebNUq9mbq0c6X3MkI-fschc_gt9kYm5UOG_LfgVdTNkP3mLG=
+hhnxTuVwQFNI1WZSumxM7ImcFpVV8j2oasTmwNq345V0c-Q9qEBTq7DS3fdoOQKwEpr9o0t8XTt=
+L8LV4U4ylkMH18SZuRKbhXbE1Hc25eofvmz7BYr9PxQe_fgxFJ-xWbiMuLm2yUwP/B803GS0Oi0=
+00R1BY0YUNIby" style=3D"color:#666666;text-decoration:none;"
+>TV</a>
+</div> </td>=20
+</tr>=20
+</tbody>=20
+</table> </td>=20
+</tr>=20
+</tbody>=20
+</table>=20
+<!--Top Banner End-->=20
+<!--Body Desktop Start-->=20
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"hide_conte=
+nt" style=3D"border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspa=
+ce:0pt; " width=3D"679">=20
+<tbody style=3D"">=20
+<tr style=3D"">=20
+<td align=3D"left" bgcolor=3D"#EEEEEE" style=3D"line-height:0px;font-size:0=
+px;-webkit-text-size-adjust:none;-ms-text-size-adjust:100%;" valign=3D"top"=
+ width=3D"20">&nbsp;</td>=20
+<td bgcolor=3D"#FFFFFF" style=3D"padding:0px 0px 7px 0px; ">=20
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"">=20
+<tbody style=3D"">=20
+<tr style=3D"">=20
+<td align=3D"left" background=3D"http://info.centurylinkforbusiness.com/rs/=
+131-SYO-861/images/Q218CGPO8_desktopHeader_640x302.jpg" bgcolor=3D"#FFFFFF"=
+ height=3D"302" style=3D"-webkit-text-size-adjust:none; -ms-text-size-adjus=
+t:100%;" valign=3D"top" width=3D"640"><a href=3D
+"http://pages.centurylink.com/dc/-J_kft_9qEANlLrBffYEMAhYU0V5I06FqAOTLgpVc-=
+Lc1Hi_n7MJC1nzU_4lY1b6XV9vwl40CGTmmPWekHF3iXMblFVCLiU7GJf5Q8ifR-Z151nzT6Fv8=
+hL1NMWEbh3UOJvhISMlD8MFgsoZYVpERSnqncAi_g8MY7Cg31cpLnZKtduMYnM8pS3EypuWdB7P=
+aYOVUeht4T249ChWtfrtjMcW0iPQPmwBeZX61KBTafsdsPfaEaZZJD7O5uk5h-Xm/B803GS0Oi0=
+00R1BY0YUNIby" target=3D"_blank"
+><img src=3D"http://info.centurylinkforbusiness.com/rs/131-SYO-861/images/Q=
+218CGPO8_desktopHeader_640x302.jpg" height=3D"302" width=3D"640"></a></td>=
+=20
+</tr>=20
+</tbody>=20
+</table> </td>=20
+<td align=3D"left" bgcolor=3D"#EEEEEE" style=3D"line-height:0px;font-size:0=
+px;-webkit-text-size-adjust:none;-ms-text-size-adjust:100%;" valign=3D"top"=
+ width=3D"20">&nbsp;</td>=20
+</tr>=20
+</tbody>=20
+</table>=20
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"hide_conte=
+nt" style=3D"border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspa=
+ce:0pt; " width=3D"679">=20
+<tbody style=3D"">=20
+<tr style=3D"">=20
+<td align=3D"left" bgcolor=3D"#EEEEEE" style=3D"line-height:0px;font-size:0=
+px;-webkit-text-size-adjust:none;-ms-text-size-adjust:100%;" valign=3D"top"=
+ width=3D"20">&nbsp;</td>=20
+<td bgcolor=3D"#FFFFFF" style=3D"padding:0 0 25px 0; ">=20
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"">=20
+<tbody style=3D"">=20
+<tr style=3D"">=20
+<td align=3D"left" style=3D"background-color:transparent;-webkit-text-size-=
+adjust:none;-ms-text-size-adjust:100%; padding: 15px 0 0 0;" valign=3D"top"=
+ width=3D"25">&nbsp;</td>=20
+<td align=3D"left" style=3D"background-color:transparent; font-family:'Helv=
+eticaNeue', Arial, Helvetica, sans-serif; color:#000000; font-size:21px; li=
+ne-height:26px; webkit-text-size-adjust:none; -ms-text-size-adjust:100%; ms=
+o-line-height-rule:exactly; padding:5px 50px 0px 25px; font-weight:bold; " =
+valign=3D"top">=20
+<div class=3D"mktEditable" id=3D"article-heading" style=3D""></div> </td>=
+=20
+</tr>=20
+</tbody>=20
+</table>=20
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"">=20
+<tbody style=3D"">=20
+<tr style=3D"">=20
+<td align=3D"left" height=3D"58" style=3D"background-color:transparent;-web=
+kit-text-size-adjust:none;-ms-text-size-adjust:100%; padding: 15px 0 0 0;" =
+valign=3D"top" width=3D"25">&nbsp;</td>=20
+<td style=3D"">=20
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"593" style=
+=3D"">=20
+<tbody style=3D"">=20
+<tr>=20
+<td align=3D"left" style=3D"background-color:transparent;font-family:'Helve=
+ticaNeue', Arial, Helvetica, sans-serif; color:#000000;font-size: 24px;line=
+-height:26px;webkit-text-size-adjust:none;-ms-text-size-adjust:100%;mso-lin=
+e-height-rule:exactly;padding:10px 0px 0px 25px; font-weight:bold" valign=
+=3D"top">=20
+<div class=3D"mktEditable" id=3D"col-two-article-heading1">
+Get our best deal on a new business bundle online.
+</div></td>=20
+</tr>=20
+<tr style=3D"">=20
+<td align=3D"left" style=3D"background-color:transparent; font-family:'Helv=
+eticaNeue', Arial, Helvetica, sans-serif; color:#616365; font-size:15px; li=
+ne-height:20px; webkit-text-size-adjust:none; -ms-text-size-adjust:100%; ms=
+o-line-height-rule:exactly; padding:10px 25px 0px 25px; " valign=3D"top">=
+=20
+<div class=3D"mktEditable" id=3D"col-one-article" style=3D"">
+We=E2=80=99re celebrating Small Business Week all month long! Take advantag=
+e of our=20
+<span style=3D"color: #333333;"><a href=3D
+"http://pages.centurylink.com/dc/-J_kft_9qEANlLrBffYEMAhYU0V5I06FqAOTLgpVc-=
+Lc1Hi_n7MJC1nzU_4lY1b6XV9vwl40CGTmmPWekHF3iXMblFVCLiU7GJf5Q8ifR-Z151nzT6Fv8=
+hL1NMWEbh3UOJvhISMlD8MFgsoZYVpERSnqncAi_g8MY7Cg31cpLnZKtduMYnM8pS3EypuWdB7P=
+aYOVUeht4T249ChWtfrtjMcW0iPQPmwBeZX61KBTafsdsPfaEaZZJD7O5uk5h-Xm/B803GS0Oi0=
+00R1BY0YUNIby" target=3D"_blank" id=3D"" style=3D"color: #333333;"
+>best deal online</a></span> on a new business bundle. That=E2=80=99s high-=
+speed Internet, voice and business applications all for one low price. Find=
+ out more!
+</div> </td>=20
+</tr>=20
+</tbody>=20
+</table> </td>=20
+</tr>=20
+</tbody>=20
+</table> </td>=20
+<td align=3D"left" bgcolor=3D"#EEEEEE" style=3D"line-height:0px;font-size:0=
+px;-webkit-text-size-adjust:none;-ms-text-size-adjust:100%;" valign=3D"top"=
+ width=3D"20">&nbsp;</td>=20
+</tr>=20
+</tbody>=20
+</table>=20
+<!--Body Desktop Section One End-->=20
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"hide_conte=
+nt" style=3D"border-collapse:collapse;mso-table-lspace:0pt;mso-table-rspace=
+:0pt;" width=3D"679">=20
+<tbody>=20
+<tr>=20
+<td align=3D"left" bgcolor=3D"#eeeeee" style=3D"line-height:0px;font-size:0=
+px;-webkit-text-size-adjust:none;-ms-text-size-adjust:100%;" valign=3D"top"=
+ width=3D"20">&nbsp;</td>=20
+<td bgcolor=3D"#ffffff">=20
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0">=20
+<tbody>=20
+<tr>=20
+<td>=20
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"460">=20
+<tbody>=20
+<tr>=20
+<td align=3D"left" bgcolor=3D"#ffffff" height=3D"21" style=3D"-webkit-text-=
+size-adjust:none;-ms-text-size-adjust:100%;" valign=3D"top" width=3D"640"><=
+img alt=3D"" border=3D"0" height=3D"21" src=3D"http://na-ab19.marketo.com/r=
+s/391-DCY-831/images/desktop_shadow.jpg" style=3D"display:block;" width=3D"=
+640"></td>=20
+</tr>=20
+</tbody>=20
+</table> </td>=20
+</tr>=20
+</tbody>=20
+</table></td>=20
+<td align=3D"left" bgcolor=3D"#eeeeee" style=3D"line-height:0px;font-size:0=
+px;-webkit-text-size-adjust:none;-ms-text-size-adjust:100%;" valign=3D"top"=
+ width=3D"20">&nbsp;</td>=20
+</tr>=20
+</tbody>=20
+</table>=20
+<!--Body Desktop Section Divider End-->=20
+<!--Body Desktop Section Two Start-->=20
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"hide_conte=
+nt" style=3D"border-collapse:collapse;mso-table-lspace:0pt;mso-table-rspace=
+:0pt;" width=3D"680">=20
+<tbody>=20
+<tr>=20
+<td align=3D"left" bgcolor=3D"#eeeeee" style=3D"line-height:0px;font-size:0=
+px;-webkit-text-size-adjust:none;-ms-text-size-adjust:100%;" valign=3D"top"=
+ width=3D"20">&nbsp;</td>=20
+<td bgcolor=3D"#ffffff" style=3D"padding: 10px 0 0 0;">=20
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0">=20
+<tbody>=20
+<tr>=20
+<td align=3D"left" width=3D"213" height=3D"153" style=3D"padding: 10px 0 10=
+px 10px;" valign=3D"top">=20
+<div class=3D"mktEditable" id=3D"col-two-image">
+<img src=3D"http://info.centurylinkforbusiness.com/rs/131-SYO-861/images/Vi=
+vial-Logo_213x153.jpg" width=3D"213" constrain=3D"true" imagepreview=3D"fal=
+se" height=3D"153">
+</div></td>=20
+<td bgcolor=3D"#ffffff" style=3D"padding:0 0 25px 0">=20
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"400">=20
+<tbody>=20
+<tr>=20
+<td align=3D"left" style=3D"background-color:transparent;font-family:'Helve=
+ticaNeue', Arial, Helvetica, sans-serif; color:#000000;font-size: 24px;line=
+-height:26px;webkit-text-size-adjust:none;-ms-text-size-adjust:100%;mso-lin=
+e-height-rule:exactly;padding:5px 0px 0px 25px; font-weight:bold" valign=3D=
+"top">=20
+<div class=3D"mktEditable" id=3D"col-two-article-heading">
+Now offering Vivial
+</div></td>=20
+</tr>=20
+<tr>=20
+<td align=3D"left" style=3D"background-color:transparent;font-family:'Helve=
+ticaNeue', Arial, Helvetica, sans-serif; color:#616365;font-size:15px;line-=
+height:20px;webkit-text-size-adjust:none;-ms-text-size-adjust:100%;mso-line=
+-height-rule:exactly;padding:5px 0px 0px 25px;" valign=3D"top">=20
+<div class=3D"mktEditable" id=3D"col-two-article-copy">
+Find out how our newest partner, Vivial, can help you create a mobile-frien=
+dly site when you buy a bundle today.
+</div></td>=20
+</tr>=20
+<tr>=20
+<td align=3D"left" style=3D"background-color:transparent;font-family:'Helve=
+ticaNeue', Arial, Helvetica, sans-serif; color:#000000;font-size:18px;line-=
+height:26px;webkit-text-size-adjust:none;-ms-text-size-adjust:100%;mso-line=
+-height-rule:exactly;padding:5px 0px 0px 25px;" valign=3D"top">=20
+<div class=3D"mktEditable" id=3D"cta-copy-two">
+<span style=3D"color: #ff6319; font-size: 18px;"><strong> Call (888) 309-97=
+74 to learn more.<br><br></strong></span>
+</div></td>=20
+</tr>=20
+</tbody>=20
+</table> </td>=20
+</tr>=20
+</tbody>=20
+</table></td>=20
+<td align=3D"left" bgcolor=3D"#eeeeee" style=3D"line-height:0px;font-size:0=
+px;-webkit-text-size-adjust:none;-ms-text-size-adjust:100%;" valign=3D"top"=
+ width=3D"20">&nbsp;</td>=20
+</tr>=20
+</tbody>=20
+</table>=20
+<!--Body Desktop Section Two Start-->=20
+<!--Body Desktop Section Two Start-->=20
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"hide_conte=
+nt" style=3D"border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspa=
+ce:0pt; " width=3D"679">=20
+<tbody style=3D"">=20
+<tr style=3D"">=20
+<td align=3D"left" bgcolor=3D"#EEEEEE" style=3D"line-height:0px;font-size:0=
+px;-webkit-text-size-adjust:none;-ms-text-size-adjust:100%;" valign=3D"top"=
+ width=3D"20">&nbsp;</td>=20
+<td align=3D"left" bgcolor=3D"#A7A7A7" height=3D"15" style=3D"font-size:0px=
+; line-height:0px; -webkit-text-size-adjust:none; -ms-text-size-adjust:100%=
+; padding:10px 0 10px 0; " valign=3D"top" width=3D"639">=20
+<table align=3D"left" bgcolor=3D"#A7A7A7" border=3D"0" cellpadding=3D"0" ce=
+llspacing=3D"0" style=3D"border-collapse:collapse;mso-table-lspace:0pt;mso-=
+table-rspace:0pt;" width=3D"430">=20
+<tbody>=20
+<tr>=20
+<td align=3D"right" bgcolor=3D"#A7A7A7" class=3D"left_content3" style=3D"fo=
+nt-family:Arial, Helvetica, sans-serif;color:#ffffff;font-size:16px;line-he=
+ight:22px;webkit-text-size-adjust:none;-ms-text-size-adjust:100%;mso-line-h=
+eight-rule:exactly;padding:3px 0px 0px 0px;font-weight:bold;" valign=3D"top=
+"><em>Connect with us.</em></td>=20
+</tr>=20
+</tbody>=20
+</table>=20
+<div class=3D"mktEditable" id=3D"social" style=3D"">
+<table width=3D"190" align=3D"right" style=3D"border-collapse: collapse; ms=
+o-table-lspace: 0pt; mso-table-rspace: 0pt;" bgcolor=3D"#a7a7a7" border=3D"=
+0" cellspacing=3D"0" cellpadding=3D"0">=20
+<tbody>=20
+<tr>=20
+<td width=3D"29" height=3D"28" align=3D"left" valign=3D"top" style=3D"font-=
+size: 0px; line-height: 0px; -webkit-text-size-adjust: none; -ms-text-size-=
+adjust: 100%;" bgcolor=3D"#a7a7a7"><a href=3D
+"http://pages.centurylink.com/dc/CIwPnJqZ_7zNHhbi2GOs2XTJVoQ3Gu-qT9DrE91M-z=
+noYhe_k2bBpuAsxenGyCS9ro-8JcSabLMgdUv3nb47vvw2Ed5fJNiX0zPU62lbLyFAgYxk91fO2=
+VrGuIKV3RCTHKIa_0eTR1OsAWcqs4oMqfyAI6PUsGKtaGcgxohF4-v7IDELAzrEC79U52Y2RrKa=
+C7nzeTcer4wOSx7Fekk3EQ=3D=3D/B803GS0Oi000R1BY0YUNIby" target=3D"_blank"
+><img width=3D"29" height=3D"28" style=3D"display: block;" alt=3D"Bright Id=
+eas" src=3D"http://info.centurylinkforbusiness.com/rs/131-SYO-861/images/TL=
+_Footer_03.jpg" border=3D"0"></a></td>=20
+<td width=3D"29" height=3D"28" align=3D"left" valign=3D"top" style=3D"font-=
+size: 0px; line-height: 0px; -webkit-text-size-adjust: none; -ms-text-size-=
+adjust: 100%;" bgcolor=3D"#a7a7a7"><a href=3D
+"http://pages.centurylink.com/I081VSY0NRIHiy0b0B0YO03" target=3D"_blank"
+><img width=3D"29" height=3D"28" style=3D"display: block;" alt=3D"LinkedIn"=
+ src=3D"http://na-ab19.marketo.com/rs/391-DCY-831/images/linkedin.jpg" bord=
+er=3D"0"></a></td>=20
+<td width=3D"29" height=3D"28" align=3D"left" valign=3D"top" style=3D"font-=
+size: 0px; line-height: 0px; -webkit-text-size-adjust: none; -ms-text-size-=
+adjust: 100%;" bgcolor=3D"#a7a7a7"><a href=3D
+"http://pages.centurylink.com/lBYbI000N8YI3O0yR0i0W1S" target=3D"_blank"
+><img width=3D"29" height=3D"28" style=3D"display: block;" alt=3D"Facebook"=
+ src=3D"http://na-ab19.marketo.com/rs/391-DCY-831/images/facebook.jpg" bord=
+er=3D"0"></a></td>=20
+<td width=3D"29" height=3D"28" align=3D"left" valign=3D"top" style=3D"font-=
+size: 0px; line-height: 0px; -webkit-text-size-adjust: none; -ms-text-size-=
+adjust: 100%;" bgcolor=3D"#a7a7a7"><a href=3D
+"http://pages.centurylink.com/E3y0S1IJYXY0i0bO0B0RN08" target=3D"_blank"
+><img width=3D"29" height=3D"28" style=3D"display: block;" alt=3D"Twitter" =
+src=3D"http://na-ab19.marketo.com/rs/391-DCY-831/images/twitter.jpg" border=
+=3D"0"></a></td>=20
+</tr>=20
+</tbody>=20
+</table>
+</div> </td>=20
+<td align=3D"left" bgcolor=3D"#EEEEEE" style=3D"line-height:0px;font-size:0=
+px;-webkit-text-size-adjust:none;-ms-text-size-adjust:100%;" valign=3D"top"=
+ width=3D"20">&nbsp;</td>=20
+</tr>=20
+</tbody>=20
+</table>=20
+<!--Body Desktop Section Two End-->=20
+<!--Mobile Begin-->=20
+<div class=3D"reveal" style=3D"border-collapse:collapse; mso-table-lspace:0=
+pt; mso-table-rspace:0pt; min-height:0px; max-height:0px; display:none; fon=
+t-size:0px; line-height:0px; overflow:hidden; mso-hide:all; ">=20
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"reveal" st=
+yle=3D"border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt=
+; min-height:0px; max-height:0px; display:none; font-size:0px; overflow:hid=
+den; mso-hide:all; ">=20
+<tbody style=3D"">=20
+<tr style=3D"">=20
+<td bgcolor=3D"#FFFFFF" style=3D"padding:0px 0px 0px 0px; ">=20
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"mso-hide:a=
+ll; " width=3D"320">=20
+<tbody style=3D"">=20
+<tr style=3D"">=20
+<td align=3D"center" style=3D"font-family:'HelveticaNeue', Arial, Helvetica=
+, sans-serif; color:#000000; font-size:10px; line-height:12px; webkit-text-=
+size-adjust:none; -ms-text-size-adjust:100%; mso-line-height-rule:exactly; =
+font-weight:bold; padding:10px 0px 0px 17px; " valign=3D"bottom">=20
+<div class=3D"mktEditable" id=3D"pre-nav-copy-mb" style=3D"">
+<div style=3D"text-align: left;">=20
+<a href=3D
+"http://pages.centurylink.com/dc/-J_kft_9qEANlLrBffYEMAhYU0V5I06FqAOTLgpVc-=
+Lc1Hi_n7MJC1nzU_4lY1b6XV9vwl40CGTmmPWekHF3iXMblFVCLiU7GJf5Q8ifR-Z151nzT6Fv8=
+hL1NMWEbh3UOJvhISMlD8MFgsoZYVpERSnqncAi_g8MY7Cg31cpLnZKtduMYnM8pS3EypuWdB7P=
+aYOVUeht4T249ChWtfrtjMcW0iPQPmwBeZX61KBTafsdsPfaEaZZJD7O5uk5h-Xm/B803GS0Oi0=
+00R1BY0YUNIby" target=3D"_blank" style=3D"color: #666666; font-family: Aria=
+l, Helvetica, sans-serif; font-size: 11px; text-decoration: underline; font=
+-weight: bold; -webkit-text-size-adjust: none; -ms-text-size-adjust: 100%;"
+>Get our best deal on a business bundle.</a>=20
+<span style=3D"color: #666666; font-family: Arial, Helvetica, sans-serif; f=
+ont-size: 11px; font-style: normal; font-variant-ligatures: normal; font-va=
+riant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; t=
+ext-align: -webkit-left; text-indent: 0px; text-transform: none; white-spac=
+e: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; ba=
+ckground-color: #ffffff; text-decoration-style: initial; text-decoration-co=
+lor: initial; display: inline !important; float: none;"><span>&nbsp;</span>=
+</span>=20
+</div>
+</div> </td>=20
+</tr>=20
+</tbody>=20
+</table> </td>=20
+</tr>=20
+<tr style=3D"">=20
+<td bgcolor=3D"#FFFFFF" class=3D"single_column" style=3D"font-size:0px; lin=
+e-height:0px; ">=20
+<div class=3D"reveal" style=3D"min-height:0px; max-height:0px; display:none=
+; font-size:0px; overflow:hidden; mso-hide:all; ">=20
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"reveal" st=
+yle=3D"border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt=
+; min-height:0px; max-height:0px; display:none; font-size:0px; overflow:hid=
+den; mso-hide:all; " width=3D"320">=20
+<tbody style=3D"">=20
+<tr style=3D"">=20
+<td style=3D"padding-top:5px; " width=3D"320">=20
+<div class=3D"mktEditable" id=3D"header-logo-mb" style=3D"">
+<a href=3D
+"http://pages.centurylink.com/dc/CIwPnJqZ_7zNHhbi2GOs2eNLrSa4LZmyi_WR6hL2JR=
+ZUqRy6ooO0yfiNHdkKPcqHzodZv8paJR2V2iKZ9jhNVNO0CA0JXpKMJCR888npQfIC92bx6Rj7S=
+IILodsgZ3DPreLBnx3zH_0aGuMVMWDS4jFre-b2tAVRPt-9Y3e1kPA7bU3CAfBas9KAzG0ghxy5=
+OcspB2QBlC8dsMxcEAHt1z1VqpwEe3DCKOvieFUZ5xLRrrp7JuimcqsJtJuOVry-/B803GS0Oi0=
+00R1BY0YUNIby" target=3D"_blank"
+><img alt=3D"CenturyLink=C2=AE Business" border=3D"0" src=3D"http://info.ce=
+nturylinkforbusiness.com/rs/131-SYO-861/images/CL_H_4cp_p_1405.jpg" style=
+=3D"display: block; border: 0;" width=3D"150"></a>
+</div> </td>=20
+</tr>=20
+<tr style=3D"">=20
+<td align=3D"left" bgcolor=3D"#FFFFFF" height=3D"34" style=3D"color:#009933=
+; font-family:'Universal Light', Arial, Helvetica, sans-serif; font-size:12=
+px; font-weight:normal; -webkit-text-size-adjust:none; -ms-text-size-adjust=
+:100%; mso-line-height-rule:exactly; padding:5px 0px 0px 15px; " valign=3D"=
+middle">=20
+<div class=3D"mktEditable" id=3D"logo-nav-mb" style=3D"">
+<a style=3D"color: #009933; text-decoration: none; -webkit-text-size-adjust=
+: none; -ms-text-size-adjust: 100%;" href=3D
+"http://pages.centurylink.com/dc/-J_kft_9qEANlLrBffYEMK3YjAvxJpQHK_rhFfwILj=
+8WGmrsTgDgGGmOxhGqeWLbjmpOpK6V26E8xpwhojAWOq5jMNSVSDuRLYmYUsiZh3v5puF11w8mY=
+2MHOlR1EIENRDUCfi2fHomCa5CtGRON4tD_egs8HIz0dX23GoKWt3D4STBTNMeTocQXi58fG-RR=
+qqu68MPGgjBDFEswIJavdQpRuYo_cGibN9AO46z7eME=3D/B803GS0Oi000R1BY0YUNIby" tar=
+get=3D"_blank"
+>My Account</a> &nbsp;|&nbsp;=20
+<a href=3D"https://z1.liveper.sn/api/account/58463210/route/campaign/252209=
+514/engagement/252285414" style=3D"color: #009933; text-decoration: none; -=
+webkit-text-size-adjust: none; -ms-text-size-adjust: 100%;" target=3D"_blan=
+k">Chat Now</a> &nbsp;|&nbsp;=20
+<span style=3D"color: #009933; text-decoration: none; -webkit-text-size-adj=
+ust: none; -ms-text-size-adjust: 100%;">Call <span class=3D"appleGreen">(88=
+8) 309-9774</span></span>
+</div> </td>=20
+</tr>=20
+<tr style=3D"">=20
+<td align=3D"center" bgcolor=3D"#F0F0F0" height=3D"36" style=3D"color:#4539=
+38; font-family:Arial, Helvetica, sans-serif; font-size:12px; line-height:1=
+4px; text-decoration:none; font-weight:normal; height:36px; mso-line-height=
+-rule:exactly; -ms-text-size-adjust:100%; -webkit-text-size-adjust:none; bo=
+rder:solid 1px #d9d9d9; " valign=3D"middle" width=3D"319">=20
+<div class=3D"mktEditable" id=3D"header-nav-mb" style=3D"">
+<a href=3D
+"http://www.centurylink.com/small-business/bundles/business-bundles?st-t=3D=
+LCACTIVEUP&utm_source=3DMarketo&utm_medium=3DEmail&utm_term=3DQ218CGPO8&utm=
+_content=3DCBBREGULARBUNDLE&utm_campaign=3DPROSPECT" style=3D"color: #66666=
+6; text-decoration: none;" target=3D"_blank" class=3D"mktNoTrack"
+>Bundles</a>&nbsp;&nbsp;|&nbsp;&nbsp;=20
+<a href=3D
+"http://www.centurylink.com/small-business/products/business-internet?st-t=
+=3DLCACTIVEUP&utm_source=3DMarketo&utm_medium=3DEmail&utm_term=3DQ218CGPO8&=
+utm_content=3DCBBREGULARBUNDLE&utm_campaign=3DPROSPECT" style=3D"color: #66=
+6666; text-decoration: none;" target=3D"_blank" class=3D"mktNoTrack"
+>Internet</a> &nbsp;&nbsp;|&nbsp;&nbsp;=20
+<a href=3D
+"http://www.centurylink.com/small-business/products/business-phone?st-t=3DL=
+CACTIVEUP&utm_source=3DMarketo&utm_medium=3DEmail&utm_term=3DQ218CGPO8&utm_=
+content=3DCBBREGULARBUNDLE&utm_campaign=3DPROSPECT" style=3D"color: #666666=
+; text-decoration: none;" target=3D"_blank" class=3D"mktNoTrack"
+>Phone</a>&nbsp;&nbsp;|&nbsp;&nbsp;=20
+<a href=3D
+"http://www.centurylink.com/small-business/products/business-cloud-services=
+?st-t=3DLCACTIVEUP&utm_source=3DMarketo&utm_medium=3DEmail&utm_term=3DQ218C=
+GPO8&utm_content=3DCBBREGULARBUNDLE&utm_campaign=3DPROSPECT" style=3D"color=
+: #666666; text-decoration: none;" target=3D"_blank" class=3D"mktNoTrack"
+>Cloud Services</a>&nbsp;&nbsp;|&nbsp;&nbsp;=20
+<a href=3D
+"http://www.centurylink.com/small-business/products/business-tv?st-t=3DLCAC=
+TIVEUP&utm_source=3DMarketo&utm_medium=3DEmail&utm_term=3DQ218CGPO8&utm_con=
+tent=3DCBBREGULARBUNDLE&utm_campaign=3DPROSPECT" style=3D"color: #666666; t=
+ext-decoration: none;" target=3D"_blank" class=3D"mktNoTrack"
+>TV</a>
+</div> </td>=20
+</tr>=20
+<tr>=20
+<td align=3D"left" class=3D"single_column" height=3D"7" style=3D"font-size:=
+0px; line-height:0px; mso-line-height-rule:exactly;" valign=3D"top" width=
+=3D"320"><img border=3D"0" height=3D"7" src=3D"http://img.delivery.net/cm50=
+content/20271/28879/white_spacer_07.gif" style=3D"display:block;" width=3D"=
+320"></td>=20
+</tr>=20
+<tr style=3D"">=20
+<td align=3D"left" style=3D"background-color:transparent; font-family:'Helv=
+eticaNeue', Arial, Helvetica, sans-serif; color:#000000; font-size:21px; li=
+ne-height:26px; webkit-text-size-adjust:none; -ms-text-size-adjust:100%; ms=
+o-line-height-rule:exactly; padding:20px 15px 0px 15px; font-weight:bold; "=
+ valign=3D"top">=20
+<div class=3D"mktEditable" id=3D"article-heading-MB" style=3D""></div> </td=
+>=20
+</tr>=20
+<tr style=3D"">=20
+<td align=3D"center" width=3D"134" style=3D"padding:15px 0 0px 0; "><a href=
+=3D
+"http://pages.centurylink.com/dc/-J_kft_9qEANlLrBffYEMAhYU0V5I06FqAOTLgpVc-=
+Lc1Hi_n7MJC1nzU_4lY1b6XV9vwl40CGTmmPWekHF3iXMblFVCLiU7GJf5Q8ifR-Z151nzT6Fv8=
+hL1NMWEbh3UOJvhISMlD8MFgsoZYVpERSnqncAi_g8MY7Cg31cpLnZKtduMYnM8pS3EypuWdB7P=
+aYOVUeht4T249ChWtfrtjMcW0iPQPmwBeZX61KBTafsdsPfaEaZZJD7O5uk5h-Xm/B803GS0Oi0=
+00R1BY0YUNIby" target=3D"_blank" id=3D""
+> <img src=3D"http://info.centurylinkforbusiness.com/rs/131-SYO-861/images/=
+Q218CGPO8_mobileHeader_320x302.jpg" constrain=3D"true" imagepreview=3D"fals=
+e"> </a></td>=20
+</tr>=20
+<tr>=20
+<td align=3D"left" class=3D"single_column" height=3D"7" style=3D"font-size:=
+0px; line-height:0px; mso-line-height-rule:exactly;" valign=3D"top" width=
+=3D"320"><img border=3D"0" height=3D"7" src=3D"http://img.delivery.net/cm50=
+content/20271/28879/white_spacer_07.gif" style=3D"display:block;" width=3D"=
+320"></td>=20
+</tr>=20
+<tr>=20
+<td align=3D"left" style=3D"background-color:transparent;font-family:'Helve=
+ticaNeue', Arial, Helvetica, sans-serif; color:#000000;font-size: 24px;line=
+-height:26px;webkit-text-size-adjust:none;-ms-text-size-adjust:100%;mso-lin=
+e-height-rule:exactly;padding:25px 15px 0px 15px; font-weight:bold" valign=
+=3D"top">=20
+<div class=3D"mktEditable" id=3D"col-two-article-heading1-MB">
+Get our best deal on a new business bundle online.
+</div></td>=20
+</tr>=20
+<tr style=3D"">=20
+<td align=3D"left" bgcolor=3D"#FFFFFF" style=3D"font-family:'HelveticaNeue'=
+, Arial, Helvetica, sans-serif; color:#616365; font-size:15px; line-height:=
+20px; padding:20px 15px 0px 15px; " valign=3D"middle" width=3D"320">=20
+<div class=3D"mktEditable" id=3D"col-one-article-mb" style=3D"">
+We=E2=80=99re celebrating Small Business Week all month long! Take advantag=
+e of our=20
+<span style=3D"color: #333333;"><a href=3D
+"http://pages.centurylink.com/dc/-J_kft_9qEANlLrBffYEMAhYU0V5I06FqAOTLgpVc-=
+Lc1Hi_n7MJC1nzU_4lY1b6XV9vwl40CGTmmPWekHF3iXMblFVCLiU7GJf5Q8ifR-Z151nzT6Fv8=
+hL1NMWEbh3UOJvhISMlD8MFgsoZYVpERSnqncAi_g8MY7Cg31cpLnZKtduMYnM8pS3EypuWdB7P=
+aYOVUeht4T249ChWtfrtjMcW0iPQPmwBeZX61KBTafsdsPfaEaZZJD7O5uk5h-Xm/B803GS0Oi0=
+00R1BY0YUNIby" target=3D"_blank" id=3D"" style=3D"color: #333333;"
+>best deal online</a></span> on a new business bundle. That=E2=80=99s high-=
+speed Internet, voice and business applications all for one low price. Find=
+ out more!
+</div> </td>=20
+</tr>=20
+<tr>=20
+<td align=3D"left" class=3D"single_column" height=3D"7" style=3D"font-size:=
+0px; line-height:0px; mso-line-height-rule:exactly;" valign=3D"top" width=
+=3D"320"><img border=3D"0" height=3D"7" src=3D"http://img.delivery.net/cm50=
+content/20271/28879/white_spacer_07.gif" style=3D"display:block;" width=3D"=
+320"></td>=20
+</tr>=20
+<tr>=20
+<td align=3D"left" bgcolor=3D"#FFFFFF" height=3D"21" style=3D"-webkit-text-=
+size-adjust:none;-ms-text-size-adjust:100%;" valign=3D"top" width=3D"320"><=
+img alt=3D"" border=3D"0" height=3D"21" src=3D"http://na-ab19.marketo.com/r=
+s/391-DCY-831/images/desktop_shadow.jpg" style=3D"display:block;" width=3D"=
+320"></td>=20
+</tr>=20
+<tr>=20
+<td align=3D"center" width=3D"213" height=3D"153" style=3D"padding: 10px 0 =
+0 0;" valign=3D"top">=20
+<div class=3D"mktEditable" id=3D"col-two-image-MB">
+<img src=3D"http://info.centurylinkforbusiness.com/rs/131-SYO-861/images/Vi=
+vial-Logo_213x153.jpg" width=3D"213" height=3D"153" constrain=3D"true" imag=
+epreview=3D"false">
+</div></td>=20
+</tr>=20
+<tr>=20
+<td align=3D"left" style=3D"background-color:transparent;font-family:'Helve=
+ticaNeue', Arial, Helvetica, sans-serif; color:#000000;font-size: 24px;line=
+-height:26px;webkit-text-size-adjust:none;-ms-text-size-adjust:100%;mso-lin=
+e-height-rule:exactly;padding:25px 15px 0px 15px; font-weight:bold" valign=
+=3D"top">=20
+<div class=3D"mktEditable" id=3D"col-two-article-heading-MB">
+Now offering Vivial.
+</div></td>=20
+</tr>=20
+<tr>=20
+<td align=3D"left" style=3D"background-color:transparent;font-family:'Helve=
+ticaNeue', Arial, Helvetica, sans-serif; color:#616365;font-size:16px;line-=
+height:20px;webkit-text-size-adjust:none;-ms-text-size-adjust:100%;mso-line=
+-height-rule:exactly;padding:5px 15px 0px 15px;" valign=3D"top">=20
+<div class=3D"mktEditable" id=3D"col-two-article-copy-MB">
+Find out how our newest partner, Vivial, can help you create a mobile-frien=
+dly site when you buy a bundle today.=20
+<br>=20
+<br>=20
+<span style=3D"color: #ff6319; font-size: 18px;"><strong> Call (888) 309-97=
+74 to learn more.<br></strong></span>=20
+<br>=20
+<br>
+</div></td>=20
+</tr>=20
+<tr style=3D"">=20
+<td align=3D"left" bgcolor=3D"#FFFFFF" style=3D"font-family:'HelveticaNeue'=
+, Arial, Helvetica, sans-serif; color:#000000; font-size:10px; line-height:=
+15px; padding:10px 15px 0px 15px; " valign=3D"middle" width=3D"320">=20
+<div class=3D"mktEditable" id=3D"col-one-article-mb2" style=3D""></div> </t=
+d>=20
+</tr>=20
+<tr>=20
+<td align=3D"left" class=3D"single_column" height=3D"7" style=3D"font-size:=
+0px; line-height:0px; mso-line-height-rule:exactly;" valign=3D"top" width=
+=3D"320"><img border=3D"0" height=3D"7" src=3D"http://img.delivery.net/cm50=
+content/20271/28879/white_spacer_07.gif" style=3D"display:block;" width=3D"=
+320"></td>=20
+</tr>=20
+<tr style=3D"">=20
+<td align=3D"left" bgcolor=3D"#A7A7A7" height=3D"15" style=3D"font-size:0px=
+; line-height:0px; -webkit-text-size-adjust:none; -ms-text-size-adjust:100%=
+; padding:10px 0 10px 0; " valign=3D"top" width=3D"320">=20
+<table align=3D"left" bgcolor=3D"#A7A7A7" border=3D"0" cellpadding=3D"0" ce=
+llspacing=3D"0" style=3D"border-collapse:collapse; mso-table-lspace:0pt; ms=
+o-table-rspace:0pt; mso-hide:all; " width=3D"130">=20
+<tbody>=20
+<tr style=3D"">=20
+<td align=3D"right" bgcolor=3D"#A7A7A7" style=3D"font-family:Arial, Helveti=
+ca, sans-serif; color:#ffffff; font-size:15px; line-height:17px; webkit-tex=
+t-size-adjust:none; -ms-text-size-adjust:100%; mso-line-height-rule:exactly=
+; padding:5px 0px 0px 7px; font-weight:bold; " valign=3D"top">=20
+<div class=3D"mktEditable" id=3D"social-nav-copy-mb" style=3D"">
+<em>Connect with us.</em>
+</div> </td>=20
+</tr>=20
+</tbody>=20
+</table>=20
+<table align=3D"right" bgcolor=3D"#A7A7A7" border=3D"0" cellpadding=3D"0" c=
+ellspacing=3D"0" style=3D"border-collapse:collapse; mso-table-lspace:0pt; m=
+so-table-rspace:0pt; mso-hide:all; " width=3D"170">=20
+<tbody>=20
+<tr style=3D"">=20
+<td align=3D"left" bgcolor=3D"#A7A7A7" height=3D"28" style=3D"font-size:0px=
+; line-height:0px; -webkit-text-size-adjust:none; -ms-text-size-adjust:100%=
+; " valign=3D"top" width=3D"29">=20
+<div class=3D"mktEditable" id=3D"sm-li-mb1" style=3D"">
+<a href=3D
+"http://pages.centurylink.com/v1RY0iBY0yNOSIK8Y00b003" target=3D"_blank"
+><img width=3D"29" height=3D"28" style=3D"display: block;" alt=3D"Bright" s=
+rc=3D"http://info.centurylinkforbusiness.com/rs/131-SYO-861/images/TL_Foote=
+r_03.jpg" border=3D"0"></a>
+</div> </td>=20
+<td align=3D"left" bgcolor=3D"#A7A7A7" height=3D"28" style=3D"font-size:0px=
+; line-height:0px; -webkit-text-size-adjust:none; -ms-text-size-adjust:100%=
+; " valign=3D"top" width=3D"29">=20
+<div class=3D"mktEditable" id=3D"sm-li-mb" style=3D"">
+<a href=3D
+"http://pages.centurylink.com/I081VSY0NRIHiy0b0B0YO03"
+><img width=3D"29" height=3D"28" style=3D"display: block;" alt=3D"LinkedIn"=
+ src=3D"http://info.centurylink.com/rs/391-DCY-831/images/linkedin.jpg" bor=
+der=3D"0"></a>
+</div> </td>=20
+<td align=3D"left" bgcolor=3D"#A7A7A7" height=3D"28" style=3D"font-size:0px=
+; line-height:0px; -webkit-text-size-adjust:none; -ms-text-size-adjust:100%=
+; " valign=3D"top" width=3D"29">=20
+<div class=3D"mktEditable" id=3D"sm-fb-mb" style=3D"">
+<a href=3D
+"http://pages.centurylink.com/lBYbI000N8YI3O0yR0i0W1S"
+><img width=3D"29" height=3D"28" style=3D"display: block;" alt=3D"Facebook"=
+ src=3D"http://info.centurylink.com/rs/391-DCY-831/images/facebook.jpg" bor=
+der=3D"0"></a>
+</div> </td>=20
+<td align=3D"left" bgcolor=3D"#A7A7A7" height=3D"28" style=3D"font-size:0px=
+; line-height:0px; -webkit-text-size-adjust:none; -ms-text-size-adjust:100%=
+; " valign=3D"top" width=3D"29">=20
+<div class=3D"mktEditable" id=3D"sm-tw-mb" style=3D"">
+<a href=3D
+"http://pages.centurylink.com/E3y0S1IJYXY0i0bO0B0RN08"
+><img width=3D"29" height=3D"28" style=3D"display: block;" alt=3D"Twitter" =
+src=3D"http://info.centurylink.com/rs/391-DCY-831/images/twitter.jpg" borde=
+r=3D"0"></a>
+</div> </td>=20
+</tr>=20
+</tbody>=20
+</table> </td>=20
+</tr>=20
+<tr>=20
+<td align=3D"left" bgcolor=3D"#FFFFFF" class=3D"single_column" height=3D"15=
+" style=3D"line-height:0px;font-size:0px;-webkit-text-size-adjust:none;-ms-=
+text-size-adjust:100%;" valign=3D"top" width=3D"320"><img border=3D"0" heig=
+ht=3D"16" src=3D"http://info.centurylink.com/rs/391-DCY-831/images/path_2.j=
+pg" style=3D"display:block;" width=3D"320"></td>=20
+</tr>=20
+</tbody>=20
+</table>=20
+</div> </td>=20
+</tr>=20
+</tbody>=20
+</table>=20
+</div>=20
+<!--Mobile End-->=20
+<!--Footer Start-->=20
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"single_col=
+umn" style=3D"border-collapse:collapse;mso-table-lspace:0pt;mso-table-rspac=
+e:0pt;padding-top:15px;" width=3D"679">=20
+<tbody>=20
+<tr>=20
+<td align=3D"left" bgcolor=3D"#EEEEEE" class=3D"hide_content" style=3D"line=
+-height:0px;font-size:0px;-webkit-text-size-adjust:none;-ms-text-size-adjus=
+t:100%;" valign=3D"top" width=3D"20">&nbsp;</td>=20
+<td align=3D"left" bgcolor=3D"#EEEEEE" class=3D"hide_content" height=3D"15"=
+ style=3D"line-height:0px;font-size:0px;-webkit-text-size-adjust:none;-ms-t=
+ext-size-adjust:100%;padding-top:0px;" valign=3D"top" width=3D"318"><img bo=
+rder=3D"0" class=3D"hide_content" height=3D"16" src=3D"http://info.centuryl=
+ink.com/rs/391-DCY-831/images/path_1.jpg" style=3D"display:block;" width=3D=
+"318"></td>=20
+<td align=3D"left" bgcolor=3D"#EEEEEE" class=3D"hide_content" height=3D"15"=
+ style=3D"line-height:0px;font-size:0px;-webkit-text-size-adjust:none;-ms-t=
+ext-size-adjust:100%;padding-top:0px;" valign=3D"top" width=3D"322"><img bo=
+rder=3D"0" height=3D"16" src=3D"http://info.centurylink.com/rs/391-DCY-831/=
+images/path_2.jpg" style=3D"display:block;" width=3D"322"></td>=20
+<td align=3D"left" bgcolor=3D"#EEEEEE" class=3D"hide_content" style=3D"line=
+-height:0px;font-size:0px;-webkit-text-size-adjust:none;-ms-text-size-adjus=
+t:100%;" valign=3D"top" width=3D"20">&nbsp;</td>=20
+</tr>=20
+</tbody>=20
+</table>=20
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"single_col=
+umn" height=3D"15" style=3D"border-collapse:collapse; mso-table-lspace:0pt;=
+ mso-table-rspace:0pt; " width=3D"679">=20
+<tbody style=3D"">=20
+<tr style=3D"">=20
+<td align=3D"left" bgcolor=3D"#EEEEEE" class=3D"smaller_td" style=3D"line-h=
+eight:0px;font-size:0px;-webkit-text-size-adjust:none;-ms-text-size-adjust:=
+100%;" valign=3D"top" width=3D"40">&nbsp;</td>=20
+<td align=3D"left" class=3D"footer" style=3D"color:#808080; font-family:Ari=
+al, Helvetica, sans-serif; font-size:11px; line-height:12px; -webkit-text-s=
+ize-adjust:none; -ms-text-size-adjust:100%; font-weight:normal; mso-line-he=
+ight-rule:exactly; " valign=3D"top">=20
+<div class=3D"mktEditable" id=3D"footer-copy" style=3D"">
+<br> Limited-time offer only. Offer may not be available in all areas and m=
+ay require credit approval. Available to new qualifying business customers =
+who subscribe online to a new qualifying CenturyLink Business Bundle includ=
+ing High-Speed Internet and unlimited nationwide voice with a 24-month term=
+. CenturyLink may change, cancel, or substitute offers and services, or var=
+y them by service area at its sole discretion without notice. Offer may not=
+ be combined with other offers. Additional restrictions apply.=20
+<br>=20
+<br> =C2=A9 2018 CenturyLink. All rights reserved.=20
+<br>=20
+<br> Please do not reply to this email. It is automatically generated.=20
+<br>=20
+<br> You are receiving this email because of your business relationship wit=
+h us. If you do not wish to receive future marketing emails, please use the=
+ unsubscribe link or you can also respond to this email by writing to us:=
+=20
+<br>=20
+<br> CenturyLink Customer Response Team=20
+<br> P.O. Box 4259=20
+<br> Monroe, LA 71211=20
+<br>=20
+<br>=20
+<a href=3D"http://info.centurylinkforbusiness.com/UnsubscribePage.html?mkt_=
+unsubscribe=3D1&mkt_tok=3DeyJpIjoiWW1RM09ESXpOVEl4TVdRNSIsInQiOiJXQkhibUlWM=
+E12YUdqc2h2bEtucWF2OFpJSUR3TzdGZldiZSs4MHNEZTZYNDdwOHlOT3BUTW5IVHRxMlVuNjV0=
+dDlpeXF5QlBGVlFJVDNuOFRNeVdxM2ZZNDdMRTVTdFNSbnFWcytFQ1FKRzl1TlV5ekpiZjlJTjh=
+RVkNUbFRJViJ9"><span class=3D"appleDarkGrey" style=3D"color: #999999; font-=
+size: 11px; font-family: 'Universal Light', Arial, Helvetica, sans-serif; t=
+ext-decoration: underline;">Unsubscribe from this list</span></a> |=20
+<a class=3D"aDarkGrey" style=3D"color: #999999; font-size: 11px; font-famil=
+y: 'Universal Light', Arial, Helvetica, sans-serif;=20
+text-decoration: underline;" href=3D
+"http://pages.centurylink.com/dc/CIwPnJqZ_7zNHhbi2GOs2V27pTK38U5eLt-bPWMu_9=
+IT2UsplaNkAAzFAeZwtVjgSbssLnX3aamJTe9_gcy82dnq6o2_P7OoiqtDRBAhBAY49Y2CP205i=
+-dqPps2QmUqxy-zl3d27QV0Q-i2_ueZZq1_R2qstjBnNzkNv79oOzJy5bWZrInvd-l7O3t_wnfG=
+fzbLcXIs4SqvgLZAsYrcLseUe6mOXTwMIhGeTco86nvlsdWR1cJzHoF1Ijmr4_Mk/B803GS0Oi0=
+00R1BY0YUNIby" target=3D"_blank"
+>Privacy Policy</a> |=20
+<a class=3D"aDarkGrey" style=3D"color: #999999; font-size: 11px; font-famil=
+y: 'Universal Light', Arial, Helvetica, sans-serif; text-decoration: underl=
+ine; white-space: nowrap;" href=3D
+"http://pages.centurylink.com/dc/uq3EykqQY7h0Yyhe2BWhMOYNt6qsA0SI8ZDHAwcir4=
+NOWlpLNopQSPh5F3axOzN6hS45DCHpGZGftCkyvUmBbfbQPZEjQu0NK4Tg--s-pE33yW-6hWJnm=
+kT2uz61eUSXN-AEZ8GxE4pEuqD9C5rQ4aci-PxpdaxhpFzF4WFzKNROo9NiLMsnBZgNY83wIwrw=
+rVlKaGws6cCweMDdhlnUzSiDe1eTkUjB5r5XLtQAF7Q=3D/B803GS0Oi000R1BY0YUNIby" tar=
+get=3D"_blank"
+>Visit us on Facebook</a> |=20
+<a class=3D"aDarkGrey" style=3D"color: #999999; font-size: 11px; font-famil=
+y: 'Universal Light', Arial, Helvetica, sans-serif; text-decoration: underl=
+ine;" href=3D
+"http://pages.centurylink.com/dc/CIwPnJqZ_7zNHhbi2GOs2eNLrSa4LZmyi_WR6hL2JR=
+aCzlRIrej_BmiP0BKg4hsIh5HbXqMPoLergzgXUrS2lKuhseZ059J-2zInJv6xdg4xY046MnkTK=
+wN7jvE1y0kZRFO6jAIST4FdynWFQe2atLglJlg2VxwdNBlVpB6tgC-ubpRDMotUeQsym3x2BZ8y=
+IqhNfKRUJOVAc375boEWu3gfOlldrvwxX_pUWduyCzE=3D/B803GS0Oi000R1BY0YUNIby"
+>CenturyLink.com</a>=20
+<br>=20
+<br>
+</div> </td>=20
+<td align=3D"left" bgcolor=3D"#EEEEEE" class=3D"smaller_td" style=3D"line-h=
+eight:0px;font-size:0px;-webkit-text-size-adjust:none;-ms-text-size-adjust:=
+100%;" valign=3D"top" width=3D"40">&nbsp;</td>=20
+</tr>=20
+</tbody>=20
+</table>=20
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"single_col=
+umn" height=3D"15" style=3D"border-collapse:collapse; mso-table-lspace:0pt;=
+ mso-table-rspace:0pt; " width=3D"679">=20
+<tbody style=3D"">=20
+<tr style=3D"">=20
+<td align=3D"left" bgcolor=3D"#EEEEEE" class=3D"hide_content" style=3D"line=
+-height:0px;font-size:0px;-webkit-text-size-adjust:none;-ms-text-size-adjus=
+t:100%;" valign=3D"top" width=3D"20">&nbsp;</td>=20
+<td align=3D"right" class=3D"footer" style=3D"color:#666666; font-family:Ar=
+ial, Helvetica, sans-serif; font-size:11px; line-height:12px; -webkit-text-=
+size-adjust:none; -ms-text-size-adjust:100%; font-weight:normal; mso-line-h=
+eight-rule:exactly; " valign=3D"top"><br> <br>=20
+<div class=3D"mktEditable" id=3D"keycode" style=3D"">
+<span style=3D"font-size: 14px;"><strong>Q218CGPO8</strong></span>
+</div> <br> <br></td>=20
+<td align=3D"left" bgcolor=3D"#EEEEEE" class=3D"hide_content" style=3D"line=
+-height:0px;font-size:0px;-webkit-text-size-adjust:none;-ms-text-size-adjus=
+t:100%;" valign=3D"top" width=3D"20">&nbsp;</td>=20
+</tr>=20
+</tbody>=20
+</table>=20
+<!--Footer End--></td>=20
+</tr>=20
+</tbody>=20
+</table> </td>=20
+</tr>=20
+</tbody>=20
+</table>=20
+<div class=3D"mktEditable" id=3D"tracking-pixel" style=3D"">
+<img akamaize=3D"false" border=3D"0" height=3D"1" src=3D"https://com-centur=
+ylink.netmng.com/pixel/?aid=3D1279&amp;tax=3Dexhsi" width=3D"1">
+</div>=20
+<br>=20
+<br>=20
+<br>=20
+<br>=20
+<img width=3D"1" height=3D"1" src=3D"http://open.delivery.net/o?2.2.3O3.2vH=
+.11E5eK.CQtDlY.1.N..Nbe.bW89Mg%5f%5fBKRSFFH0" alt=3D" "> =20
+<a href=3D
+"http://pages.centurylink.com/VYYL103yB80O000SNRbIZi0"
+></a>
+<img src=3D"http://pages.centurylink.com/trk?t=3D1&mid=3DMTMxLVNZTy04NjE6OT=
+kwOTA6NzY5ODQ6MjI2NjM0OjA6OTgwNjU6OToxNzA3NjI6Mjc0NTM3Njg6cGFtQG1hZ2ljYWxzd=
+HJpbmdzLmNvbQ%3D%3D" width=3D"1" height=3D"1" style=3D"display:none !import=
+ant;" alt=3D"" />
+</body>
+</html>
+------=_Part_-1877356413_1841298729.1525210219100--
