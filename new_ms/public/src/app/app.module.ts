@@ -1,33 +1,29 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { HttpService } from './http.service';
+import { BlogService } from './services/blog.service';
 import { HttpClientModule } from '@angular/common/http';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
-import { DashBoardComponent } from './dash-board/dash-board.component';
-import { CreateBlogComponent } from './dash-board/blog/create-blog/create-blog.component';
-import { EditBlogComponent } from './dash-board/blog/edit-blog/edit-blog.component';
-import { LandingPageComponent } from './landing-page/landing-page.component';
-import { BlogsComponent } from './blogs/blogs.component';
+import { PageNotFoundComponent } from './components/page-not-found/page-not-found.component';
+import { DashBoardComponent } from './components/dash-board/dash-board.component';
+import { LandingPageComponent } from './components/landing-page/landing-page.component';
+import { EventsShowComponent } from './components/events/events-show/events-show.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    CreateBlogComponent,
     PageNotFoundComponent,
-    EditBlogComponent,
     DashBoardComponent,
     LandingPageComponent,
-    BlogsComponent
+    EventsShowComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule
   ],
-  providers: [HttpService],
+  providers: [BlogService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

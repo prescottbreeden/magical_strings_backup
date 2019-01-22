@@ -1,17 +1,17 @@
-const Blog = require('./models/blogSchema');
+const Blogs = require('../models/blogs.model');
 
 
 module.exports = {
 
   getAll: (req, res) => {
-    Blog.find({})
+    Blogs.find({})
       .then(data => res.json(data))
       .catch(err => res.json(err))
   },
 
   getOne: (req, res) => {
     const ID = req.params.id;
-    Blog.find({_id: ID})
+    Blogs.find({_id: ID})
       .then(data => res.json(data))
       .catch(err => res.json(err))
   },
@@ -19,7 +19,7 @@ module.exports = {
   createNew: (req, res) => {
     const DATA = req.body;
     
-    Blog.create(DATA)
+    Blogs.create(DATA)
       .then(newObject => res.json(newObject))
       .catch(err => res.json(err));
   }
